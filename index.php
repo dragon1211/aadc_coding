@@ -11,10 +11,10 @@
 		<section class="home-mainvisual">
 			<div class="home-mainvisual__wrapper">
 				<h2 class="home-mainvisual__heading">Smile<span>笑顔 ＝ 歯 ＋ アンチエイジング</span></h2>
-        <a href="" class="home-mainvisual__reserve">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/reserved.png" alt="aadc">
-          <span>診療予約<br>無料相談</span>
-        </a>
+				<a href="" class="home-mainvisual__reserve">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/reserved.png" alt="aadc">
+				<span>診療予約<br>無料相談</span>
+				</a>
 			</div>
 		</section>
 		

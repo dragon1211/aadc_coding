@@ -33,6 +33,7 @@
 // =========================================
 $breakpoints: (
 	'sm3': 'screen and (max-width: 350px)', // <- Small SmartPhone (iPhone5,..)
+  'smt': 'screen and (max-width: 576px)', // <- Big SmartPhone (iPhoneX,..)
   'sm2': 'screen and (max-width: 767px)', // <- Big SmartPhone (iPhoneX,..)
   'tb2': 'screen and (min-width: 768px) and (max-width: 949px)', // <- Table only (iPad) and SmartPhone Landscape
   'tb': 'screen and (min-width: 950px) and (max-width: 1050px)', // <- Big Table (iPad Pro,..) and iPad

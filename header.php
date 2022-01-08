@@ -45,6 +45,7 @@
 	
 	<nav role="navigation" class="header">
 		<?php get_template_part( 'template-parts/header/site-header' ); ?>
+		<?php get_template_part( 'template-parts/header/site-header-menu' ); ?>
 	</nav>
 	
 	<nav class="nav-pagetop js-nav-pagetop"></nav>
