@@ -1,0 +1,67 @@
+@charset "UTF-8";
+// =========================================
+// CONTROL VIEW ELEMENT
+// =========================================
+
+.pc-only {
+  display: block;
+
+  @include mq() {
+    display: none !important;
+  }
+}
+
+.pc-only2 {
+  display: block;
+
+  @include mq(sm2) {
+    display: none !important;
+  }
+}
+
+.pc-only3 {
+  display: inline-block;
+
+  @include mq() {
+    display: none !important;
+  }
+}
+
+.sp-only {
+  display: none !important;
+
+  @include mq() {
+    display: block !important;
+  }
+}
+
+.sp-only2 {
+  display: none !important;
+
+  @include mq(sm2) {
+    display: block !important;
+  }
+}
+
+// =========================================
+// CONTAINER
+// =========================================
+.container {
+  position: relative;
+  width: 1040px;
+  margin: 0 auto;
+  @include mq() {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
+
+.container2 {
+  position: relative;
+  width: 900px;
+  margin: 0 auto;
+  @include mq() {
+    width: 100%;
+    padding: 0 15px;
+  }
+}

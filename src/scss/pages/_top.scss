@@ -1,0 +1,490 @@
+// notice
+.home-notice {
+	width: 100%;
+	height: 50px;
+	&__wrapper {
+		text-align: center;
+		background-color: $color_white;
+		a {
+			font-size: 1.3rem;
+			font-weight: 500;
+			line-height: 50px;
+			color: $color_textlink;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+// mainvisual
+.home-mainvisual {
+	width: 100%;
+	height: 900px;
+	position: relative;
+	background-image: url("../images/top/mainvisual.png"); 
+	background-size:  cover;
+	background-position: 50%;
+	&__wrapper {
+		width: 100%;
+		height: 100%;
+	}
+	&__heading {
+	position: absolute;
+	top: 40%;
+	left: 15%;
+	@include logo-font();
+	font-size: 10.0rem;
+	font-weight: 500;
+	color: $color_main;
+	margin: 0 auto;
+		span {
+			@include base-font();
+			font-size: 3.0rem;
+			font-weight: 600;
+			color: $color_black;
+			display: block;
+			margin: -20px 0 0 0;
+		}
+	}
+	&__reserve{
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		color: white;
+		background-color: $color_main;
+		position: absolute;
+		right: 5%;
+		top: 50%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		span{
+			font-size: 14px; font-weight: bold;
+			line-height: 16px;
+		}
+		&:hover{
+			transition: all .7s ease-in-out;
+			background-color: rgb(201, 90, 59);
+		}
+	}
+}
+
+// news
+.home-news {
+	width: 100%;
+	height: 700px;
+	margin: 20px auto;
+	background-color: $color_light;
+	&__wrapper {
+		width: 100%;
+		height: 100%;
+	}
+	&__heading {
+		@include base-font();
+		text-align: center;
+		margin: 0 auto;
+		padding: 100px 0;
+		font-size: 3.0rem;
+		font-weight: 700;
+		color: $color_black;
+	}
+}
+
+// content
+.home-content {
+	width: 100%;
+	margin: 0 auto 20px;
+	padding: 0 20px;
+	&__wrapper {
+		margin: 0 auto 20px;
+		background-color: $color_light;
+		display: flex;
+	}
+	&__half-wrapper {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__heading {
+		@include base-font();
+		text-align: center;
+		font-size: 3.0rem;
+		font-weight: 700;
+		color: $color_black;
+	}
+	a {
+		display: block;
+		margin-top: 10px;
+		font-size: 1.4rem;
+		font-weight: 500;
+		color: $color_textlink;
+		&:hover {
+			text-decoration: underline;
+		}			
+	}
+	
+	// 審美
+	&__shinbi {
+		position: relative;
+		width: 100%;
+		height: 700px;
+		background-image: url("../images/top/top-bg__shinbi.png"); 
+		background-size: cover;
+		background-position: 50%;
+	}
+	.shinbi {
+		width: auto;
+		position: absolute;
+		top: 45%;
+		right: 15%;
+	}
+	
+	// インビザライン
+	&__invisalign {
+		position: relative;
+		width: 100%;		
+		height: 700px;
+		background-image: url("../images/top/top-bg__invisalign.png"); 
+		background-size: cover;
+		background-position: 50%;
+		 
+	}	
+	.invisalign {
+		position: absolute;
+		top: 45%;
+		left: 15%;	
+	}
+	
+	// アライメント
+	&__alignment {
+		position: relative;
+		width: 100%;		
+		height: 700px;
+		background-image: url("../images/top/top-bg__alignment.png"); 
+		background-size: cover;
+		background-position: 50%; 
+	}
+	.alignment {
+		position: absolute;
+		bottom: 10%;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+	
+	// ブログ
+	&__blog {
+		position: relative;
+		width: 50%;		
+		height: 700px;
+		margin: 0 10px 0 0;
+		background-image: url("../images/top/top-bg__blog.png"); 
+		background-size: cover;
+		background-position: 50%;
+	}
+	.blog {
+		position: absolute;
+		bottom: 10%;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+	
+	// 書籍
+	&__book {
+		position: relative;
+		width: 50%;		
+		height: 700px;
+		margin: 0 0 0 10px;
+		background-image: url("../images/top/top-bg__book.png"); 
+		background-size: cover;
+		background-position: 50%;
+	}
+	.book {
+		position: absolute;
+		bottom: 5%;
+		left: 0;
+		right: 0;
+		margin: auto;
+		
+	}
+	&__author {
+		display: block;
+		font-size: 2.0rem;
+		font-weight: 400;
+	}
+	&__subtitle {
+		display: block;
+		font-size: 2.4rem;
+		font-weight: 400;
+	}
+	
+	
+}
+
+// outline
+.home-outline {
+	width: 100%;
+	margin: 0 auto 20px;
+	padding: 100px 0;
+	background-image: url("../images/top/top-outline.png");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 50%;
+	
+	&__wrapper {
+		width: 100%;
+		height: 100%;
+	}
+	&__heading {
+		@include base-font();
+		text-align: center;
+		margin: 0 auto 80px;
+		font-size: 3.0rem;
+		font-weight: 700;
+		color: $color_black;
+	}
+	&__copy {
+		@include base-font();
+		font-size: 1.6rem;
+		font-weight: 400;
+		line-height: 2;
+		color: $color_black;
+		text-align: left;
+		max-width: 660px;
+		margin: 0 auto;
+		a {
+			display: block;
+			text-align: center;
+			margin: 40px;
+			font-size: 1.4rem;
+			font-weight: 500;
+			color: $color_textlink;
+			&:hover {
+				text-decoration: underline;
+			}			
+		}
+	}
+	&__list {
+		@include base-font();
+		list-style: none;
+		text-align: center;
+		max-width: 800px;
+		margin: 0 auto;
+		padding: 0;
+		font-size: 1.6rem;
+		font-weight: 700;
+		line-height: 2;
+		color: $color_black;
+	}
+}
+
+// esthetic
+.home-section {
+	width: 100%;
+	margin: 0 auto;	
+	&__wrapper {
+		background-color: $color_light;
+		width: 100%;
+		height: 100%;
+		padding: 100px 0;
+		margin: 20px 0;
+	}
+	&__heading {
+		@include base-font();
+		text-align: center;
+		margin: 0 auto 80px;
+		font-size: 3.0rem;
+		line-height: 2;
+		font-weight: 500;
+		color: $color_black;
+	}
+	&__read {
+		@include base-font();
+		font-size: 1.6rem;
+		font-weight: 400;
+		line-height: 2;
+		color: $color_black;
+		text-align: center;
+		margin: 0 auto 100px;
+		a {
+			display: block;
+			text-align: center;
+			margin: 40px;
+			font-size: 1.4rem;
+			font-weight: 500;
+			color: $color_textlink;
+			&:hover {
+				text-decoration: underline;
+			}			
+		}
+	}
+	&__wrap {
+		margin: 0 auto;
+	}
+	
+	// shinbi
+	&__wrap__shinbi {
+		position: relative;
+		max-width: 1200px;
+		height: 500px;
+		margin: 0 auto;
+		background-image: url("../images/top/top-bg-content__shinbi.png"); 
+		background-size: cover;
+		background-position: 50%;
+	}
+	&__wrap__shinbi-heading {
+		position: absolute;
+		top: 40%;
+		left: 5%;
+		@include base-font();
+		text-align: left;
+		font-size: 3.0rem;
+		font-weight: 700;
+		color: $color_black;
+		a {
+			display: block;
+			margin-top: 10px;
+			font-size: 1.4rem;
+			font-weight: 500;
+			color: $color_textlink;
+			&:hover {
+				text-decoration: underline;
+			}			
+		}
+	}
+	
+	// antiaging
+	&__wrap__antiaging {
+		position: relative;
+		max-width: 1200px;	
+		height: 500px;
+		margin: 0 auto;
+		background-image: url("../images/top/top-bg-content__antiaging.png"); 
+		background-size: cover;
+		background-position: 50%;
+	}
+	&__wrap__antiaging-heading {
+		position: absolute;
+		top: 45%;
+		right: 10%;
+		@include base-font();
+		text-align: right;
+		font-size: 3.0rem;
+		font-weight: 700;
+		color: $color_black;
+		a {
+			display: block;
+			margin-top: 10px;
+			font-size: 1.4rem;
+			font-weight: 500;
+			color: $color_textlink;
+			&:hover {
+				text-decoration: underline;
+			}			
+		}
+	}
+	
+	// menu
+	&__menu-ul {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		list-style: none;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 0;
+	}
+	&__menu-ul__list {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 30px; 
+		width: 220px;
+		height: 220px;
+		background-color: $color_white;
+		@include base-font();
+		font-size: 1.8rem;
+		font-weight: 700;
+		&.empty-list {
+			background-color: $color_light;
+			margin-top: 30px; 
+			width: 220px;
+			height: 220px;
+		}
+		a {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			color: $color_black;
+			&:hover {
+				opacity: 0.3;
+			}
+		}
+	}
+}
+
+// reservation
+.home-reservation {
+	width: 100%;
+	height: 700px;
+	margin: 20px auto;
+	background-color: $color_light;
+	&__container {
+		width: 100%;
+		height: 100%;
+	}
+	&__heading {
+		@include base-font();
+		text-align: center;
+		margin: 0 auto;
+		padding: 100px 0 0;
+		font-size: 3.0rem;
+		font-weight: 700;
+		letter-spacing: 0.2em;
+		color: $color_black;
+	}
+	&__sub-heading {
+		@include base-font();
+		text-align: center;
+		margin: 0 auto;
+		padding: 50px 0 0;
+		font-size: 5.0rem;
+		font-weight: 900;
+		letter-spacing: 0.2em;
+		color: $color_black;
+	}
+	&__text-read {
+		@include base-font();
+		text-align: left;
+		max-width: 40%;
+		margin: 0 auto;
+		padding: 30px 0 0;
+		font-size: 1.4rem;
+		font-weight: 400;
+		letter-spacing: 0;
+		color: #999;
+	}
+	&__container .submit {
+		@include base-font();
+		font-size: 5.0rem;
+		font-weight: 700;
+		letter-spacing: 0.2em;
+		margin: 50px auto;
+		width: 800px;
+		height: 100px;
+		background-color: $color_main;
+		border-radius: 50px;
+		display: block;
+		text-align: center;
+		line-height: 95px;
+		color: $color_white;
+	}
+}

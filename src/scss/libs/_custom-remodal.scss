@@ -1,0 +1,62 @@
+// Custom remodal
+.remodal {
+	padding: 70px 20px;
+  max-width: 760px;
+  border: 12px solid #CACAC4;
+  @include mq() {
+		max-width: 96%;
+  }
+  .btn-close {
+  	position: absolute;
+  }
+	&-close {
+    width: 24px;
+    height: 24px;
+		left: auto;
+		right: 12px;
+		top: 52px;
+		transform: translateY(-100%);
+		@include mq() {
+			// right: -4px;
+			// top: -5px;
+	  }
+    &:hover {
+    	&:before {
+	    	opacity: .7;
+    	}
+    }
+		&:before {
+	    width: 24px;
+			left: auto;
+			right: 0;
+			font-size: 42px;
+	    line-height: 24px;
+      color: #fff;
+      transition: opacity .3s;
+		}
+	}
+	&-ttl {
+	  font-size: fs(20);
+	  line-height: fs(30);
+	  font-weight: bold;
+	  margin-bottom: 35px;
+	  @include mq() {
+	    font-size: fs(18);
+	    line-height: fs(27);
+	  }
+	}
+	.desc {
+		margin-bottom: 35px;
+	}
+	.btn-gray {
+		width: 240px;
+		height: 54px;
+		line-height: 54px;
+		margin-bottom: 20px;
+		font-size: fs(14);
+		font-weight: bold;
+	  @include mq() {
+	    font-size: fs(12);
+	  }
+	}
+}

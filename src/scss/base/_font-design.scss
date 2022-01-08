@@ -1,0 +1,14 @@
+// logo-font
+@mixin logo-font() {
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    color: $color_black;
+    font-size: 2.0rem;
+}
+//  base-font
+@mixin base-font() {
+    font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3",
+    Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+    color: $color_black;
+}
+    

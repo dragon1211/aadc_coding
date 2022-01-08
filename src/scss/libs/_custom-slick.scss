@@ -1,0 +1,89 @@
+// Slide button control
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: calc(50% - 20px);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #6B9FE8;
+  z-index: 1;
+  transition: all .3s;
+
+  &:hover,
+  &:focus {
+    outline: 0;
+  }
+
+  &:hover {
+    background-color: #2f5baf;
+  }
+
+  span {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    &:before {
+      position: absolute;
+      top: 15px;
+      border: solid #fff;
+      border-width: 0 2px 2px 0;
+      display: inline-block;
+      padding: 4px;
+      content: "";
+    }
+  }
+}
+
+.slick-prev {
+  left: 0;
+
+  @include mq() {
+    left: 10px;
+  }
+
+  span {
+    &:before {
+      left: 17px;
+      transform: rotate(135deg);
+      -webkit-transform: rotate(135deg);
+    }
+  }
+}
+
+.slick-next {
+  right: 0;
+
+  @include mq() {
+    right: 10px;
+  }
+
+  span {
+    &:before {
+      left: 20px;
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg) translate(-50%, -50%);
+    }
+  }
+
+  @media all and (-ms-high-contrast:none) {
+
+    /* IE10 */
+    span {
+      &:before {
+        left: 15px;
+      }
+    }
+
+    *::-ms-backdrop,
+    span {
+      &:before {
+        left: 15px;
+      }
+    }
+
+    /* IE11 */
+  }
+}

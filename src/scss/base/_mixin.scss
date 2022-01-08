@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* -------------------
+  MIXIN
+--------------------*/
+
+// =========================================
+// px to vw
+// =========================================
+@function vw($size) {
+  @return $size / 1400 * 100vw;
+}
+
+@function vw2($size) {
+  @return $size / 375 * 100vw;
+}
+
+
+// =========================================
+// Font size for px to rem
+// =========================================
+@function fs($size) {
+  @return $size / 16 * 1rem;
+}
+/* 
+.example {
+  font-size: fs(12); <- 12px quite
+}
+*/
+
+
+// =========================================
+// Media queries
+// =========================================
+$breakpoints: (
+	'sm3': 'screen and (max-width: 350px)', // <- Small SmartPhone (iPhone5,..)
+  'sm2': 'screen and (max-width: 767px)', // <- Big SmartPhone (iPhoneX,..)
+  'tb2': 'screen and (min-width: 768px) and (max-width: 949px)', // <- Table only (iPad) and SmartPhone Landscape
+  'tb': 'screen and (min-width: 950px) and (max-width: 1050px)', // <- Big Table (iPad Pro,..) and iPad
+  'sm': 'screen and (max-width: 1050px)', // <- Default (SmartPhone and Tablet)
+  'pc': 'screen and (min-width: 1051px)', // <- PC only
+  'pc2': 'screen and (min-width: 1200px)' // <- Big PC only
+) !default;
+
+@mixin mq($breakpoint: sm) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}

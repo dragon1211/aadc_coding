@@ -1,0 +1,75 @@
+{
+  "name": "gulp-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.0",
+    "@babel/preset-env": "^7.10.0",
+    "browser-sync": "^2.26.13",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-ejs": "^5.1.0",
+    "gulp-image-resize": "^0.13.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-zip": "^5.0.1",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^8.0.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "scripts": {
+    "dev": "gulp dev",
+    "pro": "gulp pro",
+    "go": "npx gulp sass & npx gulp jsConcat & npx gulp imagemin",
+    "scss": "gulp scss",
+    "js": "gulp js",
+    "imagemin": "gulp imagemin",
+    "copy": "gulp copy"
+  },
+  "author": "",
+  "license": "ISC",
+  "gulp-config": {
+    "sizes": [
+      [
+        16,
+        16
+      ],
+      [
+        32,
+        32
+      ],
+      [
+        48,
+        48
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        180,
+        180
+      ],
+      [
+        512,
+        512
+      ]
+    ]
+  }
+}

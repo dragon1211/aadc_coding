@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* -------------------
+  PAGE TOP
+--------------------*/
+.page-top {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+	opacity: 0;
+	background-color: #7b7b6c;
+	transition: all 0.3s;
+	z-index: -1;
+	&.active {
+		opacity: 1;
+    z-index: 8999;
+		&:hover {
+			opacity: .6;
+		}
+	}
+	span {
+    display: block;
+    height: 6px;
+    width: 12px;
+    background: url(../images/common/pageTop.png) no-repeat;
+    background-size: 100%;
+    text-indent: 180%;
+    white-space: nowrap;
+    overflow: hidden;
+	}
+}

@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* Fade up */
+.fadeup {
+  opacity: 0;
+  transform: translate(0, 80px);
+  transition: opacity 2s cubic-bezier(0.165, 0.84, 0.44, 1) 0s, transform 2s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+  &.in {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
