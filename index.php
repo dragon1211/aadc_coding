@@ -11,12 +11,13 @@
 		<section class="home-mainvisual">
 			<div class="home-mainvisual__wrapper">
 				<h2 class="home-mainvisual__heading">Smile<span>笑顔 ＝ 歯 ＋ アンチエイジング</span></h2>
-				<a href="" class="home-mainvisual__reserve">
+				<a href="<?php get_theme_file_uri(); ?>/appointment" class="home-mainvisual__reserve">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/reserved.png" alt="aadc">
 				<span>診療予約<br>無料相談</span>
 				</a>
 			</div>
 		</section>
+
 		
 		<section class="home-news">
 			<div class="home-news__wrapper">
@@ -36,9 +37,10 @@
 					</h2>
 				</div>
 			</div>
-				
+			
 			<div class="home-content__wrapper">
 				<div class="home-content__invisalign">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/top/invisalign-logo.png" alt="adbc">
 					<h2 class="home-content__heading invisalign">透明で目立ちにくいマウスピース矯正
 						<a href="<?php get_theme_file_uri(); ?>/shinbi/invisalign/">インビザラインについて</a>
 					</h2>
@@ -158,8 +160,94 @@
 					それにより患者様の貴重なお時間を無駄にしないようスタッフ一同で日々努めております。<br>
 					患者様に、予約について当院からのお願いがありますのでご一読頂きご理解ご協力頂けますようよろしくお願い致します。
 				</div>
-				<div class="submit">今すぐ予約をする</div>
+				<a href="<?php get_theme_file_uri(); ?>/appointment" class="submit">今すぐ予約をする</a>
+				<h3 class="home-reservation__tel-heading">お電話でのご予約・ご相談はこちらから</h3>
+				<div class="home-reservation__tel-body">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/icon-phone-main.svg" alt="adbc">
+					<span>03-5459-3163</span>
+				</div>
+				<p class="home-reservation__period">
+					10:00–19:00（月曜日は20:00まで。日曜・祝日は除く）
+				</p>
 			</div>
+		</section>
+
+		<section class="home-information">
+			<h2 class="home-reservation__heading">INFORMATION</h2>
+			<div class="home-information__pane">
+				<div class="home-information__pane-left">
+					<h2 class="home-information__heading">アンチエイジングデンタルクリニック恵比寿</h2>
+					<a href="<?php get_theme_file_uri(); ?>/appointment" class="home-information__btn">診療予約・矯正無料相談</a>
+					<p class="text1">電話でのお問い合わせ</p>
+					<div class="tel">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/icon-phone-main.svg" alt="adbc">
+						<span>03-5459-3163</span>
+					</div>
+					<p class="text2">
+						午前の部：10:00−13:00<br>
+						午後の部：14:30−19:00（月：14:30−20:00）<br>
+						休診日：日曜・祝日 <br>
+						各種健康保険取り扱い 
+					</p>
+					<p class="text3">
+						〒150-0021　東京都渋谷区恵比寿西1-4-1　VANDAビル2F<br>
+						ＪＲ 山手線恵比寿駅西口 徒歩2分<br>
+						東京メトロ 日比谷線2番出口 徒歩2分
+					</p>
+				</div>
+				<div class="home-information__pane-right">
+					<h2 class="home-information__heading">SCHEDULE</h2>
+					<a href="" class="home-information__btn">クリニック診療カレンダー</a>
+					<table class="table-calendar">
+					   <thead>
+						   	<td></td>
+							<td>日</td>
+							<td>月</td>
+							<td>火</td>
+							<td>水</td>
+							<td>木</td>
+							<td>金</td>
+							<td>土</td>
+					   </thead>
+					   <tbody>
+						   <tr>
+								<td>10:00ー13:00</td>
+								<td></td>
+								<td>○</td>
+								<td>○</td>
+								<td>○</td>
+								<td>△</td>
+								<td>○</td>
+								<td>○</td>
+						   </tr>
+						   <tr>
+								<td>14:30ー19:00</td>
+								<td></td>
+								<td>●</td>
+								<td>○</td>
+								<td>○</td>
+								<td>△</td>
+								<td>○</td>
+								<td>○</td>
+						   </tr>
+					   </tbody>
+					</table>
+					<p class="text3">
+						●：延長診療　午後の部は14:30ー20:00まで<br>
+						△：院長不在日<br>
+						日曜・祝日は休診日となります
+					</p>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="home-map">
+			<iframe 
+				width="100%" 
+				height="600" 
+				src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=52.70967533219885, -8.020019531250002&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+			</iframe>
 		</section>
 		
 	</main>

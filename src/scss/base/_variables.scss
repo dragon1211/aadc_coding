@@ -20,7 +20,7 @@ $z_index_photo_modal: 1002;
 
 // カラーコード
 $color_main: #C84520;
-$color_black: #111111;
+$color_black: #333333;
 $color_grey: #CCCCCC;
 $color_grey_light: #F2F2F2;
 $color_light: #fbfbfb;
@@ -33,7 +33,7 @@ html {
 }
 
 body {
-	font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3",
+	font-family: Noto Sans CJK JP,  "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3",
 		Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;

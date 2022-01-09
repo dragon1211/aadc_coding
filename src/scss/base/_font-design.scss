@@ -7,7 +7,7 @@
 }
 //  base-font
 @mixin base-font() {
-    font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3",
+    font-family: "Noto Sans CJK JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3",
     Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
     color: $color_black;
 }
