@@ -4,9 +4,10 @@
             <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/icon-search.svg" alt=""></a>
             <input type="text" placeholder="a-a-d-c.comを検索">
         </div>
-        <a href="<?php get_theme_file_uri(); ?>/outline">                         <li class="header-menu__content--item main-item">当院について</li></a>
-        <a href="<?php get_theme_file_uri(); ?>/doctor">                          <li class="header-menu__content--item">          ドクター紹介</li></a>
-        <a href="<?php get_theme_file_uri(); ?>/media-information">               <li class="header-menu__content--item">          メディア情報</li></a>
+        <a href="<?php get_theme_file_uri(); ?>/about">                           <li class="header-menu__content--item main-item">当院について</li></a>
+        <a href="<?php get_theme_file_uri(); ?>/about/doctor">                    <li class="header-menu__content--item">          ドクター紹介</li></a>
+        <a href="<?php get_theme_file_uri(); ?>/about/news">                      <li class="header-menu__content--item">          新着情報</li></a>
+        <a href="<?php get_theme_file_uri(); ?>/about/media-information">         <li class="header-menu__content--item">          メディア情報</li></a>
                                                     <li class="header-menu__content--item none">     　</li>
         <a href="<?php get_theme_file_uri(); ?>/shinbikyosei">                    <li class="header-menu__content--item main-item">エステティックオルソメソッド(EOM)</li></a>
         <a href="<?php get_theme_file_uri(); ?>/shinbikyosei/shinbi">             <li class="header-menu__content--item">          前歯審美歯科治療</li></a>

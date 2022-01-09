@@ -206,6 +206,13 @@ a {
   border: none !important;
 }
 
+/* -------------------
+  text
+--------------------*/
+.bold {
+  font-weight: bold;
+}
+
 /* Slider */
 .slick-slider {
   position: relative;
@@ -4442,14 +4449,213 @@ Copyright (c) 2013 Daniel Eden
 --------------------*/
 .footer {
   width: 100%;
-  height: 700px;
   background-color: #C84520;
+}
+
+.footer-bottom {
+  font-family: "Noto Sans CJK JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+  color: #333333;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+
+.footer .item-link {
+  font-family: "Noto Sans CJK JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+  color: #333333;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.footer .item-link:hover {
+  opacity: .8;
+}
+
+.footer .link-list {
+  margin-top: 0;
+  padding-left: 50px;
+}
+
+.footer .link-list:first-child {
+  padding-left: 0;
+}
+
+.footer .link-list__item.title:not(:first-child) {
+  margin-top: 25px;
+}
+
+.footer .link-list__item.title .item-link {
+  font-weight: bold;
 }
 
 .footer-content {
   max-width: 1080px;
+  padding: 100px 20px;
   width: 100%;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-content__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-content__right {
+  max-width: 300px;
+  width: 100%;
+}
+
+.footer-content__text-wrap {
+  margin-top: 100px;
+}
+
+.footer-content__text-wrap p {
+  font-size: 12px;
+  letter-spacing: 0;
+  color: white;
+}
+
+.footer-content__text-wrap p.title {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.footer-content__text-wrap p.tel {
+  font-size: 20px;
+}
+
+.footer-content__text-wrap p.tel span {
+  font-size: 25px;
+}
+
+.footer .footer-btn-link {
+  width: 100%;
+  display: block;
+  padding: 18px 24px 18px 30px;
+  color: #C84520;
+  border-radius: 5px;
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, white), color-stop(50%, #ffdfd6)) right;
+  background: linear-gradient(to left, white 50%, #ffdfd6 50%) right;
+  background-size: 200%;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+.footer .footer-btn-link span {
+  float: right;
+}
+
+.footer .footer-btn-link:first-child {
+  margin-bottom: 30px;
+}
+
+.footer .footer-btn-link:hover {
+  background-position: left;
+}
+
+.footer .icon-bar {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .icon-bar .icon-img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer .icon-bar .icon-img:not(:last-child) {
+  margin-right: 60px;
+}
+
+@media screen and (max-width: 1050px) {
+  .footer-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer-content__left {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .footer-content__right {
+    max-width: 100%;
+    margin-top: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .footer-content__text-wrap {
+    margin-top: 0;
+    margin-left: 15px;
+  }
+  .footer .icon-bar {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer-content {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .footer-content__left {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer-content__right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer-content__text-wrap {
+    margin: 0;
+    margin-top: 50px;
+  }
+  .footer-content__text-wrap p {
+    text-align: center;
+  }
+  .footer .link-list {
+    padding: 0;
+    margin-bottom: 35px;
+  }
+  .footer .link-list:last-child {
+    margin-bottom: 0;
+  }
+  .footer .link-list__item {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .footer .link-list__item.title:not(:first-child) {
+    margin-top: 35px;
+  }
+  .footer .link-list .item-link {
+    font-size: 1.6rem;
+  }
 }
 
 .home-notice {
@@ -4536,8 +4742,8 @@ Copyright (c) 2013 Daniel Eden
   background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #C84520), color-stop(50%, #e65128));
   background: linear-gradient(to bottom, #C84520 50%, #e65128 50%);
   background-size: 100% 200%;
-  -webkit-transition: .5s ease-out;
-  transition: .5s ease-out;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
 }
 
 .home-mainvisual__reserve span {
@@ -5041,8 +5247,8 @@ Copyright (c) 2013 Daniel Eden
   background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #C84520), color-stop(50%, #e65128));
   background: linear-gradient(to bottom, #C84520 50%, #e65128 50%);
   background-size: 100% 200%;
-  -webkit-transition: .5s ease-out;
-  transition: .5s ease-out;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
 }
 
 .home-reservation__container .submit:hover {
@@ -5240,6 +5446,15 @@ Copyright (c) 2013 Daniel Eden
 
 .home-information__btn:hover {
   background-position: left;
+}
+
+@media screen and (max-width: 1050px) {
+  .home-information__pane {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .home-map {

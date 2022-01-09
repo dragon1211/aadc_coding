@@ -68,7 +68,7 @@
 		
 		background: linear-gradient(to bottom, $color_main 50%, #e65128 50%);
 		background-size: 100% 200%;
-		transition: .5s ease-out;
+		transition: .3s ease-out;
 		
 		&:hover{
 			background-position: 0 -100%;
@@ -502,7 +502,7 @@
 		
 		background: linear-gradient(to bottom, $color_main 50%, #e65128 50%);
 		background-size: 100% 200%;
-		transition: .5s ease-out;
+		transition: .3s ease-out;
 		
 		&:hover{
 			background-position: 0 -100%;
@@ -663,6 +663,12 @@
 		
 		&:hover{
 			background-position: left;
+		}
+	}
+
+	@include mq(sm){
+		&__pane{
+			flex-direction: column;
 		}
 	}
 }
