@@ -1,3 +1,4 @@
+<?php get_template_part( 'template-parts/header-footer/site-footer' ); ?>
 
 <?php wp_footer(); ?>
 

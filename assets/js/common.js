@@ -27,7 +27,6 @@ jQuery(function($) {
   // Trigger background for header
   var triggerBackground = function() {
     if ($(this).scrollTop() > 100) {
-      console.log(1);
       $('.js-header').addClass('active');
     } else {
       $('.js-header').removeClass('active');
