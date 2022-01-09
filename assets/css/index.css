@@ -4264,6 +4264,7 @@ Copyright (c) 2013 Daniel Eden
   }
   .header-content__item:last-child {
     margin-left: 15px;
+    margin-right: 0;
   }
 }
 
@@ -4343,19 +4344,101 @@ Copyright (c) 2013 Daniel Eden
   background-color: #C84520;
   opacity: .95;
   width: 100%;
-  height: 0;
   position: fixed;
   z-index: 500;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+  margin-top: 47px;
+  padding-bottom: 45px;
+  height: calc(100% - 50px);
+  overflow-y: scroll;
+  -webkit-transform: translateY(-950px);
+          transform: translateY(-950px);
+}
+
+.header-menu.active {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 
 .header-menu__content {
   max-width: 800px;
+  margin: auto;
+  padding: 0;
 }
 
-.header-menu.active {
-  height: 100%;
+.header-menu__content--search {
+  margin: 25px 0 10px;
+  position: relative;
+}
+
+.header-menu__content--search input {
+  width: 100%;
+  border-width: 0;
+  border-radius: 10px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 7px 20px 7px 45px;
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.header-menu__content--search input:focus {
+  outline: none;
+}
+
+.header-menu__content--search input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.header-menu__content--search input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.header-menu__content--search input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.header-menu__content--search input::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.header-menu__content--search input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.header-menu__content--search img {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+@media screen and (max-width: 576px) {
+  .header-menu__content--search {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+.header-menu__content--item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 5px 20px 5px 40px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.header-menu__content--item.main-item {
+  padding-left: 20px;
+}
+
+.header-menu__content--item:not(.none):hover {
+  background-color: #d84319;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 /* -------------------

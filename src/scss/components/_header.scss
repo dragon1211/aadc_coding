@@ -58,7 +58,7 @@
 	margin: 0 15px;
 	@include mq(smt){
 		margin: 0 10px;
-		&:last-child{margin-left: 15px;}
+		&:last-child{margin-left: 15px; margin-right: 0;}
 	}
 	font-size: 1.2rem;
 	font-weight: 500;
@@ -135,17 +135,75 @@
 		background-color: $color-main;
 		opacity: .95;
 		width: 100%;
-		height: 0;
 		position: fixed;
 		z-index: 500;
-		transition: all .3s;
+		transition: transform .3s;
+		margin-top: 47px;
+		padding-bottom: 45px;
+		height: calc(100% - 50px);
+		overflow-y: scroll;
+		transform: translateY(-950px);
+
+		&.active{
+			transform: translateY(0);
+		}
 		
 
 		&__content{
 			max-width: 800px;
+			margin: auto;
+			padding: 0;
+
+
+			&--search{
+				margin: 25px 0 10px;
+				position: relative;
+
+				input{
+					width: 100%;
+					border-width: 0;
+					border-radius: 10px;
+					box-shadow: none;
+					padding: 7px 20px 7px 45px;
+					font-size: 14px;
+					background-color: rgba(255,255,255,0.2);
+					color: white;
+					&:focus{
+						outline: none;
+					}
+					&::placeholder{
+						color: rgba($color: #fff, $alpha: .5);
+					}
+				}
+				img{
+					position: absolute;
+					top: 10px;
+					left: 15px;
+				}
+
+				@include mq(smt){
+					margin-left: 20px;
+					margin-right: 20px;
+				}
+			}
+
+
+			&--item{
+				border-bottom: 1px solid rgba($color: #fff, $alpha: .3);
+				padding: 5px 20px 5px 40px;
+				color: white;
+				font-size: 14px;
+				font-weight: 500;
+				
+				&.main-item{
+					padding-left: 20px;
+				}
+		
+				&:not(.none):hover{
+					background-color: #d84319;
+					transition: all .3s;
+				}
+			}
 		}
 
-		&.active{
-			height: 100%;
-		}
   }

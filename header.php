@@ -43,9 +43,10 @@
 	
 	<h1 class="visually__hidden"><?php if(is_front_page()) {bloginfo('name');} else {wp_title();}; ?></h1>
 	
+	<?php get_template_part( 'template-parts/header/site-header-menu' ); ?>
+	
 	<nav role="navigation" class="header">
 		<?php get_template_part( 'template-parts/header/site-header' ); ?>
-		<?php get_template_part( 'template-parts/header/site-header-menu' ); ?>
 	</nav>
 	
 	<nav class="nav-pagetop js-nav-pagetop"></nav>
