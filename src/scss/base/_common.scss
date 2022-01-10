@@ -27,6 +27,13 @@
   }
 }
 
+.pc-onlyt{
+  display: block;
+  @include mq(smt) {
+    display: none !important;
+  }
+}
+
 .sp-only {
   display: none !important;
 
@@ -43,15 +50,27 @@
   }
 }
 
+.sp-onlyt {
+  display: none !important;
+
+  @include mq(smt) {
+    display: block !important;
+  }
+}
+
 // =========================================
 // CONTAINER
 // =========================================
 .container {
   position: relative;
-  width: 1040px;
+  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   @include mq() {
-    width: 100%;
+    max-width: 100%;
+    padding: 0 30px;
+  }
+  @include mq(sm3){
     padding: 0 15px;
   }
 }

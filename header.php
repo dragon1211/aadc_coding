@@ -32,6 +32,7 @@
 	<meta name="robots" content="index,follow">
 	
 	<link rel="canonical" href="<?php echo $canonical_url; ?>">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/assets/css/index.css" type="text/css">
 			
 	<?php wp_head(); ?>
