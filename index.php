@@ -153,7 +153,7 @@
 		</section>
 		
 		<section class="home-reservation">
-			<div class="home-reservation__container">
+			<div class="container">
 				<h2 class="home-reservation__heading">RESERVATION</h2>
 				<h3 class="home-reservation__sub-heading">診療予約・矯正無料相談</h3>
 				<div class="home-reservation__text-read">当院では、一人一人の患者様の治療を安心安全に円滑に行うために診療時間を予約制にさせて頂いております。<br>
@@ -176,7 +176,7 @@
 			<h2 class="home-reservation__heading">INFORMATION</h2>
 			<div class="home-information__pane">
 				<div class="home-information__pane-left">
-					<h2 class="home-information__heading">アンチエイジングデンタルクリニック恵比寿</h2>
+					<h2 class="home-information__heading">アンチエイジングデンタル<br class="sp-only">クリニック恵比寿</h2>
 					<a href="<?php get_theme_file_uri(); ?>/appointment" class="home-information__btn">診療予約・矯正無料相談</a>
 					<p class="text1">電話でのお問い合わせ</p>
 					<div class="tel">
@@ -190,7 +190,7 @@
 						各種健康保険取り扱い 
 					</p>
 					<p class="text3">
-						〒150-0021　東京都渋谷区恵比寿西1-4-1　VANDAビル2F<br>
+						〒150-0021　東京都渋谷区恵比寿西1-4-1　<br class="sp-only">VANDAビル2F<br><br class="sp-only">
 						ＪＲ 山手線恵比寿駅西口 徒歩2分<br>
 						東京メトロ 日比谷線2番出口 徒歩2分
 					</p>
@@ -240,7 +240,6 @@
 				</div>
 			</div>
 		</section>
-
 
 		<section class="home-map">
 			<iframe 

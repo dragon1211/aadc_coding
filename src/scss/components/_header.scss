@@ -190,12 +190,20 @@
 
 			&--item{
 				border-bottom: 1px solid rgba($color: #fff, $alpha: .3);
-				padding: 5px 20px 5px 40px;
-				color: white;
 				font-size: 14px;
 				font-weight: 500;
 				
-				&.main-item{
+				a{
+					color: white;
+					display: block;
+					padding: 5px 20px 5px 40px;
+				}
+
+				&.none{
+					padding: 5px 20px 5px 40px;
+				}
+				
+				&.main-item a{
 					padding-left: 20px;
 				}
 		

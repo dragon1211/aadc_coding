@@ -4428,13 +4428,21 @@ Copyright (c) 2013 Daniel Eden
 
 .header-menu__content--item {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  padding: 5px 20px 5px 40px;
-  color: white;
   font-size: 14px;
   font-weight: 500;
 }
 
-.header-menu__content--item.main-item {
+.header-menu__content--item a {
+  color: white;
+  display: block;
+  padding: 5px 20px 5px 40px;
+}
+
+.header-menu__content--item.none {
+  padding: 5px 20px 5px 40px;
+}
+
+.header-menu__content--item.main-item a {
   padding-left: 20px;
 }
 
@@ -5186,9 +5194,6 @@ Copyright (c) 2013 Daniel Eden
   width: 100%;
   margin: 20px auto;
   background-color: #fbfbfb;
-}
-
-.home-reservation__container {
   padding: 135px 0;
 }
 
@@ -5228,19 +5233,27 @@ Copyright (c) 2013 Daniel Eden
   color: #999;
 }
 
-.home-reservation__container .submit {
+.home-reservation .submit {
   font-family: "Noto Sans CJK JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
   color: #333333;
   font-size: 5.0rem;
   font-weight: 700;
   letter-spacing: 0.2em;
-  margin: 50px auto;
+  margin: 50px auto 0 auto;
   max-width: 800px;
   width: 100%;
   height: 100px;
   background-color: #C84520;
   border-radius: 50px;
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   line-height: 95px;
   color: #ffffff;
@@ -5251,7 +5264,7 @@ Copyright (c) 2013 Daniel Eden
   transition: .3s ease-out;
 }
 
-.home-reservation__container .submit:hover {
+.home-reservation .submit:hover {
   background-position: 0 -100%;
 }
 
@@ -5293,6 +5306,58 @@ Copyright (c) 2013 Daniel Eden
   font-weight: 500;
 }
 
+@media screen and (max-width: 767px) {
+  .home-reservation__sub-heading {
+    font-size: 35px;
+  }
+  .home-reservation__text-read {
+    max-width: 70%;
+  }
+  .home-reservation .submit {
+    font-size: 35px;
+    max-width: 500px;
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .home-reservation {
+    padding: 50px 0;
+  }
+  .home-reservation__heading {
+    font-size: 2rem;
+  }
+  .home-reservation__sub-heading {
+    font-size: 6.15385vw;
+    padding-top: 20px;
+  }
+  .home-reservation__text-read {
+    padding-top: 20px;
+    max-width: 100%;
+    font-size: 3.58974vw;
+  }
+  .home-reservation .submit {
+    font-size: 6.15385vw;
+    max-width: 76.92308vw;
+    height: 50px;
+    margin-top: 30px;
+  }
+  .home-reservation__tel-heading {
+    font-size: 4.61538vw;
+    margin-top: 30px;
+  }
+  .home-reservation__tel-body img {
+    width: 7.69231vw;
+    margin-right: 18px;
+  }
+  .home-reservation__tel-body span {
+    font-size: 9.23077vw;
+  }
+  .home-reservation__period {
+    font-size: 3.33333vw;
+  }
+}
+
 .home-information {
   padding: 100px 20px;
   background-image: url("../images/top/top-bg__information.png");
@@ -5302,30 +5367,34 @@ Copyright (c) 2013 Daniel Eden
 .home-information__pane {
   max-width: 1200px;
   width: 100%;
-  margin: 50px auto 0 auto;
-  padding: 100px 65px;
-  background-color: white;
+  margin: auto;
+  padding-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .home-information__pane-left {
-  max-width: 500px;
-  width: 100%;
+  width: 50%;
+  padding: 100px 50px;
+  background-color: white;
 }
 
 .home-information__pane-left .home-information__heading {
   letter-spacing: 0;
-  text-align: left;
+  text-align: center;
 }
 
 .home-information__pane-right {
-  max-width: 500px;
-  width: 100%;
+  width: 50%;
+  padding: 100px 50px;
+  background-color: white;
 }
 
 .home-information__pane-right .home-information__heading {
@@ -5388,7 +5457,8 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .home-information__pane .table-calendar {
-  margin-top: 50px;
+  padding-top: 50px;
+  margin: 50px auto auto auto;
   border-collapse: collapse;
 }
 
@@ -5435,7 +5505,8 @@ Copyright (c) 2013 Daniel Eden
   font-weight: bold;
   color: white;
   display: block;
-  width: 220px;
+  max-width: 220px;
+  width: 100%;
   text-align: center;
   background: -webkit-gradient(linear, right top, left top, color-stop(50%, #C84520), color-stop(50%, #e65128)) right;
   background: linear-gradient(to left, #C84520 50%, #e65128 50%) right;
@@ -5448,12 +5519,86 @@ Copyright (c) 2013 Daniel Eden
   background-position: left;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1200px) {
   .home-information__pane {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .home-information__pane-left, .home-information__pane-right {
+    max-width: 700px;
+    width: 100%;
+  }
+  .home-information__pane-left {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home-information__pane {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .home-information__pane-left, .home-information__pane-right {
+    padding: 60px 30px;
+  }
+  .home-information__heading {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .home-information {
+    padding-bottom: 30px;
+  }
+  .home-information__heading {
+    font-size: 1.8rem;
+  }
+  .home-information__pane {
+    padding-top: 30px;
+  }
+  .home-information__pane-left {
+    margin-bottom: 20px;
+  }
+  .home-information__pane .table-calendar {
+    width: 100%;
+  }
+  .home-information__pane .table-calendar tr td:first-child {
+    padding-right: 10px;
+  }
+  .home-information__pane .table-calendar td {
+    font-size: 2.5641vw;
+    padding: 10px 5px;
+  }
+  .home-information__btn {
+    font-size: 12px;
+    padding: 5px 12px;
+    max-width: 180px;
+  }
+  .home-information p {
+    font-size: 1.2rem;
+  }
+  .home-information .text1 {
+    margin-top: 10px;
+    margin-bottom: 16px;
+    text-align: center;
+    font-weight: 500;
+  }
+  .home-information .text2 {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  .home-information .text3 {
+    margin-top: 35px;
+  }
+  .home-information .tel img {
+    width: 5.12821vw;
+  }
+  .home-information .tel span {
+    font-size: 5.12821vw;
   }
 }
 

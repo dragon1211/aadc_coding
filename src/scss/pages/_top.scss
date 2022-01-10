@@ -450,9 +450,8 @@
 	width: 100%;
 	margin: 20px auto;
 	background-color: $color_light;
-	&__container {
-		padding: 135px 0;
-	}
+	padding: 135px 0;
+	
 	&__heading {
 		@include base-font();
 		text-align: center;
@@ -483,18 +482,20 @@
 		letter-spacing: 0;
 		color: #999;
 	}
-	&__container .submit {
+	.submit {
 		@include base-font();
 		font-size: 5.0rem;
 		font-weight: 700;
 		letter-spacing: 0.2em;
-		margin: 50px auto;
+		margin: 50px auto 0 auto;
 		max-width: 800px;
 		width: 100%;
 		height: 100px;
 		background-color: $color_main;
 		border-radius: 50px;
-		display: block;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		text-align: center;
 		line-height: 95px;
 		color: $color_white;
@@ -538,6 +539,71 @@
 		text-align: center;
 		font-weight: 500;
 	}
+	
+
+	@include mq(sm2){
+		&__sub-heading{
+			font-size: 35px;
+		}
+		&__text-read{
+			max-width: 70%;
+		}
+
+		.submit{
+			font-size: 35px;
+			max-width: 500px;
+			height: 70px;
+		}
+	}
+
+
+
+	@include mq(smt){
+
+		padding: 50px 0;
+
+		&__heading{
+			font-size: 2rem;
+		}
+
+		&__sub-heading{
+			font-size: vw2(24);
+			padding-top: 20px;
+		}
+
+		&__text-read{
+			padding-top: 20px;
+			max-width: 100%;
+			font-size: vw2(14);
+		}
+
+		.submit{
+			font-size: vw2(24);
+			max-width: vw2(300);
+			height: 50px;
+			margin-top: 30px;
+		}
+
+		&__tel-heading{
+			font-size: vw2(18);
+			margin-top: 30px;
+		}
+
+		&__tel-body{
+			img{
+				width: vw2(30);
+				margin-right: 18px;
+			}
+			span{
+				font-size: vw2(36);
+			}
+		}
+
+		&__period{
+			font-size: vw2(13);
+		}
+	}
+
 }
 
 
@@ -551,25 +617,28 @@
 	&__pane{
 		max-width: 1200px;
 		width: 100%;
-		margin: 50px auto 0 auto;
-		padding: 100px 65px;
-		background-color: white;
+		margin: auto;
+		padding-top: 50px;
 
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
+		align-items: center;
+	
 
 		&-left{
-			max-width: 500px;
-			width: 100%;
+			width: 50%;
+			padding: 100px 50px;
+			background-color: white;
 			.home-information__heading{
 				letter-spacing: 0;
-				text-align: left;
+				text-align: center;
 			}
 		}
 
 		&-right{
-			max-width: 500px;
-			width: 100%;
+			width: 50%;
+			padding: 100px 50px;
+			background-color: white;
 			.home-information__heading{
 				letter-spacing: 5px;
 			}
@@ -618,7 +687,8 @@
 		}
 
 		.table-calendar{
-			margin-top: 50px;
+			padding-top: 50px;
+			margin: 50px auto auto auto;
 			border-collapse: collapse;
 
 			td{
@@ -654,7 +724,8 @@
 		font-weight: bold;
 		color: white;
 		display: block;
-		width: 220px;
+		max-width: 220px;
+		width: 100%;
 		text-align: center;
 
 		background: linear-gradient(to left, $color_main 50%, #e65128 50%) right;
@@ -666,9 +737,83 @@
 		}
 	}
 
-	@include mq(sm){
+	@include mq(pc2d){          //max-width: 1200px
 		&__pane{
 			flex-direction: column;
+			&-left, &-right{
+				max-width: 700px;
+				width: 100%;
+			}
+	
+			&-left{
+				margin-bottom: 30px;
+			}
+		}
+	}
+
+	@include mq(sm2){
+		&__pane{
+			flex-direction: column;
+
+			&-left, &-right{
+				padding: 60px 30px;
+			}
+		}
+
+		&__heading{
+			font-size: 2.2rem;
+		}
+	}
+
+	@include mq(smt){
+		padding-bottom: 30px;
+
+		&__heading{
+			font-size: 1.8rem;
+		}
+
+		&__pane{
+			padding-top: 30px;
+
+			&-left{
+				margin-bottom: 20px;
+			}
+
+			.table-calendar{
+				width: 100%;
+				tr td:first-child{ padding-right: 10px;}
+				td{ 
+					font-size: vw2(10);
+					padding: 10px 5px;
+				}
+			}
+		}
+
+		&__btn{
+			font-size: 12px;
+			padding: 5px 12px;
+			max-width: 180px;
+		}
+
+		p{font-size: 1.2rem;}
+
+		.text1{
+			margin-top: 10px;
+			margin-bottom: 16px;
+			text-align: center;
+			font-weight: 500;
+		}
+		.text2{
+			margin-top: 20px;
+			font-weight: bold;
+		}
+		.text3{
+			margin-top: 35px;
+		}
+
+		.tel{
+			img{width: vw2(20);}
+			span{font-size: vw2(20);}
 		}
 	}
 }
