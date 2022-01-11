@@ -4260,7 +4260,7 @@ Copyright (c) 2013 Daniel Eden
   font-weight: 500;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1050px) {
   .ci-wrap__logo {
     display: none;
   }
@@ -4384,8 +4384,8 @@ Copyright (c) 2013 Daniel Eden
   padding-bottom: 45px;
   height: calc(100% - 50px);
   overflow-y: scroll;
-  -webkit-transform: translateY(-950px);
-          transform: translateY(-950px);
+  -webkit-transform: translateY(-100vh);
+          transform: translateY(-100vh);
 }
 
 .header-menu.active {
@@ -4753,7 +4753,7 @@ Copyright (c) 2013 Daniel Eden
   font-weight: 500;
   color: #333333;
   font-size: 2.0rem;
-  font-size: 10.0rem;
+  font-size: 20rem;
   font-weight: 500;
   color: #C84520;
   margin: 0 auto;
@@ -4762,11 +4762,11 @@ Copyright (c) 2013 Daniel Eden
 .home-mainvisual__heading span {
   font-family: "Noto Sans CJK JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
   color: #333333;
-  font-size: 3.0rem;
-  font-weight: 600;
+  margin-top: -70px;
+  font-size: 4.0rem;
+  font-weight: 500;
   color: #333333;
   display: block;
-  margin: -20px 0 0 0;
 }
 
 .home-mainvisual__reserve {
@@ -4808,10 +4808,20 @@ Copyright (c) 2013 Daniel Eden
   background-position: 0 -100%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1050px) {
   .home-mainvisual {
     height: 115.38462vw;
   }
+  .home-mainvisual__heading {
+    font-size: 15rem;
+  }
+  .home-mainvisual__heading span {
+    font-size: 3rem;
+    margin-top: -50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .home-mainvisual__heading {
     left: 5%;
   }
@@ -4827,19 +4837,21 @@ Copyright (c) 2013 Daniel Eden
   }
   .home-mainvisual__heading span {
     font-size: 5.12821vw;
+    margin-top: -30px;
   }
 }
 
 .home-news {
   width: 100%;
   padding-top: 100px;
-  padding-bottom: 85px;
+  padding-bottom: 135px;
   background-color: #fbfbfb;
 }
 
 .home-news__contentsWrapper {
-  margin-top: 70px;
-  padding-left: 180px;
+  margin: 80px auto 0 auto;
+  padding: 0 120px;
+  position: relative;
 }
 
 .home-news__heading {
@@ -4852,42 +4864,46 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .home-news__item {
-  max-width: 400px;
+  max-width: 300px;
   width: 100%;
   margin: auto;
+  border-radius: 10px;
 }
 
 .home-news__item img {
   width: 100%;
-  height: 200px;
+  height: 170px;
   -o-object-fit: cover;
      object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .home-news__item--desc {
-  padding: 15px 12px;
+  padding: 22px 15px;
 }
 
 .home-news__item--desc .comment {
-  font-size: 1rem;
-  color: #6F6F74;
+  font-size: 1.2rem;
+  color: #333333;
+  display: block;
+}
+
+.home-news__item--desc .date {
+  font-size: 1.2rem;
+  margin-top: 12px;
+  color: #333333;
 }
 
 .home-news__item--desc .title {
-  margin-top: 25px;
-  margin-bottom: 50px;
-  font-size: 1.8rem;
-  font-weight: bold;
+  margin-top: 7px;
+  font-size: 1.6rem;
+  font-weight: 500;
   color: #333333;
   -webkit-box-orient: vertical;
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
-}
-
-.home-news__item--desc .date {
-  font-size: 1.3rem;
-  color: #6F6F74;
+  -webkit-line-clamp: 3;
 }
 
 .home-news__item:hover {
@@ -4898,15 +4914,29 @@ Copyright (c) 2013 Daniel Eden
 
 .home-news .swiper-pagination {
   position: relative;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .home-news .swiper-pagination-bullet-active {
   background-color: #333333;
 }
 
+.home-news .swiper-button-next {
+  border: solid 30px;
+  border-color: transparent transparent transparent #b1b1b1;
+  background-image: none;
+  top: 30%;
+}
+
+.home-news .swiper-button-prev {
+  border: solid 30px;
+  border-color: transparent #b1b1b1 transparent transparent;
+  background-image: none;
+  top: 30%;
+}
+
 .home-news .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
-  margin: 0 15px;
+  margin: 0 12px;
 }
 
 @media screen and (max-width: 1050px) {
@@ -4925,21 +4955,6 @@ Copyright (c) 2013 Daniel Eden
   }
   .home-news__contentsWrapper {
     margin-top: 30px;
-  }
-  .home-news__item {
-    max-width: 300px;
-  }
-  .home-news__item img {
-    max-height: 160px;
-    height: 41.02564vw;
-  }
-  .home-news__item .title {
-    font-size: 1.5rem;
-    margin-top: 12px;
-    margin-bottom: 40px;
-  }
-  .home-news__item .date {
-    font-size: 1.1rem;
   }
 }
 
