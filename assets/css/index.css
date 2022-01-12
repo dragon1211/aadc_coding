@@ -5169,6 +5169,10 @@ Copyright (c) 2013 Daniel Eden
   margin-right: 70px;
 }
 
+.doctor-photo img {
+  border-top: 2px solid #C84520;
+}
+
 .doctor-profile {
   line-height: 1.8;
   font-weight: 300;
