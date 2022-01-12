@@ -5176,6 +5176,7 @@ Copyright (c) 2013 Daniel Eden
 .doctor-profile {
   line-height: 1.8;
   font-weight: 300;
+  font-size: 1.5rem;
 }
 
 .doctor-profile .name {
