@@ -238,6 +238,11 @@
         }
     }
 
+    @include mq(pc2){
+        .detail{
+            margin: 0 -80px;
+        }
+    }
 
     @include mq(){
         .detail{

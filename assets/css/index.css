@@ -5039,6 +5039,12 @@ Copyright (c) 2013 Daniel Eden
   font-size: 1.4rem;
 }
 
+@media screen and (min-width: 1200px) {
+  .about-proportion-smile .detail {
+    margin: 0 -80px;
+  }
+}
+
 @media screen and (max-width: 1050px) {
   .about-proportion-smile .detail {
     -webkit-box-orient: vertical;
