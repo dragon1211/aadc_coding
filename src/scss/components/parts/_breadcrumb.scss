@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* -------------------
+	BREADCRUMB
+--------------------*/
+.breadcrumb {
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    &-wrapper{
+
+        height: 50px;
+        background-color: white;
+
+    }
+    &-wrapper__content{
+        display: flex;
+        align-items: center;
+        max-width: 1040px;
+        margin: auto;
+        padding: 0 20px;
+        height: 50px;
+    }
+    li{
+        font-size: 1.4rem;
+        position: relative;
+        &:not(:last-child){
+            margin-right: 60px;
+            &::after{
+                display: inline-block;
+                content: '';
+                background-image: url('../images/common/icon-arrow-right-black.png');
+                font-size: 1.8rem;
+                position: absolute;
+                width: 9px;
+                height: 20px;
+                right: -35px;
+                top: 0;
+            }
+        }
+    }
+}

@@ -1,7 +1,7 @@
  <div class="header-content">
 	
     <div class="header-content__ci">
-      <a href="<?php echo esc_url(home_url()); ?>" class="ci-wrap">
+      <a href="<?php echo home_url(); ?>" class="ci-wrap">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/aadc-logo.svg" alt="アンチエイジングデンタルクリニック恵比寿" class="ci-wrap__mark">
         <div class="ci-wrap__logo">Anti-aging Dental Clinic</div>
       </a>

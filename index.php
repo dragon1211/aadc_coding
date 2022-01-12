@@ -11,7 +11,7 @@
 		<section class="home-mainvisual">
 			<div class="home-mainvisual__wrapper">
 				<h2 class="home-mainvisual__heading">Smile<span>笑顔 ＝ 歯 ＋ アンチエイジング</span></h2>
-				<a href="<?php get_theme_file_uri(); ?>/appointment" class="home-mainvisual__reserve">
+				<a href="<?php echo home_url(); ?>/appointment" class="home-mainvisual__reserve">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/reserved.png" alt="aadc">
 				<span>診療予約<br>無料相談</span>
 				</a>
@@ -153,7 +153,7 @@
 			<div class="home-content__wrapper">
 				<div class="home-content__eom">
 					<h2 class="home-content__heading eom">白くきれいな歯と<br class="sp-only">美しい口元
-						<a href="<?php get_theme_file_uri(); ?>/eom/crown-bridge-inray">セラミック治療について</a>
+						<a href="<?php echo home_url(); ?>/eom/crown-bridge-inray">セラミック治療について</a>
 					</h2>
 				</div>
 			</div>
@@ -163,7 +163,7 @@
 					<div class="home-content__invisalign-wrap">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/top/invisalign-logo.png" alt="adbc">
 						<h2 class="home-content__heading">透明で目立ちにくい<br class="sp-only">マウスピース矯正
-							<a href="<?php get_theme_file_uri(); ?>/eom/invisalign/">インビザラインについて</a>
+							<a href="<?php echo home_url(); ?>/eom/invisalign/">インビザラインについて</a>
 						</h2>
 					</div>
 				</div>
@@ -172,7 +172,7 @@
 			<div class="home-content__wrapper">
 				<div class="home-content__alignment">
 					<h2 class="home-content__heading alignment">きれいな歯並びで質の高い生活を
-						<a href="<?php get_theme_file_uri(); ?>/?????????">矯正歯科治療について</a>
+						<a href="<?php echo home_url(); ?>/?????????">矯正歯科治療について</a>
 					</h2>
 				</div>
 			</div>
@@ -180,7 +180,7 @@
 			<div class="home-content__half-wrapper">
 				<div class="home-content__blog">
 					<h2 class="home-content__heading blog">Dr.Ogawa Blog
-						<a href="<?php get_theme_file_uri(); ?>/aadcblog">院長ブログ</a>
+						<a href="<?php echo home_url(); ?>/aadcblog">院長ブログ</a>
 					</h2>
 				</div>
 				<div class="home-content__book">
@@ -188,7 +188,7 @@
 						<span class="home-content__author">院長 小川朗子 著書</span>
 						若さを取り戻す歯のエイジングケア
 						<span class="home-content__subtitle">美しい歯になる習慣と治療法</span>
-						<a href="<?php get_theme_file_uri(); ?>/?????????">ご購入はこちら</a>
+						<a href="<?php echo home_url(); ?>/?????????">ご購入はこちら</a>
 					</h2>
 				</div>
 			</div>
@@ -199,7 +199,7 @@
 			<div class="home-outline__heading-wrap">
 				<h2 class="home-outline__heading">
 					ひとりひとりに<br class="sp-onlyt">丁寧な診療を
-					<a href="<?php get_theme_file_uri(); ?>/about" class="sp-onlyt">当院についてはこちら</a>
+					<a href="<?php echo home_url(); ?>/about" class="sp-onlyt">当院についてはこちら</a>
 				</h2>
 			</div>
 			<div class="container">
@@ -207,7 +207,7 @@
 					歯科治療とアンチエイジング医療も含めた総合的な診療を行なっております。<br>
 					確かな技術提供を第一に、通院満足度の高い環境作りとホスピタリティにあふれた患者様対応ができるよう、スタッフ一同努めております。<br>
 					丁寧な診療を日々心がけ、患者様がご不安なくお過ごし頂けるよう、さまざまな配慮をいたしております。<br>
-					<a href="<?php get_theme_file_uri(); ?>/about" class="pc-onlyt">当院についてはこちら</a>
+					<a href="<?php echo home_url(); ?>/about" class="pc-onlyt">当院についてはこちら</a>
 				</div>
 				<ul class="home-outline__list">
 					<li>カウンセリング時間を十分に取り　患者様のお悩みとご要望に最適なご提案をいたします</li>
@@ -236,21 +236,21 @@
 							<span class="pc-only">エステティックオルソメソッド(EOM)で</span>
 							<span class="sp-only">審美矯正で</span>
 							<span>美しい歯をいつまでも</span>
-							<a href="<?php get_theme_file_uri(); ?>/eom/">
+							<a href="<?php echo home_url(); ?>/eom/">
 								<span class="pc-only">エステティックオルソメソッドについて</span>
 								<span class="sp-only">審美矯正について</span>
 							</a>
 						</h2>
 					</div>
 					<ul class="home-section__menu-ul">
-						<li class="home-section__menu-ul__list"><a href="<?php get_theme_file_uri(); ?>/eom/shinbi">前歯審美歯科治療</a></li>
-						<li class="home-section__menu-ul__list"><a href="<?php get_theme_file_uri(); ?>/eom/crown-bridge-inray">セラミッククラウン<br>ジルコニアクラウン</a></li>
-						<li class="home-section__menu-ul__list"><a href="<?php get_theme_file_uri(); ?>/eom/lumineers">ルミネアーズ</a></li>
-						<li class="home-section__menu-ul__list"><a href="<?php get_theme_file_uri(); ?>/eom/whitening">ホワイトニング</a></li>
-						<li class="home-section__menu-ul__list"><a href="<?php get_theme_file_uri(); ?>/eom/non-extraction">歯を抜かない矯正治療</a></li>
-						<li class="home-section__menu-ul__list"><a href="<?php get_theme_file_uri(); ?>/eom/orthodontic">前歯部分矯正</a></li>
-						<li class="home-section__menu-ul__list"><a href="<?php get_theme_file_uri(); ?>/eom/invisalign">インビザライン<br>マウスピース矯正</a></li>
-						<li class="home-section__menu-ul__list"><a href="<?php get_theme_file_uri(); ?>/eom/gap">すきっ歯専門治療</a></li>
+						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/eom/shinbi">前歯審美歯科治療</a></li>
+						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/eom/crown-bridge-inray">セラミッククラウン<br>ジルコニアクラウン</a></li>
+						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/eom/lumineers">ルミネアーズ</a></li>
+						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/eom/whitening">ホワイトニング</a></li>
+						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/eom/non-extraction">歯を抜かない矯正治療</a></li>
+						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/eom/orthodontic">前歯部分矯正</a></li>
+						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/eom/invisalign">インビザライン<br>マウスピース矯正</a></li>
+						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/eom/gap">すきっ歯専門治療</a></li>
 					</ul>
 				</div>
 			</div>
@@ -266,18 +266,18 @@
 				<div class="home-section__wrap">
 					<div class="home-section__wrap__antiaging">
 						<h2 class="home-section__wrap__antiaging-heading">歯科で行う<br class="sp-only2">アンチエイジング
-							<a href="<?php get_theme_file_uri(); ?>/antiaging/">アンチエイジングについて</a>
+							<a href="<?php echo home_url(); ?>/antiaging/">アンチエイジングについて</a>
 						</h2>
 					</div>
 					<ul class="home-section__menu-ul">
-						<li class="home-section__menu-ul__list"><a href="<?php get_theme_file_uri(); ?>/anti-aging/teeth-cleaning">クリーニング</a></li>
-						<li class="home-section__menu-ul__list"><a href="<?php get_theme_file_uri(); ?>/anti-aging/gum-care">歯周病治療<br>歯肉ケア</a></li>
-						<li class="home-section__menu-ul__list"><a href="<?php get_theme_file_uri(); ?>/anti-aging/grinding">歯ぎしり<br>食いしばり</a></li>
-						<li class="home-section__menu-ul__list"><a href="<?php get_theme_file_uri(); ?>/anti-aging/metal-free">メタルフリープログラム</a></li>
-						<li class="home-section__menu-ul__list"><a href="<?php get_theme_file_uri(); ?>/anti-aging/implant">インプラント</a></li>
-						<li class="home-section__menu-ul__list"><a href="<?php get_theme_file_uri(); ?>/anti-aging/inspection">口内老化度検査<br>体内老化度検査</a></li>
-						<li class="home-section__menu-ul__list"><a href="<?php get_theme_file_uri(); ?>/anti-aging/injection">点滴療法<br>注射</a></li>
-						<li class="home-section__menu-ul__list"><a href="<?php get_theme_file_uri(); ?>/anti-aging/esthetic">デンタルエステ</a></li>
+						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/teeth-cleaning">クリーニング</a></li>
+						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/gum-care">歯周病治療<br>歯肉ケア</a></li>
+						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/grinding">歯ぎしり<br>食いしばり</a></li>
+						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/metal-free">メタルフリープログラム</a></li>
+						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/implant">インプラント</a></li>
+						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/inspection">口内老化度検査<br>体内老化度検査</a></li>
+						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/injection">点滴療法<br>注射</a></li>
+						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/esthetic">デンタルエステ</a></li>
 					</ul>
 				</div>
 			</div>
@@ -294,7 +294,7 @@
 						患者様に、予約について当院からのお願いがありますのでご一読頂きご理解ご協力頂けますようよろしくお願い致します。
 					</p>	
 				</div>
-				<a href="<?php get_theme_file_uri(); ?>/appointment" class="submit">今すぐ予約をする</a>
+				<a href="<?php echo home_url(); ?>/appointment" class="submit">今すぐ予約をする</a>
 				<h3 class="home-reservation__tel-heading">お電話でのご予約・ご相談はこちらから</h3>
 				<div class="home-reservation__tel-body">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/icon-phone-main.svg" alt="adbc">
@@ -311,7 +311,7 @@
 			<div class="home-information__pane">
 				<div class="home-information__pane-left">
 					<h2 class="home-information__heading">アンチエイジングデンタル<br class="sp-only">クリニック恵比寿</h2>
-					<a href="<?php get_theme_file_uri(); ?>/appointment" class="home-information__btn">診療予約・矯正無料相談</a>
+					<a href="<?php echo home_url(); ?>/appointment" class="home-information__btn">診療予約・矯正無料相談</a>
 					<p class="text1">電話でのお問い合わせ</p>
 					<div class="tel">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/icon-phone-main.svg" alt="adbc">
