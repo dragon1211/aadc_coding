@@ -3750,6 +3750,25 @@ Copyright (c) 2013 Daniel Eden
   top: 0;
 }
 
+@media screen and (max-width: 576px) {
+  .breadcrumb-wrapper__content {
+    padding: 0 15px;
+  }
+  .breadcrumb li {
+    font-size: 1.2rem;
+  }
+  .breadcrumb li:not(:last-child) {
+    margin-right: 40px;
+  }
+  .breadcrumb li:not(:last-child)::after {
+    right: -25px;
+    width: 6px;
+    height: 15px;
+    background-size: 100% 100%;
+    top: 4px;
+  }
+}
+
 .mg-auto {
   margin: 0 auto;
 }
@@ -4759,11 +4778,23 @@ Copyright (c) 2013 Daniel Eden
   margin: auto;
 }
 
+@media screen and (max-width: 390px) {
+  .about-container {
+    padding: 0 15px;
+  }
+}
+
 .about-heading {
   font-size: 3rem;
   font-weight: bold;
   color: #333333;
   text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  .about-heading {
+    font-size: 2rem;
+  }
 }
 
 .about-mainvisual {
@@ -4779,6 +4810,15 @@ Copyright (c) 2013 Daniel Eden
 .about-mainvisual__desc {
   font-size: 1.6rem;
   margin-top: 100px;
+}
+
+@media screen and (max-width: 576px) {
+  .about-mainvisual {
+    padding: 50px 0;
+  }
+  .about-mainvisual__desc {
+    margin-top: 40px;
+  }
 }
 
 .about-outline {
@@ -4846,8 +4886,7 @@ Copyright (c) 2013 Daniel Eden
 
 @media screen and (max-width: 576px) {
   .about-outline {
-    padding-top: 0;
-    padding-bottom: 50px;
+    padding: 50px 0;
   }
   .about-outline__heading {
     text-align: left;
@@ -4863,11 +4902,13 @@ Copyright (c) 2013 Daniel Eden
     background-image: url("../images/top/top-outline.png");
     background-size: cover;
   }
+  .about-outline__list {
+    margin-top: 30px;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
   .about-outline__list li {
     text-align: left;
-  }
-  .about-outline__list li:not(:last-child) {
-    margin-bottom: 20px;
   }
 }
 
@@ -4879,6 +4920,15 @@ Copyright (c) 2013 Daniel Eden
 .about-outline-comment p {
   color: white;
   line-height: 30px;
+}
+
+@media screen and (max-width: 576px) {
+  .about-outline-comment {
+    padding: 50px 0;
+  }
+  .about-outline-comment p {
+    line-height: inherit;
+  }
 }
 
 .about-proportion-smile {
@@ -4954,6 +5004,7 @@ Copyright (c) 2013 Daniel Eden
 
 .about-proportion-smile .detail-item {
   max-width: 400px;
+  width: 33.33%;
 }
 
 .about-proportion-smile .detail-item:not(:last-child) {
@@ -4986,6 +5037,72 @@ Copyright (c) 2013 Daniel Eden
 .about-proportion-smile .detail-desc {
   margin-top: 17px;
   font-size: 1.4rem;
+}
+
+@media screen and (max-width: 1050px) {
+  .about-proportion-smile .detail {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about-proportion-smile .detail-item {
+    max-width: 100%;
+    width: 100%;
+  }
+  .about-proportion-smile .detail-item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .about-proportion-smile .aads-wrap {
+    max-width: 52.14286vw;
+    padding: 7.14286vw 0 9.64286vw 0;
+  }
+  .about-proportion-smile .aads-wrap .aads-circle {
+    width: 52.14286vw;
+    height: 52.85714vw;
+  }
+  .about-proportion-smile .aads-wrap .aads-circle .circle {
+    width: 28.57143vw;
+    height: 28.57143vw;
+  }
+  .about-proportion-smile .aads-wrap .aads-circle .circle p {
+    font-size: 2.85714vw;
+    line-height: 3.57143vw;
+  }
+  .about-proportion-smile .aads-wrap .aads-circle .circle.aads-dental {
+    top: 0;
+    left: 0;
+  }
+  .about-proportion-smile .aads-wrap .aads-circle .circle.aads-medical {
+    top: 4.64286vw;
+    right: 0;
+  }
+  .about-proportion-smile .aads-wrap .aads-circle .circle.aads-esthetic {
+    bottom: 0.5vw;
+    left: 7.85714vw;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .about-proportion-smile {
+    padding: 50px 0;
+  }
+  .about-proportion-smile .description {
+    margin-top: 30px;
+  }
+  .about-proportion-smile .detail-head {
+    font-size: 1.8rem;
+  }
+  .about-proportion-smile .detail-title {
+    font-size: 1.6rem;
+  }
+  .about-proportion-smile .detail-desc {
+    margin-top: 8px;
+  }
 }
 
 .home-notice {
@@ -5062,9 +5179,27 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .home-notice__nav a:hover {
-  -webkit-transform: .3s;
-          transform: .3s;
+  -webkit-transition: .3s;
+  transition: .3s;
   opacity: .8;
+}
+
+@media screen and (max-width: 576px) {
+  .home-notice__wrapper {
+    padding: 0 15px;
+  }
+  .home-notice a {
+    font-size: 1rem;
+  }
+  .home-notice li {
+    padding: 0 5px;
+  }
+}
+
+@media (max-width: 374px) {
+  .home-notice ul:not(.nav-main) {
+    display: none;
+  }
 }
 
 .home-mainvisual {

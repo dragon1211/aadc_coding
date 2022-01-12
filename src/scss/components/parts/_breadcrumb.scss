@@ -40,4 +40,23 @@
             }
         }
     }
+
+    @include mq(smt){
+        &-wrapper__content{
+            padding: 0 15px;
+        }
+        li{
+            font-size: 1.2rem;
+            &:not(:last-child){
+                margin-right: 40px;
+                &::after{
+                    right: -25px;
+                    width: 6px;
+                    height: 15px;
+                    background-size: 100% 100%;
+                    top: 4px;
+                }
+            }
+        }
+    }
 }

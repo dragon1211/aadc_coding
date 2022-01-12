@@ -47,9 +47,25 @@
 		a{
 			color: $color_black;
 			&:hover{
-				transform: .3s;
+				transition: .3s;
 				opacity: .8;
 			}
+		}
+	}
+
+	@include mq(smt){
+		&__wrapper{
+			padding: 0 15px;
+		}
+		a{
+			font-size: 1rem;
+		}
+		li{padding: 0 5px;}
+	}
+
+	@media (max-width: 374px){
+		ul:not(.nav-main){
+			display: none;
 		}
 	}
 }

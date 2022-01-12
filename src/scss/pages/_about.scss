@@ -7,6 +7,9 @@
     max-width: 1040px;
     padding: 0 20px;
     margin: auto;
+    @include mq(sm3){
+        padding: 0 15px;
+    }
 }
 
 .about-heading{
@@ -14,6 +17,10 @@
     font-weight: bold;
     color: $color_black;
     text-align: center;
+
+    @include mq(smt){
+        font-size: 2rem;
+    }
 }
 
 
@@ -32,6 +39,13 @@
     &__desc{
         font-size: 1.6rem;
         margin-top: 100px;
+    }
+
+    @include mq(smt){
+        padding: 50px 0;
+        &__desc{
+            margin-top: 40px;
+        }
     }
 }
 
@@ -92,8 +106,7 @@
 	}
 
 	@include mq(smt){
-		padding-top: 0;
-		padding-bottom: 50px;
+		padding: 50px 0;
 
 		&__heading{
 			text-align: left;
@@ -110,12 +123,14 @@
 			}
 		}
 
-		&__list li{
-			text-align: left;
-			&:not(:last-child){
-				margin-bottom: 20px;
-			}
-		}
+		&__list {
+            margin-top: 30px;
+            font-size: 1.6rem;
+            font-weight: 500;
+            li{
+                text-align: left;
+            }
+        }
 	}
 }
 
@@ -126,6 +141,13 @@
     p{
         color: white;
         line-height: 30px;
+    }
+
+    @include mq(smt){
+        padding: 50px 0;
+        p{
+            line-height: inherit;
+        }
     }
 }
 
@@ -187,6 +209,7 @@
         justify-content: center;
         &-item{
             max-width: 400px;
+            width: 33.33%;
             &:not(:last-child){
                 margin-right: 20px;
             }
@@ -214,4 +237,61 @@
             font-size: 1.4rem;
         }
     }
+
+
+    @include mq(){
+        .detail{
+            flex-direction: column;
+            align-items: center;
+            &-item{
+                max-width: 100%;
+                width: 100%;
+                &:not(:last-child){
+                    margin-right: 0;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+        .aads-wrap {
+            max-width: vw(730);
+            padding: vw(100) 0 vw(135) 0;
+            .aads-circle{
+                width: vw(730);
+                height: vw(740);
+                .circle{
+                    width: vw(400);
+                    height: vw(400);
+                    p{
+                        font-size: vw(40);
+                        line-height: vw(50);
+                    }
+                    &.aads-dental {
+                        top: 0;
+                        left: 0;
+                    }
+                    &.aads-medical {
+                        top: vw(65);
+                        right: 0;
+                    }
+                    &.aads-esthetic {
+                        bottom: vw(7);
+                        left: vw(110);
+                    }
+                }
+            }
+        }
+    }
+
+    @include mq(smt){
+        padding: 50px 0;
+        .description{
+            margin-top: 30px;
+        }
+        .detail{
+            &-head{  font-size: 1.8rem; }
+            &-title{ font-size: 1.6rem; }
+            &-desc{  margin-top: 8px;  }
+        }
+    }
+
 }

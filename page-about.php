@@ -80,7 +80,7 @@
 
         <section class="about-proportion-smile">
             <div class="about-container">
-                <h2 class="about-heading">お口から全身のアンチエイジングへ</h2>
+                <h2 class="about-heading">お口から全身の<br class="sp-only">アンチエイジングへ</h2>
                 <p class="description">
                     当院では、お口の健康美とアンチエイジングをご提案しています。
                     患者様一人一人の個性を生かし、美しさの基準であるデンタルプロポーションに最大限近づけるよう努めております。
@@ -95,39 +95,41 @@
 					<div class="circle aads-esthetic"><p>Anti-aging<br>Dental Esthetic</p></div>
 				</div>
 			</div>
-            <div class="detail">
-                <div class="detail-item dental">
-                    <div class="detail-head">Dental Anti-aging</div>
-                    <p class="detail-title">機能美を獲得して、QOL向上へ</p>
-                    <p class="detail-desc">
-                        歯の健康は私たちが生き生きと過ごすうえでもっとも大切なこと。 
-                        人とのコミュニケーション、食べる、飲む、話す、
-                        笑うなど“生きる”ために必要な器官である「歯」「口」を若く健康に保ちましょう。 
-                        歯や歯肉などのお口の不具合や老化を感じる部分を改善し、
-                        本来の健康な状態に導きます。
-                    </p>
-                </div>
-                <div class="detail-item medical">
-                    <div class="detail-head">Medical Anti-aging</div>
-                    <p class="detail-title">若々しい身体を保つこと</p>
-                    <p class="detail-desc">
-                        健康で若々しい身体でいることも、
-                        お口の若さを保つためには重要です。 
-                        なぜならお口は体の健康状態が顕著に現れる器官だからです。 
-                        口元と身体全体がトータルで若々しいことが真のアンチエイジングと考え、
-                        年齢とともに失われる成分や栄養素を補うことで若さを取り戻し、 
-                        体の内面からも、病気を予防してお口の健康をサポートするよう取り組んでいます。
-                    </p>
-                </div>
-                <div class="detail-item esthetic">
-                    <div class="detail-head">Anti-aging Dental Esthetic</div>
-                    <p class="detail-title">美容とリラクゼーション</p>
-                    <p class="detail-desc">
-                        “美しくきれいな口元”をテーマに、
-                        口腔内だけでなく口元周り全体のケアを行います。 
-                        痛くなく、リラックスできるプロのケアで、
-                        今よりもっときれいなお口を目指しましょう。
-                    </p>
+            <div class="about-container">
+                <div class="detail">
+                    <div class="detail-item dental">
+                        <div class="detail-head">Dental Anti-aging</div>
+                        <p class="detail-title">機能美を獲得して、QOL向上へ</p>
+                        <p class="detail-desc">
+                            歯の健康は私たちが生き生きと過ごすうえでもっとも大切なこと。 
+                            人とのコミュニケーション、食べる、飲む、話す、
+                            笑うなど“生きる”ために必要な器官である「歯」「口」を若く健康に保ちましょう。 
+                            歯や歯肉などのお口の不具合や老化を感じる部分を改善し、
+                            本来の健康な状態に導きます。
+                        </p>
+                    </div>
+                    <div class="detail-item medical">
+                        <div class="detail-head">Medical Anti-aging</div>
+                        <p class="detail-title">若々しい身体を保つこと</p>
+                        <p class="detail-desc">
+                            健康で若々しい身体でいることも、
+                            お口の若さを保つためには重要です。 
+                            なぜならお口は体の健康状態が顕著に現れる器官だからです。 
+                            口元と身体全体がトータルで若々しいことが真のアンチエイジングと考え、
+                            年齢とともに失われる成分や栄養素を補うことで若さを取り戻し、 
+                            体の内面からも、病気を予防してお口の健康をサポートするよう取り組んでいます。
+                        </p>
+                    </div>
+                    <div class="detail-item esthetic">
+                        <div class="detail-head">Anti-aging Dental Esthetic</div>
+                        <p class="detail-title">美容とリラクゼーション</p>
+                        <p class="detail-desc">
+                            “美しくきれいな口元”をテーマに、
+                            口腔内だけでなく口元周り全体のケアを行います。 
+                            痛くなく、リラックスできるプロのケアで、
+                            今よりもっときれいなお口を目指しましょう。
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
