@@ -5001,7 +5001,7 @@ Copyright (c) 2013 Daniel Eden
   background-color: #ffffff;
 }
 
-.home-notice__wrapper a {
+.home-notice__wrapper a.home-notice__covid19 {
   font-size: 1.3rem;
   font-weight: 500;
   line-height: 50px;
@@ -5013,14 +5013,58 @@ Copyright (c) 2013 Daniel Eden
   padding: 0 10px;
 }
 
-.home-notice__wrapper a:hover {
+.home-notice__wrapper a.home-notice__covid19:hover {
   text-decoration: underline;
 }
 
 @media screen and (max-width: 576px) {
-  .home-notice__wrapper a {
+  .home-notice__wrapper a.home-notice__covid19 {
     font-size: 1.2rem;
   }
+}
+
+.home-notice__nav {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.home-notice__nav ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2rem;
+}
+
+.home-notice__nav ul.nav-main {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.home-notice__nav ul li {
+  padding: 0 10px;
+}
+
+.home-notice__nav a {
+  color: #333333;
+}
+
+.home-notice__nav a:hover {
+  -webkit-transform: .3s;
+          transform: .3s;
+  opacity: .8;
 }
 
 .home-mainvisual {
