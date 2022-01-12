@@ -4384,8 +4384,8 @@ Copyright (c) 2013 Daniel Eden
   padding-bottom: 45px;
   height: calc(100% - 50px);
   overflow-y: scroll;
-  -webkit-transform: translateY(-950px);
-          transform: translateY(-950px);
+  -webkit-transform: translateY(-100vh);
+          transform: translateY(-100vh);
 }
 
 .header-menu.active {
@@ -4875,6 +4875,8 @@ Copyright (c) 2013 Daniel Eden
   height: 170px;
   -o-object-fit: cover;
      object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .home-news__item--desc {
@@ -4934,7 +4936,7 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .home-news .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
-  margin: 0 15px;
+  margin: 0 12px;
 }
 
 @media screen and (max-width: 1050px) {

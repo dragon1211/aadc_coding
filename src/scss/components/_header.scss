@@ -38,7 +38,7 @@
 		@include logo-font();
 		color: $color_white;
 		font-weight: 500;
-		@include mq(){
+		@include mq(sm){
 			display: none;
 		}
 	}
@@ -142,7 +142,7 @@
 		padding-bottom: 45px;
 		height: calc(100% - 50px);
 		overflow-y: scroll;
-		transform: translateY(-950px);
+		transform: translateY(-100vh);
 
 		&.active{
 			transform: translateY(0);

@@ -1,7 +1,7 @@
 $(document).ready(function () {
-    //initialize swiper when document ready
-    var mySwiper = new Swiper ('.home-news__list .swiper-container', {
-      // Optional parameters
+
+  new Swiper ('.home-news__list .swiper-container', {
+
 		  direction: 'horizontal',
       loop: true,
       zoom: true,
@@ -13,22 +13,19 @@ $(document).ready(function () {
       pagination: '.home-news__list .swiper-pagination',
       paginationClickable: true,
 
-      navigation: {
-        nextEl: '.home-news__list .swiper-button-next',
-        prevEl: '.home-news__list .swiper-button-prev',
-      },
+      nextButton: '.home-news__list .swiper-button-next',
+      prevButton: '.home-news__list .swiper-button-prev',
 
    
       breakpoints: {
-        // when window width is >= 320px
-        1200: {
+        1400: {
           slidesPerView: 3,
-          spaceBetween: 40
+          spaceBetween: 20
         },
 
         900: {
           slidesPerView: 2,
-          spaceBetween: 40
+          spaceBetween: 20
         },
 
         576: {
