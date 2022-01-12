@@ -220,6 +220,7 @@ jQuery(function($) {
   $(window).scroll(function() {
     scrollLoad();
     triggerBackground();
+    triggerPageTop();
   });
 
 });

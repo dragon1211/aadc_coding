@@ -77,3 +77,5 @@
 	</div>
 	<div class="footer-bottom">© Anti-aging Dental Clinic Ebisu</div>
 </footer>
+
+<div class="page-top js-pageTop"><span></span></div>

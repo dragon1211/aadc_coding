@@ -4235,8 +4235,8 @@ Copyright (c) 2013 Daniel Eden
 --------------------*/
 .page-top {
   position: fixed;
-  bottom: 0;
-  right: 0;
+  bottom: 20px;
+  right: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4246,11 +4246,12 @@ Copyright (c) 2013 Daniel Eden
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 80px;
-  height: 80px;
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
   cursor: pointer;
   opacity: 0;
-  background-color: #7b7b6c;
+  background-color: #C84520;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   z-index: -1;
@@ -4267,9 +4268,9 @@ Copyright (c) 2013 Daniel Eden
 
 .page-top span {
   display: block;
-  height: 6px;
-  width: 12px;
-  background: url(../images/common/pageTop.png) no-repeat;
+  width: 35px;
+  height: 35px;
+  background: url(../images/common/pagetop.svg) no-repeat;
   background-size: 100%;
   text-indent: 180%;
   white-space: nowrap;
