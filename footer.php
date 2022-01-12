@@ -3,7 +3,7 @@
 <?php wp_footer(); ?>
 
 </body>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script src="<?php echo get_template_directory_uri()?>/assets/js/libs/jquery-3.5.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
   
   <script src="<?php echo get_template_directory_uri()?>/assets/js/libs/wow.min.js"></script>

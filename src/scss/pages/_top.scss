@@ -554,7 +554,9 @@
 
 	@include mq(sm2){
 		&__list{
+			margin-top: 20px;
 			text-align: left;
+			line-height: 1.8;
 		}
 	}
 

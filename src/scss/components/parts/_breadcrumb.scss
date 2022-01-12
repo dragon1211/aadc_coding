@@ -25,6 +25,11 @@
     li{
         font-size: 1.4rem;
         position: relative;
+        font-weight: 500;
+        color: rgb(185, 185, 185);
+        a{
+            color: $color_black;
+        }
         &:not(:last-child){
             margin-right: 60px;
             &::after{
@@ -33,10 +38,12 @@
                 background-image: url('../images/common/icon-arrow-right-black.png');
                 font-size: 1.8rem;
                 position: absolute;
-                width: 9px;
-                height: 20px;
+                width: 7px;
+                height: 15px;
+                background-size: 100% 100%;
                 right: -35px;
-                top: 0;
+                top: 50%;
+                transform: translateY(-50%);
             }
         }
     }
@@ -54,7 +61,8 @@
                     width: 6px;
                     height: 15px;
                     background-size: 100% 100%;
-                    top: 4px;
+                    top: 50%;
+                    transform: translateY(-50%);
                 }
             }
         }

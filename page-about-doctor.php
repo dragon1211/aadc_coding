@@ -1,152 +1,187 @@
 <?php get_header(); ?>
-	
-	<main class="main" role="main">
-	
-		<section class="home-notice">
-			<div class="home-notice__wrapper">
-                <nav class="home-notice__nav">
-                    <ul class="nav-main"><a href="<?php echo home_url(); ?>/about">当院について</a></ul>
-                    <ul>
-                        <li><a href="<?php echo home_url();?>/about">当院について</a></li>
-                        <li><a href="<?php echo home_url();?>/about/doctor">ドクター紹介</a></li>
-                        <li><a href="<?php echo home_url();?>/about/news">最新のニュース</a></li>
-                    </ul>
-                </nav>
-			</div>
-		</section>
-		
-		<section class="about-mainvisual">
-			<div class="about-container">
-                <h2 class="about-heading">MESSAGE</h2>
-                <p class="about-mainvisual__desc">
-                    当院は、２００６年に開院し今年で１６年目を迎えました。<br>
-                    歯科医療でのアンチエイジングをコンセプトとし、歯と全身の健康を向上させるための診療を行なってまいりました。<br>
-                    「健康で、若々しく、美しく」という上質な生き方が求められるようになり、近年では、歯への健康意識、美意識が向上し、<br>
-                    歯がアンチエイジングの要であることも認知されるようになってきました。<br>
-                    皆様が感じているように、歯の健康は日々の生活を快適に過ごし、見た目と気持ちの若さを維持するためにとても大切です。<br><br>
 
-                    私自身も、開院から１５年が経過した今、歯は見た目の美しさを左右するだけでなく全身の健康につながる体の一部であること、<br>
-                    心の健康にも深く関わっていることを、あらためて強く感じています。<br><br>
+<main class="main">
 
-                    これから先も、その大切な「歯と口腔」の機能改善と健康美を実現するよう取り組んでいきたいと思います。<br>
-                    そして、“きれいな歯と口元づくり”のために日々研鑽を重ね皆様のご要望に応えられるよう、精進してまいります。<br><br>
-                    アンチエイジングデンタルクリニック恵比寿<br>
-                    院長　小川朗子
-                </p>
-			</div>
-		</section>
-
-		
-		<section class="about-outline">
-            <div class="about-container">
-                <div class="about-outline__heading-wrap">
-                    <h2 class="about-outline__heading">
-                        ひとりひとりに<br class="sp-onlyt">丁寧な診療を
-                    </h2>
-                </div>
-				<div class="about-outline__copy">
-                    当院では、患者様一人一人のニーズにお応えできるよう、<br>
-                    歯科治療とアンチエイジング医療も含めた総合的な診療を行なっております。<br>
-                    確かな技術提供を第一に、通院満足度の高い環境作りとホスピタリティにあふれた患者様対応ができるよう、スタッフ一同努めております。
-                    丁寧な診療を日々心がけ、患者様がご不安なくお過ごし頂けるよう、さまざまな配慮をいたしております。
-				</div>
-				<ul class="about-outline__list">
-					<li>カウンセリング時間を十分に取り　患者様のお悩みとご要望に最適なご提案をいたします</li>
-					<li>来院の都度　患者様がご不安なく治療を受けて頂けるよう丁寧な説明を心がけております</li>
-					<li>痛くなく　体に負担の少ない最新機器と技術を用いて診療を行なっています</li>
-					<li>院内感染防止に十分に留意し　常に清潔で衛生的な環境を保つよう努めています</li>
-					<li>プライバシーを考慮し　診療室は個室３部屋をご用意しております</li>
-					<li>通院回数を減らし　患者様の時間的軽減ができるよう短期集中治療も行なっております</li>
-					<li>アロマセラピーを各所に取り入れて　歯科医院独特のストレスを軽減しています</li>
-				</ul>
-			</div>
-		</section>
-
-        <section class="about-outline-comment">
-            <div class="about-container">
-                <p>
-                    今、医療の最前線では歯（口腔）の健康が重要視されています。 
-                    アンチエイジングでもっとも大切なのは生活の質を高めることです。
-                    つまり、私たちが健康的な生活を送る上で絶対不可欠な、
-                     食べる、飲む、話す、笑う、といった根本的な欲求を常に満たすことです。 
-                     口の健康が失われると、食事や会話などの日常生活に支障をきたし、老化のスピードが速まると言われています。 
-                     例えば、しっかり噛めないと、食べ物を美味しく味わうことができなくなり、
-                     食生活の質が低下します。 また、口臭が気になったり、歯の色や歯並びなどの見た目に支障があると、コミュニケーションに自信を持て なくなることもあります。 
-                     歯が体と心の健康に及ぼす影響は非常に大きく、口の健康がアンチエイジングの要 になっているといっても過言ではありません。 
-                     口の機能を活発にして老化を遅らせ、全身の健康を獲得し維持することが、アンチエイジングの第一歩です。
-                </p>
-            </div>
-        </section>
-
-        <section class="about-proportion-smile">
-            <div class="about-container">
-                <h2 class="about-heading">お口から全身の<br class="sp-only">アンチエイジングへ</h2>
-                <p class="description">
-                    当院では、お口の健康美とアンチエイジングをご提案しています。
-                    患者様一人一人の個性を生かし、美しさの基準であるデンタルプロポーションに最大限近づけるよう努めております。
-                    また、老化を感じない若々しい口元つくりには３つの要素が必要と考え、それらを組み合わせて診療を行っています。 ひとりひとりのご希望をもとに、
-                    若々しく美しい口元を獲得できるような最適なプランをご提案いたします。
-                </p>
-            </div>
-            <div class="aads-wrap">
-				<div class="aads-circle f20">
-					<div class="circle aads-dental"><p>Dental<br>Anti-aging</p></div>
-					<div class="circle aads-medical"><p>Medical<br>Anti-aging</p></div>
-					<div class="circle aads-esthetic"><p>Anti-aging<br>Dental Esthetic</p></div>
-				</div>
-			</div>
-            <div class="about-container">
-                <div class="detail">
-                    <div class="detail-item dental">
-                        <div class="detail-head">Dental Anti-aging</div>
-                        <p class="detail-title">機能美を獲得して、QOL向上へ</p>
-                        <p class="detail-desc">
-                            歯の健康は私たちが生き生きと過ごすうえでもっとも大切なこと。 
-                            人とのコミュニケーション、食べる、飲む、話す、
-                            笑うなど“生きる”ために必要な器官である「歯」「口」を若く健康に保ちましょう。 
-                            歯や歯肉などのお口の不具合や老化を感じる部分を改善し、
-                            本来の健康な状態に導きます。
-                        </p>
-                    </div>
-                    <div class="detail-item medical">
-                        <div class="detail-head">Medical Anti-aging</div>
-                        <p class="detail-title">若々しい身体を保つこと</p>
-                        <p class="detail-desc">
-                            健康で若々しい身体でいることも、
-                            お口の若さを保つためには重要です。 
-                            なぜならお口は体の健康状態が顕著に現れる器官だからです。 
-                            口元と身体全体がトータルで若々しいことが真のアンチエイジングと考え、
-                            年齢とともに失われる成分や栄養素を補うことで若さを取り戻し、 
-                            体の内面からも、病気を予防してお口の健康をサポートするよう取り組んでいます。
-                        </p>
-                    </div>
-                    <div class="detail-item esthetic">
-                        <div class="detail-head">Anti-aging Dental Esthetic</div>
-                        <p class="detail-title">美容とリラクゼーション</p>
-                        <p class="detail-desc">
-                            “美しくきれいな口元”をテーマに、
-                            口腔内だけでなく口元周り全体のケアを行います。 
-                            痛くなく、リラックスできるプロのケアで、
-                            今よりもっときれいなお口を目指しましょう。
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="breadcrumb-wrapper">
-            <div class="breadcrumb-wrapper__content">
-                <ul class="breadcrumb">
-                    <li>
-                        <a href="<?php echo home_url(); ?>">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/icon-logo-red.png" alt="logo">
-                        </a>
-                    </li>
-                    <li>当院について</li>
+    <section class="home-notice">
+        <div class="home-notice__wrapper">
+            <nav class="home-notice__nav">
+                <ul class="nav-main"><a href="<?php echo home_url(); ?>/about">当院について</a></ul>
+                <ul>
+                    <li><a href="<?php echo home_url();?>/about">当院について</a></li>
+                    <li><a href="<?php echo home_url();?>/about/doctor">ドクター紹介</a></li>
+                    <li><a href="<?php echo home_url();?>/about/news">最新のニュース</a></li>
                 </ul>
-            </div>
-		</section>
+            </nav>
+        </div>
+    </section>
 
-	</main>
+    <section class="doctor-header">
+        <h1 class="doctor-header__caption">Doctor</h1>
+    </section>
+
+
+    <!-- doctor-section -->
+    <section class="doctor-content">
+
+        <div class="doctor-container">
+
+            <div class="doctor">
+                <div class="doctor-photo">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/doctor-ogawa.png" data-xblocker="passed" style="visibility: visible;">
+                </div>
+                <div class="doctor-profile">
+                    <div class="position">院長　歯科医師　抗加齢医学会専門医</div>
+                    <div class="name">小川　朗子<span>（おがわ あきこ）</span></div>
+                    <ul class="bio">
+                        <li>1996年　鶴見大学歯学部卒業</li>
+                        <li>1997年　用賀歯科クリニック勤務</li>
+                        <li>2000年　南青山デンタルクリニック　副院長</li>
+                        <li>2006年　アンチエイジングデンタルクリニック恵比寿開院</li>
+                    </ul>
+                    <div class="profile-head">所属学会　資格</div>						
+                    <ul class="qualification">
+                        <li>日本抗加齢医学会</li>
+                        <li>抗加齢歯科医学研究会</li>
+                        <li>ドライマウス研究会</li>
+                        <li>日本審美歯科学会</li>
+                        <li>日本矯正歯科学会</li>
+                        <li>日本アロマ環境協会</li>
+                        <li>日本抗加齢医学会認定専門医</li>
+                        <li>アライン社認定インビザラインドクター</li>
+                        <li>点滴療法研究会</li>
+                        <li>高濃度ビタミンC点滴認定医</li>
+                        <li>アロマテラピーアドバイザー</li>
+                        <li>インディアナ大学歯学部日本矯正歯科プログラム認定医取得</li>
+                    </ul>
+                    <div class="profile-head">活動</div>
+                    <div class="activity">
+                        <span>カジュアルフレンチレストラン「ビストロみや乃」<br>フレンチアンチエイジングコースランチメニューを監修。</span>
+                    </div>
+                    <div class="activity">
+                        講演：歯科医院が提案するアンチエイジング
+                    </div>
+                    <div class="activity">
+                        <span>丸の内朝大学心体学部 口元から美と健康を考えるクラス　～食べて笑って話して“健口美”になろう～</span>
+                        講演：歯と口のアンチエイジング①美容につながるケア
+                    </div>
+                    <div class="activity">
+                        <span>OZmall東京体験・イベント</span>
+                        スマイルレッスンで第一印象UP！笑顔美人女子会
+                    </div>
+                    <div class="activity">
+                        <span>宣伝会議　歯科開業医のための経営マーケティング基礎講座【東京教室】</span>
+                        講演：信頼される歯科医として付加価値を提供する
+                    </div>
+                    <div class="activity">
+                        <span>マツモトキヨシ　セルフメディケーションフォーラム</span>
+                        講演：お口周りの印象を変えるビューティエイジング
+                    </div>
+                    <div class="activity">
+                        <span>講演：医療従事者の為のサプリメント実践セミナー　〜歯科医院経営の為のサプリメントの導入〜</span>
+                        講演：サプリメントのあるクリニック　〜歯科医院でのサプリメントの活用とそのメリット〜
+                    </div>
+                    <div class="activity">
+                        <span>カフェ「ニコライバーグマン本店」の美しい歯になるためのランチを監修</span>
+                        開催：2011年5月10日～6月10日
+                    </div>
+                    <div class="activity">
+                        <span>講演：タカラベルモント　レディース開業セミナー</span>
+                        講演：開業から今日までの経験談
+                    </div>
+                    <div class="activity">
+                        <span>オーラルケアからのビューティエイジングケアのご提案</span>
+                        講演：ビューティエイジングケアにおけるオーラルケアの重要性
+                    </div>
+                    <div class="activity">
+                        <span>定期検診型予防歯科医院の作り方　第2回シンポジウム</span>
+                        講演：イブテイラー デンタル アロマ トリートメントの歯科医院への展開
+                    </div>
+                    <div class="activity">
+                        <span>抗加齢歯科医学研究会主催　アンチエイジングセミナー</span>
+                        講演：アンチエイジングデンタルクリニックの10年とこれから
+                    </div>
+                    <div class="activity">
+                        <span>第21回 抗加齢歯科医学研究会</span>
+                        講演：開業歯科医での抗加齢医学の実践　ー明日から診療に役立つアンチエイジング医療の実際ー
+                    </div>
+                    <div class="activity">
+                        <span>第24回 抗加齢歯科医学研究会</span>
+                        講演：歯科医院で実践できるアンチエイジング医療<br>
+                        オンデマンド配信 2020.11.20-11.29
+                    </div>
+                </div>
+            </div>
+            
+            <div class="doctor">
+                <div class="doctor-photo">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/doctor-sudo.png" data-xblocker="passed" style="visibility: visible;">
+                </div>
+                <div class="doctor-profile">
+                    <div class="position">顧問歯科医師</div>
+                    <div class="name m">須藤　光弘<span class="s">（すどう みつひろ）</span></div>
+                    <ul class="bio">
+                        <li>1996年　鶴見大学歯学部卒業</li>
+                        <li>1996年～2003年　神奈川県、東京都内開業医勤務</li>
+                        <li>2005年　同院　院長</li>
+                        <li>2008年　医療法人理事　就任</li>
+                        <li>2008年　アンチエイジングデンタルクリニック勤務</li>
+                        <li>2010年　筆頭顧問歯科医師　就任</li>
+                        <li>2011年11月　ASCR（米国臨床研究学会）主催デンマットエデュケーションセミナー修了</li>
+                        <li>2016年　インディアナ大学　歯学部歯周学・インプラント科　フェロー取得</li>
+                    </ul>
+                    <div class="profile-head">所属学会　資格</div>						
+                    <ul class="qualification">
+                        <li>日本審美歯科学会</li>
+                        <li>SDCジャパン会員</li>
+                        <li>デンマット認定歯科医取得</li>
+                        <li>ASCR（米国臨床学会）認定歯科医</li>
+                        <li>日本バイオインテグレーション学会会員</li>
+                        <li>インディアナ大学医学部解剖学科　顎顔面頭頚部認定医</li>
+                    </ul>
+                </div>				
+            </div>
+            
+            <div class="doctor">
+                <div class="doctor-photo">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/doctor-makihara.png" data-xblocker="passed" style="visibility: visible;">
+                </div>
+                <div class="doctor-profile">
+                    <div class="position">歯科技工士</div>
+                    <div class="name l">槇原 準<span class="s">（まきはら じゅん）</span></div>
+                    <ul class="bio">
+                        <li>1996年　新大阪歯科技工士専門学校卒業 特別賞受賞</li>
+                        <li>1996年　ジョージア州.アトランタ セラミストスクール入学 Dr.Gorldstain Dr.Garberの仕事に携わる。</li>
+                        <li>1998年　デンテック社　大阪オフィス入社</li>
+                        <li>1999年　同社ロサンゼルスオフィス USC・UCLAのインプラント技工に携わる。</li>
+                        <li>2000年　同社ハワイオフィス</li>
+                        <li>2002年　同社東京オフィス 新東京歯科技工士専門学校 非常勤講師</li>
+                        <li>2003年　新大阪歯科技工士専門学校 卒業生代表特別講演者に任命される。</li>
+                        <li>2003年　AICraft設立　<a href="http://www.aicraft.co.jp/" target="_blank">株式会社アイクラフト</a></li>
+                    </ul>
+                    <div class="profile-head">メッセージ</div>						
+                    <p class="message">白い歯のこぼれる笑顔を追求したく、審美歯科、インプラント技工を中心にアトランタ、LA、ハワイで著名な方々と共にトップクラスの仕事に携わってきました。日本人特有の手先の器用さと海外経験で培った最先端の技術で、皆様に高品質な技工物を提供いたします。</p>
+                </div>				
+            </div>			
+        
+        </div>
+        
+    </section>
+
+    <section class="breadcrumb-wrapper">
+        <div class="breadcrumb-wrapper__content">
+            <ul class="breadcrumb">
+                <li>
+                    <a href="<?php echo home_url(); ?>">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/icon-logo-red.png" alt="logo">
+                    </a>
+                </li>
+                <li><a href="<?php echo home_url(); ?>/about">当院について</a></li>
+                <li>ドクター紹介</li>
+            </ul>
+        </div>
+    </section>
+
+
+</main>
 	
 <?php get_footer(); ?>	

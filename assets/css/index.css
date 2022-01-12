@@ -3732,6 +3732,12 @@ Copyright (c) 2013 Daniel Eden
 .breadcrumb li {
   font-size: 1.4rem;
   position: relative;
+  font-weight: 500;
+  color: #b9b9b9;
+}
+
+.breadcrumb li a {
+  color: #333333;
 }
 
 .breadcrumb li:not(:last-child) {
@@ -3744,10 +3750,13 @@ Copyright (c) 2013 Daniel Eden
   background-image: url("../images/common/icon-arrow-right-black.png");
   font-size: 1.8rem;
   position: absolute;
-  width: 9px;
-  height: 20px;
+  width: 7px;
+  height: 15px;
+  background-size: 100% 100%;
   right: -35px;
-  top: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 @media screen and (max-width: 576px) {
@@ -3765,7 +3774,9 @@ Copyright (c) 2013 Daniel Eden
     width: 6px;
     height: 15px;
     background-size: 100% 100%;
-    top: 4px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
   }
 }
 
@@ -4882,6 +4893,7 @@ Copyright (c) 2013 Daniel Eden
 @media screen and (max-width: 767px) {
   .about-outline__list {
     text-align: left;
+    line-height: 1.8;
   }
 }
 
@@ -5109,6 +5121,175 @@ Copyright (c) 2013 Daniel Eden
   }
   .about-proportion-smile .detail-desc {
     margin-top: 8px;
+  }
+}
+
+.doctor-container {
+  max-width: 1040px;
+  padding: 0 20px;
+  margin: auto;
+}
+
+@media screen and (max-width: 390px) {
+  .doctor-container {
+    padding: 0 15px;
+  }
+}
+
+.doctor-header {
+  height: 220px;
+  position: relative;
+}
+
+.doctor-header__caption {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.doctor-content {
+  margin-bottom: 200px;
+}
+
+.doctor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.doctor-photo {
+  max-width: 200px;
+  width: 100%;
+  margin-right: 70px;
+}
+
+.doctor-profile {
+  line-height: 1.8;
+  font-weight: 300;
+}
+
+.doctor-profile .name {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.doctor-profile .name span {
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+
+.doctor-profile .bio {
+  margin: 40px 0;
+  padding: 0;
+}
+
+.doctor-profile .bio a {
+  color: #1F96D2;
+}
+
+.doctor-profile .bio a:hover {
+  color: #1b7eaf;
+}
+
+.doctor-profile .profile-head {
+  font-weight: 500;
+}
+
+.doctor-profile .qualification {
+  margin: 10px 0 60px 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  line-height: 1.6;
+}
+
+.doctor-profile .qualification li {
+  background-color: #D2BEA5;
+  padding: 5px 10px;
+  color: white;
+  margin: 0px 10px 10px 0;
+}
+
+.doctor-profile .activity {
+  margin-top: 10px;
+  padding: 5px 25px;
+  line-height: 1.6;
+  background-color: #F0F0F0;
+  color: #333333;
+}
+
+.doctor-profile .activity span {
+  display: block;
+}
+
+.doctor-profile .message {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1050px) {
+  .doctor-photo {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .doctor {
+    display: block;
+  }
+  .doctor-photo {
+    float: right;
+    margin-right: 0;
+    margin-left: 20px;
+  }
+  .doctor-header {
+    height: 150px;
+  }
+  .doctor-content {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .doctor-header {
+    height: 100px;
+  }
+  .doctor-header__caption {
+    font-size: 2.5rem;
+  }
+  .doctor-photo {
+    max-width: 100%;
+    float: none;
+    text-align: center;
+    margin: 0 0 20px 0;
+  }
+  .doctor-photo img {
+    max-width: 150px;
+    width: 100%;
+    margin: auto;
+  }
+  .doctor-profile .bio {
+    margin: 20px 0;
+  }
+  .doctor-profile .qualification {
+    font-size: 1.4rem;
+    margin: 5px 0 30px 0;
+  }
+  .doctor-profile .qualification li {
+    margin: 0 5px 5px 0;
+  }
+  .doctor-profile .activity {
+    font-size: 1.4rem;
+    padding: 5px 10px;
+    margin-top: 5px;
   }
 }
 
@@ -5749,7 +5930,9 @@ Copyright (c) 2013 Daniel Eden
 
 @media screen and (max-width: 767px) {
   .home-outline__list {
+    margin-top: 20px;
     text-align: left;
+    line-height: 1.8;
   }
 }
 

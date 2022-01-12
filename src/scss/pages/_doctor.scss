@@ -1,0 +1,151 @@
+@charset "UTF-8";
+// =========================================
+// ABOUT Dcctor
+// =========================================
+
+.doctor-container{
+    max-width: 1040px;
+    padding: 0 20px;
+    margin: auto;
+    @include mq(sm3){
+        padding: 0 15px;
+    }
+}
+
+
+// =========================================
+// Doctor Content
+// =========================================
+
+.doctor-header{
+    height: 220px;
+    position: relative;
+    &__caption{
+        font-size: 3rem;
+        text-align: center;
+        font-weight: bold;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.doctor-content{
+    margin-bottom: 200px;
+}
+
+.doctor{
+    display: flex;
+    margin-bottom: 80px;
+    &-photo{
+        max-width: 200px;
+        width: 100%;
+        margin-right: 70px;
+    }
+    &-profile{
+        line-height: 1.8;
+        font-weight: 300;
+        .name{
+            font-size: 1.8rem;
+            font-weight: bold;
+            span{
+                font-size: 1.4rem;
+                font-weight: normal;
+            }
+        }
+        .bio{
+            margin: 40px 0;
+            padding: 0;
+            a{
+                color: #1F96D2;
+                &:hover{
+                    color: #1b7eaf;
+                }
+            }
+        }
+        .profile-head{
+            font-weight: 500;
+        }
+        .qualification{
+            margin: 10px 0 60px 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            line-height: 1.6;
+            li{
+                background-color: #D2BEA5;
+                padding: 5px 10px;
+                color: white;
+                margin: 0px 10px 10px 0;
+            }
+        }
+        .activity{
+            margin-top: 10px;
+            padding: 5px 25px;
+            line-height: 1.6;
+            background-color: #F0F0F0;
+            color: $color_black;
+            span{
+                display: block;
+            }
+        }
+        .message{
+            margin-top: 10px;
+        }
+    }
+
+    @include mq(){
+        &-photo{
+            margin-right: 20px;
+        }
+    }
+
+    @include mq(sm2){
+        display: block;
+        &-photo{
+            float: right;
+            margin-right: 0;
+            margin-left: 20px;
+        }
+        &-header{
+            height: 150px;
+        }
+        &-content{
+            margin-bottom: 50px;
+        }
+    }
+
+    @include mq(smt){
+        &-header{
+            height: 100px;
+            &__caption{
+                font-size: 2.5rem;
+            }
+        }
+        &-photo{
+            max-width: 100%;
+            float: none;
+            text-align: center;
+            margin: 0 0 20px 0;
+            img{
+                max-width: 150px;
+                width: 100%;
+                margin: auto;
+            }
+        }
+        &-profile{
+            .bio{margin: 20px 0;}
+            .qualification{
+                font-size: 1.4rem;
+                margin: 5px 0 30px 0;
+                li{margin: 0 5px 5px 0;}
+            } 
+            .activity{
+                font-size: 1.4rem;
+                padding: 5px 10px;
+                margin-top: 5px;
+            }
+        }
+    }
+}
