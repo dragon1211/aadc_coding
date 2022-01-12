@@ -2,40 +2,39 @@ $(document).ready(function () {
     //initialize swiper when document ready
     var mySwiper = new Swiper ('.home-news__list .swiper-container', {
       // Optional parameters
-		direction: 'horizontal',
-        loop: true,
-        zoom: true,
-        speed: 3000,
-        slidesOffsetAfter: 100,
+		  direction: 'horizontal',
+      loop: true,
+      zoom: true,
+      speed: 1000,
 
-        slidesPerView: 3,
-        spaceBetween: 20,
+      slidesPerView: 4,
+      spaceBetween: 50,
 
-        pagination: '.home-news__list .swiper-pagination',
-        paginationClickable: true,
+      pagination: '.home-news__list .swiper-pagination',
+      paginationClickable: true,
 
-		navigation: {
-		  nextEl: '.swiper-button-next',
-		  prevEl: '.swiper-button-prev',
-		},
+      navigation: {
+        nextEl: '.home-news__list .swiper-button-next',
+        prevEl: '.home-news__list .swiper-button-prev',
+      },
 
-		keyboard: {
-			enabled: true,
-			onlyInViewport: false,
-		},
-		mousewheel: {
-			invert: true,
-		},
-        autoplay: {
-            delay: 5000,
+   
+      breakpoints: {
+        // when window width is >= 320px
+        1200: {
+          slidesPerView: 3,
+          spaceBetween: 40
         },
 
-        breakpoints: {
-            // when window width is >= 320px
-            576: {
-              slidesPerView: 1,
-              spaceBetween: 20
-            },
-        }
-    })
+        900: {
+          slidesPerView: 2,
+          spaceBetween: 40
+        },
+
+        576: {
+          slidesPerView: 1,
+          spaceBetween: 20
+        },
+      }
+  })
 });

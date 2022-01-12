@@ -38,7 +38,7 @@
 		@include logo-font();
 		color: $color_white;
 		font-weight: 500;
-		@include mq(sm2){
+		@include mq(){
 			display: none;
 		}
 	}

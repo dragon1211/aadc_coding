@@ -30,12 +30,12 @@
 									<a href="/">
 										<div class="home-news__item">
 											<div class="home-news__item--image">
-												<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/top/top-bg__news.png" alt="">
+												<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/slide-common.png" alt="">
 											</div>
 											<div class="home-news__item--desc">
 												<span class="comment">新着情報</span>
-												<p class="title">ダミーテキストダミーテキストダミーテキストダミーダミーテキストダミーテキストダミーテキストダミーダミーテキストダミーテキストダミーテキストダミー</p>
-												<span class="date">2021年 7月 12日</span>
+												<span class="date">2021年11月3日</span>
+												<p class="title">年末年始休診日のお知らせ</p>
 											</div>
 										</div>
 									</a>
@@ -44,12 +44,12 @@
 									<a href="/">
 										<div class="home-news__item">
 											<div class="home-news__item--image">
-												<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/top/top-bg__news.png" alt="">
+												<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/slide-1.png" alt="">
 											</div>
 											<div class="home-news__item--desc">
-												<span class="comment">新着情報</span>
-												<p class="title">ダミーテキストダミーテキストダミーテキストダミーダミーテキストダミーテキストダミーテキストダミーダミーテキストダミーテキストダミーテキストダミー</p>
-												<span class="date">2021年 7月 12日</span>
+												<span class="comment">メディア情報</span>
+												<span class="date">2020年10月26日</span>
+												<p class="title">10月22日発売 美的12月号「駆け込み最新デンタルケア」に当院取材記事が掲載されました</p>
 											</div>
 										</div>
 									</a>
@@ -58,12 +58,12 @@
 									<a href="/">
 										<div class="home-news__item">
 											<div class="home-news__item--image">
-												<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/top/top-bg__news.png" alt="">
+												<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/slide-common.png" alt="">
 											</div>
 											<div class="home-news__item--desc">
 												<span class="comment">新着情報</span>
-												<p class="title">ダミーテキストダミーテキストダミーテキストダミーダミーテキストダミーテキストダミーテキストダミーダミーテキストダミーテキストダミーテキストダミー</p>
-												<span class="date">2021年 7月 12日</span>
+												<span class="date">2021年11月3日</span>
+												<p class="title">年末年始休診日のお知らせ</p>
 											</div>
 										</div>
 									</a>
@@ -72,12 +72,12 @@
 									<a href="/">
 										<div class="home-news__item">
 											<div class="home-news__item--image">
-												<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/top/top-bg__news.png" alt="">
+												<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/slide-1.png" alt="">
 											</div>
 											<div class="home-news__item--desc">
-												<span class="comment">新着情報</span>
-												<p class="title">ダミーテキストダミーテキストダミーテキストダミーダミーテキストダミーテキストダミーテキストダミーダミーテキストダミーテキストダミーテキストダミー</p>
-												<span class="date">2021年 7月 12日</span>
+												<span class="comment">メディア情報</span>
+												<span class="date">2020年10月26日</span>
+												<p class="title">10月22日発売 美的12月号「駆け込み最新デンタルケア」に当院取材記事が掲載されました</p>
 											</div>
 										</div>
 									</a>
@@ -86,12 +86,12 @@
 									<a href="/">
 										<div class="home-news__item">
 											<div class="home-news__item--image">
-												<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/top/top-bg__news.png" alt="">
+												<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/slide-common.png" alt="">
 											</div>
 											<div class="home-news__item--desc">
 												<span class="comment">新着情報</span>
-												<p class="title">ダミーテキストダミーテキストダミーテキストダミーダミーテキストダミーテキストダミーテキストダミーダミーテキストダミーテキストダミーテキストダミー</p>
-												<span class="date">2021年 7月 12日</span>
+												<span class="date">2021年11月3日</span>
+												<p class="title">年末年始休診日のお知らせ</p>
 											</div>
 										</div>
 									</a>
@@ -100,12 +100,40 @@
 									<a href="/">
 										<div class="home-news__item">
 											<div class="home-news__item--image">
-												<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/top/top-bg__news.png" alt="">
+												<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/slide-1.png" alt="">
+											</div>
+											<div class="home-news__item--desc">
+												<span class="comment">メディア情報</span>
+												<span class="date">2020年10月26日</span>
+												<p class="title">10月22日発売 美的12月号「駆け込み最新デンタルケア」に当院取材記事が掲載されました</p>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="/">
+										<div class="home-news__item">
+											<div class="home-news__item--image">
+												<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/slide-common.png" alt="">
 											</div>
 											<div class="home-news__item--desc">
 												<span class="comment">新着情報</span>
-												<p class="title">ダミーテキストダミーテキストダミーテキストダミーダミーテキストダミーテキストダミーテキストダミーダミーテキストダミーテキストダミーテキストダミー</p>
-												<span class="date">2021年 7月 12日</span>
+												<span class="date">2021年11月3日</span>
+												<p class="title">年末年始休診日のお知らせ</p>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="/">
+										<div class="home-news__item">
+											<div class="home-news__item--image">
+												<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/slide-1.png" alt="">
+											</div>
+											<div class="home-news__item--desc">
+												<span class="comment">メディア情報</span>
+												<span class="date">2020年10月26日</span>
+												<p class="title">10月22日発売 美的12月号「駆け込み最新デンタルケア」に当院取材記事が掲載されました</p>
 											</div>
 										</div>
 									</a>
@@ -113,8 +141,8 @@
 							</div>
 							<div class="swiper-pagination sp-only"></div>
 						</div>
-						<!-- <div class="swiper-button-next"></div>
-						<div class="swiper-button-prev"></div> -->
+						<div class="swiper-button-next pc-only"></div>
+						<div class="swiper-button-prev pc-only"></div>
 					</div>
 				</div>
 			</div>
