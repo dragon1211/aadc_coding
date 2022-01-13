@@ -5298,6 +5298,145 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
+.news-container {
+  max-width: 1040px;
+  padding: 0 20px;
+  margin: auto;
+}
+
+@media screen and (max-width: 390px) {
+  .news-container {
+    padding: 0 15px;
+  }
+}
+
+.news-content {
+  padding: 100px 0;
+  background: #F5F5F7;
+}
+
+.news-content__caption {
+  font-size: 3rem;
+}
+
+.news-wrapper {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.news-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0;
+  margin: -25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.news-item {
+  width: 300px;
+  border-radius: 10px;
+  background: white;
+  margin: 25px;
+  -webkit-filter: drop-shadow(1px 1px 3px #dddddd);
+          filter: drop-shadow(1px 1px 3px #dddddd);
+}
+
+.news-item a {
+  display: block;
+}
+
+.news-item img {
+  width: 100%;
+  height: 170px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.news-item__desc {
+  padding: 20px 20px 30px;
+}
+
+.news-item__desc .comment {
+  font-size: 1.2rem;
+  color: #333333;
+  display: block;
+}
+
+.news-item__desc .date {
+  font-size: 1.2rem;
+  margin-top: 12px;
+  color: #333333;
+}
+
+.news-item__desc .title {
+  margin-top: 7px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #333333;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+}
+
+.news-item:hover {
+  opacity: .7;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.news-more__link {
+  font-size: 14px;
+  color: #0088CC;
+  text-align: center;
+  font-weight: 500;
+  display: block;
+}
+
+.news-more__link:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 1200px) {
+  .news-content__caption {
+    text-align: center;
+  }
+  .news-list {
+    margin: -15px;
+  }
+  .news-item {
+    margin: 15px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .news-content {
+    padding: 50px 0;
+  }
+  .news-content__caption {
+    font-size: 2.5rem;
+  }
+  .news-wrapper {
+    margin: 10px 0 50px;
+  }
+  .news-list {
+    margin: 0;
+  }
+  .news-item {
+    max-width: 300px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 .home-notice {
   width: 100%;
   height: 50px;

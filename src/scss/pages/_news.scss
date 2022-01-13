@@ -1,0 +1,127 @@
+@charset "UTF-8";
+// =========================================
+// ABOUT News
+// =========================================
+
+.news-container{
+    max-width: 1040px;
+    padding: 0 20px;
+    margin: auto;
+    @include mq(sm3){
+        padding: 0 15px;
+    }
+}
+
+
+// =========================================
+// News Content
+// =========================================
+
+.news{
+    &-content{
+        padding: 100px 0;
+        background: #F5F5F7;
+        &__caption{
+            font-size: 3rem;
+        }
+    }
+    &-wrapper{
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+    &-list{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: -25px;
+        justify-content: center;
+    }
+    &-item{
+		width: 300px;
+		border-radius: 10px;
+        background: white;
+        margin: 25px;
+        filter: drop-shadow(1px 1px 3px rgb(221, 221, 221));
+        a{display: block;}
+		img{
+			width: 100%;
+			height: 170px;
+			object-fit: cover;
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+		}
+
+		&__desc{
+			padding: 20px 20px 30px;
+			.comment{
+				font-size: 1.2rem;
+				color: $color_black;
+				display: block;
+			}
+			.date{
+				font-size: 1.2rem;
+				margin-top: 12px;
+				color: $color_black;
+			}
+			.title{
+				margin-top: 7px;
+				font-size: 1.6rem;
+				font-weight: 500;
+				color: $color_black;
+				-webkit-box-orient: vertical;
+				overflow: hidden;
+				display: -webkit-box;
+				-webkit-line-clamp: 3;
+			}
+		}
+		&:hover{
+			opacity: .7;
+			transition: all .3s;
+		}
+	}
+    &-more__link{
+        font-size: 14px;
+        color: #0088CC;
+        text-align: center;
+        font-weight: 500;
+        display: block;
+        &:hover{
+            opacity: .8;
+        }
+    }
+
+    @include mq(pc2d){
+        &-content__caption{
+            text-align: center;
+        }
+        &-list{
+            margin: -15px;
+        }
+        &-item{
+            margin: 15px;
+        }
+    }
+
+    @include mq(smt){
+        &-content{
+            padding: 50px 0;
+            &__caption{
+                font-size: 2.5rem;
+            }
+        }
+        &-wrapper{
+            margin: 10px 0 50px;
+        }
+        &-list{
+            margin: 0;
+        }
+        &-item{
+            max-width: 300px;
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+}
+
+
