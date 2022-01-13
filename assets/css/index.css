@@ -4784,6 +4784,24 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
+/* -------------------
+  404
+--------------------*/
+.section-404 {
+  padding-top: 50px;
+  height: 100vh;
+}
+
+.section-404__caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 100px;
+  color: #f5dbd4;
+}
+
 .about-container {
   max-width: 1040px;
   padding: 0 20px;

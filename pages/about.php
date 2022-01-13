@@ -1,5 +1,3 @@
-<?php get_header(); ?>
-	
 	<main class="main" role="main">
 	
 		<section class="home-notice">
@@ -149,4 +147,3 @@
 
 	</main>
 	
-<?php get_footer(); ?>	

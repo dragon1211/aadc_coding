@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/* -------------------
+  404
+--------------------*/
+
+.section-404{
+    padding-top: 50px;
+    height: 100vh;
+    &__caption{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 100px;
+        color: #f5dbd4;
+    }
+}
