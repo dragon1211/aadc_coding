@@ -132,9 +132,7 @@
 					</li>
 				</ul>
 			</div>
-			<div>
-				<a href="/??" class="news-more__link">さらに表示する </a>
-			</div>
+			<a href="/??" class="news-more__link">さらに表示する </a>
 		</div>
     </section>
 
