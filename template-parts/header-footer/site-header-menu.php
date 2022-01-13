@@ -7,17 +7,16 @@
         <li class="header-menu__content--item main-item"><a href="<?php echo home_url(); ?>/about">                 当院について</a></li>
         <li class="header-menu__content--item"> <a href="<?php echo home_url(); ?>/about/doctor">                   ドクター紹介</a></li>
         <li class="header-menu__content--item"> <a href="<?php echo home_url(); ?>/about/news">                     新着情報</a></li>
-        <li class="header-menu__content--item"> <a href="<?php echo home_url(); ?>/about/media-information">        メディア情報</a></li>
                                                     <li class="header-menu__content--item none">                         　</li>
-        <li class="header-menu__content--item main-item"><a href="<?php echo home_url(); ?>/shinbikyosei">          エステティックオルソメソッド(EOM)</a></li>
-        <li class="header-menu__content--item"><a href="<?php echo home_url(); ?>/shinbikyosei/shinbi">             前歯審美歯科治療</a></li>
-        <li class="header-menu__content--item"><a href="<?php echo home_url(); ?>/shinbikyosei/crown-bridge-inray"> セラミッククラウン・ジルコニアクラウン</a></li>
-        <li class="header-menu__content--item"><a href="<?php echo home_url(); ?>/shinbikyosei/lumineers">          ルミネアーズ</a></li>
-        <li class="header-menu__content--item"><a href="<?php echo home_url(); ?>/shinbikyosei/whitening">          ホワイトニング</a></li>
-        <li class="header-menu__content--item"><a href="<?php echo home_url(); ?>/shinbikyosei/non-extraction">     歯を抜かない矯正治療</a></li>
-        <li class="header-menu__content--item"><a href="<?php echo home_url(); ?>/shinbikyosei/orthodontic">        前歯部分矯正 </a></li>
-        <li class="header-menu__content--item"><a href="<?php echo home_url(); ?>/shinbikyosei/invisalign">         インビザライン・マウスピース矯正</a></li>
-        <li class="header-menu__content--item"><a href="<?php echo home_url(); ?>/shinbikyosei/gap">                すきっ歯専門治療</a></li>
+        <li class="header-menu__content--item main-item"><a href="<?php echo home_url(); ?>/eom">          エステティックオルソメソッド(EOM)</a></li>
+        <li class="header-menu__content--item"><a href="<?php echo home_url(); ?>/eom/shinbi">             前歯審美歯科治療</a></li>
+        <li class="header-menu__content--item"><a href="<?php echo home_url(); ?>/eom/crown-bridge-inray"> セラミッククラウン・ジルコニアクラウン</a></li>
+        <li class="header-menu__content--item"><a href="<?php echo home_url(); ?>/eom/lumineers">          ルミネアーズ</a></li>
+        <li class="header-menu__content--item"><a href="<?php echo home_url(); ?>/eom/whitening">          ホワイトニング</a></li>
+        <li class="header-menu__content--item"><a href="<?php echo home_url(); ?>/eom/non-extraction">     歯を抜かない矯正治療</a></li>
+        <li class="header-menu__content--item"><a href="<?php echo home_url(); ?>/eom/orthodontic">        前歯部分矯正 </a></li>
+        <li class="header-menu__content--item"><a href="<?php echo home_url(); ?>/eom/invisalign">         インビザライン・マウスピース矯正</a></li>
+        <li class="header-menu__content--item"><a href="<?php echo home_url(); ?>/eom/gap">                すきっ歯専門治療</a></li>
                                                     <li class="header-menu__content--item none">                         　</li>
         <li class="header-menu__content--item main-item"><a href="<?php echo home_url(); ?>/anti-aging">            アンチエイジング</a></li>
         <li class="header-menu__content--item"><a href="<?php echo home_url(); ?>/anti-aging/teeth-cleaning">       クリーニング</a></li>

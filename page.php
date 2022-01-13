@@ -12,16 +12,18 @@
 get_header();
 ?>
 
-
     <?php
 
         if ( have_posts() ) {
             // Start the Loop.
             while ( have_posts() ) :
+
                 the_post();
 
-                //get_template_part( 'template-parts/content/content', 'page' );
-                get_template_part( 'pages'.'/'.get_the_title(), 'page' );
+                if(wp_get_post_parent_id(get_post()) > 0)
+                    get_template_part( 'pages'.'/'.get_page_uri(), 'page' );
+                else 
+                    get_template_part( 'pages'.'/'.get_page_uri().'/'.'index', 'page' );
 
                 // If comments are open or we have at least one comment, load up the comment template.
                 if ( comments_open() || get_comments_number() ) {
@@ -32,9 +34,7 @@ get_header();
         } else {
             get_template_part( __DIR__.'/404.php', 'page' );
         }
-
     ?>
-
 
 <?php
 get_footer();

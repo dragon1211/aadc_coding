@@ -5,10 +5,8 @@
 				<li class="link-list__item title"><a class="item-link" href="<?php echo home_url(); ?>/about" >当院について</a></li>
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/about/doctor" >ドクター紹介</a></li>
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/about/news" >新着情報</a></li>
-				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/about/media-information" >メディア掲載</a></li>
 
 				<li class="link-list__item title"><a class="item-link" href="<?php echo home_url(); ?>/eom" >エステティックオルソメソッド（EOM）</a></li>
-				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/eom" >エステティックオルソメソッド</a></li>
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/eom/shinbi" >前歯審美歯科治療</a></li>
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/eom/crown-bridge-inray" >セラミッククラウン ・ジルコニアクラウン</a></li>
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/eom/lumineers" >ルミネアーズ</a></li>
