@@ -227,6 +227,11 @@
     display: flex;
     align-items: center;
     z-index: 5;
+	li{
+		&:not(:last-child){
+			margin-right: 20px;
+		}
+	}
     @include mq(){
         display: block;
         position: absolute;
@@ -238,6 +243,11 @@
         z-index: 1;
         transition: transform .3s;
         transform: translateY(-300px);
+		li{
+			&:not(:last-child){
+				margin-right: 0px;
+			}
+		}
         &.active{
             transform: translateY(0);
         }

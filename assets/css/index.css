@@ -4865,6 +4865,10 @@ Copyright (c) 2013 Daniel Eden
   z-index: 5;
 }
 
+.sub-nav__menu li:not(:last-child) {
+  margin-right: 20px;
+}
+
 @media screen and (max-width: 1050px) {
   .sub-nav__menu {
     display: block;
@@ -4881,6 +4885,9 @@ Copyright (c) 2013 Daniel Eden
     transition: transform .3s, -webkit-transform .3s;
     -webkit-transform: translateY(-300px);
             transform: translateY(-300px);
+  }
+  .sub-nav__menu li:not(:last-child) {
+    margin-right: 0px;
   }
   .sub-nav__menu.active {
     -webkit-transform: translateY(0);
@@ -7224,10 +7231,6 @@ Copyright (c) 2013 Daniel Eden
   color: white;
 }
 
-.eom-nav__second li:not(:last-child) {
-  margin-right: 20px;
-}
-
 .eom-nav__second .eom-nav__container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -7245,6 +7248,128 @@ Copyright (c) 2013 Daniel Eden
 @media screen and (max-width: 1050px) {
   .eom-nav__second {
     font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .eom-nav__first {
+    height: 50px;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .eom-nav__first {
+    font-size: 3.84615vw;
+  }
+}
+
+.eom-heading {
+  background-color: white;
+  position: relative;
+}
+
+.eom-heading__caption {
+  margin: 100px 0 110px 0;
+  padding: 0 20px;
+  color: #333333;
+  text-align: center;
+}
+
+.eom-heading__caption span {
+  display: block;
+}
+
+.eom-heading__caption span.jp {
+  font-size: 3rem;
+}
+
+.eom-heading__caption span.en {
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width: 576px) {
+  .eom-heading__caption {
+    margin: 50px 0 70px 0;
+  }
+  .eom-heading span.jp {
+    font-size: 5.89744vw;
+  }
+  .eom-heading span.en {
+    margin-top: 10px;
+    font-size: 3.84615vw;
+  }
+}
+
+.eom-content__mainvisual {
+  height: 500px;
+  background-image: url("../images/eom/eom_smile.png");
+  background-position: 50% 50%;
+  position: relative;
+}
+
+.eom-content__mainvisual--caption {
+  padding: 0 20px;
+  font-size: 1.8rem;
+  color: #333333;
+  max-width: 810px;
+  width: 100%;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  line-height: 2;
+}
+
+.eom-content__body {
+  padding: 100px 20px;
+  max-width: 1140px;
+  margin: auto;
+  font-weight: 500;
+  color: #333333;
+}
+
+.eom-content__body .text1 {
+  max-width: 900px;
+  margin: 0 auto 100px;
+}
+
+.eom-content__body .text2 {
+  max-width: 900px;
+  margin: 100px auto 0;
+}
+
+.eom-content__menu {
+  max-width: 1000px;
+  padding: 0 20px;
+  margin: 100px auto;
+}
+
+.eom-content__menu .home-section__menu-ul {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 576px) {
+  .eom-content__body {
+    padding: 50px 20px;
+  }
+  .eom-content__body .text1 {
+    margin-bottom: 50px;
+  }
+  .eom-content__body .text2 {
+    margin-top: 50px;
+  }
+  .eom-content__menu {
+    margin: 50px auto;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .eom-content__mainvisual--caption {
+    font-size: 4.61538vw;
   }
 }
 
