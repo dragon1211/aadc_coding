@@ -4877,7 +4877,7 @@ Copyright (c) 2013 Daniel Eden
     right: 0;
     width: 100%;
     background-color: #CEC1A8;
-    padding: 10px 20px;
+    padding: 0px 20px 20px;
     z-index: 1;
     -webkit-transition: -webkit-transform .3s;
     transition: -webkit-transform .3s;
@@ -4888,6 +4888,9 @@ Copyright (c) 2013 Daniel Eden
   }
   .sub-nav__menu li:not(:last-child) {
     margin-right: 0px;
+  }
+  .sub-nav__menu li a br {
+    display: none;
   }
   .sub-nav__menu.active {
     -webkit-transform: translateY(0);

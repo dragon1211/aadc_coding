@@ -239,7 +239,7 @@
         right: 0;
         width: 100%;
         background-color: #CEC1A8;
-        padding: 10px 20px;
+        padding: 0px 20px 20px;
         z-index: 1;
         transition: transform .3s;
         transform: translateY(-300px);
@@ -247,6 +247,7 @@
 			&:not(:last-child){
 				margin-right: 0px;
 			}
+			a br{ display: none;}
 		}
         &.active{
             transform: translateY(0);
