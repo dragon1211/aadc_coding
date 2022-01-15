@@ -1,0 +1,83 @@
+@charset "UTF-8";
+// =========================================
+// SHINBI
+// =========================================
+
+
+.shinbi-content{
+    &__mainvisual{
+        position: relative;
+        
+        &--image{
+            height: 500px;
+            background-image: url('../images/eom/top-bg__shinbi.png');
+            background-position: 50% 50%;
+            background-size: cover;
+        }
+        &--desc{
+            max-width: vw(700);
+            padding: 20px;
+            width: 100%;
+            color: $color_black;
+            line-height: 2;
+            position: absolute;
+            top: 50%;
+            right: vw(100);
+            transform: translateY(-50%);
+        }
+        
+        &--caption{
+            font-size: vw(40);
+        }
+
+        &--text{
+            font-size: vw(18);
+        }
+        @include mq(){
+
+            &--image{
+                height: 400px;
+                background-position: vw(200);
+            }
+
+            &--desc{
+                position: relative;
+                max-width: 100%;
+                right: 0;
+                transform: none;
+            }
+
+            &--caption{
+                font-size: 2.5rem;
+            }
+            &--text{
+                font-size: 1.6rem;
+                line-height: 2;
+            }
+        }
+
+        @include mq(sm2){
+            &--caption{
+                font-size: 2.3rem;
+            }
+            &--text{
+                font-size: 1.6rem;
+            }
+        }
+        @include mq(smt){
+            &--image{
+                background-position: -150px;
+            }
+            &--caption{
+                line-height: 1.7;
+                font-size: vw2(23);
+            }
+            &--text{
+                margin-top: 20px;
+                font-size: vw2(16);
+            }
+        }
+
+    }
+
+}

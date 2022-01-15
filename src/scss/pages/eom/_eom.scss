@@ -112,6 +112,15 @@
             transform: translateX(-50%);
             line-height: 2;
         }
+
+        
+        @include mq(){
+            height: 400px;
+            &--caption{
+                line-height: inherit;
+                bottom: 20px;
+            }
+        }
     }
 
     &__body{
@@ -139,6 +148,7 @@
             justify-content: space-evenly;
         }
     }
+
 
     @include mq(smt){
         &__body{

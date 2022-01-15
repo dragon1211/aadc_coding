@@ -6838,32 +6838,32 @@ Copyright (c) 2013 Daniel Eden
     margin-bottom: 30px;
   }
   .about-proportion-smile .aads-wrap {
-    max-width: 52.14286vw;
-    padding: 7.14286vw 0 9.64286vw 0;
+    max-width: 45.625vw;
+    padding: 6.25vw 0 8.4375vw 0;
   }
   .about-proportion-smile .aads-wrap .aads-circle {
-    width: 52.14286vw;
-    height: 52.85714vw;
+    width: 45.625vw;
+    height: 46.25vw;
   }
   .about-proportion-smile .aads-wrap .aads-circle .circle {
-    width: 28.57143vw;
-    height: 28.57143vw;
+    width: 25vw;
+    height: 25vw;
   }
   .about-proportion-smile .aads-wrap .aads-circle .circle p {
-    font-size: 2.85714vw;
-    line-height: 3.57143vw;
+    font-size: 2.5vw;
+    line-height: 3.125vw;
   }
   .about-proportion-smile .aads-wrap .aads-circle .circle.aads-dental {
     top: 0;
     left: 0;
   }
   .about-proportion-smile .aads-wrap .aads-circle .circle.aads-medical {
-    top: 4.64286vw;
+    top: 4.0625vw;
     right: 0;
   }
   .about-proportion-smile .aads-wrap .aads-circle .circle.aads-esthetic {
-    bottom: 0.5vw;
-    left: 7.85714vw;
+    bottom: 0.4375vw;
+    left: 6.875vw;
   }
 }
 
@@ -7334,6 +7334,16 @@ Copyright (c) 2013 Daniel Eden
   line-height: 2;
 }
 
+@media screen and (max-width: 1050px) {
+  .eom-content__mainvisual {
+    height: 400px;
+  }
+  .eom-content__mainvisual--caption {
+    line-height: inherit;
+    bottom: 20px;
+  }
+}
+
 .eom-content__body {
   padding: 100px 20px;
   max-width: 1140px;
@@ -7382,6 +7392,82 @@ Copyright (c) 2013 Daniel Eden
 @media screen and (max-width: 390px) {
   .eom-content__mainvisual--caption {
     font-size: 4.61538vw;
+  }
+}
+
+.shinbi-content__mainvisual {
+  position: relative;
+}
+
+.shinbi-content__mainvisual--image {
+  height: 500px;
+  background-image: url("../images/eom/top-bg__shinbi.png");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.shinbi-content__mainvisual--desc {
+  max-width: 43.75vw;
+  padding: 20px;
+  width: 100%;
+  color: #333333;
+  line-height: 2;
+  position: absolute;
+  top: 50%;
+  right: 6.25vw;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.shinbi-content__mainvisual--caption {
+  font-size: 2.5vw;
+}
+
+.shinbi-content__mainvisual--text {
+  font-size: 1.125vw;
+}
+
+@media screen and (max-width: 1050px) {
+  .shinbi-content__mainvisual--image {
+    height: 400px;
+    background-position: 12.5vw;
+  }
+  .shinbi-content__mainvisual--desc {
+    position: relative;
+    max-width: 100%;
+    right: 0;
+    -webkit-transform: none;
+            transform: none;
+  }
+  .shinbi-content__mainvisual--caption {
+    font-size: 2.5rem;
+  }
+  .shinbi-content__mainvisual--text {
+    font-size: 1.6rem;
+    line-height: 2;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .shinbi-content__mainvisual--caption {
+    font-size: 2.3rem;
+  }
+  .shinbi-content__mainvisual--text {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .shinbi-content__mainvisual--image {
+    background-position: -150px;
+  }
+  .shinbi-content__mainvisual--caption {
+    line-height: 1.7;
+    font-size: 5.89744vw;
+  }
+  .shinbi-content__mainvisual--text {
+    margin-top: 20px;
+    font-size: 4.10256vw;
   }
 }
 

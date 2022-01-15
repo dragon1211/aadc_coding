@@ -7,7 +7,7 @@
 // px to vw
 // =========================================
 @function vw($size) {
-  @return $size / 1400 * 100vw;
+  @return $size / 1600 * 100vw;
 }
 
 @function vw2($size) {
