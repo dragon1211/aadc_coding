@@ -4877,7 +4877,7 @@ Copyright (c) 2013 Daniel Eden
     right: 0;
     width: 100%;
     background-color: #CEC1A8;
-    padding: 0px 20px 20px;
+    padding: 20px;
     z-index: 1;
     -webkit-transition: -webkit-transform .3s;
     transition: -webkit-transform .3s;
