@@ -6,7 +6,6 @@
 
 .section-404{
     padding-top: 50px;
-    height: 100vh;
     &__caption{
         position: absolute;
         top: 50%;
@@ -46,6 +45,7 @@
   color: $color_main;
   text-align: center;
   margin-top: 100px;
+  margin-bottom: 200px;
   .head{
     color: $color_main;
     font-size: 75px;

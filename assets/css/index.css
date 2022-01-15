@@ -5068,7 +5068,6 @@ Copyright (c) 2013 Daniel Eden
 --------------------*/
 .section-404 {
   padding-top: 50px;
-  height: 100vh;
 }
 
 .section-404__caption {
@@ -5109,6 +5108,7 @@ Copyright (c) 2013 Daniel Eden
   color: #C84520;
   text-align: center;
   margin-top: 100px;
+  margin-bottom: 200px;
 }
 
 .error-section .head {
