@@ -13,7 +13,16 @@ get_header();
 ?>
 
 	<section class="section-404">
-        <h2 class="section-404__caption">404</h2>
+        <header class="error-header">
+            <h1 class="head">404 File not found.</h1>
+        </header>
+        
+        <section class="error-section">
+            <h2 class="head">404</h2>
+            <h3 class="txt-1">お探しのページは<br class="sp-onlyt">見つかりません</h3>
+            <p class="txt-2 mgb-30">お探しのページは一時的にアクセスできない状況にあるか、<br class="pc-onlyt">移動もしくは削除された可能性があります</p>
+            <a href="javascript:history.back();" class="f16">一つ前のページへ戻る</a>
+        </section>
     </section>
 
 <?php

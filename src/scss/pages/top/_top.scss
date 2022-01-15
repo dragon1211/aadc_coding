@@ -106,9 +106,10 @@
 		border-radius: 50%;
 		color: white;
 		background-color: $color_main;
-		position: absolute;
-		right: 5%;
-		bottom: 10%;
+		position: fixed;
+		z-index: 9999;
+		right: 50px;
+    	bottom: 60px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
