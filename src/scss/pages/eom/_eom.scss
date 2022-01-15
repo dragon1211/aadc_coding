@@ -132,11 +132,11 @@
 
 
     &__menu{
-        max-width: 1000px;
+        max-width: 1140px;
         padding: 0 20px;
         margin: 100px auto;
         .home-section__menu-ul{
-            justify-content: space-between;
+            justify-content: space-evenly;
         }
     }
 

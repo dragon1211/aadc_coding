@@ -7353,15 +7353,15 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .eom-content__menu {
-  max-width: 1000px;
+  max-width: 1140px;
   padding: 0 20px;
   margin: 100px auto;
 }
 
 .eom-content__menu .home-section__menu-ul {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 @media screen and (max-width: 576px) {
