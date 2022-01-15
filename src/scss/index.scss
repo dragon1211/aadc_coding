@@ -8,8 +8,6 @@
 @import "base/common";
 @import "base/font-design";
 @import "base/visually-hidden";
-@import "base/text";
-
 
 // ===========================
 // libs
@@ -42,7 +40,9 @@
 // ===========================
 // pages
 // ===========================
-@import "pages/*/*";
+@import "pages/top/*";
+@import "pages/about/*";
+@import "pages/eom/*";
 
 
 // ===========================

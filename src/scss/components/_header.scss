@@ -38,7 +38,7 @@
 		@include logo-font();
 		color: $color_white;
 		font-weight: 500;
-		@include mq(sm){
+		@include mq(sm2){
 			display: none;
 		}
 	}
@@ -56,6 +56,7 @@
 .header-content__item {
 	position: relative;
 	margin: 0 15px;
+	&:last-child{margin-right: 0;}
 	@include mq(smt){
 		margin: 0 10px;
 		&:last-child{margin-left: 15px; margin-right: 0;}
@@ -101,6 +102,7 @@
 	width: 20px;
 	height: 20px;
 	cursor: pointer;
+	position: relative;
 
 	&.active {
 	  span {
@@ -131,87 +133,114 @@
   
 
 
-  .header-menu{
-		background-color: $color-main;
-		opacity: .95;
-		width: 100%;
-		position: fixed;
-		z-index: 500;
-		transition: transform .3s;
-		margin-top: 50px;
-		padding-bottom: 45px;
-		height: calc(100% - 50px);
-		overflow-y: scroll;
-		transform: translateY(-100vh);
+.header-menu{
+	  
+	background-color: $color-main;
+	opacity: .95;
+	width: 100%;
+	position: fixed;
+	z-index: 500;
+	transition: transform .3s;
+	margin-top: 50px;
+	padding-bottom: 45px;
+	height: calc(100% - 50px);
+	overflow-y: scroll;
+	transform: translateY(-100vh);
 
-		&.active{
-			transform: translateY(0);
-		}
-		
+	&.active{
+		transform: translateY(0);
+	}
+	
 
-		&__content{
-			max-width: 800px;
-			margin: auto;
-			padding: 0;
-
-
-			&--search{
-				margin: 25px 0 10px;
-				position: relative;
-
-				input{
-					width: 100%;
-					border-width: 0;
-					border-radius: 10px;
-					box-shadow: none;
-					padding: 7px 20px 7px 45px;
-					font-size: 14px;
-					background-color: rgba(255,255,255,0.2);
-					color: white;
-					&:focus{
-						outline: none;
-					}
-					&::placeholder{
-						color: rgba($color: #fff, $alpha: .5);
-					}
-				}
-				img{
-					position: absolute;
-					top: 10px;
-					left: 15px;
-				}
-
-				@include mq(smt){
-					margin-left: 20px;
-					margin-right: 20px;
-				}
-			}
+	&__content{
+		max-width: 800px;
+		margin: auto;
+		padding: 0;
 
 
-			&--item{
-				border-bottom: 1px solid rgba($color: #fff, $alpha: .3);
+		&--search{
+			margin: 25px 0 10px;
+			position: relative;
+
+			input{
+				width: 100%;
+				border-width: 0;
+				border-radius: 10px;
+				box-shadow: none;
+				padding: 7px 20px 7px 45px;
 				font-size: 14px;
-				font-weight: 500;
-				
-				a{
-					color: white;
-					display: block;
-					padding: 5px 20px 5px 40px;
+				background-color: rgba(255,255,255,0.2);
+				color: white;
+				&:focus{
+					outline: none;
 				}
+				&::placeholder{
+					color: rgba($color: #fff, $alpha: .5);
+				}
+			}
+			img{
+				position: absolute;
+				top: 10px;
+				left: 15px;
+			}
 
-				&.none{
-					padding: 5px 20px 5px 40px;
-				}
-				
-				&.main-item a{
-					padding-left: 20px;
-				}
-		
-				&:not(.none):hover{
-					background-color: #d84319;
-					transition: all .3s;
-				}
+			@include mq(smt){
+				margin-left: 20px;
+				margin-right: 20px;
 			}
 		}
 
-  }
+
+		&--item{
+			border-bottom: 1px solid rgba($color: #fff, $alpha: .3);
+			font-size: 14px;
+			font-weight: 500;
+			
+			a{
+				color: white;
+				display: block;
+				padding: 5px 20px 5px 40px;
+			}
+
+			&.none{
+				padding: 5px 20px 5px 40px;
+			}
+			
+			&.main-item a{
+				padding-left: 20px;
+			}
+	
+			&:not(.none):hover{
+				background-color: #d84319;
+				transition: all .3s;
+			}
+		}
+	}
+}
+
+
+
+
+.sub-nav__menu{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    z-index: 5;
+    @include mq(){
+        display: block;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 100%;
+        background-color: #CEC1A8;
+        padding: 10px 20px;
+        z-index: 1;
+        transition: transform .3s;
+        transform: translateY(-300px);
+        &.active{
+            transform: translateY(0);
+        }
+    }
+	a.active{color: $color_black;}
+}
