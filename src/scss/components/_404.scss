@@ -61,7 +61,11 @@
     font-size: 1.6rem;
     padding: 0 15px;
   }
-
+  a{
+    color: #0088cc;
+    font-weight: 500;
+    &:hover{opacity: .8;}
+  }
   @include mq(smt){
     .txt-1 { font-size: 2.5rem;}
   }
