@@ -23,7 +23,10 @@
         color: $color_black;
         background-color: white;
         font-size: 1.8rem;
-        a{color: $color_black;}
+        a{
+            font-weight: bold;
+            color: $color_black;
+        }
         z-index: 10;
         position: relative;
     }

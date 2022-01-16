@@ -43,3 +43,15 @@ function add_additional_class_on_li($classes, $item, $args){
    return $classes;
 }
 add_filter('nav_menu_css_class', 'add_additional_class_on_li', 1, 3);
+
+function pagename_class($classes = '') {
+   if (is_page()) {
+       $page = get_page(get_the_ID());
+       $classes[] = $page->post_name;
+       if ($page->post_parent) {
+         $classes[] = get_page_uri($page->post_parent);
+    }
+   }
+return $classes;
+}
+add_filter('body_class','pagename_class');
