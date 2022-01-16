@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="31" height="31" viewBox="0 0 31 31">
+  <defs>
+    <style>
+      .cls-3 {
+        fill: #ffffff;
+      }
+    </style>
+  </defs>
+  <g id="crosssvg">
+    <path d="M29.990,-0.010 C29.990,-0.010 30.697,0.697 30.697,0.697 C30.697,0.697 0.697,30.697 0.697,30.697 C0.697,30.697 -0.010,29.990 -0.010,29.990 C-0.010,29.990 29.990,-0.010 29.990,-0.010 Z" id="path-1" class="cls-3" fill-rule="evenodd"/>
+    <path d="M-0.010,0.697 C-0.010,0.697 0.697,-0.010 0.697,-0.010 C0.697,-0.010 30.697,29.990 30.697,29.990 C30.697,29.990 29.990,30.697 29.990,30.697 C29.990,30.697 -0.010,0.697 -0.010,0.697 Z" id="path-2" class="cls-3" fill-rule="evenodd"/>
+  </g>
+</svg>

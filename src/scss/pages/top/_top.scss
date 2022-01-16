@@ -33,8 +33,6 @@
 		align-items: center;
 		justify-content: space-between;
 		ul{
-			margin: 0;
-			padding: 0;
 			display: flex;
 			align-items: center;
 			font-size: 1.2rem;
@@ -43,6 +41,7 @@
 				font-weight: bold;
 			}
 			li{padding: 0 10px;}
+			li:last-child{padding-right: 0;}
 		}
 		a{
 			color: $color_black;
@@ -55,7 +54,7 @@
 
 	@include mq(smt){
 		&__wrapper{
-			padding: 0 15px;
+			padding: 0 20px;
 		}
 		a{
 			font-size: 1rem;

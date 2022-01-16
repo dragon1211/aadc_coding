@@ -30,6 +30,8 @@ $color_textlink: #0088cc;
 
 html {
 	font-size: 62.5%;
+	color: #333;
+	-webkit-font-smoothing: antialiased;
 }
 
 body {
@@ -42,13 +44,10 @@ body {
 	letter-spacing: $base_letter_spacing;
 }
 
-a {
-	text-decoration: none;
-	outline: none;
-}
 
 .main {
 	width: 100%;
 	margin: 0 auto;
 	padding: 50px 0 0; // ナビゲーション 高さ
 }
+

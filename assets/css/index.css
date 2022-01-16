@@ -72,12 +72,19 @@ select {
   }
 }
 
-ul {
-  list-style: none;
+a {
+  text-decoration: none;
+  outline: none;
 }
 
-a {
-  text-decoration: none !important;
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
 }
 
 /* -------------------
@@ -85,6 +92,8 @@ a {
 --------------------*/
 html {
   font-size: 62.5%;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
@@ -94,11 +103,6 @@ body {
   font-size: 1.6rem;
   line-height: 1.6;
   letter-spacing: 0.05em;
-}
-
-a {
-  text-decoration: none;
-  outline: none;
 }
 
 .main {
@@ -4572,6 +4576,166 @@ Copyright (c) 2013 Daniel Eden
   font-size: 4.4rem;
 }
 
+@media screen and (max-width: 767px) {
+  /* ------------------------------------------------ font set */
+  .f10 {
+    font-size: 8px;
+    font-size: 0.8rem;
+  }
+  .f11 {
+    font-size: 9px;
+    font-size: 0.9rem;
+  }
+  .f12 {
+    font-size: 10px;
+    font-size: 1.0rem;
+  }
+  .f13 {
+    font-size: 11px;
+    font-size: 1.1rem;
+  }
+  .f14 {
+    font-size: 12px;
+    font-size: 1.2rem;
+  }
+  .f15 {
+    font-size: 13px;
+    font-size: 1.3rem;
+  }
+  .f16 {
+    font-size: 14px;
+    font-size: 1.4rem;
+  }
+  .f18 {
+    font-size: 15px;
+    font-size: 1.5rem;
+  }
+  .f20 {
+    font-size: 16px;
+    font-size: 1.6rem;
+  }
+  .f22 {
+    font-size: 17px;
+    font-size: 1.7rem;
+  }
+  .f24 {
+    font-size: 18px;
+    font-size: 1.8rem;
+  }
+  .f26 {
+    font-size: 19px;
+    font-size: 1.9rem;
+  }
+  .f28 {
+    font-size: 20px;
+    font-size: 2.0rem;
+  }
+  .f30 {
+    font-size: 22px;
+    font-size: 2.2rem;
+  }
+  .f32 {
+    font-size: 24px;
+    font-size: 2.4rem;
+  }
+  .f34 {
+    font-size: 26px;
+    font-size: 2.6rem;
+  }
+  .f36 {
+    font-size: 28px;
+    font-size: 2.8rem;
+  }
+  .f38 {
+    font-size: 30px;
+    font-size: 3.0rem;
+  }
+  .f40 {
+    font-size: 32px;
+    font-size: 3.2rem;
+  }
+  .f42 {
+    font-size: 34px;
+    font-size: 3.4rem;
+  }
+  .f44 {
+    font-size: 36px;
+    font-size: 3.6rem;
+  }
+  .s3 {
+    font-size: 10px;
+    font-size: 1rem;
+  }
+  .s2 {
+    font-size: 12px;
+    font-size: 1.2rem;
+  }
+  .s {
+    font-size: 14px;
+    font-size: 1.4rem;
+  }
+  .m {
+    font-size: 16px;
+    font-size: 1.6rem;
+  }
+  .l {
+    font-size: 18px;
+    font-size: 1.8rem;
+  }
+  .l2 {
+    font-size: 20px;
+    font-size: 2rem;
+  }
+  .l3 {
+    font-size: 22px;
+    font-size: 2.2rem;
+  }
+  .l4 {
+    font-size: 24px;
+    font-size: 2.4rem;
+  }
+  .l5 {
+    font-size: 26px;
+    font-size: 2.6rem;
+  }
+  .l6 {
+    font-size: 28px;
+    font-size: 2.8rem;
+  }
+  .l7 {
+    font-size: 30px;
+    font-size: 3.0rem;
+  }
+  .l8 {
+    font-size: 32px;
+    font-size: 3.2rem;
+  }
+  .l9 {
+    font-size: 34px;
+    font-size: 3.4rem;
+  }
+  .l10 {
+    font-size: 36px;
+    font-size: 3.6rem;
+  }
+  .l11 {
+    font-size: 38px;
+    font-size: 3.8rem;
+  }
+  .l12 {
+    font-size: 40px;
+    font-size: 4.0rem;
+  }
+  .l13 {
+    font-size: 42px;
+    font-size: 4.2rem;
+  }
+  .l14 {
+    font-size: 44px;
+    font-size: 4.4rem;
+  }
+}
+
 /* -------------------
   COMMON
 --------------------*/
@@ -5127,6 +5291,10 @@ Copyright (c) 2013 Daniel Eden
 --------------------*/
 .section-404 {
   padding-top: 50px;
+  /* ==========================================================
+      404error-page
+    ========================================================== */
+  /* ------------------------------------------------ header */
 }
 
 .section-404__caption {
@@ -5139,11 +5307,7 @@ Copyright (c) 2013 Daniel Eden
   color: #f5dbd4;
 }
 
-/* ==========================================================
-	404error-page
-========================================================== */
-/* ------------------------------------------------ header */
-.error-header {
+.section-404 .error-header {
   width: 100%;
   height: 50px;
   position: relative;
@@ -5151,7 +5315,7 @@ Copyright (c) 2013 Daniel Eden
   background-color: #d2bea5;
 }
 
-.head {
+.section-404 .head {
   font-family: "futura-pt",sans-serif;
   width: 100%;
   font-weight: 100;
@@ -5163,42 +5327,42 @@ Copyright (c) 2013 Daniel Eden
   margin: 0;
 }
 
-.error-section {
+.section-404 .error-section {
   color: #C84520;
   text-align: center;
   margin-top: 100px;
   margin-bottom: 200px;
 }
 
-.error-section .head {
+.section-404 .error-section .head {
   color: #C84520;
   font-size: 7.5rem;
   font-weight: bold;
   line-height: inherit;
 }
 
-.error-section .txt-1 {
+.section-404 .error-section .txt-1 {
   opacity: .5;
   font-size: 2.8rem;
 }
 
-.error-section .txt-2 {
+.section-404 .error-section .txt-2 {
   opacity: .5;
   font-size: 1.6rem;
   padding: 0 15px;
 }
 
-.error-section a {
+.section-404 .error-section a {
   color: #0088cc;
   font-weight: 500;
 }
 
-.error-section a:hover {
+.section-404 .error-section a:hover {
   opacity: .8;
 }
 
 @media screen and (max-width: 576px) {
-  .error-section .txt-1 {
+  .section-404 .error-section .txt-1 {
     font-size: 2.5rem;
   }
 }
@@ -5252,8 +5416,6 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .home-notice__nav ul {
-  margin: 0;
-  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5272,6 +5434,10 @@ Copyright (c) 2013 Daniel Eden
   padding: 0 10px;
 }
 
+.home-notice__nav ul li:last-child {
+  padding-right: 0;
+}
+
 .home-notice__nav a {
   color: #333333;
 }
@@ -5284,7 +5450,7 @@ Copyright (c) 2013 Daniel Eden
 
 @media screen and (max-width: 576px) {
   .home-notice__wrapper {
-    padding: 0 15px;
+    padding: 0 20px;
   }
   .home-notice a {
     font-size: 1rem;
@@ -7293,11 +7459,11 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .eom-heading__caption span.jp {
-  font-size: 3rem;
+  font-size: 3.6rem;
 }
 
 .eom-heading__caption span.en {
-  font-size: 2.5rem;
+  font-size: 2.0rem;
 }
 
 @media screen and (max-width: 576px) {
@@ -7305,11 +7471,11 @@ Copyright (c) 2013 Daniel Eden
     margin: 50px 0 70px 0;
   }
   .eom-heading span.jp {
-    font-size: 5.89744vw;
+    font-size: 2.8rem;
   }
   .eom-heading span.en {
     margin-top: 10px;
-    font-size: 3.84615vw;
+    font-size: 1.5rem;
   }
 }
 
@@ -7450,7 +7616,7 @@ Copyright (c) 2013 Daniel Eden
 
 @media screen and (max-width: 767px) {
   .shinbi-content__mainvisual--caption {
-    font-size: 2.3rem;
+    font-size: 2.8rem;
   }
   .shinbi-content__mainvisual--text {
     font-size: 1.6rem;
@@ -7463,11 +7629,2059 @@ Copyright (c) 2013 Daniel Eden
   }
   .shinbi-content__mainvisual--caption {
     line-height: 1.7;
-    font-size: 5.89744vw;
   }
   .shinbi-content__mainvisual--text {
     margin-top: 20px;
-    font-size: 4.10256vw;
+  }
+}
+
+.shinbi-content__body {
+  letter-spacing: initial;
+}
+
+.shinbi-content__body * {
+  margin: 0 auto;
+}
+
+.shinbi-teeth__section {
+  padding: 100px 0;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.shinbi-teeth__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.shinbi-teeth__content .left {
+  max-width: 580px;
+  width: 100%;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.shinbi-teeth__content .right {
+  max-width: 400px;
+  width: 100%;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.shinbi-teeth__content h2 {
+  margin-bottom: 50px;
+}
+
+.shinbi-teeth__content p {
+  line-height: 2.5;
+}
+
+@media screen and (max-width: 767px) {
+  .shinbi-teeth__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .shinbi-teeth__content .left {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+  .shinbi-teeth__content .right {
+    max-width: 500px;
+  }
+  .shinbi-teeth__content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .shinbi-teeth__section {
+    padding: 70px 0 50px 0;
+  }
+}
+
+/* ==========================================================
+	shinbi-page
+========================================================== */
+/* proportion */
+.proportion-about-section {
+  width: 100%;
+  padding: 0 20px 100px;
+  background: #000;
+  color: #fff;
+}
+
+.proportion-about-section .gp-img {
+  text-align: center;
+  background: #000;
+  margin-bottom: 50px;
+}
+
+.proportion-about-section .gp-img img {
+  max-width: 100%;
+}
+
+.proportion-about-section h2.caption {
+  width: 100%;
+  text-align: center;
+  letter-spacing: 0.3rem;
+  text-indent: 0.3rem;
+  margin-bottom: 50px;
+}
+
+.proportion-about-section ul {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.proportion-about-section ul li {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.proportion-about-section ul li .about-head {
+  border-bottom: 1px solid #666;
+  text-align: left;
+  display: block;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.proportion-about-section ul li .about-detail {
+  display: block;
+  vertical-align: middle;
+  line-height: 150%;
+  text-align: justify;
+  letter-spacing: 0.2rem;
+}
+
+/* frontteeth */
+.cure1-frontteeth-section {
+  width: 100%;
+  padding: 100px 20px 50px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.cure1-frontteeth-section h3.head {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.cure1-frontteeth-section p.intro {
+  margin: 0 auto 30px;
+  margin-bottom: 30px;
+  line-height: 200%;
+  text-align: center;
+}
+
+.cure1-frontteeth-section p.intro span {
+  margin-top: 20px;
+  display: block;
+}
+
+.cure1-frontteeth-section .ceramic-image {
+  text-align: center;
+}
+
+.cure1-frontteeth-section .provisional-wrap {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.provisional-wrap h4.head {
+  font-weight: bold;
+  padding: 5px 0;
+  margin-bottom: 5px;
+}
+
+.provisional-wrap p.provisional {
+  line-height: 180%;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+
+.provisional-wrap p.provisional {
+  line-height: 180%;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+
+/* collaboration */
+.cure1-collaboration-section {
+  width: 100%;
+  background-color: #fafafa;
+}
+
+.cure1-collaboration-section .wrapper {
+  max-width: 1000px;
+  padding: 100px 20px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.cure1-collaboration-section h3.head {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.cure1-collaboration-section p.sub-head {
+  text-align: center;
+  color: #e86779;
+  margin-bottom: 20px;
+  font-weight: 400px;
+}
+
+.cure1-collaboration-section h3.head span {
+  font-weight: 800;
+  color: #fff;
+  margin: 0 5px;
+  padding: 0 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #e86779;
+}
+
+.cure1-collaboration-section p.intro {
+  margin: 0 auto 30px;
+  line-height: 200%;
+  text-align: center;
+}
+
+.cure1-collaboration-section p.collaboration-anchor {
+  margin: 50px auto 0;
+  padding-bottom: 30px;
+  color: #08c;
+  text-align: center;
+  cursor: pointer;
+  line-height: 150%;
+}
+
+.cure1-collaboration-section p.collaboration-anchor:hover {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.cure1-collaboration-section p.collaboration {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 180%;
+}
+
+/* ceramic */
+.cure1-ceramic-section {
+  max-width: 1000px;
+  margin: 100px auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.cure1-ceramic-section h3.head {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.cure1-ceramic-section h4.intro {
+  font-weight: 100;
+  margin-bottom: 30px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.cure1-ceramic-section p.ceramic {
+  margin: 0 auto 30px;
+  margin-bottom: 30px;
+  line-height: 200%;
+  text-align: center;
+}
+
+.cure1-ceramic-section p.ceramic-anchor {
+  margin: 50px auto 0;
+  padding: 10px 20px;
+  color: #08c;
+  max-width: 500px;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  line-height: 150%;
+}
+
+.cure1-ceramic-section p.ceramic-anchor:hover {
+  text-align: center;
+  opacity: 0.7;
+}
+
+.cure1-ceramic-section a.ceramic-case {
+  margin: 50px auto;
+  max-width: 500px;
+  border: 1px solid #ddd;
+  padding: 10px 30px;
+  background-color: rgba(200, 200, 200, 0.2);
+  font-size: 2rem;
+  color: #08c;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  line-height: 150%;
+}
+
+.cure1-ceramic-section a.ceramic-case:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.cure1-ceramic-section .ceramic-case-head {
+  margin: 50px auto;
+  max-width: 500px;
+  border: 1px solid #ddd;
+  padding: 10px 30px;
+  background-color: rgba(200, 200, 200, 0.2);
+  font-size: 2rem;
+  color: #08c;
+  text-align: center;
+  display: block;
+  line-height: 150%;
+}
+
+.cure1-ceramic-section .ceramic-case-head {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.cure1-ceramic-section .medical-flow {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 20px;
+  font-weight: 500;
+  background-color: #d1c0a5;
+}
+
+.cure1-ceramic-section .medical-flow .flow-head {
+  background-color: #a5967d;
+}
+
+.cure1-ceramic-section .medical-flow p {
+  margin-bottom: 10px;
+  line-height: 180%;
+  color: #fff;
+}
+
+.cure1-ceramic-section .medical-flow p.flow-head {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.cure1-ceramic-section .medical-flow img {
+  margin: 20px auto;
+  max-width: 400px;
+  width: 100%;
+}
+
+.cure1-ceramic-section .left {
+  max-width: 400px;
+  width: 100%;
+  float: left;
+}
+
+.cure1-ceramic-section .right {
+  max-width: 400px;
+  width: 100%;
+  float: right;
+}
+
+.cure1-ceramic-section .left img,
+.cure1-ceramic-section .right img {
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+}
+
+.cure1-ceramic-section .left .head,
+.cure1-ceramic-section .right .head {
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #a5967d;
+}
+
+.cure1-ceramic-section .crown {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  line-height: 180%;
+  height: 150px;
+  text-align: center;
+}
+
+.cure1-ceramic-section ul.feature {
+  margin: 50px 0 0;
+  clear: both;
+  text-align: center;
+}
+
+.cure1-ceramic-section ul.feature h5.head {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #a5967d;
+  line-height: 150%;
+}
+
+.cure1-ceramic-section ul.feature li {
+  display: inline-block;
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  border-bottom: 3px solid #fff;
+  background-color: #a5967d;
+  color: #fff;
+  font-weight: 400;
+}
+
+p.blogbanner a {
+  text-align: center;
+  padding: 20px 50px;
+  margin: 100px auto;
+  background-color: #C84520;
+  display: block;
+  color: #fff;
+  width: 500px;
+  border-radius: 40px;
+  font-weight: 400;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #C84520), color-stop(50%, #e65128));
+  background: linear-gradient(to bottom, #C84520 50%, #e65128 50%);
+  background-size: 100% 200%;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+p.blogbanner a:hover {
+  background-position: 0 -100%;
+}
+
+/* grinding */
+.cure1-grinding-section {
+  background-color: #fafafa;
+  padding: 100px 20px;
+}
+
+.cure1-grinding-section .wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.cure1-grinding-section h3.head {
+  margin-bottom: 30px;
+}
+
+.cure1-grinding-section p.contents-text {
+  text-align: left;
+  line-height: 200%;
+}
+
+/* laminate */
+.cure1-laminate-section {
+  max-width: 1000px;
+  padding: 0 20px;
+  margin: 100px auto 0;
+  overflow: hidden;
+}
+
+.cure1-laminate-section .left {
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+
+.cure1-laminate-section .right {
+  width: 400px;
+  float: right;
+  margin-left: 20px;
+}
+
+.cure1-laminate-section h3.head {
+  margin-bottom: 30px;
+}
+
+.cure1-laminate-section h4.intro {
+  margin-bottom: 30px;
+  line-height: 150%;
+}
+
+.cure1-laminate-section p.laminate {
+  margin-bottom: 30px;
+  line-height: 180%;
+}
+
+/* shinbi-case */
+.cure1-case-section {
+  width: 100%;
+  padding: 100px 0;
+  background-color: #fafafa;
+}
+
+.cure1-case-section .wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.cure1-case-section h3.head {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cure1-case-section p.sub-text {
+  text-align: center;
+  margin-bottom: 50px;
+  line-height: 130%;
+}
+
+.cure1-case-section p.sub-text .m {
+  color: #bb0000;
+}
+
+.cure1-case-section ul.case {
+  width: 100%;
+  overflow: hidden;
+}
+
+.cure1-case-section ul.case li.case-list {
+  width: 49.5%;
+  display: inline-block;
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+
+.cure1-case-section ul.case li.case-list h4.head {
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+.cure1-case-section ul.case li.case-list a {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+
+.cure1-case-section ul.case li.case-list a img.wide {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.cure1-case-section ul.case li.case-list a img {
+  max-width: 120px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.cure1-case-section ul.case li.case-list a img:hover {
+  opacity: 0.7 !important;
+}
+
+.cure1-case-section a.case-anchor {
+  margin-top: 30px;
+  display: block;
+  color: #08c;
+  cursor: pointer;
+  text-align: center;
+}
+
+.cure1-case-section a.case-anchor:hover {
+  text-decoration: underline;
+}
+
+.cure1-ceramic-section ul.cost_ex li {
+  margin: 5px 0 0px 0;
+}
+
+.cure1-ceramic-section h4.head {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.cure1-ceramic-section .att {
+  line-height: 150%;
+  margin-bottom: 20px;
+}
+
+/* composite */
+.cure1-composite-section {
+  width: 100%;
+  padding: 100px 20px 0;
+}
+
+.cure1-composite-section .wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.cure1-composite-section .left {
+  width: 400px;
+  float: left;
+  margin-right: 20px;
+}
+
+.cure1-composite-section .right {
+  width: 50%;
+  float: right;
+}
+
+.cure1-composite-section h3.head {
+  margin-bottom: 25px;
+}
+
+.cure1-composite-section h4.intro {
+  margin-bottom: 30px;
+  line-height: 150%;
+}
+
+.cure1-composite-section p.composite {
+  margin-bottom: 30px;
+  line-height: 180%;
+  text-align: justify;
+}
+
+.cure1-composite-section ul.cost_ex {
+  max-width: 1000px;
+  margin: 30px auto;
+  overflow: hidden;
+}
+
+ul.cost_ex li {
+  margin: 0 0 10px 0;
+}
+
+ul.cost_ex li span {
+  margin: 0 20px 0 0;
+  font-weight: 700;
+}
+
+/* warranty */
+.cure1-warranty-section {
+  width: 100%;
+  padding: 50px 0;
+  background-color: rgba(210, 190, 165, 0.2);
+}
+
+.cure1-warranty-section .wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.cure1-warranty-section h3.head {
+  margin-bottom: 30px;
+}
+
+.cure1-warranty-section p.lead {
+  margin-bottom: 30px;
+  line-height: 180%;
+  text-align: center;
+}
+
+.cure1-warranty-section .warranty {
+  line-height: 150%;
+}
+
+/* shinbi-whitening */
+.cure1-shinbi-whitening-section {
+  width: 100%;
+  padding: 100px 0;
+  background-color: #fafafa;
+}
+
+.cure1-shinbi-whitening-section .wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.cure1-shinbi-whitening-section h3.head {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.cure1-shinbi-whitening-section p.whitening {
+  line-height: 180%;
+  margin-bottom: 3 0px;
+  text-align: justify;
+}
+
+.cure1-shinbi-whitening-section p.anchor a {
+  margin-top: 30px;
+  display: block;
+  color: #08c;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 150%;
+  text-align: center;
+}
+
+/* lumineers */
+.cure1-lumineers-section {
+  max-width: 1000px;
+  padding: 100px 20px 0;
+  overflow: hidden;
+}
+
+.cure1-lumineers-section h3.head {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.cure1-lumineers-section .left {
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+
+.cure1-lumineers-section .right {
+  width: 400px;
+  float: right;
+  margin-left: 20px;
+}
+
+.cure1-lumineers-section p.limineers {
+  line-height: 180%;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+
+.cure1-lumineers-section .sub-head {
+  font-weight: 400;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.cure1-lumineers-section .detail {
+  line-height: 180%;
+}
+
+.cure1-lumineers-section .feature {
+  clear: both;
+  padding: 50px 0;
+}
+
+.cure1-lumineers-section .feature li {
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 150%;
+}
+
+.cure1-lumineers-section ul.cost_ex {
+  max-width: 1000px;
+  margin: 30px auto;
+  clear: both;
+}
+
+.cure1-lumineers-section p.anchor a {
+  margin-top: 30px;
+  display: block;
+  color: #08c;
+  cursor: pointer;
+  line-height: 150%;
+  font-weight: bold;
+}
+
+ul.cost_ex li {
+  margin: 0 0 10px 0;
+}
+
+ul.cost_ex li span {
+  margin: 0 20px 0 0;
+  font-weight: 700;
+}
+
+/* snapon */
+.cure1-snapon-section {
+  max-width: 1000px;
+  margin: 100px auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.cure1-snapon-section h3.head {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.cure1-snapon-section .left {
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+
+.cure1-snapon-section .right {
+  width: 50%;
+  float: right;
+}
+
+.cure1-snapon-section .left img {
+  width: 400px;
+  display: block;
+  margin-left: 0;
+}
+
+.cure1-snapon-section p.snapon {
+  line-height: 180%;
+  margin-bottom: 80px;
+  text-align: justify;
+}
+
+.cure1-snapon-section .sub-head {
+  font-weight: 400;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.cure1-snapon-section .detail {
+  line-height: 180%;
+  margin-bottom: 50px;
+}
+
+.cure1-snapon-section .list {
+  margin: 15px 0;
+  line-height: 180%;
+}
+
+.cure1-snapon-section .feature {
+  clear: both;
+  padding: 50px 0;
+}
+
+.cure1-snapon-section .feature li {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cure1-snapon-section h4.head {
+  clear: both;
+  text-align: center;
+  padding: 50px 0 30px;
+  font-weight: 400;
+}
+
+.cure1-snapon-section .oneday {
+  text-align: center;
+  line-height: 180%;
+  margin-bottom: 50px;
+  padding: 0 0 30px;
+}
+
+.cure1-snapon-section .wrapper {
+  max-width: 800px;
+  margin: 0 auto 100px;
+}
+
+/* ==========================================================
+	crown-bridge-inray-page
+========================================================== */
+/* outline */
+.crown-bridge-inray .cure1-outline-section {
+  max-width: 1000px;
+  padding: 100px 20px 0;
+}
+
+.crown-bridge-inray .cure1-outline-section h2.head {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+  line-height: 150%;
+}
+
+.crown-bridge-inray .cure1-outline-section p.intro {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  line-height: 200%;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+/* ceramic-features */
+.cure1-ceramic-features-section {
+  max-width: 1000px;
+  padding: 20px;
+  background-color: rgba(210, 190, 165, 0.3);
+}
+
+.cure1-ceramic-features-section p {
+  margin: 40px;
+  line-height: 180%;
+}
+
+.cure1-ceramic-features-section p span {
+  display: block;
+  margin: 10px 0 0;
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+
+.cure1-ceramic-features-section p.case {
+  margin: 40px;
+  line-height: 180%;
+}
+
+.cure1-ceramic-features-section p.case span {
+  display: block;
+  margin: 10px 0 0;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+/* zirconia-crown */
+.cure1-zirconia-crown-section {
+  max-width: 1000px;
+  margin: 100px auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.cure1-zirconia-crown-section .left {
+  width: 50%;
+  float: left;
+}
+
+.cure1-zirconia-crown-section .right {
+  text-align: center;
+}
+
+.cure1-zirconia-crown-section .right img {
+  width: 400px;
+  display: block;
+}
+
+.cure1-zirconia-crown-section h3.head {
+  margin-bottom: 30px;
+  letter-spacing: 0.2rem;
+  line-height: 150%;
+}
+
+.cure1-zirconia-crown-section p.zirconia-crown {
+  line-height: 180%;
+}
+
+/* fullzirconia-crown */
+.cure1-fullzirconia-crown-section {
+  max-width: 1000px;
+  margin: 100px auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.cure1-fullzirconia-crown-section .left {
+  text-align: center;
+}
+
+.cure1-fullzirconia-crown-section .right {
+  width: 50%;
+  float: right;
+}
+
+.cure1-fullzirconia-crown-section .left img {
+  width: 400px;
+  display: block;
+}
+
+.cure1-fullzirconia-crown-section h3.head {
+  margin-bottom: 30px;
+  letter-spacing: 0.2rem;
+}
+
+.cure1-fullzirconia-crown-section p.fullzirconia-crown {
+  line-height: 180%;
+}
+
+/* fullzirconia-trans */
+.cure1-zirconia-trans-section {
+  max-width: 1000px;
+  margin: 100px auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.cure1-zirconia-trans-section .left {
+  width: 50%;
+  float: left;
+}
+
+.cure1-zirconia-trans-section .right {
+  text-align: center;
+}
+
+.cure1-zirconia-trans-section .right img {
+  width: 400px;
+  display: block;
+}
+
+.cure1-zirconia-trans-section h3.head {
+  margin-bottom: 30px;
+  letter-spacing: 0.2rem;
+  line-height: 150%;
+}
+
+.cure1-zirconia-trans-section p.zirconia-trans {
+  line-height: 180%;
+}
+
+.cure1-zirconia-trans-section p.zirconia-trans span {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+/* ceramic-inlay */
+.cure1-ceramic-inlay-section {
+  max-width: 1000px;
+  margin: 100px auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.cure1-ceramic-inlay-section .left {
+  text-align: center;
+}
+
+.cure1-ceramic-inlay-section .right {
+  width: 50%;
+  float: right;
+}
+
+.cure1-ceramic-inlay-section .right img {
+  width: 400px;
+  display: block;
+}
+
+.cure1-ceramic-inlay-section h3.head {
+  margin-bottom: 30px;
+  letter-spacing: 0.2rem;
+}
+
+.cure1-ceramic-inlay-section p.ceramic-inlay {
+  line-height: 180%;
+}
+
+/* zirconia-inlay */
+.cure1-zirconia-inlay-section {
+  max-width: 1000px;
+  margin: 100px auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.cure1-zirconia-inlay-section .left {
+  width: 50%;
+  float: left;
+}
+
+.cure1-zirconia-inlay-section .right {
+  text-align: center;
+}
+
+.cure1-zirconia-inlay-section .left img {
+  width: 400px;
+  display: block;
+}
+
+.cure1-zirconia-inlay-section h3.head {
+  margin-bottom: 30px;
+  letter-spacing: 0.2rem;
+}
+
+.cure1-zirconia-inlay-section p.zirconia-inlay {
+  line-height: 180%;
+}
+
+.crown-bridge-inray ul.cost_ex {
+  max-width: 1000px;
+  margin: 10px auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+.crown-bridge-inray ul.cost_ex li span {
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+/* ==========================================================
+	lumineers-page
+========================================================== */
+/* header */
+.cure1-lumineers-header {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  background-image: url(../images/lumineers.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.cure1-lumineers-header h1.cure1-header-caption {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -70px;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+}
+
+.cure1-lumineers-header h2.cure1-header-caption {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+}
+
+/* outline */
+.lumineers .cure1-outline-section {
+  max-width: 1000px;
+  padding: 100px 20px 0;
+}
+
+.lumineers .cure1-outline-section h2.head {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+  line-height: 150%;
+}
+
+.lumineers .cure1-outline-section p.intro {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  line-height: 200%;
+  text-align: center;
+}
+
+.cure1-lumineers-page-section {
+  max-width: 1000px;
+  margin: 100px auto 0;
+  overflow: hidden;
+}
+
+.cure1-lumineers-page-section .bxcenter {
+  overflow: hidden;
+  max-width: 400px;
+  height: 400px;
+  padding: 0px 20px 0px;
+}
+
+.cure1-lumineers-page-section h3.head {
+  margin-bottom: 30px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.cure1-lumineers-page-section h4.intro {
+  margin-bottom: 30px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.cure1-lumineers-page-section p.lumineers {
+  margin-bottom: 80px;
+  line-height: 180%;
+}
+
+.cure1-lumineers-page-section .center {
+  clear: both;
+  max-width: 700px;
+  padding: 50px 20px 0;
+}
+
+.cure1-lumineers-page-section .center h4.head {
+  font-weight: 400;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.cure1-lumineers-page-section .center h4.head span {
+  color: #fd2802;
+  display: block;
+  margin-top: 10px;
+}
+
+.cure1-lumineers-page-section .center img {
+  display: block;
+  margin: 10px auto;
+  max-width: 800px;
+}
+
+.cure1-lumineers-page-section .sub-head {
+  font-weight: 400;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.cure1-lumineers-page-section .detail {
+  line-height: 180%;
+  margin-bottom: 50px;
+}
+
+.cure1-lumineers-page-section ul.detail li {
+  list-style: none;
+  list-style: circle;
+  line-height: 180%;
+  margin: 0 0 5px 20px;
+}
+
+.cure1-lumineers-page-section .list {
+  margin: 15px 0;
+  line-height: 180%;
+}
+
+.cure1-snapon-section .feature {
+  clear: both;
+  padding: 50px 0;
+}
+
+.cure1-snapon-section .feature li {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cure1-snapon-section h4.head {
+  clear: both;
+  text-align: center;
+  padding: 50px 0 30px;
+  font-weight: 400;
+}
+
+.cure1-snapon-section .oneday {
+  text-align: center;
+  line-height: 180%;
+  margin-bottom: 50px;
+  padding: 0 0 30px;
+}
+
+.cure1-lumineers-page-section .wrapper {
+  max-width: 800px;
+  margin: 0 auto 50px;
+  padding: 0 20px;
+}
+
+/* difference */
+.cure1-difference-section {
+  max-width: 1000px;
+  padding: 50px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #f6f2ed;
+}
+
+.cure1-difference-section h3.head {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.cure1-difference-section p.difference-anchor {
+  margin: 50px auto 0;
+  padding-bottom: 30px;
+  color: #08c;
+  text-align: center;
+  cursor: pointer;
+  line-height: 150%;
+}
+
+.cure1-difference-section p.difference-anchor:hover {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.cure1-difference-section p.difference {
+  margin: 0 auto 30px;
+  line-height: 180%;
+}
+
+.cure1-difference-section p.difference-sub {
+  margin: 0 auto;
+  line-height: 180%;
+}
+
+/* onehour */
+.cure1-onehour-section {
+  max-width: 1000px;
+  margin: 100px auto 50px;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.cure1-snapon-section p.snapon {
+  line-height: 180%;
+  margin-bottom: 80px;
+  text-align: justify;
+}
+
+.cure1-onehour-section .sub-head {
+  font-weight: 400;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.cure1-onehour-section .detail {
+  line-height: 180%;
+  margin-bottom: 30px;
+}
+
+.cure1-onehour-section .list {
+  margin: 15px 0;
+  line-height: 180%;
+}
+
+.cure1-snapon-section .feature {
+  clear: both;
+  padding: 50px 0;
+}
+
+.cure1-snapon-section .feature li {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cure1-onehour-section h4.head {
+  clear: both;
+  text-align: center;
+  padding: 0px 0 30px;
+  font-weight: 400;
+}
+
+.cure1-onehour-section .oneday {
+  text-align: center;
+  line-height: 180%;
+  margin-bottom: 50px;
+}
+
+.cure1-onehour-section .wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* payment */
+.cure1-payment-section {
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 80px;
+}
+
+.cure1-payment-section .alignment-price h5.head {
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.cure1-payment-section .alignment-price h5.head span {
+  display: block;
+  margin-top: 10px;
+}
+
+.cure1-payment-section .alignment-price p.item {
+  margin-bottom: 10px;
+}
+
+.cure1-payment-section .alignment-price p.result {
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.cure1-payment-section .alignment-price p.yoyaku {
+  text-align: center;
+  font-weight: 500;
+  padding: 5px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.cure1-payment-section .alignment-price p.yoyaku a {
+  background-color: #d93600;
+  letter-spacing: normal;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.cure1-payment-section .alignment-price h6.head {
+  text-align: center;
+  margin: 50px auto 20px;
+  max-width: 300px;
+  padding: 5px;
+  display: block;
+  background-color: #f6f2ed;
+}
+
+.cure1-payment-section .alignment-price table {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.cure1-payment-section .alignment-price table tr {
+  border-bottom: 1px solid #f6f2ed;
+  padding: 10px;
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+}
+
+.cure1-payment-section .alignment-price table tr th {
+  width: 350px;
+  text-align: left;
+}
+
+.cure1-payment-section .alignment-price table tr td {
+  font-weight: 400;
+  text-align: right;
+  width: 150px;
+}
+
+.cure1-payment-section .alignment-price .comment {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  font-weight: 400;
+  padding: 20px;
+  line-height: 150%;
+}
+
+/* credit */
+.cure1-credit-section {
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 80px;
+  background-color: #f6f2ed;
+}
+
+.cure1-credit-section .payment-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 100px 20px 20px;
+  overflow: hidden;
+}
+
+.cure1-credit-section .payment-intro {
+  letter-spacing: 0.2rem;
+  text-align: center;
+  line-height: 180%;
+}
+
+.cure1-credit-section .payment-intro span.l2 {
+  color: #333;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.cure1-credit-section .payment-intro span {
+  color: #fd2802;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.cure1-credit-section .left {
+  width: 400px;
+  float: left;
+}
+
+.cure1-credit-section .right {
+  width: 400px;
+  float: right;
+}
+
+.cure1-credit-section .left img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding: 20px 0;
+}
+
+.cure1-credit-section .alignment-anchor {
+  margin: 30px auto 0;
+  padding-bottom: 30px;
+  color: #08c;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  line-height: 150%;
+}
+
+.cure1-credit-section .alignment-anchor:hover {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.cure1-credit-section .right a.credit-anchor {
+  margin: 30px auto 0;
+  color: #08c;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  line-height: 150%;
+}
+
+.cure1-credit-section .right a.credit-anchor:hover {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.cure1-credit-section h4.head {
+  font-weight: 400;
+  margin-bottom: 20px;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
+.cure1-credit-section p.card,
+.cure1-credit-section p.credit {
+  line-height: 180%;
+}
+
+/* ==========================================================
+	whitening-page
+========================================================== */
+/* header */
+.cure1-header.white {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  background-image: url(../images/cure1-header2.png);
+  background-position: center;
+  background-size: cover;
+}
+
+/* outline */
+.whitening .cure1-outline-section {
+  max-width: 1000px;
+  padding: 100px 20px 0;
+}
+
+.whitening .cure1-outline-section h2.head {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+  line-height: 150%;
+}
+
+.whitening .cure1-outline-section p.intro {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  line-height: 200%;
+  text-align: center;
+}
+
+.whitening .cure1-howtowhitening-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.whitening .cure1-howtowhitening-section h2.head {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin: 50px 0 10px;
+  line-height: 150%;
+}
+
+.whitening .cure1-howtowhitening-section h2.head br {
+  display: none;
+}
+
+.whitening .cure1-howtowhitening-section h3.head {
+  text-align: left;
+  font-weight: 400;
+  text-indent: 0.5rem;
+  margin: 50px 0 10px;
+  line-height: 150%;
+}
+
+.whitening .cure1-howtowhitening-section p.howtowhitening {
+  margin: 0 auto;
+  line-height: 150%;
+  text-align: left;
+}
+
+/* office-whitening */
+.cure1-office-whitening-section {
+  width: 100%;
+  background-color: #fafafa;
+}
+
+.cure1-office-whitening-section .wrapper {
+  max-width: 1000px;
+  padding: 100px 20px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.cure1-office-whitening-section .left {
+  width: 50%;
+  float: left;
+  padding: 0 20px;
+}
+
+.cure1-office-whitening-section .right {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.cure1-office-whitening-section .right img {
+  width: 400px;
+  height: 400px;
+  display: block;
+}
+
+.cure1-office-whitening-section h3.head {
+  margin-bottom: 30px;
+  line-height: 150%;
+}
+
+.cure1-office-whitening-section h4.intro {
+  margin-bottom: 30px;
+  line-height: 150%;
+}
+
+.cure1-office-whitening-section p.office-whitening {
+  margin-bottom: 30px;
+  line-height: 180%;
+}
+
+.cure1-office-whitening-section .center {
+  clear: both;
+  max-width: 700px;
+  padding: 50px 0 0;
+}
+
+.cure1-office-whitening-section .center h4.head {
+  font-weight: 400;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.cure1-office-whitening-section .center h4.head span {
+  color: #fd2802;
+  display: block;
+  margin-top: 10px;
+}
+
+.cure1-office-whitening-section .center .xtra {
+  margin-bottom: 0px;
+  line-height: 150%;
+  padding: 0 20px;
+}
+
+.cure1-office-whitening-section .center img {
+  display: block;
+  margin: 10px auto;
+  width: 400px;
+}
+
+.cure1-office-whitening-section .center .comment {
+  margin: 50px 0 0;
+  line-height: 150%;
+  color: #fd2802;
+}
+
+/* home-whitening */
+.cure1-home-whitening-section {
+  max-width: 1000px;
+  margin: 100px auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.cure1-home-whitening-section .left {
+  text-align: center;
+}
+
+.cure1-home-whitening-section .right {
+  width: 50%;
+  float: right;
+}
+
+.cure1-home-whitening-section .left img {
+  width: 400px;
+  display: block;
+}
+
+.cure1-home-whitening-section h3.head {
+  margin-bottom: 30px;
+}
+
+.cure1-home-whitening-section h4.intro {
+  margin-bottom: 30px;
+  line-height: 150%;
+}
+
+.cure1-home-whitening-section p.home-whitening {
+  margin-bottom: 30px;
+  line-height: 180%;
+}
+
+.cure1-home-whitening-section .annotation {
+  margin-top: 30px;
+  padding: 30px;
+  background-color: #efefef;
+}
+
+.cure1-home-whitening-section .annotation h4 {
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cure1-home-whitening-section .annotation p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cure1-home-whitening-section .annotation ul li {
+  list-style-type: circle;
+  line-height: 150%;
+}
+
+/* ==========================================================
+	case-page
+========================================================== */
+/* case */
+.case-header {
+  width: 100%;
+  height: 100px;
+  margin-top: 100px;
+  position: relative;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+}
+
+.case-header .case-header-caption {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+}
+
+/* outline */
+.case-section {
+  max-width: 1000px;
+  padding: 0px 0px 100px;
+  margin: 0 auto;
+}
+
+.case-section img {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.case-section img.right {
+  width: 300px;
+  display: block;
+  float: right;
+  margin: 0 0 20px 20px;
+}
+
+.case-section img.left {
+  width: 300px;
+  display: block;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.case-section .contents-text {
+  text-align: left;
+  line-height: 200%;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+.case-section a.case-anchor {
+  color: #08C;
+  display: block;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.case-section a.case-anchor:hover {
+  text-decoration: underline;
+}
+
+/* ==========================================================
+	bridal-page
+========================================================== */
+/* header */
+.cure1-header.bridal {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  background-image: url(../images/cure1-header4.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.cure1-header.bridal .cure1-header-caption {
+  color: #333;
+}
+
+/* outline */
+.bridal .cure1-outline-section {
+  max-width: 1000px;
+  padding: 100px 20px 20px;
+}
+
+.bridal .cure1-outline-section h2.head {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+  line-height: 150%;
+}
+
+.bridal .cure1-outline-section p.intro {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  line-height: 200%;
+  text-align: center;
+}
+
+.bridal .cure1-outline-section p.intro2 {
+  margin: 40px auto 0;
+  letter-spacing: 0.2rem;
+  line-height: 200%;
+  text-align: justify;
+}
+
+.bridal .cure1-outline-section p.intro2 span {
+  color: #ff0000;
+}
+
+.cure1-bridal-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 0 100px;
+}
+
+.cure1-bridal-section h2.head {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 0.5rem;
+  margin: 50px 0 10px;
+  line-height: 150%;
+}
+
+.cure1-bridal-section h2.head br {
+  display: none;
+}
+
+.cure1-bridal-section h3.head {
+  text-align: left;
+  font-weight: 500;
+  margin: 50px 0 30px;
+  padding-bottom: 20px;
+  line-height: 150%;
+  border-bottom: 1px solid #d2bea5;
+}
+
+.cure1-bridal-section h3.head span {
+  text-align: left;
+  padding-bottom: 10px;
+  line-height: 150%;
+  font-size: 1.6rem;
+}
+
+.cure1-bridal-section .subhead {
+  margin: 0 0 20px;
+}
+
+.cure1-bridal-section .plan {
+  background-color: rgba(210, 190, 165, 0.5);
+  padding: 10px;
+  color: #333;
+  margin: 0 0 50px;
+}
+
+.cure1-bridal-section .plan span {
+  font-weight: 500;
+  float: right;
+  color: #ff0000;
+}
+
+.cure1-bridal-section .plan span span {
+  font-weight: 400;
+  font-size: 1.2rem;
+  float: right;
+  margin-top: 5px;
+}
+
+.cure1-bridal-section .comment {
+  text-align: justify;
+  line-height: 200%;
+}
+
+.cure1-bridal-section .comment span {
+  color: #ff0000;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.cure1-bridal-section .comment a {
+  color: #08c;
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 1050px) {
+  .cure1-ceramic-section .left, .cure1-ceramic-section .right {
+    float: none;
+  }
+  .cure1-laminate-section .right {
+    width: 43.75vw;
+  }
+  .cure1-composite-section .left {
+    width: 43.75vw;
+  }
+  .cure1-lumineers-section .right {
+    width: 43.75vw;
+  }
+  .cure1-snapon-section .left {
+    width: 43.75vw;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .proportion-about-section {
+    padding-bottom: 50px;
+  }
+  .cure1-collaboration-section .wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .cure1-ceramic-section {
+    margin: 50px auto;
+  }
+  .cure1-ceramic-section .medical-flow {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  .cure1-ceramic-section .medical-flow br {
+    display: none;
+  }
+  .cure1-ceramic-section .intro br {
+    display: none;
+  }
+  .cure1-ceramic-section .ceramic br {
+    display: none;
+  }
+  p.blogbanner a {
+    width: 240px;
+    padding: 10px 30px;
+    line-height: 1.5;
+    font-size: 1.5rem;
+  }
+  .case-section img.left, .case-section img.right {
+    float: none;
+    margin: 20px auto;
+    max-width: 250px;
+    width: 100%;
+  }
+  .case-header {
+    margin-top: 50px;
+  }
+  .case-section .contents-text {
+    margin-bottom: 30px;
+  }
+  p.blogbanner a {
+    margin: 50px auto;
+  }
+  .cure1-laminate-section {
+    margin-top: 70px;
+  }
+  .cure1-laminate-section .right {
+    margin-left: 5px;
+  }
+  .cure1-grinding-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .cure1-composite-section {
+    padding-top: 50px;
+  }
+  .cure1-composite-section h3.head {
+    text-align: left;
+  }
+  .cure1-composite-section h3.head br {
+    display: none;
+  }
+  .cure1-shinbi-whitening-section {
+    padding: 50px 0;
+  }
+  .cure1-shinbi-whitening-section h3.head {
+    margin-bottom: 30px;
+  }
+  .cure1-lumineers-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .cure1-snapon-section {
+    margin-top: 50px;
+  }
+  .cure1-snapon-section .wrapper {
+    margin-bottom: 0;
+  }
+  .cure1-snapon-section h3.head {
+    margin-bottom: 30px;
+  }
+  .cure1-snapon-section p.snapon {
+    margin-bottom: 50px;
+  }
+  .cure1-snapon-section .left, .cure1-snapon-section .right {
+    float: none;
+    width: 100%;
+  }
+  .cure1-snapon-section .left {
+    max-width: 250px;
+    margin-bottom: 20px;
+  }
+  .cure1-snapon-section .list br {
+    display: none;
+  }
+  .cure1-snapon-section .oneday br {
+    display: none;
   }
 }
 

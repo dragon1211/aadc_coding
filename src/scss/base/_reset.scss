@@ -57,8 +57,17 @@ select {
     }
 }
 
-ul{ list-style: none;}
+a {
+	text-decoration: none;
+	outline: none;
+}
 
-a{
-    text-decoration: none !important;
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style: none;
 }

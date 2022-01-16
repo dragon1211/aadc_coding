@@ -34,4 +34,19 @@ $(document).ready(function () {
         },
       }
   })
+
+  new Swiper ('.shinbi-teeth__section .swiper-container', {
+
+    direction: 'horizontal',
+    loop: true,
+    zoom: true,
+    speed: 3000,
+
+    slidesPerView: 1,
+    spaceBetween: 20,
+    autoplay: {
+      delay: 10000,
+      disableOnInteraction: false,
+    },
+})
 });
