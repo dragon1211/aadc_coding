@@ -93,6 +93,7 @@ li {
 html {
   font-size: 62.5%;
   color: #333;
+  font-weight: 300;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -7364,6 +7365,479 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
+/* ==========================================================
+	bridal-page
+========================================================== */
+/* header */
+.cure1-header.bridal {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  background-image: url(../images/cure1-header4.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.cure1-header.bridal .cure1-header-caption {
+  color: #333;
+}
+
+/* outline */
+.bridal .cure1-outline-section {
+  max-width: 1000px;
+  padding: 100px 20px 20px;
+}
+
+.bridal .cure1-outline-section h2.head {
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+  line-height: 150%;
+}
+
+.bridal .cure1-outline-section p.intro {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  line-height: 200%;
+  text-align: center;
+}
+
+.bridal .cure1-outline-section p.intro2 {
+  margin: 40px auto 0;
+  letter-spacing: 0.2rem;
+  line-height: 200%;
+  text-align: justify;
+}
+
+.bridal .cure1-outline-section p.intro2 span {
+  color: #ff0000;
+}
+
+.cure1-bridal-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 0 100px;
+}
+
+.cure1-bridal-section h2.head {
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  margin: 50px 0 10px;
+  line-height: 150%;
+}
+
+.cure1-bridal-section h2.head br {
+  display: none;
+}
+
+.cure1-bridal-section h3.head {
+  text-align: left;
+  font-weight: 500;
+  margin: 50px 0 30px;
+  padding-bottom: 20px;
+  line-height: 150%;
+  border-bottom: 1px solid #d2bea5;
+}
+
+.cure1-bridal-section h3.head span {
+  text-align: left;
+  padding-bottom: 10px;
+  line-height: 150%;
+  font-size: 1.6rem;
+}
+
+.cure1-bridal-section .subhead {
+  margin: 0 0 20px;
+}
+
+.cure1-bridal-section .plan {
+  background-color: rgba(210, 190, 165, 0.5);
+  padding: 10px;
+  color: #333;
+  margin: 0 0 50px;
+}
+
+.cure1-bridal-section .plan span {
+  font-weight: 500;
+  float: right;
+  color: #ff0000;
+}
+
+.cure1-bridal-section .plan span span {
+  font-weight: 400;
+  font-size: 1.2rem;
+  float: right;
+  margin-top: 5px;
+}
+
+.cure1-bridal-section .comment {
+  text-align: justify;
+  line-height: 200%;
+}
+
+.cure1-bridal-section .comment span {
+  color: #ff0000;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.cure1-bridal-section .comment a {
+  color: #08c;
+  font-size: 1.4rem;
+}
+
+/* ==========================================================
+	case-page
+========================================================== */
+/* case */
+.case-header {
+  width: 100%;
+  height: 100px;
+  margin-top: 100px;
+  position: relative;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+}
+
+.case-header .case-header-caption {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+}
+
+/* outline */
+.case-section {
+  max-width: 1000px;
+  padding: 0px 0px 100px;
+  margin: 0 auto;
+}
+
+.case-section img {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.case-section img.right {
+  width: 300px;
+  display: block;
+  float: right;
+  margin: 0 0 20px 20px;
+}
+
+.case-section img.left {
+  width: 300px;
+  display: block;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.case-section .contents-text {
+  text-align: left;
+  line-height: 200%;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+.case-section a.case-anchor {
+  color: #08C;
+  display: block;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.case-section a.case-anchor:hover {
+  text-decoration: underline;
+}
+
+/* ==========================================================
+	crown-bridge-inray-page
+========================================================== */
+/* outline */
+.crown-bridge-inray .cure1-outline-section {
+  max-width: 1000px;
+  padding: 100px 20px 0;
+  margin: auto;
+}
+
+.crown-bridge-inray .cure1-outline-section h2.head {
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+  line-height: 150%;
+}
+
+.crown-bridge-inray .cure1-outline-section p.intro {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  line-height: 200%;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+/* ceramic-features */
+.cure1-ceramic-features-section {
+  max-width: 1000px;
+  padding: 20px;
+  background-color: rgba(210, 190, 165, 0.3);
+  margin: auto;
+}
+
+.cure1-ceramic-features-section p {
+  margin: 40px;
+  line-height: 180%;
+}
+
+.cure1-ceramic-features-section p span {
+  display: block;
+  margin: 10px 0;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+
+.cure1-ceramic-features-section p.case {
+  margin: 40px;
+  line-height: 180%;
+}
+
+.cure1-ceramic-features-section p.case span {
+  display: block;
+  margin: 10px 0;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+/* zirconia-crown */
+.cure1-zirconia-crown-section {
+  max-width: 1000px;
+  margin: 100px auto;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cure1-zirconia-crown-section .left {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.cure1-zirconia-crown-section .right {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.cure1-zirconia-crown-section .right img {
+  width: 400px;
+  display: block;
+}
+
+.cure1-zirconia-crown-section h3.head {
+  margin-bottom: 30px;
+  letter-spacing: 0.2rem;
+  line-height: 150%;
+}
+
+.cure1-zirconia-crown-section p.zirconia-crown {
+  line-height: 180%;
+}
+
+/* fullzirconia-crown */
+.cure1-fullzirconia-crown-section {
+  max-width: 1000px;
+  margin: 100px auto;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cure1-fullzirconia-crown-section .left {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.cure1-fullzirconia-crown-section .left img {
+  width: 400px;
+  display: block;
+}
+
+.cure1-fullzirconia-crown-section .right {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.cure1-fullzirconia-crown-section h3.head {
+  margin-bottom: 30px;
+  letter-spacing: 0.2rem;
+}
+
+.cure1-fullzirconia-crown-section p.fullzirconia-crown {
+  line-height: 180%;
+}
+
+/* fullzirconia-trans */
+.cure1-zirconia-trans-section {
+  max-width: 1000px;
+  margin: 100px auto;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cure1-zirconia-trans-section .left {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.cure1-zirconia-trans-section .right {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.cure1-zirconia-trans-section .right img {
+  width: 400px;
+  display: block;
+}
+
+.cure1-zirconia-trans-section h3.head {
+  margin-bottom: 30px;
+  letter-spacing: 0.2rem;
+  line-height: 150%;
+}
+
+.cure1-zirconia-trans-section p.zirconia-trans {
+  line-height: 180%;
+}
+
+.cure1-zirconia-trans-section p.zirconia-trans span {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+/* ceramic-inlay */
+.cure1-ceramic-inlay-section {
+  max-width: 1000px;
+  margin: 100px auto;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cure1-ceramic-inlay-section .left {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.cure1-ceramic-inlay-section .right {
+  width: 50%;
+  padding: 0 20px;
+  float: right;
+}
+
+.cure1-ceramic-inlay-section .right img {
+  width: 400px;
+  display: block;
+}
+
+.cure1-ceramic-inlay-section h3.head {
+  margin-bottom: 30px;
+  letter-spacing: 0.2rem;
+}
+
+.cure1-ceramic-inlay-section p.ceramic-inlay {
+  line-height: 180%;
+}
+
+/* zirconia-inlay */
+.cure1-zirconia-inlay-section {
+  max-width: 1000px;
+  margin: 100px auto;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cure1-zirconia-inlay-section .left {
+  width: 50%;
+  float: left;
+  padding: 0 20px;
+}
+
+.cure1-zirconia-inlay-section .left img {
+  width: 400px;
+  display: block;
+}
+
+.cure1-zirconia-inlay-section .right {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.cure1-zirconia-inlay-section h3.head {
+  margin-bottom: 30px;
+  letter-spacing: 0.2rem;
+}
+
+.cure1-zirconia-inlay-section p.zirconia-inlay {
+  line-height: 180%;
+}
+
+.crown-bridge-inray ul.cost_ex {
+  max-width: 1000px;
+  margin: 10px auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.crown-bridge-inray ul.cost_ex li span {
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .crown-bridge-inray .cure1-outline-section {
+    padding-top: 0;
+  }
+  .crown-bridge-inray .cure1-outline-section p.intro br {
+    display: none;
+  }
+  .cure1-ceramic-features-section p {
+    margin: 40px 0;
+  }
+  .cure1-ceramic-features-section p.case {
+    margin: 40px 0px;
+  }
+}
+
 .eom-nav__container {
   max-width: 1040px;
   padding: 0 20px;
@@ -7449,8 +7923,7 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .eom-heading__caption {
-  margin: 100px 0 110px 0;
-  padding: 0 20px;
+  padding: 100px 20px 110px 20px;
   color: #333333;
   text-align: center;
 }
@@ -7469,7 +7942,7 @@ Copyright (c) 2013 Daniel Eden
 
 @media screen and (max-width: 576px) {
   .eom-heading__caption {
-    margin: 50px 0 70px 0;
+    padding: 50px 20px 70px 20px;
   }
   .eom-heading span.jp {
     font-size: 2.8rem;
@@ -7560,6 +8033,445 @@ Copyright (c) 2013 Daniel Eden
   .eom-content__mainvisual--caption {
     font-size: 4.61538vw;
   }
+}
+
+/* ==========================================================
+	lumineers-page
+========================================================== */
+/* header */
+.cure1-lumineers-header {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  background-image: url(../images/lumineers.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.cure1-lumineers-header h1.cure1-header-caption {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -70px;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+}
+
+.cure1-lumineers-header h2.cure1-header-caption {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+}
+
+/* outline */
+.lumineers .cure1-outline-section {
+  max-width: 1000px;
+  padding: 100px 20px 0;
+}
+
+.lumineers .cure1-outline-section h2.head {
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+  line-height: 150%;
+}
+
+.lumineers .cure1-outline-section p.intro {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  line-height: 200%;
+  text-align: center;
+}
+
+.cure1-lumineers-page-section {
+  max-width: 1000px;
+  margin: 100px auto 0;
+  overflow: hidden;
+}
+
+.cure1-lumineers-page-section .bxcenter {
+  overflow: hidden;
+  max-width: 400px;
+  height: 400px;
+  padding: 0px 20px 0px;
+}
+
+.cure1-lumineers-page-section h3.head {
+  margin-bottom: 30px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.cure1-lumineers-page-section h4.intro {
+  margin-bottom: 30px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.cure1-lumineers-page-section p.lumineers {
+  margin-bottom: 80px;
+  line-height: 180%;
+}
+
+.cure1-lumineers-page-section .center {
+  clear: both;
+  max-width: 700px;
+  padding: 50px 20px 0;
+}
+
+.cure1-lumineers-page-section .center h4.head {
+  font-weight: 400;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.cure1-lumineers-page-section .center h4.head span {
+  color: #fd2802;
+  display: block;
+  margin-top: 10px;
+}
+
+.cure1-lumineers-page-section .center img {
+  display: block;
+  margin: 10px auto;
+  max-width: 800px;
+}
+
+.cure1-lumineers-page-section .sub-head {
+  font-weight: 400;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.cure1-lumineers-page-section .detail {
+  line-height: 180%;
+  margin-bottom: 50px;
+}
+
+.cure1-lumineers-page-section ul.detail li {
+  list-style: none;
+  list-style: circle;
+  line-height: 180%;
+  margin: 0 0 5px 20px;
+}
+
+.cure1-lumineers-page-section .list {
+  margin: 15px 0;
+  line-height: 180%;
+}
+
+.cure1-snapon-section .feature {
+  clear: both;
+  padding: 50px 0;
+}
+
+.cure1-snapon-section .feature li {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cure1-snapon-section h4.head {
+  clear: both;
+  text-align: center;
+  padding: 50px 0 30px;
+  font-weight: 400;
+}
+
+.cure1-snapon-section .oneday {
+  text-align: center;
+  line-height: 180%;
+  margin-bottom: 50px;
+  padding: 0 0 30px;
+}
+
+.cure1-lumineers-page-section .wrapper {
+  max-width: 800px;
+  margin: 0 auto 50px;
+  padding: 0 20px;
+}
+
+/* difference */
+.cure1-difference-section {
+  max-width: 1000px;
+  padding: 50px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #f6f2ed;
+}
+
+.cure1-difference-section h3.head {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.cure1-difference-section p.difference-anchor {
+  margin: 50px auto 0;
+  padding-bottom: 30px;
+  color: #08c;
+  text-align: center;
+  cursor: pointer;
+  line-height: 150%;
+}
+
+.cure1-difference-section p.difference-anchor:hover {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.cure1-difference-section p.difference {
+  margin: 0 auto 30px;
+  line-height: 180%;
+}
+
+.cure1-difference-section p.difference-sub {
+  margin: 0 auto;
+  line-height: 180%;
+}
+
+/* onehour */
+.cure1-onehour-section {
+  max-width: 1000px;
+  margin: 100px auto 50px;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.cure1-snapon-section p.snapon {
+  line-height: 180%;
+  margin-bottom: 80px;
+  text-align: justify;
+}
+
+.cure1-onehour-section .sub-head {
+  font-weight: 400;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.cure1-onehour-section .detail {
+  line-height: 180%;
+  margin-bottom: 30px;
+}
+
+.cure1-onehour-section .list {
+  margin: 15px 0;
+  line-height: 180%;
+}
+
+.cure1-snapon-section .feature {
+  clear: both;
+  padding: 50px 0;
+}
+
+.cure1-snapon-section .feature li {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cure1-onehour-section h4.head {
+  clear: both;
+  text-align: center;
+  padding: 0px 0 30px;
+  font-weight: 400;
+}
+
+.cure1-onehour-section .oneday {
+  text-align: center;
+  line-height: 180%;
+  margin-bottom: 50px;
+}
+
+.cure1-onehour-section .wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* payment */
+.cure1-payment-section {
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 80px;
+}
+
+.cure1-payment-section .alignment-price h5.head {
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.cure1-payment-section .alignment-price h5.head span {
+  display: block;
+  margin-top: 10px;
+}
+
+.cure1-payment-section .alignment-price p.item {
+  margin-bottom: 10px;
+}
+
+.cure1-payment-section .alignment-price p.result {
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.cure1-payment-section .alignment-price p.yoyaku {
+  text-align: center;
+  font-weight: 500;
+  padding: 5px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.cure1-payment-section .alignment-price p.yoyaku a {
+  background-color: #d93600;
+  letter-spacing: normal;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.cure1-payment-section .alignment-price h6.head {
+  text-align: center;
+  margin: 50px auto 20px;
+  max-width: 300px;
+  padding: 5px;
+  display: block;
+  background-color: #f6f2ed;
+}
+
+.cure1-payment-section .alignment-price table {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.cure1-payment-section .alignment-price table tr {
+  border-bottom: 1px solid #f6f2ed;
+  padding: 10px;
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+}
+
+.cure1-payment-section .alignment-price table tr th {
+  width: 350px;
+  text-align: left;
+}
+
+.cure1-payment-section .alignment-price table tr td {
+  font-weight: 400;
+  text-align: right;
+  width: 150px;
+}
+
+.cure1-payment-section .alignment-price .comment {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  font-weight: 400;
+  padding: 20px;
+  line-height: 150%;
+}
+
+/* credit */
+.cure1-credit-section {
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 80px;
+  background-color: #f6f2ed;
+}
+
+.cure1-credit-section .payment-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 100px 20px 20px;
+  overflow: hidden;
+}
+
+.cure1-credit-section .payment-intro {
+  letter-spacing: 0.2rem;
+  text-align: center;
+  line-height: 180%;
+}
+
+.cure1-credit-section .payment-intro span.l2 {
+  color: #333;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.cure1-credit-section .payment-intro span {
+  color: #fd2802;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.cure1-credit-section .left {
+  width: 400px;
+  float: left;
+}
+
+.cure1-credit-section .right {
+  width: 400px;
+  float: right;
+}
+
+.cure1-credit-section .left img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding: 20px 0;
+}
+
+.cure1-credit-section .alignment-anchor {
+  margin: 30px auto 0;
+  padding-bottom: 30px;
+  color: #08c;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  line-height: 150%;
+}
+
+.cure1-credit-section .alignment-anchor:hover {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.cure1-credit-section .right a.credit-anchor {
+  margin: 30px auto 0;
+  color: #08c;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  line-height: 150%;
+}
+
+.cure1-credit-section .right a.credit-anchor:hover {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.cure1-credit-section h4.head {
+  font-weight: 400;
+  margin-bottom: 20px;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
+.cure1-credit-section p.card,
+.cure1-credit-section p.credit {
+  line-height: 180%;
 }
 
 .shinbi-content__mainvisual {
@@ -7708,6 +8620,10 @@ Copyright (c) 2013 Daniel Eden
   .shinbi-teeth__section {
     padding: 70px 0 50px 0;
   }
+}
+
+.crown-content {
+  margin-bottom: 100px;
 }
 
 /* ==========================================================
@@ -8495,676 +9411,127 @@ ul.cost_ex li span {
   margin: 0 auto 100px;
 }
 
-/* ==========================================================
-	crown-bridge-inray-page
-========================================================== */
-/* outline */
-.crown-bridge-inray .cure1-outline-section {
-  max-width: 1000px;
-  padding: 100px 20px 0;
-}
-
-.crown-bridge-inray .cure1-outline-section h2.head {
-  text-align: center;
-  font-weight: 100;
-  letter-spacing: 0.5rem;
-  text-indent: 0.5rem;
-  margin-bottom: 50px;
-  line-height: 150%;
-}
-
-.crown-bridge-inray .cure1-outline-section p.intro {
-  margin: 0 auto;
-  letter-spacing: 0.2rem;
-  line-height: 200%;
-  text-align: center;
-  padding-bottom: 30px;
-}
-
-/* ceramic-features */
-.cure1-ceramic-features-section {
-  max-width: 1000px;
-  padding: 20px;
-  background-color: rgba(210, 190, 165, 0.3);
-}
-
-.cure1-ceramic-features-section p {
-  margin: 40px;
-  line-height: 180%;
-}
-
-.cure1-ceramic-features-section p span {
-  display: block;
-  margin: 10px 0 0;
-  font-weight: 400;
-  font-size: 1.7rem;
-}
-
-.cure1-ceramic-features-section p.case {
-  margin: 40px;
-  line-height: 180%;
-}
-
-.cure1-ceramic-features-section p.case span {
-  display: block;
-  margin: 10px 0 0;
-  font-weight: 500;
-  font-size: 1.5rem;
-}
-
-/* zirconia-crown */
-.cure1-zirconia-crown-section {
-  max-width: 1000px;
-  margin: 100px auto;
-  overflow: hidden;
-  padding: 0 20px;
-}
-
-.cure1-zirconia-crown-section .left {
-  width: 50%;
-  float: left;
-}
-
-.cure1-zirconia-crown-section .right {
-  text-align: center;
-}
-
-.cure1-zirconia-crown-section .right img {
-  width: 400px;
-  display: block;
-}
-
-.cure1-zirconia-crown-section h3.head {
-  margin-bottom: 30px;
-  letter-spacing: 0.2rem;
-  line-height: 150%;
-}
-
-.cure1-zirconia-crown-section p.zirconia-crown {
-  line-height: 180%;
-}
-
-/* fullzirconia-crown */
-.cure1-fullzirconia-crown-section {
-  max-width: 1000px;
-  margin: 100px auto;
-  overflow: hidden;
-  padding: 0 20px;
-}
-
-.cure1-fullzirconia-crown-section .left {
-  text-align: center;
-}
-
-.cure1-fullzirconia-crown-section .right {
-  width: 50%;
-  float: right;
-}
-
-.cure1-fullzirconia-crown-section .left img {
-  width: 400px;
-  display: block;
-}
-
-.cure1-fullzirconia-crown-section h3.head {
-  margin-bottom: 30px;
-  letter-spacing: 0.2rem;
-}
-
-.cure1-fullzirconia-crown-section p.fullzirconia-crown {
-  line-height: 180%;
-}
-
-/* fullzirconia-trans */
-.cure1-zirconia-trans-section {
-  max-width: 1000px;
-  margin: 100px auto;
-  overflow: hidden;
-  padding: 0 20px;
-}
-
-.cure1-zirconia-trans-section .left {
-  width: 50%;
-  float: left;
-}
-
-.cure1-zirconia-trans-section .right {
-  text-align: center;
-}
-
-.cure1-zirconia-trans-section .right img {
-  width: 400px;
-  display: block;
-}
-
-.cure1-zirconia-trans-section h3.head {
-  margin-bottom: 30px;
-  letter-spacing: 0.2rem;
-  line-height: 150%;
-}
-
-.cure1-zirconia-trans-section p.zirconia-trans {
-  line-height: 180%;
-}
-
-.cure1-zirconia-trans-section p.zirconia-trans span {
-  display: block;
-  margin: 10px 0 5px;
-  font-weight: 400;
-  font-size: 1.6rem;
-}
-
-/* ceramic-inlay */
-.cure1-ceramic-inlay-section {
-  max-width: 1000px;
-  margin: 100px auto;
-  overflow: hidden;
-  padding: 0 20px;
-}
-
-.cure1-ceramic-inlay-section .left {
-  text-align: center;
-}
-
-.cure1-ceramic-inlay-section .right {
-  width: 50%;
-  float: right;
-}
-
-.cure1-ceramic-inlay-section .right img {
-  width: 400px;
-  display: block;
-}
-
-.cure1-ceramic-inlay-section h3.head {
-  margin-bottom: 30px;
-  letter-spacing: 0.2rem;
-}
-
-.cure1-ceramic-inlay-section p.ceramic-inlay {
-  line-height: 180%;
-}
-
-/* zirconia-inlay */
-.cure1-zirconia-inlay-section {
-  max-width: 1000px;
-  margin: 100px auto;
-  overflow: hidden;
-  padding: 0 20px;
-}
-
-.cure1-zirconia-inlay-section .left {
-  width: 50%;
-  float: left;
-}
-
-.cure1-zirconia-inlay-section .right {
-  text-align: center;
-}
-
-.cure1-zirconia-inlay-section .left img {
-  width: 400px;
-  display: block;
-}
-
-.cure1-zirconia-inlay-section h3.head {
-  margin-bottom: 30px;
-  letter-spacing: 0.2rem;
-}
-
-.cure1-zirconia-inlay-section p.zirconia-inlay {
-  line-height: 180%;
-}
-
-.crown-bridge-inray ul.cost_ex {
-  max-width: 1000px;
-  margin: 10px auto;
-  overflow: hidden;
-  padding: 0;
-}
-
-.crown-bridge-inray ul.cost_ex li span {
-  font-weight: 700;
-  margin-right: 20px;
-}
-
-/* ==========================================================
-	lumineers-page
-========================================================== */
-/* header */
-.cure1-lumineers-header {
-  width: 100%;
-  height: 300px;
-  position: relative;
-  overflow: hidden;
-  background-image: url(../images/lumineers.png);
-  background-position: center;
-  background-size: cover;
-}
-
-.cure1-lumineers-header h1.cure1-header-caption {
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  margin-top: -70px;
-  letter-spacing: 0.2rem;
-  text-indent: 0.2rem;
-}
-
-.cure1-lumineers-header h2.cure1-header-caption {
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  margin-top: -20px;
-  letter-spacing: 0.2rem;
-  text-indent: 0.2rem;
-}
-
-/* outline */
-.lumineers .cure1-outline-section {
-  max-width: 1000px;
-  padding: 100px 20px 0;
-}
-
-.lumineers .cure1-outline-section h2.head {
-  text-align: center;
-  font-weight: 100;
-  letter-spacing: 0.5rem;
-  text-indent: 0.5rem;
-  margin-bottom: 50px;
-  line-height: 150%;
-}
-
-.lumineers .cure1-outline-section p.intro {
-  margin: 0 auto;
-  letter-spacing: 0.2rem;
-  line-height: 200%;
-  text-align: center;
-}
-
-.cure1-lumineers-page-section {
-  max-width: 1000px;
-  margin: 100px auto 0;
-  overflow: hidden;
-}
-
-.cure1-lumineers-page-section .bxcenter {
-  overflow: hidden;
-  max-width: 400px;
-  height: 400px;
-  padding: 0px 20px 0px;
-}
-
-.cure1-lumineers-page-section h3.head {
-  margin-bottom: 30px;
-  line-height: 150%;
-  text-align: center;
-}
-
-.cure1-lumineers-page-section h4.intro {
-  margin-bottom: 30px;
-  line-height: 150%;
-  text-align: center;
-}
-
-.cure1-lumineers-page-section p.lumineers {
-  margin-bottom: 80px;
-  line-height: 180%;
-}
-
-.cure1-lumineers-page-section .center {
-  clear: both;
-  max-width: 700px;
-  padding: 50px 20px 0;
-}
-
-.cure1-lumineers-page-section .center h4.head {
-  font-weight: 400;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-.cure1-lumineers-page-section .center h4.head span {
-  color: #fd2802;
-  display: block;
-  margin-top: 10px;
-}
-
-.cure1-lumineers-page-section .center img {
-  display: block;
-  margin: 10px auto;
-  max-width: 800px;
-}
-
-.cure1-lumineers-page-section .sub-head {
-  font-weight: 400;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #ccc;
-}
-
-.cure1-lumineers-page-section .detail {
-  line-height: 180%;
-  margin-bottom: 50px;
-}
-
-.cure1-lumineers-page-section ul.detail li {
-  list-style: none;
-  list-style: circle;
-  line-height: 180%;
-  margin: 0 0 5px 20px;
-}
-
-.cure1-lumineers-page-section .list {
-  margin: 15px 0;
-  line-height: 180%;
-}
-
-.cure1-snapon-section .feature {
-  clear: both;
-  padding: 50px 0;
-}
-
-.cure1-snapon-section .feature li {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.cure1-snapon-section h4.head {
-  clear: both;
-  text-align: center;
-  padding: 50px 0 30px;
-  font-weight: 400;
-}
-
-.cure1-snapon-section .oneday {
-  text-align: center;
-  line-height: 180%;
-  margin-bottom: 50px;
-  padding: 0 0 30px;
-}
-
-.cure1-lumineers-page-section .wrapper {
-  max-width: 800px;
-  margin: 0 auto 50px;
-  padding: 0 20px;
-}
-
-/* difference */
-.cure1-difference-section {
-  max-width: 1000px;
-  padding: 50px;
-  margin: 0 auto;
-  overflow: hidden;
-  background-color: #f6f2ed;
-}
-
-.cure1-difference-section h3.head {
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-.cure1-difference-section p.difference-anchor {
-  margin: 50px auto 0;
-  padding-bottom: 30px;
-  color: #08c;
-  text-align: center;
-  cursor: pointer;
-  line-height: 150%;
-}
-
-.cure1-difference-section p.difference-anchor:hover {
-  text-decoration: underline;
-  text-align: center;
-}
-
-.cure1-difference-section p.difference {
-  margin: 0 auto 30px;
-  line-height: 180%;
-}
-
-.cure1-difference-section p.difference-sub {
-  margin: 0 auto;
-  line-height: 180%;
-}
-
-/* onehour */
-.cure1-onehour-section {
-  max-width: 1000px;
-  margin: 100px auto 50px;
-  padding: 0 20px;
-  overflow: hidden;
-}
-
-.cure1-snapon-section p.snapon {
-  line-height: 180%;
-  margin-bottom: 80px;
-  text-align: justify;
-}
-
-.cure1-onehour-section .sub-head {
-  font-weight: 400;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #ccc;
-}
-
-.cure1-onehour-section .detail {
-  line-height: 180%;
-  margin-bottom: 30px;
-}
-
-.cure1-onehour-section .list {
-  margin: 15px 0;
-  line-height: 180%;
-}
-
-.cure1-snapon-section .feature {
-  clear: both;
-  padding: 50px 0;
-}
-
-.cure1-snapon-section .feature li {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.cure1-onehour-section h4.head {
-  clear: both;
-  text-align: center;
-  padding: 0px 0 30px;
-  font-weight: 400;
-}
-
-.cure1-onehour-section .oneday {
-  text-align: center;
-  line-height: 180%;
-  margin-bottom: 50px;
-}
-
-.cure1-onehour-section .wrapper {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-/* payment */
-.cure1-payment-section {
-  max-width: 100%;
-  margin: 0 auto;
-  overflow: hidden;
-  padding-bottom: 80px;
-}
-
-.cure1-payment-section .alignment-price h5.head {
-  text-align: center;
-  padding-top: 50px;
-  margin-bottom: 50px;
-}
-
-.cure1-payment-section .alignment-price h5.head span {
-  display: block;
-  margin-top: 10px;
-}
-
-.cure1-payment-section .alignment-price p.item {
-  margin-bottom: 10px;
-}
-
-.cure1-payment-section .alignment-price p.result {
-  font-weight: 400;
-  margin-bottom: 30px;
-}
-
-.cure1-payment-section .alignment-price p.yoyaku {
-  text-align: center;
-  font-weight: 500;
-  padding: 5px;
-  display: block;
-  margin-bottom: 30px;
-}
-
-.cure1-payment-section .alignment-price p.yoyaku a {
-  background-color: #d93600;
-  letter-spacing: normal;
-  color: #fff;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.cure1-payment-section .alignment-price h6.head {
-  text-align: center;
-  margin: 50px auto 20px;
-  max-width: 300px;
-  padding: 5px;
-  display: block;
-  background-color: #f6f2ed;
-}
-
-.cure1-payment-section .alignment-price table {
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-.cure1-payment-section .alignment-price table tr {
-  border-bottom: 1px solid #f6f2ed;
-  padding: 10px;
-  display: inline-block;
-  text-align: left;
-  width: 100%;
-}
-
-.cure1-payment-section .alignment-price table tr th {
-  width: 350px;
-  text-align: left;
-}
-
-.cure1-payment-section .alignment-price table tr td {
-  font-weight: 400;
-  text-align: right;
-  width: 150px;
-}
-
-.cure1-payment-section .alignment-price .comment {
-  max-width: 500px;
-  margin: 0 auto;
-  text-align: left;
-  font-weight: 400;
-  padding: 20px;
-  line-height: 150%;
-}
-
-/* credit */
-.cure1-credit-section {
-  max-width: 100%;
-  margin: 0 auto;
-  overflow: hidden;
-  padding-bottom: 80px;
-  background-color: #f6f2ed;
-}
-
-.cure1-credit-section .payment-wrap {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 100px 20px 20px;
-  overflow: hidden;
-}
-
-.cure1-credit-section .payment-intro {
-  letter-spacing: 0.2rem;
-  text-align: center;
-  line-height: 180%;
-}
-
-.cure1-credit-section .payment-intro span.l2 {
-  color: #333;
-  margin-bottom: 10px;
-  display: inline-block;
-}
-
-.cure1-credit-section .payment-intro span {
-  color: #fd2802;
-  margin-bottom: 5px;
-  display: inline-block;
-}
-
-.cure1-credit-section .left {
-  width: 400px;
-  float: left;
-}
-
-.cure1-credit-section .right {
-  width: 400px;
-  float: right;
-}
-
-.cure1-credit-section .left img {
-  display: block;
-  margin: 0 auto;
-  width: 50%;
-  padding: 20px 0;
-}
-
-.cure1-credit-section .alignment-anchor {
-  margin: 30px auto 0;
-  padding-bottom: 30px;
-  color: #08c;
-  text-align: center;
-  display: block;
-  cursor: pointer;
-  line-height: 150%;
-}
-
-.cure1-credit-section .alignment-anchor:hover {
-  text-decoration: underline;
-  text-align: center;
-}
-
-.cure1-credit-section .right a.credit-anchor {
-  margin: 30px auto 0;
-  color: #08c;
-  text-align: center;
-  display: block;
-  cursor: pointer;
-  line-height: 150%;
-}
-
-.cure1-credit-section .right a.credit-anchor:hover {
-  text-decoration: underline;
-  text-align: center;
-}
-
-.cure1-credit-section h4.head {
-  font-weight: 400;
-  margin-bottom: 20px;
-  letter-spacing: 0.2rem;
-  text-align: center;
-}
-
-.cure1-credit-section p.card,
-.cure1-credit-section p.credit {
-  line-height: 180%;
+@media screen and (max-width: 1050px) {
+  .cure1-ceramic-section .left, .cure1-ceramic-section .right {
+    float: none;
+  }
+  .cure1-laminate-section .right {
+    width: 43.75vw;
+  }
+  .cure1-composite-section .left {
+    width: 43.75vw;
+  }
+  .cure1-lumineers-section .right {
+    width: 43.75vw;
+  }
+  .cure1-snapon-section .left {
+    width: 43.75vw;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .proportion-about-section {
+    padding-bottom: 50px;
+  }
+  .cure1-collaboration-section .wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .cure1-ceramic-section {
+    margin: 50px auto;
+  }
+  .cure1-ceramic-section .medical-flow {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  .cure1-ceramic-section .medical-flow br {
+    display: none;
+  }
+  .cure1-ceramic-section .intro br {
+    display: none;
+  }
+  .cure1-ceramic-section .ceramic br {
+    display: none;
+  }
+  p.blogbanner a {
+    width: 240px;
+    padding: 10px 30px;
+    line-height: 1.5;
+    font-size: 1.5rem;
+  }
+  .case-section img.left, .case-section img.right {
+    float: none;
+    margin: 20px auto;
+    max-width: 250px;
+    width: 100%;
+  }
+  .case-header {
+    margin-top: 50px;
+  }
+  .case-section .contents-text {
+    margin-bottom: 30px;
+  }
+  p.blogbanner a {
+    margin: 50px auto;
+  }
+  .cure1-laminate-section {
+    margin-top: 70px;
+  }
+  .cure1-laminate-section .right {
+    margin-left: 5px;
+  }
+  .cure1-grinding-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .cure1-composite-section {
+    padding-top: 50px;
+  }
+  .cure1-composite-section h3.head {
+    text-align: left;
+  }
+  .cure1-composite-section h3.head br {
+    display: none;
+  }
+  .cure1-shinbi-whitening-section {
+    padding: 50px 0;
+  }
+  .cure1-shinbi-whitening-section h3.head {
+    margin-bottom: 30px;
+  }
+  .cure1-lumineers-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .cure1-snapon-section {
+    margin-top: 50px;
+  }
+  .cure1-snapon-section .wrapper {
+    margin-bottom: 0;
+  }
+  .cure1-snapon-section h3.head {
+    margin-bottom: 30px;
+  }
+  .cure1-snapon-section p.snapon {
+    margin-bottom: 50px;
+  }
+  .cure1-snapon-section .left, .cure1-snapon-section .right {
+    float: none;
+    width: 100%;
+  }
+  .cure1-snapon-section .left {
+    max-width: 250px;
+    margin-bottom: 20px;
+  }
+  .cure1-snapon-section .list br {
+    display: none;
+  }
+  .cure1-snapon-section .oneday br {
+    display: none;
+  }
+  .cure1-lumineers-section p.anchor a {
+    text-align: center;
+  }
 }
 
 /* ==========================================================
@@ -9189,7 +9556,7 @@ ul.cost_ex li span {
 
 .whitening .cure1-outline-section h2.head {
   text-align: center;
-  font-weight: 100;
+  font-weight: 400;
   letter-spacing: 0.5rem;
   text-indent: 0.5rem;
   margin-bottom: 50px;
@@ -9211,7 +9578,7 @@ ul.cost_ex li span {
 
 .whitening .cure1-howtowhitening-section h2.head {
   text-align: center;
-  font-weight: 100;
+  font-weight: 400;
   letter-spacing: 0.5rem;
   text-indent: 0.5rem;
   margin: 50px 0 10px;
@@ -9373,320 +9740,6 @@ ul.cost_ex li span {
 .cure1-home-whitening-section .annotation ul li {
   list-style-type: circle;
   line-height: 150%;
-}
-
-/* ==========================================================
-	case-page
-========================================================== */
-/* case */
-.case-header {
-  width: 100%;
-  height: 100px;
-  margin-top: 100px;
-  position: relative;
-  overflow: hidden;
-  background-position: center;
-  background-size: cover;
-}
-
-.case-header .case-header-caption {
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  letter-spacing: 0.2rem;
-  text-indent: 0.2rem;
-}
-
-/* outline */
-.case-section {
-  max-width: 1000px;
-  padding: 0px 0px 100px;
-  margin: 0 auto;
-}
-
-.case-section img {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
-}
-
-.case-section img.right {
-  width: 300px;
-  display: block;
-  float: right;
-  margin: 0 0 20px 20px;
-}
-
-.case-section img.left {
-  width: 300px;
-  display: block;
-  float: left;
-  margin: 0 20px 20px 0;
-}
-
-.case-section .contents-text {
-  text-align: left;
-  line-height: 200%;
-  margin-bottom: 50px;
-  overflow: hidden;
-}
-
-.case-section a.case-anchor {
-  color: #08C;
-  display: block;
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.case-section a.case-anchor:hover {
-  text-decoration: underline;
-}
-
-/* ==========================================================
-	bridal-page
-========================================================== */
-/* header */
-.cure1-header.bridal {
-  width: 100%;
-  height: 300px;
-  position: relative;
-  overflow: hidden;
-  background-image: url(../images/cure1-header4.png);
-  background-position: center;
-  background-size: cover;
-}
-
-.cure1-header.bridal .cure1-header-caption {
-  color: #333;
-}
-
-/* outline */
-.bridal .cure1-outline-section {
-  max-width: 1000px;
-  padding: 100px 20px 20px;
-}
-
-.bridal .cure1-outline-section h2.head {
-  text-align: center;
-  font-weight: 100;
-  letter-spacing: 0.5rem;
-  text-indent: 0.5rem;
-  margin-bottom: 50px;
-  line-height: 150%;
-}
-
-.bridal .cure1-outline-section p.intro {
-  margin: 0 auto;
-  letter-spacing: 0.2rem;
-  line-height: 200%;
-  text-align: center;
-}
-
-.bridal .cure1-outline-section p.intro2 {
-  margin: 40px auto 0;
-  letter-spacing: 0.2rem;
-  line-height: 200%;
-  text-align: justify;
-}
-
-.bridal .cure1-outline-section p.intro2 span {
-  color: #ff0000;
-}
-
-.cure1-bridal-section {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 50px 0 100px;
-}
-
-.cure1-bridal-section h2.head {
-  text-align: center;
-  font-weight: 100;
-  letter-spacing: 0.5rem;
-  margin: 50px 0 10px;
-  line-height: 150%;
-}
-
-.cure1-bridal-section h2.head br {
-  display: none;
-}
-
-.cure1-bridal-section h3.head {
-  text-align: left;
-  font-weight: 500;
-  margin: 50px 0 30px;
-  padding-bottom: 20px;
-  line-height: 150%;
-  border-bottom: 1px solid #d2bea5;
-}
-
-.cure1-bridal-section h3.head span {
-  text-align: left;
-  padding-bottom: 10px;
-  line-height: 150%;
-  font-size: 1.6rem;
-}
-
-.cure1-bridal-section .subhead {
-  margin: 0 0 20px;
-}
-
-.cure1-bridal-section .plan {
-  background-color: rgba(210, 190, 165, 0.5);
-  padding: 10px;
-  color: #333;
-  margin: 0 0 50px;
-}
-
-.cure1-bridal-section .plan span {
-  font-weight: 500;
-  float: right;
-  color: #ff0000;
-}
-
-.cure1-bridal-section .plan span span {
-  font-weight: 400;
-  font-size: 1.2rem;
-  float: right;
-  margin-top: 5px;
-}
-
-.cure1-bridal-section .comment {
-  text-align: justify;
-  line-height: 200%;
-}
-
-.cure1-bridal-section .comment span {
-  color: #ff0000;
-  font-weight: 500;
-  font-size: 1.8rem;
-}
-
-.cure1-bridal-section .comment a {
-  color: #08c;
-  font-size: 1.4rem;
-}
-
-@media screen and (max-width: 1050px) {
-  .cure1-ceramic-section .left, .cure1-ceramic-section .right {
-    float: none;
-  }
-  .cure1-laminate-section .right {
-    width: 43.75vw;
-  }
-  .cure1-composite-section .left {
-    width: 43.75vw;
-  }
-  .cure1-lumineers-section .right {
-    width: 43.75vw;
-  }
-  .cure1-snapon-section .left {
-    width: 43.75vw;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .proportion-about-section {
-    padding-bottom: 50px;
-  }
-  .cure1-collaboration-section .wrapper {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  .cure1-ceramic-section {
-    margin: 50px auto;
-  }
-  .cure1-ceramic-section .medical-flow {
-    margin-left: -20px;
-    margin-right: -20px;
-  }
-  .cure1-ceramic-section .medical-flow br {
-    display: none;
-  }
-  .cure1-ceramic-section .intro br {
-    display: none;
-  }
-  .cure1-ceramic-section .ceramic br {
-    display: none;
-  }
-  p.blogbanner a {
-    width: 240px;
-    padding: 10px 30px;
-    line-height: 1.5;
-    font-size: 1.5rem;
-  }
-  .case-section img.left, .case-section img.right {
-    float: none;
-    margin: 20px auto;
-    max-width: 250px;
-    width: 100%;
-  }
-  .case-header {
-    margin-top: 50px;
-  }
-  .case-section .contents-text {
-    margin-bottom: 30px;
-  }
-  p.blogbanner a {
-    margin: 50px auto;
-  }
-  .cure1-laminate-section {
-    margin-top: 70px;
-  }
-  .cure1-laminate-section .right {
-    margin-left: 5px;
-  }
-  .cure1-grinding-section {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  .cure1-composite-section {
-    padding-top: 50px;
-  }
-  .cure1-composite-section h3.head {
-    text-align: left;
-  }
-  .cure1-composite-section h3.head br {
-    display: none;
-  }
-  .cure1-shinbi-whitening-section {
-    padding: 50px 0;
-  }
-  .cure1-shinbi-whitening-section h3.head {
-    margin-bottom: 30px;
-  }
-  .cure1-lumineers-section {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  .cure1-snapon-section {
-    margin-top: 50px;
-  }
-  .cure1-snapon-section .wrapper {
-    margin-bottom: 0;
-  }
-  .cure1-snapon-section h3.head {
-    margin-bottom: 30px;
-  }
-  .cure1-snapon-section p.snapon {
-    margin-bottom: 50px;
-  }
-  .cure1-snapon-section .left, .cure1-snapon-section .right {
-    float: none;
-    width: 100%;
-  }
-  .cure1-snapon-section .left {
-    max-width: 250px;
-    margin-bottom: 20px;
-  }
-  .cure1-snapon-section .list br {
-    display: none;
-  }
-  .cure1-snapon-section .oneday br {
-    display: none;
-  }
-  .cure1-lumineers-section p.anchor a {
-    text-align: center;
-  }
 }
 
 /*

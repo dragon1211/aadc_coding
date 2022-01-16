@@ -1,0 +1,408 @@
+@charset "UTF-8";
+
+
+/* ==========================================================
+	lumineers-page
+========================================================== */
+
+/* header */
+.cure1-lumineers-header {
+	width: 100%;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+	background-image: url(../images/lumineers.png);
+	background-position: center;
+	background-size: cover;
+}
+.cure1-lumineers-header h1.cure1-header-caption {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	margin-top: -70px;
+	
+	letter-spacing: 0.2rem;
+	text-indent: 0.2rem;
+}
+.cure1-lumineers-header h2.cure1-header-caption {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	
+	letter-spacing: 0.2rem;
+	text-indent: 0.2rem;
+}
+
+/* outline */
+.lumineers .cure1-outline-section {
+	max-width: 1000px;
+	padding: 100px 20px 0;
+}
+.lumineers .cure1-outline-section h2.head {
+	text-align: center;
+	font-weight: 400;
+	letter-spacing: 0.5rem;
+	text-indent: 0.5rem;	
+	margin-bottom: 50px;
+	line-height: 150%;	
+}
+.lumineers .cure1-outline-section p.intro {
+	margin: 0 auto;
+	letter-spacing: 0.2rem;
+	
+	line-height: 200%;
+	text-align: center;	
+}
+.cure1-lumineers-page-section {
+	max-width: 1000px;
+	margin: 100px auto 0;
+	overflow: hidden;
+}
+.cure1-lumineers-page-section .bxcenter {
+	overflow: hidden;
+	max-width: 400px;
+	height: 400px;
+	padding: 0px 20px 0px;			
+}
+.cure1-lumineers-page-section h3.head {
+	
+	margin-bottom: 30px;
+	line-height: 150%;
+	text-align: center;	
+}
+.cure1-lumineers-page-section h4.intro {
+	
+	margin-bottom: 30px;
+	line-height: 150%;
+	text-align: center;	
+}
+.cure1-lumineers-page-section p.lumineers {
+	
+	margin-bottom: 80px;
+	line-height: 180%;	
+}
+.cure1-lumineers-page-section .center {
+	clear: both;
+	max-width: 700px;
+	padding: 50px 20px 0;	
+}
+.cure1-lumineers-page-section .center h4.head {
+	font-weight: 400;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.cure1-lumineers-page-section .center h4.head span {
+	color: #fd2802;
+	
+	display: block;
+	margin-top: 10px;
+}
+.cure1-lumineers-page-section .center img {
+	display: block;
+	margin: 10px auto;
+	max-width: 800px;
+}
+.cure1-lumineers-page-section .sub-head {
+	font-weight: 400;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+.cure1-lumineers-page-section .detail {
+	
+	line-height: 180%;
+	margin-bottom: 50px;	
+}
+.cure1-lumineers-page-section ul.detail li {
+	list-style:none;
+	list-style: circle;
+	
+	line-height: 180%;
+	margin: 0 0 5px 20px;		
+}
+
+.cure1-lumineers-page-section .list {
+	
+	margin: 15px 0;
+	line-height: 180%;
+}
+.cure1-snapon-section .feature {
+	clear: both;
+	padding: 50px 0;
+}
+.cure1-snapon-section .feature li {
+	text-align: center;
+	margin-bottom: 20px;
+	
+}
+.cure1-snapon-section h4.head {
+	clear: both;
+	text-align: center;
+	padding: 50px 0 30px;
+	font-weight: 400;
+}
+.cure1-snapon-section .oneday {
+	text-align: center;
+	
+	line-height: 180%;
+	margin-bottom: 50px;
+	padding: 0 0 30px;	
+}
+.cure1-lumineers-page-section .wrapper {
+	max-width: 800px;
+	margin: 0 auto 50px;
+	padding: 0 20px;
+}
+
+/* difference */
+.cure1-difference-section {
+	max-width: 1000px;
+	padding: 50px;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #f6f2ed;	
+}
+.cure1-difference-section h3.head {
+	
+	margin-bottom: 30px;
+	text-align: center;
+}
+.cure1-difference-section p.difference-anchor {
+	margin: 50px auto 0;
+	padding-bottom: 30px;
+	color: #08c;
+	text-align: center;
+	cursor: pointer;
+	line-height: 150%;
+}
+.cure1-difference-section p.difference-anchor:hover {
+	text-decoration: underline;
+	text-align: center;	
+}
+.cure1-difference-section p.difference {
+	margin: 0 auto 30px;
+	
+	line-height: 180%;
+}
+.cure1-difference-section p.difference-sub {
+	margin: 0 auto;
+	
+	line-height: 180%;
+}
+
+/* onehour */
+.cure1-onehour-section {
+	max-width: 1000px;
+	margin: 100px auto 50px;
+	padding: 0 20px;
+	overflow: hidden;
+}
+.cure1-snapon-section p.snapon {
+	
+	line-height: 180%;
+	margin-bottom: 80px;
+	text-align: justify;
+}
+.cure1-onehour-section .sub-head {
+	font-weight: 400;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+.cure1-onehour-section .detail {
+	
+	line-height: 180%;
+	margin-bottom: 30px;	
+}
+.cure1-onehour-section .list {
+	
+	margin: 15px 0;
+	line-height: 180%;
+}
+.cure1-snapon-section .feature {
+	clear: both;
+	padding: 50px 0;
+}
+.cure1-snapon-section .feature li {
+	text-align: center;
+	margin-bottom: 20px;
+	
+}
+.cure1-onehour-section h4.head {
+	clear: both;
+	text-align: center;
+	padding: 0px 0 30px;
+	font-weight: 400;
+}
+.cure1-onehour-section .oneday {
+	text-align: center;
+	
+	line-height: 180%;
+	margin-bottom: 50px;
+}
+.cure1-onehour-section .wrapper {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+/* payment */
+.cure1-payment-section {
+	max-width: 100%;
+	margin: 0 auto ;
+	overflow: hidden;
+	padding-bottom: 80px;
+}
+.cure1-payment-section .alignment-price h5.head {
+	text-align: center;
+	
+	padding-top: 50px;
+	margin-bottom: 50px;
+}
+.cure1-payment-section .alignment-price h5.head span {
+	display: block;
+	margin-top: 10px;
+}
+.cure1-payment-section .alignment-price p.item {
+	
+	margin-bottom: 10px;
+}
+.cure1-payment-section .alignment-price p.result {
+	font-weight: 400;
+	margin-bottom: 30px;	
+}
+.cure1-payment-section .alignment-price p.yoyaku {
+	text-align: center;
+	font-weight: 500;
+	padding: 5px;
+	display: block;
+	margin-bottom: 30px;
+}
+.cure1-payment-section .alignment-price p.yoyaku a {
+	background-color: #d93600;
+	letter-spacing: normal;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;	
+}
+.cure1-payment-section .alignment-price h6.head {
+	text-align: center;
+	
+	margin:50px auto 20px;
+	max-width: 300px;
+	padding: 5px;
+	display: block;
+	background-color: #f6f2ed;
+}
+.cure1-payment-section .alignment-price table {
+	max-width: 500px;
+	margin: 0 auto;
+}
+.cure1-payment-section .alignment-price table tr {
+	border-bottom: 1px solid #f6f2ed;
+	padding: 10px;
+	display: inline-block;
+	text-align: left;
+	width: 100%;
+}
+.cure1-payment-section .alignment-price table tr th {
+	
+	width: 350px;
+	text-align: left;
+}
+.cure1-payment-section .alignment-price table tr td {
+	font-weight: 400;
+	text-align: right;
+	width: 150px;	
+}
+.cure1-payment-section .alignment-price .comment {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: left;
+	font-weight: 400;
+	padding: 20px;
+	line-height: 150%;
+}
+
+/* credit */
+.cure1-credit-section {
+	max-width: 100%;
+	margin: 0 auto ;
+	overflow: hidden;
+	padding-bottom: 80px;
+	background-color: #f6f2ed;
+}
+.cure1-credit-section .payment-wrap {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 100px 20px 20px;
+	overflow: hidden;
+}
+.cure1-credit-section .payment-intro {
+	
+	letter-spacing: 0.2rem;
+	text-align: center;
+	line-height: 180%;
+}
+.cure1-credit-section .payment-intro span.l2 {
+	color: #333;
+	margin-bottom: 10px;
+	display: inline-block;	
+}
+.cure1-credit-section .payment-intro span {
+	color: #fd2802;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+.cure1-credit-section .left {
+	width: 400px;
+	float: left;
+}
+.cure1-credit-section .right {
+	width: 400px;
+	float: right;
+}
+.cure1-credit-section .left img {
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	padding: 20px 0;
+}
+.cure1-credit-section .alignment-anchor {
+	margin: 30px auto 0;
+	padding-bottom: 30px;
+	color: #08c;
+	text-align: center;
+	display: block;
+	cursor: pointer;
+	line-height: 150%;	
+}
+.cure1-credit-section .alignment-anchor:hover {
+	text-decoration: underline;
+	text-align: center;	
+}
+.cure1-credit-section .right a.credit-anchor {
+	margin: 30px auto 0;
+	color: #08c;
+	text-align: center;
+	display: block;
+	cursor: pointer;
+	line-height: 150%;	
+}
+.cure1-credit-section .right a.credit-anchor:hover {
+	text-decoration: underline;
+	text-align: center;	
+}
+.cure1-credit-section h4.head {
+	font-weight: 400;
+	margin-bottom: 20px;
+	letter-spacing: 0.2rem;
+	text-align: center;
+}
+.cure1-credit-section p.card,
+.cure1-credit-section p.credit {
+	
+	line-height: 180%;	
+}

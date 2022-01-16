@@ -1,4 +1,260 @@
 @charset "UTF-8";
-// =========================================
-// CROWN BRIDGE INRAY SCSS
-// =========================================
+
+/* ==========================================================
+	crown-bridge-inray-page
+========================================================== */
+
+/* outline */
+.crown-bridge-inray .cure1-outline-section {
+	max-width: 1000px;
+	padding: 100px 20px 0;
+	margin: auto;
+
+    h2.head {
+        text-align: center;
+        font-weight: 400;
+        letter-spacing: 0.5rem;
+        text-indent: 0.5rem;
+        margin-bottom: 50px;
+        line-height: 150%;	
+    }
+
+    p.intro {
+        margin: 0 auto;
+        letter-spacing: 0.2rem;
+        line-height: 200%;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+}
+
+
+/* ceramic-features */
+.cure1-ceramic-features-section {
+	max-width: 1000px;
+	padding: 20px;
+	background-color: rgba(210,190,165,0.3);
+	margin: auto;
+
+	p {
+		margin: 40px;	
+		line-height: 180%;	
+		span {
+			display: block;
+			margin: 10px 0;
+			font-weight: 500;
+			font-size: 1.7rem;	
+		}
+		&.case {
+			margin: 40px;	
+			line-height: 180%;		
+			span {
+				display: block;
+				margin: 10px 0;
+				font-weight: 600;
+				font-size: 1.5rem;		
+			}
+		}
+	}
+}
+
+/* zirconia-crown */
+.cure1-zirconia-crown-section {
+	max-width: 1000px;
+	margin: 100px auto;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+
+	.left {
+		width: 50%;
+		padding: 0 20px;
+	}
+
+	.right {
+		text-align: center;
+		padding: 0 20px;
+		img {
+			width: 400px;
+			display: block;
+		}
+	}
+
+	h3.head {
+		margin-bottom: 30px;
+		letter-spacing: 0.2rem;
+		line-height: 150%;
+	}
+
+	p.zirconia-crown {
+		line-height: 180%;	
+	}
+}
+
+/* fullzirconia-crown */
+.cure1-fullzirconia-crown-section {
+	max-width: 1000px;
+	margin: 100px auto;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;	
+
+	.left {
+		text-align: center;
+		padding: 0 20px;
+		img {
+			width: 400px;
+			display: block;
+		}
+	}
+	.right {
+		width: 50%;
+		padding: 0 20px;
+	}
+	h3.head {
+		margin-bottom: 30px;
+		letter-spacing: 0.2rem;
+	}
+	p.fullzirconia-crown {
+		line-height: 180%;	
+	}
+}
+
+/* fullzirconia-trans */
+.cure1-zirconia-trans-section {
+	max-width: 1000px;
+	margin: 100px auto;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+
+	.left {
+		width: 50%;
+		padding: 0 20px;
+	}
+	.right {
+		text-align: center;
+		padding: 0 20px;
+		img {
+			width: 400px;
+			display: block;
+		}
+	}
+	h3.head {
+		margin-bottom: 30px;
+		letter-spacing: 0.2rem;
+		line-height: 150%;
+	}
+	p.zirconia-trans {
+		line-height: 180%;	
+		span {
+			display: block;
+			margin: 10px 0 5px;
+			font-weight: 400;
+			font-size: 1.6rem;
+		}		
+	}
+}
+
+
+/* ceramic-inlay */
+.cure1-ceramic-inlay-section {
+	max-width: 1000px;
+	margin: 100px auto;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+
+	.left {
+		text-align: center;
+		padding: 0 20px;
+	}
+	.right {
+		width: 50%;
+		padding: 0 20px;
+		float: right;
+		img {
+			width: 400px;
+			display: block;
+		}
+	}
+	h3.head {
+		margin-bottom: 30px;
+		letter-spacing: 0.2rem;
+	}
+	p.ceramic-inlay {
+		line-height: 180%;	
+	}
+}
+
+
+/* zirconia-inlay */
+.cure1-zirconia-inlay-section {
+	max-width: 1000px;
+	margin: 100px auto;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	
+	.left {
+		width: 50%;
+		float: left;
+		padding: 0 20px;
+		img {
+			width: 400px;
+			display: block;
+		}
+	}
+	.right {
+		text-align: center;
+		padding: 0 20px;
+	}
+	h3.head {
+		margin-bottom: 30px;
+		letter-spacing: 0.2rem;
+	}
+	p.zirconia-inlay {
+		line-height: 180%;	
+	}
+}
+
+
+.crown-bridge-inray ul.cost_ex {
+	max-width: 1000px;
+	margin: 10px auto;
+	overflow: hidden;
+	padding: 0 20px;	
+	li span{
+		font-weight: 700;
+		margin-right: 20px;
+	}
+}
+
+
+
+
+
+
+
+//crown-bridge-inray
+
+@include mq(sm2){
+
+}
+
+
+@include mq(smt){
+	.crown-bridge-inray .cure1-outline-section{
+		padding-top: 0;
+
+		p.intro{
+			br{display: none;}
+		}
+	}
+	.cure1-ceramic-features-section{
+		p{
+			margin: 40px 0;
+			&.case{margin: 40px 0px;}
+		}
+	}
+}
