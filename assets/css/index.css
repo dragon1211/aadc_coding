@@ -4378,6 +4378,151 @@ Copyright (c) 2013 Daniel Eden
   overflow: hidden;
 }
 
+/**
+ * BxSlider v4.1.2 - Fully loaded, responsive content slider
+ * http://bxslider.com
+ *
+ * Written by: Steven Wanderski, 2014
+ * http://stevenwanderski.com
+ * (while drinking Belgian ales and listening to jazz)
+ *
+ * CEO and founder of bxCreative, LTD
+ * http://bxcreative.com
+ */
+/** RESET AND LAYOUT
+===================================*/
+.bx-wrapper {
+  position: relative;
+  margin: 0 auto 60px;
+  padding: 0;
+  *zoom: 1;
+}
+
+.bx-wrapper img {
+  display: block;
+}
+
+/** THEME
+===================================*/
+.bx-wrapper .bx-viewport {
+  /*fix other elements on the page moving (on Chrome)*/
+  -webkit-transform: translatez(0);
+  transform: translatez(0);
+}
+
+/* LOADER */
+/* PAGER */
+.bx-wrapper .bx-pager {
+  text-align: center;
+  font-size: .85em;
+  font-family: Arial;
+  font-weight: bold;
+  color: #666;
+  padding-top: 20px;
+}
+
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+  background: #666;
+  text-indent: -9999px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  outline: 0;
+  border-radius: 5px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #000;
+}
+
+.bx-wrapper .bx-controls-direction a {
+  position: absolute;
+  top: 50%;
+  margin-top: -16px;
+  outline: 0;
+  width: 32px;
+  height: 32px;
+  text-indent: -9999px;
+  z-index: 9999;
+}
+
+.bx-wrapper .bx-controls-direction a.disabled {
+  display: none;
+}
+
+/* AUTO CONTROLS (START / STOP) */
+.bx-wrapper .bx-controls-auto {
+  text-align: center;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start {
+  display: block;
+  text-indent: -9999px;
+  width: 10px;
+  height: 11px;
+  outline: 0;
+  background: url(images/controls.png) -86px -11px no-repeat;
+  margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+.bx-wrapper .bx-controls-auto .bx-start.active {
+  background-position: -86px 0;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop {
+  display: block;
+  text-indent: -9999px;
+  width: 9px;
+  height: 11px;
+  outline: 0;
+  background: url(images/controls.png) -86px -44px no-repeat;
+  margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.bx-wrapper .bx-controls-auto .bx-stop.active {
+  background-position: -86px -33px;
+}
+
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+  text-align: left;
+  width: 80%;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+  right: 0;
+  width: 35px;
+}
+
+/* IMAGE CAPTIONS */
+.bx-wrapper .bx-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #666;
+  background: rgba(80, 80, 80, 0.75);
+  width: 100%;
+}
+
+.bx-wrapper .bx-caption span {
+  color: #fff;
+  font-family: Arial;
+  display: block;
+  font-size: .85em;
+  padding: 10px;
+}
+
 /* -------------------
   FONT
 --------------------*/
@@ -8444,6 +8589,2597 @@ Copyright (c) 2013 Daniel Eden
   .cure1-payment-section .alignment-price table tr td {
     width: 50px;
   }
+}
+
+/* ==========================================================
+	cure2 header
+========================================================== */
+/* header */
+.cure2-header {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  background-image: url(../images/cure2-header.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.cure2-header h1.cure2-header-caption {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -70px;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+}
+
+.cure2-header h2.cure2-header-caption {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+}
+
+/* ==========================================================
+	.non-extraction-page
+========================================================== */
+/* outline */
+.non-extraction {
+  /* voice */
+  /* alignment */
+  /* frontside */
+  /* ceramic-alignment */
+  /* alignment-faq */
+  /* payment */
+}
+
+.non-extraction .cure2-outline-section {
+  max-width: 1000px;
+  padding: 100px 0 0;
+}
+
+.non-extraction .cure2-outline-section h2.head {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+  line-height: 180%;
+}
+
+.non-extraction .cure2-outline-section h2.head.sub {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin: 50px 0;
+  line-height: 150%;
+}
+
+.non-extraction .cure2-outline-section p.intro {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+  line-height: 200%;
+  text-align: justify;
+  padding-bottom: 30px;
+}
+
+.non-extraction .cure2-outline-section h3.head {
+  text-align: center;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+  margin: 50px auto 30px;
+  line-height: 150%;
+}
+
+.non-extraction .cure2-outline-section h3.head.top {
+  text-align: center;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+  margin: 30px auto;
+  line-height: 150%;
+}
+
+.non-extraction .cure2-outline-section p.detail {
+  margin: 0 100px;
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+  line-height: 200%;
+  text-align: justify;
+  padding-bottom: 30px;
+}
+
+.non-extraction .cure2-outline-section .alignment-image {
+  margin: 0 auto;
+}
+
+.non-extraction .cure2-outline-section .alignment-image img {
+  display: inline-block;
+}
+
+.non-extraction .cure2-outline-section p.detail.center {
+  margin: 0 auto 30px;
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+  line-height: 200%;
+  text-align: center;
+  width: 800px;
+  background-color: #fafafa;
+  padding: 30px 0;
+}
+
+.non-extraction .cure2-outline-section ul.detail {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  font-weight: 300;
+  line-height: 200%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.non-extraction .cure2-outline-section ul.detail li {
+  max-width: 760px;
+  padding: 10px 20px;
+  margin-bottom: 2px;
+  background: #fafafa;
+}
+
+.non-extraction .cure2-outline-section ul.detail.price {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  font-weight: 300;
+  line-height: 200%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.non-extraction .cure2-outline-section ul.detail.price li {
+  max-width: 660px;
+  padding: 10px 20px;
+  margin-bottom: 2px;
+  border-bottom: 1px solid #eee;
+  background: #fff;
+}
+
+.non-extraction .cure2-outline-section ul.detail.price span {
+  display: block;
+  font-weight: 500;
+}
+
+.non-extraction .cure2-voice-section {
+  max-width: 1000px;
+  margin: 0 auto 100px;
+  overflow: hidden;
+}
+
+.non-extraction .cure2-voice-section h3.head {
+  text-align: center;
+  font-weight: 200;
+  margin: 50px 0;
+  letter-spacing: 0.2rem;
+}
+
+.non-extraction .cure2-voice-section .left {
+  width: 400px;
+  float: left;
+  padding-left: 60px;
+}
+
+.non-extraction .cure2-voice-section .right {
+  width: 400px;
+  float: right;
+  padding-right: 60px;
+}
+
+.non-extraction .cure2-voice-section p.que {
+  text-align: left;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 20px 0 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.non-extraction .cure2-voice-section p.ans {
+  font-weight: 200;
+  text-align: left;
+  line-height: 150%;
+}
+
+.non-extraction .cure2-case-section .left img,
+.non-extraction .cure2-case-section .right img {
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+}
+
+.non-extraction .cure2-mouthpiece-section {
+  max-width: 1000px;
+  margin: 100px auto 100px;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.non-extraction .cure2-mouthpiece-section .center {
+  text-align: left;
+  clear: both;
+}
+
+.non-extraction .cure2-mouthpiece-section h2.head {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+  line-height: 150%;
+}
+
+.non-extraction .cure2-mouthpiece-section h3.head {
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+
+.non-extraction .cure2-mouthpiece-section p.mouthpiece {
+  font-weight: 200;
+  line-height: 180%;
+  margin-bottom: 20px;
+}
+
+.non-extraction .cure2-mouthpiece-section .image-box {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.non-extraction .cure2-mouthpiece-section .image-box img {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.non-extraction .cure2-mouthpiece-section .invisalign {
+  margin: 100px auto 0;
+  text-align: center;
+}
+
+.non-extraction .cure2-mouthpiece-section .invisalign h4 {
+  font-weight: 200;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.non-extraction .cure2-mouthpiece-section .invisalign h3 {
+  font-weight: 200;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.non-extraction .cure2-mouthpiece-section .invisalign img {
+  text-align: center;
+}
+
+.non-extraction .cure2-mouthpiece-section .invisalign p.comment {
+  text-align: left;
+  margin-top: 50px;
+  font-weight: 200;
+  line-height: 180%;
+  margin-bottom: 20px;
+}
+
+.non-extraction .cure2-frontside-section {
+  max-width: 1000px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+.non-extraction .cure2-frontside-section .left {
+  width: 50%;
+  float: left;
+}
+
+.non-extraction .cure2-frontside-section .right {
+  width: 400px;
+  float: right;
+  overflow: hidden;
+}
+
+.non-extraction .cure2-frontside-section .right img {
+  width: 400px;
+  height: 400px;
+  display: block;
+  margin-left: 0;
+}
+
+.non-extraction .cure2-frontside-section h3.head {
+  font-weight: 200;
+  margin-bottom: 30px;
+  letter-spacing: 0.2rem;
+}
+
+.non-extraction .cure2-frontside-section p.frontside {
+  font-weight: 200;
+  line-height: 180%;
+  padding-bottom: 50px;
+  text-align: justify;
+}
+
+.non-extraction .cure2-ceramic-alignment-section {
+  max-width: 1000px;
+  margin: 0 auto 50px;
+  overflow: hidden;
+}
+
+.non-extraction .cure2-ceramic-alignment-section .left {
+  width: 400px;
+  float: left;
+  overflow: hidden;
+}
+
+.non-extraction .cure2-ceramic-alignment-section .right {
+  width: 50%;
+  float: right;
+}
+
+.non-extraction .cure2-ceramic-alignment-section .left img {
+  width: 400px;
+  display: block;
+  height: 400px;
+  margin-left: 0;
+}
+
+.non-extraction .cure2-ceramic-alignment-section h3.head {
+  font-weight: 200;
+  margin-bottom: 30px;
+  letter-spacing: 0.2rem;
+}
+
+.non-extraction .cure2-ceramic-alignment-section p.ceramic {
+  font-weight: 200;
+  line-height: 180%;
+  padding-bottom: 50px;
+  text-align: justify;
+}
+
+.non-extraction .cure2-alignment-faq-section {
+  max-width: 1000px;
+  margin: 0 auto 50px;
+  overflow: hidden;
+}
+
+.non-extraction .cure2-alignment-faq-section h3.head {
+  font-weight: 200;
+  margin-bottom: 30px;
+  letter-spacing: 0.2rem;
+}
+
+.non-extraction .cure2-alignment-faq-section h4.question {
+  font-weight: 400;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  letter-spacing: 0.2rem;
+  line-height: 150%;
+}
+
+.non-extraction .cure2-alignment-faq-section p.answer {
+  font-weight: 200;
+  line-height: 180%;
+  padding-bottom: 50px;
+  text-align: justify;
+}
+
+.non-extraction .cure2-payment-section {
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 50px;
+  background-color: #f6f2ed;
+}
+
+.non-extraction .cure2-payment-section .payment-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px 20px 20px;
+  overflow: hidden;
+}
+
+.non-extraction .cure2-payment-section .payment-intro {
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  line-height: 180%;
+  margin-bottom: 50px;
+}
+
+.non-extraction .cure2-payment-section .payment-intro span.l2 {
+  color: #333;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.non-extraction .cure2-payment-section .payment-intro span {
+  color: #fd2802;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.non-extraction .cure2-payment-section .left {
+  width: 400px;
+  float: left;
+}
+
+.non-extraction .cure2-payment-section .right {
+  width: 500px;
+  float: right;
+}
+
+.non-extraction .cure2-payment-section .payment-wrap .aplus-link {
+  text-align: center;
+  margin: 10px;
+}
+
+.non-extraction .cure2-payment-section .payment-wrap .aplus-link a {
+  color: #08c;
+}
+
+.non-extraction .cure2-payment-section .payment-wrap .aplus-link a:hover {
+  text-decoration: underline;
+}
+
+.non-extraction .cure2-payment-section .left img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding: 20px 0;
+}
+
+.non-extraction .cure2-payment-section .alignment-anchor {
+  margin: 30px auto 0;
+  padding-bottom: 30px;
+  color: #08c;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  line-height: 150%;
+}
+
+.non-extraction .cure2-payment-section .alignment-anchor:hover {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.non-extraction .cure2-payment-section .right a.credit-anchor {
+  margin: 20px auto;
+  color: #08c;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  line-height: 150%;
+}
+
+.non-extraction .cure2-payment-section .right a.credit-anchor:hover {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.non-extraction .cure2-payment-section h4.head {
+  font-weight: 400;
+  margin-bottom: 20px;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
+.non-extraction .cure2-payment-section p.card,
+.non-extraction .cure2-payment-section p.credit {
+  font-weight: 200;
+  line-height: 180%;
+}
+
+.non-extraction .cure2-payment-section .alignment-price {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 500;
+  background-color: #fff;
+  overflow: hidden;
+  letter-spacing: 0.2rem;
+  padding: 0 20px 20px;
+}
+
+.non-extraction .cure2-payment-section .alignment-price h5.head {
+  text-align: center;
+  font-weight: 200;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.non-extraction .cure2-payment-section .alignment-price h5.head span {
+  display: block;
+  margin-top: 10px;
+}
+
+.non-extraction .cure2-payment-section .alignment-price p.item {
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+
+.non-extraction .cure2-payment-section .alignment-price p.result {
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.non-extraction .cure2-payment-section .alignment-price p.yoyaku {
+  text-align: center;
+  font-weight: 500;
+  padding: 5px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.non-extraction .cure2-payment-section .alignment-price p.yoyaku a {
+  background-color: #d93600;
+  letter-spacing: normal;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.non-extraction .cure2-payment-section .alignment-price h6.head {
+  text-align: center;
+  font-weight: 200;
+  margin: 50px auto 20px;
+  max-width: 600px;
+  padding: 5px;
+  display: block;
+  background-color: #f6f2ed;
+}
+
+.non-extraction .cure2-payment-section .alignment-price table {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.non-extraction .cure2-payment-section .alignment-price table tr {
+  border-bottom: 1px solid #f6f2ed;
+  padding: 10px;
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+}
+
+.non-extraction .cure2-payment-section .alignment-price table tr th {
+  font-weight: 200;
+  width: 350px;
+  text-align: left;
+}
+
+.non-extraction .cure2-payment-section .alignment-price table tr td {
+  font-weight: 400;
+  text-align: right;
+  width: 250px;
+}
+
+.non-extraction .cure2-payment-section .alignment-price .comment {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  font-weight: 400;
+  padding: 10px 20px;
+  line-height: 150%;
+}
+
+/* ==========================================================
+	invisalign
+========================================================== */
+/* outline */
+.cure2-header.invizalign {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  background-image: url(../images/cure2-invizalign-header.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.cure2-header.invizalign h1.cure2-header-caption {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+}
+
+.invisalign .cure2-outline-section {
+  width: 100%;
+  background-color: #fafafa;
+}
+
+.invisalign .cure2-outline-section img {
+  display: block;
+  margin: 0 auto;
+}
+
+.invisalign .cure2-intro-section {
+  max-width: 1000px;
+  margin: 50px auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.invisalign .cure2-intro-section h2.head {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+  line-height: 180%;
+}
+
+.invisalign .cure2-intro-section p.intro {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+  line-height: 200%;
+  text-align: justify;
+  padding-bottom: 30px;
+}
+
+/* about */
+.invisalign .cure2-about-section {
+  max-width: 1000px;
+  margin: 0 auto 50px;
+  overflow: hidden;
+}
+
+.invisalign .cure2-about-section .left {
+  width: 50%;
+  float: left;
+}
+
+.invisalign .cure2-about-section .right {
+  text-align: center;
+}
+
+.invisalign .cure2-about-section .right img {
+  width: 400px;
+  display: block;
+}
+
+.invisalign .cure2-about-section h3.head {
+  font-weight: 200;
+  margin-bottom: 30px;
+  letter-spacing: 0.2rem;
+}
+
+.invisalign .cure2-about-section p.intro {
+  font-weight: 200;
+  line-height: 180%;
+}
+
+/* merit */
+.invisalign .cure2-merit-section {
+  max-width: 1000px;
+  margin: 100px auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.invisalign .cure2-merit-section h3.head {
+  font-weight: 200;
+  margin-bottom: 30px;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
+.invisalign .cure2-merit-section ul li {
+  max-width: 800px;
+  padding: 20px 30px;
+  text-align: center;
+  line-height: 150%;
+  background-color: #ef9ba0;
+  margin-bottom: 1px;
+  font-weight: 400;
+  color: #fff;
+}
+
+/* case */
+.invisalign .cure2-case-section {
+  max-width: 1000px;
+  margin: 50px auto 50px;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.invisalign .cure2-case-section .left {
+  width: 400px;
+  float: left;
+  padding-left: 60px;
+}
+
+.invisalign .cure2-case-section .right {
+  width: 400px;
+  float: right;
+  padding-right: 60px;
+}
+
+.invisalign .cure2-case-section .center {
+  max-width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.invisalign .cure2-case-section .case {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+
+.invisalign .cure2-case-section .center p.ans {
+  text-align: left;
+  line-height: 150%;
+  margin-top: 20px;
+}
+
+.invisalign .cure2-case-section .left img,
+.invisalign .cure2-case-section .right img {
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+}
+
+.invisalign .cure2-case-section .center img {
+  float: left;
+  margin-right: 30px;
+}
+
+.invisalign .cure2-case-section .center .comment {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.invisalign .cure2-case-section p.blogbanner a {
+  text-align: center;
+  padding: 10px 50px;
+  margin: 100px auto;
+  background-color: #209cdf;
+  display: block;
+  color: #fff;
+  width: 400px;
+  border-radius: 50px;
+  font-weight: 400;
+}
+
+/* flow */
+.invisalign .cure2-flow-section {
+  max-width: 900px;
+  margin: 100px auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.invisalign .cure2-flow-section h3.head {
+  font-weight: 200;
+  margin-bottom: 30px;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
+.invisalign .cure2-flow-section .item {
+  font-weight: 400;
+  margin: 30px 0;
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.invisalign .cure2-flow-section .note {
+  font-weight: 200;
+  margin: 0 auto 30px;
+  text-align: justify;
+  line-height: 150%;
+  max-width: 800px;
+  position: relative;
+}
+
+.invisalign .cure2-flow-section .note img {
+  display: block;
+  margin: 20px auto;
+}
+
+.invisalign .cure2-flow-section .note .vivera-retainers-img {
+  width: 50%;
+}
+
+.invisalign .cure2-flow-section .note iframe {
+  display: block;
+  margin: 10px auto 0;
+}
+
+.invisalign .cure2-flow-section .note span.att {
+  display: block;
+  text-align: left;
+}
+
+.invisalign .cure2-flow-section .note span {
+  display: block;
+  text-align: center;
+}
+
+.invisalign .cure2-flow-section .arrow {
+  text-align: center;
+  color: #999;
+  line-height: 150%;
+}
+
+.invisalign .cure2-flow-section .note .topics {
+  display: block;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.invisalign .cure2-flow-section .note .topics h4 {
+  text-align: center;
+  font-weight: 400;
+}
+
+.invisalign .cure2-flow-section .note .topics ul li {
+  max-width: 800px;
+  text-align: justify;
+  line-height: 150%;
+  font-weight: 300;
+  position: relative;
+  padding-left: 25px;
+  margin: 20px;
+}
+
+.invisalign .cure2-flow-section .note .topics ul li:before {
+  content: "";
+  position: absolute;
+  top: .35em;
+  left: 6px;
+  -webkit-transform: rotate(50deg);
+  transform: rotate(50deg);
+  width: 3px;
+  height: 7px;
+  border-right: 2px solid #8b6b4e;
+  border-bottom: 2px solid #8b6b4e;
+}
+
+.invisalign .cure2-flow-section .note .topics ul li:after {
+  content: "";
+  position: absolute;
+  top: .2em;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #8b6b4e;
+  border-radius: 2px;
+}
+
+.invisalign .cure2-flow-section .note .topics h5 {
+  padding: 20px 0 5px;
+  font-size: 1.6rem;
+  margin: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.invisalign .cure2-flow-section .note .topics p {
+  height: 100px;
+}
+
+.invisalign .cure2-flow-section .note .topics .left {
+  float: left;
+  width: 45%;
+}
+
+.invisalign .cure2-flow-section .note .topics .left img {
+  width: 100%;
+}
+
+.invisalign .cure2-flow-section .note .topics .right {
+  float: right;
+  width: 45%;
+}
+
+.invisalign .cure2-flow-section .note .topics .right img {
+  width: 100%;
+}
+
+/* merit */
+.invisalign .cure2-important-section {
+  max-width: 1000px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+.invisalign .cure2-important-section h3.head {
+  font-weight: 200;
+  margin-bottom: 20px;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
+.invisalign .cure2-important-section ul li {
+  max-width: 800px;
+  padding: 20px 20px 0;
+  text-align: justify;
+  line-height: 150%;
+  margin-bottom: 1px;
+  font-weight: 300;
+}
+
+/* plan */
+.invisalign .cure2-plan-section {
+  max-width: 1200px;
+  margin: 0 auto 100px;
+  overflow: hidden;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.invisalign .cure2-plan-section h2 {
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.invisalign .cure2-plan-section .plan-wrap {
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  max-width: 330px;
+  margin: 20px;
+}
+
+.invisalign .cure2-plan-section .plan-wrap h3.head {
+  height: 50px;
+  margin: 20px;
+  font-weight: 200;
+  line-height: 150%;
+}
+
+.invisalign .cure2-plan-section .plan-wrap img {
+  margin-bottom: 20px;
+}
+
+.invisalign .cure2-plan-section .plan-case h3 {
+  padding: 30px 0 20px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.invisalign .cure2-plan-section .plan-case .case-img {
+  display: inline-block;
+  margin: 20px;
+  max-width: 400px;
+}
+
+.invisalign .cure2-plan-section .plan-wrap p {
+  text-align: justify;
+  line-height: 150%;
+  font-weight: 200;
+}
+
+.invisalign .cure2-plan-section .plan-wrap2 {
+  font-weight: 200;
+  margin: 30px auto 30px;
+  text-align: justify;
+  max-width: 800px;
+  position: relative;
+}
+
+.invisalign .cure2-plan-section .plan-wrap2 .topics {
+  display: block;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.invisalign .cure2-plan-section .plan-wrap2 .topics h3 {
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.invisalign .cure2-plan-section .plan-wrap2 .topics .outline {
+  text-align: left;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.invisalign .cure2-plan-section .plan-wrap2 .topics h4 {
+  text-align: center;
+  font-weight: 400;
+}
+
+.invisalign .cure2-plan-section .plan-wrap2 .topics ul li {
+  max-width: 800px;
+  text-align: justify;
+  line-height: 150%;
+  font-weight: 300;
+  position: relative;
+  padding-left: 25px;
+  margin: 20px;
+}
+
+.invisalign .cure2-plan-section .plan-wrap2 .topics ul li:before {
+  content: "";
+  position: absolute;
+  top: .35em;
+  left: 6px;
+  -webkit-transform: rotate(50deg);
+  transform: rotate(50deg);
+  width: 3px;
+  height: 7px;
+  border-right: 2px solid #8b6b4e;
+  border-bottom: 2px solid #8b6b4e;
+}
+
+.invisalign .cure2-plan-section .plan-wrap2 .topics ul li:after {
+  content: "";
+  position: absolute;
+  top: .2em;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #8b6b4e;
+  border-radius: 2px;
+}
+
+.invisalign .cure2-plan-section .plan-wrap2 .topics p.att {
+  line-height: 150%;
+  margin-bottom: 10px;
+}
+
+.invisalign .cure2-plan-section .plan-wrap2 .topics h5 {
+  padding: 20px 0 5px;
+  font-size: 1.6rem;
+  margin: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.invisalign .cure2-plan-section .plan-wrap2 .topics p {
+  height: 100px;
+}
+
+.invisalign .cure2-plan-section .plan-wrap2 .topics .left {
+  float: left;
+  width: 45%;
+}
+
+.invisalign .cure2-plan-section .plan-wrap2 .topics .left img {
+  width: 100%;
+}
+
+.invisalign .cure2-plan-section .plan-wrap2 .topics .right {
+  float: right;
+  width: 45%;
+}
+
+.invisalign .cure2-plan-section .plan-wrap2 .topics .right img {
+  width: 100%;
+}
+
+.invisalign .cure2-plan-section .plan-wrap2 img {
+  display: block;
+  margin: auto;
+}
+
+.invisalign .cure2-plan-section .invizalign-link {
+  display: block;
+}
+
+.invisalign .cure2-plan-section .invizalign-link a {
+  background-color: #08c;
+  width: 50%;
+  padding: 10px 20px;
+  display: block;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.invisalign .cure2-plan-section .invizalign-link a span {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* qa-section */
+.invisalign .cure2-qa-section {
+  max-width: 800px;
+  margin: 50px auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.invisalign .cure2-qa-section .qa-head {
+  margin-bottom: 30px;
+  text-align: center;
+  /* 	text-decoration: underline; */
+  /* 	color: #08c; */
+  /* 	cursor: pointer; */
+}
+
+.invisalign .cure2-qa-section ul.qa {
+  font-weight: 300;
+  line-height: 180%;
+  /* 	display: none; */
+}
+
+.invisalign .cure2-qa-section ul.qa span {
+  display: block;
+  font-weight: 500;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 5px;
+}
+
+.invisalign .cure2-qa-section ul.qa li {
+  margin-bottom: 30px;
+}
+
+/* payment */
+.invisalign .cure2-payment-section {
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 50px;
+  background-color: #f6f2ed;
+}
+
+.invisalign .cure2-payment-section .payment-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px 20px 20px;
+  overflow: hidden;
+}
+
+.invisalign .cure2-payment-section .payment-intro {
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  line-height: 180%;
+  margin-bottom: 50px;
+}
+
+.invisalign .cure2-payment-section .payment-intro span.l2 {
+  color: #333;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.invisalign .cure2-payment-section .payment-intro span {
+  color: #fd2802;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.invisalign .cure2-payment-section .left {
+  width: 400px;
+  float: left;
+}
+
+.invisalign .cure2-payment-section .right {
+  width: 500px;
+  float: right;
+}
+
+.invisalign .cure2-payment-section .payment-wrap .aplus-link {
+  text-align: center;
+  margin: 10px;
+}
+
+.invisalign .cure2-payment-section .payment-wrap .aplus-link a {
+  color: #08c;
+}
+
+.invisalign .cure2-payment-section .payment-wrap .aplus-link a:hover {
+  text-decoration: underline;
+}
+
+.invisalign .cure2-payment-section .left img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding: 20px 0;
+}
+
+.invisalign .cure2-payment-section .alignment-anchor {
+  margin: 30px auto 0;
+  padding-bottom: 30px;
+  color: #08c;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  line-height: 150%;
+}
+
+.invisalign .cure2-payment-section .alignment-anchor:hover {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.invisalign .cure2-payment-section .right a.credit-anchor {
+  margin: 20px auto;
+  color: #08c;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  line-height: 150%;
+}
+
+.invisalign .cure2-payment-section .right a.credit-anchor:hover {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.invisalign .cure2-payment-section h4.head {
+  font-weight: 400;
+  margin-bottom: 20px;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
+.invisalign .cure2-payment-section p.card,
+.invisalign .cure2-payment-section p.credit {
+  font-weight: 200;
+  line-height: 180%;
+}
+
+.invisalign .cure2-payment-section .alignment-price {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 500;
+  background-color: #fff;
+  overflow: hidden;
+  letter-spacing: 0.2rem;
+  padding: 0 20px 20px;
+}
+
+.invisalign .cure2-payment-section .alignment-price h5.head {
+  text-align: center;
+  font-weight: 200;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.invisalign .cure2-payment-section .alignment-price h5.head span {
+  display: block;
+  margin-top: 10px;
+}
+
+.invisalign .cure2-payment-section .alignment-price p.item {
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+
+.invisalign .cure2-payment-section .alignment-price p.result {
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.invisalign .cure2-payment-section .alignment-price p.yoyaku {
+  text-align: center;
+  font-weight: 500;
+  padding: 5px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.invisalign .cure2-payment-section .alignment-price p.yoyaku a {
+  background-color: #d93600;
+  letter-spacing: normal;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.invisalign .cure2-payment-section .alignment-price h6.head {
+  text-align: center;
+  font-weight: 200;
+  margin: 50px auto 20px;
+  max-width: 600px;
+  padding: 5px;
+  display: block;
+  background-color: #f6f2ed;
+}
+
+.invisalign .cure2-payment-section .alignment-price table {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.invisalign .cure2-payment-section .alignment-price table tr {
+  border-bottom: 1px solid #f6f2ed;
+  padding: 10px;
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+}
+
+.invisalign .cure2-payment-section .alignment-price table tr th {
+  font-weight: 200;
+  width: 350px;
+  text-align: left;
+}
+
+.invisalign .cure2-payment-section .alignment-price table tr td {
+  font-weight: 400;
+  text-align: right;
+  width: 250px;
+}
+
+.invisalign .cure2-payment-section .alignment-price .comment {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  font-weight: 400;
+  padding: 10px 20px;
+  line-height: 150%;
+}
+
+/* ==========================================================
+	orthodontic-page
+========================================================== */
+/* outline */
+.orthodontic .cure2-outline-section {
+  max-width: 1000px;
+  padding: 100px 20px 0;
+}
+
+.orthodontic .cure2-outline-section h2.head {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+}
+
+.orthodontic .cure2-outline-section h2.head br {
+  display: none;
+}
+
+.orthodontic .cure2-outline-section h3.head {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+  margin-bottom: 50px;
+  line-height: 150%;
+}
+
+.orthodontic .cure2-outline-section p.intro {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+  line-height: 200%;
+  text-align: center;
+}
+
+.orthodontic .cure2-outline-section .comment {
+  margin: 30px auto 0;
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+  line-height: 200%;
+  text-align: center;
+}
+
+.orthodontic .cure2-outline-section .comment ul {
+  margin: 30px auto;
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+  line-height: 200%;
+  text-align: center;
+}
+
+.orthodontic .cure2-outline-section .adaptation {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: left;
+}
+
+.orthodontic .cure2-outline-section .adaptation .head {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.orthodontic .cure2-outline-section .adaptation .intro {
+  text-align: left;
+  line-height: 180%;
+}
+
+.orthodontic .cure2-outline-section .center {
+  width: 400px;
+  margin: 0 auto;
+}
+
+/* orthodontic */
+.orthodontic .cure2-orthodontic-section {
+  max-width: 1000px;
+  margin: 100px auto 0;
+  overflow: hidden;
+}
+
+.orthodontic .cure2-orthodontic-section .left {
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+
+.orthodontic .cure2-orthodontic-section .right {
+  width: 400px;
+  float: right;
+}
+
+.orthodontic .cure2-orthodontic-section .right img {
+  display: block;
+  height: 400px;
+  margin-left: 0;
+}
+
+.orthodontic .cure2-orthodontic-section h3.head {
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+
+.orthodontic .cure2-orthodontic-section　p.intro {
+  font-weight: 200;
+  margin-bottom: 30px;
+  line-height: 150%;
+}
+
+.orthodontic .cure2-orthodontic-section p.orthodontic {
+  font-weight: 200;
+  margin-bottom: 30px;
+  line-height: 180%;
+}
+
+.orthodontic .cure2-orthodontic-section p.orthodontic.center {
+  font-weight: 200;
+  margin-bottom: 30px;
+  line-height: 180%;
+  text-align: center;
+}
+
+.orthodontic .cure2-orthodontic-section p.orthodontic.center a {
+  color: #08c;
+}
+
+.orthodontic .cure2-orthodontic-section p.orthodontic.center a:hover {
+  color: #08c;
+  text-decoration: underline;
+}
+
+.orthodontic .cure2-orthodontic-section .adaptation {
+  margin: 50px auto;
+  text-align: left;
+}
+
+.orthodontic .cure2-orthodontic-section .adaptation p.head {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.orthodontic .cure2-orthodontic-section .adaptation p.intro {
+  text-align: left;
+  line-height: 180%;
+  font-weight: 300;
+}
+
+.orthodontic .cure2-orthodontic-section p.blogbanner a {
+  text-align: center;
+  padding: 10px 50px;
+  margin: 100px auto;
+  background-color: #d0bfa6;
+  display: block;
+  color: #fff;
+  width: 400px;
+  border-radius: 50px;
+  font-weight: 400;
+}
+
+/* mouthpiece */
+.orthodontic .cure2-mouthpiece-section {
+  max-width: 1000px;
+  margin: 100px auto 100px;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.orthodontic .cure2-mouthpiece-section .center {
+  text-align: left;
+  clear: both;
+}
+
+.orthodontic .cure2-mouthpiece-section .center .recom {
+  max-width: 800px;
+  background-color: rgba(210, 190, 165, 0.2);
+  padding: 30px;
+  margin: 50px auto;
+  color: #a5967d;
+  line-height: 150%;
+  font-weight: 500;
+}
+
+.orthodontic .cure2-mouthpiece-section .center .recom .title {
+  color: #a5967d;
+  margin: 20px 0 30px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.orthodontic .cure2-mouthpiece-section .left {
+  width: 50%;
+  float: left;
+}
+
+.orthodontic .cure2-mouthpiece-section .left img {
+  width: 400px;
+  margin-left: 0;
+  display: block;
+}
+
+.orthodontic .cure2-mouthpiece-section .right {
+  width: 400px;
+  float: right;
+}
+
+.orthodontic .cure2-mouthpiece-section .right img {
+  width: 400px;
+  display: block;
+  margin-left: 0;
+}
+
+.orthodontic .cure2-mouthpiece-section h3.head {
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+
+.orthodontic .cure2-mouthpiece-section p.intro {
+  font-weight: 200;
+  margin-bottom: 30px;
+  line-height: 180%;
+}
+
+.orthodontic .cure2-mouthpiece-section h4.sub-head {
+  font-weight: 400;
+  margin-bottom: 10px;
+  line-height: 150%;
+}
+
+.orthodontic .cure2-mouthpiece-section p.mouthpiece {
+  font-weight: 200;
+  line-height: 180%;
+  margin-bottom: 20px;
+}
+
+.orthodontic .cure2-mouthpiece-section p.mouthpiece a {
+  font-weight: 400;
+  color: #08c;
+}
+
+.orthodontic .cure2-mouthpiece-section p.mouthpiece a:hover {
+  color: #08c;
+  text-decoration: underline;
+}
+
+.orthodontic .orthodontic-btn {
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.orthodontic .orthodontic-btn a {
+  letter-spacing: 0.2rem;
+  color: #08c;
+}
+
+.orthodontic .orthodontic-btn a:hover {
+  color: #08c;
+  text-decoration: underline;
+}
+
+/* ceramic */
+.orthodontic .cure2-ceramic-orthodontic-section {
+  max-width: 1000px;
+  margin: 100px auto;
+  overflow: hidden;
+}
+
+.orthodontic .cure2-ceramic-orthodontic-section .left {
+  width: 400px;
+  float: left;
+  overflow: hidden;
+}
+
+.orthodontic .cure2-ceramic-orthodontic-section .right {
+  width: 50%;
+  float: right;
+}
+
+.orthodontic .cure2-ceramic-orthodontic-section .left img {
+  width: 400px;
+  display: block;
+  height: 400px;
+  margin-left: 0;
+}
+
+.orthodontic .cure2-ceramic-orthodontic-section h3.head {
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+
+.orthodontic .cure2-ceramic-orthodontic-section p.ceramic {
+  font-weight: 200;
+  margin-bottom: 30px;
+  line-height: 150%;
+}
+
+.orthodontic .cure2-ceramic-orthodontic-section p.orthodontic.center a {
+  color: #08c;
+}
+
+.orthodontic .cure2-ceramic-orthodontic-section p.orthodontic.center a:hover {
+  color: #08c;
+  text-decoration: underline;
+}
+
+/* merit */
+.orthodontic .cure2-orthodontic-section.merit {
+  max-width: 1000px;
+  font-weight: 200;
+  margin: 0 auto;
+}
+
+.orthodontic .cure2-orthodontic-section.merit .center ul li {
+  line-height: 180%;
+  margin-bottom: 30px;
+}
+
+.orthodontic .cure2-orthodontic-section.merit .center ul li span {
+  display: block;
+  font-weight: 500;
+}
+
+/* comment */
+.orthodontic .cure2-orthodontic-section.comment {
+  background-color: #efefef;
+  padding: 20px;
+  font-weight: 200;
+  margin-bottom: 50px;
+}
+
+.orthodontic .cure2-orthodontic-section.comment .center .note {
+  line-height: 180%;
+}
+
+/* ==========================================================
+	gap-page
+========================================================== */
+/* outline */
+.gap .cure2-outline-section {
+  max-width: 1000px;
+  padding: 100px 0 0;
+}
+
+.gap .cure2-outline-section h2.head {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+  line-height: 180%;
+}
+
+.gap .cure2-outline-section p.intro {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+  line-height: 200%;
+  text-align: justify;
+  padding-bottom: 30px;
+}
+
+.gap .cure2-outline-section h3.head {
+  text-align: center;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+  margin: 50px auto 30px;
+  line-height: 150%;
+}
+
+.gap .cure2-outline-section p.detail {
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+  line-height: 200%;
+  text-align: justify;
+  padding-bottom: 30px;
+}
+
+/* case */
+.gap .gap-case-section {
+  max-width: 1000px;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.gap .gap-case-section .case {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+  line-height: 200%;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.gap .gap-case-section .case .bold {
+  line-height: 150%;
+  margin-bottom: 30px;
+}
+
+.gap .gap-case-section .case .bold span {
+  display: block;
+}
+
+.gap .gap-case-section .case ul {
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.gap .gap-case-section .case ul li {
+  margin: 20px;
+}
+
+.gap .gap-case-section .case .wrap {
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+.gap .gap-case-section .case .left {
+  width: 40%;
+  margin: 10px;
+  display: inline-block;
+}
+
+.gap .gap-case-section .case .right {
+  width: 40%;
+  margin: 10px;
+  display: inline-block;
+}
+
+.gap .gap-case-section .case table {
+  letter-spacing: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.gap .gap-case-section .case table th {
+  width: 25%;
+  border: 1px solid #ccc;
+  padding: 3px;
+  background-color: #f6f2ed;
+}
+
+.gap .gap-case-section .case table td {
+  width: 25%;
+  border: 1px solid #ccc;
+  padding: 3px;
+  line-height: 120%;
+}
+
+.gap .gap-case-section .case .head {
+  font-weight: 400;
+  padding: 10px;
+  background-color: #f6f2ed;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+.gap .gap-case-section .case .comment {
+  height: 100px;
+  line-height: 150%;
+  font-weight: 300;
+  text-align: left;
+}
+
+/* type */
+.gap .gap-type-section {
+  max-width: 1000px;
+  padding: 0 0 50px;
+  margin: 0 auto;
+}
+
+.gap .gap-type-section h3.head {
+  text-align: center;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+  margin: 0 auto 50px;
+  line-height: 150%;
+}
+
+.gap .gap-type-section .wrap {
+  margin: 100px 0;
+  overflow: hidden;
+}
+
+.gap .gap-type-section .wrap .left {
+  width: 50%;
+  float: left;
+}
+
+.gap .gap-type-section .wrap .right {
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+
+.gap .gap-type-section .wrap h4 {
+  text-align: justify;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+  margin-bottom: 10px;
+  line-height: 150%;
+}
+
+.gap .gap-type-section .wrap .comment {
+  text-align: justify;
+  font-weight: 200;
+  letter-spacing: 0.1rem;
+  text-indent: 0.2rem;
+  line-height: 200%;
+}
+
+.gap .gap-type-section .wrap-merit {
+  margin: -50px 0 50px;
+  overflow: hidden;
+}
+
+.gap .gap-type-section .wrap-merit .left {
+  width: 60%;
+  float: left;
+}
+
+.gap .gap-type-section .wrap-merit .right {
+  width: 40%;
+  float: right;
+  text-align: right;
+}
+
+.gap .gap-type-section .wrap-merit .right img {
+  width: 85%;
+}
+
+.gap .gap-type-section .wrap-merit h4.center {
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+  margin-bottom: 10px;
+  line-height: 150%;
+}
+
+.gap .gap-type-section .wrap-merit ul {
+  text-align: center;
+  line-height: 150%;
+}
+
+.gap .gap-type-section .wrap-merit ul li {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f6f2ed;
+  font-weight: 400;
+}
+
+.gap .gap-type-section .end {
+  font-weight: 200;
+  line-height: 200%;
+  color: #d53212;
+}
+
+/* ceramic */
+.gap .cure2-ceramic-section {
+  max-width: 1000px;
+  padding: 50px 0 0;
+}
+
+.gap .cure2-ceramic-section h3.head {
+  text-align: center;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+  margin: 50px auto 30px;
+  line-height: 150%;
+}
+
+.gap .cure2-ceramic-section p.detail {
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+  line-height: 200%;
+  text-align: justify;
+  padding-bottom: 30px;
+}
+
+/* method */
+.gap .gap-method-section {
+  max-width: 1000px;
+  padding: 0 0 50px;
+  margin: 0 auto;
+}
+
+.gap .gap-method-section h3.head {
+  text-align: center;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+  margin: 0 auto 50px;
+  line-height: 150%;
+}
+
+.gap .gap-method-section .wrap {
+  margin: 100px 0;
+  overflow: hidden;
+}
+
+.gap .gap-method-section .wrap .left {
+  width: 50%;
+  float: left;
+}
+
+.gap .gap-method-section .wrap .right {
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+
+.gap .gap-method-section .wrap table {
+  clear: both;
+  letter-spacing: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.gap .gap-method-section .wrap table th {
+  width: 25%;
+  border: 1px solid #ccc;
+  padding: 3px;
+  background-color: #f6f2ed;
+  line-height: 150%;
+}
+
+.gap .gap-method-section .wrap table td {
+  width: 25%;
+  border: 1px solid #ccc;
+  padding: 3px;
+  line-height: 150%;
+}
+
+.gap .gap-method-section .wrap h4 {
+  text-align: justify;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+  margin-bottom: 10px;
+  line-height: 150%;
+}
+
+.gap .gap-method-section .wrap .comment {
+  text-align: justify;
+  font-weight: 200;
+  letter-spacing: 0.1rem;
+  text-indent: 0.2rem;
+  line-height: 200%;
+}
+
+.gap .gap-method-section .wrap-merit {
+  margin: -50px 0 20px;
+  overflow: hidden;
+}
+
+.gap .gap-method-section .wrap-merit .left {
+  width: 45%;
+  float: left;
+}
+
+.gap .gap-method-section .wrap-merit .right {
+  width: 45%;
+  float: right;
+}
+
+.gap .gap-method-section .wrap-merit h4.center {
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+  margin-bottom: 10px;
+  line-height: 150%;
+}
+
+.gap .gap-method-section .wrap-merit ul {
+  text-align: center;
+  line-height: 150%;
+}
+
+.gap .gap-method-section .wrap-merit ul li {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f6f2ed;
+  font-weight: 400;
+}
+
+.gap .gap-method-section .end {
+  font-weight: 200;
+  line-height: 150%;
+  color: #d53212;
+}
+
+.gap .gap-method-section .wrap h4.under {
+  text-align: justify;
+  font-weight: 300;
+  letter-spacing: 0rem;
+  text-indent: 0.2rem;
+  margin-bottom: 10px;
+  line-height: 150%;
+  text-decoration: underline;
+}
+
+/* composite */
+.gap .gap-composite-section {
+  max-width: 1000px;
+  margin-bottom: 150px;
+}
+
+.gap .gap-composite-section h3.head {
+  text-align: center;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+  margin: 50px auto 30px;
+  line-height: 150%;
+}
+
+.gap .gap-composite-section p.detail {
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+  line-height: 200%;
+  text-align: justify;
+  padding-bottom: 30px;
+}
+
+.gap .gap-composite-section .wrap {
+  margin: 100px 0;
+  overflow: hidden;
+}
+
+.gap .gap-composite-section .wrap .left {
+  width: 50%;
+  float: left;
+}
+
+.gap .gap-composite-section .wrap .right {
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+
+.gap .gap-composite-section .wrap table {
+  clear: both;
+  letter-spacing: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.gap .gap-composite-section .wrap table th {
+  width: 25%;
+  border: 1px solid #ccc;
+  padding: 3px;
+  background-color: #f6f2ed;
+  line-height: 150%;
+}
+
+.gap .gap-composite-section .wrap table td {
+  width: 25%;
+  border: 1px solid #ccc;
+  padding: 3px;
+  line-height: 150%;
+}
+
+.gap .gap-composite-section .wrap h4 {
+  text-align: justify;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+  margin-bottom: 10px;
+  line-height: 150%;
+}
+
+.gap .gap-composite-section .wrap .comment {
+  text-align: justify;
+  font-weight: 200;
+  letter-spacing: 0.1rem;
+  text-indent: 0.2rem;
+  line-height: 200%;
+}
+
+.gap .gap-composite-section .wrap-merit {
+  margin: -50px 0 20px;
+  overflow: hidden;
+}
+
+.gap .gap-composite-section .wrap-merit .left {
+  width: 45%;
+  float: left;
+}
+
+.gap .gap-composite-section .wrap-merit .right {
+  width: 45%;
+  float: right;
+}
+
+.gap .gap-composite-section .wrap-merit h4.center {
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+  margin-bottom: 10px;
+  line-height: 150%;
+}
+
+.gap .gap-composite-section .wrap-merit ul {
+  text-align: center;
+  line-height: 150%;
+}
+
+.gap .gap-composite-section .wrap-merit ul li {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f6f2ed;
+  font-weight: 400;
+}
+
+/* care */
+.gap .gap-care-section {
+  max-width: 1000px;
+  padding: 0 0 100px;
+  margin: 0 auto;
+}
+
+.gap .gap-care-section .bold {
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 30px;
+}
+
+.gap .gap-care-section ul {
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.gap .gap-care-section ul li {
+  font-weight: 200;
+  margin: 20px;
+  line-height: 150%;
+  list-style: disc;
+}
+
+/* blog */
+.gap .gap-blog-section {
+  max-width: 1000px;
+  padding: 0 0 100px;
+  margin: 0 auto;
+}
+
+.gap .gap-blog-section .bold {
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 30px;
+}
+
+.gap .gap-blog-section ul {
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.gap .gap-blog-section ul li {
+  font-weight: 200;
+  margin: 10px 20px;
+  line-height: 150%;
+  list-style: disc;
+}
+
+/* ==========================================================
+	implant-page
+========================================================== */
+/* outline */
+.implant .cure2-outline-section {
+  max-width: 1000px;
+  padding: 100px 20px 0;
+}
+
+.implant .cure2-outline-section h2.head {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+  line-height: 150%;
+}
+
+.implant .cure2-outline-section p.intro {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+  line-height: 200%;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.implant .cure2-outline-section p.intro span {
+  font-weight: 400;
+  line-height: 200%;
+  text-align: left;
+  display: block;
+}
+
+/* implant */
+.implant .cure2-implant-section {
+  max-width: 970px;
+  margin: 50px auto 150px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.implant .cure2-implant-section img {
+  width: 200px;
+  margin: 0 20px 50px;
+  padding: 0;
+}
+
+.implant .cure2-implant-section .comment {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.implant .cure2-implant-section .comment-bold {
+  margin: 50px auto;
+  text-align: left;
+  font-weight: 500;
+  line-height: 150%;
+  padding: 20px;
+  background-color: #f6f2ed;
+}
+
+.implant .cure2-implant-section .howto-head {
+  text-align: left;
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin: 0 50px;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.implant .cure2-implant-section ul.howto {
+  padding: 30px 100px 50px;
+  text-align: left;
+}
+
+.implant .cure2-implant-section .howto li {
+  text-align: left;
+  margin-bottom: 20px;
+  list-style: decimal;
+  padding-left: 10px;
+}
+
+.implant .cure2-implant-section .merit-head {
+  max-width: 900px;
+  text-align: left;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 50px auto 20px;
+}
+
+.implant .cure2-implant-section .merit {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+  font-weight: 400;
+}
+
+.implant .cure2-implant-section .merit li {
+  list-style: disc;
+  margin-bottom: 20px;
+  line-height: 150%;
+  font-size: 1.5rem;
+}
+
+.implant .cure2-implant-section .merit li span {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 200;
+}
+
+/* warranty */
+.implant .cure2-warranty-section {
+  width: 100%;
+  padding: 50px 0;
+  background-color: rgba(210, 190, 165, 0.2);
+}
+
+.implant .cure2-warranty-section .wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.implant .cure2-warranty-section h3.head {
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+
+.implant .cure2-warranty-section p.lead {
+  font-weight: 200;
+  margin-bottom: 30px;
+  line-height: 180%;
+  text-align: center;
+}
+
+.implant .cure2-warranty-section .warranty {
+  line-height: 150%;
+}
+
+/* ==========================================================
+	denture-page
+========================================================== */
+/* outline */
+.denture .cure2-outline-section {
+  max-width: 1000px;
+  padding: 100px 20px 0;
+}
+
+.denture .cure2-outline-section h2.head {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+  line-height: 150%;
+}
+
+.denture .cure2-outline-section p.intro {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+  line-height: 200%;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.denture .cure2-denture-section {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.denture .cure2-denture-section .insurance {
+  width: 208px;
+  float: left;
+  margin: 0 20px 30px;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  background-color: #eee;
+}
+
+.denture .cure2-denture-section .expense {
+  width: 710px;
+  margin: 0 20px 30px;
+  float: right;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  background-color: #f6f2ed;
+}
+
+.denture .cure2-denture-section .denture-box {
+  width: 208px;
+  display: table-cell;
+  padding: 0 20px;
+}
+
+.denture .cure2-denture-section .denture-box h3.head {
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+  margin-bottom: 20px;
+}
+
+.denture .cure2-denture-section .denture-box p.detail {
+  font-weight: 200;
+  line-height: 180%;
+}
+
+/* snap-it */
+.denture .cure2-snap-it-section {
+  max-width: 1000px;
+  padding: 100px 20px;
+}
+
+.denture .cure2-snap-it-section h2.head {
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 20px;
+}
+
+.denture .cure2-snap-it-section h3.head {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+}
+
+.denture .cure2-snap-it-section p.intro {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+  line-height: 200%;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.denture .cure2-snap-it-section .snap-it-image {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+
+.denture .cure2-snap-it-section .snap-it-image img {
+  text-align: center;
+}
+
+/* ==========================================================
+	grinding-page
+========================================================== */
+/* outline */
+.grinding .cure2-outline-section {
+  max-width: 1000px;
+  padding: 100px 0 0;
+}
+
+.grinding .cure2-outline-section h2.head {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+  margin-bottom: 50px;
+  line-height: 150%;
+}
+
+.grinding .cure2-outline-section p.intro {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+  line-height: 200%;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+/* grinding */
+.grinding .cure2-grinding-section {
+  max-width: 1000px;
+  margin: 50px auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.grinding .cure2-grinding-section .left {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.grinding .cure2-grinding-section .right {
+  text-align: center;
+}
+
+.grinding .cure2-grinding-section .right img {
+  width: 400px;
+  display: block;
+}
+
+.grinding .cure2-grinding-section h3.head {
+  font-weight: 200;
+  margin-bottom: 30px;
+  letter-spacing: 0.2rem;
+  line-height: 150%;
+}
+
+.grinding .cure2-grinding-section p.grinding {
+  font-weight: 200;
+  line-height: 180%;
+}
+
+.grinding .cure2-grinding-section .left a.myomonitor-anchor {
+  margin: 30px auto 0;
+  color: #08c;
+  display: block;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.grinding .cure2-grinding-section .left a.myomonitor-anchor:hover {
+  text-decoration: underline;
+}
+
+/* botox */
+.grinding .cure2-grinding-section .botox {
+  margin: 0 auto 100px;
+  overflow: hidden;
+}
+
+.grinding .cure2-grinding-section .botox h3.head {
+  font-weight: 200;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.grinding .cure2-grinding-section .botox p.price {
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 20px;
+  line-height: 150%;
+}
+
+.grinding .cure2-grinding-section .botox .head {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 200;
+}
+
+.grinding .cure2-grinding-section .botox .detail {
+  font-weight: 200;
+  line-height: 200%;
+  margin-bottom: 30px;
+}
+
+.grinding .cure2-grinding-section .botox .merit {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.grinding .cure2-grinding-section .botox .merit li {
+  padding: 20px 0;
+  margin: 3px 0;
+  background-color: rgba(165, 150, 125, 0.1);
+  color: #a5967d;
 }
 
 .shinbi-content__mainvisual {
