@@ -44,8 +44,8 @@ $(document).ready(function () {
       slidesPerView: 1,
       spaceBetween: 20,
       autoplay: {
-        delay: 10000,
-        disableOnInteraction: false,
+        delay: 1000,
+        disableOnInteraction: true,
       },
   })
 
@@ -65,13 +65,22 @@ $(document).ready(function () {
     },
   })
 
-  $(".cure1-lumineers-page-section .swiper-container").mouseenter(function(){
+  $(".lumineers-slide .swiper-container").mouseenter(function(){
     swiper3.stopAutoplay();
   });
 
-  $(".cure1-lumineers-page-section .swiper-container").mouseleave(function(){
+  $(".lumineers-slide .swiper-container").mouseleave(function(){
     swiper3.startAutoplay();
   });
+
+  $(".shinbi-teeth__section .swiper-container").mouseenter(function(){
+    swiper2.stopAutoplay();
+  });
+
+  $(".shinbi-teeth__section .swiper-container").mouseleave(function(){
+    swiper2.startAutoplay();
+  });
+
 
 
 });
