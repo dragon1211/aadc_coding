@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-  new Swiper ('.home-news__list .swiper-container', {
+  var swiper1 = new Swiper ('.home-news__list .swiper-container', {
 
 		  direction: 'horizontal',
       loop: true,
@@ -35,18 +35,43 @@ $(document).ready(function () {
       }
   })
 
-  new Swiper ('.shinbi-teeth__section .swiper-container', {
+  var swiper2 = new Swiper ('.shinbi-teeth__section .swiper-container', {
+      direction: 'horizontal',
+      loop: true,
+      zoom: true,
+      speed: 3000,
 
+      slidesPerView: 1,
+      spaceBetween: 20,
+      autoplay: {
+        delay: 10000,
+        disableOnInteraction: false,
+      },
+  })
+
+  var swiper3 = new Swiper ('.lumineers-slide .swiper-container', {
     direction: 'horizontal',
     loop: true,
     zoom: true,
-    speed: 3000,
+    speed: 4000,
 
     slidesPerView: 1,
-    spaceBetween: 20,
+    spaceBetween: 100,
+    
     autoplay: {
-      delay: 10000,
-      disableOnInteraction: false,
+      delay: 1000,
+      disableOnInteraction: true,
+      waitForTransition: true
     },
-})
+  })
+
+  $(".cure1-lumineers-page-section .swiper-container").mouseenter(function(){
+    swiper3.stopAutoplay();
+  });
+
+  $(".cure1-lumineers-page-section .swiper-container").mouseleave(function(){
+    swiper3.startAutoplay();
+  });
+
+
 });

@@ -60,14 +60,24 @@
 
 
 		<section class="cure1-lumineers-page-section" id="outline">
-			<div class="bxslider">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/lookbook1.png">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/lookbook2.png">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/lookbook3.png">
-			</div>
+            <div class="lumineers-slide">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/lookbook1.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/lookbook2.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/lookbook3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
 			<div class="center">
 				<h3 class="head f28">ルミネアーズ</h3>
-				<h4 class="intro f22">即効性のあるホワイトニングで輝く白い歯に</h4>
+				<h4 class="intro f22">即効性のあるホワイトニングで<br class="sp-onlyt">輝く白い歯に</h4>
 				<p class="lumineers f16">
 					アメリカ最新審美治療です。歯の表面に極薄のセラミックのシェルをつけて歯の形を整えたり歯の色を白くすることができます。
 					最大の特徴はその薄さで、治療する際にほとんど削らずに治療が出来るのです。
@@ -95,17 +105,12 @@
 				</p>
 			</div>
 			<div class="bxcenter">
-				<div class="bxslider">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/lumineers1.png">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/lumineers2.png">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/lumineers3.png">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/lumineers4.png">
-				</div>
 			</div>
 			<br>
 			<br>
 			<div class="wrapper">
-				<h3 class="head l3">ルミネアーズ治療のデメリット</h3>
+				<h3 class="head l3">ルミネアーズ治療の<br class="sp-onlyt">デメリット</h3>
 				<ul class="detail s">
 					<li>前歯１本〜３本などの数本のみの治療には向いていない。（色調が天然歯に合わせにくいため）</li>
 					<li>神経のない歯には適応できない</li>
@@ -124,7 +129,7 @@
 
 
 		<section class="cure1-difference-section" id="difference">
-			<h3 class="head f24">ラミネートベニアとルミネアーズの違いは？</h3>
+			<h3 class="head f24">ラミネートベニアと<br class="sp-onlyt">ルミネアーズの違いは？</h3>
 			<p class="difference m">
                 ラミネートベニアの場合、歯を削る量が0.5mm〜0.7mm程度とルミネアーズよりもやや多いため、麻酔をする必要があります。また、ラミネートベニアが出来上がるまでの間は仮歯をつけます。<br>
                 ルミネアーズの場合は、削る量がほんのわずかのため、麻酔や仮歯を必要としません。もちろんしみたり痛みが出ることもありません。ですから、できるだけ歯を削りたくない方や麻酔が苦手な方にはルミネアーズがおすすめです。<br>
@@ -136,8 +141,8 @@
                 ラミネートベニアのコンビネーション治療も行っております。患者様のご希望を伺い、
                 最適な治療方法をご提案させて頂きますので、詳しくは担当医にご相談ください。
             </p>
-			<a href="<?php echo home_url();?>/eom/shinbi/">
-                <p class="difference-anchor s">ラミネートベニア、セラミッククラウン治療についてはこちら</p>
+			<a href="<?php echo home_url();?>/eom/shinbi/" class="difference-anchor s">
+                ラミネートベニア、セラミッククラウン<br class="sp-onlyt">治療についてはこちら
             </a>
 		</section>
 			

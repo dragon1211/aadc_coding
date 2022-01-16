@@ -8106,37 +8106,6 @@ Copyright (c) 2013 Daniel Eden
 /* ==========================================================
 	lumineers-page
 ========================================================== */
-/* header */
-.cure1-lumineers-header {
-  width: 100%;
-  height: 300px;
-  position: relative;
-  overflow: hidden;
-  background-image: url(../images/lumineers.png);
-  background-position: center;
-  background-size: cover;
-}
-
-.cure1-lumineers-header h1.cure1-header-caption {
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  margin-top: -70px;
-  letter-spacing: 0.2rem;
-  text-indent: 0.2rem;
-}
-
-.cure1-lumineers-header h2.cure1-header-caption {
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  margin-top: -20px;
-  letter-spacing: 0.2rem;
-  text-indent: 0.2rem;
-}
-
 /* outline */
 .lumineers .cure1-outline-section {
   max-width: 1000px;
@@ -8165,11 +8134,20 @@ Copyright (c) 2013 Daniel Eden
   overflow: hidden;
 }
 
+.cure1-lumineers-page-section .lumineers-slide {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.cure1-lumineers-page-section .lumineers-slide img {
+  width: 100%;
+}
+
 .cure1-lumineers-page-section .bxcenter {
   overflow: hidden;
   max-width: 400px;
   height: 400px;
-  padding: 0px 20px 0px;
+  margin: auto;
 }
 
 .cure1-lumineers-page-section h3.head {
@@ -8193,6 +8171,7 @@ Copyright (c) 2013 Daniel Eden
   clear: both;
   max-width: 700px;
   padding: 50px 20px 0;
+  margin: auto;
 }
 
 .cure1-lumineers-page-section .center h4.head {
@@ -8237,6 +8216,7 @@ Copyright (c) 2013 Daniel Eden
   line-height: 180%;
 }
 
+.cure1-lumineers-page-section
 .cure1-snapon-section .feature {
   clear: both;
   padding: 50px 0;
@@ -8281,13 +8261,14 @@ Copyright (c) 2013 Daniel Eden
   text-align: center;
 }
 
-.cure1-difference-section p.difference-anchor {
-  margin: 50px auto 0;
-  padding-bottom: 30px;
+.cure1-difference-section a.difference-anchor {
+  margin: 50px auto 30px;
   color: #08c;
   text-align: center;
+  font-weight: bold;
   cursor: pointer;
   line-height: 150%;
+  display: block;
 }
 
 .cure1-difference-section p.difference-anchor:hover {
@@ -8450,96 +8431,19 @@ Copyright (c) 2013 Daniel Eden
   line-height: 150%;
 }
 
-/* credit */
-.cure1-credit-section {
-  max-width: 100%;
-  margin: 0 auto;
-  overflow: hidden;
-  padding-bottom: 80px;
-  background-color: #f6f2ed;
-}
-
-.cure1-credit-section .payment-wrap {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 100px 20px 20px;
-  overflow: hidden;
-}
-
-.cure1-credit-section .payment-intro {
-  letter-spacing: 0.2rem;
-  text-align: center;
-  line-height: 180%;
-}
-
-.cure1-credit-section .payment-intro span.l2 {
-  color: #333;
-  margin-bottom: 10px;
-  display: inline-block;
-}
-
-.cure1-credit-section .payment-intro span {
-  color: #fd2802;
-  margin-bottom: 5px;
-  display: inline-block;
-}
-
-.cure1-credit-section .left {
-  width: 400px;
-  float: left;
-}
-
-.cure1-credit-section .right {
-  width: 400px;
-  float: right;
-}
-
-.cure1-credit-section .left img {
-  display: block;
-  margin: 0 auto;
-  width: 50%;
-  padding: 20px 0;
-}
-
-.cure1-credit-section .alignment-anchor {
-  margin: 30px auto 0;
-  padding-bottom: 30px;
-  color: #08c;
-  text-align: center;
-  display: block;
-  cursor: pointer;
-  line-height: 150%;
-}
-
-.cure1-credit-section .alignment-anchor:hover {
-  text-decoration: underline;
-  text-align: center;
-}
-
-.cure1-credit-section .right a.credit-anchor {
-  margin: 30px auto 0;
-  color: #08c;
-  text-align: center;
-  display: block;
-  cursor: pointer;
-  line-height: 150%;
-}
-
-.cure1-credit-section .right a.credit-anchor:hover {
-  text-decoration: underline;
-  text-align: center;
-}
-
-.cure1-credit-section h4.head {
-  font-weight: 400;
-  margin-bottom: 20px;
-  letter-spacing: 0.2rem;
-  text-align: center;
-}
-
-.cure1-credit-section p.card,
-.cure1-credit-section p.credit {
-  line-height: 180%;
+@media screen and (max-width: 576px) {
+  .lumineers .cure1-outline-section {
+    padding-top: 50px;
+  }
+  .cure1-lumineers-page-section {
+    margin-top: 50px;
+  }
+  .cure1-difference-section {
+    padding: 50px 20px;
+  }
+  .cure1-payment-section .alignment-price table tr td {
+    width: 50px;
+  }
 }
 
 .shinbi-content__mainvisual {
