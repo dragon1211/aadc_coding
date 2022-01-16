@@ -1,5 +1,5 @@
 
-<main class="main shinbi">
+<main class="main">
 
 <section class="eom-nav">
     <nav class="eom-nav__first">
