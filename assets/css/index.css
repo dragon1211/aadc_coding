@@ -7560,13 +7560,13 @@ Copyright (c) 2013 Daniel Eden
 	crown-bridge-inray-page
 ========================================================== */
 /* outline */
-.crown-bridge-inray .cure1-outline-section {
+.cure1-outline-section {
   max-width: 1000px;
   padding: 100px 20px 0;
   margin: auto;
 }
 
-.crown-bridge-inray .cure1-outline-section h2.head {
+.cure1-outline-section h2.head {
   text-align: center;
   font-weight: 400;
   letter-spacing: 0.5rem;
@@ -7575,7 +7575,7 @@ Copyright (c) 2013 Daniel Eden
   line-height: 150%;
 }
 
-.crown-bridge-inray .cure1-outline-section p.intro {
+.cure1-outline-section p.intro {
   margin: 0 auto;
   letter-spacing: 0.2rem;
   line-height: 200%;
@@ -7813,9 +7813,8 @@ Copyright (c) 2013 Daniel Eden
 
 .crown-bridge-inray ul.cost_ex {
   max-width: 1000px;
-  margin: 10px auto;
+  margin: 30px auto 0;
   overflow: hidden;
-  padding: 0 20px;
 }
 
 .crown-bridge-inray ul.cost_ex li span {
@@ -7823,11 +7822,73 @@ Copyright (c) 2013 Daniel Eden
   margin-right: 20px;
 }
 
-@media screen and (max-width: 576px) {
-  .crown-bridge-inray .cure1-outline-section {
-    padding-top: 0;
+.crown-bridge-inray ul.cost_ex.padding-cost {
+  margin-top: 0;
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .cure1-zirconia-crown-section,
+  .cure1-fullzirconia-crown-section,
+  .cure1-zirconia-trans-section,
+  .cure1-ceramic-inlay-section,
+  .cure1-zirconia-inlay-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
-  .crown-bridge-inray .cure1-outline-section p.intro br {
+  .cure1-zirconia-crown-section .left,
+  .cure1-fullzirconia-crown-section .left,
+  .cure1-zirconia-trans-section .left,
+  .cure1-ceramic-inlay-section .left,
+  .cure1-zirconia-inlay-section .left {
+    width: 100%;
+  }
+  .cure1-zirconia-crown-section .right,
+  .cure1-fullzirconia-crown-section .right,
+  .cure1-zirconia-trans-section .right,
+  .cure1-ceramic-inlay-section .right,
+  .cure1-zirconia-inlay-section .right {
+    width: 100%;
+  }
+  .cure1-zirconia-crown-section img,
+  .cure1-fullzirconia-crown-section img,
+  .cure1-zirconia-trans-section img,
+  .cure1-ceramic-inlay-section img,
+  .cure1-zirconia-inlay-section img {
+    max-width: 300px;
+    margin: auto;
+    width: 100% !important;
+  }
+  .cure1-zirconia-crown-section .head,
+  .cure1-fullzirconia-crown-section .head,
+  .cure1-zirconia-trans-section .head,
+  .cure1-ceramic-inlay-section .head,
+  .cure1-zirconia-inlay-section .head {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px !important;
+  }
+  .cure1-fullzirconia-crown-section .head,
+  .cure1-zirconia-trans-section .head {
+    margin-top: 0;
+  }
+  .cure1-zirconia-crown-section,
+  .cure1-zirconia-trans-section,
+  .cure1-zirconia-inlay-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .cure1-outline-section {
+    padding: 50px 20px;
+  }
+  .cure1-outline-section p.intro br {
     display: none;
   }
   .cure1-ceramic-features-section p {
@@ -7835,6 +7896,13 @@ Copyright (c) 2013 Daniel Eden
   }
   .cure1-ceramic-features-section p.case {
     margin: 40px 0px;
+  }
+  .cure1-zirconia-crown-section,
+  .cure1-fullzirconia-crown-section,
+  .cure1-zirconia-trans-section,
+  .cure1-ceramic-inlay-section,
+  .cure1-zirconia-inlay-section {
+    margin: 70px 0;
   }
 }
 
@@ -7923,7 +7991,7 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .eom-heading__caption {
-  padding: 100px 20px 110px 20px;
+  padding: 70px 20px;
   color: #333333;
   text-align: center;
 }

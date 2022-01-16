@@ -5,7 +5,7 @@
 ========================================================== */
 
 /* outline */
-.crown-bridge-inray .cure1-outline-section {
+.cure1-outline-section {
 	max-width: 1000px;
 	padding: 100px 20px 0;
 	margin: auto;
@@ -221,13 +221,16 @@
 
 .crown-bridge-inray ul.cost_ex {
 	max-width: 1000px;
-	margin: 10px auto;
+	margin: 30px auto 0;
 	overflow: hidden;
-	padding: 0 20px;	
 	li span{
 		font-weight: 700;
 		margin-right: 20px;
 	}
+    &.padding-cost{
+        margin-top: 0;
+        padding: 0 20px;
+    }
 }
 
 
@@ -240,13 +243,46 @@
 
 @include mq(sm2){
 
+
+    .cure1-zirconia-crown-section,
+    .cure1-fullzirconia-crown-section,
+    .cure1-zirconia-trans-section,
+    .cure1-ceramic-inlay-section,
+    .cure1-zirconia-inlay-section{
+        flex-direction: column;
+        .left{ width: 100%; }
+        .right{ width: 100%; }
+        img{ 
+            max-width: 300px; 
+            margin: auto;
+            width: 100% !important;
+        }
+        .head{ 
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px !important;
+        }
+    }
+
+    .cure1-fullzirconia-crown-section,
+    .cure1-zirconia-trans-section{
+        .head{
+            margin-top: 0;
+        }
+    } 
+
+    .cure1-zirconia-crown-section, 
+    .cure1-zirconia-trans-section,
+    .cure1-zirconia-inlay-section{
+        flex-direction: column-reverse;
+    }
+
 }
 
 
 @include mq(smt){
-	.crown-bridge-inray .cure1-outline-section{
-		padding-top: 0;
-
+	.cure1-outline-section{
+		padding: 50px 20px;
 		p.intro{
 			br{display: none;}
 		}
@@ -257,4 +293,12 @@
 			&.case{margin: 40px 0px;}
 		}
 	}
+
+    .cure1-zirconia-crown-section,
+    .cure1-fullzirconia-crown-section,
+    .cure1-zirconia-trans-section,
+    .cure1-ceramic-inlay-section,
+    .cure1-zirconia-inlay-section{
+        margin: 70px 0;
+    }
 }

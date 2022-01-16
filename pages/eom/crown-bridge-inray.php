@@ -111,7 +111,7 @@
 		</section>
 
 		
-		<ul class="cost_ex f13">
+		<ul class="cost_ex f13 padding-cost">
 			<li><span>フルジルコニアクラウンの副作用・リスク</span>　非常に硬いため、噛み合わせる天然歯が削れることがある。ごく稀に欠けることがある。</li>
 		</ul>
 
@@ -128,7 +128,7 @@
 		</section>
 
 		
-		<ul class="cost_ex f13">
+		<ul class="cost_ex f13 padding-cost">
 			<li><span>フルジルコニアクラウンの副作用・リスク</span>ごく稀に欠けることがある。</li>
 		</ul>		
 		
@@ -144,7 +144,7 @@
 		</section>
 
 		
-		<ul class="cost_ex f13">
+		<ul class="cost_ex f13 padding-cost">
 			<li><span>治療方法</span>セラミックインレー法</li>
 			<li><span>治療期間</span>2週間 </li>
 			<li><span>治療費用</span>セラミックインレー 1歯¥66,000（税込）／形成印象料金1歯 ¥5,500（税込）</li>
@@ -163,7 +163,7 @@
 			</div>
 		</section>
 		
-		<ul class="cost_ex f13">
+		<ul class="cost_ex f13 padding-cost">
 			<li><span>ジルコニアインレーの副作用・リスク</span>歯を削る必要がある。稀に欠けたり、取れることがある。</li>
 			<li><span>治療方法</span>ジルコニアインレーブリッジ</li>
 			<li><span>治療期間</span>２週間（通院２回）</li>
