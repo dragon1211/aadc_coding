@@ -4,190 +4,216 @@
 /* ==========================================================
 	whitening-page
 ========================================================== */
-
-/* header */
-.cure1-header.white {
-	width: 100%;
-	height: 300px;
-	position: relative;
-	overflow: hidden;
-	background-image: url(../images/cure1-header2.png);
-	background-position: center;
-	background-size: cover;
+.whitening-row{
+	display: flex;
+	justify-content: space-between;
 }
 
 /* outline */
 .whitening .cure1-outline-section {
 	max-width: 1000px;
 	padding: 100px 20px 0;
+	h2.head {
+		text-align: center;
+		font-weight: 400;
+		letter-spacing: 0.5rem;
+		text-indent: 0.5rem;	
+		margin-bottom: 50px;
+		line-height: 150%;	
+	}
+	p.intro {
+		margin: 0 auto;
+		letter-spacing: 0.2rem;
+		
+		line-height: 200%;
+		text-align: center;	
+	}
 }
-.whitening .cure1-outline-section h2.head {
-	text-align: center;
-	font-weight: 400;
-	letter-spacing: 0.5rem;
-	text-indent: 0.5rem;	
-	margin-bottom: 50px;
-	line-height: 150%;	
-}
-.whitening .cure1-outline-section p.intro {
-	margin: 0 auto;
-	letter-spacing: 0.2rem;
-	
-	line-height: 200%;
-	text-align: center;	
-}
+
 .whitening .cure1-howtowhitening-section {
 	max-width: 800px;
 	margin: 0 auto;
-	padding: 50px 0;
+	padding: 50px 20px;
+	h2.head {
+		text-align: center;
+		font-weight: 400;
+		letter-spacing: 0.5rem;
+		text-indent: 0.5rem;	
+		margin: 50px 0 10px;
+		line-height: 150%;	
+		br {
+			display: none;
+		}	
+	}
+	h3.head {
+		text-align: left;
+		font-weight: 400;
+		text-indent: 0.5rem;	
+		margin: 50px 0 10px;
+		line-height: 150%;		
+	}
+	p.howtowhitening {
+		margin: 0 auto;
+		line-height: 150%;
+		text-align: left;
+	}
 }
-.whitening .cure1-howtowhitening-section h2.head {
-	text-align: center;
-	font-weight: 400;
-	letter-spacing: 0.5rem;
-	text-indent: 0.5rem;	
-	margin: 50px 0 10px;
-	line-height: 150%;		
-}
-.whitening .cure1-howtowhitening-section h2.head br {
-	display: none;
-}
-.whitening .cure1-howtowhitening-section h3.head {
-	text-align: left;
-	font-weight: 400;
-	text-indent: 0.5rem;	
-	margin: 50px 0 10px;
-	line-height: 150%;		
-}
-.whitening .cure1-howtowhitening-section p.howtowhitening {
-	margin: 0 auto;
-	
-	line-height: 150%;
-	text-align: left;
-}
+
 
 /* office-whitening */
 .cure1-office-whitening-section {
 	width: 100%;
 	background-color: #fafafa;	
+	.wrapper {
+		max-width: 1000px;
+		padding: 100px 0;
+		margin: 0 auto;
+		overflow: hidden;	
+	}
+	.left {
+		width: 56%;
+		padding-left: 20px;
+	}
+	.right {
+		padding: 0 20px;
+		text-align: center;
+		img {
+			max-width: 400px;
+			margin: auto;
+			width: 100%;
+			display: block;
+		}
+	}
+	h3.head {
+		margin-bottom: 30px;
+		line-height: 150%;
+	}
+	h4.intro {
+		margin-bottom: 30px;
+		line-height: 150%;
+	}
+	p.office-whitening {
+		line-height: 180%;	
+	}
+	.center {
+		clear: both;
+		max-width: 700px;
+		padding: 50px 20px 0;	
+		margin: 50px auto 0;
+		h4.head {
+			font-weight: 400;
+			margin-bottom: 30px;
+			text-align: center;
+			span {
+				color: #fd2802;
+				display: block;
+				margin-top: 10px;
+			}
+		}
+		.xtra {
+			margin-bottom: 0px;
+			line-height: 150%;
+		}
+		img {
+			display: block;
+			margin: auto;
+			max-width: 400px;
+			width: 100%;
+		}
+		.comment {
+			margin: 50px 0 0;
+			line-height: 150%;
+			color: #fd2802;
+		}
+	}
 }
-.cure1-office-whitening-section .wrapper {
-	max-width: 1000px;
-	padding: 100px 20px;
-	margin: 0 auto;
-	overflow: hidden;	
-}
-.cure1-office-whitening-section .left {
-	width: 50%;
-	float: left;
-	padding: 0 20px;	
-}
-.cure1-office-whitening-section .right {
-	padding: 0 20px;
-	text-align: center;
-}
-.cure1-office-whitening-section .right img {
-	width: 400px;
-	height: 400px;	
-	display: block;
-}
-.cure1-office-whitening-section h3.head {
-	
-	margin-bottom: 30px;
-	line-height: 150%;
-}
-.cure1-office-whitening-section h4.intro {
-	
-	margin-bottom: 30px;
-	line-height: 150%;
-}
-.cure1-office-whitening-section p.office-whitening {
-	
-	margin-bottom: 30px;
-	line-height: 180%;	
-}
-.cure1-office-whitening-section .center {
-	clear: both;
-	max-width: 700px;
-	padding: 50px 0 0;	
-}
-.cure1-office-whitening-section .center h4.head {
-	font-weight: 400;
-	margin-bottom: 30px;
-	text-align: center;
-}
-.cure1-office-whitening-section .center h4.head span {
-	color: #fd2802;
-	
-	display: block;
-	margin-top: 10px;
-}
-.cure1-office-whitening-section .center .xtra {
-	
-	margin-bottom: 0px;
-	line-height: 150%;
-	padding: 0 20px;
-}
-.cure1-office-whitening-section .center img {
-	display: block;
-	margin: 10px auto;
-	width: 400px;
-}
-.cure1-office-whitening-section .center .comment {
-	margin: 50px 0 0;
-	line-height: 150%;
-	color: #fd2802;
-}
+
 
 /* home-whitening */
 .cure1-home-whitening-section {
 	max-width: 1000px;
 	margin: 100px auto;
 	overflow: hidden;
-	padding: 0 20px;
+	.left {
+		text-align: center;
+		padding: 0 20px;
+		img {
+			max-width: 400px;
+			margin: auto;
+			width: 100%;
+			display: block;
+		}
+	}
+	.right {
+		width: 60%;
+		padding-right: 20px;
+	}
+	h3.head {
+		margin-bottom: 30px;	
+	}
+	h4.intro {
+		margin-bottom: 30px;
+		line-height: 150%;
+	}
+	p.home-whitening {
+		line-height: 180%;	
+	}
+	.annotation {
+		margin-top: 30px;
+		padding: 30px;
+		background-color: #efefef;	
+		h4 {
+			font-weight: 600;
+			margin-bottom: 20px;
+			text-align: center;	
+		}
+		p {
+			font-weight: 500;
+			margin-bottom: 20px;
+			text-align: center;	
+		}
+		ul{
+			padding-left: 20px;
+			li{
+				list-style-type: circle;
+				line-height: 150%;
+				
+			}
+		} 
+	}
 }
-.cure1-home-whitening-section .left {
-	text-align: center;
-}
-.cure1-home-whitening-section .right {
-	width: 50%;
-	float: right;
-}
-.cure1-home-whitening-section .left img {
-	width: 400px;
-	display: block;
-}
-.cure1-home-whitening-section h3.head {
-	
-	margin-bottom: 30px;	
-}
-.cure1-home-whitening-section h4.intro {
-	
-	margin-bottom: 30px;
-	line-height: 150%;
-}
-.cure1-home-whitening-section p.home-whitening {
-	
-	margin-bottom: 30px;
-	line-height: 180%;	
-}
-.cure1-home-whitening-section .annotation {
-	margin-top: 30px;
-	padding: 30px;
-	background-color: #efefef;	
-}
-.cure1-home-whitening-section .annotation h4 {
-	font-weight: 400;
-	margin-bottom: 20px;
-	text-align: center;	
-}
-.cure1-home-whitening-section .annotation p {
-	
-	margin-bottom: 20px;
-	text-align: center;	
-}
-.cure1-home-whitening-section .annotation ul li{
-	list-style-type: circle;
-	line-height: 150%;
-	
+
+
+@include mq(smt){
+	.whitening .cure1-outline-section{
+		padding-top: 50px;
+	}
+	.cure1-office-whitening-section{
+		.center .comment{
+			margin-top: 20px;
+		}
+		.center#after{
+			margin-top: 0;
+		}
+	} 
+	.whitening-row{
+		flex-direction: column;
+		.left, .right{
+			width: 100%;
+			padding: 0 20px;
+			margin-bottom: 20px;
+		}
+	}
+	.head{
+		text-align: center;
+	}
+	.intro{
+		text-align: center;
+		margin-bottom: 10px !important;
+	}
+	.cure1-home-whitening-section{
+		.annotation{
+			padding: 50px 20px;
+		}
+	} 
 }
