@@ -10370,6 +10370,12 @@ Copyright (c) 2013 Daniel Eden
   .non-extraction .cure2-ceramic-alignment-section .bx-wrapper {
     margin-bottom: 20px;
   }
+  .non-extraction .cure2-payment-section {
+    padding-bottom: 0;
+  }
+  .non-extraction .cure2-payment-section .alignment-price {
+    padding-bottom: 100px;
+  }
   .non-extraction .cure2-payment-section .payment-row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

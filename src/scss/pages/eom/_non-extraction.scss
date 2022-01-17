@@ -577,6 +577,10 @@
 			}
 		}
 		.cure2-payment-section{
+			padding-bottom: 0;
+			.alignment-price{
+				padding-bottom: 100px;
+			}
 			.payment-row{
 				flex-direction: column;
 				.left{
