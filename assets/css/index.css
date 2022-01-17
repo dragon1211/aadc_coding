@@ -3751,6 +3751,7 @@ Copyright (c) 2013 Daniel Eden
 
 .breadcrumb li {
   font-size: 1.4rem;
+  text-align: center;
   position: relative;
   font-weight: 500;
   color: #b9b9b9;
@@ -5183,6 +5184,10 @@ Copyright (c) 2013 Daniel Eden
       -ms-flex-align: center;
           align-items: center;
   z-index: 5;
+}
+
+.sub-nav__menu li {
+  text-align: center;
 }
 
 .sub-nav__menu li:not(:last-child) {

@@ -228,6 +228,7 @@
     align-items: center;
     z-index: 5;
 	li{
+		text-align: center;
 		&:not(:last-child){
 			margin-right: 20px;
 		}

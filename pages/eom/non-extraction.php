@@ -366,7 +366,7 @@
                 </a>
             </li>
             <li><a href="<?php echo home_url(); ?>/eom">エステティック<br class="sp-onlyt">オルソメソッド</a></li>
-            <li>歯を抜かな<br class="sp-onlyt">い矯正治療</li>
+            <li>歯を抜かない<br class="sp-onlyt">矯正治療</li>
         </ul>
     </div>
 </section>
