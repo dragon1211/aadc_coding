@@ -17,12 +17,12 @@
             </div>
             <ul class="sub-nav__menu js-sub-nav-menu">
                 <li><a href="<?php echo home_url();?>/eom/shinbi">前歯審美歯科治療</a></li>
-                <li><a href="<?php echo home_url();?>/eom/crown-bridge-inray">セラミッククラウン<br>ジルコニアクラウン</a></li>
+                <li><a href="<?php echo home_url();?>/eom/crown-bridge-inray">セラミッククラウン<br><span class="sp-only-inline">・</span>ジルコニアクラウン</a></li>
                 <li><a href="<?php echo home_url();?>/eom/lumineers">ルミネアーズ</a></li>
                 <li><a href="<?php echo home_url();?>/eom/whitening">ホワイトニング</a></li>
                 <li><a href="<?php echo home_url();?>/eom/non-extraction">歯を抜かない矯正治療</a></li>
                 <li><a href="<?php echo home_url();?>/eom/orthodontic">前歯部分矯正</a></li>
-                <li><a href="<?php echo home_url();?>/eom/invisalign">インビザライン<br>マウスピース矯正</a></li>
+                <li><a href="<?php echo home_url();?>/eom/invisalign">インビザライン<br><span class="sp-only-inline">・</span>マウスピース矯正</a></li>
                 <li><a href="<?php echo home_url();?>/eom/gap">すきっ歯専門治療</a></li>
             </ul>
         </div>

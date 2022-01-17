@@ -22,8 +22,8 @@
                 <li><a href="<?php echo home_url();?>/eom/whitening">ホワイトニング</a></li>
                 <li><a href="<?php echo home_url();?>/eom/non-extraction">歯を抜かない矯正治療</a></li>
                 <li><a href="<?php echo home_url();?>/eom/orthodontic">前歯部分矯正</a></li>
-                <li><a href="<?php echo home_url();?>/eom/invisalign" class="active">インビザライン<br><span class="sp-only-inline">・</span>マウスピース矯正</a></li>
-                <li><a href="<?php echo home_url();?>/eom/gap">すきっ歯専門治療</a></li>
+                <li><a href="<?php echo home_url();?>/eom/invisalign">インビザライン<br><span class="sp-only-inline">・</span>マウスピース矯正</a></li>
+                <li><a href="<?php echo home_url();?>/eom/gap" class="active">すきっ歯専門治療</a></li>
             </ul>
         </div>
     </nav>
@@ -41,7 +41,7 @@
 
 
 <!-- shinbi-content -->
-<section class="invisalign-content">
+<section class="gap-content">
 	
 		
 		<section class="cure2-outline-section">
@@ -376,7 +376,7 @@
                 </a>
             </li>
             <li><a href="<?php echo home_url(); ?>/eom">エステティック<br class="sp-onlyt">オルソメソッド</a></li>
-            <li>インビザライン<br class="sp-only2"><span class="pc-only2" style="display:inline">・</span>マウスピース矯正</li>
+            <li>前歯審美<br class="sp-onlyt">歯科治療</li>
         </ul>
     </div>
 </section>

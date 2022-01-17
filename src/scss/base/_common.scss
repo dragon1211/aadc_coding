@@ -45,6 +45,15 @@
   }
 }
 
+.sp-only-inline {
+  display: none !important;
+
+  @include mq() {
+    display: inline !important;
+  }
+}
+
+
 .sp-only2 {
   display: none !important;
 
