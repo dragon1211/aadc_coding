@@ -9725,7 +9725,7 @@ Copyright (c) 2013 Daniel Eden
 
 .non-extraction .cure2-outline-section h2.head {
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.5rem;
   text-indent: 0.5rem;
   margin-bottom: 50px;
@@ -9734,7 +9734,7 @@ Copyright (c) 2013 Daniel Eden
 
 .non-extraction .cure2-outline-section h2.head.sub {
   text-align: center;
-  font-weight: 300;
+  font-weight: 200;
   letter-spacing: 0.5rem;
   text-indent: 0.5rem;
   margin: 50px 0;
@@ -9806,7 +9806,7 @@ Copyright (c) 2013 Daniel Eden
 .non-extraction .cure2-outline-section ul.detail {
   margin: 0 auto;
   letter-spacing: 0.2rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 200%;
   text-align: center;
   margin-bottom: 30px;
@@ -9822,7 +9822,7 @@ Copyright (c) 2013 Daniel Eden
 .non-extraction .cure2-outline-section ul.detail.price {
   margin: 0 auto;
   letter-spacing: 0.2rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 200%;
   text-align: center;
   margin-bottom: 30px;
@@ -9904,7 +9904,7 @@ Copyright (c) 2013 Daniel Eden
 
 .non-extraction .cure2-mouthpiece-section h2.head {
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.5rem;
   text-indent: 0.5rem;
   margin-bottom: 50px;
@@ -10418,7 +10418,7 @@ Copyright (c) 2013 Daniel Eden
 
 .orthodontic .cure2-outline-section h2.head {
   text-align: center;
-  font-weight: 100;
+  font-weight: 400;
   letter-spacing: 0.5rem;
   text-indent: 0.5rem;
   margin-bottom: 50px;
@@ -10426,7 +10426,7 @@ Copyright (c) 2013 Daniel Eden
 
 .orthodontic .cure2-outline-section h3.head {
   text-align: center;
-  font-weight: 100;
+  font-weight: 400;
   letter-spacing: 0.2rem;
   text-indent: 0.2rem;
   margin-bottom: 50px;
