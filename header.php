@@ -30,6 +30,7 @@
 	<meta name="description" content="<?php bloginfo('description'); ?>">
 	<meta name="keywords" content="ここにキーワードを設定します。">
 	<meta name="robots" content="index,follow">
+	<title>すきっ歯専門治療｜前歯の隙間の原因となる正中離開・歯間空隙・叢生の治療</title>
 	
 	<link rel="canonical" href="<?php echo $canonical_url; ?>">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
