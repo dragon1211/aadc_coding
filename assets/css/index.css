@@ -4403,7 +4403,7 @@ Copyright (c) 2013 Daniel Eden
 ===================================*/
 .bx-wrapper {
   position: relative;
-  margin: 0 auto 60px;
+  margin: 0 auto;
   padding: 0;
   *zoom: 1;
 }
@@ -9708,6 +9708,15 @@ Copyright (c) 2013 Daniel Eden
 	.non-extraction-page
 ========================================================== */
 /* outline */
+.non-extraction {
+  /* voice */
+  /* alignment */
+  /* frontside */
+  /* ceramic-alignment */
+  /* alignment-faq */
+  /* payment */
+}
+
 .non-extraction .cure2-outline-section {
   max-width: 1040px;
   padding: 100px 20px 0;
@@ -9832,33 +9841,32 @@ Copyright (c) 2013 Daniel Eden
   font-weight: 500;
 }
 
-/* voice */
-.cure2-voice-section {
+.non-extraction .cure2-voice-section {
   max-width: 1000px;
   margin: 0 auto 100px;
   overflow: hidden;
 }
 
-.cure2-voice-section h3.head {
+.non-extraction .cure2-voice-section h3.head {
   text-align: center;
   font-weight: 200;
   margin: 50px 0;
   letter-spacing: 0.2rem;
 }
 
-.cure2-voice-section .left {
+.non-extraction .cure2-voice-section .left {
   width: 400px;
   float: left;
   padding-left: 60px;
 }
 
-.cure2-voice-section .right {
+.non-extraction .cure2-voice-section .right {
   width: 400px;
   float: right;
   padding-right: 60px;
 }
 
-.cure2-voice-section p.que {
+.non-extraction .cure2-voice-section p.que {
   text-align: left;
   font-weight: 400;
   line-height: 150%;
@@ -9867,13 +9875,13 @@ Copyright (c) 2013 Daniel Eden
   border-bottom: 1px solid #ddd;
 }
 
-.cure2-voice-section p.ans {
+.non-extraction .cure2-voice-section p.ans {
   font-weight: 200;
   text-align: left;
   line-height: 150%;
 }
 
-.cure2-voice-section .left img, .cure2-voice-section .right img {
+.non-extraction .cure2-voice-section .left img, .non-extraction .cure2-voice-section .right img {
   width: 400px;
   height: 400px;
   text-align: center;
@@ -9881,21 +9889,20 @@ Copyright (c) 2013 Daniel Eden
   overflow: hidden;
 }
 
-/* alignment */
-.cure2-mouthpiece-section {
+.non-extraction .cure2-mouthpiece-section {
   max-width: 1000px;
   margin: 100px auto 100px;
   overflow: hidden;
   padding: 0 20px;
 }
 
-.cure2-mouthpiece-section .center {
+.non-extraction .cure2-mouthpiece-section .center {
   text-align: left;
   clear: both;
   margin: auto;
 }
 
-.cure2-mouthpiece-section h2.head {
+.non-extraction .cure2-mouthpiece-section h2.head {
   text-align: center;
   font-weight: 300;
   letter-spacing: 0.5rem;
@@ -9904,19 +9911,19 @@ Copyright (c) 2013 Daniel Eden
   line-height: 150%;
 }
 
-.cure2-mouthpiece-section h3.head {
+.non-extraction .cure2-mouthpiece-section h3.head {
   text-align: center;
   font-weight: 200;
   margin-bottom: 30px;
 }
 
-.cure2-mouthpiece-section p.mouthpiece {
+.non-extraction .cure2-mouthpiece-section p.mouthpiece {
   font-weight: 200;
   line-height: 180%;
   margin-bottom: 20px;
 }
 
-.cure2-mouthpiece-section .image-box {
+.non-extraction .cure2-mouthpiece-section .image-box {
   margin-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9926,33 +9933,33 @@ Copyright (c) 2013 Daniel Eden
           justify-content: center;
 }
 
-.cure2-mouthpiece-section .image-box img {
+.non-extraction .cure2-mouthpiece-section .image-box img {
   margin: 0 20px;
   width: 50%;
 }
 
-.cure2-mouthpiece-section .invisalign {
+.non-extraction .cure2-mouthpiece-section .invisalign {
   margin: 100px auto 0;
   text-align: center;
 }
 
-.cure2-mouthpiece-section .invisalign h4 {
+.non-extraction .cure2-mouthpiece-section .invisalign h4 {
   font-weight: 200;
   margin-bottom: 10px;
   text-align: center;
 }
 
-.cure2-mouthpiece-section .invisalign h3 {
+.non-extraction .cure2-mouthpiece-section .invisalign h3 {
   font-weight: 200;
   margin-bottom: 30px;
   text-align: center;
 }
 
-.cure2-mouthpiece-section .invisalign img {
+.non-extraction .cure2-mouthpiece-section .invisalign img {
   margin: auto;
 }
 
-.cure2-mouthpiece-section .invisalign p.comment {
+.non-extraction .cure2-mouthpiece-section .invisalign p.comment {
   text-align: left;
   margin-top: 50px;
   font-weight: 200;
@@ -9960,8 +9967,7 @@ Copyright (c) 2013 Daniel Eden
   margin-bottom: 20px;
 }
 
-/* frontside */
-.cure2-frontside-section {
+.non-extraction .cure2-frontside-section {
   max-width: 1040px;
   margin: 50px auto;
   padding: 0 20px;
@@ -9974,37 +9980,36 @@ Copyright (c) 2013 Daniel Eden
           justify-content: space-between;
 }
 
-.cure2-frontside-section .left {
+.non-extraction .cure2-frontside-section .left {
   width: 50%;
   margin-right: 30px;
 }
 
-.cure2-frontside-section .right {
+.non-extraction .cure2-frontside-section .right {
   width: 400px;
   overflow: hidden;
 }
 
-.cure2-frontside-section .right img {
+.non-extraction .cure2-frontside-section .right img {
   width: 100%;
   display: block;
   margin: auto;
 }
 
-.cure2-frontside-section h3.head {
+.non-extraction .cure2-frontside-section h3.head {
   font-weight: 200;
   margin-bottom: 30px;
   letter-spacing: 0.2rem;
 }
 
-.cure2-frontside-section p.frontside {
+.non-extraction .cure2-frontside-section p.frontside {
   font-weight: 200;
   line-height: 180%;
   padding-bottom: 50px;
   text-align: justify;
 }
 
-/* ceramic-alignment */
-.cure2-ceramic-alignment-section {
+.non-extraction .cure2-ceramic-alignment-section {
   max-width: 1040px;
   padding: 0 20px;
   margin: 0 auto 50px;
@@ -10017,50 +10022,49 @@ Copyright (c) 2013 Daniel Eden
           justify-content: space-between;
 }
 
-.cure2-ceramic-alignment-section .left {
+.non-extraction .cure2-ceramic-alignment-section .left {
   width: 400px;
   overflow: hidden;
   margin-right: 30px;
 }
 
-.cure2-ceramic-alignment-section .left img {
+.non-extraction .cure2-ceramic-alignment-section .left img {
   width: 100%;
   display: block;
   margin-left: 0;
 }
 
-.cure2-ceramic-alignment-section .right {
+.non-extraction .cure2-ceramic-alignment-section .right {
   width: 50%;
 }
 
-.cure2-ceramic-alignment-section h3.head {
+.non-extraction .cure2-ceramic-alignment-section h3.head {
   font-weight: 200;
   margin-bottom: 30px;
   letter-spacing: 0.2rem;
 }
 
-.cure2-ceramic-alignment-section p.ceramic {
+.non-extraction .cure2-ceramic-alignment-section p.ceramic {
   font-weight: 200;
   line-height: 180%;
   padding-bottom: 50px;
   text-align: justify;
 }
 
-/* alignment-faq */
-.cure2-alignment-faq-section {
+.non-extraction .cure2-alignment-faq-section {
   max-width: 1040px;
   margin: 0 auto 50px;
   padding: 0 20px;
   overflow: hidden;
 }
 
-.cure2-alignment-faq-section h3.head {
+.non-extraction .cure2-alignment-faq-section h3.head {
   font-weight: 200;
   margin-bottom: 30px;
   letter-spacing: 0.2rem;
 }
 
-.cure2-alignment-faq-section h4.question {
+.non-extraction .cure2-alignment-faq-section h4.question {
   font-weight: 400;
   margin-bottom: 10px;
   padding-bottom: 10px;
@@ -10069,15 +10073,14 @@ Copyright (c) 2013 Daniel Eden
   line-height: 150%;
 }
 
-.cure2-alignment-faq-section p.answer {
+.non-extraction .cure2-alignment-faq-section p.answer {
   font-weight: 200;
   line-height: 180%;
   padding-bottom: 50px;
   text-align: justify;
 }
 
-/* payment */
-.cure2-payment-section {
+.non-extraction .cure2-payment-section {
   max-width: 100%;
   margin: 0 auto;
   overflow: hidden;
@@ -10085,14 +10088,14 @@ Copyright (c) 2013 Daniel Eden
   background-color: #f6f2ed;
 }
 
-.cure2-payment-section .payment-wrap {
+.non-extraction .cure2-payment-section .payment-wrap {
   max-width: 1000px;
   margin: 0 auto;
   padding: 100px 20px;
   overflow: hidden;
 }
 
-.cure2-payment-section .payment-intro {
+.non-extraction .cure2-payment-section .payment-intro {
   font-weight: 200;
   letter-spacing: 0.2rem;
   text-align: center;
@@ -10100,19 +10103,19 @@ Copyright (c) 2013 Daniel Eden
   margin-bottom: 50px;
 }
 
-.cure2-payment-section .payment-intro span.l2 {
+.non-extraction .cure2-payment-section .payment-intro span.l2 {
   color: #333;
   margin-bottom: 10px;
   display: inline-block;
 }
 
-.cure2-payment-section .payment-intro span {
+.non-extraction .cure2-payment-section .payment-intro span {
   color: #fd2802;
   margin-bottom: 5px;
   display: inline-block;
 }
 
-.cure2-payment-section .payment-row {
+.non-extraction .cure2-payment-section .payment-row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10121,25 +10124,25 @@ Copyright (c) 2013 Daniel Eden
           justify-content: space-between;
 }
 
-.cure2-payment-section .left {
+.non-extraction .cure2-payment-section .left {
   max-width: 400px;
   width: 100%;
   margin-right: 20px;
 }
 
-.cure2-payment-section .left img {
+.non-extraction .cure2-payment-section .left img {
   display: block;
   margin: 0 auto;
   width: 50%;
   padding: 20px 0;
 }
 
-.cure2-payment-section .right {
+.non-extraction .cure2-payment-section .right {
   max-width: 500px;
   width: 100%;
 }
 
-.cure2-payment-section .right a.credit-anchor {
+.non-extraction .cure2-payment-section .right a.credit-anchor {
   margin: 20px auto;
   color: #08c;
   text-align: center;
@@ -10149,26 +10152,26 @@ Copyright (c) 2013 Daniel Eden
   font-weight: 400;
 }
 
-.cure2-payment-section .right a.credit-anchor:hover {
+.non-extraction .cure2-payment-section .right a.credit-anchor:hover {
   text-decoration: underline;
   text-align: center;
 }
 
-.cure2-payment-section .payment-wrap .aplus-link {
+.non-extraction .cure2-payment-section .payment-wrap .aplus-link {
   text-align: center;
   margin: 10px;
 }
 
-.cure2-payment-section .payment-wrap .aplus-link a {
+.non-extraction .cure2-payment-section .payment-wrap .aplus-link a {
   color: #08c;
   font-weight: bold;
 }
 
-.cure2-payment-section .payment-wrap .aplus-link a:hover {
+.non-extraction .cure2-payment-section .payment-wrap .aplus-link a:hover {
   text-decoration: underline;
 }
 
-.cure2-payment-section .alignment-anchor {
+.non-extraction .cure2-payment-section .alignment-anchor {
   margin: 30px auto 0;
   padding-bottom: 30px;
   color: #08c;
@@ -10178,24 +10181,24 @@ Copyright (c) 2013 Daniel Eden
   line-height: 150%;
 }
 
-.cure2-payment-section .alignment-anchor:hover {
+.non-extraction .cure2-payment-section .alignment-anchor:hover {
   text-decoration: underline;
   text-align: center;
 }
 
-.cure2-payment-section h4.head {
+.non-extraction .cure2-payment-section h4.head {
   font-weight: 400;
   margin-bottom: 20px;
   letter-spacing: 0.2rem;
   text-align: center;
 }
 
-.cure2-payment-section p.credit {
+.non-extraction .cure2-payment-section p.credit {
   font-weight: 200;
   line-height: 180%;
 }
 
-.cure2-payment-section .alignment-price {
+.non-extraction .cure2-payment-section .alignment-price {
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
@@ -10206,29 +10209,29 @@ Copyright (c) 2013 Daniel Eden
   padding: 0 20px 20px;
 }
 
-.cure2-payment-section .alignment-price h5.head {
+.non-extraction .cure2-payment-section .alignment-price h5.head {
   text-align: center;
   font-weight: 200;
   padding-top: 50px;
   margin-bottom: 50px;
 }
 
-.cure2-payment-section .alignment-price h5.head span {
+.non-extraction .cure2-payment-section .alignment-price h5.head span {
   display: block;
   margin-top: 10px;
 }
 
-.cure2-payment-section .alignment-price p.item {
+.non-extraction .cure2-payment-section .alignment-price p.item {
   font-weight: 200;
   margin-bottom: 10px;
 }
 
-.cure2-payment-section .alignment-price p.result {
+.non-extraction .cure2-payment-section .alignment-price p.result {
   font-weight: 400;
   margin-bottom: 30px;
 }
 
-.cure2-payment-section .alignment-price p.yoyaku {
+.non-extraction .cure2-payment-section .alignment-price p.yoyaku {
   text-align: center;
   font-weight: 500;
   padding: 5px;
@@ -10236,7 +10239,7 @@ Copyright (c) 2013 Daniel Eden
   margin-bottom: 30px;
 }
 
-.cure2-payment-section .alignment-price p.yoyaku a {
+.non-extraction .cure2-payment-section .alignment-price p.yoyaku a {
   background-color: #d93600;
   letter-spacing: normal;
   color: #fff;
@@ -10244,7 +10247,7 @@ Copyright (c) 2013 Daniel Eden
   border-radius: 5px;
 }
 
-.cure2-payment-section .alignment-price h6.head {
+.non-extraction .cure2-payment-section .alignment-price h6.head {
   text-align: center;
   font-weight: 200;
   margin: 50px auto 20px;
@@ -10254,12 +10257,12 @@ Copyright (c) 2013 Daniel Eden
   background-color: #f6f2ed;
 }
 
-.cure2-payment-section .alignment-price table {
+.non-extraction .cure2-payment-section .alignment-price table {
   max-width: 600px;
   margin: 0 auto;
 }
 
-.cure2-payment-section .alignment-price table tr {
+.non-extraction .cure2-payment-section .alignment-price table tr {
   border-bottom: 1px solid #f6f2ed;
   padding: 10px;
   display: inline-block;
@@ -10267,19 +10270,19 @@ Copyright (c) 2013 Daniel Eden
   width: 100%;
 }
 
-.cure2-payment-section .alignment-price table tr th {
+.non-extraction .cure2-payment-section .alignment-price table tr th {
   font-weight: 200;
   width: 350px;
   text-align: left;
 }
 
-.cure2-payment-section .alignment-price table tr td {
+.non-extraction .cure2-payment-section .alignment-price table tr td {
   font-weight: 400;
   text-align: right;
   width: 250px;
 }
 
-.cure2-payment-section .alignment-price .comment {
+.non-extraction .cure2-payment-section .alignment-price .comment {
   max-width: 600px;
   margin: 0 auto;
   text-align: left;
@@ -10289,8 +10292,8 @@ Copyright (c) 2013 Daniel Eden
 }
 
 @media screen and (max-width: 767px) {
-  .cure2-frontside-section .right,
-  .cure2-ceramic-alignment-section .left {
+  .non-extraction .cure2-frontside-section .right,
+  .non-extraction .cure2-ceramic-alignment-section .left {
     width: 300px;
   }
 }
@@ -10394,10 +10397,23 @@ Copyright (c) 2013 Daniel Eden
 /* ==========================================================
 	orthodontic-page
 ========================================================== */
-/* outline */
+.orthodontic {
+  /* outline */
+  /* orthodontic */
+  /* mouthpiece */
+  /* ceramic */
+  /* merit */
+  /* comment */
+}
+
+.orthodontic-content {
+  margin-bottom: 100px;
+}
+
 .orthodontic .cure2-outline-section {
-  max-width: 1000px;
+  max-width: 1040px;
   padding: 100px 20px 0;
+  margin: auto;
 }
 
 .orthodontic .cure2-outline-section h2.head {
@@ -10406,10 +10422,6 @@ Copyright (c) 2013 Daniel Eden
   letter-spacing: 0.5rem;
   text-indent: 0.5rem;
   margin-bottom: 50px;
-}
-
-.orthodontic .cure2-outline-section h2.head br {
-  display: none;
 }
 
 .orthodontic .cure2-outline-section h3.head {
@@ -10446,7 +10458,7 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .orthodontic .cure2-outline-section .adaptation {
-  max-width: 600px;
+  max-width: 650px;
   margin: 50px auto;
   text-align: left;
 }
@@ -10467,10 +10479,10 @@ Copyright (c) 2013 Daniel Eden
   margin: 0 auto;
 }
 
-/* orthodontic */
 .orthodontic .cure2-orthodontic-section {
-  max-width: 1000px;
+  max-width: 1040px;
   margin: 100px auto 0;
+  padding: 0 20px;
   overflow: hidden;
 }
 
@@ -10481,13 +10493,15 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .orthodontic .cure2-orthodontic-section .right {
-  width: 400px;
+  max-width: 400px;
+  width: 48%;
   float: right;
 }
 
 .orthodontic .cure2-orthodontic-section .right img {
   display: block;
-  height: 400px;
+  max-width: 400px;
+  width: 100%;
   margin-left: 0;
 }
 
@@ -10496,30 +10510,30 @@ Copyright (c) 2013 Daniel Eden
   margin-bottom: 30px;
 }
 
-.orthodontic .cure2-orthodontic-section　p.intro {
+.orthodontic .cure2-orthodontic-section p.intro {
   font-weight: 200;
   margin-bottom: 30px;
   line-height: 150%;
 }
 
-.orthodontic .cure2-orthodontic-section p.orthodontic {
+.orthodontic .cure2-orthodontic-section p {
   font-weight: 200;
   margin-bottom: 30px;
   line-height: 180%;
 }
 
-.orthodontic .cure2-orthodontic-section p.orthodontic.center {
+.orthodontic .cure2-orthodontic-section p.center {
   font-weight: 200;
   margin-bottom: 30px;
   line-height: 180%;
   text-align: center;
 }
 
-.orthodontic .cure2-orthodontic-section p.orthodontic.center a {
+.orthodontic .cure2-orthodontic-section p.center a {
   color: #08c;
 }
 
-.orthodontic .cure2-orthodontic-section p.orthodontic.center a:hover {
+.orthodontic .cure2-orthodontic-section p.center a:hover {
   color: #08c;
   text-decoration: underline;
 }
@@ -10541,21 +10555,27 @@ Copyright (c) 2013 Daniel Eden
   font-weight: 300;
 }
 
+.orthodontic .cure2-orthodontic-section p.blogbanner {
+  margin: 0;
+}
+
 .orthodontic .cure2-orthodontic-section p.blogbanner a {
   text-align: center;
   padding: 10px 50px;
-  margin: 100px auto;
-  background-color: #d0bfa6;
+  margin: 100px auto 0;
+  background: #d0bfa6;
   display: block;
   color: #fff;
-  width: 400px;
   border-radius: 50px;
   font-weight: 400;
 }
 
-/* mouthpiece */
+.orthodontic .cure2-orthodontic-section p.blogbanner a:hover {
+  opacity: .7;
+}
+
 .orthodontic .cure2-mouthpiece-section {
-  max-width: 1000px;
+  max-width: 1040px;
   margin: 100px auto 100px;
   overflow: hidden;
   padding: 0 20px;
@@ -10564,6 +10584,7 @@ Copyright (c) 2013 Daniel Eden
 .orthodontic .cure2-mouthpiece-section .center {
   text-align: left;
   clear: both;
+  margin: auto;
 }
 
 .orthodontic .cure2-mouthpiece-section .center .recom {
@@ -10578,6 +10599,7 @@ Copyright (c) 2013 Daniel Eden
 
 .orthodontic .cure2-mouthpiece-section .center .recom .title {
   color: #a5967d;
+  line-height: normal;
   margin: 20px 0 30px;
   text-align: center;
   font-weight: 700;
@@ -10589,18 +10611,21 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .orthodontic .cure2-mouthpiece-section .left img {
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
   margin-left: 0;
   display: block;
 }
 
 .orthodontic .cure2-mouthpiece-section .right {
-  width: 400px;
+  max-width: 400px;
+  width: 48%;
   float: right;
 }
 
 .orthodontic .cure2-mouthpiece-section .right img {
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
   display: block;
   margin-left: 0;
 }
@@ -10653,29 +10678,30 @@ Copyright (c) 2013 Daniel Eden
   text-decoration: underline;
 }
 
-/* ceramic */
 .orthodontic .cure2-ceramic-orthodontic-section {
-  max-width: 1000px;
+  max-width: 1040px;
   margin: 100px auto;
   overflow: hidden;
+  padding: 0 20px;
 }
 
 .orthodontic .cure2-ceramic-orthodontic-section .left {
-  width: 400px;
+  max-width: 400px;
+  width: 48%;
   float: left;
   overflow: hidden;
+}
+
+.orthodontic .cure2-ceramic-orthodontic-section .left img {
+  max-width: 400px;
+  width: 100%;
+  display: block;
+  margin-left: 0;
 }
 
 .orthodontic .cure2-ceramic-orthodontic-section .right {
   width: 50%;
   float: right;
-}
-
-.orthodontic .cure2-ceramic-orthodontic-section .left img {
-  width: 400px;
-  display: block;
-  height: 400px;
-  margin-left: 0;
 }
 
 .orthodontic .cure2-ceramic-orthodontic-section h3.head {
@@ -10689,19 +10715,19 @@ Copyright (c) 2013 Daniel Eden
   line-height: 150%;
 }
 
-.orthodontic .cure2-ceramic-orthodontic-section p.orthodontic.center a {
+.orthodontic .cure2-ceramic-orthodontic-section p.center a {
   color: #08c;
 }
 
-.orthodontic .cure2-ceramic-orthodontic-section p.orthodontic.center a:hover {
+.orthodontic .cure2-ceramic-orthodontic-section p.center a:hover {
   color: #08c;
   text-decoration: underline;
 }
 
-/* merit */
 .orthodontic .cure2-orthodontic-section.merit {
-  max-width: 1000px;
+  max-width: 1040px;
   font-weight: 200;
+  padding: 0 20px;
   margin: 0 auto;
 }
 
@@ -10715,16 +10741,60 @@ Copyright (c) 2013 Daniel Eden
   font-weight: 500;
 }
 
-/* comment */
 .orthodontic .cure2-orthodontic-section.comment {
   background-color: #efefef;
-  padding: 20px;
+  padding: 50px 30px;
   font-weight: 200;
   margin-bottom: 50px;
 }
 
 .orthodontic .cure2-orthodontic-section.comment .center .note {
   line-height: 180%;
+}
+
+@media screen and (max-width: 576px) {
+  .orthodontic .cure2-outline-section {
+    padding-top: 50px;
+  }
+  .orthodontic .cure2-outline-section p.intro {
+    text-align: left;
+  }
+  .orthodontic .cure2-outline-section p.intro br {
+    display: none;
+  }
+  .orthodontic .cure2-outline-section .comment {
+    text-align: left;
+  }
+  .orthodontic .cure2-outline-section .comment ul {
+    text-align: left;
+  }
+  .orthodontic .right, .orthodontic .left {
+    float: none !important;
+    width: 100% !important;
+    margin: 20px auto !important;
+  }
+  .orthodontic .right img, .orthodontic .left img {
+    margin: auto !important;
+  }
+  .orthodontic .cure2-mouthpiece-section .center .recom {
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 20px;
+    padding: 50px 20px;
+  }
+  .orthodontic .cure2-orthodontic-section.comment {
+    padding: 50px 20px;
+  }
+  .orthodontic .cure2-orthodontic-section,
+  .orthodontic .cure2-mouthpiece-section,
+  .orthodontic .cure2-ceramic-orthodontic-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .orthodontic .cure2-orthodontic-section p.blogbanner a {
+    margin: 50px auto 0;
+    padding: 10px 20px;
+  }
 }
 
 .shinbi-content__mainvisual {

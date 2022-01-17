@@ -4,7 +4,9 @@
 	.non-extraction-page
 ========================================================== */
 /* outline */
-.non-extraction .cure2-outline-section{
+.non-extraction {
+
+.cure2-outline-section{
 
  	max-width: 1040px;
 	padding: 100px 20px 0;
@@ -515,84 +517,83 @@
 }
 
 @include mq(smt){
-	.non-extraction{
-		.cure2-outline-section{
-			padding-top: 50px;
-			h2.head{
+	.cure2-outline-section{
+		padding-top: 50px;
+		h2.head{
+			br{display: none;}
+		}
+		p.detail{
+			margin: 0;
+			padding-bottom: 0;
+			&.center{
+				padding: 0;
+				margin: 20px 0;
 				br{display: none;}
 			}
-			p.detail{
-				margin: 0;
-				padding-bottom: 0;
-				&.center{
-					padding: 0;
-					margin: 20px 0;
-					br{display: none;}
-				}
-			}
-			.alignment-image{
-				flex-direction: column;
-				margin-top: 20px;
-				img{
-					max-width: 400px;
-					width: 100%;
-					margin: 0 auto 20px;
-				}
-			}
 		}
-		.cure2-mouthpiece-section{
-			.image-box{
-				flex-direction: column;
-				img{
-					max-width: 400px;
-					width: 100%;
-					margin: 0 auto 20px auto;
-				}
-			}
-		}
-		.cure2-frontside-section{
-			flex-direction: column-reverse;
-			.left{
-				width: 100%;
-			}
-			.right{
+		.alignment-image{
+			flex-direction: column;
+			margin-top: 20px;
+			img{
 				max-width: 400px;
 				width: 100%;
-				margin: auto;
-			}
-			.bx-wrapper{
-				margin-bottom: 20px;
+				margin: 0 auto 20px;
 			}
 		}
-		.cure2-ceramic-alignment-section{
+	}
+	.cure2-mouthpiece-section{
+		.image-box{
+			flex-direction: column;
+			img{
+				max-width: 400px;
+				width: 100%;
+				margin: 0 auto 20px auto;
+			}
+		}
+	}
+	.cure2-frontside-section{
+		flex-direction: column-reverse;
+		.left{
+			width: 100%;
+		}
+		.right{
+			max-width: 400px;
+			width: 100%;
+			margin: auto;
+		}
+		.bx-wrapper{
+			margin-bottom: 20px;
+		}
+	}
+	.cure2-ceramic-alignment-section{
+		flex-direction: column;
+		.left{
+			max-width: 400px;
+			width: 100%;
+			margin: auto;
+		}
+		.right{width: 100%;}
+		.bx-wrapper{
+			margin-bottom: 20px;
+		}
+	}
+	.cure2-payment-section{
+		padding-bottom: 0;
+		.alignment-price{
+			padding-bottom: 100px;
+		}
+		.payment-row{
 			flex-direction: column;
 			.left{
-				max-width: 400px;
-				width: 100%;
-				margin: auto;
+				max-width: 100%; 
+				margin: 0 0 50px 0;
 			}
-			.right{width: 100%;}
-			.bx-wrapper{
-				margin-bottom: 20px;
-			}
-		}
-		.cure2-payment-section{
-			padding-bottom: 0;
-			.alignment-price{
-				padding-bottom: 100px;
-			}
-			.payment-row{
-				flex-direction: column;
-				.left{
-					max-width: 100%; 
-					margin: 0 0 50px 0;
-				}
-				.right{
-					max-width: 100%;
-				}
+			.right{
+				max-width: 100%;
 			}
 		}
 	}
 }
 
 
+}
