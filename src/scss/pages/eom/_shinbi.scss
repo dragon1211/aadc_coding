@@ -880,6 +880,67 @@ ul.cost_ex li span {
 
 
 
+/* ==========================================================
+	shinbi-case
+========================================================== */
+
+/* case */
+.case-header {
+	width: 100%;
+	height: 100px;
+	margin-top: 100px;
+	position: relative;
+	overflow: hidden;
+	background-position: center;
+	background-size: cover;
+}
+.case-header .case-header-caption {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	letter-spacing: 0.2rem;
+	text-indent: 0.2rem;
+}
+
+/* outline */
+.case-section {
+	max-width: 1000px;
+	padding: 0px 0px 100px;
+	margin: 0 auto;
+	img{
+		box-sizing: content-box;
+	}
+}
+.case-section img.right {
+	width: 300px;
+	display: block;
+	float: right;
+	margin: 0 0 20px 20px;
+}
+.case-section img.left {
+	width: 300px;
+	display: block;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+.case-section .contents-text {
+	text-align: left;
+	
+	line-height: 200%;
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+.case-section a.case-anchor {
+	color: #08C;
+	display: block;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.case-section a.case-anchor:hover {
+	text-decoration: underline;
+}
+
+
 
 
 
@@ -945,7 +1006,7 @@ ul.cost_ex li span {
 		img.left, img.right{
 			float: none;
 			margin: 20px auto;
-			max-width: 250px;
+			max-width: 400px;
 			width: 100%;
 		}
 	} 
