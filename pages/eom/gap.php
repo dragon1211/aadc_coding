@@ -376,7 +376,7 @@
                 </a>
             </li>
             <li><a href="<?php echo home_url(); ?>/eom">エステティック<br class="sp-onlyt">オルソメソッド</a></li>
-            <li>前歯審美<br class="sp-onlyt">歯科治療</li>
+            <li>すきっ歯<br class="sp-onlyt">専門治療</li>
         </ul>
     </div>
 </section>

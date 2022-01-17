@@ -243,7 +243,7 @@
         padding: 20px;
         z-index: 1;
         transition: transform .3s;
-        transform: translateY(-300px);
+        transform: translateY(calc(-100% + (-50px)));
 		li{
 			&:not(:last-child){
 				margin-right: 0px;
@@ -255,4 +255,11 @@
         }
     }
 	a.active{color: $color_black;}
+
+	@include mq(sm3){
+		font-size: 13px;
+		li:not(:last-child){
+			margin-bottom: 5px;
+		}
+	}
 }

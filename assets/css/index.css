@@ -5222,8 +5222,8 @@ Copyright (c) 2013 Daniel Eden
     transition: -webkit-transform .3s;
     transition: transform .3s;
     transition: transform .3s, -webkit-transform .3s;
-    -webkit-transform: translateY(-300px);
-            transform: translateY(-300px);
+    -webkit-transform: translateY(calc(-100% + (-50px)));
+            transform: translateY(calc(-100% + (-50px)));
   }
   .sub-nav__menu li:not(:last-child) {
     margin-right: 0px;
@@ -5239,6 +5239,15 @@ Copyright (c) 2013 Daniel Eden
 
 .sub-nav__menu a.active {
   color: #333333;
+}
+
+@media screen and (max-width: 390px) {
+  .sub-nav__menu {
+    font-size: 13px;
+  }
+  .sub-nav__menu li:not(:last-child) {
+    margin-bottom: 5px;
+  }
 }
 
 /* -------------------
@@ -8001,6 +8010,12 @@ Copyright (c) 2013 Daniel Eden
   .eom-heading span.en {
     margin-top: 10px;
     font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .eom-heading span.jp {
+    font-size: 7.17949vw;
   }
 }
 
