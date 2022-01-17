@@ -5,6 +5,9 @@
 
 .pc-only {
   display: block;
+  &-inline{
+    display: inline-block;
+  }
 
   @include mq() {
     display: none !important;

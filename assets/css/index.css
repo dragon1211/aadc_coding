@@ -124,6 +124,10 @@ body {
   display: block;
 }
 
+.pc-only-inline {
+  display: inline-block;
+}
+
 @media screen and (max-width: 1050px) {
   .pc-only {
     display: none !important;
@@ -134,7 +138,7 @@ body {
   display: block;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .pc-only2 {
     display: none !important;
   }
@@ -174,7 +178,7 @@ body {
   display: none !important;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .sp-only2 {
     display: block !important;
   }
@@ -4070,13 +4074,13 @@ Copyright (c) 2013 Daniel Eden
           justify-content: space-between;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .col2-75 {
     display: block;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .col2-75--left {
     width: 100%;
     margin-bottom: 20px;
@@ -4090,7 +4094,7 @@ Copyright (c) 2013 Daniel Eden
       flex-shrink: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .col2-75--right {
     width: 100%;
     margin-left: 0;
@@ -4106,13 +4110,13 @@ Copyright (c) 2013 Daniel Eden
           justify-content: space-between;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .col2-7 {
     display: block;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .col2-7--left {
     width: 100%;
     margin-bottom: 20px;
@@ -4126,7 +4130,7 @@ Copyright (c) 2013 Daniel Eden
       flex-shrink: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .col2-7--right {
     width: 100%;
     margin-left: 0;
@@ -4142,7 +4146,7 @@ Copyright (c) 2013 Daniel Eden
           justify-content: space-between;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .col2-25 {
     display: block;
   }
@@ -4155,7 +4159,7 @@ Copyright (c) 2013 Daniel Eden
       flex-shrink: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .col2-25--left {
     width: 100%;
     margin-right: 0;
@@ -4163,7 +4167,7 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .col2-25--right {
     width: 100%;
     margin-bottom: 20px;
@@ -4179,7 +4183,7 @@ Copyright (c) 2013 Daniel Eden
   margin: 0 -20px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .col2 {
     display: block;
     margin: 0;
@@ -4192,7 +4196,7 @@ Copyright (c) 2013 Daniel Eden
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .col2-item {
     width: 100%;
     padding: 0;
@@ -4212,7 +4216,7 @@ Copyright (c) 2013 Daniel Eden
   margin: 0 -10px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .col2-2 {
     display: block;
     margin: 0;
@@ -4225,7 +4229,7 @@ Copyright (c) 2013 Daniel Eden
   margin-bottom: 30px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .col2-2-item {
     width: 100%;
     padding: 0;
@@ -4245,7 +4249,7 @@ Copyright (c) 2013 Daniel Eden
   margin: 0 -10px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .col3 {
     display: block;
     margin: 0;
@@ -4258,7 +4262,7 @@ Copyright (c) 2013 Daniel Eden
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .col3-item {
     width: 100%;
     padding: 0;
@@ -4278,7 +4282,7 @@ Copyright (c) 2013 Daniel Eden
   margin: 0 -10px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .col4 {
     display: block;
     margin: 0;
@@ -4291,7 +4295,7 @@ Copyright (c) 2013 Daniel Eden
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .col4-item {
     width: 100%;
     padding: 0;
@@ -4311,7 +4315,7 @@ Copyright (c) 2013 Daniel Eden
   margin: 0 -10px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .col5 {
     display: block;
     margin: 0;
@@ -4324,7 +4328,7 @@ Copyright (c) 2013 Daniel Eden
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .col5-item {
     width: 100%;
     padding: 0;
@@ -4733,7 +4737,7 @@ Copyright (c) 2013 Daniel Eden
   font-size: 4.4rem;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   /* ------------------------------------------------ font set */
   .f10 {
     font-size: 8px;
@@ -4950,7 +4954,7 @@ Copyright (c) 2013 Daniel Eden
   font-weight: 500;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .ci-wrap__logo {
     display: none;
   }
@@ -5718,7 +5722,7 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .home-mainvisual__heading {
     left: 5%;
   }
@@ -6047,7 +6051,7 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .home-content__eom, .home-content__invisalign, .home-content__alignment, .home-content__blog {
     height: 400px;
   }
@@ -6166,7 +6170,7 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .home-outline__list {
     margin-top: 20px;
     text-align: left;
@@ -6412,7 +6416,7 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .home-section .home-section__wrap__eom-heading a {
     margin-top: 20px;
   }
@@ -6565,7 +6569,7 @@ Copyright (c) 2013 Daniel Eden
   font-weight: 500;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .home-reservation__sub-heading {
     font-size: 35px;
   }
@@ -6794,7 +6798,7 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .home-information__pane {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -6978,7 +6982,7 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .about-outline__list {
     text-align: left;
     line-height: 1.8;
@@ -7334,7 +7338,7 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .doctor {
     display: block;
   }
@@ -7796,7 +7800,7 @@ Copyright (c) 2013 Daniel Eden
   padding: 0 20px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .cure1-zirconia-crown-section,
   .cure1-fullzirconia-crown-section,
   .cure1-zirconia-trans-section,
@@ -8613,26 +8617,16 @@ Copyright (c) 2013 Daniel Eden
 /* ==========================================================
 	invisalign
 ========================================================== */
-/* outline */
-.cure2-header.invizalign {
-  width: 100%;
-  height: 300px;
-  position: relative;
-  overflow: hidden;
-  background-image: url(../images/cure2-invizalign-header.png);
-  background-position: center;
-  background-size: cover;
-}
-
-.cure2-header.invizalign h1.cure2-header-caption {
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  margin-top: -20px;
-  font-weight: 200;
-  letter-spacing: 0.2rem;
-  text-indent: 0.2rem;
+.invisalign {
+  /* outline */
+  /* about */
+  /* merit */
+  /* case */
+  /* flow */
+  /* merit */
+  /* plan */
+  /* qa-section */
+  /* payment */
 }
 
 .invisalign .cure2-outline-section {
@@ -8646,7 +8640,7 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .invisalign .cure2-intro-section {
-  max-width: 1000px;
+  max-width: 1040px;
   margin: 50px auto;
   overflow: hidden;
   padding: 0 20px;
@@ -8654,7 +8648,7 @@ Copyright (c) 2013 Daniel Eden
 
 .invisalign .cure2-intro-section h2.head {
   text-align: center;
-  font-weight: 100;
+  font-weight: 300;
   letter-spacing: 0.5rem;
   text-indent: 0.5rem;
   margin-bottom: 50px;
@@ -8664,16 +8658,16 @@ Copyright (c) 2013 Daniel Eden
 .invisalign .cure2-intro-section p.intro {
   margin: 0 auto;
   letter-spacing: 0.2rem;
-  font-weight: 200;
+  font-weight: 300;
   line-height: 200%;
   text-align: justify;
   padding-bottom: 30px;
 }
 
-/* about */
 .invisalign .cure2-about-section {
-  max-width: 1000px;
+  max-width: 1040px;
   margin: 0 auto 50px;
+  padding: 0 20px;
   overflow: hidden;
 }
 
@@ -8684,34 +8678,36 @@ Copyright (c) 2013 Daniel Eden
 
 .invisalign .cure2-about-section .right {
   text-align: center;
+  float: right;
 }
 
 .invisalign .cure2-about-section .right img {
-  width: 400px;
+  margin: auto;
+  max-width: 400px;
+  width: 43.75vw;
   display: block;
 }
 
 .invisalign .cure2-about-section h3.head {
-  font-weight: 200;
+  font-weight: 300;
   margin-bottom: 30px;
   letter-spacing: 0.2rem;
 }
 
 .invisalign .cure2-about-section p.intro {
-  font-weight: 200;
+  font-weight: 300;
   line-height: 180%;
 }
 
-/* merit */
 .invisalign .cure2-merit-section {
-  max-width: 1000px;
+  max-width: 1040px;
   margin: 100px auto;
   overflow: hidden;
   padding: 0 20px;
 }
 
 .invisalign .cure2-merit-section h3.head {
-  font-weight: 200;
+  font-weight: 300;
   margin-bottom: 30px;
   letter-spacing: 0.2rem;
   text-align: center;
@@ -8724,13 +8720,14 @@ Copyright (c) 2013 Daniel Eden
   line-height: 150%;
   background-color: #ef9ba0;
   margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 400;
   color: #fff;
 }
 
-/* case */
 .invisalign .cure2-case-section {
-  max-width: 1000px;
+  max-width: 1040px;
   margin: 50px auto 50px;
   padding: 0 20px;
   overflow: hidden;
@@ -8748,31 +8745,24 @@ Copyright (c) 2013 Daniel Eden
   padding-right: 60px;
 }
 
-.invisalign .cure2-case-section .center {
-  max-width: 900px;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-.invisalign .cure2-case-section .case {
-  width: 100%;
-  height: 30px;
-  text-align: center;
-}
-
-.invisalign .cure2-case-section .center p.ans {
-  text-align: left;
-  line-height: 150%;
-  margin-top: 20px;
-}
-
-.invisalign .cure2-case-section .left img,
 .invisalign .cure2-case-section .right img {
   width: 400px;
   height: 400px;
   text-align: center;
   display: block;
   overflow: hidden;
+}
+
+.invisalign .cure2-case-section .center {
+  max-width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.invisalign .cure2-case-section .center p.ans {
+  text-align: left;
+  line-height: 150%;
+  margin-top: 20px;
 }
 
 .invisalign .cure2-case-section .center img {
@@ -8783,6 +8773,12 @@ Copyright (c) 2013 Daniel Eden
 .invisalign .cure2-case-section .center .comment {
   text-align: center;
   margin-bottom: 30px;
+}
+
+.invisalign .cure2-case-section .case {
+  width: 100%;
+  height: 30px;
+  text-align: center;
 }
 
 .invisalign .cure2-case-section p.blogbanner a {
@@ -8797,7 +8793,6 @@ Copyright (c) 2013 Daniel Eden
   font-weight: 400;
 }
 
-/* flow */
 .invisalign .cure2-flow-section {
   max-width: 900px;
   margin: 100px auto;
@@ -8806,7 +8801,7 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .invisalign .cure2-flow-section h3.head {
-  font-weight: 200;
+  font-weight: 300;
   margin-bottom: 30px;
   letter-spacing: 0.2rem;
   text-align: center;
@@ -8822,7 +8817,7 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .invisalign .cure2-flow-section .note {
-  font-weight: 200;
+  font-weight: 300;
   margin: 0 auto 30px;
   text-align: justify;
   line-height: 150%;
@@ -8841,7 +8836,10 @@ Copyright (c) 2013 Daniel Eden
 
 .invisalign .cure2-flow-section .note iframe {
   display: block;
-  margin: 10px auto 0;
+  margin: 20px auto 0;
+  max-width: 560px;
+  width: 100%;
+  height: 315px;
 }
 
 .invisalign .cure2-flow-section .note span.att {
@@ -8854,15 +8852,9 @@ Copyright (c) 2013 Daniel Eden
   text-align: center;
 }
 
-.invisalign .cure2-flow-section .arrow {
-  text-align: center;
-  color: #999;
-  line-height: 150%;
-}
-
 .invisalign .cure2-flow-section .note .topics {
   display: block;
-  margin: 20px;
+  margin: 50px 20px;
   overflow: hidden;
 }
 
@@ -8912,10 +8904,6 @@ Copyright (c) 2013 Daniel Eden
   border-bottom: 1px solid #ddd;
 }
 
-.invisalign .cure2-flow-section .note .topics p {
-  height: 100px;
-}
-
 .invisalign .cure2-flow-section .note .topics .left {
   float: left;
   width: 45%;
@@ -8923,6 +8911,10 @@ Copyright (c) 2013 Daniel Eden
 
 .invisalign .cure2-flow-section .note .topics .left img {
   width: 100%;
+}
+
+.invisalign .cure2-flow-section .note .topics p {
+  height: 100px;
 }
 
 .invisalign .cure2-flow-section .note .topics .right {
@@ -8934,15 +8926,20 @@ Copyright (c) 2013 Daniel Eden
   width: 100%;
 }
 
-/* merit */
+.invisalign .cure2-flow-section .arrow {
+  text-align: center;
+  color: #999;
+  line-height: 150%;
+}
+
 .invisalign .cure2-important-section {
-  max-width: 1000px;
+  max-width: 1040px;
   margin: 50px auto;
   overflow: hidden;
 }
 
 .invisalign .cure2-important-section h3.head {
-  font-weight: 200;
+  font-weight: 300;
   margin-bottom: 20px;
   letter-spacing: 0.2rem;
   text-align: center;
@@ -8957,9 +8954,8 @@ Copyright (c) 2013 Daniel Eden
   font-weight: 300;
 }
 
-/* plan */
 .invisalign .cure2-plan-section {
-  max-width: 1200px;
+  max-width: 1240px;
   margin: 0 auto 100px;
   overflow: hidden;
   padding: 0 20px;
@@ -8982,12 +8978,18 @@ Copyright (c) 2013 Daniel Eden
 .invisalign .cure2-plan-section .plan-wrap h3.head {
   height: 50px;
   margin: 20px;
-  font-weight: 200;
+  font-weight: 300;
   line-height: 150%;
 }
 
 .invisalign .cure2-plan-section .plan-wrap img {
   margin-bottom: 20px;
+}
+
+.invisalign .cure2-plan-section .plan-wrap p {
+  text-align: justify;
+  line-height: 150%;
+  font-weight: 300;
 }
 
 .invisalign .cure2-plan-section .plan-case h3 {
@@ -8998,18 +9000,13 @@ Copyright (c) 2013 Daniel Eden
 
 .invisalign .cure2-plan-section .plan-case .case-img {
   display: inline-block;
-  margin: 20px;
+  margin: 20px 0;
   max-width: 400px;
-}
-
-.invisalign .cure2-plan-section .plan-wrap p {
-  text-align: justify;
-  line-height: 150%;
-  font-weight: 200;
+  width: 100%;
 }
 
 .invisalign .cure2-plan-section .plan-wrap2 {
-  font-weight: 200;
+  font-weight: 300;
   margin: 30px auto 30px;
   text-align: justify;
   max-width: 800px;
@@ -9032,6 +9029,8 @@ Copyright (c) 2013 Daniel Eden
   text-align: left;
   font-weight: 300;
   line-height: 150%;
+  height: auto;
+  margin-bottom: 30px;
 }
 
 .invisalign .cure2-plan-section .plan-wrap2 .topics h4 {
@@ -9117,12 +9116,22 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .invisalign .cure2-plan-section .invizalign-link a {
-  background-color: #08c;
-  width: 50%;
+  margin: auto;
+  max-width: 550px;
+  width: 100%;
   padding: 10px 20px;
   display: block;
   color: #fff;
-  border-radius: 30px;
+  border-radius: 70px;
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #08c), color-stop(50%, #0898e0)) right;
+  background: linear-gradient(to left, #08c 50%, #0898e0 50%) right;
+  background-size: 200%;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+.invisalign .cure2-plan-section .invizalign-link a:hover {
+  background-position: left;
 }
 
 .invisalign .cure2-plan-section .invizalign-link a span {
@@ -9131,9 +9140,8 @@ Copyright (c) 2013 Daniel Eden
   display: block;
 }
 
-/* qa-section */
 .invisalign .cure2-qa-section {
-  max-width: 800px;
+  max-width: 840px;
   margin: 50px auto;
   overflow: hidden;
   padding: 0 20px;
@@ -9142,15 +9150,11 @@ Copyright (c) 2013 Daniel Eden
 .invisalign .cure2-qa-section .qa-head {
   margin-bottom: 30px;
   text-align: center;
-  /* 	text-decoration: underline; */
-  /* 	color: #08c; */
-  /* 	cursor: pointer; */
 }
 
 .invisalign .cure2-qa-section ul.qa {
   font-weight: 300;
   line-height: 180%;
-  /* 	display: none; */
 }
 
 .invisalign .cure2-qa-section ul.qa span {
@@ -9165,7 +9169,6 @@ Copyright (c) 2013 Daniel Eden
   margin-bottom: 30px;
 }
 
-/* payment */
 .invisalign .cure2-payment-section {
   max-width: 100%;
   margin: 0 auto;
@@ -9175,14 +9178,14 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .invisalign .cure2-payment-section .payment-wrap {
-  max-width: 1000px;
+  max-width: 1040px;
   margin: 0 auto;
   padding: 50px 20px 20px;
   overflow: hidden;
 }
 
 .invisalign .cure2-payment-section .payment-intro {
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 0.2rem;
   text-align: center;
   line-height: 180%;
@@ -9202,13 +9205,38 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .invisalign .cure2-payment-section .left {
-  width: 400px;
+  max-width: 400px;
+  width: 45%;
   float: left;
+  padding: 0 10px;
+}
+
+.invisalign .cure2-payment-section .left img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding: 20px 0;
 }
 
 .invisalign .cure2-payment-section .right {
-  width: 500px;
+  max-width: 500px;
+  width: 55%;
   float: right;
+  padding: 0 10px;
+}
+
+.invisalign .cure2-payment-section .right a.credit-anchor {
+  margin: 20px auto;
+  color: #08c;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  line-height: 150%;
+}
+
+.invisalign .cure2-payment-section .right a.credit-anchor:hover {
+  text-decoration: underline;
+  text-align: center;
 }
 
 .invisalign .cure2-payment-section .payment-wrap .aplus-link {
@@ -9222,13 +9250,6 @@ Copyright (c) 2013 Daniel Eden
 
 .invisalign .cure2-payment-section .payment-wrap .aplus-link a:hover {
   text-decoration: underline;
-}
-
-.invisalign .cure2-payment-section .left img {
-  display: block;
-  margin: 0 auto;
-  width: 50%;
-  padding: 20px 0;
 }
 
 .invisalign .cure2-payment-section .alignment-anchor {
@@ -9246,20 +9267,6 @@ Copyright (c) 2013 Daniel Eden
   text-align: center;
 }
 
-.invisalign .cure2-payment-section .right a.credit-anchor {
-  margin: 20px auto;
-  color: #08c;
-  text-align: center;
-  display: block;
-  cursor: pointer;
-  line-height: 150%;
-}
-
-.invisalign .cure2-payment-section .right a.credit-anchor:hover {
-  text-decoration: underline;
-  text-align: center;
-}
-
 .invisalign .cure2-payment-section h4.head {
   font-weight: 400;
   margin-bottom: 20px;
@@ -9267,14 +9274,13 @@ Copyright (c) 2013 Daniel Eden
   text-align: center;
 }
 
-.invisalign .cure2-payment-section p.card,
-.invisalign .cure2-payment-section p.credit {
-  font-weight: 200;
+.invisalign .cure2-payment-section p.card, .invisalign .cure2-payment-section p.credit {
+  font-weight: 300;
   line-height: 180%;
 }
 
 .invisalign .cure2-payment-section .alignment-price {
-  max-width: 800px;
+  max-width: 840px;
   margin: 0 auto;
   text-align: center;
   font-weight: 500;
@@ -9286,7 +9292,7 @@ Copyright (c) 2013 Daniel Eden
 
 .invisalign .cure2-payment-section .alignment-price h5.head {
   text-align: center;
-  font-weight: 200;
+  font-weight: 300;
   padding-top: 50px;
   margin-bottom: 50px;
 }
@@ -9297,7 +9303,7 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .invisalign .cure2-payment-section .alignment-price p.item {
-  font-weight: 200;
+  font-weight: 300;
   margin-bottom: 10px;
 }
 
@@ -9324,7 +9330,7 @@ Copyright (c) 2013 Daniel Eden
 
 .invisalign .cure2-payment-section .alignment-price h6.head {
   text-align: center;
-  font-weight: 200;
+  font-weight: 300;
   margin: 50px auto 20px;
   max-width: 600px;
   padding: 5px;
@@ -9346,7 +9352,7 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .invisalign .cure2-payment-section .alignment-price table tr th {
-  font-weight: 200;
+  font-weight: 300;
   width: 350px;
   text-align: left;
 }
@@ -9364,6 +9370,66 @@ Copyright (c) 2013 Daniel Eden
   font-weight: 400;
   padding: 10px 20px;
   line-height: 150%;
+}
+
+@media screen and (max-width: 768px) {
+  .invisalign .cure2-plan-section .plan-wrap {
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  .invisalign .cure2-payment-section .left, .invisalign .cure2-payment-section .right {
+    float: none;
+    margin: 20px auto;
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .invisalign .cure2-about-section .left, .invisalign .cure2-about-section .right {
+    float: none;
+    width: 100%;
+    margin: 20px 0;
+  }
+  .invisalign .cure2-about-section .right img {
+    max-width: 400px;
+    width: 100%;
+  }
+  .invisalign .cure2-flow-section .note .topics {
+    margin: 30px 0;
+  }
+  .invisalign .cure2-flow-section .note .topics ul li {
+    margin: 20px 0px;
+  }
+  .invisalign .cure2-flow-section .note .topics p {
+    height: auto;
+  }
+  .invisalign .cure2-flow-section .note .topics .left, .invisalign .cure2-flow-section .note .topics .right {
+    float: none;
+    width: 100%;
+    margin: 20px 0;
+  }
+  .invisalign .cure2-flow-section .note .topics .left img, .invisalign .cure2-flow-section .note .topics .right img {
+    max-width: 400px;
+  }
+  .invisalign .cure2-flow-section .note .vivera-retainers-img {
+    max-width: 400px;
+    width: 100%;
+  }
+  .invisalign .cure2-plan-section .plan-wrap2 .topics {
+    margin: 30px 0 20px;
+  }
+  .invisalign .cure2-plan-section .plan-wrap2 .topics ul li {
+    margin: 20px 0;
+  }
+  .invisalign .cure2-plan-section .invizalign-link a {
+    font-size: 3.84615vw;
+    padding: 10px;
+    border-radius: 0;
+  }
+  .invisalign .cure2-plan-section .invizalign-link a span {
+    font-size: 4.10256vw;
+  }
 }
 
 /* ==========================================================
@@ -10296,7 +10362,7 @@ Copyright (c) 2013 Daniel Eden
   line-height: 150%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .non-extraction .cure2-frontside-section .right,
   .non-extraction .cure2-ceramic-alignment-section .left {
     width: 300px;
@@ -10855,7 +10921,7 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .shinbi-content__mainvisual--caption {
     font-size: 2.8rem;
   }
@@ -10921,7 +10987,7 @@ Copyright (c) 2013 Daniel Eden
   line-height: 2.5;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .shinbi-teeth__content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
