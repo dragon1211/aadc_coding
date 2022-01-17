@@ -1,0 +1,468 @@
+@charset "UTF-8";
+
+/* ==========================================================
+	gap-page
+========================================================== */
+/* outline */
+.gap .cure2-outline-section {
+	max-width: 1000px;
+	padding: 100px 0 0;
+}
+.gap .cure2-outline-section h2.head {
+	text-align: center;
+	font-weight: 100;
+	letter-spacing: 0.5rem;
+	text-indent: 0.5rem;	
+	margin-bottom: 50px;
+	line-height: 180%;	
+}
+.gap .cure2-outline-section p.intro {
+	margin: 0 auto;
+	letter-spacing: 0.2rem;
+	font-weight: 200;
+	line-height: 200%;
+	text-align: justify;
+	padding-bottom: 30px;
+}
+.gap .cure2-outline-section h3.head {
+	text-align: center;
+	font-weight: 200;
+	letter-spacing: 0.2rem;
+	text-indent: 0.2rem;
+	margin: 50px auto 30px;
+	line-height: 150%;
+}
+.gap .cure2-outline-section p.detail {
+	letter-spacing: 0.2rem;
+	font-weight: 200;
+	line-height: 200%;
+	text-align: justify;
+	padding-bottom: 30px;
+}
+
+/* case */
+.gap .gap-case-section {
+	max-width: 1000px;
+	padding: 50px;
+	margin: 0 auto;
+}
+.gap .gap-case-section .case {
+	margin: 0 auto;
+	letter-spacing: 0.2rem;
+	font-weight: 200;
+	line-height: 200%;
+	text-align: center;
+	padding-bottom: 30px;	
+}
+.gap .gap-case-section .case .bold {
+	line-height: 150%;
+	margin-bottom: 30px;
+}
+.gap .gap-case-section .case .bold span {
+	display: block;
+}
+.gap .gap-case-section .case ul {
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+.gap .gap-case-section .case ul li {
+	margin: 20px;
+}
+.gap .gap-case-section .case .wrap {
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+.gap .gap-case-section .case .left {
+	width: 40%;
+	margin: 10px;
+	display: inline-block;
+}
+.gap .gap-case-section .case .right {
+	width: 40%;	
+	margin: 10px;	
+	display: inline-block;
+}
+.gap .gap-case-section .case table {
+	letter-spacing: 0;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+.gap .gap-case-section .case table th {
+	width: 25%;
+	border: 1px solid #ccc;
+	padding: 3px;
+	background-color: #f6f2ed;
+}
+.gap .gap-case-section .case table td{
+	width: 25%;
+	border: 1px solid #ccc;
+	padding: 3px;	
+	line-height: 120%;
+}
+.gap .gap-case-section .case .head {
+	font-weight: 400;
+	padding: 10px;
+	background-color: #f6f2ed;
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+.gap .gap-case-section .case .comment {
+	height: 100px;
+	line-height: 150%;
+	font-weight: 300;
+	text-align: left;
+}
+
+/* type */
+.gap .gap-type-section {
+	max-width: 1000px;
+	padding: 0 0 50px;
+	margin: 0 auto;
+}
+.gap .gap-type-section h3.head {
+	text-align: center;
+	font-weight: 200;
+	letter-spacing: 0.2rem;
+	text-indent: 0.2rem;
+	margin: 0 auto 50px;
+	line-height: 150%;
+}
+.gap .gap-type-section .wrap {
+	margin: 100px 0;
+	overflow: hidden;	
+}
+.gap .gap-type-section .wrap .left {
+	width: 50%;
+	float: left;
+}
+.gap .gap-type-section .wrap .right {
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+.gap .gap-type-section .wrap h4 {
+	text-align: justify;
+	font-weight: 500;
+	letter-spacing: 0.2rem;
+	text-indent: 0.2rem;
+	margin-bottom: 10px;
+	line-height: 150%;
+}
+.gap .gap-type-section .wrap .comment {
+	text-align: justify;
+	font-weight: 200;
+	letter-spacing: 0.1rem;
+	text-indent: 0.2rem;
+	line-height: 200%;	
+}
+.gap .gap-type-section .wrap-merit {
+	margin: -50px 0 50px;
+	overflow: hidden;	
+}
+.gap .gap-type-section .wrap-merit .left {
+	width: 60%;
+	float: left;
+}
+.gap .gap-type-section .wrap-merit .right {
+	width: 40%;
+	float: right;
+	text-align: right;
+}
+.gap .gap-type-section .wrap-merit .right img {
+	width: 85%;
+}
+.gap .gap-type-section .wrap-merit h4.center {
+	text-align: center;
+	font-weight: 500;
+	letter-spacing: 0.2rem;
+	text-indent: 0.2rem;
+	margin-bottom: 10px;
+	line-height: 150%;	
+}
+.gap .gap-type-section .wrap-merit ul {
+	text-align: center;
+	line-height: 150%;
+}
+.gap .gap-type-section .wrap-merit ul li {
+	padding: 10px;
+	margin: 10px 0;
+	background-color: #f6f2ed;
+	font-weight: 400;
+}
+.gap .gap-type-section .end {
+	font-weight: 200;
+	line-height: 200%;
+	color: #d53212;
+}
+
+/* ceramic */
+.gap .cure2-ceramic-section {
+	max-width: 1000px;
+	padding: 50px 0 0;
+}
+.gap .cure2-ceramic-section h3.head {
+	text-align: center;
+	font-weight: 200;
+	letter-spacing: 0.2rem;
+	text-indent: 0.2rem;
+	margin: 50px auto 30px;
+	line-height: 150%;
+}
+.gap .cure2-ceramic-section p.detail {
+	letter-spacing: 0.2rem;
+	font-weight: 200;
+	line-height: 200%;
+	text-align: justify;
+	padding-bottom: 30px;
+}
+
+/* method */
+.gap .gap-method-section {
+	max-width: 1000px;
+	padding: 0 0 50px;
+	margin: 0 auto;
+}
+.gap .gap-method-section h3.head {
+	text-align: center;
+	font-weight: 200;
+	letter-spacing: 0.2rem;
+	text-indent: 0.2rem;
+	margin: 0 auto 50px;
+	line-height: 150%;
+}
+.gap .gap-method-section .wrap {
+	margin: 100px 0;
+	overflow: hidden;	
+}
+.gap .gap-method-section .wrap .left {
+	width: 50%;
+	float: left;
+}
+.gap .gap-method-section .wrap .right {
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+.gap .gap-method-section .wrap table {
+	clear: both;
+	letter-spacing: 0;
+	border-spacing: 0;
+	border-collapse: collapse;
+	text-align: center;
+}
+.gap .gap-method-section .wrap table th {
+	width: 25%;
+	border: 1px solid #ccc;
+	padding: 3px;
+	background-color: #f6f2ed;
+	line-height: 150%;	
+}
+.gap .gap-method-section .wrap table td{
+	width: 25%;
+	border: 1px solid #ccc;
+	padding: 3px;	
+	line-height: 150%;
+}
+.gap .gap-method-section .wrap h4 {
+	text-align: justify;
+	font-weight: 500;
+	letter-spacing: 0.2rem;
+	text-indent: 0.2rem;
+	margin-bottom: 10px;
+	line-height: 150%;
+}
+.gap .gap-method-section .wrap .comment {
+	text-align: justify;
+	font-weight: 200;
+	letter-spacing: 0.1rem;
+	text-indent: 0.2rem;
+	line-height: 200%;	
+}
+.gap .gap-method-section .wrap-merit {
+	margin: -50px 0 20px;
+	overflow: hidden;	
+}
+.gap .gap-method-section .wrap-merit .left {
+	width: 45%;
+	float: left;
+}
+.gap .gap-method-section .wrap-merit .right {
+	width: 45%;
+	float: right;
+}
+.gap .gap-method-section .wrap-merit h4.center {
+	text-align: center;
+	font-weight: 500;
+	letter-spacing: 0.2rem;
+	text-indent: 0.2rem;
+	margin-bottom: 10px;
+	line-height: 150%;	
+}
+.gap .gap-method-section .wrap-merit ul {
+	text-align: center;
+	line-height: 150%;
+}
+.gap .gap-method-section .wrap-merit ul li {
+	padding: 10px;
+	margin: 10px 0;
+	background-color: #f6f2ed;
+	font-weight: 400;
+}
+.gap .gap-method-section .end {
+	font-weight: 200;
+	line-height: 150%;
+	color: #d53212;
+}
+.gap .gap-method-section .wrap h4.under {
+	text-align: justify;
+	font-weight: 300;
+	letter-spacing: 0rem;
+	text-indent: 0.2rem;
+	margin-bottom: 10px;
+	line-height: 150%;
+	text-decoration: underline;	
+}
+
+/* composite */
+.gap .gap-composite-section {
+	max-width: 1000px;
+	margin-bottom: 150px;
+}
+.gap .gap-composite-section h3.head {
+	text-align: center;
+	font-weight: 200;
+	letter-spacing: 0.2rem;
+	text-indent: 0.2rem;
+	margin: 50px auto 30px;
+	line-height: 150%;
+}
+.gap .gap-composite-section p.detail {
+	letter-spacing: 0.2rem;
+	font-weight: 200;
+	line-height: 200%;
+	text-align: justify;
+	padding-bottom: 30px;
+}
+.gap .gap-composite-section .wrap {
+	margin: 100px 0;
+	overflow: hidden;	
+}
+.gap .gap-composite-section .wrap .left {
+	width: 50%;
+	float: left;
+}
+.gap .gap-composite-section .wrap .right {
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+.gap .gap-composite-section .wrap table {
+	clear: both;
+	letter-spacing: 0;
+	border-spacing: 0;
+	border-collapse: collapse;
+	text-align: center;
+}
+.gap .gap-composite-section .wrap table th {
+	width: 25%;
+	border: 1px solid #ccc;
+	padding: 3px;
+	background-color: #f6f2ed;
+	line-height: 150%;	
+}
+.gap .gap-composite-section .wrap table td{
+	width: 25%;
+	border: 1px solid #ccc;
+	padding: 3px;	
+	line-height: 150%;
+}
+.gap .gap-composite-section .wrap h4 {
+	text-align: justify;
+	font-weight: 500;
+	letter-spacing: 0.2rem;
+	text-indent: 0.2rem;
+	margin-bottom: 10px;
+	line-height: 150%;
+}
+.gap .gap-composite-section .wrap .comment {
+	text-align: justify;
+	font-weight: 200;
+	letter-spacing: 0.1rem;
+	text-indent: 0.2rem;
+	line-height: 200%;	
+}
+.gap .gap-composite-section .wrap-merit {
+	margin: -50px 0 20px;
+	overflow: hidden;	
+}
+.gap .gap-composite-section .wrap-merit .left {
+	width: 45%;
+	float: left;
+}
+.gap .gap-composite-section .wrap-merit .right {
+	width: 45%;
+	float: right;
+}
+.gap .gap-composite-section .wrap-merit h4.center {
+	text-align: center;
+	font-weight: 500;
+	letter-spacing: 0.2rem;
+	text-indent: 0.2rem;
+	margin-bottom: 10px;
+	line-height: 150%;	
+}
+.gap .gap-composite-section .wrap-merit ul {
+	text-align: center;
+	line-height: 150%;
+}
+.gap .gap-composite-section .wrap-merit ul li {
+	padding: 10px;
+	margin: 10px 0;
+	background-color: #f6f2ed;
+	font-weight: 400;
+}
+
+/* care */
+.gap .gap-care-section {
+	max-width: 1000px;
+	padding: 0 0 100px;
+	margin: 0 auto;
+}
+.gap .gap-care-section .bold {
+	font-weight: 400;
+	line-height: 150%;
+	margin-bottom: 30px;
+}
+.gap .gap-care-section ul {
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+.gap .gap-care-section ul li {
+	font-weight: 200;
+	margin: 20px;
+	line-height: 150%;
+	list-style: disc;
+}
+
+
+/* blog */
+.gap .gap-blog-section {
+	max-width: 1000px;
+	padding: 0 0 100px;
+	margin: 0 auto;
+}
+.gap .gap-blog-section .bold {
+	font-weight: 400;
+	line-height: 150%;
+	margin-bottom: 30px;
+}
+.gap .gap-blog-section ul {
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+.gap .gap-blog-section ul li {
+	font-weight: 200;
+	margin: 10px 20px;
+	line-height: 150%;
+	list-style: disc;
+}

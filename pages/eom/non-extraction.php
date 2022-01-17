@@ -39,7 +39,7 @@
 <section class="eom-heading__content">
     <div class="eom-heading">
         <h2 class="eom-heading__caption">
-            <span class="jp">歯を抜かない矯正治療</span>
+            <span class="jp">歯を抜かない<br class="sp-only3">矯正治療</span>
         </h2>
     </div>
 </section>
@@ -50,7 +50,7 @@
 
     	<!-- outline -->
 		<section class="cure2-outline-section" id="outline">
-			<h2 class="head f36">きれいな歯並びで質の高い生活を</h2>
+			<h2 class="head f36">きれいな歯並びで<br class="sp-onlyt">質の高い生活を</h2>
 			<h2 class="head f28">当院では、できるだけ歯を抜かない治療方針で<br>矯正治療を行っています</h2>
 			<p class="intro f18">
 				それは、矯正終了後の歯並び、噛み合わせや歯周組織を、可能な限り機能的、審美的に健康な状態を維持できるようにするためです。
@@ -69,10 +69,10 @@
 				（骨格的な問題や口元、顔貌の改善を行う必要がある場合には抜歯をしなければならないこともあります）
 			</p>
 			<div class="alignment-image" style="text-align: center;">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/cure2-alignment4.png" width="300">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/cure2-alignment1.png" width="300">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/cure2-alignment3.png" width="300">
-				</div>
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/cure2-alignment4.png">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/cure2-alignment1.png">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/cure2-alignment3.png">
+			</div>
 			<h3 class="head f24" id="features2">コンビネーション矯正</h3>
 			<p class="detail f16">当院では、ワイヤー矯正とマウスピース矯正を組み合わせるコンビネーション矯正も行っております。
 				この方法は、矯正治療期間を短縮することができたり、ご予定に合わせて治療装置を変更できるメリットがあります。</p>
@@ -148,12 +148,6 @@
 
 		<!-- ceramic-alignment -->
 		<section class="cure2-ceramic-alignment-section">
-			<div class="right">
-				<h3 class="head l2">セラミック矯正</h3>
-				<p class="ceramic m">歯並びだけでなく色やかたちも同時にきれいにしたい、装置を全くつけずに歯並びを直したい、最短できれいにしたいという方にはスピーディなセラミック矯正がおすすめです。
-					歯にセラミックを貼ったりかぶせたりすることで色やかたち、歯並びを短期間で直すことができ、最短２回の通院で治療が終了します。（治療方法によって通院回数は異なります）歯を削ることがデメリットですが、時間と治療期間に制約がある方には向いている治療です
-				</p>
-			</div>
 			<div class="left">
 				<div class="bxslider">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/cure1-ceramic-alignment1.png">
@@ -161,13 +155,19 @@
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/cure1-ceramic-alignment3.png">
 				</div>
 			</div>
+			<div class="right">
+				<h3 class="head l2">セラミック矯正</h3>
+				<p class="ceramic m">歯並びだけでなく色やかたちも同時にきれいにしたい、装置を全くつけずに歯並びを直したい、最短できれいにしたいという方にはスピーディなセラミック矯正がおすすめです。
+					歯にセラミックを貼ったりかぶせたりすることで色やかたち、歯並びを短期間で直すことができ、最短２回の通院で治療が終了します。（治療方法によって通院回数は異なります）歯を削ることがデメリットですが、時間と治療期間に制約がある方には向いている治療です
+				</p>
+			</div>
 		</section>
 		<!-- /ceramic-alignment -->
 		
 		
 		<!-- alignment-faq -->
 		<section class="cure2-alignment-faq-section">
-			<h3 class="head l2"><i class="fa fa-question-circle" aria-hidden="true"></i> 矯正治療についてのよくある質問</h3>
+			<h3 class="head l2"><i class="fa fa-question-circle" aria-hidden="true"></i> 矯正治療についての<br class="sp-onlyt">よくある質問</h3>
 			<h4 class="question m">矯正治療中の痛みはありますか？</h4>
 			<p class="answer s">
 				矯正装置の種類にもよりますが、マウスピースの装置は、はめる時に若干締め付けらるような違和感や痛みがあります。それは歯を動かすために装置がフィットしている証です。通常ははめてから数分で痛みは無くなります。<br>
@@ -207,22 +207,25 @@
 					<span class="s">矯正治療スタート時には、装置のオーダーや準備が発生するため全治療費の３０％をお支払いいただいております。</span><br>
 					月々の定額支払いや治療期間内での分割払いについては無利子でお受けしています。<br>
 					そのほか、クレジットカード、デンタルローンもご利用いただけます。</p>
-				<div class="left">
-					<h4 class="head m">クレジットカードによるお支払い</h4>
-					<p class="card s">自費診療に限り各種クレジットカードをご利用いただけます。クレジットカードの規約に準じ、分割払いやボーナス一括払いも承っております。</p>
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/creditcard-mark.png" class="creditcard-mark">
+				
+				<div class="payment-row">
+					<div class="left">
+						<h4 class="head m">クレジットカードによるお支払い</h4>
+						<p class="card s">自費診療に限り各種クレジットカードをご利用いただけます。クレジットカードの規約に準じ、分割払いやボーナス一括払いも承っております。</p>
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/creditcard-mark.png" class="creditcard-mark">
+					</div>
+					<div class="right">
+						<h4 class="head m">デンタルローンによるお支払い</h4>
+						<p class="credit s">
+							デンタルローンとは、歯科治療専用のローンのことです。<br>
+							保険の効かない、矯正治療や審美治療、インプラント、義歯など自費の治療費を分割払いでご負担なく支払うことが可能です。<br>
+							ご都合に合わせて分割回数や月々の支払額も設定できるうえ、面倒な審査もスマホやPCから簡単に行えます。<br>
+							なお、デンタルローンを利用した場合でも、医療費控除の申請ができますので、ご安心ください。<br>
+							当院では新生銀行グループアプラスのデンタルローンを取り扱っています。</p>
+						<a href="http://www.aplus.co.jp/go/d/" target="_blank" class="credit-anchor s">デンタルローンのお申し込みはこちらへ</a>
+						<a href="http://www.chinaleadershiptransition.com/アプラスデンタルローン/" target="_blank" class="credit-anchor s">デンタルローンについてはこちらへ</a>
+					</div>						
 				</div>
-				<div class="right">
-					<h4 class="head m">デンタルローンによるお支払い</h4>
-					<p class="credit s">
-						デンタルローンとは、歯科治療専用のローンのことです。<br>
-						保険の効かない、矯正治療や審美治療、インプラント、義歯など自費の治療費を分割払いでご負担なく支払うことが可能です。<br>
-						ご都合に合わせて分割回数や月々の支払額も設定できるうえ、面倒な審査もスマホやPCから簡単に行えます。<br>
-						なお、デンタルローンを利用した場合でも、医療費控除の申請ができますので、ご安心ください。<br>
-						当院では新生銀行グループアプラスのデンタルローンを取り扱っています。</p>
-					<a href="http://www.aplus.co.jp/go/d/" target="_blank" class="credit-anchor s">デンタルローンのお申し込みはこちらへ</a>
-					<a href="http://www.chinaleadershiptransition.com/アプラスデンタルローン/" target="_blank" class="credit-anchor s">デンタルローンについてはこちらへ</a>
-				</div>						
 			</div>
 			<div class="alignment-price">
 				<h5 class="head l4">矯正治療費<span class="s">価格はすべて税込です</span></h5>

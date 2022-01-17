@@ -22,7 +22,7 @@
 .pc-only3 {
   display: inline-block;
 
-  @include mq() {
+  @include mq(sm3) {
     display: none !important;
   }
 }
@@ -49,6 +49,15 @@
     display: block !important;
   }
 }
+
+.sp-only3 {
+  display: none !important;
+
+  @include mq(sm3) {
+    display: block !important;
+  }
+}
+
 
 .sp-onlyt {
   display: none !important;

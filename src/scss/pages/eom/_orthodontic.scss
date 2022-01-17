@@ -1,0 +1,293 @@
+@charset "UTF-8";
+
+
+/* ==========================================================
+	orthodontic-page
+========================================================== */
+
+/* outline */
+.orthodontic .cure2-outline-section {
+	max-width: 1000px;
+	padding: 100px 20px 0;
+}
+.orthodontic .cure2-outline-section h2.head {
+	text-align: center;
+	font-weight: 100;
+	letter-spacing: 0.5rem;
+	text-indent: 0.5rem;	
+	margin-bottom: 50px;	
+}
+.orthodontic .cure2-outline-section h2.head br {
+	display: none;
+}
+.orthodontic .cure2-outline-section h3.head {
+	text-align: center;
+	font-weight: 100;
+	letter-spacing: 0.2rem;
+	text-indent: 0.2rem;	
+	margin-bottom: 50px;
+	line-height: 150%;	
+}
+.orthodontic .cure2-outline-section p.intro {
+	margin: 0 auto;
+	letter-spacing: 0.2rem;
+	font-weight: 200;
+	line-height: 200%;
+	text-align: center;	
+}
+.orthodontic .cure2-outline-section .comment {
+	margin: 30px auto 0;
+	letter-spacing: 0.2rem;
+	font-weight: 200;
+	line-height: 200%;
+	text-align: center;		
+}
+.orthodontic .cure2-outline-section .comment ul {
+	margin: 30px auto;
+	letter-spacing: 0.2rem;
+	font-weight: 400;
+	line-height: 200%;
+	text-align: center;	
+}
+.orthodontic .cure2-outline-section .adaptation {
+	max-width: 600px;
+	margin: 50px auto;
+	text-align: left;
+}
+.orthodontic .cure2-outline-section .adaptation .head {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+.orthodontic .cure2-outline-section .adaptation .intro {
+	text-align: left;
+	line-height: 180%;	
+}
+.orthodontic .cure2-outline-section .center {
+	width: 400px;
+	margin: 0 auto;
+}
+
+/* orthodontic */
+.orthodontic .cure2-orthodontic-section {
+	max-width: 1000px;
+	margin: 100px auto 0;
+	overflow: hidden;	
+}
+.orthodontic .cure2-orthodontic-section .left {
+	width: 50%;
+	float: left;
+	overflow: hidden;	
+}
+.orthodontic .cure2-orthodontic-section .right {
+	width: 400px;
+	float: right;
+}
+.orthodontic .cure2-orthodontic-section .right img {
+	display: block;
+	height: 400px;
+	margin-left: 0;	
+}
+.orthodontic .cure2-orthodontic-section h3.head {
+	font-weight: 200;
+	margin-bottom: 30px;	
+}
+.orthodontic .cure2-orthodontic-section　p.intro {
+	font-weight: 200;
+	margin-bottom: 30px;
+	line-height: 150%;
+}
+.orthodontic .cure2-orthodontic-section p.orthodontic {
+	font-weight: 200;
+	margin-bottom: 30px;
+	line-height: 180%;	
+}
+.orthodontic .cure2-orthodontic-section p.orthodontic.center {
+	font-weight: 200;
+	margin-bottom: 30px;
+	line-height: 180%;
+	text-align: center;	
+}
+.orthodontic .cure2-orthodontic-section p.orthodontic.center a {
+	color: #08c;
+}
+.orthodontic .cure2-orthodontic-section p.orthodontic.center a:hover {
+	color: #08c;
+	text-decoration: underline;
+}
+.orthodontic .cure2-orthodontic-section .adaptation {
+	margin: 50px auto;
+	text-align: left;	
+}
+.orthodontic .cure2-orthodontic-section .adaptation p.head {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;	
+}
+.orthodontic .cure2-orthodontic-section .adaptation p.intro {
+	text-align: left;
+	line-height: 180%;
+	font-weight: 300;	
+}
+.orthodontic .cure2-orthodontic-section p.blogbanner a{
+	text-align: center;
+	padding: 10px 50px;
+	margin: 100px auto;
+	background-color: #d0bfa6;
+	display: block;
+	color: #fff;
+	width: 400px;
+	border-radius: 50px;
+	font-weight: 400;
+}
+
+/* mouthpiece */
+.orthodontic .cure2-mouthpiece-section {
+	max-width: 1000px;
+	margin: 100px auto 100px;
+	overflow: hidden;
+	padding: 0 20px;
+}
+.orthodontic .cure2-mouthpiece-section .center {
+	text-align: left;
+	clear: both;
+}
+.orthodontic .cure2-mouthpiece-section .center .recom {
+	max-width: 800px;
+	background-color: rgba(210,190,165,0.2);
+	padding: 30px;
+	margin: 50px auto;
+	color:#a5967d;
+	line-height: 150%;
+	font-weight: 500;
+}
+.orthodontic .cure2-mouthpiece-section .center .recom .title {
+	color: #a5967d;
+	margin: 20px 0 30px;
+	text-align: center;
+	font-weight: 700;
+}
+.orthodontic .cure2-mouthpiece-section .left {
+	width: 50%;
+	float: left;
+}
+.orthodontic .cure2-mouthpiece-section .left img {
+	width: 400px;
+	margin-left: 0;
+	display: block;
+}	
+.orthodontic .cure2-mouthpiece-section .right {
+	width: 400px;
+	float: right;
+}
+.orthodontic .cure2-mouthpiece-section .right img {
+	width: 400px;
+	display: block;
+	margin-left: 0;
+}
+.orthodontic .cure2-mouthpiece-section h3.head {
+	font-weight: 200;
+	margin-bottom: 30px;	
+}
+.orthodontic .cure2-mouthpiece-section p.intro {
+	font-weight: 200;
+	margin-bottom: 30px;
+	line-height: 180%;	
+}
+.orthodontic .cure2-mouthpiece-section h4.sub-head {
+	font-weight: 400;
+	margin-bottom: 10px;
+	line-height: 150%;
+}
+.orthodontic .cure2-mouthpiece-section p.mouthpiece {
+	font-weight: 200;
+	line-height: 180%;
+	margin-bottom: 20px;	
+}
+.orthodontic .cure2-mouthpiece-section p.mouthpiece a {
+	font-weight: 400;	
+	color: #08c;
+}
+.orthodontic .cure2-mouthpiece-section p.mouthpiece a:hover {
+	color: #08c;
+	text-decoration: underline;		
+}
+.orthodontic .orthodontic-btn {
+	text-align: center;
+	margin-bottom: 150px;
+}
+.orthodontic .orthodontic-btn a {
+	letter-spacing: 0.2rem;
+	color: #08c;
+}
+.orthodontic .orthodontic-btn a:hover {
+	color: #08c;
+	text-decoration: underline;	
+}
+
+/* ceramic */
+.orthodontic .cure2-ceramic-orthodontic-section {
+	max-width: 1000px;
+	margin: 100px auto;
+	overflow: hidden;	
+}
+.orthodontic .cure2-ceramic-orthodontic-section .left {
+	width: 400px;
+	float: left;
+	overflow: hidden;
+}
+.orthodontic .cure2-ceramic-orthodontic-section .right {
+	width: 50%;
+	float: right;
+}	
+.orthodontic .cure2-ceramic-orthodontic-section .left img {
+	width: 400px;
+	display: block;
+	height: 400px;
+	margin-left: 0;
+}
+.orthodontic .cure2-ceramic-orthodontic-section h3.head {
+	font-weight: 200;
+	margin-bottom: 30px;	
+}
+.orthodontic .cure2-ceramic-orthodontic-section p.ceramic {
+	font-weight: 200;
+	margin-bottom: 30px;
+	line-height: 150%;
+}
+.orthodontic .cure2-ceramic-orthodontic-section p.orthodontic.center a {
+	color: #08c;	
+}
+.orthodontic .cure2-ceramic-orthodontic-section p.orthodontic.center a:hover {
+	color: #08c;
+	text-decoration: underline;
+}
+
+/* merit */
+.orthodontic .cure2-orthodontic-section.merit {
+	max-width: 1000px;
+	font-weight: 200;
+	margin: 0 auto;
+}
+.orthodontic .cure2-orthodontic-section.merit .center ul li {
+	line-height: 180%;
+	margin-bottom: 30px;
+}
+.orthodontic .cure2-orthodontic-section.merit .center ul li span {
+	display: block;
+	font-weight: 500;
+}
+
+/* comment */
+.orthodontic .cure2-orthodontic-section.comment {
+	background-color: #efefef;
+	padding: 20px;
+	font-weight: 200;
+	margin-bottom: 50px;	
+}
+.orthodontic .cure2-orthodontic-section.comment .center .note {
+	line-height: 180%;
+}
+
+
+
