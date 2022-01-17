@@ -45,8 +45,8 @@
 </section>
 
 
-<!-- shinbi-content -->
-<section class="crown-content">
+<!-- crown-bridge-inray-content -->
+<section class="content">
 
     	<!-- outline -->
 		<section class="cure1-outline-section">

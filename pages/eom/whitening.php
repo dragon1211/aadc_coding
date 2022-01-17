@@ -45,8 +45,8 @@
 </section>
 
 
-<!-- shinbi-content -->
-<section class="whitening-content">
+<!-- whitening-content -->
+<section class="content">
 
 	
 		<!-- outline -->

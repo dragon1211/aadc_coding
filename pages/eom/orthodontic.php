@@ -45,8 +45,8 @@
 </section>
 
 
-<!-- shinbi-content -->
-<section class="orthodontic-content">
+<!-- orthodontic-content -->
+<section class="content">
 
 		<!-- outline -->
 		<section class="cure2-outline-section">

@@ -45,8 +45,8 @@
 </section>
 
 
-<!-- shinbi-content -->
-<section class="extraction-content">
+<!-- non-extraction-content -->
+<section class="content">
 
     	<!-- outline -->
 		<section class="cure2-outline-section" id="outline">

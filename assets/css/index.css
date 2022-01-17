@@ -10502,7 +10502,7 @@ Copyright (c) 2013 Daniel Eden
   /* comment */
 }
 
-.orthodontic-content {
+.orthodontic .content {
   margin-bottom: 100px;
 }
 
@@ -11039,10 +11039,6 @@ Copyright (c) 2013 Daniel Eden
   .shinbi-teeth__section {
     padding: 70px 0 50px 0;
   }
-}
-
-.crown-content {
-  margin-bottom: 100px;
 }
 
 /* ==========================================================
@@ -12005,7 +12001,7 @@ ul.cost_ex li span {
     width: 100%;
   }
   .cure1-snapon-section .left {
-    max-width: 250px;
+    max-width: 400px;
     margin-bottom: 20px;
   }
   .cure1-snapon-section .list br {

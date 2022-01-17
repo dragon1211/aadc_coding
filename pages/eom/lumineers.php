@@ -45,8 +45,8 @@
 </section>
 
 
-<!-- shinbi-content -->
-<section class="lumineers-content">
+<!-- lumineers-content -->
+<section class="content">
 
 		<section class="cure1-outline-section">
 			<h2 class="head f36">白く輝く美しい前歯でハリウッドスマイルを</h2>

@@ -40,8 +40,8 @@
 </section>
 
 
-<!-- shinbi-content -->
-<section class="invisalign-content">
+<!-- invisalign-content -->
+<section class="content">
 	
 		
 		<section class="cure2-outline-section">
