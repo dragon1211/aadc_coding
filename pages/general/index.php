@@ -8,15 +8,9 @@
         </div>
     </section>
 
-    <section class="doctor-header">
-        <h1 class="doctor-header__caption">Doctor</h1>
-    </section>
-
-
-
 
     <!-- general-section -->
-    <section class="conte4nt">
+    <section class="content">
 
             <section class="cure3-general-section" id="outline">
                 <h2 class="head f36">一般歯科</h2>
@@ -68,7 +62,7 @@
             </section>
 
             <section class="cure3-prevention-section" id="general5">
-                <h2 class="head f36">予防歯科・メンテナンス</h2>
+                <h2 class="head f36">予防歯科<br class="sp-onlyt"><span class="pc-onlyt-inline">・</span>メンテナンス</h2>
                 <h3 class="head f28">虫歯や歯周病のない健康なお口を維持するために<br>白くきれいな歯を長持ちさせるために</h3>
                 <p class="intro f18">
                     当院では、治療が終了した後も継続したメンテナンスをおすすめしています。<br>
@@ -76,7 +70,7 @@
                     特に、審美治療やインプラントは、アフターケアが重要です。<br>
                     口の中の環境は日々変化しますから、定期的に噛み合わせの調整や歯周病予防をすることが「長く持たせる」秘訣なのです。
                 </p>
-                <a href="" class="cleaning-anchor f16">詳しくはクリーニング・ホワイトニングのページをご覧ください</a>
+                <a href="" class="cleaning-anchor f16">詳しくはクリーニング・ホワイトニングの<br class="sp-onlyt">ページをご覧ください</a>
             </section>
 
     </section>
@@ -93,8 +87,7 @@
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/icon-logo-red.png" alt="logo">
                     </a>
                 </li>
-                <li><a href="<?php echo home_url(); ?>/about">当院について</a></li>
-                <li>ドクター紹介</li>
+                <li>一般歯科</li>
             </ul>
         </div>
     </section>

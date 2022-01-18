@@ -59,10 +59,11 @@
 		a{
 			font-size: 1rem;
 		}
+		.nav-main a{font-size: 1.4rem;}
 		li{padding: 0 5px;}
 	}
 
-	@media (max-width: 374px){
+	@include mq(sm3){
 		ul:not(.nav-main){
 			display: none;
 		}

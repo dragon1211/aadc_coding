@@ -5597,13 +5597,14 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .general .cure3-general-section {
-  max-width: 1000px;
+  max-width: 1040px;
   padding: 100px 20px 0;
+  margin: auto;
 }
 
 .general .cure3-general-section h2.head {
   text-align: center;
-  font-weight: 100;
+  font-weight: 300;
   letter-spacing: 0.5rem;
   text-indent: 0.5rem;
   margin-bottom: 50px;
@@ -5619,7 +5620,7 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .general .cure3-general-treatment-section {
-  max-width: 1000px;
+  max-width: 1040px;
   margin: 50px auto 150px;
   padding: 0 20px;
 }
@@ -5655,7 +5656,7 @@ Copyright (c) 2013 Daniel Eden
 
 .general .cure3-painless-section h2.head {
   text-align: center;
-  font-weight: 100;
+  font-weight: 300;
   letter-spacing: 0.5rem;
   text-indent: 0.5rem;
   margin-bottom: 50px;
@@ -5673,11 +5674,12 @@ Copyright (c) 2013 Daniel Eden
 .general .cure3-prevention-section {
   max-width: 100%;
   padding: 100px 20px;
+  margin-bottom: 100px;
 }
 
 .general .cure3-prevention-section h2.head {
   text-align: center;
-  font-weight: 100;
+  font-weight: 300;
   letter-spacing: 0.5rem;
   text-indent: 0.5rem;
   margin-bottom: 50px;
@@ -5685,7 +5687,7 @@ Copyright (c) 2013 Daniel Eden
 
 .general .cure3-prevention-section h3.head {
   text-align: center;
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 0.2rem;
   text-indent: 0.2rem;
   line-height: 150%;
@@ -5712,6 +5714,47 @@ Copyright (c) 2013 Daniel Eden
 
 .general .cure3-prevention-section a.cleaning-anchor:hover {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 576px) {
+  .general .cure3-general-section {
+    padding-top: 50px;
+  }
+  .general .cure3-general-treatment-section {
+    margin-bottom: 50px;
+  }
+  .general .cure3-general-treatment-section .box-wrap:first-child {
+    margin-bottom: 30px;
+  }
+  .general .cure3-general-treatment-section .box-wrap:last-child {
+    margin-bottom: 0;
+  }
+  .general .cure3-general-treatment-section .general-box {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+  .general .cure3-general-treatment-section .general-box:first-child {
+    margin-bottom: 30px;
+  }
+  .general .cure3-painless-section,
+  .general .cure3-prevention-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .general .cure3-painless-section h3.head br,
+  .general .cure3-prevention-section h3.head br {
+    display: none;
+  }
+  .general .cure3-painless-section p.intro,
+  .general .cure3-prevention-section p.intro {
+    margin-bottom: 0 !important;
+    text-align: left;
+  }
+  .general .cure3-painless-section p.intro br,
+  .general .cure3-prevention-section p.intro br {
+    display: none;
+  }
 }
 
 .home-notice {
@@ -5802,12 +5845,15 @@ Copyright (c) 2013 Daniel Eden
   .home-notice a {
     font-size: 1rem;
   }
+  .home-notice .nav-main a {
+    font-size: 1.4rem;
+  }
   .home-notice li {
     padding: 0 5px;
   }
 }
 
-@media (max-width: 374px) {
+@media screen and (max-width: 389px) {
   .home-notice ul:not(.nav-main) {
     display: none;
   }
