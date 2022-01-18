@@ -34,7 +34,7 @@
 <section class="eom-heading__content">
     <div class="eom-heading">
         <h2 class="eom-heading__caption">
-            <span class="jp">インビザライン<br class="sp-only2"><span class="pc-only2" style="display:inline">・</span>マウスピース矯正</span>
+            <span class="jp">すきっ歯専門治療</span>
         </h2>
     </div>
 </section>
@@ -50,7 +50,7 @@
 				当院では、その方それぞれの前歯のすき間、“すきっ歯”を治すためにベストな方法で行えるよう、前歯のすき間の度合いや奥歯の噛み合わせや
 				舌癖なども含めて診断をし、ご希望に合った最良の治療法をご提案させて頂いております。
 			</p>
-			<h2 class="head f34">前歯のすき間を治す方法</h2>
+			<h2 class="head f34">前歯のすき間を<br class="sp-onlyt">治す方法</h2>
 			<h3 class="head f24">矯正治療</h3>
 			<p class="detail f16">すきっ歯治療方法で、もっとも多く行われるのが矯正治療です。<br>
 				矯正治療で治す場合、気になる前歯だけを直す部分矯正か、奥歯の噛み合わせも含めて行う全体矯正になるかを診断する必要があります。
@@ -73,7 +73,7 @@
 					<div class="left">
 						<p class="head f18">上の歯のすき間</p>
 						<p class="comment f14">下の前歯が前に出っ張っていないこと<br>下の前歯が上の前歯の先端や裏側に噛んで当たっていないこと</p>
-						<img src="<?php bloginfo('template_directory'); ?>/assets/images/cure2-gap-case1.png">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/cure2-gap-case1.png">
 						<table class="f13">
 							<tr>
 								<th>治療方法</th>
@@ -92,7 +92,7 @@
 					<div class="right">
 						<p class="head f18">下の歯のすき間</p>
 						<p class="comment f14">下のすき間の場合は、上の前歯の噛み合わせの影響を受けにくく部分矯正を行える場合が多いです。ただし、元々歯の数が足りない、隙間がある部位、量によっては、矯正で隙間が埋まりきらないこともあります。</p>
-						<img src="<?php bloginfo('template_directory'); ?>/assets/images/cure2-gap-case2.png">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/cure2-gap-case2.png">
 						<table class="f13">
 							<tr>
 								<th>治療方法</th>
@@ -121,8 +121,11 @@
 		
 		
 		<section class="gap-type-section" id="outline">
-			<h3 class="head f28">前歯のすき間を治す治療の矯正装置の種類</h3>
+			<h3 class="head f28">前歯のすき間を治す治療の<br class="sp-onlyt">矯正装置の種類</h3>
 			<div class="wrap f16">
+				<div class="right">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/cure2-gap-type1.png">
+				</div>
 				<div class="left">
 					<h4 class="f20">ワイヤー矯正</h4>
 					<p class="comment">当院では、ワイヤー矯正治療の場合は表側に装置をつける表側矯正で行っています。<br>
@@ -131,13 +134,10 @@
 					人からは見えてしまうことや食事の際に物が詰まりやすいなどのデメリットもあります。
 					</p>
 				</div>
-				<div class="right">
-					<img src="<?php bloginfo('template_directory'); ?>/assets/images/cure2-gap-type1.png">
-				</div>
 			</div>
 			<div class="wrap f16">
 				<div class="left">
-					<img src="<?php bloginfo('template_directory'); ?>/assets/images/cure2-gap-type2.png">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/cure2-gap-type2.png">
 				</div>
 				<div class="right">
 					<h4 class="f20">マウスピース矯正</h4>
@@ -163,10 +163,10 @@
 					</ul>
 				</div>
 				<div class="right">
-					<img src="<?php bloginfo('template_directory'); ?>/assets/images/cure2-gap-mouthpiece.png">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/cure2-gap-mouthpiece.png">
 				</div>
 			</div>
-			<p class="end f20">当院では、矯正方法や装置の選択についてを患者様のご希望を優先にし、すきっ歯の度合いや歯並びの状態によって最適な方法をご提案しています。矯正治療の結果を最良にすることを優先に、費用や期間、それぞれの装置のメリットデメリットなども考慮して患者様とお話して決定しています。</p>
+			<p class="end f18">当院では、矯正方法や装置の選択についてを患者様のご希望を優先にし、すきっ歯の度合いや歯並びの状態によって最適な方法をご提案しています。矯正治療の結果を最良にすることを優先に、費用や期間、それぞれの装置のメリットデメリットなども考慮して患者様とお話して決定しています。</p>
 		</section>
 
 		
@@ -190,24 +190,24 @@
 						しかし、下の前歯との噛み合わせの状態によっては、割れてしまうこともあるので、できるケースは限られます。<br>
 						麻酔をし、歯の表面を０.５ミリほど削って、その上にセラミックのシェル（付け爪みたいな形）を貼ってすき間を埋め、治します。
 					</p>
-					<table class="f13">
-						<tr>
-							<th>治療方法</th>
-							<th>治療期間</th>
-							<th>治療費用</th>
-							<th>治療のリスク<br>副作用</th>
-						</tr>
-						<tr>
-							<td>ラミネートベニア法</td>
-							<td>１ヶ月半</td>
-							<td>￥585,200（税込）<br>※ラミネートベニア￥143,000（税込）×４本 と仮歯代を含む</td>
-							<td>歯を削る必要がある<br>歯ぎしりなどの強い力がかかると取れることがある</td>
-						</tr>
-					</table>
 				</div>
 				<div class="right">
-					<img src="<?php bloginfo('template_directory'); ?>/assets/images/cure2-gap-method1.png">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/cure2-gap-method1.png">
 				</div>
+				<table class="f13">
+					<tr>
+						<th>治療方法</th>
+						<th>治療期間</th>
+						<th>治療費用</th>
+						<th>治療のリスク<br>副作用</th>
+					</tr>
+					<tr>
+						<td>ラミネートベニア法</td>
+						<td>１ヶ月半</td>
+						<td>￥585,200（税込）<br>※ラミネートベニア￥143,000（税込）×４本 と仮歯代を含む</td>
+						<td>歯を削る必要がある<br>歯ぎしりなどの強い力がかかると取れることがある</td>
+					</tr>
+				</table>
 				
 			</div>
 			<div class="wrap-merit f14">
@@ -231,9 +231,6 @@
 			</div>
 			<p class="end f18">比較的、すきっ歯治療でのセラミック法として第一選択になるのがラミネートベニア法です。ナチュラルで天然歯のような自然な仕上がりになり、かつ歯を削る量も少なく、リスクが最小限に抑えられるのが利点です。</p>
 			<div class="wrap f16">
-				<div class="left">
-					<img src="<?php bloginfo('template_directory'); ?>/assets/images/cure2-gap-method2.png">
-				</div>
 				<div class="right">
 					<h4 class="f20">セラミッククラウン法</h4>
 					<p class="comment">歯のすき間の量が多い場合や、すき間があって出っ歯の度合いも大きい場合、
@@ -245,6 +242,9 @@
 						どの材質のクラウンで行うかを、一人一人の歯の状態によって選びます。<br>
 						クラウンで治す場合には、比較的すき間が広く、歯の形そのものを大きく変える必要があるケースに適しています。
 					</p>
+				</div>
+				<div class="left">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/cure2-gap-method2.png">
 				</div>
 				<table class="f13">
 						<tr>
@@ -288,7 +288,7 @@
 		
 		
 		<section class="gap-composite-section" id="outline">
-			<h3 class="head f24">コンポジットレジン法（ダイレクトボンディング法）</h3>
+			<h3 class="head f24">コンポジットレジン法<br class="sp-onlyt">（ダイレクトボンディング法）</h3>
 			<p class="detail f16">矯正治療やセラミック治療法のように、高額な費用がかからず、即日で終わり、最も低侵襲な方法です。綺麗にはしたいけれど、予算的に矯正や審美的な治療は今すぐには難しいが、一時的にでもすき間を埋めたい、審美治療を受ける前に低料金で隙間の埋まった状態を見てみたいなどのトライアルとしても行うことができます。
 			</p>
 			<div class="wrap f16">
@@ -302,7 +302,7 @@
 					</p>
 				</div>
 				<div class="right">
-					<img src="<?php bloginfo('template_directory'); ?>/assets/images/cure2-gap-composite1.png">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/cure2-gap-composite1.png">
 				</div>
 				<table class="f13">
 					<tr>
@@ -341,7 +341,7 @@
 		
 		
 		<section class="gap-care-section">
-			<p class="bold f22">当院では、前歯のすき間治療終了後もその状態を維持して頂けるようアフターケアに努めています</p>
+			<p class="bold f22">当院では、前歯のすき間治療終了後もその<br>状態を維持して頂けるようアフターケアに努めています</p>
 			<ul class="f16">
 				<li>矯正治療後は保定装置を装着して頂くことをお願いしております。<br>治療終了後の後戻りを防ぐために、
 					歯の裏側に細いワイヤーで固定したり、マウスピースの保定装置を作成しています。一定期間装着し、その後は定期的なメンテナンスを行っております。</li>
@@ -354,8 +354,8 @@
 		<section class="gap-blog-section">
 			<p class="bold f22">すきっ歯関連のブログ記事</p>
 			<ul class="f16">
-				<li><a href="https://www.a-a-d-c.com/aadcblog/alignment/4263/">すきっ歯さんの治療方法いろいろ</a></li>
-				<li><a href="https://www.a-a-d-c.com/aadcblog/alignment/5100/">前歯のすき間の治療法　すきっ歯を治す方法とは？</a></li>
+				<li><a href="<?php echo home_url(); ?>/aadcblog/alignment/4263/">すきっ歯さんの治療方法いろいろ</a></li>
+				<li><a href="<?php echo home_url(); ?>/aadcblog/alignment/5100/">前歯のすき間の治療法　すきっ歯を治す方法とは？</a></li>
 			</ul>
 		</section>
 

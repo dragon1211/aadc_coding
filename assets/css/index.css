@@ -148,7 +148,7 @@ body {
   display: inline-block;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 389px) {
   .pc-only3 {
     display: none !important;
   }
@@ -198,7 +198,7 @@ body {
   display: none !important;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 389px) {
   .sp-only3 {
     display: block !important;
   }
@@ -228,7 +228,7 @@ body {
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 389px) {
   .container {
     padding: 0 15px;
   }
@@ -5241,7 +5241,7 @@ Copyright (c) 2013 Daniel Eden
   color: #333333;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 389px) {
   .sub-nav__menu {
     font-size: 13px;
   }
@@ -6901,7 +6901,7 @@ Copyright (c) 2013 Daniel Eden
   margin: auto;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 389px) {
   .about-container {
     padding: 0 15px;
   }
@@ -7235,24 +7235,24 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
-.doctor-container {
+.doctor .doctor-container {
   max-width: 1040px;
   padding: 0 20px;
   margin: auto;
 }
 
-@media screen and (max-width: 390px) {
-  .doctor-container {
+@media screen and (max-width: 389px) {
+  .doctor .doctor-container {
     padding: 0 15px;
   }
 }
 
-.doctor-header {
+.doctor .doctor-header {
   height: 220px;
   position: relative;
 }
 
-.doctor-header__caption {
+.doctor .doctor-header__caption {
   font-size: 3rem;
   text-align: center;
   font-weight: bold;
@@ -7263,61 +7263,61 @@ Copyright (c) 2013 Daniel Eden
           transform: translate(-50%, -50%);
 }
 
-.doctor-content {
+.doctor .doctor-content {
   margin-bottom: 200px;
 }
 
-.doctor {
+.doctor .doctor-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 80px;
 }
 
-.doctor-photo {
+.doctor .doctor-info .doctor-photo {
   max-width: 200px;
   width: 100%;
   margin-right: 70px;
 }
 
-.doctor-photo img {
+.doctor .doctor-info .doctor-photo img {
   border-top: 2px solid #C84520;
 }
 
-.doctor-profile {
+.doctor .doctor-info .doctor-profile {
   line-height: 1.8;
   font-weight: 300;
   font-size: 1.5rem;
 }
 
-.doctor-profile .name {
+.doctor .doctor-info .doctor-profile .name {
   font-size: 1.8rem;
   font-weight: bold;
 }
 
-.doctor-profile .name span {
+.doctor .doctor-info .doctor-profile .name span {
   font-size: 1.4rem;
   font-weight: normal;
 }
 
-.doctor-profile .bio {
+.doctor .doctor-info .doctor-profile .bio {
   margin: 40px 0;
   padding: 0;
 }
 
-.doctor-profile .bio a {
+.doctor .doctor-info .doctor-profile .bio a {
   color: #1F96D2;
 }
 
-.doctor-profile .bio a:hover {
+.doctor .doctor-info .doctor-profile .bio a:hover {
   color: #1b7eaf;
 }
 
-.doctor-profile .profile-head {
+.doctor .doctor-info .doctor-profile .profile-head {
   font-weight: 500;
 }
 
-.doctor-profile .qualification {
+.doctor .doctor-info .doctor-profile .qualification {
   margin: 10px 0 60px 0;
   padding: 0;
   display: -webkit-box;
@@ -7328,14 +7328,14 @@ Copyright (c) 2013 Daniel Eden
   line-height: 1.6;
 }
 
-.doctor-profile .qualification li {
+.doctor .doctor-info .doctor-profile .qualification li {
   background-color: #D2BEA5;
   padding: 5px 10px;
   color: white;
   margin: 0px 10px 10px 0;
 }
 
-.doctor-profile .activity {
+.doctor .doctor-info .doctor-profile .activity {
   margin-top: 10px;
   padding: 5px 25px;
   line-height: 1.6;
@@ -7343,66 +7343,66 @@ Copyright (c) 2013 Daniel Eden
   color: #333333;
 }
 
-.doctor-profile .activity span {
+.doctor .doctor-info .doctor-profile .activity span {
   display: block;
 }
 
-.doctor-profile .message {
+.doctor .doctor-info .doctor-profile .message {
   margin-top: 10px;
 }
 
 @media screen and (max-width: 1050px) {
-  .doctor-photo {
+  .doctor .doctor-info .doctor-photo {
     margin-right: 20px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .doctor {
+  .doctor .doctor-info {
     display: block;
   }
-  .doctor-photo {
+  .doctor .doctor-info .doctor-photo {
     float: right;
     margin-right: 0;
     margin-left: 20px;
   }
-  .doctor-header {
+  .doctor .doctor-info .doctor-header {
     height: 150px;
   }
-  .doctor-content {
+  .doctor .doctor-info .doctor-content {
     margin-bottom: 50px;
   }
 }
 
 @media screen and (max-width: 576px) {
-  .doctor-header {
+  .doctor .doctor-info .doctor-header {
     height: 100px;
   }
-  .doctor-header__caption {
+  .doctor .doctor-info .doctor-header__caption {
     font-size: 2.5rem;
   }
-  .doctor-photo {
+  .doctor .doctor-info .doctor-photo {
     max-width: 100%;
     float: none;
     text-align: center;
     margin: 0 0 20px 0;
   }
-  .doctor-photo img {
+  .doctor .doctor-info .doctor-photo img {
     max-width: 150px;
     width: 100%;
     margin: auto;
   }
-  .doctor-profile .bio {
+  .doctor .doctor-info .doctor-profile .bio {
     margin: 20px 0;
   }
-  .doctor-profile .qualification {
+  .doctor .doctor-info .doctor-profile .qualification {
     font-size: 1.4rem;
     margin: 5px 0 30px 0;
   }
-  .doctor-profile .qualification li {
+  .doctor .doctor-info .doctor-profile .qualification li {
     margin: 0 5px 5px 0;
   }
-  .doctor-profile .activity {
+  .doctor .doctor-info .doctor-profile .activity {
     font-size: 1.4rem;
     padding: 5px 10px;
     margin-top: 5px;
@@ -7415,7 +7415,7 @@ Copyright (c) 2013 Daniel Eden
   margin: auto;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 389px) {
   .news-container {
     padding: 0 15px;
   }
@@ -7971,7 +7971,7 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 389px) {
   .eom-nav__first {
     font-size: 3.84615vw;
   }
@@ -7993,7 +7993,7 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .eom-heading__caption span.jp {
-  font-size: 3.6rem;
+  font-size: 3.0rem;
 }
 
 .eom-heading__caption span.en {
@@ -8005,7 +8005,7 @@ Copyright (c) 2013 Daniel Eden
     padding: 50px 20px;
   }
   .eom-heading span.jp {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
   }
   .eom-heading span.en {
     margin-top: 10px;
@@ -8013,7 +8013,7 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 389px) {
   .eom-heading span.jp {
     font-size: 7.17949vw;
   }
@@ -8095,7 +8095,7 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 389px) {
   .eom-content__mainvisual--caption {
     font-size: 4.61538vw;
   }
@@ -8104,10 +8104,31 @@ Copyright (c) 2013 Daniel Eden
 /* ==========================================================
 	gap-page
 ========================================================== */
-/* outline */
+.gap {
+  /* outline */
+  /* case */
+  /* type */
+  /* ceramic */
+  /* method */
+  /* composite */
+  /* care */
+  /* blog */
+}
+
+.gap .content img {
+  border-radius: 30px;
+  -webkit-filter: drop-shadow(3px 3px 3px gray);
+          filter: drop-shadow(3px 3px 3px gray);
+}
+
+.gap .content .left, .gap .content .right {
+  padding: 5px;
+}
+
 .gap .cure2-outline-section {
-  max-width: 1000px;
-  padding: 100px 0 0;
+  max-width: 1040px;
+  padding: 100px 20px 0;
+  margin: auto;
 }
 
 .gap .cure2-outline-section h2.head {
@@ -8145,10 +8166,9 @@ Copyright (c) 2013 Daniel Eden
   padding-bottom: 30px;
 }
 
-/* case */
 .gap .gap-case-section {
-  max-width: 1000px;
-  padding: 50px;
+  max-width: 1040px;
+  padding: 50px 20px;
   margin: 0 auto;
 }
 
@@ -8181,22 +8201,28 @@ Copyright (c) 2013 Daniel Eden
 
 .gap .gap-case-section .case .wrap {
   margin-bottom: 50px;
-  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .gap .gap-case-section .case .left {
-  width: 40%;
-  margin: 10px;
-  display: inline-block;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 10px;
 }
 
 .gap .gap-case-section .case .right {
-  width: 40%;
-  margin: 10px;
-  display: inline-block;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 10px;
 }
 
 .gap .gap-case-section .case table {
+  margin-top: 10px;
   letter-spacing: 0;
   border-spacing: 0;
   border-collapse: collapse;
@@ -8225,16 +8251,15 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .gap .gap-case-section .case .comment {
-  height: 100px;
+  min-height: 110px;
   line-height: 150%;
   font-weight: 300;
   text-align: left;
 }
 
-/* type */
 .gap .gap-type-section {
-  max-width: 1000px;
-  padding: 0 0 50px;
+  max-width: 1040px;
+  padding: 0 20px 50px;
   margin: 0 auto;
 }
 
@@ -8253,14 +8278,21 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .gap .gap-type-section .wrap .left {
-  width: 50%;
+  width: 48%;
   float: left;
 }
 
+.gap .gap-type-section .wrap .left img {
+  margin-left: auto;
+}
+
 .gap .gap-type-section .wrap .right {
-  width: 50%;
+  width: 48%;
   float: right;
-  text-align: right;
+}
+
+.gap .gap-type-section .wrap .right img {
+  margin-right: auto;
 }
 
 .gap .gap-type-section .wrap h4 {
@@ -8286,18 +8318,18 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .gap .gap-type-section .wrap-merit .left {
-  width: 60%;
+  width: 48%;
   float: left;
 }
 
 .gap .gap-type-section .wrap-merit .right {
-  width: 40%;
+  width: 48%;
   float: right;
   text-align: right;
 }
 
 .gap .gap-type-section .wrap-merit .right img {
-  width: 85%;
+  margin-right: auto;
 }
 
 .gap .gap-type-section .wrap-merit h4.center {
@@ -8322,15 +8354,15 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .gap .gap-type-section .end {
-  font-weight: 200;
+  font-weight: 400;
   line-height: 200%;
   color: #d53212;
 }
 
-/* ceramic */
 .gap .cure2-ceramic-section {
-  max-width: 1000px;
-  padding: 50px 0 0;
+  max-width: 1040px;
+  padding: 50px 20px 0;
+  margin: auto;
 }
 
 .gap .cure2-ceramic-section h3.head {
@@ -8350,10 +8382,9 @@ Copyright (c) 2013 Daniel Eden
   padding-bottom: 30px;
 }
 
-/* method */
 .gap .gap-method-section {
-  max-width: 1000px;
-  padding: 0 0 50px;
+  max-width: 1040px;
+  padding: 0 20px 50px;
   margin: 0 auto;
 }
 
@@ -8372,17 +8403,27 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .gap .gap-method-section .wrap .left {
-  width: 50%;
+  width: 48%;
   float: left;
 }
 
+.gap .gap-method-section .wrap .left img {
+  margin-left: auto;
+}
+
 .gap .gap-method-section .wrap .right {
-  width: 50%;
+  width: 48%;
   float: right;
   text-align: right;
 }
 
+.gap .gap-method-section .wrap .right img {
+  margin-right: auto;
+}
+
 .gap .gap-method-section .wrap table {
+  float: left;
+  margin-top: 20px;
   clear: both;
   letter-spacing: 0;
   border-spacing: 0;
@@ -8414,6 +8455,16 @@ Copyright (c) 2013 Daniel Eden
   line-height: 150%;
 }
 
+.gap .gap-method-section .wrap h4.under {
+  text-align: justify;
+  font-weight: 300;
+  letter-spacing: 0rem;
+  text-indent: 0.2rem;
+  margin-bottom: 10px;
+  line-height: 150%;
+  text-decoration: underline;
+}
+
 .gap .gap-method-section .wrap .comment {
   text-align: justify;
   font-weight: 200;
@@ -8428,12 +8479,12 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .gap .gap-method-section .wrap-merit .left {
-  width: 45%;
+  width: 48%;
   float: left;
 }
 
 .gap .gap-method-section .wrap-merit .right {
-  width: 45%;
+  width: 48%;
   float: right;
 }
 
@@ -8459,25 +8510,15 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .gap .gap-method-section .end {
-  font-weight: 200;
+  font-weight: 400;
   line-height: 150%;
   color: #d53212;
 }
 
-.gap .gap-method-section .wrap h4.under {
-  text-align: justify;
-  font-weight: 300;
-  letter-spacing: 0rem;
-  text-indent: 0.2rem;
-  margin-bottom: 10px;
-  line-height: 150%;
-  text-decoration: underline;
-}
-
-/* composite */
 .gap .gap-composite-section {
-  max-width: 1000px;
-  margin-bottom: 150px;
+  max-width: 1040px;
+  padding: 0 20px;
+  margin: 0 auto 100px;
 }
 
 .gap .gap-composite-section h3.head {
@@ -8503,17 +8544,27 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .gap .gap-composite-section .wrap .left {
-  width: 50%;
+  width: 48%;
   float: left;
 }
 
+.gap .gap-composite-section .wrap .left img {
+  margin-left: auto;
+}
+
 .gap .gap-composite-section .wrap .right {
-  width: 50%;
+  width: 48%;
   float: right;
   text-align: right;
 }
 
+.gap .gap-composite-section .wrap .right img {
+  margin-right: auto;
+}
+
 .gap .gap-composite-section .wrap table {
+  float: left;
+  margin-top: 20px;
   clear: both;
   letter-spacing: 0;
   border-spacing: 0;
@@ -8559,12 +8610,12 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .gap .gap-composite-section .wrap-merit .left {
-  width: 45%;
+  width: 48%;
   float: left;
 }
 
 .gap .gap-composite-section .wrap-merit .right {
-  width: 45%;
+  width: 48%;
   float: right;
 }
 
@@ -8589,16 +8640,14 @@ Copyright (c) 2013 Daniel Eden
   font-weight: 400;
 }
 
-/* care */
 .gap .gap-care-section {
-  max-width: 1000px;
-  padding: 0 0 100px;
+  max-width: 1040px;
+  padding: 0 20px 100px;
   margin: 0 auto;
 }
 
 .gap .gap-care-section .bold {
   font-weight: 400;
-  line-height: 150%;
   margin-bottom: 30px;
 }
 
@@ -8614,10 +8663,9 @@ Copyright (c) 2013 Daniel Eden
   list-style: disc;
 }
 
-/* blog */
 .gap .gap-blog-section {
-  max-width: 1000px;
-  padding: 0 0 100px;
+  max-width: 1040px;
+  padding: 0 20px 100px;
   margin: 0 auto;
 }
 
@@ -8637,6 +8685,107 @@ Copyright (c) 2013 Daniel Eden
   margin: 10px 20px;
   line-height: 150%;
   list-style: disc;
+}
+
+@media screen and (max-width: 576px) {
+  .gap .cure2-outline-section {
+    padding-top: 50px;
+  }
+  .gap .gap-case-section .case ul li {
+    margin: 10px 0;
+    text-align: left;
+    line-height: 1.7;
+  }
+  .gap .gap-case-section .case ul li br {
+    display: none;
+  }
+  .gap .gap-case-section .case .wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .gap .gap-case-section .case .wrap .left, .gap .gap-case-section .case .wrap .right {
+    margin: 20px 0;
+    padding: 0;
+  }
+  .gap .gap-case-section .case .wrap .left .comment, .gap .gap-case-section .case .wrap .right .comment {
+    min-height: auto;
+    margin: 15px 0;
+  }
+  .gap .gap-case-section .case .wrap .left table, .gap .gap-case-section .case .wrap .right table {
+    margin-top: 15px;
+  }
+  .gap .gap-type-section {
+    padding-bottom: 20px;
+  }
+  .gap .gap-type-section .wrap {
+    margin: 50px 0;
+  }
+  .gap .gap-type-section .wrap .left, .gap .gap-type-section .wrap .right {
+    float: none;
+    width: 100%;
+    margin: 10px 0;
+  }
+  .gap .gap-type-section .wrap .left img, .gap .gap-type-section .wrap .right img {
+    margin: auto;
+  }
+  .gap .gap-type-section .wrap h4 {
+    text-align: center;
+  }
+  .gap .gap-type-section .wrap-merit {
+    margin-top: 50px;
+  }
+  .gap .gap-type-section .wrap-merit .left, .gap .gap-type-section .wrap-merit .right {
+    float: none;
+    width: 100%;
+  }
+  .gap .gap-type-section .wrap-merit .left img, .gap .gap-type-section .wrap-merit .right img {
+    margin: auto;
+  }
+  .gap .gap-method-section .wrap, .gap .gap-method-section .wrap-merit {
+    margin: 20px 0;
+  }
+  .gap .gap-method-section .wrap .left, .gap .gap-method-section .wrap .right, .gap .gap-method-section .wrap-merit .left, .gap .gap-method-section .wrap-merit .right {
+    float: none;
+    width: 100%;
+    margin: 10px 0;
+  }
+  .gap .gap-method-section .wrap .left img, .gap .gap-method-section .wrap .right img, .gap .gap-method-section .wrap-merit .left img, .gap .gap-method-section .wrap-merit .right img {
+    margin: auto;
+  }
+  .gap .gap-method-section .wrap table, .gap .gap-method-section .wrap-merit table {
+    float: none;
+  }
+  .gap .gap-method-section .wrap {
+    margin-top: 50px;
+  }
+  .gap .gap-method-section .end {
+    margin-bottom: 20px;
+  }
+  .gap .gap-composite-section .wrap .left, .gap .gap-composite-section .wrap .right, .gap .gap-composite-section .wrap-merit .left, .gap .gap-composite-section .wrap-merit .right {
+    float: none;
+    width: 100%;
+    margin: 10px 0;
+  }
+  .gap .gap-composite-section .wrap .left img, .gap .gap-composite-section .wrap .right img, .gap .gap-composite-section .wrap-merit .left img, .gap .gap-composite-section .wrap-merit .right img {
+    margin: auto;
+  }
+  .gap .gap-composite-section .wrap table, .gap .gap-composite-section .wrap-merit table {
+    float: none;
+  }
+  .gap .gap-composite-section .wrap {
+    margin: 0;
+  }
+  .gap .gap-composite-section .wrap-merit {
+    margin-top: 20px;
+  }
+  .gap .gap-care-section ul li {
+    margin-right: 0;
+  }
 }
 
 /* ==========================================================

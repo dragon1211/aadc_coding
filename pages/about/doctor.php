@@ -23,7 +23,7 @@
 
         <div class="doctor-container">
 
-            <div class="doctor">
+            <div class="doctor-info">
                 <div class="doctor-photo">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/doctor-ogawa.png" data-xblocker="passed" style="visibility: visible;">
                 </div>
@@ -110,7 +110,7 @@
                 </div>
             </div>
             
-            <div class="doctor">
+            <div class="doctor-info">
                 <div class="doctor-photo">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/doctor-sudo.png" data-xblocker="passed" style="visibility: visible;">
                 </div>
@@ -139,7 +139,7 @@
                 </div>				
             </div>
             
-            <div class="doctor">
+            <div class="doctor-info">
                 <div class="doctor-photo">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/doctor-makihara.png" data-xblocker="passed" style="visibility: visible;">
                 </div>

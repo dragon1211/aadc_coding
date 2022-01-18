@@ -2,6 +2,7 @@
 // =========================================
 // ABOUT Dcctor
 // =========================================
+.doctor{
 
 .doctor-container{
     max-width: 1040px;
@@ -12,11 +13,10 @@
     }
 }
 
-
 // =========================================
 // Doctor Content
 // =========================================
-
+    
 .doctor-header{
     height: 220px;
     position: relative;
@@ -35,10 +35,10 @@
     margin-bottom: 200px;
 }
 
-.doctor{
+.doctor-info{
     display: flex;
     margin-bottom: 80px;
-    &-photo{
+    .doctor-photo{
         max-width: 200px;
         width: 100%;
         margin-right: 70px;
@@ -46,7 +46,7 @@
             border-top: 2px solid $color_main;
         }
     }
-    &-profile{
+    .doctor-profile{
         line-height: 1.8;
         font-weight: 300;
         font-size: 1.5rem;
@@ -100,34 +100,34 @@
     }
 
     @include mq(){
-        &-photo{
+        .doctor-photo{
             margin-right: 20px;
         }
     }
 
     @include mq(sm2){
         display: block;
-        &-photo{
+        .doctor-photo{
             float: right;
             margin-right: 0;
             margin-left: 20px;
         }
-        &-header{
+        .doctor-header{
             height: 150px;
         }
-        &-content{
+        .doctor-content{
             margin-bottom: 50px;
         }
     }
 
     @include mq(smt){
-        &-header{
+        .doctor-header{
             height: 100px;
             &__caption{
                 font-size: 2.5rem;
             }
         }
-        &-photo{
+        .doctor-photo{
             max-width: 100%;
             float: none;
             text-align: center;
@@ -138,7 +138,7 @@
                 margin: auto;
             }
         }
-        &-profile{
+        .doctor-profile{
             .bio{margin: 20px 0;}
             .qualification{
                 font-size: 1.4rem;
@@ -152,4 +152,7 @@
             }
         }
     }
+}
+
+
 }
