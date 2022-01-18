@@ -1,5 +1,15 @@
 $(document).ready(function () {
 
+    
+  // bxSlider
+  $(window).on('load', function() {
+    $('.bxslider').bxSlider({
+      auto:true,
+      responsive : true
+    });
+  })
+
+
   var swiper1 = new Swiper ('.home-news__list .swiper-container', {
 
 		  direction: 'horizontal',
@@ -81,11 +91,6 @@ $(document).ready(function () {
     swiper2.startAutoplay();
   });
 
-
-  // bxSlider
-	$('.bxslider').bxSlider({
-		auto:true,
-		responsive : true
-	});
-
 });
+
+
