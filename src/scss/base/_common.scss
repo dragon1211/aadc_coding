@@ -5,14 +5,20 @@
 
 .pc-only {
   display: block;
-  &-inline{
-    display: inline-block;
-  }
 
   @include mq() {
     display: none !important;
   }
 }
+
+.pc-only-inline {
+  display: inline-block;
+
+  @include mq() {
+    display: none !important;
+  }
+}
+
 
 .pc-only2 {
   display: block;
@@ -22,7 +28,23 @@
   }
 }
 
+.pc-only2-inline {
+  display: inline-block;
+
+  @include mq(sm2) {
+    display: none !important;
+  }
+}
+
 .pc-only3 {
+  display: block;
+
+  @include mq(sm3) {
+    display: none !important;
+  }
+}
+
+.pc-only3-inline {
   display: inline-block;
 
   @include mq(sm3) {
@@ -36,6 +58,14 @@
     display: none !important;
   }
 }
+
+.pc-onlyt-inline{
+  display: inline-block;
+  @include mq(smt) {
+    display: none !important;
+  }
+}
+
 
 .sp-only {
   display: none !important;

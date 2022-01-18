@@ -375,8 +375,8 @@
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/icon-logo-red.png" alt="logo">
                 </a>
             </li>
-            <li><a href="<?php echo home_url(); ?>/eom">エステティック<br class="sp-onlyt">オルソメソッド</a></li>
-            <li>インビザライン<br class="sp-only2"><span class="pc-only2" style="display:inline">・</span>マウスピース矯正</li>
+            <li><a href="<?php echo home_url(); ?>/eom">エステティック<br class="sp-only2">オルソメソッド</a></li>
+            <li>インビザライン<br class="sp-only2"><span class="pc-only2-inline">・</span>マウスピース矯正</li>
         </ul>
     </div>
 </section>
