@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+/* ==========================================================
+	price-page
+========================================================== */
+
+.price{
+
+/* ------------------------------------------------ content */
+
+/* message section */
+.price-section {
+	max-width: 1040px;
+	padding: 100px 20px;
+    margin: auto;
+
+    h3.head {
+        width: 100%;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 50px;
+        letter-spacing: 0.5rem;
+    }
+    table.price {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 50px;
+        letter-spacing: 0.1rem;
+        font-weight: 400;
+        line-height: 200%;
+        caption.head {
+            margin: 0 auto;	
+            padding: 0 75px;
+            text-align: left;
+            letter-spacing: 0.2rem;
+            font-weight: 500;
+        }
+        tr {
+            width: 100%;
+        }
+        tr td {
+            text-align: left;
+            width: 70%;
+            padding: 20px;
+            border-bottom: 1px solid #ccc;	
+        }
+        td.right {
+            text-align: right;
+            width: 30%;
+            padding-right: 37px;	
+        }
+        td.right-dash {
+            text-align: right;
+            width: 30%;
+            margin-right: 20px;
+        }
+    }
+    .tax {
+        margin: 10px auto 100px;
+        padding: 0 50px;	
+        text-align: right;
+    }
+}
+
+
+
+@include mq(smt){
+    .price-section{
+        padding-top: 50px;
+        padding-bottom: 0;
+        table.price{
+            padding: 0;
+            tr td{
+                text-align: left;
+                padding: 10px;
+                border-bottom: 1px solid #ccc;
+                &.right{
+                    text-align: right;
+                    width: 30%;
+                    padding: 10px;
+                }
+            }
+            caption.head{
+                text-align: center;
+                padding: 0;
+            }
+        }
+        .tax{
+            text-align: left;
+            padding: 0;
+        }
+    }
+}
+
+
+}

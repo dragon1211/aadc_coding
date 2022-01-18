@@ -5757,6 +5757,102 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
+/* ==========================================================
+	price-page
+========================================================== */
+.price {
+  /* ------------------------------------------------ content */
+  /* message section */
+}
+
+.price .price-section {
+  max-width: 1040px;
+  padding: 100px 20px;
+  margin: auto;
+}
+
+.price .price-section h3.head {
+  width: 100%;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 50px;
+  letter-spacing: 0.5rem;
+}
+
+.price .price-section table.price {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 50px;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  line-height: 200%;
+}
+
+.price .price-section table.price caption.head {
+  margin: 0 auto;
+  padding: 0 75px;
+  text-align: left;
+  letter-spacing: 0.2rem;
+  font-weight: 500;
+}
+
+.price .price-section table.price tr {
+  width: 100%;
+}
+
+.price .price-section table.price tr td {
+  text-align: left;
+  width: 70%;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.price .price-section table.price td.right {
+  text-align: right;
+  width: 30%;
+  padding-right: 37px;
+}
+
+.price .price-section table.price td.right-dash {
+  text-align: right;
+  width: 30%;
+  margin-right: 20px;
+}
+
+.price .price-section .tax {
+  margin: 10px auto 100px;
+  padding: 0 50px;
+  text-align: right;
+}
+
+@media screen and (max-width: 576px) {
+  .price .price-section {
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
+  .price .price-section table.price {
+    padding: 0;
+  }
+  .price .price-section table.price tr td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  .price .price-section table.price tr td.right {
+    text-align: right;
+    width: 30%;
+    padding: 10px;
+  }
+  .price .price-section table.price caption.head {
+    text-align: center;
+    padding: 0;
+  }
+  .price .price-section .tax {
+    text-align: left;
+    padding: 0;
+  }
+}
+
 .home-notice {
   width: 100%;
   background-color: white;
