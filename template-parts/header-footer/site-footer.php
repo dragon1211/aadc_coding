@@ -24,15 +24,14 @@
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/anti-aging/metal-free" >メタルフリープログラム</a></li>
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/anti-aging/implant" >インプラント</a></li>
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/anti-aging/inspection" >口内老化度検査・体内老化度検査</a></li>
-				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/anti-aging/????????????" >前歯部分矯正</a></li>
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/anti-aging/injection" >点滴療法・注射</a></li>
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/anti-aging/esthetic" >デンタルエステ</a></li>
 
-				<li class="link-list__item title"><a class="item-link" href="<?php echo home_url(); ?>/???????????" >一般診療</a></li>
-				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/cavities" >虫歯治療</a></li>
+				<li class="link-list__item title"><a class="item-link" href="<?php echo home_url(); ?>/general" >一般診療</a></li>
+				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/coronavirus-infomation" >コロナ対策</a></li>
 
 				<li class="link-list__item title"><a class="item-link" href="<?php echo home_url(); ?>/????????????" >インフォメーション・アクセス</a></li>
-				<li class="link-list__item bold"> <a class="item-link" href="<?php echo home_url(); ?>/equipment" >料金表</a></li>
+				<li class="link-list__item bold"> <a class="item-link" href="<?php echo home_url(); ?>/price" >料金表</a></li>
 				<li class="link-list__item bold"> <a class="item-link" href="<?php echo home_url(); ?>/appointment" >診療予約</a></li>
 				<li class="link-list__item bold"> <a class="item-link" href="<?php echo home_url(); ?>/inquiry" >お問い合わせ</a></li>
 				<li class="link-list__item bold"> <a class="item-link" href="<?php echo home_url(); ?>/en" >English</a></li>
