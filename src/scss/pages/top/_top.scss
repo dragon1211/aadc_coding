@@ -1,7 +1,7 @@
 // notice
 .home-notice {
 	width: 100%;
-	height: 50px;
+	background-color: white;
 	&__wrapper {
 		max-width: 1040px;
 		padding: 0 20px;
@@ -37,7 +37,7 @@
 			align-items: center;
 			font-size: 1.2rem;
 			&.nav-main{
-				font-size: 1.8rem;
+				font-size: 1.6rem;
 				font-weight: bold;
 			}
 			li{padding: 0 10px;}
