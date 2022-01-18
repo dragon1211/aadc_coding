@@ -4,7 +4,7 @@
 			<ul class="link-list">
 				<li class="link-list__item title"><a class="item-link" href="<?php echo home_url(); ?>/about" >当院について</a></li>
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/about/doctor" >ドクター紹介</a></li>
-				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/about/news" >新着情報</a></li>
+				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/about/news" >ニュースアーカイブ</a></li>
 
 				<li class="link-list__item title"><a class="item-link" href="<?php echo home_url(); ?>/eom" >エステティックオルソメソッド（EOM）</a></li>
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/eom/shinbi" >前歯審美歯科治療</a></li>
@@ -28,7 +28,6 @@
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/anti-aging/esthetic" >デンタルエステ</a></li>
 
 				<li class="link-list__item title"><a class="item-link" href="<?php echo home_url(); ?>/general" >一般診療</a></li>
-				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/coronavirus-infomation" >コロナ対策</a></li>
 
 				<li class="link-list__item title"><a class="item-link" href="<?php echo home_url(); ?>/????????????" >インフォメーション・アクセス</a></li>
 				<li class="link-list__item bold"> <a class="item-link" href="<?php echo home_url(); ?>/price" >料金表</a></li>
