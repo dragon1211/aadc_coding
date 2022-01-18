@@ -4,7 +4,7 @@
 	
 		<section class="home-notice">
 			<div class="home-notice__wrapper">
-				<a href="" class="home-notice__covid19">当院では新型コロナウイルスの感染対策を強化しています</a>
+				<a href="<?php echo home_url(); ?>/coronavirus-infomation" class="home-notice__covid19">当院では新型コロナウイルスの感染対策を強化しています</a>
 			</div>
 		</section>
 		
