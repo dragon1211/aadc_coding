@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+
+/* ==========================================================
+	coronavirus-information page
+========================================================== */
+
+
+.coronavirus-information{
+
+.home-notice .nav-main a{
+    font-size: 1.4rem;
+    text-align: left;
+    @include mq(sm3){
+        font-size: 1.2rem;
+    }
+}
+//---------Content----------//
+
+.covid-section{
+    &__container{
+        max-width: 1040px;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+    &__mv{
+        width: 100%;
+        margin-bottom: 100px;
+        height: 400px;
+        background: url(../images/covid/covid-mv.png);
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+    h2.head{
+        margin-top: 90px;
+        margin-bottom: 80px;
+        text-align: center;
+        font-weight: bold;
+    }
+    h3.head{
+        text-align: center;
+    }
+    &__effort{
+        margin-top: 60px;
+        margin-bottom: 250px;
+        text-align: center;
+        li{
+            font-size: 1.8rem;
+            font-weight: 400;
+            &:not(:last-child){
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    @include mq(){
+        h2.head{
+            font-weight: 400;
+        }
+    }
+
+    @include mq(sm2){
+        &__mv{
+            height: 300px;
+        }
+        &__effort li{
+            font-size: 1.6rem;
+            margin-bottom: 25px;
+            br{display: none;}
+        }
+    }
+    @include mq(smt){
+        h2.head{
+            margin: 70px 0 50px;
+            font-size: 2.1rem;
+        }
+        &__mv{
+            margin-bottom: 50px;
+        }
+        &__effort{
+            margin: 50px 0 100px;
+            li{
+                font-size: 1.5rem;
+                margin-bottom: 20px;
+                text-align: left;
+            }
+        } 
+    }
+    @include mq(sm3){
+        h2.head{
+            font-size: vw2(20);
+        }
+    }
+}
+
+//-----------end------------//
+
+}

@@ -87,6 +87,10 @@ li {
   list-style: none;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
 /* -------------------
   VARIABLES
 --------------------*/
@@ -4990,11 +4994,11 @@ Copyright (c) 2013 Daniel Eden
 .ci-wrap__mark {
   width: 20px;
   height: 20px;
-  margin-right: 15px;
   display: block;
 }
 
 .ci-wrap__logo {
+  margin-left: 15px;
   font-family: futura-pt, sans-serif;
   font-weight: 500;
   color: #333333;
@@ -6076,6 +6080,104 @@ Copyright (c) 2013 Daniel Eden
     padding: 50px 20px 0px;
     margin-left: -10px;
     margin-right: -10px;
+  }
+}
+
+/* ==========================================================
+	coronavirus-information page
+========================================================== */
+.coronavirus-information .home-notice .nav-main a {
+  font-size: 1.4rem;
+  text-align: left;
+}
+
+@media screen and (max-width: 389px) {
+  .coronavirus-information .home-notice .nav-main a {
+    font-size: 1.2rem;
+  }
+}
+
+.coronavirus-information .covid-section__container {
+  max-width: 1040px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.coronavirus-information .covid-section__mv {
+  width: 100%;
+  margin-bottom: 100px;
+  height: 400px;
+  background: url(../images/covid/covid-mv.png);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.coronavirus-information .covid-section h2.head {
+  margin-top: 90px;
+  margin-bottom: 80px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.coronavirus-information .covid-section h3.head {
+  text-align: center;
+}
+
+.coronavirus-information .covid-section__effort {
+  margin-top: 60px;
+  margin-bottom: 250px;
+  text-align: center;
+}
+
+.coronavirus-information .covid-section__effort li {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.coronavirus-information .covid-section__effort li:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1050px) {
+  .coronavirus-information .covid-section h2.head {
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .coronavirus-information .covid-section__mv {
+    height: 300px;
+  }
+  .coronavirus-information .covid-section__effort li {
+    font-size: 1.6rem;
+    margin-bottom: 25px;
+  }
+  .coronavirus-information .covid-section__effort li br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .coronavirus-information .covid-section h2.head {
+    margin: 70px 0 50px;
+    font-size: 2.1rem;
+  }
+  .coronavirus-information .covid-section__mv {
+    margin-bottom: 50px;
+  }
+  .coronavirus-information .covid-section__effort {
+    margin: 50px 0 100px;
+  }
+  .coronavirus-information .covid-section__effort li {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 389px) {
+  .coronavirus-information .covid-section h2.head {
+    font-size: 5.12821vw;
   }
 }
 
