@@ -17,12 +17,12 @@
             </div>
             <ul class="sub-nav__menu js-sub-nav-menu">
                 <li><a href="<?php echo home_url(); ?>/anti-aging/teeth-cleaning">クリーニング</a></li>
-                <li><a href="<?php echo home_url(); ?>/anti-aging/gum-care">歯周病治療<br>歯肉ケア</a></li>
-                <li><a href="<?php echo home_url(); ?>/anti-aging/grinding">歯ぎしり<br>食いしばり治療</a></li>
+                <li><a href="<?php echo home_url(); ?>/anti-aging/gum-care">歯周病治療<br><span class="sp-only-inline">・</span>歯肉ケア</a></li>
+                <li><a href="<?php echo home_url(); ?>/anti-aging/grinding">歯ぎしり<br><span class="sp-only-inline">・</span>食いしばり治療</a></li>
                 <li><a href="<?php echo home_url(); ?>/anti-aging/metal-free">メタルフリープログラム</a></li>
                 <li><a href="<?php echo home_url(); ?>/anti-aging/implant">インプラント</a></li>
                 <li><a href="<?php echo home_url(); ?>/anti-aging/anti-aging-dock">アンチエイジング検査</a></li>
-                <li><a href="<?php echo home_url(); ?>/anti-aging/injection">点滴療法・注射<br>サプリメント</a></li>
+                <li><a href="<?php echo home_url(); ?>/anti-aging/injection">点滴療法・注射<br><span class="sp-only-inline">・</span>サプリメント</a></li>
                 <li><a href="<?php echo home_url(); ?>/anti-aging/esthetic">デンタルエステ</a></li>
             </ul>
         </div>
