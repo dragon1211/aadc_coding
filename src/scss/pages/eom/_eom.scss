@@ -89,6 +89,7 @@
     }
     @include mq(sm3){
         span.jp{font-size: vw2(28);}
+        span.en{font-size: vw2(18);}
     }
 }
 
@@ -96,81 +97,92 @@
 // EOM TOP
 // =========================================
 
+.eom.page-parent{
 
-.eom-content{
-
-    &__mainvisual{
-        height: 500px;
-        background-image: url('../images/eom/eom_smile.png');
-        background-position: 50% 50%;
-        position: relative;
-        
-        &--caption{
-            padding: 0 20px;
-            font-size: 1.8rem;
-            font-weight: bold;
-            color: $color_black;
-            max-width: 810px;
-            width: 100%;
-            position: absolute;
-            bottom: 35px;
-            left: 50%;
-            transform: translateX(-50%);
-            line-height: 2;
+    .eom-heading__caption{
+        padding: 110px 20px;
+        @include mq(smt){
+            padding: 70px 20px;
         }
-
-        
-        @include mq(){
-            height: 400px;
+    }
+    
+    .eom-content{
+    
+        &__mainvisual{
+            height: 500px;
+            background-image: url('../images/eom/eom_smile.png');
+            background-position: 50% 50%;
+            position: relative;
+            
             &--caption{
-                line-height: inherit;
-                bottom: 20px;
+                padding: 0 20px;
+                font-size: 1.8rem;
+                font-weight: bold;
+                color: $color_black;
+                max-width: 810px;
+                width: 100%;
+                position: absolute;
+                bottom: 35px;
+                left: 50%;
+                transform: translateX(-50%);
+                line-height: 2;
+            }
+    
+            
+            @include mq(){
+                height: 400px;
+                &--caption{
+                    line-height: inherit;
+                    bottom: 20px;
+                }
+            }
+        }
+    
+        &__body{
+            padding: 100px 20px;
+            max-width: 1140px;
+            margin: auto;
+            font-weight: 400;
+            color: $color_black;
+            .text1{
+                max-width: 900px;
+                margin:0 auto 100px;
+                line-height: 2;
+            }
+            .text2{
+                max-width: 900px;
+                margin:100px auto 0;
+                line-height: 1.8;
+            }
+        }
+    
+    
+        &__menu{
+            max-width: 1140px;
+            padding: 0 20px;
+            margin: 100px auto;
+            .home-section__menu-ul{
+                justify-content: space-evenly;
+            }
+        }
+    
+    
+        @include mq(smt){
+            &__body{
+                padding: 50px 20px;
+                .text1{margin-bottom: 50px;}
+                .text2{margin-top: 50px;}
+            }
+            &__menu{
+                margin: 50px auto;
+            }
+        }
+        @include mq(sm3){
+            &__mainvisual--caption{
+                font-size: vw2(18);
             }
         }
     }
 
-    &__body{
-        padding: 100px 20px;
-        max-width: 1140px;
-        margin: auto;
-        font-weight: 400;
-        color: $color_black;
-        .text1{
-            max-width: 900px;
-            margin:0 auto 100px;
-            line-height: 2;
-        }
-        .text2{
-            max-width: 900px;
-            margin:100px auto 0;
-            line-height: 1.8;
-        }
-    }
-
-
-    &__menu{
-        max-width: 1140px;
-        padding: 0 20px;
-        margin: 100px auto;
-        .home-section__menu-ul{
-            justify-content: space-evenly;
-        }
-    }
-
-
-    @include mq(smt){
-        &__body{
-            padding: 50px 20px;
-            .text1{margin-bottom: 50px;}
-            .text2{margin-top: 50px;}
-        }
-        &__menu{
-            margin: 50px auto;
-        }
-    }
-    @include mq(sm3){
-        &__mainvisual--caption{
-            font-size: vw2(18);
-        }
-    }
+    
 }
