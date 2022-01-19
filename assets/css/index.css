@@ -10128,24 +10128,24 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
-.eom.page-parent .eom-heading__caption {
+#eom-top .eom-heading__caption {
   padding: 110px 20px;
 }
 
 @media screen and (max-width: 576px) {
-  .eom.page-parent .eom-heading__caption {
+  #eom-top .eom-heading__caption {
     padding: 70px 20px;
   }
 }
 
-.eom.page-parent .eom-content__mainvisual {
+#eom-top .eom-content__mainvisual {
   height: 500px;
   background-image: url("../images/eom/eom_smile.png");
   background-position: 50% 50%;
   position: relative;
 }
 
-.eom.page-parent .eom-content__mainvisual--caption {
+#eom-top .eom-content__mainvisual--caption {
   padding: 0 20px;
   font-size: 1.8rem;
   font-weight: bold;
@@ -10161,16 +10161,16 @@ Copyright (c) 2013 Daniel Eden
 }
 
 @media screen and (max-width: 1050px) {
-  .eom.page-parent .eom-content__mainvisual {
+  #eom-top .eom-content__mainvisual {
     height: 400px;
   }
-  .eom.page-parent .eom-content__mainvisual--caption {
+  #eom-top .eom-content__mainvisual--caption {
     line-height: inherit;
     bottom: 20px;
   }
 }
 
-.eom.page-parent .eom-content__body {
+#eom-top .eom-content__body {
   padding: 100px 20px;
   max-width: 1140px;
   margin: auto;
@@ -10178,47 +10178,47 @@ Copyright (c) 2013 Daniel Eden
   color: #333333;
 }
 
-.eom.page-parent .eom-content__body .text1 {
+#eom-top .eom-content__body .text1 {
   max-width: 900px;
   margin: 0 auto 100px;
   line-height: 2;
 }
 
-.eom.page-parent .eom-content__body .text2 {
+#eom-top .eom-content__body .text2 {
   max-width: 900px;
   margin: 100px auto 0;
   line-height: 1.8;
 }
 
-.eom.page-parent .eom-content__menu {
+#eom-top .eom-content__menu {
   max-width: 1140px;
   padding: 0 20px;
   margin: 100px auto;
 }
 
-.eom.page-parent .eom-content__menu .home-section__menu-ul {
+#eom-top .eom-content__menu .home-section__menu-ul {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
 
 @media screen and (max-width: 576px) {
-  .eom.page-parent .eom-content__body {
+  #eom-top .eom-content__body {
     padding: 50px 20px;
   }
-  .eom.page-parent .eom-content__body .text1 {
+  #eom-top .eom-content__body .text1 {
     margin-bottom: 50px;
   }
-  .eom.page-parent .eom-content__body .text2 {
+  #eom-top .eom-content__body .text2 {
     margin-top: 50px;
   }
-  .eom.page-parent .eom-content__menu {
+  #eom-top .eom-content__menu {
     margin: 50px auto;
   }
 }
 
 @media screen and (max-width: 389px) {
-  .eom.page-parent .eom-content__mainvisual--caption {
+  #eom-top .eom-content__mainvisual--caption {
     font-size: 4.61538vw;
   }
 }
@@ -14652,24 +14652,24 @@ ul.cost_ex li span {
   }
 }
 
-.anti-aging.page-parent .anti-heading__caption {
+#anti-aging-top .anti-heading__caption {
   padding: 110px 20px;
 }
 
 @media screen and (max-width: 576px) {
-  .anti-aging.page-parent .anti-heading__caption {
+  #anti-aging-top .anti-heading__caption {
     padding: 70px 20px;
   }
 }
 
-.anti-aging.page-parent .anti-content__mainvisual {
+#anti-aging-top .anti-content__mainvisual {
   height: 500px;
   background-image: url("../images/anti-aging/antiaging_mv.png");
   background-position: 50% 50%;
   position: relative;
 }
 
-.anti-aging.page-parent .anti-content__mainvisual--caption {
+#anti-aging-top .anti-content__mainvisual--caption {
   padding: 0 20px;
   font-size: 1.8rem;
   font-weight: bold;
@@ -14685,16 +14685,16 @@ ul.cost_ex li span {
 }
 
 @media screen and (max-width: 1050px) {
-  .anti-aging.page-parent .anti-content__mainvisual {
+  #anti-aging-top .anti-content__mainvisual {
     height: 400px;
   }
-  .anti-aging.page-parent .anti-content__mainvisual--caption {
+  #anti-aging-top .anti-content__mainvisual--caption {
     line-height: inherit;
     bottom: 20px;
   }
 }
 
-.anti-aging.page-parent .anti-content__body {
+#anti-aging-top .anti-content__body {
   padding: 100px 20px;
   max-width: 1140px;
   margin: auto;
@@ -14702,47 +14702,47 @@ ul.cost_ex li span {
   color: #333333;
 }
 
-.anti-aging.page-parent .anti-content__body .text1 {
+#anti-aging-top .anti-content__body .text1 {
   max-width: 900px;
   margin: 0 auto 100px;
   line-height: 2;
 }
 
-.anti-aging.page-parent .anti-content__body .text2 {
+#anti-aging-top .anti-content__body .text2 {
   max-width: 900px;
   margin: 100px auto 0;
   line-height: 1.8;
 }
 
-.anti-aging.page-parent .anti-content__menu {
+#anti-aging-top .anti-content__menu {
   max-width: 1140px;
   padding: 0 20px;
   margin: 100px auto;
 }
 
-.anti-aging.page-parent .anti-content__menu .home-section__menu-ul {
+#anti-aging-top .anti-content__menu .home-section__menu-ul {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
 
 @media screen and (max-width: 576px) {
-  .anti-aging.page-parent .anti-content__body {
+  #anti-aging-top .anti-content__body {
     padding: 50px 20px;
   }
-  .anti-aging.page-parent .anti-content__body .text1 {
+  #anti-aging-top .anti-content__body .text1 {
     margin-bottom: 50px;
   }
-  .anti-aging.page-parent .anti-content__body .text2 {
+  #anti-aging-top .anti-content__body .text2 {
     margin-top: 50px;
   }
-  .anti-aging.page-parent .anti-content__menu {
+  #anti-aging-top .anti-content__menu {
     margin: 50px auto;
   }
 }
 
 @media screen and (max-width: 389px) {
-  .anti-aging.page-parent .anti-content__mainvisual--caption {
+  #anti-aging-top .anti-content__mainvisual--caption {
     font-size: 4.61538vw;
   }
 }
