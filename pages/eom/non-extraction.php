@@ -1,6 +1,3 @@
-
-<main class="main">
-
 <section class="eom-nav">
     <nav class="eom-nav__first">
         <div class="eom-nav__container">
@@ -29,13 +26,10 @@
     </nav>
 </section>
 
-
 <!---------------------------------------------------->
 <!----------------      EOM MAIN SECTION   ----------->
 <!---------------------------------------------------->
 
-
-<!-- news-section -->
 <section class="eom-heading__content">
     <div class="eom-heading">
         <h2 class="eom-heading__caption">
@@ -345,18 +339,11 @@
 				<p class="comment s2">※ インビザラインは、来院時調整料金、補助装置等の治療に関わる費用がすべて上記料金に含まれております。保証期間内であれば治療が延長した場合でも治療開始時に決定した料金を超えることはありません。</p>
 			</div>
 		</section>
-<!-- /payment -->
-		
-
+	<!-- /payment -->
 </section>
 
 
-
-
-<!---------------------------------------------------->
-<!----------------  EOM BOTTOM BREADCRUMB  ----------->
-<!---------------------------------------------------->
-
+<!-- breadcrumb section -->
 <section class="breadcrumb-wrapper">
     <div class="breadcrumb-wrapper__content">
         <ul class="breadcrumb">
@@ -371,4 +358,3 @@
     </div>
 </section>
 
-</main>

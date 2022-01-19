@@ -1,6 +1,3 @@
-
-<main class="main">
-
 <section class="eom-nav">
     <nav class="eom-nav__first">
         <div class="eom-nav__container">
@@ -30,7 +27,6 @@
 </section>
 
 
-<!-- news-section -->
 <section class="eom-heading__content">
     <div class="eom-heading">
         <h2 class="eom-heading__caption">
@@ -42,8 +38,6 @@
 
 <!-- gap-content -->
 <section class="content">
-	
-		
 		<section class="cure2-outline-section" id="outline">
 			<p class="intro f18">
 				笑った時に目立ってしまう前歯のすき間。この気になるすき間をどのように直したらよいか、お悩みの方も多いかと思います。<br>
@@ -358,14 +352,10 @@
 				<li><a href="<?php echo home_url(); ?>/aadcblog/alignment/5100/">前歯のすき間の治療法　すきっ歯を治す方法とは？</a></li>
 			</ul>
 		</section>
-
-
 </section>
 
 
-
-
-
+<!-- breadcrumb section -->
 <section class="breadcrumb-wrapper">
     <div class="breadcrumb-wrapper__content">
         <ul class="breadcrumb">
@@ -379,5 +369,3 @@
         </ul>
     </div>
 </section>
-
-</main>

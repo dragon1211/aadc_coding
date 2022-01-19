@@ -1,6 +1,3 @@
-
-<main class="main">
-
 <section class="eom-nav">
     <nav class="eom-nav__first">
         <div class="eom-nav__container">
@@ -30,7 +27,6 @@
 </section>
 
 
-<!-- news-section -->
 <section class="eom-heading__content">
     <div class="eom-heading">
         <h2 class="eom-heading__caption">
@@ -469,16 +465,11 @@
             </div>
         </section>
         <!-- /lumineers -->		
-    
     </div>
-
 </section>
 
 
-
-
-
-
+<!-- breadcrumb section -->
 <section class="breadcrumb-wrapper">
     <div class="breadcrumb-wrapper__content">
         <ul class="breadcrumb">
@@ -492,5 +483,3 @@
         </ul>
     </div>
 </section>
-
-</main>

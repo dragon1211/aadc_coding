@@ -1,6 +1,3 @@
-
-<main class="main">
-
 <section class="eom-nav">
     <nav class="eom-nav__first">
         <div class="eom-nav__container">
@@ -29,13 +26,10 @@
     </nav>
 </section>
 
-
 <!---------------------------------------------------->
 <!----------------      EOM MAIN SECTION   ----------->
 <!---------------------------------------------------->
 
-
-<!-- news-section -->
 <section class="eom-heading__content">
     <div class="eom-heading">
         <h2 class="eom-heading__caption">
@@ -47,7 +41,6 @@
 
 <!-- orthodontic-content -->
 <section class="content">
-
 		<!-- outline -->
 		<section class="cure2-outline-section">
 			<h2 class="head f36">笑顔が変わる<br class="sp-onlyt">前歯だけの歯並び矯正</h2>
@@ -199,18 +192,10 @@
 				</div>
 			</div>
 		</section>
-    	
-		
-
 </section>
 
 
-
-
-<!---------------------------------------------------->
-<!----------------  EOM BOTTOM BREADCRUMB  ----------->
-<!---------------------------------------------------->
-
+<!-- breadcrumb section -->
 <section class="breadcrumb-wrapper">
     <div class="breadcrumb-wrapper__content">
         <ul class="breadcrumb">
@@ -224,5 +209,3 @@
         </ul>
     </div>
 </section>
-
-</main>

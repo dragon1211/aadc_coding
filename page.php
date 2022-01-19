@@ -12,6 +12,8 @@
 get_header();
 ?>
 
+<main class="main">
+
     <?php
 
         if ( have_posts() ) {
@@ -35,6 +37,8 @@ get_header();
             get_template_part( __DIR__.'/404.php', 'page' );
         }
     ?>
+
+</main>
 
 <?php
 get_footer();
