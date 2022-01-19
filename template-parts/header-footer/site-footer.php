@@ -29,7 +29,7 @@
 
 				<li class="link-list__item title"><a class="item-link" href="<?php echo home_url(); ?>/general" >一般診療</a></li>
 
-				<li class="link-list__item title"><a class="item-link" href="<?php echo home_url(); ?>/????????????" >インフォメーション・アクセス</a></li>
+				<li class="link-list__item title"><a class="item-link" href="<?php echo home_url(); ?>/information" >インフォメーション・アクセス</a></li>
 				<li class="link-list__item bold"> <a class="item-link" href="<?php echo home_url(); ?>/price" >料金表</a></li>
 				<li class="link-list__item bold"> <a class="item-link" href="<?php echo home_url(); ?>/appointment" >診療予約</a></li>
 				<li class="link-list__item bold"> <a class="item-link" href="<?php echo home_url(); ?>/inquiry" >お問い合わせ</a></li>
