@@ -9,7 +9,7 @@
     </section>
 
 
-    <!-- general-section -->
+    <!-- information-section -->
     <section class="content">
 
 		<div class="information-header">

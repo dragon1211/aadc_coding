@@ -100,7 +100,7 @@
 
 			
 		</section>
-		<!-- /price-section -->
+		<!-- /inquiry-section -->
 
     </section>
 
