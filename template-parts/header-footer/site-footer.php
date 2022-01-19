@@ -20,10 +20,10 @@
 				<li class="link-list__item title"><a class="item-link" href="<?php echo home_url(); ?>/anti-aging" >アンチエイジング</a></li>
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/anti-aging/teeth-cleaning" >クリーニング</a></li>
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/anti-aging/gum-care" >歯周病治療・歯肉ケア</a></li>
-				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/anti-aging/grinding" >歯ぎしり・食いしばり</a></li>
+				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/anti-aging/grinding" >歯ぎしり・食いしばり治療</a></li>
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/anti-aging/metal-free" >メタルフリープログラム</a></li>
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/anti-aging/implant" >インプラント</a></li>
-				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/anti-aging/inspection" >口内老化度検査・体内老化度検査</a></li>
+				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/anti-aging/anti-aging-dock" >アンチエイジング検査</a></li>
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/anti-aging/injection" >点滴療法・注射</a></li>
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/anti-aging/esthetic" >デンタルエステ</a></li>
 

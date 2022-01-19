@@ -1,0 +1,173 @@
+@charset "UTF-8";
+// =========================================
+// EOM COMMOON
+// =========================================
+
+.anti-nav{
+    &__container{
+        max-width: 1040px;
+        padding: 0 20px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+    a{
+        &:hover{
+            transition: all .3s;
+            opacity: .8;
+        }
+    }
+    &__first{
+        height: 70px;
+        color: $color_black;
+        background-color: white;
+        font-size: 1.8rem;
+        a{
+            font-weight: bold;
+            color: $color_black;
+        }
+        z-index: 10;
+        position: relative;
+    }
+    &__second{
+        height: 50px;
+        background-color: #CEC1A8;
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 500;
+        position: relative;
+        a{color: white;}
+        .eom-nav__container{
+            justify-content: center;
+            @include mq(){
+                justify-content: end;
+            }
+        }
+        @include mq(){
+            font-size: 1.5rem;
+        }
+    }
+    @include mq(smt){
+        &__first{
+            height: 50px;
+            font-size: 1.5rem;
+        }
+    }
+    @include mq(sm3){
+        &__first{
+            font-size: vw2(15);
+        }
+    }
+}
+
+
+.anti-heading{
+    background-color: white;
+    position: relative;
+    &__caption{
+        padding: 70px 20px;
+        color: $color_black; 
+        text-align: center;
+        span{
+            display: block;
+            &.jp{font-size: 3.0rem;}
+            &.en{font-size: 2.0rem;}
+        }
+    }
+    @include mq(smt){
+        &__caption{
+            padding: 50px 20px;
+        }
+        span{
+            &.jp{font-size: 2.5rem;}
+            &.en{
+                margin-top: 10px;
+                font-size: 1.5rem;
+            }
+        }
+    }
+    @include mq(sm3){
+        span.jp{font-size: vw2(28);}
+    }
+}
+
+// =========================================
+// EOM TOP
+// =========================================
+
+
+.anti-content{
+
+    &__mainvisual{
+        height: 500px;
+        background-image: url('../images/anti-aging/antiaging_mv.png');
+        background-position: 50% 50%;
+        position: relative;
+        
+        &--caption{
+            padding: 0 20px;
+            font-size: 1.8rem;
+            color: $color_black;
+            max-width: 810px;
+            width: 100%;
+            position: absolute;
+            bottom: 35px;
+            left: 50%;
+            transform: translateX(-50%);
+            line-height: 2;
+        }
+
+        
+        @include mq(){
+            height: 400px;
+            &--caption{
+                line-height: inherit;
+                bottom: 20px;
+            }
+        }
+    }
+
+    &__body{
+        padding: 100px 20px;
+        max-width: 1140px;
+        margin: auto;
+        font-weight: 500;
+        color: $color_black;
+        .text1{
+            max-width: 900px;
+            margin:0 auto 100px;
+        }
+        .text2{
+            max-width: 900px;
+            margin:100px auto 0;
+        }
+    }
+
+
+    &__menu{
+        max-width: 1140px;
+        padding: 0 20px;
+        margin: 100px auto;
+        .home-section__menu-ul{
+            justify-content: space-evenly;
+        }
+    }
+
+
+    @include mq(smt){
+        &__body{
+            padding: 50px 20px;
+            .text1{margin-bottom: 50px;}
+            .text2{margin-top: 50px;}
+        }
+        &__menu{
+            margin: 50px auto;
+        }
+    }
+    @include mq(sm3){
+        &__mainvisual--caption{
+            font-size: vw2(18);
+        }
+    }
+}

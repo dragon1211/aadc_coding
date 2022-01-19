@@ -24,7 +24,7 @@
         <li class="header-menu__content--item"><a href="<?php echo home_url(); ?>/anti-aging/grinding">             歯ぎしり・食いしばり治療</a></li>
         <li class="header-menu__content--item"><a href="<?php echo home_url(); ?>/anti-aging/metal-free">           メタルフリープログラム</a></li>
         <li class="header-menu__content--item"><a href="<?php echo home_url(); ?>/anti-aging/implant">              インプラント</a></li>
-        <li class="header-menu__content--item"><a href="<?php echo home_url(); ?>/anti-aging/inspection">           アンチエイジング検査</a></li>
+        <li class="header-menu__content--item"><a href="<?php echo home_url(); ?>/anti-aging/anti-aging-dock">      アンチエイジング検査</a></li>
         <li class="header-menu__content--item"><a href="<?php echo home_url(); ?>/anti-aging/injection">            点滴療法・注射・サプリメント</a></li>
         <li class="header-menu__content--item"><a href="<?php echo home_url(); ?>/anti-aging/esthetic">             デンタルエステ</a></li>
                                                     <li class="header-menu__content--item none">                         　</li>
