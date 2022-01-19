@@ -116,7 +116,7 @@
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/icon-logo-red.png" alt="logo">
                     </a>
                 </li>
-                <li>English</li>
+                <li>お問い合わせ</li>
             </ul>
         </div>
     </section>

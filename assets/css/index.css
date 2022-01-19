@@ -6152,18 +6152,28 @@ Copyright (c) 2013 Daniel Eden
 
 .en table.mailform.sp tr td input.submit_button {
   padding: 10px;
-  width: 100px;
+  width: 150px;
+  margin: 5px;
   font-size: 1.2em;
 }
 
 .en table.mailform.sp tr td input.reset_button {
   padding: 10px;
-  width: 100px;
+  margin: 5px;
+  width: 150px;
   font-size: 1.2em;
 }
 
 .en table.mailform.sp tr td.submit_wrap {
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media screen and (max-width: 768px) {

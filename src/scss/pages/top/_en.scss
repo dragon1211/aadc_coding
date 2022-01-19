@@ -490,17 +490,22 @@ table.mailform.sp {
             }
             input.submit_button {
                 padding: 10px;
-                width: 100px;
+                width: 150px;
+                margin: 5px;
                 font-size: 1.2em;
             }
             input.reset_button {
                 padding: 10px;
-                width: 100px;
+                margin: 5px;
+                width: 150px;
                 font-size: 1.2em;
             }
         }
         td.submit_wrap {
             text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
     }
 }
