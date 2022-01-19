@@ -6259,6 +6259,10 @@ Copyright (c) 2013 Daniel Eden
   margin: 0 20px 0 0;
 }
 
+.en .doctor-section .doctor .doctor-photo img {
+  border-top: 2px solid #C84520;
+}
+
 .en .doctor-section .doctor .doctor-profile {
   max-width: 700px;
   width: 100%;
