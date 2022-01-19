@@ -5591,6 +5591,732 @@ Copyright (c) 2013 Daniel Eden
 }
 
 /* ==========================================================
+	english-page
+========================================================== */
+.en {
+  /* ------------------------------------------------ header */
+  /* ------------------------------------------------ content */
+  /* doctor section */
+  /* message section */
+  /* service section */
+  /* insurance section */
+  /* payment section */
+  /* level section */
+  /* hours section */
+  /* information */
+  /* Widget-BizCalendar */
+  /* access */
+  /* map */
+  /* contact */
+  /* form */
+  /* form sp*/
+}
+
+.en .content {
+  margin-bottom: 150px;
+  font-weight: 300;
+}
+
+.en .head {
+  font-weight: 500 !important;
+}
+
+.en .eng-header {
+  width: 100%;
+  height: 70px;
+  position: relative;
+  overflow: hidden;
+  background-color: #d2bea5;
+}
+
+.en .eng-header h1.head {
+  font-family: "futura-pt",sans-serif;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-weight: 100 !important;
+  letter-spacing: 0.2rem;
+  text-indent: 0.5rem;
+  color: #fff;
+  line-height: 1.3;
+}
+
+.en .doctor-section {
+  max-width: 1040px;
+  padding: 100px 20px 0;
+  margin: 0 auto;
+}
+
+.en .doctor-section .doctor {
+  font-weight: 300;
+  line-height: 200%;
+  overflow: hidden;
+  margin-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.en .doctor-section .doctor .doctor-photo {
+  max-width: 200px;
+  width: 100%;
+  margin: 0 20px 0 0;
+}
+
+.en .doctor-section .doctor .doctor-profile {
+  max-width: 700px;
+  width: 100%;
+  text-align: justify;
+}
+
+.en .doctor-section .doctor .doctor-profile .position {
+  font-weight: 400;
+}
+
+.en .doctor-section .doctor .doctor-profile .name {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.en .doctor-section .doctor .doctor-profile .bio a {
+  color: #08c;
+}
+
+.en .doctor-section .doctor .doctor-profile .bio a:hover {
+  text-decoration: underline;
+}
+
+.en .doctor-section .doctor .doctor-profile .qualification {
+  overflow: hidden;
+}
+
+.en .doctor-section .doctor .doctor-profile .qualification li {
+  float: left;
+  background-color: #d2bea5;
+  padding: 5px 10px;
+  margin: 0 10px 10px 0;
+  color: #fff;
+  font-weight: 500;
+}
+
+.en .doctor-section .doctor .doctor-profile .profile-head {
+  margin: 50px 0 10px 0;
+  font-weight: 500;
+}
+
+.en .message-section {
+  width: 100%;
+  padding: 50px 0;
+  background-color: #d1c0a5;
+  color: #fff;
+}
+
+.en .message-section h2.head {
+  font-family: "futura-pt",sans-serif;
+  width: 100%;
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 30px;
+}
+
+.en .message-section .message {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 20px;
+  letter-spacing: 0.1rem;
+  font-weight: 300;
+  line-height: 200%;
+  text-align: justify;
+}
+
+.en .message-section .message span {
+  text-align: right;
+  display: block;
+  line-height: 200%;
+}
+
+.en .service-section {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.en .service-section h2.head {
+  font-family: "futura-pt",sans-serif;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+}
+
+.en .service-section .service {
+  max-width: 1040px;
+  margin: 0 auto;
+  letter-spacing: 0.1rem;
+  font-weight: 300;
+  line-height: 200%;
+  text-align: center;
+  overflow: hidden;
+  display: block;
+}
+
+.en .service-section .service li {
+  text-align: center;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.en .insurance-section {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.en .insurance-section h2.head {
+  font-family: "futura-pt",sans-serif;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+}
+
+.en .insurance-section .insurance {
+  letter-spacing: 0.1rem;
+  font-weight: 300;
+  line-height: 200%;
+  text-align: center;
+}
+
+.en .payment-section {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.en .payment-section h2.head {
+  font-family: "futura-pt",sans-serif;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+}
+
+.en .payment-section .payment {
+  letter-spacing: 0.1rem;
+  font-weight: 300;
+  line-height: 200%;
+  text-align: center;
+}
+
+.en .level-section {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.en .level-section h2.head {
+  font-family: "futura-pt",sans-serif;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+}
+
+.en .level-section .level {
+  letter-spacing: 0.1rem;
+  font-weight: 300;
+  line-height: 200%;
+  text-align: center;
+}
+
+.en .hours-section {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.en .hours-section h2.head {
+  font-family: "futura-pt",sans-serif;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+}
+
+.en .hours-section table {
+  margin: 20px auto;
+}
+
+.en .hours-section table tr th {
+  padding: 10px 20px;
+  text-align: center;
+  line-height: 150%;
+  font-weight: 300;
+  border: 1px solid #ddd;
+  background-color: #fafafa;
+}
+
+.en .hours-section table tr td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.en .information {
+  width: 100%;
+  overflow: hidden;
+}
+
+.en .information .information-wrap {
+  max-width: 1100px;
+  padding: 0 20px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.en .information .information-wrap .info-left {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.en .information .information-wrap .info-left .info-left-tel {
+  margin-bottom: 20px;
+}
+
+.en .information .information-wrap .info-left .info-left-tel a {
+  color: #d93600;
+  font-weight: 500;
+}
+
+.en .information .information-wrap .info-left .info-left-appoint-btn {
+  margin-bottom: 20px;
+}
+
+.en .information .information-wrap .info-left .info-left-appoint-btn a {
+  padding: 10px;
+  background: #d93600;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.en .information .information-wrap .info-left .info-left-time {
+  line-height: 200%;
+  margin-bottom: 30px;
+}
+
+.en .information .information-wrap .info-left .info-left-name {
+  margin-bottom: 10px;
+}
+
+.en .information .information-wrap .info-left .info-left-add {
+  margin-bottom: 10px;
+}
+
+.en .information .information-wrap .info-right {
+  width: 50%;
+  float: right;
+}
+
+.en .information .information-wrap .info-right .cal-detai {
+  text-align: center;
+  line-height: 20px;
+}
+
+.en .information .information-wrap .info-right .cal-detai span.red {
+  color: #e60012;
+  margin-right: 5px;
+  display: inline-block;
+  height: 20px;
+  width: 40px;
+  text-align: center;
+  background-color: rgba(230, 0, 18, 0.05);
+}
+
+.en .information .information-wrap .info-right .cal-detai span.blue {
+  color: #0075a9;
+  margin-right: 5px;
+  display: inline-block;
+  height: 20px;
+  width: 40px;
+  text-align: center;
+  background-color: rgba(0, 117, 169, 0.05);
+}
+
+.en .information .information-wrap .info-left-txt {
+  margin: 30px 0 20px;
+}
+
+.en .widget.widget_bizcalendar {
+  width: 530px;
+  height: 350px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.en .widget.widget_bizcalendar h2.widgettitle {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+.en .widget.widget_bizcalendar #biz_calendar {
+  max-width: 400px !important;
+  margin: 0 auto;
+}
+
+.en .widget.widget_bizcalendar #biz_calendar table.bizcal {
+  margin: 0 auto;
+  text-align: center;
+  table-layout: auto;
+  line-height: 150%;
+  border: none !important;
+  font-size: 1.2rem;
+}
+
+.en .widget.widget_bizcalendar #biz_calendar table.bizcal tbody {
+  border: none !important;
+}
+
+.en .widget.widget_bizcalendar #biz_calendar table.bizcal tbody tr {
+  height: 35px;
+  border-bottom: 1px solid #ddd;
+}
+
+.en .widget.widget_bizcalendar #biz_calendar table.bizcal tbody tr:first-child {
+  border-bottom: none;
+}
+
+.en .widget.widget_bizcalendar #biz_calendar table.bizcal tbody tr td {
+  margin: 0 30px;
+  border-right: 1px solid #ddd;
+}
+
+.en .widget.widget_bizcalendar #biz_calendar table.bizcal tbody tr td:last-child {
+  border-right: none;
+}
+
+.en .widget.widget_bizcalendar #biz_calendar table.bizcal tbody tr td.calmonth {
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-indent: 10px;
+  height: 50px;
+}
+
+.en .widget.widget_bizcalendar #biz_calendar table.bizcal tbody tr td.holiday {
+  background-color: rgba(230, 0, 18, 0.05);
+  color: #e60012;
+}
+
+.en .widget.widget_bizcalendar #biz_calendar table.bizcal tbody tr td.eventday {
+  background-color: rgba(0, 117, 169, 0.05);
+  color: #0075a9;
+}
+
+.en .widget.widget_bizcalendar #biz_calendar table.bizcal tbody tr th {
+  background: transparent;
+  font-weight: 400;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.en .widget.widget_bizcalendar #biz_calendar table.bizcal tbody tr th:last-child {
+  border-right: none;
+}
+
+.en .widget.widget_bizcalendar #biz_calendar p {
+  display: none;
+}
+
+.en .access-section {
+  width: 100%;
+  padding: 0 20px;
+  margin: 50px 0 20px;
+}
+
+.en .access-section h2.head {
+  font-family: "futura-pt",sans-serif;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+}
+
+.en .access-section .access {
+  letter-spacing: 0.1rem;
+  font-weight: 300;
+  line-height: 200%;
+  text-align: center;
+}
+
+.en .map {
+  width: 100%;
+  height: 300px;
+  margin: 0 0 50px;
+}
+
+.en .contact-section {
+  width: 100%;
+  margin: 0 0 50px;
+}
+
+.en .contact-section h2.head {
+  font-family: "futura-pt",sans-serif;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+}
+
+.en .contact-section .contact {
+  letter-spacing: 0.1rem;
+  font-weight: 300;
+  line-height: 200%;
+  text-align: center;
+}
+
+.en form#mailform {
+  max-width: 700px;
+  margin: 30px auto 0;
+}
+
+.en table.mailform {
+  width: 100%;
+}
+
+.en table.mailform tr {
+  border-bottom: solid 1px #e6e6e6;
+}
+
+.en table.mailform tr:last-child {
+  border-bottom: none;
+}
+
+.en table.mailform tr th, .en table.mailform tr td {
+  text-align: left;
+  font-weight: normal;
+  font-size: 12px;
+  padding: 20px;
+}
+
+.en table.mailform tr th {
+  width: 200px;
+  font-size: 1.4rem;
+}
+
+.en table.mailform tr th span {
+  float: left;
+  color: #CC0000;
+  font-size: 1.4rem;
+}
+
+.en table.mailform tr th p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.2rem;
+  color: #999999;
+}
+
+.en table.mailform tr td input.mf, .en table.mailform tr td input.nm {
+  width: 300px;
+  padding: 5px;
+  border: 1px solid #ddd;
+}
+
+.en table.mailform tr td textarea {
+  width: 500px;
+  height: 120px;
+  resize: none;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.en table.mailform tr td input.submit_button {
+  padding: 10px;
+  width: 150px;
+  font-size: 1.2em;
+  color: #fff;
+  margin-right: 10px;
+  border-style: none;
+  cursor: pointer;
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #d93600), color-stop(50%, #e65128)) right;
+  background: linear-gradient(to left, #d93600 50%, #e65128 50%) right;
+  background-size: 200%;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+.en table.mailform tr td input.submit_button:hover {
+  background-position: left;
+}
+
+.en table.mailform tr td input.reset_button {
+  padding: 10px;
+  width: 150px;
+  font-size: 1.2em;
+  color: #333;
+  border-style: none;
+  cursor: pointer;
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #eee), color-stop(50%, #ccc)) right;
+  background: linear-gradient(to left, #eee 50%, #ccc 50%) right;
+  background-size: 200%;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+.en table.mailform tr td input.reset_button:hover {
+  background-position: left;
+}
+
+.en table.mailform.sp {
+  display: none;
+  padding: 0 10px;
+}
+
+.en table.mailform.sp tr th {
+  text-align: left;
+  font-weight: normal;
+  font-size: 12px;
+  padding: 10px 10px 0;
+  margin: 10px 0;
+  font-size: 1.4rem;
+}
+
+.en table.mailform.sp tr th span {
+  float: left;
+  color: #CC0000;
+  font-size: 1.4rem;
+}
+
+.en table.mailform.sp tr th p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.2rem;
+  color: #999999;
+}
+
+.en table.mailform.sp tr td {
+  text-align: left;
+  font-weight: normal;
+  font-size: 12px;
+  padding: 10px;
+  border-bottom: solid 1px #ccc;
+}
+
+.en table.mailform.sp tr td input.mf {
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.en table.mailform.sp tr td input.nm {
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.en table.mailform.sp tr td textarea {
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 120px;
+  resize: none;
+}
+
+.en table.mailform.sp tr td input.submit_button {
+  padding: 10px;
+  width: 100px;
+  font-size: 1.2em;
+}
+
+.en table.mailform.sp tr td input.reset_button {
+  padding: 10px;
+  width: 100px;
+  font-size: 1.2em;
+}
+
+.en table.mailform.sp tr td.submit_wrap {
+  padding-top: 30px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .en .hours-section table tr th {
+    padding: 5px;
+    text-align: center;
+    line-height: 150%;
+    font-weight: 300;
+    border: 1px solid #ddd;
+    background-color: #fafafa;
+  }
+  .en table.mailform {
+    display: none;
+  }
+  .en table.mailform.sp {
+    display: table;
+  }
+  .en .information .information-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .en .information .information-wrap .info-left, .en .information .information-wrap .info-right {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .en .doctor-section .doctor {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .en .doctor-section .doctor .doctor-photo {
+    max-width: 100%;
+  }
+  .en .doctor-section .doctor .doctor-photo img {
+    margin: auto;
+  }
+  .en .doctor-section .doctor .doctor-profile {
+    max-width: 100%;
+  }
+  .en .doctor-section .doctor .doctor-profile .position {
+    text-align: center;
+  }
+  .en .doctor-section .doctor .doctor-profile .name {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .en .doctor-section .doctor .doctor-profile .profile-head {
+    margin: 20px 0 10px 0;
+  }
+  .en .doctor-section .doctor .doctor-profile .qualification li {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 389px) {
+  .en .hours-section table tr th {
+    padding: 5px 0;
+  }
+}
+
+/* ==========================================================
 	general-page
 ========================================================== */
 .general {
