@@ -12,6 +12,9 @@
 	position: relative;
 	overflow: hidden;
 	background-color: #d2bea5;
+    @include mq(smt){
+        height: 50px;
+    }
 }
 .inquiry-header h1.head {
 	font-family: "futura-pt",sans-serif;
@@ -250,9 +253,6 @@ table.mailform.sp {
 
 
 @include mq(sm2){
-    .inquiry-header{
-        height: 50px;
-    }
     .content{
         margin-bottom: 0;
     }

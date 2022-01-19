@@ -5602,6 +5602,12 @@ Copyright (c) 2013 Daniel Eden
   background-color: #d2bea5;
 }
 
+@media screen and (max-width: 576px) {
+  .appointment-header {
+    height: 50px;
+  }
+}
+
 .appointment-header h1.head {
   font-family: "futura-pt",sans-serif;
   width: 100%;
@@ -5615,6 +5621,455 @@ Copyright (c) 2013 Daniel Eden
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+
+.appointment {
+  /* ------------------------------------------------ content */
+  /* information section */
+}
+
+.appointment .content {
+  margin-bottom: 70px;
+}
+
+.appointment .appointment-section {
+  max-width: 840px;
+  padding: 80px 20px;
+  margin: 0 auto;
+}
+
+.appointment .appointment-section h2.head {
+  width: 100%;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.4rem;
+  margin-bottom: 40px;
+  line-height: 150%;
+}
+
+.appointment .appointment-section div.detail {
+  letter-spacing: 0.1rem;
+  font-weight: 200;
+  line-height: 150%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.appointment .appointment-section div.link {
+  letter-spacing: 0.1rem;
+  font-weight: 200;
+  line-height: 150%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.appointment .appointment-section div.link a {
+  display: block;
+  margin-bottom: 30px;
+  padding: 10px;
+  width: 240px;
+  background-color: #eee;
+  color: #333;
+  border-style: none;
+}
+
+.appointment .appointment-section div.detail-left {
+  width: 800px;
+  margin: 0 auto 50px;
+  letter-spacing: 0.1rem;
+  font-weight: 200;
+  line-height: 150%;
+  text-align: left;
+}
+
+.appointment .appointment-section .privacy {
+  letter-spacing: 0.1rem;
+  font-weight: 300;
+  line-height: 160%;
+  text-align: justify;
+  margin: 0 auto 50px;
+}
+
+.appointment .appointment-section ul.detail {
+  margin: 0 auto 50px;
+  padding-left: 1em;
+}
+
+.appointment .appointment-section ul.detail li {
+  letter-spacing: 0.1rem;
+  font-weight: 200;
+  line-height: 160%;
+  text-align: justify;
+  text-indent: -1em;
+  list-style-type: none;
+}
+
+.appointment .appointment-section ul.detail li:before {
+  content: "※";
+}
+
+.appointment .appointment-section .note-wrap {
+  max-width: 700px;
+  margin: 50px auto 0;
+  padding: 30px;
+  background-color: rgba(210, 190, 165, 0.2);
+  overflow: hidden;
+}
+
+.appointment .appointment-section .note-wrap .head {
+  width: 100%;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.4rem;
+  margin-bottom: 20px;
+  line-height: 150%;
+}
+
+.appointment .appointment-section .note-wrap .note {
+  letter-spacing: 0.1rem;
+  font-weight: 200;
+  line-height: 150%;
+  margin-bottom: 50px;
+}
+
+.appointment .appointment-section .note-wrap .note p {
+  margin-bottom: 30px;
+}
+
+.appointment .appointment-section .note-wrap .note .title {
+  font-weight: 400;
+}
+
+.appointment form#mailform {
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.appointment table.appointform {
+  width: 100%;
+}
+
+.appointment table.appointform tr {
+  border-bottom: solid 1px #e6e6e6;
+}
+
+.appointment table.appointform tr:last-child {
+  border-bottom: none;
+}
+
+.appointment table.appointform tr th {
+  width: 200px;
+  font-size: 1.4rem;
+  text-align: left;
+  font-weight: normal;
+  padding: 20px;
+}
+
+.appointment table.appointform tr th span {
+  float: left;
+  color: #CC0000;
+  font-size: 1.4rem;
+}
+
+.appointment table.appointform tr th p {
+  padding: 0px;
+  font-size: 1.2rem;
+  color: #999999;
+}
+
+.appointment table.appointform tr td {
+  font-size: 1.4rem;
+  text-align: left;
+  font-weight: normal;
+  font-size: 12px;
+  padding: 20px;
+}
+
+.appointment table.appointform tr td.radioform span {
+  padding: 0 20px 0 5px;
+}
+
+.appointment table.appointform tr td.checkbox span {
+  padding: 0 20px 0 5px;
+}
+
+.appointment table.appointform tr td.checkbox input.cb {
+  margin: 5px 0;
+}
+
+.appointment table.appointform tr td input.cn, .appointment table.appointform tr td input.nm {
+  width: 100%;
+  padding: 5px;
+}
+
+.appointment table.appointform tr td input.age {
+  width: 50px;
+  padding: 5px;
+}
+
+.appointment table.appointform tr td input.tel {
+  width: 150px;
+  padding: 5px;
+}
+
+.appointment table.appointform tr td input.add {
+  padding: 5px;
+}
+
+.appointment table.appointform tr td input.zip {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.appointment table.appointform tr td input.mf {
+  width: 50%;
+  padding: 5px;
+}
+
+.appointment table.appointform tr td p.comment {
+  display: block;
+  margin-top: 5px;
+  color: #666;
+  line-height: 150%;
+}
+
+.appointment table.appointform tr td p.comment-red {
+  display: block;
+  margin-top: 5px;
+  color: #666;
+  line-height: 150%;
+  color: #ff3300;
+}
+
+.appointment table.appointform tr td .reserved {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.appointment table.appointform tr td input.zipbtn {
+  padding: 7px;
+  font-size: 1.0em;
+  color: #fff;
+  border-style: none;
+  cursor: pointer;
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #d93600), color-stop(50%, #e65128)) right;
+  background: linear-gradient(to left, #d93600 50%, #e65128 50%) right;
+  background-size: 200%;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+.appointment table.appointform tr td input.zipbtn:hover {
+  background-position: left;
+}
+
+.appointment table.appointform tr td textarea {
+  resize: none;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.appointment table.appointform tr td input.submit_button {
+  padding: 10px;
+  width: 150px;
+  font-size: 1.2em;
+  color: #fff;
+  margin-right: 10px;
+  border-style: none;
+  cursor: pointer;
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #d93600), color-stop(50%, #e65128)) right;
+  background: linear-gradient(to left, #d93600 50%, #e65128 50%) right;
+  background-size: 200%;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+.appointment table.appointform tr td input.submit_button:hover {
+  background-position: left;
+}
+
+.appointment table.appointform tr td input.reset_button {
+  padding: 10px;
+  width: 150px;
+  font-size: 1.2em;
+  color: #333;
+  border-style: none;
+  cursor: pointer;
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #eee), color-stop(50%, #ccc)) right;
+  background: linear-gradient(to left, #eee 50%, #ccc 50%) right;
+  background-size: 200%;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+.appointment table.appointform tr td input.reset_button:hover {
+  background-position: left;
+}
+
+.appointment table.appointform tr td select {
+  padding: 5px;
+}
+
+.appointment table.appointform tr label {
+  margin: 0 5px 0 2px;
+  cursor: pointer;
+}
+
+.appointment table.appointform.sp {
+  display: none;
+  width: 100%;
+}
+
+.appointment table.appointform.sp tr th {
+  text-align: left;
+  font-weight: normal;
+  font-size: 1.4rem;
+  padding: 10px 10px 0;
+}
+
+.appointment table.appointform.sp tr th span {
+  float: left;
+  color: #CC0000;
+  font-size: 1.4rem;
+}
+
+.appointment table.appointform.sp tr th p {
+  padding: 0px;
+  font-size: 1.2rem;
+  color: #999999;
+}
+
+.appointment table.appointform.sp tr td {
+  text-align: left;
+  font-weight: normal;
+  font-size: 12px;
+  padding: 10px;
+  border-bottom: solid 1px #e6e6e6;
+}
+
+.appointment table.appointform.sp tr td.radioform span {
+  padding: 0 10px 0 5px;
+}
+
+.appointment table.appointform.sp tr td.checkbox span {
+  padding: 0 10px 0 5px;
+}
+
+.appointment table.appointform.sp tr td input.cn, .appointment table.appointform.sp tr td input.nm {
+  border: 1px solid #ccc;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 5px;
+}
+
+.appointment table.appointform.sp tr td input.age {
+  border: 1px solid #ccc;
+  width: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 5px;
+}
+
+.appointment table.appointform.sp tr td input.tel {
+  border: 1px solid #ccc;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 5px;
+}
+
+.appointment table.appointform.sp tr td input.add {
+  border: 1px solid #ccc;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 5px;
+}
+
+.appointment table.appointform.sp tr td input.zip {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.appointment table.appointform.sp tr td input.mf {
+  border: 1px solid #ccc;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 5px;
+}
+
+.appointment table.appointform.sp tr td p.comment-red {
+  margin-top: 5px;
+  color: #ff3300;
+  line-height: 150%;
+}
+
+.appointment table.appointform.sp tr td p.comment {
+  margin-top: 5px;
+  color: #666;
+  line-height: 150%;
+}
+
+.appointment table.appointform.sp tr td .reserved {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.appointment table.appointform.sp tr td input.zipbtn {
+  padding: 7px;
+  font-size: 1.0em;
+  background-color: #d93600;
+  color: #fff;
+  border-style: none;
+  width: 145px;
+  margin-top: 5px;
+}
+
+.appointment table.appointform.sp tr td textarea {
+  border: 1px solid #ccc;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  resize: none;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.appointment table.appointform.sp tr td input.submit_button {
+  padding: 10px;
+  width: 150px;
+  font-size: 1.2em;
+  margin: 5px;
+}
+
+.appointment table.appointform.sp tr td input.reset_button {
+  padding: 10px;
+  width: 150px;
+  font-size: 1.2em;
+  margin: 5px;
+}
+
+.appointment table.appointform.sp tr td.submit_wrap {
+  padding: 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .appointment .content {
+    margin-bottom: 0;
+  }
+  .appointment table.appointform {
+    display: none;
+  }
+  .appointment table.appointform.sp {
+    display: table;
+  }
+  .appointment .appointment-section .note-wrap {
+    padding: 50px 20px 0px;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
 }
 
 /* ==========================================================
@@ -6692,6 +7147,12 @@ Copyright (c) 2013 Daniel Eden
   background-color: #d2bea5;
 }
 
+@media screen and (max-width: 576px) {
+  .inquiry-header {
+    height: 50px;
+  }
+}
+
 .inquiry-header h1.head {
   font-family: "futura-pt",sans-serif;
   width: 100%;
@@ -6963,9 +7424,6 @@ Copyright (c) 2013 Daniel Eden
 }
 
 @media screen and (max-width: 768px) {
-  .inquiry .inquiry-header {
-    height: 50px;
-  }
   .inquiry .content {
     margin-bottom: 0;
   }

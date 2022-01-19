@@ -5,15 +5,15 @@
     <section class="content">
 
 		<div class="appointment-header">
-			<h1 class="head f20">お問い合わせ</h1>
+			<h1 class="head f20">診療予約・矯正無料相談</h1>
 		</div>
 
 	<!-- appointment-section -->
 		<section class="appointment-section">
 						
-			<h2 class="head f24">診療予約・矯正無料相談仮予約フォーム</h2>
-			<div class="detail f16">個人情報の取り扱いについてご同意いただける方のみ、以下のフォームにお進みください。</div>
-			<div class="privacy f14">
+			<h2 class="head f30">診療予約・矯正無料相談<br class="sp-onlyt">仮予約フォーム</h2>
+			<div class="detail f18">個人情報の取り扱いについてご同意いただける方のみ、以下のフォームにお進みください。</div>
+			<div class="privacy f16">
 				<span>個人情報の取り扱いについて</span>
 				アンチエイジングデンタルクリニック恵比寿は、業務上でお客さまの個人情報を取り扱うにあたって、適正な管理・保護に努めることが社会的責務であることを十分に認識し、以下の「個人情報保護方針」を定め実践していくことでお客さまやの信頼に応えてまいります。<br>
 				<br>
@@ -23,7 +23,7 @@
 				<br>上記各項における取組みを必要に応じて見直し、改善してまいります。 
 			</div>
 			
-			<ul class="detail f14">
+			<ul class="detail f16">
 				<li>初診の方の最終予約受付時間は月・木は19時、火・水・金・土は18時になります。</li>
 				<li>当日、前日の予約は、取りづらい場合がございますので、５日程度の余裕を持ってご予約頂きますようお願い致します。
 				お急ぎの場合はお電話にてご連絡ください。</li>
@@ -34,37 +34,37 @@
 				お急ぎの方はお電話にてご予約ください。</li>
 			</ul>
 			
-			<form id="mailform" action="<?php echo get_template_directory_uri(); ?>/appoint/send.cgi" method="post" onsubmit="return sendmail(this);">
-			<table class="appointform f16" border="0" cellspacing="0" cellpadding="0">
+			<form id="mailform" action="<?php echo get_stylesheet_directory_uri(); ?>/appoint/send.cgi" method="post" onsubmit="return sendmail(this);">
+			<table class="appointform f18" border="0" cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr>
 						<th>ご予約について<span>*</span><p>reservation</p></th>
 						<td class="radioform">
-							<input type="radio" name="ご予約について(必須)" value="初めて" /><span>初めて</span>
-							<input type="radio" name="ご予約について(必須)" value="再診" /><span>再診</span>
-							<input type="radio" name="ご予約について(必須)" value="定期検診" /><span>定期検診</span>
-							<input type="radio" name="ご予約について(必須)" value="矯正無料相談" /><span>矯正無料相談</span>
-							<input type="radio" name="ご予約について(必須)" value="審美治療相談" /><span>審美治療相談</span>
-							<p class="comment f12">矯正無料相談・審美治療無料相談はドクターによるカウンセリング３０分となります。（初回に限らせて頂きます）</p>
+							<input type="radio" id="radio1" name="ご予約について(必須)" value="初めて"/><label for="radio1">初めて</label>
+							<input type="radio" id="radio2" name="ご予約について(必須)" value="再診" /><label for="radio2">再診</label>
+							<input type="radio" id="radio3" name="ご予約について(必須)" value="定期検診" /><label for="radio3">定期検診</label>
+							<input type="radio" id="radio4" name="ご予約について(必須)" value="矯正無料相談" /><label for="radio4">矯正無料相談</label>
+							<input type="radio" id="radio5" name="ご予約について(必須)" value="審美治療相談" /><label for="radio5">審美治療相談</label>
+							<p class="comment f14">矯正無料相談・審美治療無料相談はドクターによるカウンセリング３０分となります。（初回に限らせて頂きます）</p>
 						</td>
 					</tr>
 					<tr>
 						<th>ご希望の診療内容<p>treatment</p></th>
 						<td class="checkbox">
-							<input class="cb" type="checkbox" name="ご希望の診療内容" value="一般歯科治療"><span>一般歯科治療</span>
-							<input class="cb" type="checkbox" name="ご希望の診療内容" value="審美治療"><span>審美治療</span>
-							<input class="cb" type="checkbox" name="ご希望の診療内容" value="矯正治療"><span>矯正治療</span>
-							<input class="cb" type="checkbox" name="ご希望の診療内容" value="検診"><span>検診</span>
-							<input class="cb" type="checkbox" name="ご希望の診療内容" value="クリーニング"><span>クリーニング</span><br>
-							<input class="cb" type="checkbox" name="ご希望の診療内容" value="アンチエイジング・点滴"><span>アンチエイジング・点滴</span>
-							<input class="cb" type="checkbox" name="ご希望の診療内容" value="その他"><span>その他</span>
+							<input class="cb" type="checkbox" id="checkbox0" name="ご希望の診療内容" value="一般歯科治療"><label for="checkbox0">一般歯科治療</label>
+							<input class="cb" type="checkbox" id="checkbox1" name="ご希望の診療内容" value="審美治療"><label for="checkbox1">審美治療</label>
+							<input class="cb" type="checkbox" id="checkbox2" name="ご希望の診療内容" value="矯正治療"><label for="checkbox2">矯正治療</label>
+							<input class="cb" type="checkbox" id="checkbox3" name="ご希望の診療内容" value="検診"><label for="checkbox3">検診</label>
+							<input class="cb" type="checkbox" id="checkbox4" name="ご希望の診療内容" value="クリーニング"><label for="checkbox4">クリーニング</label><br>
+							<input class="cb" type="checkbox" id="checkbox5" name="ご希望の診療内容" value="アンチエイジング・点滴"><label for="checkbox5">アンチエイジング・点滴</label>
+							<input class="cb" type="checkbox" id="checkbox6" name="ご希望の診療内容" value="その他"><label for="checkbox6">その他</label>
 						</td>
 					</tr>
 					<tr>
 						<th>診察券番号<p>card number</p></th>
 						<td>
 							<input class="cn" type="text" name="診察券番号" size="30">
-							<p class="comment f12">お持ちの方のみで結構です。</p>
+							<p class="comment f14">お持ちの方のみで結構です。</p>
 						</td>
 					</tr>
 					<tr>
@@ -78,8 +78,8 @@
 					<tr>
 						<th>性別<p>sex</p></th>
 						<td class="radioform">
-							<input type="radio" name="性別" value="女性" /><span>女性</span>
-							<input type="radio" name="性別" value="男性" /><span>男性</span>
+							<input type="radio" id="radio01" name="性別" value="女性" /><label for="radio01">女性</label>
+							<input type="radio" id="radio02" name="性別" value="男性" /><label for="radio02">男性</label>
 						</td>
 					</tr>
 					<tr>
@@ -91,14 +91,14 @@
 						
 						<td>
 							<input class="tel" type="text" name="電話番号(必須)" size="30">
-							<p class="comment f12">市外局番からハイフンを入れてご記入ください。<br>ご希望の診療内容、日時の確認やご希望日に添えない場合に、お電話させて頂くことがございますので、日中の連絡のつく電話番号のご記入をお願い致します。</p>
+							<p class="comment f14">市外局番からハイフンを入れてご記入ください。<br>ご希望の診療内容、日時の確認やご希望日に添えない場合に、お電話させて頂くことがございますので、日中の連絡のつく電話番号のご記入をお願い致します。</p>
 						</td>
 					</tr>
 					<tr>
 						<th>メールアドレス<span>*</span><p>e-mail address</p></th>
 						<td>
 							<input class="mf" type="text" name="email(必須)" size="50" maxlength="50" />
-							<p class="comment f12">当院から必ず折り返し確認のご連絡をさせていただきますので、
+							<p class="comment f14">当院から必ず折り返し確認のご連絡をさせていただきますので、
 								日中の連絡のつくメールアドレスの記入をお願い致します。<br>
 								携帯のメルアドはドメイン指定受信を解除、
 								もしくは a-a-d-c.com の追加をしてください。</p>
@@ -111,9 +111,9 @@
 					<tr>
 						<th>当院からの連絡方法<p>contact</p></th>
 						<td class="radioform">
-							<input type="radio" name="連絡方法" value="電話" /><span>電話</span>
-							<input type="radio" name="連絡方法" value="メール" /><span>メール</span>
-							<input type="radio" name="連絡方法" value="どちらでも" /><span>どちらでも</span>
+							<input type="radio" name="連絡方法" id="radio10" value="電話" /><label for="radio10">電話</label>
+							<input type="radio" name="連絡方法" id="radio11" value="メール" /><label for="radio11">メール</label>
+							<input type="radio" name="連絡方法" id="radio12" value="どちらでも" /><label for="radio12">どちらでも</label>
 						</td>
 					</tr>					
 					<tr>
@@ -272,15 +272,15 @@
 							</optgroup>
 							</select>
 							</div>
-							<p class="comment-red f12">日曜 祝日は休診です。尚、矯正無料相談の最終受付は17時45分とさせて頂いております。</p>
-							<p class="comment f12">当日・前日は予約が取りづらい場合がございますので、
+							<p class="comment-red f14">日曜 祝日は休診です。尚、矯正無料相談の最終受付は17時45分とさせて頂いております。</p>
+							<p class="comment f14">当日・前日は予約が取りづらい場合がございますので、
 								5日前程度の余裕を持ってご予約いただきますようお願い致します。お急ぎの場合はお電話にてご連絡ください。<br>
 								希望日時が医院の休診時間等と重なっていないかご確認ください。<br>
 								希望日時に添えない場合もございますので予めご了承ください。</p>
 							<br>
-							<input name="来院希望日時" type="checkbox" value="いつでも構わない">
-							<label for="itsudemo">←いつでも構わない方はチェック</label>
-							<p class="comment f12">当医院より、空いている日時を追ってお知らせ致します。</p>
+							<input name="来院希望日時" id="checkbox10" type="checkbox" value="いつでも構わない">
+							<label for="checkbox10">←いつでも構わない方はチェック</label>
+							<p class="comment f14">当医院より、空いている日時を追ってお知らせ致します。</p>
 						</td>
 					</tr>
 					<tr>
@@ -326,7 +326,7 @@
 			</table>
 			</form>
 			
-			<form id="mailform" action="<?php echo get_template_directory_uri(); ?>/appoint/send.cgi" method="post" onsubmit="return sendmail(this);">
+			<form id="mailform" action="<?php echo get_stylesheet_directory_uri(); ?>/appoint/send.cgi" method="post" onsubmit="return sendmail(this);">
 			<table class="appointform sp f16" border="0" cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr>
@@ -334,12 +334,12 @@
 					</tr>
 					<tr>
 						<td class="radioform">
-							<input type="radio" name="ご予約について(必須)" value="初めて" /><span>初めて</span>
-							<input type="radio" name="ご予約について(必須)" value="再診" /><span>再診</span>
-							<input type="radio" name="ご予約について(必須)" value="定期検診" /><span>定期検診</span><br>
-							<input type="radio" name="ご予約について(必須)" value="矯正無料相談" /><span>矯正無料相談</span>
-							<input type="radio" name="ご予約について(必須)" value="審美治療相談" /><span>審美治療相談</span>
-							<p class="comment f12">矯正無料相談・審美治療無料相談はドクターによるカウンセリング３０分となります。（初回に限らせて頂きます）</p>
+							<input type="radio" id="radio20" name="ご予約について(必須)" value="初めて" /><label for="radio20">初めて</label>
+							<input type="radio" id="radio21" name="ご予約について(必須)" value="再診" /><label for="radio21">再診</label>
+							<input type="radio" id="radio22" name="ご予約について(必須)" value="定期検診" /><label for="radio22">定期検診</label><br>
+							<input type="radio" id="radio23" name="ご予約について(必須)" value="矯正無料相談" /><label for="radio23">矯正無料相談</label>
+							<input type="radio" id="radio24" name="ご予約について(必須)" value="審美治療相談" /><label for="radio24">審美治療相談</label>
+							<p class="comment f14">矯正無料相談・審美治療無料相談はドクターによるカウンセリング３０分となります。（初回に限らせて頂きます）</p>
 						</td>
 					</tr>
 					<tr>
@@ -347,13 +347,13 @@
 					</tr>
 					<tr>
 						<td class="checkbox">
-							<input type="checkbox" name="ご希望の診療内容" value="一般歯科治療"><span>一般歯科治療</span>
-							<input type="checkbox" name="ご希望の診療内容" value="審美治療"><span>審美治療</span>
-							<input type="checkbox" name="ご希望の診療内容" value="矯正治療"><span>矯正治療</span><br>
-							<input type="checkbox" name="ご希望の診療内容" value="検診"><span>検診</span>
-							<input type="checkbox" name="ご希望の診療内容" value="クリーニング"><span>クリーニング</span>
-							<input type="checkbox" name="ご希望の診療内容" value="アンチエイジング・点滴"><span>アンチエイジング・点滴</span><br>
-							<input type="checkbox" name="ご希望の診療内容" value="その他"><span>その他</span>
+							<input type="checkbox" id="checkbox20" name="ご希望の診療内容" value="一般歯科治療"><label for="checkbox20">一般歯科治療</label>
+							<input type="checkbox" id="checkbox21" name="ご希望の診療内容" value="審美治療"><label for="checkbox21">審美治療</label>
+							<input type="checkbox" id="checkbox22" name="ご希望の診療内容" value="矯正治療"><label for="checkbox22">矯正治療</label><br>
+							<input type="checkbox" id="checkbox23" name="ご希望の診療内容" value="検診"><label for="checkbox23">検診</label>
+							<input type="checkbox" id="checkbox24" name="ご希望の診療内容" value="クリーニング"><label for="checkbox24">クリーニング</label><br>
+							<input type="checkbox" id="checkbox25" name="ご希望の診療内容" value="アンチエイジング・点滴"><label for="checkbox25">アンチエイジング・点滴</label>
+							<input type="checkbox" id="checkbox26" name="ご希望の診療内容" value="その他"><label for="checkbox26">その他</label>
 						</td>
 					</tr>
 					<tr>
@@ -362,7 +362,7 @@
 					<tr>
 						<td>
 							<input class="cn" type="text" name="診察券番号" size="30">
-							<p class="comment f12">お持ちの方のみで結構です。</p>
+							<p class="comment f14">お持ちの方のみで結構です。</p>
 						</td>
 					</tr>
 					<tr>
@@ -382,8 +382,8 @@
 					</tr>
 					<tr>
 						<td class="radioform">
-							<input type="radio" name="性別" value="女性" /><span>女性</span>
-							<input type="radio" name="性別" value="男性" /><span>男性</span>
+							<input type="radio" name="性別" value="女性" id="radio30"/><label for="radio30">女性</label>
+							<input type="radio" name="性別" value="男性" id="radio31"/><label for="radio31">男性</label>
 						</td>
 					</tr>
 					<tr>
@@ -398,7 +398,7 @@
 					<tr>
 						<td>
 							<input class="tel" type="text" name="電話番号(必須)" size="30">
-							<p class="comment f12">市外局番からハイフンを入れてご記入ください。<br>ご希望の診療内容、日時の確認やご希望日に添えない場合に、お電話させて頂くことがございますので、日中の連絡のつく電話番号のご記入をお願い致します。</p>
+							<p class="comment f14">市外局番からハイフンを入れてご記入ください。<br>ご希望の診療内容、日時の確認やご希望日に添えない場合に、お電話させて頂くことがございますので、日中の連絡のつく電話番号のご記入をお願い致します。</p>
 						</td>
 					</tr>
 					<tr>
@@ -407,7 +407,7 @@
 					<tr>
 						<td>
 							<input class="mf" type="text" name="email(必須)" size="40" maxlength="50" />
-							<p class="comment f12">当院から必ず折り返し確認のご連絡をさせていただきますので、
+							<p class="comment f14">当院から必ず折り返し確認のご連絡をさせていただきますので、
 								日中の連絡のつくメールアドレスの記入をお願い致します。<br>
 								携帯のメルアドはドメイン指定受信を解除、
 								もしくは a-a-d-c.com の追加をしておいてください。</p>
@@ -424,9 +424,9 @@
 					</tr>
 					<tr>
 						<td class="radioform">
-							<input type="radio" name="連絡方法" value="電話" /><span>電話</span>
-							<input type="radio" name="連絡方法" value="メール" /><span>メール</span>
-							<input type="radio" name="連絡方法" value="どちらでも" /><span>どちらでも</span>
+							<input type="radio" name="連絡方法" id="radio40" value="電話" /><label for="radio40">電話</label>
+							<input type="radio" name="連絡方法" id="radio41" value="メール" /><label for="radio41">メール</label>
+							<input type="radio" name="連絡方法" id="radio42" value="どちらでも" /><label for="radio42">どちらでも</label>
 						</td>
 					</tr>					
 					<tr>
@@ -587,15 +587,15 @@
 							</optgroup>
 							</select>
 							</div>
-							<p class="comment-red f12">日曜 祝日は休診です。尚、矯正無料相談の最終受付は17時45分とさせて頂いております。</p>
-							<p class="comment f12">当日・前日は予約が取りづらい場合がございますので、
+							<p class="comment-red f14">日曜 祝日は休診です。尚、矯正無料相談の最終受付は17時45分とさせて頂いております。</p>
+							<p class="comment f14">当日・前日は予約が取りづらい場合がございますので、
 								3日前程度の余裕を持ってご予約いただきますようお願い致します。お急ぎの場合はお電話にてご連絡ください。<br>
 								希望日時が医院の休診時間等と重なっていないかご確認ください。<br>
 								希望日時に添えない場合もございますので予めご了承ください。</p>
 							<br>
-							<input name="来院希望日時" type="checkbox" value="いつでも構わない">
-							<label for="itsudemo">←いつでも構わない方はチェック</label>
-							<p class="comment f12">当医院より、空いている日時を追ってお知らせ致します。</p>
+							<input name="来院希望日時" type="checkbox" value="いつでも構わない" id="checkbox40">
+							<label for="checkbox40">←いつでも構わない方はチェック</label>
+							<p class="comment f14">当医院より、空いている日時を追ってお知らせ致します。</p>
 						</td>
 					</tr>
 					<tr>
@@ -651,12 +651,12 @@
 			</table>
 			</form>
 		
-			<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/mailform/mailform.js" charset="utf-8"></script>
-			<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/mailform/postcodes/get.cgi?js" charset="utf-8"></script>
+			<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/mailform/mailform.js" charset="utf-8"></script>
+			<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/mailform/postcodes/get.cgi?js" charset="utf-8"></script>
 
 			<div class="note-wrap">
 				<div class="head f20">当院からのお願い</div>
-				<div class="note f12">
+				<div class="note f16">
 					<p>当院では、一人一人の患者様の治療を安心安全に、円滑に行うために診療時間を予約制にさせて頂いております。<br>
 					それにより患者様の貴重なお時間を無駄にしないよう、スタッフ一同で日々努めております。<br>
 					患者様に、予約について当院からのお願いがありますので、ご一読頂き、ご理解ご協力頂けますよう、よろしくお願い致します。</p>
@@ -697,7 +697,7 @@
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/icon-logo-red.png" alt="logo">
                     </a>
                 </li>
-                <li>お問い合わせ</li>
+                <li>診療予約・矯正無料相談</li>
             </ul>
         </div>
     </section>

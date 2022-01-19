@@ -13,7 +13,7 @@
     <section class="content">
 
 		<div class="information-header">
-			<h1 class="head f28">Information</h1>
+			<h1 class="head f42">Information</h1>
 		</div>
 
 		<section class="information-section">

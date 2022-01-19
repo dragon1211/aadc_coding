@@ -12,6 +12,9 @@
 	position: relative;
 	overflow: hidden;
 	background-color: #d2bea5;
+    @include mq(smt){
+        height: 50px;
+    }
 }
 .appointment-header h1.head {
 	font-family: "futura-pt",sans-serif;
@@ -31,9 +34,384 @@
 
 .appointment{
 
+.content{
+    margin-bottom: 70px;
+}
+
+/* ------------------------------------------------ content */
+/* information section */
+.appointment-section {
+    max-width: 840px;
+	padding: 80px 20px;
+	margin: 0 auto;	
+
+    h2.head {
+        width: 100%;
+        font-weight: 400;
+        text-align: center;
+        letter-spacing: 0.4rem;
+        margin-bottom: 40px;
+        line-height: 150%;
+    }
+    div.detail {
+        letter-spacing: 0.1rem;
+        font-weight: 200;
+        line-height: 150%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    div.link {
+        letter-spacing: 0.1rem;
+        font-weight: 200;
+        line-height: 150%;
+        text-align: center;
+        margin-bottom: 50px;
+        a {
+            display: block;
+            margin-bottom: 30px;
+            padding: 10px;
+            width: 240px;
+            background-color: #eee;
+            color: #333;
+            border-style: none;
+        }
+    }
+    div.detail-left {
+        width: 800px;
+        margin: 0 auto 50px;
+        letter-spacing: 0.1rem;
+        font-weight: 200;
+        line-height: 150%;
+        text-align: left;
+    }
+    .privacy {
+        letter-spacing: 0.1rem;
+        font-weight: 300;
+        line-height: 160%;
+        text-align: justify;
+        margin: 0 auto 50px;
+    }
+    ul.detail {
+        margin: 0 auto 50px;
+        padding-left:1em;
+        li {
+            letter-spacing: 0.1rem;
+            font-weight: 200;
+            line-height: 160%;
+            text-align: justify;
+            text-indent:-1em;
+            list-style-type:none;	
+            &:before{ 
+                content:"※";
+            }
+        }
+    }
+    .note-wrap {
+        max-width: 700px;
+        margin: 50px auto 0;
+        padding: 30px;
+        background-color: rgba(210,190,165,0.2);
+        overflow: hidden;	
+        .head {
+            width: 100%;
+            font-weight: 400;
+            text-align: center;
+            letter-spacing: 0.4rem;
+            margin-bottom: 20px;
+            line-height: 150%;	
+        }
+        .note {
+            letter-spacing: 0.1rem;
+            font-weight: 200;
+            line-height: 150%;
+            margin-bottom: 50px;	
+            p {
+                margin-bottom: 30px;
+            }
+            .title {
+                font-weight: 400;	
+            }
+        }
+    }
+}
 
 
+form#mailform {
+	margin: 0 auto;
+	overflow: hidden;
+}
 
+table.appointform {
+	width: 100%;
+    tr {
+        border-bottom: solid 1px #e6e6e6;		
+        &:last-child {
+            border-bottom: none;		
+        }
+        th {
+            width: 200px;
+            font-size: 1.4rem;
+            text-align: left;
+            font-weight: normal;
+            padding: 20px;	
+            span {
+                float: left;
+                color: #CC0000;
+                font-size: 1.4rem;
+            }
+            p {
+                padding: 0px;
+                font-size: 1.2rem;
+                color: #999999;
+            }
+        }
+        td {
+            font-size: 1.4rem;
+            text-align: left;
+            font-weight: normal;
+            font-size: 12px;
+            padding: 20px;		
+        }
+        td.radioform span {
+            padding: 0 20px 0 5px;
+        }
+        td.checkbox span {
+            padding: 0 20px 0 5px;
+        }
+        td.checkbox input.cb {
+            margin: 5px 0;
+        }
+        td input.cn, td input.nm {
+            width: 100%;
+            padding: 5px;
+        }
+        td input.age {
+            width: 50px;
+            padding: 5px;		
+        }
+        td input.tel {
+            width: 150px;
+            padding: 5px;		
+        }
+        td input.add {
+            padding: 5px;		
+        }
+        td input.zip {
+            padding: 5px;
+            margin-right: 10px;	
+        }
+        td input.mf {
+            width: 50%;
+            padding: 5px;		
+        }
+        td p.comment {
+            display: block;
+            margin-top: 5px;
+            color: #666;
+            line-height: 150%;
+        }
+        td p.comment-red {
+            display: block;
+            margin-top: 5px;
+            color: #666;
+            line-height: 150%;
+            color: #ff3300;		
+        }
+        td .reserved {
+            display: block;
+            margin-bottom: 10px;
+        }
+        td input.zipbtn {
+            padding: 7px;
+            font-size: 1.0em;
+            color: #fff;
+            border-style: none;	    
+            cursor: pointer;
+
+            background: linear-gradient(to left, #d93600 50%, #e65128 50%) right;
+            background-size: 200%;
+            transition: .3s ease-out;
+            &:hover{
+                background-position: left;
+            }
+        }
+        td textarea {
+            resize: none;
+            border: 1px solid #ccc;
+            padding: 5px;
+        }
+        td input.submit_button {
+            padding: 10px;
+            width: 150px;
+            font-size: 1.2em;
+            color: #fff;
+            margin-right: 10px;
+            border-style: none;	    
+            cursor: pointer;
+
+            background: linear-gradient(to left, #d93600 50%, #e65128 50%) right;
+            background-size: 200%;
+            transition: .3s ease-out;
+            &:hover{
+                background-position: left;
+            }
+        }
+        td input.reset_button {
+            padding: 10px;
+            width: 150px;
+            font-size: 1.2em;
+            color: #333;
+            border-style: none;
+            cursor: pointer;
+
+            background: linear-gradient(to left, #eee 50%, #ccc 50%) right;
+            background-size: 200%;
+            transition: .3s ease-out;
+            &:hover{
+                background-position: left;
+            }
+        }
+
+        td select{
+            padding: 5px;
+        }
+
+        label{
+            margin:0 5px 0 2px;
+            cursor: pointer;
+        }
+    }
+}
+
+
+table.appointform.sp {
+    display: none;
+	width: 100%;
+    tr{
+        th {	
+            text-align: left;
+            font-weight: normal;
+            font-size: 1.4rem;
+            padding: 10px 10px 0;	
+            span {
+                float: left;
+                color: #CC0000;
+                font-size: 1.4rem;
+            }
+            p {
+                padding: 0px;
+                font-size: 1.2rem;
+                color: #999999;
+            }
+        }
+        td {
+            text-align: left;
+            font-weight: normal;
+            font-size: 12px;
+            padding: 10px;
+            border-bottom: solid 1px #e6e6e6;		
+        }
+        td.radioform span {
+            padding: 0 10px 0 5px;
+        }
+        td.checkbox span {
+            padding: 0 10px 0 5px;
+        }
+        td input.cn,  td input.nm {
+            border: 1px solid #ccc;
+            width:100%; box-sizing:border-box;
+            padding: 5px;
+        }
+        td input.age {
+            border: 1px solid #ccc;
+            width:50%; box-sizing:border-box;	
+            padding: 5px;		
+        }
+        td input.tel {
+            border: 1px solid #ccc;
+            width:100%; box-sizing:border-box;	
+            padding: 5px;		
+        }
+        td input.add {
+            border: 1px solid #ccc;
+            width:100%; box-sizing:border-box;	
+            padding: 5px;	
+        }
+        td input.zip {
+            padding: 5px;
+            margin-right: 10px;	
+        }
+        td input.mf {
+            border: 1px solid #ccc;
+            width:100%; box-sizing:border-box;	
+            padding: 5px;		
+        }
+        td p.comment-red {
+            margin-top: 5px;
+            color: #ff3300;
+            line-height: 150%;
+        }
+        td p.comment {
+
+            margin-top: 5px;
+            color: #666;
+            line-height: 150%;
+        }
+        td .reserved {
+            display: block;
+            margin-bottom: 10px;
+        }
+        td input.zipbtn {
+            padding: 7px;
+            font-size: 1.0em;
+            background-color: #d93600;
+            color: #fff;
+            border-style: none;	    
+            width: 145px;
+            margin-top: 5px;
+        }
+        td textarea {
+            border: 1px solid #ccc;
+            width:100%; box-sizing:border-box;		
+            resize: none;
+            border: 1px solid #ccc;
+            padding: 5px;
+        }
+        td input.submit_button {
+            padding: 10px;
+            width: 150px;
+            font-size: 1.2em;
+            margin: 5px;
+        }
+        td input.reset_button {
+            padding: 10px;
+            width: 150px;
+            font-size: 1.2em;
+            margin: 5px;
+        }
+        td.submit_wrap{
+            padding: 10px 0;
+        }
+    }
+}
+
+
+@include mq(sm2){
+    .content{
+        margin-bottom: 0;
+    }
+    table.appointform{
+        display: none;
+        &.sp{
+            display: table;
+        }
+    }
+    .appointment-section .note-wrap{
+        padding: 50px 20px 0px;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+}
 
 //------end----------
 }
