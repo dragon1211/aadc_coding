@@ -33,7 +33,10 @@
 
 .content{
     font-weight: 400;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    @include mq(smt){
+        margin-bottom: 0px;
+    }
 }
 
 /* information */
@@ -158,9 +161,9 @@
             li {
                 text-align: center;
                 font-weight: 300;
-                padding: 10px;
+                padding: 10px 20px;
                 margin: 0px auto;
-                max-width: 700px;
+                max-width: 740px;
                 background-color: rgba(210,190,165,0.2);
                 border: 1px solid #fff;
             }

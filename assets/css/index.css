@@ -6436,7 +6436,13 @@ Copyright (c) 2013 Daniel Eden
 
 .information .content {
   font-weight: 400;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 576px) {
+  .information .content {
+    margin-bottom: 0px;
+  }
 }
 
 .information .information-section {
@@ -6582,9 +6588,9 @@ Copyright (c) 2013 Daniel Eden
 .information .information-section .info ul.aplus-merit li {
   text-align: center;
   font-weight: 300;
-  padding: 10px;
+  padding: 10px 20px;
   margin: 0px auto;
-  max-width: 700px;
+  max-width: 740px;
   background-color: rgba(210, 190, 165, 0.2);
   border: 1px solid #fff;
 }
