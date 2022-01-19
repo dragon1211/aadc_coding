@@ -278,7 +278,11 @@ table.appointform {
 
         label{
             margin:0 5px 0 2px;
+            font-size: 1.4rem;
             cursor: pointer;
+            @include mq(sm2){
+                font-size: 1.2rem;
+            }
         }
     }
 }

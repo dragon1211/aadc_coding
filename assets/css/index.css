@@ -5912,7 +5912,14 @@ Copyright (c) 2013 Daniel Eden
 
 .appointment table.appointform tr label {
   margin: 0 5px 0 2px;
+  font-size: 1.4rem;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .appointment table.appointform tr label {
+    font-size: 1.2rem;
+  }
 }
 
 .appointment table.appointform.sp {
