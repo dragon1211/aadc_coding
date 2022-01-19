@@ -7046,6 +7046,15 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
+/* ==========================================================
+	TOP-PAGE
+========================================================== */
+.home-container {
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
 .home-notice {
   width: 100%;
   background-color: white;
@@ -8011,6 +8020,7 @@ Copyright (c) 2013 Daniel Eden
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: auto;
 }
 
 .home-reservation .submit {

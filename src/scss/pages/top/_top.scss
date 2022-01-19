@@ -1,3 +1,15 @@
+@charset "utf-8";
+
+/* ==========================================================
+	TOP-PAGE
+========================================================== */
+
+.home-container{
+	max-width: 1240px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
 // notice
 .home-notice {
 	width: 100%;
@@ -851,7 +863,8 @@
 		letter-spacing: 0;
 		color: #999;
 		display: flex;
-		justify-content: center
+		justify-content: center;
+		margin: auto
 	}
 	.submit {
 		@include base-font();

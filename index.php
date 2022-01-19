@@ -202,7 +202,7 @@
 					<a href="<?php echo home_url(); ?>/about" class="sp-onlyt">当院についてはこちら</a>
 				</h2>
 			</div>
-			<div class="container">
+			<div class="home-container">
 				<div class="home-outline__copy">当院では、患者様一人一人のニーズにお応えできるよう、<br>
 					歯科治療とアンチエイジング医療も含めた総合的な診療を行なっております。<br>
 					確かな技術提供を第一に、通院満足度の高い環境作りとホスピタリティにあふれた患者様対応ができるよう、スタッフ一同努めております。<br>
@@ -255,7 +255,7 @@
 				</div>
 			</div>
 			<div class="home-section__wrapper">
-				<div class="container">
+				<div class="home-container">
 					<h2 class="home-section__heading">DENTAL ANTIAGING</h2>
 					<div class="home-section__read">歯と歯肉の健康を保ち　噛む機能を向上させ<br>
 						不調のないお口で毎日を過ごすことを目的とします<br>
@@ -284,7 +284,7 @@
 		</section>
 		
 		<section class="home-reservation">
-			<div class="container">
+			<div class="home-container">
 				<h2 class="home-reservation__heading">RESERVATION</h2>
 				<h3 class="home-reservation__sub-heading">診療予約・矯正無料相談</h3>
 				<div class="home-reservation__text-read">
