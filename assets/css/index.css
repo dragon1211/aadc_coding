@@ -6015,7 +6015,7 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .en table.mailform tr {
-  border-bottom: solid 1px #e6e6e6;
+  border-bottom: solid 1px #eee;
 }
 
 .en table.mailform tr:last-child {
@@ -6049,7 +6049,7 @@ Copyright (c) 2013 Daniel Eden
 
 .en table.mailform tr td input.mf, .en table.mailform tr td input.nm {
   width: 300px;
-  padding: 5px;
+  padding: 10px;
   border: 1px solid #ddd;
 }
 
@@ -6058,7 +6058,7 @@ Copyright (c) 2013 Daniel Eden
   height: 120px;
   resize: none;
   border: 1px solid #ddd;
-  padding: 5px;
+  padding: 10px;
 }
 
 .en table.mailform tr td input.submit_button {
@@ -6130,7 +6130,7 @@ Copyright (c) 2013 Daniel Eden
   font-weight: normal;
   font-size: 12px;
   padding: 10px;
-  border-bottom: solid 1px #ccc;
+  border-bottom: solid 1px #eee;
 }
 
 .en table.mailform.sp tr td input.mf {
@@ -6163,7 +6163,6 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .en table.mailform.sp tr td.submit_wrap {
-  padding-top: 30px;
   text-align: center;
 }
 
@@ -6483,10 +6482,18 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .information .information-section .information-wrap .info-left .info-left-appoint-btn a {
-  padding: 10px;
-  background: #d93600;
+  padding: 10px 20px;
   color: #fff;
   border-radius: 5px;
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #d93600), color-stop(50%, #e65128)) right;
+  background: linear-gradient(to left, #d93600 50%, #e65128 50%) right;
+  background-size: 200%;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+.information .information-section .information-wrap .info-left .info-left-appoint-btn a:hover {
+  background-position: left;
 }
 
 .information .information-section .information-wrap .info-left .info-left-time {
@@ -6633,6 +6640,303 @@ Copyright (c) 2013 Daniel Eden
 @media screen and (max-width: 576px) {
   .information .information-section .info ul.aplus-merit li {
     text-align: left;
+  }
+}
+
+/* ==========================================================
+	inquiry-page
+========================================================== */
+/* ------------------------------------------------ header */
+.inquiry-header {
+  width: 100%;
+  height: 70px;
+  position: relative;
+  overflow: hidden;
+  background-color: #d2bea5;
+}
+
+.inquiry-header h1.head {
+  font-family: "futura-pt",sans-serif;
+  width: 100%;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  color: #fff;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.inquiry {
+  /* ------------------------------------------------ content */
+  /* information section */
+}
+
+.inquiry .content {
+  margin-bottom: 100px;
+}
+
+.inquiry .inquiry-section {
+  padding: 70px 20px;
+  margin: 0 auto;
+}
+
+.inquiry .inquiry-section h2.head {
+  width: 100%;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 0.4rem;
+  margin-bottom: 20px;
+}
+
+.inquiry .inquiry-section .detail {
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  line-height: 150%;
+  text-align: center;
+  color: #C84520;
+  margin-bottom: 50px;
+}
+
+.inquiry .inquiry-section .detail-left {
+  max-width: 800px;
+  letter-spacing: 0.1rem;
+  font-weight: 200;
+  line-height: 150%;
+  text-align: left;
+  margin: 0 auto 50px;
+}
+
+.inquiry .inquiry-section .privacy {
+  max-width: 800px;
+  letter-spacing: 0.1rem;
+  font-weight: 300;
+  line-height: 160%;
+  text-align: justify;
+  margin: 0 auto 50px;
+}
+
+.inquiry .inquiry-section .privacy span {
+  font-weight: 500;
+  display: block;
+}
+
+.inquiry div#mf_wrapper {
+  max-width: 640px;
+  text-align: left;
+  margin: 0px auto 0px auto;
+  font-family: sans-serif;
+}
+
+.inquiry div#mf_header h1 {
+  font-size: 24px;
+  border-bottom: solid 1px #e6e6e6;
+  margin: 0px;
+  padding: 0px;
+}
+
+.inquiry div#mf_header h2 {
+  font-size: 16px;
+  color: #999999;
+  font-weight: normal;
+  margin: 0px;
+  padding: 0px;
+}
+
+.inquiry form#mailform {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.inquiry table.mailform {
+  width: 100%;
+}
+
+.inquiry table.mailform tr {
+  border-bottom: solid 1px #e6e6e6;
+}
+
+.inquiry table.mailform tr:last-child {
+  border-bottom: none;
+}
+
+.inquiry table.mailform tr th, .inquiry table.mailform tr td {
+  text-align: left;
+  font-weight: normal;
+  font-size: 12px;
+  padding: 20px;
+}
+
+.inquiry table.mailform tr th {
+  width: 200px;
+  font-size: 1.4rem;
+}
+
+.inquiry table.mailform tr th span {
+  float: left;
+  color: #CC0000;
+  font-size: 1.4rem;
+}
+
+.inquiry table.mailform tr th p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.2rem;
+  color: #999999;
+}
+
+.inquiry table.mailform tr td input.mf, .inquiry table.mailform tr td input.nm {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.inquiry table.mailform tr td textarea {
+  width: 500px;
+  resize: none;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.inquiry table.mailform tr td input.submit_button {
+  padding: 10px;
+  width: 150px;
+  font-size: 1.2em;
+  color: #fff;
+  margin-right: 10px;
+  border-style: none;
+  cursor: pointer;
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #d93600), color-stop(50%, #e65128)) right;
+  background: linear-gradient(to left, #d93600 50%, #e65128 50%) right;
+  background-size: 200%;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+.inquiry table.mailform tr td input.submit_button:hover {
+  background-position: left;
+}
+
+.inquiry table.mailform tr td input.reset_button {
+  padding: 10px;
+  width: 150px;
+  font-size: 1.2em;
+  color: #333;
+  border-style: none;
+  cursor: pointer;
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #eee), color-stop(50%, #ccc)) right;
+  background: linear-gradient(to left, #eee 50%, #ccc 50%) right;
+  background-size: 200%;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+.inquiry table.mailform tr td input.reset_button:hover {
+  background-position: left;
+}
+
+.inquiry table.mailform.sp {
+  display: none;
+}
+
+.inquiry table.mailform.sp tr th {
+  text-align: left;
+  font-weight: normal;
+  font-size: 12px;
+  padding: 20px 10px 0;
+  margin: 10px 0;
+  font-size: 1.4rem;
+}
+
+.inquiry table.mailform.sp tr th span {
+  float: left;
+  color: #CC0000;
+  font-size: 1.4rem;
+}
+
+.inquiry table.mailform.sp tr th p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.2rem;
+  color: #999999;
+}
+
+.inquiry table.mailform.sp tr td {
+  text-align: left;
+  font-weight: normal;
+  font-size: 12px;
+  padding: 10px;
+  border-bottom: solid 1px #eee;
+}
+
+.inquiry table.mailform.sp tr td input.mf {
+  border: 1px solid #ccc;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.inquiry table.mailform.sp tr td input.nm {
+  border: 1px solid #ccc;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.inquiry table.mailform.sp tr td textarea {
+  border: 1px solid #ccc;
+  width: 95%;
+  height: 120px;
+  resize: none;
+  padding: 10px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.inquiry table.mailform.sp tr td.submit_wrap {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.inquiry table.mailform.sp tr td input.submit_button {
+  margin: 5px;
+  padding: 10px;
+  max-width: 150px;
+  width: 100%;
+  font-size: 1.2em;
+}
+
+.inquiry table.mailform.sp tr td input.reset_button {
+  margin: 5px;
+  padding: 10px;
+  max-width: 150px;
+  width: 100%;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 768px) {
+  .inquiry .inquiry-header {
+    height: 50px;
+  }
+  .inquiry .content {
+    margin-bottom: 0;
+  }
+  .inquiry table.mailform {
+    display: none;
+  }
+  .inquiry table.mailform.sp {
+    display: table;
   }
 }
 

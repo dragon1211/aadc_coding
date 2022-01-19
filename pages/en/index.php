@@ -5,7 +5,7 @@
     <section class="content">
 
 		<div class="eng-header">
-			<h1 class="head f30">Welcome to Anti-Aging Dental<br class="sp-onlyt"> Clinic ebisu</h1>
+			<h1 class="head f24">Welcome to Anti-Aging Dental<br class="sp-onlyt"> Clinic ebisu</h1>
 		</div>
 		
 		

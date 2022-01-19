@@ -371,7 +371,7 @@ form#mailform {
 table.mailform {
 	width: 100%;
     tr {
-        border-bottom: solid 1px #e6e6e6;
+        border-bottom: solid 1px #eee;
         &:last-child {
             border-bottom: none;	
         }
@@ -399,7 +399,7 @@ table.mailform {
         td{
             input.mf, input.nm {
                 width: 300px;
-                padding: 5px;
+                padding: 10px;
                 border: 1px solid #ddd;	    
             }
             textarea {
@@ -407,7 +407,7 @@ table.mailform {
                 height: 120px;
                 resize: none;
                 border: 1px solid #ddd;		
-                padding: 5px;
+                padding: 10px;
             }
             input.submit_button {
                 padding: 10px;
@@ -473,7 +473,7 @@ table.mailform.sp {
             font-weight: normal;
             font-size: 12px;
             padding: 10px;	
-            border-bottom: solid 1px #ccc;	
+            border-bottom: solid 1px #eee;	
             input.mf {
                 border: 1px solid #ccc;
                 width: 100%;
@@ -500,7 +500,6 @@ table.mailform.sp {
             }
         }
         td.submit_wrap {
-            padding-top: 30px;
             text-align: center;
         }
     }
