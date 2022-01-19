@@ -108,6 +108,7 @@
         &--caption{
             padding: 0 20px;
             font-size: 1.8rem;
+            font-weight: bold;
             color: $color_black;
             max-width: 810px;
             width: 100%;
@@ -132,15 +133,17 @@
         padding: 100px 20px;
         max-width: 1140px;
         margin: auto;
-        font-weight: 500;
+        font-weight: 400;
         color: $color_black;
         .text1{
             max-width: 900px;
             margin:0 auto 100px;
+            line-height: 2;
         }
         .text2{
             max-width: 900px;
             margin:100px auto 0;
+            line-height: 1.8;
         }
     }
 

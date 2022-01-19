@@ -10135,6 +10135,7 @@ Copyright (c) 2013 Daniel Eden
 .eom-content__mainvisual--caption {
   padding: 0 20px;
   font-size: 1.8rem;
+  font-weight: bold;
   color: #333333;
   max-width: 810px;
   width: 100%;
@@ -10160,18 +10161,20 @@ Copyright (c) 2013 Daniel Eden
   padding: 100px 20px;
   max-width: 1140px;
   margin: auto;
-  font-weight: 500;
+  font-weight: 400;
   color: #333333;
 }
 
 .eom-content__body .text1 {
   max-width: 900px;
   margin: 0 auto 100px;
+  line-height: 2;
 }
 
 .eom-content__body .text2 {
   max-width: 900px;
   margin: 100px auto 0;
+  line-height: 1.8;
 }
 
 .eom-content__menu {
@@ -14561,14 +14564,14 @@ ul.cost_ex li span {
   color: white;
 }
 
-.anti-nav__second .eom-nav__container {
+.anti-nav__second .anti-nav__container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
 @media screen and (max-width: 1050px) {
-  .anti-nav__second .eom-nav__container {
+  .anti-nav__second .anti-nav__container {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: end;
@@ -14646,8 +14649,9 @@ ul.cost_ex li span {
 .anti-content__mainvisual--caption {
   padding: 0 20px;
   font-size: 1.8rem;
+  font-weight: bold;
   color: #333333;
-  max-width: 810px;
+  max-width: 750px;
   width: 100%;
   position: absolute;
   bottom: 35px;
@@ -14671,18 +14675,20 @@ ul.cost_ex li span {
   padding: 100px 20px;
   max-width: 1140px;
   margin: auto;
-  font-weight: 500;
+  font-weight: 400;
   color: #333333;
 }
 
 .anti-content__body .text1 {
   max-width: 900px;
   margin: 0 auto 100px;
+  line-height: 2;
 }
 
 .anti-content__body .text2 {
   max-width: 900px;
   margin: 100px auto 0;
+  line-height: 1.8;
 }
 
 .anti-content__menu {
