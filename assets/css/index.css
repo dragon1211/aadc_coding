@@ -6628,9 +6628,6 @@ Copyright (c) 2013 Daniel Eden
     margin-top: 40px;
     text-align: left;
   }
-  .information .information-section .info .sub-intro br {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 576px) {
