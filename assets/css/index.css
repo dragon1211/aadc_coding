@@ -5798,7 +5798,7 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .appointment table.appointform tr td.checkbox input.cb {
-  margin: 5px 0;
+  margin: 5px;
 }
 
 .appointment table.appointform tr td input.cn, .appointment table.appointform tr td input.nm {

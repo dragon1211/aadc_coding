@@ -55,3 +55,12 @@ function pagename_class($classes = '') {
 return $classes;
 }
 add_filter('body_class','pagename_class');
+
+// ウィジェット
+register_sidebar( array(
+   'name'          => 'Widget-BizCalendar',
+   'id'            => 'Widget-BizCalendar',
+   'description'   => 'Biz Calendarのウィジットエリアです。',
+   'before_widget' => '<div id="%1$s" class="widget %2$s">',
+   'after_widget'  => '</div>',
+) );
