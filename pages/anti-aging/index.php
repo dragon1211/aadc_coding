@@ -80,7 +80,7 @@
             <li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/metal-free">メタルフリープログラム</a></li>
             <li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/implant">インプラント</a></li>
             <li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/anti-aging-dock">アンチエイジング検査</a></li>
-            <li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/injection">点滴療法<br>注射<br>サプリメント</a></li>
+            <li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/injection">点滴療法・注射<br>サプリメント</a></li>
             <li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/esthetic">デンタルエステ</a></li>
         </ul>
     </div>
