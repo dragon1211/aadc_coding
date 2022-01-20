@@ -1,34 +1,6 @@
-
 <section id="anti-aging-top">
 
-    <section class="anti-nav">
-        <nav class="anti-nav__first">
-            <div class="anti-nav__container">
-                <a href="<?php echo home_url(); ?>/anti-aging">アンチエイジング</a>
-            </div>
-        </nav>
-        <nav class="anti-nav__second">
-            <div class="anti-nav__container">
-                <div class="sp-only">
-                    <div class="sp-navBtn js-sp-sub-navBtn" style="z-index: 100">
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-                <ul class="sub-nav__menu js-sub-nav-menu">
-                    <li><a href="<?php echo home_url(); ?>/anti-aging/teeth-cleaning">クリーニング</a></li>
-                    <li><a href="<?php echo home_url(); ?>/anti-aging/gum-care">歯周病治療<br><span class="sp-only-inline">・</span>歯肉ケア</a></li>
-                    <li><a href="<?php echo home_url(); ?>/anti-aging/grinding">歯ぎしり<br><span class="sp-only-inline">・</span>食いしばり治療</a></li>
-                    <li><a href="<?php echo home_url(); ?>/anti-aging/metal-free">メタルフリープログラム</a></li>
-                    <li><a href="<?php echo home_url(); ?>/anti-aging/implant">インプラント</a></li>
-                    <li><a href="<?php echo home_url(); ?>/anti-aging/anti-aging-dock">アンチエイジング検査</a></li>
-                    <li><a href="<?php echo home_url(); ?>/anti-aging/injection">点滴療法・注射<br><span class="sp-only-inline">・</span>サプリメント</a></li>
-                    <li><a href="<?php echo home_url(); ?>/anti-aging/esthetic">デンタルエステ</a></li>
-                </ul>
-            </div>
-        </nav>
-    </section>
-
+    <?php get_template_part( 'template-parts/sub-nav/anti-aging-sub-nav' ); ?>
 
     <!-- anti aging section -->
     <section class="anti-heading__content">

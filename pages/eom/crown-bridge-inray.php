@@ -1,30 +1,5 @@
-<section class="eom-nav">
-    <nav class="eom-nav__first">
-        <div class="eom-nav__container">
-            <a href="<?php echo home_url(); ?>/eom">エステティックオルソメソッド</a>
-        </div>
-    </nav>
-    <nav class="eom-nav__second">
-        <div class="eom-nav__container">
-            <div class="sp-only">
-                <div class="sp-navBtn js-sp-sub-navBtn" style="z-index: 100">
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
-            <ul class="sub-nav__menu js-sub-nav-menu">
-                <li><a href="<?php echo home_url();?>/eom/shinbi">前歯審美歯科治療</a></li>
-                <li><a href="<?php echo home_url();?>/eom/crown-bridge-inray" class="active">セラミッククラウン<br><span class="sp-only-inline">・</span>ジルコニアクラウン</a></li>
-                <li><a href="<?php echo home_url();?>/eom/lumineers">ルミネアーズ</a></li>
-                <li><a href="<?php echo home_url();?>/eom/whitening">ホワイトニング</a></li>
-                <li><a href="<?php echo home_url();?>/eom/non-extraction">歯を抜かない矯正治療</a></li>
-                <li><a href="<?php echo home_url();?>/eom/orthodontic">前歯部分矯正</a></li>
-                <li><a href="<?php echo home_url();?>/eom/invisalign">インビザライン<br><span class="sp-only-inline">・</span>マウスピース矯正</a></li>
-                <li><a href="<?php echo home_url();?>/eom/gap">すきっ歯専門治療</a></li>
-            </ul>
-        </div>
-    </nav>
-</section>
+<?php get_template_part( 'template-parts/sub-nav/eom-sub-nav' ); ?>
+
 
 <!---------------------------------------------------->
 <!----------------      EOM MAIN SECTION   ----------->
