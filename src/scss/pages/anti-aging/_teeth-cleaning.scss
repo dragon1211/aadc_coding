@@ -1,0 +1,172 @@
+@charset "UTF-8";
+/* ==========================================================
+	teeth-cleaning-page
+========================================================== */
+
+
+/* outline */
+.teeth-cleaning .care1-outline-section {
+	max-width: 1000px;
+	padding: 100px 0;
+}
+.teeth-cleaning .care1-outline-section h2.head {
+	text-align: center;
+	font-weight: 100;
+	letter-spacing: 0.5rem;
+	text-indent: 0.5rem;	
+	margin-bottom: 50px;
+}
+.teeth-cleaning .care1-outline-section h2.head br {
+	display: none;
+}
+.teeth-cleaning .care1-outline-section p.intro {
+	margin: 0 auto;
+	letter-spacing: 0.2rem;
+	font-weight: 200;
+	line-height: 200%;
+	text-align: center;		
+}
+
+/* teeth-cleaning */
+.teeth-cleaning .care1-teeth-cleaning-section {
+	width: 100%;
+	padding: 100px 0;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #fafafa;		
+}
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap h3.head {
+	font-weight: 200;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap p.intro {
+	margin: 0 auto 50px;
+	font-weight: 200;
+	line-height: 200%;
+	text-align: justify;	
+}
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .image-wrap {
+	margin: 0 auto 50px;
+	max-width: 900px;
+	text-align: center;
+	overflow: hidden;
+}
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .image-wrap .wrap-float {
+	display: inline-block;
+}
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .image-wrap img {
+	margin: 20px;	
+}
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .image-wrap .wrap-float p.arrow {
+	color: #a5967d;
+}
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .recommend {
+	max-width: 764px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .recommend h4.head {
+	font-weight: 200;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap ul.outline {
+	font-weight: 200;
+	line-height: 200%;
+}
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap ul.outline li {
+	width: 360px;
+	margin: 0 0 2px 0;
+	padding: 10px;
+	background-color: #d2bea5;
+	display: inline-block;
+	line-height: 200%;
+	text-align: center;
+	color: #fff;
+	font-weight: 500;
+}
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .treatment-wrap {
+	margin-bottom: 150px;
+}
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .treatment-wrap h4.head {
+	font-weight: 500;
+	margin-bottom: 20px;
+	text-align: center;	
+	letter-spacing: 0.1rem;
+}
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .treatment-wrap h5.sub-head {
+	font-weight: 300;
+	margin-bottom: 10px;
+	line-height: 150%;
+	text-align: center;	
+}
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .treatment-wrap .teeth-cleaning {
+	font-weight: 200;
+	line-height: 150%;
+	margin-bottom: 30px;
+	text-align: center;	
+}
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .treatment-wrap .comment {
+	font-weight: 300;
+	line-height: 150%;
+	margin-bottom: 50px;
+	text-align: center;	
+} 
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .quick {
+	clear: both;
+	max-width: 700px;
+	margin: 0 auto 100px;
+}
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .quick h3.head {
+	font-weight: 200;
+	text-align: left;
+	margin-bottom: 20px;
+}
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .quick p.price {
+	font-weight: 400;
+	text-align: left;
+	margin-bottom: 20px;	
+}
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .quick .detail {
+	font-weight: 200;
+	line-height: 200%;
+	margin-bottom: 20px;	
+}
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .quick .comment {
+	font-weight: 300;
+	line-height: 150%;
+	margin-bottom: 50px;
+	text-align: justify;	
+}
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .whitecare {
+	clear: both;
+	max-width: 700px;
+	margin: 0 auto;
+}
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .whitecare h3.head {
+	font-weight: 200;
+	text-align: left;
+	margin-bottom: 20px;
+}
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .whitecare p.price {
+	font-weight: 400;
+	text-align: left;
+	margin-bottom: 20px;	
+}
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .whitecare .detail {
+	font-weight: 200;
+	line-height: 200%;
+	margin-bottom: 20px;
+}
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .whitecare .comment {
+	font-weight: 300;
+	line-height: 150%;
+	margin-bottom: 50px;
+	text-align: justify;
+}

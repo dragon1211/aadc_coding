@@ -3854,547 +3854,6 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
-.mg-auto {
-  margin: 0 auto;
-}
-
-.mgt-0 {
-  margin-top: 0;
-}
-
-.mgt-5 {
-  margin-top: 5px;
-}
-
-.mgt-10 {
-  margin-top: 10px;
-}
-
-.mgt-15 {
-  margin-top: 15px;
-}
-
-.mgt-20 {
-  margin-top: 20px;
-}
-
-.mgt-25 {
-  margin-top: 25px;
-}
-
-.mgt-30 {
-  margin-top: 30px;
-}
-
-.mgt-35 {
-  margin-top: 35px;
-}
-
-.mgt-40 {
-  margin-top: 40px;
-}
-
-.mgt-45 {
-  margin-top: 45px;
-}
-
-.mgt-50 {
-  margin-top: 50px;
-}
-
-.mgt-55 {
-  margin-top: 55px;
-}
-
-.mgt-60 {
-  margin-top: 60px;
-}
-
-.mgt-65 {
-  margin-top: 65px;
-}
-
-.mgt-70 {
-  margin-top: 70px;
-}
-
-.mgt-75 {
-  margin-top: 75px;
-}
-
-.mgt-80 {
-  margin-top: 80px;
-}
-
-.mgt-85 {
-  margin-top: 85px;
-}
-
-.mgt-90 {
-  margin-top: 90px;
-}
-
-.mgt-95 {
-  margin-top: 95px;
-}
-
-.mgt-100 {
-  margin-top: 100px;
-}
-
-.mgr-0 {
-  margin-right: 0;
-}
-
-.mgr-5 {
-  margin-right: 5px;
-}
-
-.mgr-10 {
-  margin-right: 10px;
-}
-
-.mgr-15 {
-  margin-right: 15px;
-}
-
-.mgr-20 {
-  margin-right: 20px;
-}
-
-.mgr-25 {
-  margin-right: 25px;
-}
-
-.mgr-30 {
-  margin-right: 30px;
-}
-
-.mgr-35 {
-  margin-right: 35px;
-}
-
-.mgr-40 {
-  margin-right: 40px;
-}
-
-.mgr-45 {
-  margin-right: 45px;
-}
-
-.mgr-50 {
-  margin-right: 50px;
-}
-
-.mgr-55 {
-  margin-right: 55px;
-}
-
-.mgr-60 {
-  margin-right: 60px;
-}
-
-.mgr-70 {
-  margin-right: 70px;
-}
-
-.mgr-75 {
-  margin-right: 75px;
-}
-
-.mgr-80 {
-  margin-right: 80px;
-}
-
-.mgr-85 {
-  margin-right: 85px;
-}
-
-.mgr-90 {
-  margin-right: 90px;
-}
-
-.mgr-95 {
-  margin-right: 95px;
-}
-
-.mgr-100 {
-  margin-right: 100px;
-}
-
-.mgb-0 {
-  margin-bottom: 0;
-}
-
-.mgb-5 {
-  margin-bottom: 5px;
-}
-
-.mgb-10 {
-  margin-bottom: 10px;
-}
-
-.mgb-15 {
-  margin-bottom: 15px;
-}
-
-.mgb-20 {
-  margin-bottom: 20px;
-}
-
-.mgb-25 {
-  margin-bottom: 25px;
-}
-
-.mgb-30 {
-  margin-bottom: 30px;
-}
-
-.mgb-35 {
-  margin-bottom: 35px;
-}
-
-.mgb-40 {
-  margin-bottom: 40px;
-}
-
-.mgb-45 {
-  margin-bottom: 45px;
-}
-
-.mgb-50 {
-  margin-bottom: 50px;
-}
-
-.mgb-55 {
-  margin-bottom: 55px;
-}
-
-.mgb-60 {
-  margin-bottom: 60px;
-}
-
-.mgb-70 {
-  margin-bottom: 70px;
-}
-
-.mgb-75 {
-  margin-bottom: 75px;
-}
-
-.mgb-80 {
-  margin-bottom: 80px;
-}
-
-.mgb-85 {
-  margin-bottom: 85px;
-}
-
-.mgb-90 {
-  margin-bottom: 90px;
-}
-
-.mgb-95 {
-  margin-bottom: 95px;
-}
-
-.mgb-100 {
-  margin-bottom: 100px;
-}
-
-.align-center {
-  text-align: center;
-}
-
-.align-left {
-  text-align: left;
-}
-
-.align-right {
-  text-align: right;
-}
-
-.col2-75 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-@media screen and (max-width: 768px) {
-  .col2-75 {
-    display: block;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .col2-75--left {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-}
-
-.col2-75--right {
-  width: 25%;
-  margin-left: 40px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-}
-
-@media screen and (max-width: 768px) {
-  .col2-75--right {
-    width: 100%;
-    margin-left: 0;
-  }
-}
-
-.col2-7 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-@media screen and (max-width: 768px) {
-  .col2-7 {
-    display: block;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .col2-7--left {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-}
-
-.col2-7--right {
-  width: 30.8%;
-  margin-left: 40px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-}
-
-@media screen and (max-width: 768px) {
-  .col2-7--right {
-    width: 100%;
-    margin-left: 0;
-  }
-}
-
-.col2-25 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-@media screen and (max-width: 768px) {
-  .col2-25 {
-    display: block;
-  }
-}
-
-.col2-25--left {
-  width: 25%;
-  margin-right: 20px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-}
-
-@media screen and (max-width: 768px) {
-  .col2-25--left {
-    width: 100%;
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .col2-25--right {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-}
-
-.col2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: 0 -20px;
-}
-
-@media screen and (max-width: 768px) {
-  .col2 {
-    display: block;
-    margin: 0;
-  }
-}
-
-.col2-item {
-  width: 50%;
-  padding: 0 20px;
-  margin-bottom: 20px;
-}
-
-@media screen and (max-width: 768px) {
-  .col2-item {
-    width: 100%;
-    padding: 0;
-  }
-}
-
-.col2-item--inner {
-  display: block;
-}
-
-.col2-2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: 0 -10px;
-}
-
-@media screen and (max-width: 768px) {
-  .col2-2 {
-    display: block;
-    margin: 0;
-  }
-}
-
-.col2-2-item {
-  width: 50%;
-  padding: 0 10px;
-  margin-bottom: 30px;
-}
-
-@media screen and (max-width: 768px) {
-  .col2-2-item {
-    width: 100%;
-    padding: 0;
-  }
-}
-
-.col2-2-item--inner {
-  display: block;
-}
-
-.col3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: 0 -10px;
-}
-
-@media screen and (max-width: 768px) {
-  .col3 {
-    display: block;
-    margin: 0;
-  }
-}
-
-.col3-item {
-  width: 33.33%;
-  padding: 0 10px;
-  margin-bottom: 20px;
-}
-
-@media screen and (max-width: 768px) {
-  .col3-item {
-    width: 100%;
-    padding: 0;
-  }
-}
-
-.col3-item--inner {
-  display: block;
-}
-
-.col4 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: 0 -10px;
-}
-
-@media screen and (max-width: 768px) {
-  .col4 {
-    display: block;
-    margin: 0;
-  }
-}
-
-.col4-item {
-  width: 25%;
-  padding: 0 10px;
-  margin-bottom: 20px;
-}
-
-@media screen and (max-width: 768px) {
-  .col4-item {
-    width: 100%;
-    padding: 0;
-  }
-}
-
-.col4-item--inner {
-  display: block;
-}
-
-.col5 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: 0 -10px;
-}
-
-@media screen and (max-width: 768px) {
-  .col5 {
-    display: block;
-    margin: 0;
-  }
-}
-
-.col5-item {
-  width: 20%;
-  padding: 0 10px;
-  margin-bottom: 20px;
-}
-
-@media screen and (max-width: 768px) {
-  .col5-item {
-    width: 100%;
-    padding: 0;
-  }
-}
-
-.col5-item--inner {
-  display: block;
-}
-
-/* -------------------
-  THUMBNAIL, IMAGE
---------------------*/
-.thumb-ttl {
-  margin-top: 10px;
-}
-
 /* -------------------
   PAGE TOP
 --------------------*/
@@ -4588,366 +4047,89 @@ Copyright (c) 2013 Daniel Eden
 }
 
 /* -------------------
-  FONT
+	BIZ CALEANDER
 --------------------*/
-.bold {
-  font-weight: bold;
+/* Widget-BizCalendar */
+.widget.widget_bizcalendar {
+  width: 530px;
+  height: 350px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
 }
 
-/* ------------------------------------------------ font set */
-.f10 {
-  font-size: 10px;
-  font-size: 1.0rem;
+.widget.widget_bizcalendar h2.widgettitle {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.8rem;
 }
 
-.f11 {
-  font-size: 11px;
-  font-size: 1.1rem;
+.widget.widget_bizcalendar #biz_calendar {
+  max-width: 400px !important;
+  margin: 0 auto;
 }
 
-.f12 {
-  font-size: 12px;
+.widget.widget_bizcalendar #biz_calendar table.bizcal {
+  margin: 0 auto;
+  text-align: center;
+  table-layout: auto;
+  line-height: 150%;
+  border: none !important;
   font-size: 1.2rem;
 }
 
-.f13 {
-  font-size: 13px;
-  font-size: 1.3rem;
+.widget.widget_bizcalendar #biz_calendar table.bizcal tbody {
+  border: none !important;
 }
 
-.f14 {
-  font-size: 14px;
-  font-size: 1.4rem;
+.widget.widget_bizcalendar #biz_calendar table.bizcal tbody tr {
+  height: 35px;
+  border-bottom: 1px solid #ddd;
 }
 
-.f15 {
-  font-size: 15px;
+.widget.widget_bizcalendar #biz_calendar table.bizcal tbody tr:first-child {
+  border-bottom: none;
+}
+
+.widget.widget_bizcalendar #biz_calendar table.bizcal tbody tr td {
+  margin: 0 30px;
+  border-right: 1px solid #ddd;
+}
+
+.widget.widget_bizcalendar #biz_calendar table.bizcal tbody tr td:last-child {
+  border-right: none;
+}
+
+.widget.widget_bizcalendar #biz_calendar table.bizcal tbody tr td.calmonth {
+  font-weight: 400;
   font-size: 1.5rem;
+  text-indent: 10px;
+  height: 50px;
 }
 
-.f16 {
-  font-size: 16px;
-  font-size: 1.6rem;
+.widget.widget_bizcalendar #biz_calendar table.bizcal tbody tr td.holiday {
+  background-color: rgba(230, 0, 18, 0.05);
+  color: #e60012;
 }
 
-.f18 {
-  font-size: 18px;
-  font-size: 1.8rem;
+.widget.widget_bizcalendar #biz_calendar table.bizcal tbody tr td.eventday {
+  background-color: rgba(0, 117, 169, 0.05);
+  color: #0075a9;
 }
 
-.f20 {
-  font-size: 20px;
-  font-size: 2.0rem;
+.widget.widget_bizcalendar #biz_calendar table.bizcal tbody tr th {
+  background: transparent;
+  font-weight: 400;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
-.f22 {
-  font-size: 22px;
-  font-size: 2.2rem;
+.widget.widget_bizcalendar #biz_calendar table.bizcal tbody tr th:last-child {
+  border-right: none;
 }
 
-.f24 {
-  font-size: 24px;
-  font-size: 2.4rem;
-}
-
-.f26 {
-  font-size: 26px;
-  font-size: 2.6rem;
-}
-
-.f28 {
-  font-size: 28px;
-  font-size: 2.8rem;
-}
-
-.f30 {
-  font-size: 30px;
-  font-size: 3.0rem;
-}
-
-.f32 {
-  font-size: 32px;
-  font-size: 3.2rem;
-}
-
-.f34 {
-  font-size: 34px;
-  font-size: 3.4rem;
-}
-
-.f36 {
-  font-size: 36px;
-  font-size: 3.6rem;
-}
-
-.f38 {
-  font-size: 38px;
-  font-size: 3.8rem;
-}
-
-.f40 {
-  font-size: 40px;
-  font-size: 4.0rem;
-}
-
-.f42 {
-  font-size: 42px;
-  font-size: 4.2rem;
-}
-
-.f44 {
-  font-size: 44px;
-  font-size: 4.4rem;
-}
-
-.s3 {
-  font-size: 10px;
-  font-size: 1rem;
-}
-
-.s2 {
-  font-size: 12px;
-  font-size: 1.2rem;
-}
-
-.s {
-  font-size: 14px;
-  font-size: 1.4rem;
-}
-
-.m {
-  font-size: 16px;
-  font-size: 1.6rem;
-}
-
-.l {
-  font-size: 18px;
-  font-size: 1.8rem;
-}
-
-.l2 {
-  font-size: 20px;
-  font-size: 2rem;
-}
-
-.l3 {
-  font-size: 22px;
-  font-size: 2.2rem;
-}
-
-.l4 {
-  font-size: 24px;
-  font-size: 2.4rem;
-}
-
-.l5 {
-  font-size: 26px;
-  font-size: 2.6rem;
-}
-
-.l6 {
-  font-size: 28px;
-  font-size: 2.8rem;
-}
-
-.l7 {
-  font-size: 30px;
-  font-size: 3.0rem;
-}
-
-.l8 {
-  font-size: 32px;
-  font-size: 3.2rem;
-}
-
-.l9 {
-  font-size: 34px;
-  font-size: 3.4rem;
-}
-
-.l10 {
-  font-size: 36px;
-  font-size: 3.6rem;
-}
-
-.l11 {
-  font-size: 38px;
-  font-size: 3.8rem;
-}
-
-.l12 {
-  font-size: 40px;
-  font-size: 4.0rem;
-}
-
-.l13 {
-  font-size: 42px;
-  font-size: 4.2rem;
-}
-
-.l14 {
-  font-size: 44px;
-  font-size: 4.4rem;
-}
-
-@media screen and (max-width: 768px) {
-  /* ------------------------------------------------ font set */
-  .f10 {
-    font-size: 8px;
-    font-size: 0.8rem;
-  }
-  .f11 {
-    font-size: 9px;
-    font-size: 0.9rem;
-  }
-  .f12 {
-    font-size: 10px;
-    font-size: 1.0rem;
-  }
-  .f13 {
-    font-size: 11px;
-    font-size: 1.1rem;
-  }
-  .f14 {
-    font-size: 12px;
-    font-size: 1.2rem;
-  }
-  .f15 {
-    font-size: 13px;
-    font-size: 1.3rem;
-  }
-  .f16 {
-    font-size: 14px;
-    font-size: 1.4rem;
-  }
-  .f18 {
-    font-size: 15px;
-    font-size: 1.5rem;
-  }
-  .f20 {
-    font-size: 16px;
-    font-size: 1.6rem;
-  }
-  .f22 {
-    font-size: 17px;
-    font-size: 1.7rem;
-  }
-  .f24 {
-    font-size: 18px;
-    font-size: 1.8rem;
-  }
-  .f26 {
-    font-size: 19px;
-    font-size: 1.9rem;
-  }
-  .f28 {
-    font-size: 20px;
-    font-size: 2.0rem;
-  }
-  .f30 {
-    font-size: 22px;
-    font-size: 2.2rem;
-  }
-  .f32 {
-    font-size: 24px;
-    font-size: 2.4rem;
-  }
-  .f34 {
-    font-size: 26px;
-    font-size: 2.6rem;
-  }
-  .f36 {
-    font-size: 28px;
-    font-size: 2.8rem;
-  }
-  .f38 {
-    font-size: 30px;
-    font-size: 3.0rem;
-  }
-  .f40 {
-    font-size: 32px;
-    font-size: 3.2rem;
-  }
-  .f42 {
-    font-size: 34px;
-    font-size: 3.4rem;
-  }
-  .f44 {
-    font-size: 36px;
-    font-size: 3.6rem;
-  }
-  .s3 {
-    font-size: 10px;
-    font-size: 1rem;
-  }
-  .s2 {
-    font-size: 12px;
-    font-size: 1.2rem;
-  }
-  .s {
-    font-size: 14px;
-    font-size: 1.4rem;
-  }
-  .m {
-    font-size: 16px;
-    font-size: 1.6rem;
-  }
-  .l {
-    font-size: 18px;
-    font-size: 1.8rem;
-  }
-  .l2 {
-    font-size: 20px;
-    font-size: 2rem;
-  }
-  .l3 {
-    font-size: 22px;
-    font-size: 2.2rem;
-  }
-  .l4 {
-    font-size: 24px;
-    font-size: 2.4rem;
-  }
-  .l5 {
-    font-size: 26px;
-    font-size: 2.6rem;
-  }
-  .l6 {
-    font-size: 28px;
-    font-size: 2.8rem;
-  }
-  .l7 {
-    font-size: 30px;
-    font-size: 3.0rem;
-  }
-  .l8 {
-    font-size: 32px;
-    font-size: 3.2rem;
-  }
-  .l9 {
-    font-size: 34px;
-    font-size: 3.4rem;
-  }
-  .l10 {
-    font-size: 36px;
-    font-size: 3.6rem;
-  }
-  .l11 {
-    font-size: 38px;
-    font-size: 3.8rem;
-  }
-  .l12 {
-    font-size: 40px;
-    font-size: 4.0rem;
-  }
-  .l13 {
-    font-size: 42px;
-    font-size: 4.2rem;
-  }
-  .l14 {
-    font-size: 44px;
-    font-size: 4.4rem;
-  }
+.widget.widget_bizcalendar #biz_calendar p {
+  display: none;
 }
 
 /* -------------------
@@ -5373,7 +4555,7 @@ Copyright (c) 2013 Daniel Eden
 }
 
 /* -------------------
-  FOOTER
+  footer 
 --------------------*/
 .footer {
   width: 100%;
@@ -5593,7 +4775,7 @@ Copyright (c) 2013 Daniel Eden
 }
 
 /* -------------------
-  404
+  404 page
 --------------------*/
 .section-404 {
   padding-top: 50px;
@@ -5676,7 +4858,6 @@ Copyright (c) 2013 Daniel Eden
 /* ==========================================================
 	appointment-page
 ========================================================== */
-/* ------------------------------------------------ header */
 .appointment-header {
   width: 100%;
   height: 70px;
@@ -5706,8 +4887,10 @@ Copyright (c) 2013 Daniel Eden
           transform: translateY(-50%);
 }
 
+/* ==========================================================
+	appointment content
+========================================================== */
 .appointment {
-  /* ------------------------------------------------ content */
   /* information section */
 }
 
@@ -6165,6 +5348,10 @@ Copyright (c) 2013 Daniel Eden
 /* ==========================================================
 	coronavirus-information page
 ========================================================== */
+.coronavirus-information {
+  /*---------Content----------*/
+}
+
 .coronavirus-information .home-notice .nav-main a {
   font-size: 1.4rem;
   text-align: left;
@@ -6264,7 +5451,7 @@ Copyright (c) 2013 Daniel Eden
 	english-page
 ========================================================== */
 .en {
-  /* ------------------------------------------------ header */
+  /* --------------------- header */
   /* ------------------------------------------------ content */
   /* doctor section */
   /* message section */
@@ -7090,7 +6277,6 @@ Copyright (c) 2013 Daniel Eden
 /* ==========================================================
 	information-page
 ========================================================== */
-/* ------------------------------------------------ header */
 .information-header {
   width: 100%;
   height: 300px;
@@ -7112,8 +6298,8 @@ Copyright (c) 2013 Daniel Eden
   letter-spacing: 0.5rem;
 }
 
+/* ------------------------ content */
 .information {
-  /* ------------------------------------------------ content */
   /* information */
 }
 
@@ -7330,7 +6516,6 @@ Copyright (c) 2013 Daniel Eden
 /* ==========================================================
 	inquiry-page
 ========================================================== */
-/* ------------------------------------------------ header */
 .inquiry-header {
   width: 100%;
   height: 70px;
@@ -7360,8 +6545,8 @@ Copyright (c) 2013 Daniel Eden
           transform: translateY(-50%);
 }
 
+/* -------------------- content */
 .inquiry {
-  /* ------------------------------------------------ content */
   /* information section */
 }
 
@@ -7631,7 +6816,6 @@ Copyright (c) 2013 Daniel Eden
 	price-page
 ========================================================== */
 .price {
-  /* ------------------------------------------------ content */
   /* message section */
 }
 
@@ -7724,7 +6908,7 @@ Copyright (c) 2013 Daniel Eden
 }
 
 /* ==========================================================
-	TOP-PAGE
+	top page
 ========================================================== */
 .home-container {
   max-width: 1240px;
@@ -9080,6 +8264,9 @@ Copyright (c) 2013 Daniel Eden
   height: 600px;
 }
 
+/* ==========================================================
+	about top page
+========================================================== */
 .about-container {
   max-width: 1040px;
   padding: 0 20px;
@@ -9105,6 +8292,9 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
+/* ==========================================================
+	about content
+========================================================== */
 .about-mainvisual {
   width: 100%;
   padding: 100px 0;
@@ -9420,6 +8610,15 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
+/* ==========================================================
+	about doctor page
+========================================================== */
+.doctor {
+  /* ==========================================================
+	about doctor content
+========================================================== */
+}
+
 .doctor .doctor-container {
   max-width: 1040px;
   padding: 0 20px;
@@ -9594,6 +8793,9 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
+/* ==========================================================
+	about news page
+========================================================== */
 .news-container {
   max-width: 1040px;
   padding: 0 20px;
@@ -9606,6 +8808,9 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
+/* ==========================================================
+	news content
+========================================================== */
 .news-content {
   padding: 100px 0;
   background: #F5F5F7;
@@ -10083,6 +9288,9 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
+/* ==========================================================
+	eom common
+========================================================== */
 .eom-heading {
   background-color: white;
   position: relative;
@@ -10128,6 +9336,9 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
+/* ==========================================================
+	eom top page
+========================================================== */
 #eom-top .eom-heading__caption {
   padding: 110px 20px;
 }
@@ -13164,6 +12375,9 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
+/* ==========================================================
+	shinbi-page
+========================================================== */
 .shinbi-content__mainvisual {
   position: relative;
 }
@@ -13312,9 +12526,6 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
-/* ==========================================================
-	shinbi-page
-========================================================== */
 /* proportion */
 .proportion-about-section {
   width: 100%;
@@ -14531,6 +13742,9 @@ ul.cost_ex li span {
   }
 }
 
+/* ==========================================================
+	anti-aging common
+========================================================== */
 .anti-heading {
   background-color: white;
   position: relative;
@@ -14573,6 +13787,9 @@ ul.cost_ex li span {
   }
 }
 
+/* ==========================================================
+	anti-aging top page
+========================================================== */
 #anti-aging-top .anti-heading__caption {
   padding: 110px 20px;
 }
@@ -14666,6 +13883,205 @@ ul.cost_ex li span {
   #anti-aging-top .anti-content__mainvisual--caption {
     font-size: 4.61538vw;
   }
+}
+
+/* ==========================================================
+	teeth-cleaning-page
+========================================================== */
+/* outline */
+.teeth-cleaning .care1-outline-section {
+  max-width: 1000px;
+  padding: 100px 0;
+}
+
+.teeth-cleaning .care1-outline-section h2.head {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+}
+
+.teeth-cleaning .care1-outline-section h2.head br {
+  display: none;
+}
+
+.teeth-cleaning .care1-outline-section p.intro {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+  line-height: 200%;
+  text-align: center;
+}
+
+/* teeth-cleaning */
+.teeth-cleaning .care1-teeth-cleaning-section {
+  width: 100%;
+  padding: 100px 0;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #fafafa;
+}
+
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap h3.head {
+  font-weight: 200;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap p.intro {
+  margin: 0 auto 50px;
+  font-weight: 200;
+  line-height: 200%;
+  text-align: justify;
+}
+
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .image-wrap {
+  margin: 0 auto 50px;
+  max-width: 900px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .image-wrap .wrap-float {
+  display: inline-block;
+}
+
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .image-wrap img {
+  margin: 20px;
+}
+
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .image-wrap .wrap-float p.arrow {
+  color: #a5967d;
+}
+
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .recommend {
+  max-width: 764px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .recommend h4.head {
+  font-weight: 200;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap ul.outline {
+  font-weight: 200;
+  line-height: 200%;
+}
+
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap ul.outline li {
+  width: 360px;
+  margin: 0 0 2px 0;
+  padding: 10px;
+  background-color: #d2bea5;
+  display: inline-block;
+  line-height: 200%;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+}
+
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .treatment-wrap {
+  margin-bottom: 150px;
+}
+
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .treatment-wrap h4.head {
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .treatment-wrap h5.sub-head {
+  font-weight: 300;
+  margin-bottom: 10px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .treatment-wrap .teeth-cleaning {
+  font-weight: 200;
+  line-height: 150%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .treatment-wrap .comment {
+  font-weight: 300;
+  line-height: 150%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .quick {
+  clear: both;
+  max-width: 700px;
+  margin: 0 auto 100px;
+}
+
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .quick h3.head {
+  font-weight: 200;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .quick p.price {
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .quick .detail {
+  font-weight: 200;
+  line-height: 200%;
+  margin-bottom: 20px;
+}
+
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .quick .comment {
+  font-weight: 300;
+  line-height: 150%;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .whitecare {
+  clear: both;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .whitecare h3.head {
+  font-weight: 200;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .whitecare p.price {
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .whitecare .detail {
+  font-weight: 200;
+  line-height: 200%;
+  margin-bottom: 20px;
+}
+
+.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .whitecare .comment {
+  font-weight: 300;
+  line-height: 150%;
+  margin-bottom: 50px;
+  text-align: justify;
 }
 
 /*
