@@ -17,7 +17,7 @@ $(document).ready(function () {
       zoom: true,
       speed: 1000,
 
-      slidesPerView: 4,
+      slidesPerView: 5,
       spaceBetween: 50,
 
       pagination: '.home-news__list .swiper-pagination',
@@ -28,6 +28,16 @@ $(document).ready(function () {
 
    
       breakpoints: {
+        1900: {
+          slidesPerView: 5,
+          spaceBetween: 20
+        },
+
+        1600: {
+          slidesPerView: 4,
+          spaceBetween: 20
+        },  
+
         1400: {
           slidesPerView: 3,
           spaceBetween: 20
