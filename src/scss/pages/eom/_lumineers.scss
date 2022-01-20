@@ -2,14 +2,16 @@
 /* ==========================================================
 	lumineers-page
 ========================================================== */
+.lumineers {
 
 
 /* outline */
-.lumineers .cure1-outline-section {
+.cure1-outline-section {
 	max-width: 1000px;
 	padding: 100px 20px 0;
+	margin: auto;
 }
-.lumineers .cure1-outline-section h2.head {
+.cure1-outline-section h2.head {
 	text-align: center;
 	font-weight: 400;
 	letter-spacing: 0.5rem;
@@ -17,7 +19,7 @@
 	margin-bottom: 50px;
 	line-height: 150%;	
 }
-.lumineers .cure1-outline-section p.intro {
+.cure1-outline-section p.intro {
 	margin: 0 auto;
 	letter-spacing: 0.2rem;
 	
@@ -51,7 +53,7 @@
 		line-height: 150%;
 		text-align: center;	
 	}
-	p.lumineers {
+	p{
 		margin-bottom: 80px;
 		line-height: 180%;	
 	}
@@ -304,7 +306,7 @@
 
 
 @include mq(smt){
-	.lumineers .cure1-outline-section{
+	.cure1-outline-section{
 		padding-top: 50px;
 	}
 	.cure1-lumineers-page-section{
@@ -318,4 +320,8 @@
 	.cure1-payment-section .alignment-price table tr td{
 		width: 50px;
 	}
+}
+
+
+/* -------  end --------  */
 }

@@ -2878,6 +2878,7 @@ body {
 ========================================================== */
 .appointment {
   /* information section */
+  /* -------  end --------  */
 }
 
 .appointment .content {
@@ -3336,6 +3337,7 @@ body {
 ========================================================== */
 .coronavirus-information {
   /*---------Content----------*/
+  /* -------  end --------  */
 }
 
 .coronavirus-information .home-notice .nav-main a {
@@ -3452,6 +3454,7 @@ body {
   /* contact */
   /* form */
   /* form sp*/
+  /* -------  end --------  */
 }
 
 .en .content {
@@ -4097,6 +4100,7 @@ body {
   /* general treatment */
   /* painless */
   /* prevention */
+  /* -------  end --------  */
 }
 
 .general .cure3-general-section {
@@ -4261,7 +4265,7 @@ body {
 }
 
 /* ==========================================================
-	information-page
+	information common
 ========================================================== */
 .information-header {
   width: 100%;
@@ -4284,9 +4288,12 @@ body {
   letter-spacing: 0.5rem;
 }
 
-/* ------------------------ content */
+/* ==========================================================
+	information page
+========================================================== */
 .information {
   /* information */
+  /* -------  end --------  */
 }
 
 .information .content {
@@ -4500,7 +4507,7 @@ body {
 }
 
 /* ==========================================================
-	inquiry-page
+	inquiry header
 ========================================================== */
 .inquiry-header {
   width: 100%;
@@ -4531,9 +4538,12 @@ body {
           transform: translateY(-50%);
 }
 
-/* -------------------- content */
+/* ==========================================================
+	inquiry-page
+========================================================== */
 .inquiry {
   /* information section */
+  /* -------  end --------  */
 }
 
 .inquiry .content {
@@ -4803,6 +4813,7 @@ body {
 ========================================================== */
 .price {
   /* message section */
+  /* -------  end --------  */
 }
 
 .price .price-section {
@@ -6603,6 +6614,7 @@ body {
   /* ==========================================================
 	about doctor content
 ========================================================== */
+  /* -------  end --------  */
 }
 
 .doctor .doctor-container {
@@ -6758,8 +6770,6 @@ body {
     margin: 0 0 20px 0;
   }
   .doctor .doctor-info .doctor-photo img {
-    max-width: 150px;
-    width: 100%;
     margin: auto;
   }
   .doctor .doctor-info .doctor-profile .bio {
@@ -6935,7 +6945,7 @@ body {
   /* fullzirconia-trans */
   /* ceramic-inlay */
   /* zirconia-inlay */
-  /*--------end-------------*/
+  /* -------  end --------  */
 }
 
 .crown-bridge-inray .content {
@@ -7339,6 +7349,10 @@ body {
 /* ==========================================================
 	eom top page
 ========================================================== */
+#eom-top {
+  /* -------  end --------  */
+}
+
 #eom-top .eom-heading__caption {
   padding: 110px 20px;
 }
@@ -7446,6 +7460,7 @@ body {
   /* composite */
   /* care */
   /* blog */
+  /* -------  end --------  */
 }
 
 .gap .content img {
@@ -8134,6 +8149,7 @@ body {
   /* plan */
   /* qa-section */
   /* payment */
+  /* -------  end --------  */
 }
 
 .invisalign .cure2-outline-section {
@@ -8680,7 +8696,7 @@ body {
   max-width: 100%;
   margin: 0 auto;
   overflow: hidden;
-  padding-bottom: 50px;
+  padding-bottom: 150px;
   background-color: #f6f2ed;
 }
 
@@ -8794,7 +8810,7 @@ body {
   background-color: #fff;
   overflow: hidden;
   letter-spacing: 0.2rem;
-  padding: 0 20px 20px;
+  padding: 0 20px 70px;
 }
 
 .invisalign .cure2-payment-section .alignment-price h5.head {
@@ -8942,10 +8958,18 @@ body {
 /* ==========================================================
 	lumineers-page
 ========================================================== */
-/* outline */
+.lumineers {
+  /* outline */
+  /* difference */
+  /* onehour */
+  /* payment */
+  /* -------  end --------  */
+}
+
 .lumineers .cure1-outline-section {
   max-width: 1000px;
   padding: 100px 20px 0;
+  margin: auto;
 }
 
 .lumineers .cure1-outline-section h2.head {
@@ -8964,127 +8988,126 @@ body {
   text-align: center;
 }
 
-.cure1-lumineers-page-section {
+.lumineers .cure1-lumineers-page-section {
   max-width: 1000px;
   margin: 100px auto 0;
   overflow: hidden;
 }
 
-.cure1-lumineers-page-section .lumineers-slide {
+.lumineers .cure1-lumineers-page-section .lumineers-slide {
   max-width: 1000px;
   margin: auto;
 }
 
-.cure1-lumineers-page-section .lumineers-slide img {
+.lumineers .cure1-lumineers-page-section .lumineers-slide img {
   width: 100%;
 }
 
-.cure1-lumineers-page-section .bxcenter {
+.lumineers .cure1-lumineers-page-section .bxcenter {
   overflow: hidden;
   max-width: 400px;
   height: 400px;
   margin: auto;
 }
 
-.cure1-lumineers-page-section h3.head {
+.lumineers .cure1-lumineers-page-section h3.head {
   margin-bottom: 30px;
   line-height: 150%;
   text-align: center;
 }
 
-.cure1-lumineers-page-section h4.intro {
+.lumineers .cure1-lumineers-page-section h4.intro {
   margin-bottom: 30px;
   line-height: 150%;
   text-align: center;
 }
 
-.cure1-lumineers-page-section p.lumineers {
+.lumineers .cure1-lumineers-page-section p {
   margin-bottom: 80px;
   line-height: 180%;
 }
 
-.cure1-lumineers-page-section .center {
+.lumineers .cure1-lumineers-page-section .center {
   clear: both;
   max-width: 700px;
   padding: 50px 20px 0;
   margin: auto;
 }
 
-.cure1-lumineers-page-section .center h4.head {
+.lumineers .cure1-lumineers-page-section .center h4.head {
   font-weight: 400;
   margin-bottom: 30px;
   text-align: center;
 }
 
-.cure1-lumineers-page-section .center h4.head span {
+.lumineers .cure1-lumineers-page-section .center h4.head span {
   color: #fd2802;
   display: block;
   margin-top: 10px;
 }
 
-.cure1-lumineers-page-section .center img {
+.lumineers .cure1-lumineers-page-section .center img {
   display: block;
   margin: 10px auto;
   max-width: 800px;
 }
 
-.cure1-lumineers-page-section .sub-head {
+.lumineers .cure1-lumineers-page-section .sub-head {
   font-weight: 400;
   padding-bottom: 10px;
   margin-bottom: 10px;
   border-bottom: 1px solid #ccc;
 }
 
-.cure1-lumineers-page-section .detail {
+.lumineers .cure1-lumineers-page-section .detail {
   line-height: 180%;
   margin-bottom: 50px;
 }
 
-.cure1-lumineers-page-section ul.detail li {
+.lumineers .cure1-lumineers-page-section ul.detail li {
   list-style: none;
   list-style: circle;
   line-height: 180%;
   margin: 0 0 5px 20px;
 }
 
-.cure1-lumineers-page-section .list {
+.lumineers .cure1-lumineers-page-section .list {
   margin: 15px 0;
   line-height: 180%;
 }
 
-.cure1-lumineers-page-section
+.lumineers .cure1-lumineers-page-section
 .cure1-snapon-section .feature {
   clear: both;
   padding: 50px 0;
 }
 
-.cure1-snapon-section .feature li {
+.lumineers .cure1-snapon-section .feature li {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.cure1-snapon-section h4.head {
+.lumineers .cure1-snapon-section h4.head {
   clear: both;
   text-align: center;
   padding: 50px 0 30px;
   font-weight: 400;
 }
 
-.cure1-snapon-section .oneday {
+.lumineers .cure1-snapon-section .oneday {
   text-align: center;
   line-height: 180%;
   margin-bottom: 50px;
   padding: 0 0 30px;
 }
 
-.cure1-lumineers-page-section .wrapper {
+.lumineers .cure1-lumineers-page-section .wrapper {
   max-width: 800px;
   margin: 0 auto 50px;
   padding: 0 20px;
 }
 
-/* difference */
-.cure1-difference-section {
+.lumineers .cure1-difference-section {
   max-width: 1000px;
   padding: 50px;
   margin: 0 auto;
@@ -9092,12 +9115,12 @@ body {
   background-color: #f6f2ed;
 }
 
-.cure1-difference-section h3.head {
+.lumineers .cure1-difference-section h3.head {
   margin-bottom: 30px;
   text-align: center;
 }
 
-.cure1-difference-section a.difference-anchor {
+.lumineers .cure1-difference-section a.difference-anchor {
   margin: 50px auto 30px;
   color: #08c;
   text-align: center;
@@ -9107,109 +9130,107 @@ body {
   display: block;
 }
 
-.cure1-difference-section p.difference-anchor:hover {
+.lumineers .cure1-difference-section p.difference-anchor:hover {
   text-decoration: underline;
   text-align: center;
 }
 
-.cure1-difference-section p.difference {
+.lumineers .cure1-difference-section p.difference {
   margin: 0 auto 30px;
   line-height: 180%;
 }
 
-.cure1-difference-section p.difference-sub {
+.lumineers .cure1-difference-section p.difference-sub {
   margin: 0 auto;
   line-height: 180%;
 }
 
-/* onehour */
-.cure1-onehour-section {
+.lumineers .cure1-onehour-section {
   max-width: 1000px;
   margin: 100px auto 50px;
   padding: 0 20px;
   overflow: hidden;
 }
 
-.cure1-snapon-section p.snapon {
+.lumineers .cure1-snapon-section p.snapon {
   line-height: 180%;
   margin-bottom: 80px;
   text-align: justify;
 }
 
-.cure1-onehour-section .sub-head {
+.lumineers .cure1-onehour-section .sub-head {
   font-weight: 400;
   padding-bottom: 10px;
   margin-bottom: 10px;
   border-bottom: 1px solid #ccc;
 }
 
-.cure1-onehour-section .detail {
+.lumineers .cure1-onehour-section .detail {
   line-height: 180%;
   margin-bottom: 30px;
 }
 
-.cure1-onehour-section .list {
+.lumineers .cure1-onehour-section .list {
   margin: 15px 0;
   line-height: 180%;
 }
 
-.cure1-snapon-section .feature {
+.lumineers .cure1-snapon-section .feature {
   clear: both;
   padding: 50px 0;
 }
 
-.cure1-snapon-section .feature li {
+.lumineers .cure1-snapon-section .feature li {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.cure1-onehour-section h4.head {
+.lumineers .cure1-onehour-section h4.head {
   clear: both;
   text-align: center;
   padding: 0px 0 30px;
   font-weight: 400;
 }
 
-.cure1-onehour-section .oneday {
+.lumineers .cure1-onehour-section .oneday {
   text-align: center;
   line-height: 180%;
   margin-bottom: 50px;
 }
 
-.cure1-onehour-section .wrapper {
+.lumineers .cure1-onehour-section .wrapper {
   max-width: 800px;
   margin: 0 auto;
 }
 
-/* payment */
-.cure1-payment-section {
+.lumineers .cure1-payment-section {
   max-width: 100%;
   margin: 0 auto;
   overflow: hidden;
   padding-bottom: 80px;
 }
 
-.cure1-payment-section .alignment-price h5.head {
+.lumineers .cure1-payment-section .alignment-price h5.head {
   text-align: center;
   padding-top: 50px;
   margin-bottom: 50px;
 }
 
-.cure1-payment-section .alignment-price h5.head span {
+.lumineers .cure1-payment-section .alignment-price h5.head span {
   display: block;
   margin-top: 10px;
 }
 
-.cure1-payment-section .alignment-price p.item {
+.lumineers .cure1-payment-section .alignment-price p.item {
   margin-bottom: 10px;
 }
 
-.cure1-payment-section .alignment-price p.result {
+.lumineers .cure1-payment-section .alignment-price p.result {
   font-weight: 400;
   margin-bottom: 30px;
 }
 
-.cure1-payment-section .alignment-price p.yoyaku {
+.lumineers .cure1-payment-section .alignment-price p.yoyaku {
   text-align: center;
   font-weight: 500;
   padding: 5px;
@@ -9217,7 +9238,7 @@ body {
   margin-bottom: 30px;
 }
 
-.cure1-payment-section .alignment-price p.yoyaku a {
+.lumineers .cure1-payment-section .alignment-price p.yoyaku a {
   background-color: #d93600;
   letter-spacing: normal;
   color: #fff;
@@ -9225,7 +9246,7 @@ body {
   border-radius: 5px;
 }
 
-.cure1-payment-section .alignment-price h6.head {
+.lumineers .cure1-payment-section .alignment-price h6.head {
   text-align: center;
   margin: 50px auto 20px;
   max-width: 300px;
@@ -9234,12 +9255,12 @@ body {
   background-color: #f6f2ed;
 }
 
-.cure1-payment-section .alignment-price table {
+.lumineers .cure1-payment-section .alignment-price table {
   max-width: 500px;
   margin: 0 auto;
 }
 
-.cure1-payment-section .alignment-price table tr {
+.lumineers .cure1-payment-section .alignment-price table tr {
   border-bottom: 1px solid #f6f2ed;
   padding: 10px;
   display: inline-block;
@@ -9247,18 +9268,18 @@ body {
   width: 100%;
 }
 
-.cure1-payment-section .alignment-price table tr th {
+.lumineers .cure1-payment-section .alignment-price table tr th {
   width: 350px;
   text-align: left;
 }
 
-.cure1-payment-section .alignment-price table tr td {
+.lumineers .cure1-payment-section .alignment-price table tr td {
   font-weight: 400;
   text-align: right;
   width: 150px;
 }
 
-.cure1-payment-section .alignment-price .comment {
+.lumineers .cure1-payment-section .alignment-price .comment {
   max-width: 500px;
   margin: 0 auto;
   text-align: left;
@@ -9271,13 +9292,13 @@ body {
   .lumineers .cure1-outline-section {
     padding-top: 50px;
   }
-  .cure1-lumineers-page-section {
+  .lumineers .cure1-lumineers-page-section {
     margin-top: 50px;
   }
-  .cure1-difference-section {
+  .lumineers .cure1-difference-section {
     padding: 50px 20px;
   }
-  .cure1-payment-section .alignment-price table tr td {
+  .lumineers .cure1-payment-section .alignment-price table tr td {
     width: 50px;
   }
 }
@@ -9285,14 +9306,15 @@ body {
 /* ==========================================================
 	.non-extraction-page
 ========================================================== */
-/* outline */
 .non-extraction {
+  /* outline */
   /* voice */
   /* alignment */
   /* frontside */
   /* ceramic-alignment */
   /* alignment-faq */
   /* payment */
+  /* -------  end --------  */
 }
 
 .non-extraction .cure2-outline-section {
@@ -9982,6 +10004,7 @@ body {
   /* ceramic */
   /* merit */
   /* comment */
+  /* -------  end --------  */
 }
 
 .orthodontic .content {
@@ -10378,18 +10401,39 @@ body {
 /* ==========================================================
 	shinbi-page
 ========================================================== */
-.shinbi-content__mainvisual {
+.shinbi {
+  /* proportion */
+  /* frontteeth */
+  /* collaboration */
+  /* ceramic */
+  /* grinding */
+  /* laminate */
+  /* shinbi-case */
+  /* composite */
+  /* warranty */
+  /* shinbi-whitening */
+  /* lumineers */
+  /* snapon */
+  /* ==========================================================
+	shinbi-case
+========================================================== */
+  /* case */
+  /* outline */
+  /* -------  end --------  */
+}
+
+.shinbi .shinbi-content__mainvisual {
   position: relative;
 }
 
-.shinbi-content__mainvisual--image {
+.shinbi .shinbi-content__mainvisual--image {
   height: 500px;
   background-image: url("../images/eom/top-bg__shinbi.png");
   background-position: 50% 50%;
   background-size: cover;
 }
 
-.shinbi-content__mainvisual--desc {
+.shinbi .shinbi-content__mainvisual--desc {
   max-width: 43.75vw;
   padding: 20px;
   width: 100%;
@@ -10402,71 +10446,71 @@ body {
           transform: translateY(-50%);
 }
 
-.shinbi-content__mainvisual--caption {
+.shinbi .shinbi-content__mainvisual--caption {
   font-size: 2.5vw;
 }
 
-.shinbi-content__mainvisual--text {
+.shinbi .shinbi-content__mainvisual--text {
   font-size: 1.125vw;
 }
 
 @media screen and (max-width: 1050px) {
-  .shinbi-content__mainvisual--image {
+  .shinbi .shinbi-content__mainvisual--image {
     height: 400px;
     background-position: 12.5vw;
   }
-  .shinbi-content__mainvisual--desc {
+  .shinbi .shinbi-content__mainvisual--desc {
     position: relative;
     max-width: 100%;
     right: 0;
     -webkit-transform: none;
             transform: none;
   }
-  .shinbi-content__mainvisual--caption {
+  .shinbi .shinbi-content__mainvisual--caption {
     font-size: 2.5rem;
   }
-  .shinbi-content__mainvisual--text {
+  .shinbi .shinbi-content__mainvisual--text {
     font-size: 1.6rem;
     line-height: 2;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .shinbi-content__mainvisual--caption {
+  .shinbi .shinbi-content__mainvisual--caption {
     font-size: 2.8rem;
   }
-  .shinbi-content__mainvisual--text {
+  .shinbi .shinbi-content__mainvisual--text {
     font-size: 1.6rem;
   }
 }
 
 @media screen and (max-width: 576px) {
-  .shinbi-content__mainvisual--image {
+  .shinbi .shinbi-content__mainvisual--image {
     background-position: -150px;
   }
-  .shinbi-content__mainvisual--caption {
+  .shinbi .shinbi-content__mainvisual--caption {
     line-height: 1.7;
   }
-  .shinbi-content__mainvisual--text {
+  .shinbi .shinbi-content__mainvisual--text {
     margin-top: 20px;
   }
 }
 
-.shinbi-content__body {
+.shinbi .shinbi-content__body {
   letter-spacing: initial;
 }
 
-.shinbi-content__body * {
+.shinbi .shinbi-content__body * {
   margin: 0 auto;
 }
 
-.shinbi-teeth__section {
+.shinbi .shinbi-teeth__section {
   padding: 100px 0;
   max-width: 1000px;
   margin: 0 auto;
 }
 
-.shinbi-teeth__content {
+.shinbi .shinbi-teeth__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10475,30 +10519,30 @@ body {
           justify-content: space-between;
 }
 
-.shinbi-teeth__content .left {
+.shinbi .shinbi-teeth__content .left {
   max-width: 580px;
   width: 100%;
   margin: 0;
   padding: 0 20px;
 }
 
-.shinbi-teeth__content .right {
+.shinbi .shinbi-teeth__content .right {
   max-width: 400px;
   width: 100%;
   margin: 0;
   padding: 0 20px;
 }
 
-.shinbi-teeth__content h2 {
+.shinbi .shinbi-teeth__content h2 {
   margin-bottom: 50px;
 }
 
-.shinbi-teeth__content p {
+.shinbi .shinbi-teeth__content p {
   line-height: 2.5;
 }
 
 @media screen and (max-width: 768px) {
-  .shinbi-teeth__content {
+  .shinbi .shinbi-teeth__content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
@@ -10507,44 +10551,43 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
-  .shinbi-teeth__content .left {
+  .shinbi .shinbi-teeth__content .left {
     max-width: 100%;
     margin-top: 30px;
   }
-  .shinbi-teeth__content .right {
+  .shinbi .shinbi-teeth__content .right {
     max-width: 500px;
   }
-  .shinbi-teeth__content h2 {
+  .shinbi .shinbi-teeth__content h2 {
     text-align: center;
     margin-bottom: 20px;
   }
 }
 
 @media screen and (max-width: 576px) {
-  .shinbi-teeth__section {
+  .shinbi .shinbi-teeth__section {
     padding: 70px 0 50px 0;
   }
 }
 
-/* proportion */
-.proportion-about-section {
+.shinbi .proportion-about-section {
   width: 100%;
   padding: 0 20px 100px;
   background: #000;
   color: #fff;
 }
 
-.proportion-about-section .gp-img {
+.shinbi .proportion-about-section .gp-img {
   text-align: center;
   background: #000;
   margin-bottom: 50px;
 }
 
-.proportion-about-section .gp-img img {
+.shinbi .proportion-about-section .gp-img img {
   max-width: 100%;
 }
 
-.proportion-about-section h2.caption {
+.shinbi .proportion-about-section h2.caption {
   width: 100%;
   text-align: center;
   letter-spacing: 0.3rem;
@@ -10552,18 +10595,18 @@ body {
   margin-bottom: 50px;
 }
 
-.proportion-about-section ul {
+.shinbi .proportion-about-section ul {
   max-width: 800px;
   margin: 0 auto;
   padding: 0;
 }
 
-.proportion-about-section ul li {
+.shinbi .proportion-about-section ul li {
   margin-bottom: 20px;
   overflow: hidden;
 }
 
-.proportion-about-section ul li .about-head {
+.shinbi .proportion-about-section ul li .about-head {
   border-bottom: 1px solid #666;
   text-align: left;
   display: block;
@@ -10572,7 +10615,7 @@ body {
   color: #fff;
 }
 
-.proportion-about-section ul li .about-detail {
+.shinbi .proportion-about-section ul li .about-detail {
   display: block;
   vertical-align: middle;
   line-height: 150%;
@@ -10580,84 +10623,82 @@ body {
   letter-spacing: 0.2rem;
 }
 
-/* frontteeth */
-.cure1-frontteeth-section {
+.shinbi .cure1-frontteeth-section {
   width: 100%;
   padding: 100px 20px 50px;
   margin: 0 auto;
   overflow: hidden;
 }
 
-.cure1-frontteeth-section h3.head {
+.shinbi .cure1-frontteeth-section h3.head {
   margin-bottom: 30px;
   text-align: center;
 }
 
-.cure1-frontteeth-section p.intro {
+.shinbi .cure1-frontteeth-section p.intro {
   margin: 0 auto 30px;
   margin-bottom: 30px;
   line-height: 200%;
   text-align: center;
 }
 
-.cure1-frontteeth-section p.intro span {
+.shinbi .cure1-frontteeth-section p.intro span {
   margin-top: 20px;
   display: block;
 }
 
-.cure1-frontteeth-section .ceramic-image {
+.shinbi .cure1-frontteeth-section .ceramic-image {
   text-align: center;
 }
 
-.cure1-frontteeth-section .provisional-wrap {
+.shinbi .cure1-frontteeth-section .provisional-wrap {
   max-width: 800px;
   margin: 0 auto;
 }
 
-.provisional-wrap h4.head {
+.shinbi .provisional-wrap h4.head {
   font-weight: bold;
   padding: 5px 0;
   margin-bottom: 5px;
 }
 
-.provisional-wrap p.provisional {
+.shinbi .provisional-wrap p.provisional {
   line-height: 180%;
   margin-bottom: 40px;
   text-align: justify;
 }
 
-.provisional-wrap p.provisional {
+.shinbi .provisional-wrap p.provisional {
   line-height: 180%;
   margin-bottom: 40px;
   text-align: justify;
 }
 
-/* collaboration */
-.cure1-collaboration-section {
+.shinbi .cure1-collaboration-section {
   width: 100%;
   background-color: #fafafa;
 }
 
-.cure1-collaboration-section .wrapper {
+.shinbi .cure1-collaboration-section .wrapper {
   max-width: 1000px;
   padding: 100px 20px;
   margin: 0 auto;
   overflow: hidden;
 }
 
-.cure1-collaboration-section h3.head {
+.shinbi .cure1-collaboration-section h3.head {
   margin-bottom: 30px;
   text-align: center;
 }
 
-.cure1-collaboration-section p.sub-head {
+.shinbi .cure1-collaboration-section p.sub-head {
   text-align: center;
   color: #e86779;
   margin-bottom: 20px;
   font-weight: 400px;
 }
 
-.cure1-collaboration-section h3.head span {
+.shinbi .cure1-collaboration-section h3.head span {
   font-weight: 800;
   color: #fff;
   margin: 0 5px;
@@ -10668,13 +10709,13 @@ body {
   background-color: #e86779;
 }
 
-.cure1-collaboration-section p.intro {
+.shinbi .cure1-collaboration-section p.intro {
   margin: 0 auto 30px;
   line-height: 200%;
   text-align: center;
 }
 
-.cure1-collaboration-section p.collaboration-anchor {
+.shinbi .cure1-collaboration-section p.collaboration-anchor {
   margin: 50px auto 0;
   padding-bottom: 30px;
   color: #08c;
@@ -10683,45 +10724,44 @@ body {
   line-height: 150%;
 }
 
-.cure1-collaboration-section p.collaboration-anchor:hover {
+.shinbi .cure1-collaboration-section p.collaboration-anchor:hover {
   text-decoration: underline;
   text-align: center;
 }
 
-.cure1-collaboration-section p.collaboration {
+.shinbi .cure1-collaboration-section p.collaboration {
   max-width: 800px;
   margin: 0 auto;
   line-height: 180%;
 }
 
-/* ceramic */
-.cure1-ceramic-section {
+.shinbi .cure1-ceramic-section {
   max-width: 1000px;
   margin: 100px auto;
   padding: 0 20px;
   overflow: hidden;
 }
 
-.cure1-ceramic-section h3.head {
+.shinbi .cure1-ceramic-section h3.head {
   margin-bottom: 30px;
   text-align: center;
 }
 
-.cure1-ceramic-section h4.intro {
+.shinbi .cure1-ceramic-section h4.intro {
   font-weight: 100;
   margin-bottom: 30px;
   line-height: 150%;
   text-align: center;
 }
 
-.cure1-ceramic-section p.ceramic {
+.shinbi .cure1-ceramic-section p.ceramic {
   margin: 0 auto 30px;
   margin-bottom: 30px;
   line-height: 200%;
   text-align: center;
 }
 
-.cure1-ceramic-section p.ceramic-anchor {
+.shinbi .cure1-ceramic-section p.ceramic-anchor {
   margin: 50px auto 0;
   padding: 10px 20px;
   color: #08c;
@@ -10732,12 +10772,12 @@ body {
   line-height: 150%;
 }
 
-.cure1-ceramic-section p.ceramic-anchor:hover {
+.shinbi .cure1-ceramic-section p.ceramic-anchor:hover {
   text-align: center;
   opacity: 0.7;
 }
 
-.cure1-ceramic-section a.ceramic-case {
+.shinbi .cure1-ceramic-section a.ceramic-case {
   margin: 50px auto;
   max-width: 500px;
   border: 1px solid #ddd;
@@ -10751,11 +10791,11 @@ body {
   line-height: 150%;
 }
 
-.cure1-ceramic-section a.ceramic-case:hover {
+.shinbi .cure1-ceramic-section a.ceramic-case:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-.cure1-ceramic-section .ceramic-case-head {
+.shinbi .cure1-ceramic-section .ceramic-case-head {
   margin: 50px auto;
   max-width: 500px;
   border: 1px solid #ddd;
@@ -10768,11 +10808,11 @@ body {
   line-height: 150%;
 }
 
-.cure1-ceramic-section .ceramic-case-head {
+.shinbi .cure1-ceramic-section .ceramic-case-head {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-.cure1-ceramic-section .medical-flow {
+.shinbi .cure1-ceramic-section .medical-flow {
   max-width: 900px;
   margin: 0 auto;
   text-align: center;
@@ -10781,41 +10821,41 @@ body {
   background-color: #d1c0a5;
 }
 
-.cure1-ceramic-section .medical-flow .flow-head {
+.shinbi .cure1-ceramic-section .medical-flow .flow-head {
   background-color: #a5967d;
 }
 
-.cure1-ceramic-section .medical-flow p {
+.shinbi .cure1-ceramic-section .medical-flow p {
   margin-bottom: 10px;
   line-height: 180%;
   color: #fff;
 }
 
-.cure1-ceramic-section .medical-flow p.flow-head {
+.shinbi .cure1-ceramic-section .medical-flow p.flow-head {
   margin-left: -20px;
   margin-right: -20px;
 }
 
-.cure1-ceramic-section .medical-flow img {
+.shinbi .cure1-ceramic-section .medical-flow img {
   margin: 20px auto;
   max-width: 400px;
   width: 100%;
 }
 
-.cure1-ceramic-section .left {
+.shinbi .cure1-ceramic-section .left {
   max-width: 400px;
   width: 100%;
   float: left;
 }
 
-.cure1-ceramic-section .right {
+.shinbi .cure1-ceramic-section .right {
   max-width: 400px;
   width: 100%;
   float: right;
 }
 
-.cure1-ceramic-section .left img,
-.cure1-ceramic-section .right img {
+.shinbi .cure1-ceramic-section .left img,
+.shinbi .cure1-ceramic-section .right img {
   width: 400px;
   height: 400px;
   text-align: center;
@@ -10823,15 +10863,15 @@ body {
   overflow: hidden;
 }
 
-.cure1-ceramic-section .left .head,
-.cure1-ceramic-section .right .head {
+.shinbi .cure1-ceramic-section .left .head,
+.shinbi .cure1-ceramic-section .right .head {
   font-weight: 400;
   margin-bottom: 20px;
   text-align: center;
   color: #a5967d;
 }
 
-.cure1-ceramic-section .crown {
+.shinbi .cure1-ceramic-section .crown {
   margin: 0 auto;
   margin-bottom: 30px;
   line-height: 180%;
@@ -10839,20 +10879,20 @@ body {
   text-align: center;
 }
 
-.cure1-ceramic-section ul.feature {
+.shinbi .cure1-ceramic-section ul.feature {
   margin: 50px 0 0;
   clear: both;
   text-align: center;
 }
 
-.cure1-ceramic-section ul.feature h5.head {
+.shinbi .cure1-ceramic-section ul.feature h5.head {
   text-align: center;
   margin-bottom: 30px;
   color: #a5967d;
   line-height: 150%;
 }
 
-.cure1-ceramic-section ul.feature li {
+.shinbi .cure1-ceramic-section ul.feature li {
   display: inline-block;
   max-width: 400px;
   width: 100%;
@@ -10863,7 +10903,7 @@ body {
   font-weight: 400;
 }
 
-p.blogbanner a {
+.shinbi p.blogbanner a {
   text-align: center;
   padding: 20px 50px;
   margin: 100px auto;
@@ -10880,134 +10920,131 @@ p.blogbanner a {
   transition: .3s ease-out;
 }
 
-p.blogbanner a:hover {
+.shinbi p.blogbanner a:hover {
   background-position: 0 -100%;
 }
 
-/* grinding */
-.cure1-grinding-section {
+.shinbi .cure1-grinding-section {
   background-color: #fafafa;
   padding: 100px 20px;
 }
 
-.cure1-grinding-section .wrapper {
+.shinbi .cure1-grinding-section .wrapper {
   max-width: 1000px;
   margin: 0 auto;
   overflow: hidden;
 }
 
-.cure1-grinding-section h3.head {
+.shinbi .cure1-grinding-section h3.head {
   margin-bottom: 30px;
 }
 
-.cure1-grinding-section p.contents-text {
+.shinbi .cure1-grinding-section p.contents-text {
   text-align: left;
   line-height: 200%;
 }
 
-/* laminate */
-.cure1-laminate-section {
+.shinbi .cure1-laminate-section {
   max-width: 1000px;
   padding: 0 20px;
   margin: 100px auto 0;
   overflow: hidden;
 }
 
-.cure1-laminate-section .left {
+.shinbi .cure1-laminate-section .left {
   width: 50%;
   float: left;
   overflow: hidden;
 }
 
-.cure1-laminate-section .right {
+.shinbi .cure1-laminate-section .right {
   width: 400px;
   float: right;
   margin-left: 20px;
 }
 
-.cure1-laminate-section h3.head {
+.shinbi .cure1-laminate-section h3.head {
   margin-bottom: 30px;
 }
 
-.cure1-laminate-section h4.intro {
+.shinbi .cure1-laminate-section h4.intro {
   margin-bottom: 30px;
   line-height: 150%;
 }
 
-.cure1-laminate-section p.laminate {
+.shinbi .cure1-laminate-section p.laminate {
   margin-bottom: 30px;
   line-height: 180%;
 }
 
-/* shinbi-case */
-.cure1-case-section {
+.shinbi .cure1-case-section {
   width: 100%;
   padding: 100px 0;
   background-color: #fafafa;
 }
 
-.cure1-case-section .wrapper {
+.shinbi .cure1-case-section .wrapper {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 20px;
   overflow: hidden;
 }
 
-.cure1-case-section h3.head {
+.shinbi .cure1-case-section h3.head {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.cure1-case-section p.sub-text {
+.shinbi .cure1-case-section p.sub-text {
   text-align: center;
   margin-bottom: 50px;
   line-height: 130%;
 }
 
-.cure1-case-section p.sub-text .m {
+.shinbi .cure1-case-section p.sub-text .m {
   color: #bb0000;
 }
 
-.cure1-case-section ul.case {
+.shinbi .cure1-case-section ul.case {
   width: 100%;
   overflow: hidden;
 }
 
-.cure1-case-section ul.case li.case-list {
+.shinbi .cure1-case-section ul.case li.case-list {
   width: 49.5%;
   display: inline-block;
   text-align: center;
   margin: 0 0 50px 0;
 }
 
-.cure1-case-section ul.case li.case-list h4.head {
+.shinbi .cure1-case-section ul.case li.case-list h4.head {
   text-align: center;
   margin: 0 0 10px 0;
 }
 
-.cure1-case-section ul.case li.case-list a {
+.shinbi .cure1-case-section ul.case li.case-list a {
   display: inline-block;
   text-align: center;
   position: relative;
 }
 
-.cure1-case-section ul.case li.case-list a img.wide {
+.shinbi .cure1-case-section ul.case li.case-list a img.wide {
   position: absolute;
   bottom: 5px;
   right: 5px;
 }
 
-.cure1-case-section ul.case li.case-list a img {
+.shinbi .cure1-case-section ul.case li.case-list a img {
   max-width: 120px;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 
-.cure1-case-section ul.case li.case-list a img:hover {
+.shinbi .cure1-case-section ul.case li.case-list a img:hover {
   opacity: 0.7 !important;
 }
 
-.cure1-case-section a.case-anchor {
+.shinbi .cure1-case-section a.case-anchor {
   margin-top: 30px;
   display: block;
   color: #08c;
@@ -11015,85 +11052,83 @@ p.blogbanner a:hover {
   text-align: center;
 }
 
-.cure1-case-section a.case-anchor:hover {
+.shinbi .cure1-case-section a.case-anchor:hover {
   text-decoration: underline;
 }
 
-.cure1-ceramic-section ul.cost_ex li {
+.shinbi .cure1-ceramic-section ul.cost_ex li {
   margin: 5px 0 0px 0;
 }
 
-.cure1-ceramic-section h4.head {
+.shinbi .cure1-ceramic-section h4.head {
   text-align: left;
   margin-bottom: 10px;
 }
 
-.cure1-ceramic-section .att {
+.shinbi .cure1-ceramic-section .att {
   line-height: 150%;
   margin-bottom: 20px;
 }
 
-/* composite */
-.cure1-composite-section {
+.shinbi .cure1-composite-section {
   width: 100%;
   padding: 100px 20px 0;
 }
 
-.cure1-composite-section .wrapper {
+.shinbi .cure1-composite-section .wrapper {
   max-width: 1000px;
   margin: 0 auto;
   overflow: hidden;
 }
 
-.cure1-composite-section .left {
+.shinbi .cure1-composite-section .left {
   width: 400px;
   float: left;
   margin-right: 20px;
 }
 
-.cure1-composite-section .right {
+.shinbi .cure1-composite-section .right {
   width: 50%;
   float: right;
 }
 
-.cure1-composite-section h3.head {
+.shinbi .cure1-composite-section h3.head {
   margin-bottom: 25px;
 }
 
-.cure1-composite-section h4.intro {
+.shinbi .cure1-composite-section h4.intro {
   margin-bottom: 30px;
   line-height: 150%;
 }
 
-.cure1-composite-section p.composite {
+.shinbi .cure1-composite-section p.composite {
   margin-bottom: 30px;
   line-height: 180%;
   text-align: justify;
 }
 
-.cure1-composite-section ul.cost_ex {
+.shinbi .cure1-composite-section ul.cost_ex {
   max-width: 1000px;
   margin: 30px auto;
   overflow: hidden;
 }
 
-ul.cost_ex li {
+.shinbi ul.cost_ex li {
   margin: 0 0 10px 0;
 }
 
-ul.cost_ex li span {
+.shinbi ul.cost_ex li span {
   margin: 0 20px 0 0;
   font-weight: 700;
 }
 
-/* warranty */
-.cure1-warranty-section {
+.shinbi .cure1-warranty-section {
   width: 100%;
   padding: 50px 0;
   background-color: rgba(210, 190, 165, 0.2);
 }
 
-.cure1-warranty-section .wrapper {
+.shinbi .cure1-warranty-section .wrapper {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 20px;
@@ -11101,46 +11136,45 @@ ul.cost_ex li span {
   text-align: center;
 }
 
-.cure1-warranty-section h3.head {
+.shinbi .cure1-warranty-section h3.head {
   margin-bottom: 30px;
 }
 
-.cure1-warranty-section p.lead {
+.shinbi .cure1-warranty-section p.lead {
   margin-bottom: 30px;
   line-height: 180%;
   text-align: center;
 }
 
-.cure1-warranty-section .warranty {
+.shinbi .cure1-warranty-section .warranty {
   line-height: 150%;
 }
 
-/* shinbi-whitening */
-.cure1-shinbi-whitening-section {
+.shinbi .cure1-shinbi-whitening-section {
   width: 100%;
   padding: 100px 0;
   background-color: #fafafa;
 }
 
-.cure1-shinbi-whitening-section .wrapper {
+.shinbi .cure1-shinbi-whitening-section .wrapper {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 20px;
   overflow: hidden;
 }
 
-.cure1-shinbi-whitening-section h3.head {
+.shinbi .cure1-shinbi-whitening-section h3.head {
   margin-bottom: 50px;
   text-align: center;
 }
 
-.cure1-shinbi-whitening-section p.whitening {
+.shinbi .cure1-shinbi-whitening-section p.whitening {
   line-height: 180%;
   margin-bottom: 3 0px;
   text-align: justify;
 }
 
-.cure1-shinbi-whitening-section p.anchor a {
+.shinbi .cure1-shinbi-whitening-section p.anchor a {
   margin-top: 30px;
   display: block;
   color: #08c;
@@ -11150,65 +11184,64 @@ ul.cost_ex li span {
   text-align: center;
 }
 
-/* lumineers */
-.cure1-lumineers-section {
+.shinbi .cure1-lumineers-section {
   max-width: 1000px;
   padding: 100px 20px 0;
   overflow: hidden;
 }
 
-.cure1-lumineers-section h3.head {
+.shinbi .cure1-lumineers-section h3.head {
   margin-bottom: 50px;
   text-align: center;
 }
 
-.cure1-lumineers-section .left {
+.shinbi .cure1-lumineers-section .left {
   width: 50%;
   float: left;
   overflow: hidden;
 }
 
-.cure1-lumineers-section .right {
+.shinbi .cure1-lumineers-section .right {
   width: 400px;
   float: right;
   margin-left: 20px;
 }
 
-.cure1-lumineers-section p.limineers {
+.shinbi .cure1-lumineers-section p.limineers {
   line-height: 180%;
   margin-bottom: 50px;
   text-align: justify;
 }
 
-.cure1-lumineers-section .sub-head {
+.shinbi .cure1-lumineers-section .sub-head {
   font-weight: 400;
   padding-bottom: 10px;
   margin-bottom: 10px;
   border-bottom: 1px solid #ccc;
 }
 
-.cure1-lumineers-section .detail {
+.shinbi .cure1-lumineers-section .detail {
   line-height: 180%;
 }
 
-.cure1-lumineers-section .feature {
+.shinbi .cure1-lumineers-section .feature {
   clear: both;
   padding: 50px 0;
 }
 
-.cure1-lumineers-section .feature li {
+.shinbi .cure1-lumineers-section .feature li {
   text-align: center;
   margin-bottom: 20px;
   line-height: 150%;
 }
 
-.cure1-lumineers-section ul.cost_ex {
+.shinbi .cure1-lumineers-section ul.cost_ex {
   max-width: 1000px;
   margin: 30px auto;
   clear: both;
 }
 
-.cure1-lumineers-section p.anchor a {
+.shinbi .cure1-lumineers-section p.anchor a {
   margin-top: 30px;
   display: block;
   color: #08c;
@@ -11217,102 +11250,97 @@ ul.cost_ex li span {
   font-weight: bold;
 }
 
-ul.cost_ex li {
+.shinbi ul.cost_ex li {
   margin: 0 0 10px 0;
 }
 
-ul.cost_ex li span {
+.shinbi ul.cost_ex li span {
   margin: 0 20px 0 0;
   font-weight: 700;
 }
 
-/* snapon */
-.cure1-snapon-section {
+.shinbi .cure1-snapon-section {
   max-width: 1000px;
   margin: 100px auto;
   padding: 0 20px;
   overflow: hidden;
 }
 
-.cure1-snapon-section h3.head {
+.shinbi .cure1-snapon-section h3.head {
   margin-bottom: 50px;
   text-align: center;
 }
 
-.cure1-snapon-section .left {
+.shinbi .cure1-snapon-section .left {
   width: 50%;
   float: left;
   overflow: hidden;
 }
 
-.cure1-snapon-section .right {
+.shinbi .cure1-snapon-section .right {
   width: 50%;
   float: right;
 }
 
-.cure1-snapon-section .left img {
+.shinbi .cure1-snapon-section .left img {
   width: 400px;
   display: block;
   margin-left: 0;
 }
 
-.cure1-snapon-section p.snapon {
+.shinbi .cure1-snapon-section p.snapon {
   line-height: 180%;
   margin-bottom: 80px;
   text-align: justify;
 }
 
-.cure1-snapon-section .sub-head {
+.shinbi .cure1-snapon-section .sub-head {
   font-weight: 400;
   padding-bottom: 10px;
   margin-bottom: 10px;
   border-bottom: 1px solid #ccc;
 }
 
-.cure1-snapon-section .detail {
+.shinbi .cure1-snapon-section .detail {
   line-height: 180%;
   margin-bottom: 50px;
 }
 
-.cure1-snapon-section .list {
+.shinbi .cure1-snapon-section .list {
   margin: 15px 0;
   line-height: 180%;
 }
 
-.cure1-snapon-section .feature {
+.shinbi .cure1-snapon-section .feature {
   clear: both;
   padding: 50px 0;
 }
 
-.cure1-snapon-section .feature li {
+.shinbi .cure1-snapon-section .feature li {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.cure1-snapon-section h4.head {
+.shinbi .cure1-snapon-section h4.head {
   clear: both;
   text-align: center;
   padding: 50px 0 30px;
   font-weight: 400;
 }
 
-.cure1-snapon-section .oneday {
+.shinbi .cure1-snapon-section .oneday {
   text-align: center;
   line-height: 180%;
   margin-bottom: 50px;
   padding: 0 0 30px;
 }
 
-.cure1-snapon-section .wrapper {
+.shinbi .cure1-snapon-section .wrapper {
   max-width: 800px;
   margin: 0 auto 100px;
 }
 
-/* ==========================================================
-	shinbi-case
-========================================================== */
-/* case */
-.case-header {
+.shinbi .case-header {
   width: 100%;
   height: 100px;
   margin-top: 100px;
@@ -11322,7 +11350,7 @@ ul.cost_ex li span {
   background-size: cover;
 }
 
-.case-header .case-header-caption {
+.shinbi .case-header .case-header-caption {
   width: 100%;
   text-align: center;
   position: absolute;
@@ -11330,169 +11358,168 @@ ul.cost_ex li span {
   text-indent: 0.2rem;
 }
 
-/* outline */
-.case-section {
+.shinbi .case-section {
   max-width: 1000px;
   padding: 0px 0px 100px;
   margin: 0 auto;
 }
 
-.case-section img {
+.shinbi .case-section img {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
 }
 
-.case-section img.right {
+.shinbi .case-section img.right {
   width: 300px;
   display: block;
   float: right;
   margin: 0 0 20px 20px;
 }
 
-.case-section img.left {
+.shinbi .case-section img.left {
   width: 300px;
   display: block;
   float: left;
   margin: 0 20px 20px 0;
 }
 
-.case-section .contents-text {
+.shinbi .case-section .contents-text {
   text-align: left;
   line-height: 200%;
   margin-bottom: 50px;
   overflow: hidden;
 }
 
-.case-section a.case-anchor {
+.shinbi .case-section a.case-anchor {
   color: #08C;
   display: block;
   text-align: center;
   margin-bottom: 50px;
 }
 
-.case-section a.case-anchor:hover {
+.shinbi .case-section a.case-anchor:hover {
   text-decoration: underline;
 }
 
 @media screen and (max-width: 1050px) {
-  .cure1-ceramic-section .left, .cure1-ceramic-section .right {
+  .shinbi .cure1-ceramic-section .left, .shinbi .cure1-ceramic-section .right {
     float: none;
   }
-  .cure1-laminate-section .right {
+  .shinbi .cure1-laminate-section .right {
     width: 43.75vw;
   }
-  .cure1-composite-section .left {
+  .shinbi .cure1-composite-section .left {
     width: 43.75vw;
   }
-  .cure1-lumineers-section .right {
+  .shinbi .cure1-lumineers-section .right {
     width: 43.75vw;
   }
-  .cure1-snapon-section .left {
+  .shinbi .cure1-snapon-section .left {
     width: 43.75vw;
   }
 }
 
 @media screen and (max-width: 576px) {
-  .proportion-about-section {
+  .shinbi .proportion-about-section {
     padding-bottom: 50px;
   }
-  .cure1-collaboration-section .wrapper {
+  .shinbi .cure1-collaboration-section .wrapper {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .cure1-ceramic-section {
+  .shinbi .cure1-ceramic-section {
     margin: 50px auto;
   }
-  .cure1-ceramic-section .medical-flow {
+  .shinbi .cure1-ceramic-section .medical-flow {
     margin-left: -20px;
     margin-right: -20px;
   }
-  .cure1-ceramic-section .medical-flow br {
+  .shinbi .cure1-ceramic-section .medical-flow br {
     display: none;
   }
-  .cure1-ceramic-section .intro br {
+  .shinbi .cure1-ceramic-section .intro br {
     display: none;
   }
-  .cure1-ceramic-section .ceramic br {
+  .shinbi .cure1-ceramic-section .ceramic br {
     display: none;
   }
-  p.blogbanner a {
+  .shinbi p.blogbanner a {
     width: 240px;
     padding: 10px 30px;
     line-height: 1.5;
     font-size: 1.5rem;
   }
-  .case-section img.left, .case-section img.right {
+  .shinbi .case-section img.left, .shinbi .case-section img.right {
     float: none;
     margin: 20px auto;
     max-width: 400px;
     width: 100%;
   }
-  .case-header {
+  .shinbi .case-header {
     margin-top: 50px;
   }
-  .case-section .contents-text {
+  .shinbi .case-section .contents-text {
     margin-bottom: 30px;
   }
-  p.blogbanner a {
+  .shinbi p.blogbanner a {
     margin: 50px auto;
   }
-  .cure1-laminate-section {
+  .shinbi .cure1-laminate-section {
     margin-top: 70px;
   }
-  .cure1-laminate-section .right {
+  .shinbi .cure1-laminate-section .right {
     margin-left: 5px;
   }
-  .cure1-grinding-section {
+  .shinbi .cure1-grinding-section {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .cure1-composite-section {
+  .shinbi .cure1-composite-section {
     padding-top: 50px;
   }
-  .cure1-composite-section h3.head {
+  .shinbi .cure1-composite-section h3.head {
     text-align: left;
   }
-  .cure1-composite-section h3.head br {
+  .shinbi .cure1-composite-section h3.head br {
     display: none;
   }
-  .cure1-shinbi-whitening-section {
+  .shinbi .cure1-shinbi-whitening-section {
     padding: 50px 0;
   }
-  .cure1-shinbi-whitening-section h3.head {
+  .shinbi .cure1-shinbi-whitening-section h3.head {
     margin-bottom: 30px;
   }
-  .cure1-lumineers-section {
+  .shinbi .cure1-lumineers-section {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .cure1-snapon-section {
+  .shinbi .cure1-snapon-section {
     margin-top: 50px;
   }
-  .cure1-snapon-section .wrapper {
+  .shinbi .cure1-snapon-section .wrapper {
     margin-bottom: 0;
   }
-  .cure1-snapon-section h3.head {
+  .shinbi .cure1-snapon-section h3.head {
     margin-bottom: 30px;
   }
-  .cure1-snapon-section p.snapon {
+  .shinbi .cure1-snapon-section p.snapon {
     margin-bottom: 50px;
   }
-  .cure1-snapon-section .left, .cure1-snapon-section .right {
+  .shinbi .cure1-snapon-section .left, .shinbi .cure1-snapon-section .right {
     float: none;
     width: 100%;
   }
-  .cure1-snapon-section .left {
+  .shinbi .cure1-snapon-section .left {
     max-width: 400px;
     margin-bottom: 20px;
   }
-  .cure1-snapon-section .list br {
+  .shinbi .cure1-snapon-section .list br {
     display: none;
   }
-  .cure1-snapon-section .oneday br {
+  .shinbi .cure1-snapon-section .oneday br {
     display: none;
   }
-  .cure1-lumineers-section p.anchor a {
+  .shinbi .cure1-lumineers-section p.anchor a {
     text-align: center;
   }
 }
@@ -11504,7 +11531,7 @@ ul.cost_ex li span {
   /* outline */
   /* office-whitening */
   /* home-whitening */
-  /*---------end whitening-------------*/
+  /* -------  end --------  */
 }
 
 .whitening .whitening-row {
@@ -11888,6 +11915,126 @@ ul.cost_ex li span {
   #anti-aging-top .anti-content__mainvisual--caption {
     font-size: 4.61538vw;
   }
+}
+
+/* ==========================================================
+	grinding-page
+========================================================== */
+.grinding {
+  /* outline */
+  /* grinding */
+  /* botox */
+  /*----------  end ------------*/
+}
+
+.grinding .cure2-outline-section {
+  max-width: 1000px;
+  padding: 100px 0 0;
+}
+
+.grinding .cure2-outline-section h2.head {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+  margin-bottom: 50px;
+  line-height: 150%;
+}
+
+.grinding .cure2-outline-section p.intro {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+  line-height: 200%;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.grinding .cure2-grinding-section {
+  max-width: 1000px;
+  margin: 50px auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.grinding .cure2-grinding-section .left {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.grinding .cure2-grinding-section .right {
+  text-align: center;
+}
+
+.grinding .cure2-grinding-section .right img {
+  width: 400px;
+  display: block;
+}
+
+.grinding .cure2-grinding-section h3.head {
+  font-weight: 200;
+  margin-bottom: 30px;
+  letter-spacing: 0.2rem;
+  line-height: 150%;
+}
+
+.grinding .cure2-grinding-section p {
+  font-weight: 200;
+  line-height: 180%;
+}
+
+.grinding .cure2-grinding-section .left a.myomonitor-anchor {
+  margin: 30px auto 0;
+  color: #08c;
+  display: block;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.grinding .cure2-grinding-section .left a.myomonitor-anchor:hover {
+  text-decoration: underline;
+}
+
+.grinding .cure2-grinding-section .botox {
+  margin: 0 auto 100px;
+  overflow: hidden;
+}
+
+.grinding .cure2-grinding-section .botox h3.head {
+  font-weight: 200;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.grinding .cure2-grinding-section .botox p.price {
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 20px;
+  line-height: 150%;
+}
+
+.grinding .cure2-grinding-section .botox .head {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 200;
+}
+
+.grinding .cure2-grinding-section .botox .detail {
+  font-weight: 200;
+  line-height: 200%;
+  margin-bottom: 30px;
+}
+
+.grinding .cure2-grinding-section .botox .merit {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.grinding .cure2-grinding-section .botox .merit li {
+  padding: 20px 0;
+  margin: 3px 0;
+  background-color: rgba(165, 150, 125, 0.1);
+  color: #a5967d;
 }
 
 /* ==========================================================

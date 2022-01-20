@@ -4,6 +4,7 @@
 ========================================================== */
 .doctor{
 
+
 .doctor-container{
     max-width: 1040px;
     padding: 0 20px;
@@ -16,7 +17,6 @@
 /* ==========================================================
 	about doctor content
 ========================================================== */
-    
 .doctor-header{
     height: 220px;
     position: relative;
@@ -133,8 +133,6 @@
             text-align: center;
             margin: 0 0 20px 0;
             img{
-                max-width: 150px;
-                width: 100%;
                 margin: auto;
             }
         }
@@ -155,4 +153,6 @@
 }
 
 
+
+/* -------  end --------  */
 }
