@@ -11891,6 +11891,462 @@ ul.cost_ex li span {
 }
 
 /* ==========================================================
+	gum-care-page
+========================================================== */
+.gum-care {
+  /* outline */
+  /* periodontal */
+  /* gum-massage */
+  /*----------- end -------------*/
+}
+
+.gum-care .care1-outline-section {
+  max-width: 1040px;
+  padding: 100px 20px;
+  margin: auto;
+}
+
+.gum-care .care1-outline-section h2.head {
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+}
+
+.gum-care .care1-outline-section p.intro {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+  line-height: 200%;
+  text-align: center;
+}
+
+.gum-care .care1-outline-section p.intro span {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.gum-care .care1-outline-section p.intro span a {
+  font-weight: 400;
+  color: #08c;
+  font-weight: bold;
+}
+
+.gum-care .care1-outline-section p.intro span a:hover {
+  opacity: .8;
+}
+
+.gum-care .care1-periodontal-section {
+  max-width: 1040px;
+  padding: 0 20px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.gum-care .care1-periodontal-section h3.head {
+  font-weight: 300;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.gum-care .care1-periodontal-section p.intro {
+  margin: 0 auto 100px;
+  font-weight: 300;
+  line-height: 200%;
+  text-align: justify;
+}
+
+.gum-care .care1-periodontal-section .treatment-wrap {
+  margin-bottom: 150px;
+}
+
+.gum-care .care1-periodontal-section .treatment-wrap h4.head {
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+.gum-care .care1-periodontal-section .treatment-wrap p.detail {
+  font-weight: 300;
+  margin-bottom: 10px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.gum-care .care1-periodontal-section .treatment-wrap .arrow {
+  font-weight: 400;
+  margin-bottom: 10px;
+  line-height: 150%;
+  text-align: center;
+  color: #d2bea5;
+}
+
+.gum-care .care1-periodontal-section .periodontal {
+  max-width: 700px;
+  margin: 0 auto 50px;
+}
+
+.gum-care .care1-periodontal-section .periodontal h3.head {
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.gum-care .care1-periodontal-section .periodontal p.price {
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.gum-care .care1-periodontal-section .periodontal .detail {
+  font-weight: 300;
+  line-height: 200%;
+}
+
+.gum-care .care1-periodontal-section .perosovl {
+  max-width: 700px;
+  margin: 0 auto 50px;
+}
+
+.gum-care .care1-periodontal-section .perosovl h3.head {
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.gum-care .care1-periodontal-section .perosovl img {
+  float: right;
+}
+
+.gum-care .care1-periodontal-section .perosovl p.detail.flort {
+  font-weight: 300;
+  line-height: 200%;
+}
+
+.gum-care .care1-periodontal-section .perosovl p.detail {
+  font-weight: 300;
+  line-height: 200%;
+}
+
+.gum-care .care1-periodontal-section .perosovl .merit {
+  clear: both;
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px 20px;
+  background-color: #fafafa;
+  border-radius: 10px;
+}
+
+.gum-care .care1-periodontal-section .perosovl .merit h4.head {
+  font-weight: 700;
+  text-align: left;
+  margin: 0 0 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #ddd;
+}
+
+.gum-care .care1-periodontal-section .perosovl .merit ul.detail li {
+  margin-left: 20px;
+  list-style: disc;
+  font-weight: 300;
+  line-height: 180%;
+}
+
+.gum-care .care1-periodontal-section .perosovl .safty {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px 20px;
+  background-color: #fafafa;
+  border-radius: 10px;
+}
+
+.gum-care .care1-periodontal-section .perosovl .safty h4.head {
+  font-weight: 700;
+  text-align: left;
+  margin: 0 0 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #ddd;
+}
+
+.gum-care .care1-periodontal-section .perosovl .safty p.detail {
+  font-weight: 300;
+  line-height: 180%;
+}
+
+.gum-care .care1-periodontal-section .perosovl .treatment {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px 20px;
+  background-color: #fafafa;
+  border-radius: 10px;
+}
+
+.gum-care .care1-periodontal-section .perosovl .treatment h4.head {
+  font-weight: 700;
+  text-align: left;
+  margin: 0 0 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #ddd;
+}
+
+.gum-care .care1-periodontal-section .perosovl .treatment ul.detail li {
+  margin-left: 20px;
+  list-style: decimal;
+  font-weight: 300;
+  line-height: 180%;
+}
+
+.gum-care .care1-periodontal-section .perosovl .price {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px 20px;
+  background-color: #fafafa;
+  border-radius: 10px;
+}
+
+.gum-care .care1-periodontal-section .perosovl .price h4.head {
+  font-weight: 700;
+  text-align: left;
+  margin: 0 0 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #ddd;
+}
+
+.gum-care .care1-periodontal-section .perosovl .price ul.detail li {
+  margin-left: 20px;
+  list-style: circle;
+  font-weight: 300;
+  line-height: 180%;
+}
+
+.gum-care .care1-periodontal-section .injection {
+  max-width: 700px;
+  margin: 0 auto 80px;
+}
+
+.gum-care .care1-periodontal-section .injection h3.head {
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.gum-care .care1-periodontal-section .injection p.price {
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.gum-care .care1-periodontal-section .injection .detail {
+  font-weight: 300;
+  line-height: 200%;
+  margin-bottom: 30px;
+}
+
+.gum-care .care1-periodontal-section .injection .detail a {
+  font-weight: 500;
+  color: #08c;
+}
+
+.gum-care .care1-periodontal-section .injection h4.head {
+  font-weight: 300;
+  text-align: left;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.gum-care .care1-periodontal-section .injection ul {
+  font-weight: 300;
+  line-height: 200%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.gum-care .care1-periodontal-section .injection li {
+  text-align: center;
+  margin-bottom: 2px;
+  padding: 5px 10px;
+  background-color: #f1ece4;
+}
+
+.gum-care .care1-periodontal-section .impact-anchor {
+  margin: 50px auto 0;
+  padding-bottom: 100px;
+  max-width: 600px;
+  color: #08c;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  line-height: 150%;
+}
+
+.gum-care .care1-periodontal-section .impact-wrap {
+  margin-bottom: 100px;
+}
+
+.gum-care .care1-periodontal-section .impact-wrap .impact {
+  padding: 50px 50px 20px;
+  background-color: #f1ece4;
+}
+
+.gum-care .care1-periodontal-section .impact-wrap .impact .sub-head {
+  font-weight: 300;
+  margin: 10px 0;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+.gum-care .care1-periodontal-section .impact-wrap .impact h3.head {
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+.gum-care .care1-periodontal-section .impact-wrap .impact .detail {
+  font-weight: 300;
+  line-height: 200%;
+  margin-bottom: 30px;
+}
+
+.gum-care .care1-periodontal-section .impact-wrap .impact h4.head {
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-align: left;
+  letter-spacing: 0.1rem;
+}
+
+.gum-care .care1-gum-massage-section {
+  max-width: 1040px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.gum-care .care1-gum-massage-section .left {
+  width: 50%;
+  float: left;
+}
+
+.gum-care .care1-gum-massage-section .left h3.head {
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.gum-care .care1-gum-massage-section .left p.price {
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.gum-care .care1-gum-massage-section .left h4.sub-head {
+  font-weight: 400;
+  margin: 20px 0 10px;
+  text-align: left;
+}
+
+.gum-care .care1-gum-massage-section .left p.detail {
+  font-weight: 300;
+  line-height: 180%;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.gum-care .care1-gum-massage-section .left .recommend {
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+
+.gum-care .care1-gum-massage-section .right {
+  width: 50%;
+  float: right;
+  padding-left: 20px;
+}
+
+.gum-care .care1-gum-massage-section .right img {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+}
+
+.gum-care .care1-gum-massage-section .pmtc-menu {
+  clear: both;
+  max-width: 700px;
+  margin: 0  auto;
+  padding: 100px 0;
+  overflow: hidden;
+}
+
+.gum-care .care1-gum-massage-section .pmtc-menu h3.head {
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.gum-care .care1-gum-massage-section .pmtc-menu p.price {
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.gum-care .care1-gum-massage-section .pmtc-menu .detail {
+  font-weight: 300;
+  line-height: 200%;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .gum-care .care1-gum-massage-section .left, .gum-care .care1-gum-massage-section .right {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+  .gum-care .care1-gum-massage-section .right {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .gum-care .care1-outline-section {
+    padding-top: 50px;
+  }
+  .gum-care .care1-outline-section p.intro {
+    text-align: left;
+  }
+  .gum-care .care1-outline-section p.intro br {
+    display: none;
+  }
+  .gum-care .care1-periodontal-section .perosovl img {
+    float: none;
+    margin: auto;
+  }
+  .gum-care .care1-periodontal-section .perosovl .merit {
+    margin: 0 -10px;
+  }
+  .gum-care .care1-periodontal-section .injection li {
+    text-align: left;
+  }
+  .gum-care .care1-periodontal-section .impact-wrap .impact {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 50px 20px;
+  }
+  .gum-care .care1-gum-massage-section .pmtc-menu {
+    padding-bottom: 0;
+  }
+  .gum-care .care1-gum-massage-section .pmtc-menu h3.head {
+    text-align: center;
+  }
+  .gum-care .care1-gum-massage-section .pmtc-menu h3.head span {
+    display: block;
+  }
+}
+
+/* ==========================================================
 	teeth-cleaning-page
 ========================================================== */
 .teeth-cleaning {

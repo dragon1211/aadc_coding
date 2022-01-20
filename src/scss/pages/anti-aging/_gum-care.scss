@@ -1,0 +1,408 @@
+
+@charset "UTF-8";
+/* ==========================================================
+	gum-care-page
+========================================================== */
+.gum-care{
+
+
+/* outline */
+.care1-outline-section {
+	max-width: 1040px;
+	padding: 100px 20px;
+    margin: auto;
+    h2.head {
+        text-align: center;
+        font-weight: 400;
+        letter-spacing: 0.5rem;
+        text-indent: 0.5rem;	
+        margin-bottom: 50px;
+    }
+    p.intro {
+        margin: 0 auto;
+        letter-spacing: 0.2rem;
+        font-weight: 400;
+        line-height: 200%;
+        text-align: center;	
+        span {
+            display: inline-block;
+            margin-top: 30px;
+            a {
+                font-weight: 400;	
+                color: #08c;
+                font-weight: bold;
+                &:hover {
+                    opacity: .8;
+                }
+            }
+        }
+    }
+}
+
+
+/* periodontal */
+.care1-periodontal-section {
+	max-width: 1040px;
+	padding: 0 20px;
+	margin: 0 auto;
+	overflow: hidden;	
+    h3.head {
+        font-weight: 300;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    p.intro {
+        margin: 0 auto 100px;
+        font-weight: 300;
+        line-height: 200%;
+        text-align: justify;	
+    }
+    .treatment-wrap {
+        margin-bottom: 150px;
+        h4.head {
+            font-weight: 500;
+            margin-bottom: 20px;
+            text-align: center;	
+            letter-spacing: 0.1rem;
+        }
+        p.detail {
+            font-weight: 300;
+            margin-bottom: 10px;
+            line-height: 150%;
+            text-align: center;	
+        }
+        .arrow {
+            font-weight: 400;
+            margin-bottom: 10px;
+            line-height: 150%;
+            text-align: center;
+            color: #d2bea5;
+        }
+    }
+    .periodontal {
+        max-width: 700px;
+        margin: 0 auto 50px;
+        h3.head {
+            font-weight: 500;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        p.price {
+            font-weight: 400;
+            text-align: left;
+            margin-bottom: 20px;	
+        }
+        .detail {
+            font-weight: 300;
+            line-height: 200%;
+        }
+    }
+    .perosovl {
+        max-width: 700px;
+        margin: 0 auto 50px;
+        h3.head {
+            font-weight: 500;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        img {
+            float: right;
+        }
+        p.detail.flort {
+            font-weight: 300;
+            line-height: 200%;
+        }
+        p.detail {
+            font-weight: 300;
+            line-height: 200%;
+        }
+        .merit {
+            clear: both;
+            max-width: 700px;
+            margin: 30px auto;
+            padding: 20px 20px;
+            background-color: #fafafa;
+            border-radius: 10px;
+            h4.head {
+                font-weight: 700;
+                text-align: left;
+                margin: 0 0 10px;
+                padding-bottom: 10px;
+                border-bottom: solid 1px #ddd;
+            }
+            ul.detail li{
+                margin-left: 20px;
+                list-style: disc;
+                font-weight: 300;
+                line-height: 180%;		
+            }
+        }
+        .safty {
+            max-width: 700px;
+            margin: 30px auto;
+            padding: 20px 20px;
+            background-color: #fafafa;
+            border-radius: 10px;
+            h4.head {
+                font-weight: 700;
+                text-align: left;
+                margin: 0 0 10px;
+                padding-bottom: 10px;
+                border-bottom: solid 1px #ddd;
+            }
+            p.detail {
+                font-weight: 300;
+                line-height: 180%;		
+            }
+        }
+        .treatment {
+            max-width: 700px;
+            margin: 30px auto;
+            padding: 20px 20px;
+            background-color: #fafafa;
+            border-radius: 10px;
+            h4.head {
+                font-weight: 700;
+                text-align: left;
+                margin: 0 0 10px;
+                padding-bottom: 10px;
+                border-bottom: solid 1px #ddd;
+            }
+            ul.detail li{
+                margin-left: 20px;
+                list-style: decimal;
+                font-weight: 300;
+                line-height: 180%;		
+            }
+        }
+        .price {
+            max-width: 700px;
+            margin: 30px auto;
+            padding: 20px 20px;
+            background-color: #fafafa;
+            border-radius: 10px;
+            h4.head {
+                font-weight: 700;
+                text-align: left;
+                margin: 0 0 10px;
+                padding-bottom: 10px;
+                border-bottom: solid 1px #ddd;
+            }
+            ul.detail li{
+                margin-left: 20px;
+                list-style: circle;
+                font-weight: 300;
+                line-height: 180%;		
+            }
+        }
+    }
+    .injection {
+        max-width: 700px;
+        margin: 0 auto 80px;
+        h3.head {
+            font-weight: 500;
+            text-align: left;
+            margin-bottom: 10px;
+        }
+        p.price {
+            font-weight: 400;
+            text-align: left;
+            margin-bottom: 50px;	
+        }
+        .detail {
+            font-weight: 300;
+            line-height: 200%;
+            margin-bottom: 30px;	
+            a {
+                font-weight: 500;
+                color: #08c;
+            }
+        }
+        h4.head {
+            font-weight: 300;
+            text-align: left;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        ul {
+            font-weight: 300;
+            line-height: 200%;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        li {
+            text-align: center;
+            margin-bottom: 2px;
+            padding: 5px 10px;
+            background-color: #f1ece4;
+        }
+    }
+    .impact-anchor {
+        margin: 50px auto 0;
+        padding-bottom: 100px;	
+        max-width: 600px;	
+        color: #08c;
+        text-align: center;
+        display: block;
+        cursor: pointer;
+        line-height: 150%;	
+    }
+
+    .impact-wrap {
+        margin-bottom: 100px;	
+        .impact {
+            padding: 50px 50px 20px;
+            background-color: #f1ece4;
+            .sub-head {
+                font-weight: 300;
+                margin: 10px 0;
+                text-align: center;
+                letter-spacing: 0.1rem;		
+            }
+            h3.head {
+                font-weight: 500;
+                margin-bottom: 20px;
+                text-align: center;
+                letter-spacing: 0.1rem;		
+            }
+            .detail {
+                font-weight: 300;
+                line-height: 200%;
+                margin-bottom: 30px;	
+            }
+            h4.head {
+                font-weight: 400;
+                margin-bottom: 10px;
+                text-align: left;	
+                letter-spacing: 0.1rem;	
+            }
+        }
+    }
+}
+
+
+/* gum-massage */
+.care1-gum-massage-section {
+	max-width: 1040px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0 20px;
+    .left {
+        width: 50%;
+        float: left;
+        h3.head {
+            font-weight: 500;
+            margin-bottom: 10px;
+            text-align: left;	
+        }
+        p.price {
+            font-weight: 400;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        h4.sub-head {
+            font-weight: 400;
+            margin: 20px 0 10px;
+            text-align: left;	
+        }
+        p.detail {
+            font-weight: 300;
+            line-height: 180%;
+            margin-bottom: 30px;
+            text-align: justify;	
+        }
+        .recommend {
+            font-weight: 400;
+            line-height: 150%;
+            margin-bottom: 50px;
+            text-align: justify;	
+        } 
+    }
+    .right {
+        width: 50%;
+        float: right;
+        padding-left: 20px;
+        img {
+            width: 400px;
+            display: block;
+            margin-left: auto;
+        }
+    }
+    .pmtc-menu {
+        clear: both;
+        max-width: 700px;
+        margin: 0  auto;
+        padding:100px 0;
+        overflow: hidden;
+        h3.head {
+            font-weight: 500;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        p.price {
+            font-weight: 400;
+            text-align: left;
+            margin-bottom: 20px;	
+        }
+        .detail {
+            font-weight: 300;
+            line-height: 200%;
+            margin-bottom: 100px;
+        }
+    }
+}
+
+
+@include mq(sm2){
+    .care1-gum-massage-section {
+        .left, .right{
+            float: none;
+            width: 100%;
+            padding: 0;
+        }
+        .right{
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@include mq(smt){
+    .care1-outline-section{
+        padding-top: 50px;
+        p.intro{
+            text-align: left;
+            br{display: none;}
+        }
+    }
+    .care1-periodontal-section{
+        .perosovl{
+            img{
+                float: none;
+                margin: auto;
+            }
+            .merit{
+                margin: 0 -10px;
+            }
+        } 
+        .injection li{
+            text-align: left;
+        }
+        .impact-wrap .impact{
+            margin-left: -20px;
+            margin-right: -20px;
+            padding: 50px 20px;
+        }
+    } 
+    .care1-gum-massage-section{
+        .pmtc-menu{
+            padding-bottom: 0;
+            h3.head{
+                span{display: block;}
+                text-align: center;
+            }
+        } 
+    } 
+}
+
+/*----------- end -------------*/
+}
