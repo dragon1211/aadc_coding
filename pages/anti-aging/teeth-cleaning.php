@@ -182,7 +182,7 @@
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/icon-logo-red.png" alt="logo">
                 </a>
             </li>
-            <li><a href="<?php echo home_url(); ?>/eom">アンチエイジング</a></li>
+            <li><a href="<?php echo home_url(); ?>/anti-aging">アンチエイジング</a></li>
             <li>クリーニング</li>
         </ul>
     </div>
