@@ -6687,7 +6687,7 @@ body {
 }
 
 .gap .gap-case-section .case .comment {
-  min-height: 110px;
+  min-height: 150px;
   line-height: 150%;
   font-weight: 300;
   text-align: left;
