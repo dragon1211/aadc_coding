@@ -6030,14 +6030,34 @@ body {
 /* ==========================================================
 	crown-bridge-inray-page
 ========================================================== */
-/* outline */
-.cure1-outline-section {
+.crown-bridge-inray {
+  /* outline */
+  /* ceramic-features */
+  /* zirconia-crown */
+  /* fullzirconia-crown */
+  /* fullzirconia-trans */
+  /* ceramic-inlay */
+  /* zirconia-inlay */
+  /*--------end-------------*/
+}
+
+.crown-bridge-inray .content {
+  margin-bottom: 200px;
+}
+
+@media screen and (max-width: 576px) {
+  .crown-bridge-inray .content {
+    margin-bottom: 100px;
+  }
+}
+
+.crown-bridge-inray .cure1-outline-section {
   max-width: 1000px;
   padding: 100px 20px 0;
   margin: auto;
 }
 
-.cure1-outline-section h2.head {
+.crown-bridge-inray .cure1-outline-section h2.head {
   text-align: center;
   font-weight: 400;
   letter-spacing: 0.5rem;
@@ -6046,7 +6066,7 @@ body {
   line-height: 150%;
 }
 
-.cure1-outline-section p.intro {
+.crown-bridge-inray .cure1-outline-section p.intro {
   margin: 0 auto;
   letter-spacing: 0.2rem;
   line-height: 200%;
@@ -6054,40 +6074,38 @@ body {
   padding-bottom: 30px;
 }
 
-/* ceramic-features */
-.cure1-ceramic-features-section {
+.crown-bridge-inray .cure1-ceramic-features-section {
   max-width: 1000px;
   padding: 20px;
   background-color: rgba(210, 190, 165, 0.3);
   margin: auto;
 }
 
-.cure1-ceramic-features-section p {
+.crown-bridge-inray .cure1-ceramic-features-section p {
   margin: 40px;
   line-height: 180%;
 }
 
-.cure1-ceramic-features-section p span {
+.crown-bridge-inray .cure1-ceramic-features-section p span {
   display: block;
   margin: 10px 0;
   font-weight: 500;
   font-size: 1.7rem;
 }
 
-.cure1-ceramic-features-section p.case {
+.crown-bridge-inray .cure1-ceramic-features-section p.case {
   margin: 40px;
   line-height: 180%;
 }
 
-.cure1-ceramic-features-section p.case span {
+.crown-bridge-inray .cure1-ceramic-features-section p.case span {
   display: block;
   margin: 10px 0;
   font-weight: 600;
   font-size: 1.5rem;
 }
 
-/* zirconia-crown */
-.cure1-zirconia-crown-section {
+.crown-bridge-inray .cure1-zirconia-crown-section {
   max-width: 1000px;
   margin: 100px auto;
   overflow: hidden;
@@ -6099,33 +6117,32 @@ body {
           justify-content: space-between;
 }
 
-.cure1-zirconia-crown-section .left {
+.crown-bridge-inray .cure1-zirconia-crown-section .left {
   width: 50%;
   padding: 0 20px;
 }
 
-.cure1-zirconia-crown-section .right {
+.crown-bridge-inray .cure1-zirconia-crown-section .right {
   text-align: center;
   padding: 0 20px;
 }
 
-.cure1-zirconia-crown-section .right img {
+.crown-bridge-inray .cure1-zirconia-crown-section .right img {
   width: 400px;
   display: block;
 }
 
-.cure1-zirconia-crown-section h3.head {
+.crown-bridge-inray .cure1-zirconia-crown-section h3.head {
   margin-bottom: 30px;
   letter-spacing: 0.2rem;
   line-height: 150%;
 }
 
-.cure1-zirconia-crown-section p.zirconia-crown {
+.crown-bridge-inray .cure1-zirconia-crown-section p.zirconia-crown {
   line-height: 180%;
 }
 
-/* fullzirconia-crown */
-.cure1-fullzirconia-crown-section {
+.crown-bridge-inray .cure1-fullzirconia-crown-section {
   max-width: 1000px;
   margin: 100px auto;
   overflow: hidden;
@@ -6137,32 +6154,31 @@ body {
           justify-content: space-between;
 }
 
-.cure1-fullzirconia-crown-section .left {
+.crown-bridge-inray .cure1-fullzirconia-crown-section .left {
   text-align: center;
   padding: 0 20px;
 }
 
-.cure1-fullzirconia-crown-section .left img {
+.crown-bridge-inray .cure1-fullzirconia-crown-section .left img {
   width: 400px;
   display: block;
 }
 
-.cure1-fullzirconia-crown-section .right {
+.crown-bridge-inray .cure1-fullzirconia-crown-section .right {
   width: 50%;
   padding: 0 20px;
 }
 
-.cure1-fullzirconia-crown-section h3.head {
+.crown-bridge-inray .cure1-fullzirconia-crown-section h3.head {
   margin-bottom: 30px;
   letter-spacing: 0.2rem;
 }
 
-.cure1-fullzirconia-crown-section p.fullzirconia-crown {
+.crown-bridge-inray .cure1-fullzirconia-crown-section p.fullzirconia-crown {
   line-height: 180%;
 }
 
-/* fullzirconia-trans */
-.cure1-zirconia-trans-section {
+.crown-bridge-inray .cure1-zirconia-trans-section {
   max-width: 1000px;
   margin: 100px auto;
   overflow: hidden;
@@ -6174,40 +6190,39 @@ body {
           justify-content: space-between;
 }
 
-.cure1-zirconia-trans-section .left {
+.crown-bridge-inray .cure1-zirconia-trans-section .left {
   width: 50%;
   padding: 0 20px;
 }
 
-.cure1-zirconia-trans-section .right {
+.crown-bridge-inray .cure1-zirconia-trans-section .right {
   text-align: center;
   padding: 0 20px;
 }
 
-.cure1-zirconia-trans-section .right img {
+.crown-bridge-inray .cure1-zirconia-trans-section .right img {
   width: 400px;
   display: block;
 }
 
-.cure1-zirconia-trans-section h3.head {
+.crown-bridge-inray .cure1-zirconia-trans-section h3.head {
   margin-bottom: 30px;
   letter-spacing: 0.2rem;
   line-height: 150%;
 }
 
-.cure1-zirconia-trans-section p.zirconia-trans {
+.crown-bridge-inray .cure1-zirconia-trans-section p.zirconia-trans {
   line-height: 180%;
 }
 
-.cure1-zirconia-trans-section p.zirconia-trans span {
+.crown-bridge-inray .cure1-zirconia-trans-section p.zirconia-trans span {
   display: block;
   margin: 10px 0 5px;
   font-weight: 400;
   font-size: 1.6rem;
 }
 
-/* ceramic-inlay */
-.cure1-ceramic-inlay-section {
+.crown-bridge-inray .cure1-ceramic-inlay-section {
   max-width: 1000px;
   margin: 100px auto;
   overflow: hidden;
@@ -6219,33 +6234,32 @@ body {
           justify-content: space-between;
 }
 
-.cure1-ceramic-inlay-section .left {
+.crown-bridge-inray .cure1-ceramic-inlay-section .left {
   text-align: center;
   padding: 0 20px;
 }
 
-.cure1-ceramic-inlay-section .right {
+.crown-bridge-inray .cure1-ceramic-inlay-section .right {
   width: 50%;
   padding: 0 20px;
   float: right;
 }
 
-.cure1-ceramic-inlay-section .right img {
+.crown-bridge-inray .cure1-ceramic-inlay-section .right img {
   width: 400px;
   display: block;
 }
 
-.cure1-ceramic-inlay-section h3.head {
+.crown-bridge-inray .cure1-ceramic-inlay-section h3.head {
   margin-bottom: 30px;
   letter-spacing: 0.2rem;
 }
 
-.cure1-ceramic-inlay-section p.ceramic-inlay {
+.crown-bridge-inray .cure1-ceramic-inlay-section p.ceramic-inlay {
   line-height: 180%;
 }
 
-/* zirconia-inlay */
-.cure1-zirconia-inlay-section {
+.crown-bridge-inray .cure1-zirconia-inlay-section {
   max-width: 1000px;
   margin: 100px auto;
   overflow: hidden;
@@ -6257,28 +6271,28 @@ body {
           justify-content: space-between;
 }
 
-.cure1-zirconia-inlay-section .left {
+.crown-bridge-inray .cure1-zirconia-inlay-section .left {
   width: 50%;
   float: left;
   padding: 0 20px;
 }
 
-.cure1-zirconia-inlay-section .left img {
+.crown-bridge-inray .cure1-zirconia-inlay-section .left img {
   width: 400px;
   display: block;
 }
 
-.cure1-zirconia-inlay-section .right {
+.crown-bridge-inray .cure1-zirconia-inlay-section .right {
   text-align: center;
   padding: 0 20px;
 }
 
-.cure1-zirconia-inlay-section h3.head {
+.crown-bridge-inray .cure1-zirconia-inlay-section h3.head {
   margin-bottom: 30px;
   letter-spacing: 0.2rem;
 }
 
-.cure1-zirconia-inlay-section p.zirconia-inlay {
+.crown-bridge-inray .cure1-zirconia-inlay-section p.zirconia-inlay {
   line-height: 180%;
 }
 
@@ -6299,55 +6313,55 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .cure1-zirconia-crown-section,
-  .cure1-fullzirconia-crown-section,
-  .cure1-zirconia-trans-section,
-  .cure1-ceramic-inlay-section,
-  .cure1-zirconia-inlay-section {
+  .crown-bridge-inray .cure1-zirconia-crown-section,
+  .crown-bridge-inray .cure1-fullzirconia-crown-section,
+  .crown-bridge-inray .cure1-zirconia-trans-section,
+  .crown-bridge-inray .cure1-ceramic-inlay-section,
+  .crown-bridge-inray .cure1-zirconia-inlay-section {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .cure1-zirconia-crown-section .left,
-  .cure1-fullzirconia-crown-section .left,
-  .cure1-zirconia-trans-section .left,
-  .cure1-ceramic-inlay-section .left,
-  .cure1-zirconia-inlay-section .left {
+  .crown-bridge-inray .cure1-zirconia-crown-section .left,
+  .crown-bridge-inray .cure1-fullzirconia-crown-section .left,
+  .crown-bridge-inray .cure1-zirconia-trans-section .left,
+  .crown-bridge-inray .cure1-ceramic-inlay-section .left,
+  .crown-bridge-inray .cure1-zirconia-inlay-section .left {
     width: 100%;
   }
-  .cure1-zirconia-crown-section .right,
-  .cure1-fullzirconia-crown-section .right,
-  .cure1-zirconia-trans-section .right,
-  .cure1-ceramic-inlay-section .right,
-  .cure1-zirconia-inlay-section .right {
+  .crown-bridge-inray .cure1-zirconia-crown-section .right,
+  .crown-bridge-inray .cure1-fullzirconia-crown-section .right,
+  .crown-bridge-inray .cure1-zirconia-trans-section .right,
+  .crown-bridge-inray .cure1-ceramic-inlay-section .right,
+  .crown-bridge-inray .cure1-zirconia-inlay-section .right {
     width: 100%;
   }
-  .cure1-zirconia-crown-section img,
-  .cure1-fullzirconia-crown-section img,
-  .cure1-zirconia-trans-section img,
-  .cure1-ceramic-inlay-section img,
-  .cure1-zirconia-inlay-section img {
+  .crown-bridge-inray .cure1-zirconia-crown-section img,
+  .crown-bridge-inray .cure1-fullzirconia-crown-section img,
+  .crown-bridge-inray .cure1-zirconia-trans-section img,
+  .crown-bridge-inray .cure1-ceramic-inlay-section img,
+  .crown-bridge-inray .cure1-zirconia-inlay-section img {
     max-width: 300px;
     margin: auto;
     width: 100% !important;
   }
-  .cure1-zirconia-crown-section .head,
-  .cure1-fullzirconia-crown-section .head,
-  .cure1-zirconia-trans-section .head,
-  .cure1-ceramic-inlay-section .head,
-  .cure1-zirconia-inlay-section .head {
+  .crown-bridge-inray .cure1-zirconia-crown-section .head,
+  .crown-bridge-inray .cure1-fullzirconia-crown-section .head,
+  .crown-bridge-inray .cure1-zirconia-trans-section .head,
+  .crown-bridge-inray .cure1-ceramic-inlay-section .head,
+  .crown-bridge-inray .cure1-zirconia-inlay-section .head {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px !important;
   }
-  .cure1-fullzirconia-crown-section .head,
-  .cure1-zirconia-trans-section .head {
+  .crown-bridge-inray .cure1-fullzirconia-crown-section .head,
+  .crown-bridge-inray .cure1-zirconia-trans-section .head {
     margin-top: 0;
   }
-  .cure1-zirconia-crown-section,
-  .cure1-zirconia-trans-section,
-  .cure1-zirconia-inlay-section {
+  .crown-bridge-inray .cure1-zirconia-crown-section,
+  .crown-bridge-inray .cure1-zirconia-trans-section,
+  .crown-bridge-inray .cure1-zirconia-inlay-section {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
@@ -6356,23 +6370,23 @@ body {
 }
 
 @media screen and (max-width: 576px) {
-  .cure1-outline-section {
+  .crown-bridge-inray .cure1-outline-section {
     padding: 50px 20px;
   }
-  .cure1-outline-section p.intro br {
+  .crown-bridge-inray .cure1-outline-section p.intro br {
     display: none;
   }
-  .cure1-ceramic-features-section p {
+  .crown-bridge-inray .cure1-ceramic-features-section p {
     margin: 40px 0;
   }
-  .cure1-ceramic-features-section p.case {
+  .crown-bridge-inray .cure1-ceramic-features-section p.case {
     margin: 40px 0px;
   }
-  .cure1-zirconia-crown-section,
-  .cure1-fullzirconia-crown-section,
-  .cure1-zirconia-trans-section,
-  .cure1-ceramic-inlay-section,
-  .cure1-zirconia-inlay-section {
+  .crown-bridge-inray .cure1-zirconia-crown-section,
+  .crown-bridge-inray .cure1-fullzirconia-crown-section,
+  .crown-bridge-inray .cure1-zirconia-trans-section,
+  .crown-bridge-inray .cure1-ceramic-inlay-section,
+  .crown-bridge-inray .cure1-zirconia-inlay-section {
     margin: 70px 0;
   }
 }

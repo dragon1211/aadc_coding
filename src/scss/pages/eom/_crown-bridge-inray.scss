@@ -2,8 +2,14 @@
 /* ==========================================================
 	crown-bridge-inray-page
 ========================================================== */
+.crown-bridge-inray{
 
-
+.content{
+	margin-bottom: 200px;
+	@include mq(smt){
+		margin-bottom: 100px;
+	}
+}
 
 /* outline */
 .cure1-outline-section {
@@ -220,7 +226,7 @@
 }
 
 
-.crown-bridge-inray ul.cost_ex {
+ul.cost_ex {
 	max-width: 1000px;
 	margin: 30px auto 0;
 	overflow: hidden;
@@ -302,4 +308,8 @@
     .cure1-zirconia-inlay-section{
         margin: 70px 0;
     }
+}
+
+
+/*--------end-------------*/
 }
