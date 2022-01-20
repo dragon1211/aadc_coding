@@ -1,11 +1,11 @@
-<section class="anti-nav">
-    <nav class="anti-nav__first">
-        <div class="anti-nav__container">
+<section class="sub-nav">
+    <nav class="sub-nav__first">
+        <div class="sub-nav__container">
             <a href="<?php echo home_url(); ?>/anti-aging">アンチエイジング</a>
         </div>
     </nav>
-    <nav class="anti-nav__second">
-        <div class="anti-nav__container">
+    <nav class="sub-nav__second">
+        <div class="sub-nav__container">
             <div class="sp-only">
                 <div class="sp-navBtn js-sp-sub-navBtn" style="z-index: 100">
                     <span></span>

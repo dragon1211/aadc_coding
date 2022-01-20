@@ -1,11 +1,11 @@
-<section class="eom-nav">
-    <nav class="eom-nav__first">
-        <div class="eom-nav__container">
+<section class="sub-nav">
+    <nav class="sub-nav__first">
+        <div class="sub-nav__container">
             <a href="<?php echo home_url(); ?>/eom">エステティックオルソメソッド</a>
         </div>
     </nav>
-    <nav class="eom-nav__second">
-        <div class="eom-nav__container">
+    <nav class="sub-nav__second">
+        <div class="sub-nav__container">
             <div class="sp-only">
                 <div class="sp-navBtn js-sp-sub-navBtn" style="z-index: 100">
                     <span></span>

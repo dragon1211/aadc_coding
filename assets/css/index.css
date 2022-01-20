@@ -5231,6 +5231,85 @@ Copyright (c) 2013 Daniel Eden
   transition: all .3s;
 }
 
+.sub-nav__container {
+  max-width: 1040px;
+  padding: 0 20px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.sub-nav a:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  opacity: .8;
+}
+
+.sub-nav__first {
+  height: 70px;
+  color: #333333;
+  background-color: white;
+  font-size: 1.8rem;
+  z-index: 10;
+  position: relative;
+}
+
+.sub-nav__first a {
+  font-weight: bold;
+  color: #333333;
+}
+
+.sub-nav__second {
+  height: 50px;
+  background-color: #CEC1A8;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  position: relative;
+}
+
+.sub-nav__second a {
+  color: white;
+}
+
+.sub-nav__second .sub-nav__container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 1050px) {
+  .sub-nav__second .sub-nav__container {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .sub-nav__second {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .sub-nav__first {
+    height: 50px;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 389px) {
+  .sub-nav__first {
+    font-size: 3.84615vw;
+  }
+}
+
 .sub-nav__menu {
   margin: 0;
   padding: 0;
@@ -10004,85 +10083,6 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 
-.eom-nav__container {
-  max-width: 1040px;
-  padding: 0 20px;
-  margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100%;
-}
-
-.eom-nav a:hover {
-  -webkit-transition: all .3s;
-  transition: all .3s;
-  opacity: .8;
-}
-
-.eom-nav__first {
-  height: 70px;
-  color: #333333;
-  background-color: white;
-  font-size: 1.8rem;
-  z-index: 10;
-  position: relative;
-}
-
-.eom-nav__first a {
-  font-weight: bold;
-  color: #333333;
-}
-
-.eom-nav__second {
-  height: 50px;
-  background-color: #CEC1A8;
-  color: white;
-  font-size: 1.2rem;
-  font-weight: 500;
-  position: relative;
-}
-
-.eom-nav__second a {
-  color: white;
-}
-
-.eom-nav__second .eom-nav__container {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-@media screen and (max-width: 1050px) {
-  .eom-nav__second .eom-nav__container {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
-  }
-}
-
-@media screen and (max-width: 1050px) {
-  .eom-nav__second {
-    font-size: 1.5rem;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .eom-nav__first {
-    height: 50px;
-    font-size: 1.5rem;
-  }
-}
-
-@media screen and (max-width: 389px) {
-  .eom-nav__first {
-    font-size: 3.84615vw;
-  }
-}
-
 .eom-heading {
   background-color: white;
   position: relative;
@@ -14528,85 +14528,6 @@ ul.cost_ex li span {
   }
   .cure1-home-whitening-section .annotation {
     padding: 50px 20px;
-  }
-}
-
-.anti-nav__container {
-  max-width: 1040px;
-  padding: 0 20px;
-  margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100%;
-}
-
-.anti-nav a:hover {
-  -webkit-transition: all .3s;
-  transition: all .3s;
-  opacity: .8;
-}
-
-.anti-nav__first {
-  height: 70px;
-  color: #333333;
-  background-color: white;
-  font-size: 1.8rem;
-  z-index: 10;
-  position: relative;
-}
-
-.anti-nav__first a {
-  font-weight: bold;
-  color: #333333;
-}
-
-.anti-nav__second {
-  height: 50px;
-  background-color: #CEC1A8;
-  color: white;
-  font-size: 1.2rem;
-  font-weight: 500;
-  position: relative;
-}
-
-.anti-nav__second a {
-  color: white;
-}
-
-.anti-nav__second .anti-nav__container {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-@media screen and (max-width: 1050px) {
-  .anti-nav__second .anti-nav__container {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
-  }
-}
-
-@media screen and (max-width: 1050px) {
-  .anti-nav__second {
-    font-size: 1.5rem;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .anti-nav__first {
-    height: 50px;
-    font-size: 1.5rem;
-  }
-}
-
-@media screen and (max-width: 389px) {
-  .anti-nav__first {
-    font-size: 3.84615vw;
   }
 }
 

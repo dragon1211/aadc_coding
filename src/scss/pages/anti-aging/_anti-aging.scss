@@ -3,64 +3,6 @@
 // ANTI-AGING COMMOON
 // =========================================
 
-.anti-nav{
-    &__container{
-        max-width: 1040px;
-        padding: 0 20px;
-        margin: auto;
-        display: flex;
-        align-items: center;
-        height: 100%;
-    }
-    a{
-        &:hover{
-            transition: all .3s;
-            opacity: .8;
-        }
-    }
-    &__first{
-        height: 70px;
-        color: $color_black;
-        background-color: white;
-        font-size: 1.8rem;
-        a{
-            font-weight: bold;
-            color: $color_black;
-        }
-        z-index: 10;
-        position: relative;
-    }
-    &__second{
-        height: 50px;
-        background-color: #CEC1A8;
-        color: white;
-        font-size: 1.2rem;
-        font-weight: 500;
-        position: relative;
-        a{color: white;}
-        .anti-nav__container{
-            justify-content: center;
-            @include mq(){
-                justify-content: end;
-            }
-        }
-        @include mq(){
-            font-size: 1.5rem;
-        }
-    }
-    @include mq(smt){
-        &__first{
-            height: 50px;
-            font-size: 1.5rem;
-        }
-    }
-    @include mq(sm3){
-        &__first{
-            font-size: vw2(15);
-        }
-    }
-}
-
 
 .anti-heading{
     background-color: white;
