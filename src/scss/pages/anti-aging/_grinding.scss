@@ -7,100 +7,87 @@
 
 /* outline */
 .cure2-outline-section {
-	max-width: 1000px;
-	padding: 100px 0 0;
-}
-.cure2-outline-section h2.head {
-	text-align: center;
-	font-weight: 100;
-	letter-spacing: 0.2rem;
-	text-indent: 0.2rem;	
-	margin-bottom: 50px;
-	line-height: 150%;
-}
-.cure2-outline-section p.intro {
-	margin: 0 auto;
-	letter-spacing: 0.2rem;
-	font-weight: 200;
-	line-height: 200%;
-	text-align: center;
-	padding-bottom: 30px;
+	max-width: 1040px;
+	padding: 100px 20px 0;
+	margin: auto;
+
+	h2.head {
+		text-align: center;
+		font-weight: 300;
+		letter-spacing: 0.2rem;
+		text-indent: 0.2rem;	
+		margin-bottom: 50px;
+		line-height: 150%;
+	}
+	p.intro {
+		margin: 0 auto;
+		letter-spacing: 0.2rem;
+		font-weight: 200;
+		line-height: 200%;
+		text-align: center;
+		padding-bottom: 30px;
+	}
 }
 
 /* grinding */
 .cure2-grinding-section {
-	max-width: 1000px;
+	max-width: 1040px;
 	margin: 50px auto;
 	overflow: hidden;
 	padding: 0 20px;	
-}
-.cure2-grinding-section .left {
-	width: 100%;
-	margin-bottom: 100px;
-}
-.cure2-grinding-section .right {
-	text-align: center;
-}
-.cure2-grinding-section .right img {
-	width: 400px;
-	display: block;
-}
-.cure2-grinding-section h3.head {
-	font-weight: 200;
-	margin-bottom: 30px;
-	letter-spacing: 0.2rem;
-	line-height: 150%;
-}
-.cure2-grinding-section p{
-	font-weight: 200;
-	line-height: 180%;
-}
-.cure2-grinding-section .left a.myomonitor-anchor {
-	margin: 30px auto 0;
-	color: #08c;
-	display: block;
-	cursor: pointer;
-	margin-bottom: 20px;
-}
-.cure2-grinding-section .left a.myomonitor-anchor:hover {
-	text-decoration: underline;
-}
+	.mouthpiece {
+		width: 100%;
+		margin-bottom: 100px;
+	}
+	h3.head {
+		font-weight: 400;
+		margin-bottom: 30px;
+		letter-spacing: 0.2rem;
+		line-height: 150%;
+		text-align: left;
+	}
+	p{
+		font-weight: 200;
+		line-height: 180%;
+	}
 
-/* botox */
-.cure2-grinding-section .botox {
-	margin: 0 auto 100px;
-	overflow: hidden;
-}
-.cure2-grinding-section .botox h3.head {
-	font-weight: 200;
-	text-align: left;
-	margin-bottom: 20px;
-}
-.cure2-grinding-section .botox p.price {
-	font-weight: 400;
-	text-align: left;
-	margin-bottom: 20px;
-	line-height: 150%;
-}
-.cure2-grinding-section .botox .head {
-	text-align: center;
-	margin-bottom: 30px;
-	font-weight: 200;
-}
-.cure2-grinding-section .botox .detail {
-	font-weight: 200;
-	line-height: 200%;
-	margin-bottom: 30px;
-}
-.cure2-grinding-section .botox .merit {
-	text-align: center;
-	margin-bottom: 30px;
-}
-.cure2-grinding-section .botox .merit li {
-	padding: 20px 0;
-	margin: 3px 0;
-	background-color: rgba(165,150,125,0.1);
-	color: #a5967d;
+	/* botox */
+	.botox {
+		margin: 0 auto 100px;
+		overflow: hidden;
+		h3.head {
+			margin-bottom: 10px;
+		}
+		p.sub-head {
+			font-weight: 400;
+			text-align: left;
+			margin-bottom: 30px;
+			line-height: 150%;
+			&.purpose{
+				margin-top: 70px;
+				margin-bottom: 0;
+			}
+		}
+		.detail {
+			font-weight: 200;
+			line-height: 200%;
+			margin-bottom: 30px;
+			&.l-32{
+				line-height: 32px;
+			}
+		}
+		.merit {
+			margin-top: 80px;
+			margin-bottom: 40px;
+			text-align: center;
+			li {
+				padding: 12px 20px;
+				margin: 3px 0;
+				background-color: #CEC1A8;
+				color: white;
+			}
+		}
+	}
 }
 
 

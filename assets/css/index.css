@@ -5130,6 +5130,8 @@ body {
   width: 100%;
   padding-top: 100px;
   padding-bottom: 135px;
+  max-width: 1600px;
+  margin: 0 auto 20px;
   background-color: #fbfbfb;
 }
 
@@ -5151,8 +5153,12 @@ body {
 .home-news__item {
   max-width: 300px;
   width: 100%;
-  margin: auto;
+  min-height: 350px;
+  margin: 5px auto;
   border-radius: 10px;
+  background-color: white;
+  -webkit-filter: drop-shadow(1px 1px 3px #dddddd);
+          filter: drop-shadow(1px 1px 3px #dddddd);
 }
 
 .home-news__item img {
@@ -5191,15 +5197,20 @@ body {
   -webkit-line-clamp: 3;
 }
 
+.home-news__item a {
+  height: 100%;
+  position: absolute;
+}
+
 .home-news__item:hover {
-  opacity: .7;
+  opacity: .8;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
 
 .home-news .swiper-pagination {
   position: relative;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .home-news .swiper-pagination-bullet-active {
@@ -5221,7 +5232,7 @@ body {
 }
 
 .home-news .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
-  margin: 0 12px;
+  margin: 0 10px;
 }
 
 @media screen and (max-width: 1050px) {
@@ -5256,16 +5267,6 @@ body {
   display: flex;
 }
 
-.home-content__half-wrapper {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
 .home-content__heading {
   font-family: "Noto Sans CJK JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
   color: #333333;
@@ -5289,7 +5290,10 @@ body {
 
 .home-content__eom {
   position: relative;
+  max-width: 1600px;
   width: 100%;
+  margin: auto;
+  padding: 0 20px;
   height: 700px;
   background-image: url("../images/top/top-bg__eom.png");
   background-size: cover;
@@ -5305,7 +5309,10 @@ body {
 
 .home-content__invisalign {
   position: relative;
+  max-width: 1600px;
   width: 100%;
+  margin: auto;
+  padding: 0 20px;
   height: 700px;
   background-image: url("../images/top/top-bg__invisalign.png");
   background-size: cover;
@@ -5326,7 +5333,10 @@ body {
 
 .home-content__alignment {
   position: relative;
+  max-width: 1600px;
   width: 100%;
+  margin: auto;
+  padding: 0 20px;
   height: 700px;
   background-image: url("../images/top/top-bg__alignment.png");
   background-size: cover;
@@ -5343,9 +5353,11 @@ body {
 
 .home-content__blog {
   position: relative;
-  width: 50%;
+  max-width: 1600px;
+  width: 100%;
+  margin: auto;
+  padding: 0 20px;
   height: 700px;
-  margin: 0 10px 0 0;
   background-image: url("../images/top/top-bg__blog.png");
   background-size: cover;
   background-position: 50%;
@@ -5353,40 +5365,9 @@ body {
 
 .home-content .blog {
   position: absolute;
-  bottom: 10%;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-
-.home-content__book {
-  position: relative;
-  width: 50%;
-  height: 700px;
-  margin: 0 0 0 10px;
-  background-image: url("../images/top/top-bg__book.png");
-  background-size: cover;
-  background-position: 50%;
-}
-
-.home-content .book {
-  position: absolute;
-  bottom: 5%;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-
-.home-content__author {
-  display: block;
-  font-size: 2.0rem;
-  font-weight: 400;
-}
-
-.home-content__subtitle {
-  display: block;
-  font-size: 2.4rem;
-  font-weight: 400;
+  top: 45%;
+  left: 20%;
+  text-align: left;
 }
 
 @media screen and (max-width: 1050px) {
@@ -5403,12 +5384,9 @@ body {
     text-align: center;
   }
   .home-content__heading.blog {
-    text-align: center;
-    right: auto;
+    top: auto;
+    bottom: 10%;
     left: 15%;
-  }
-  .home-content__heading.book {
-    text-align: center;
   }
   .home-content__invisalign-wrap {
     top: 15%;
@@ -5420,18 +5398,9 @@ body {
   .home-content__eom, .home-content__invisalign, .home-content__alignment {
     height: 500px;
   }
-  .home-content__blog, .home-content__book {
+  .home-content__blog {
     height: 500px;
     width: 100%;
-  }
-  .home-content__book {
-    margin-top: 20px;
-    margin-left: 0;
-    background-size: 600px;
-    background-repeat: no-repeat;
-  }
-  .home-content__half-wrapper {
-    display: block;
   }
 }
 
@@ -5470,10 +5439,6 @@ body {
   }
   .home-content__blog {
     background-position: 80%;
-  }
-  .home-content__book {
-    min-height: 400px;
-    background-size: 500px;
   }
 }
 
@@ -5548,6 +5513,10 @@ body {
   color: #333333;
 }
 
+.home-outline__list li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
 @media screen and (max-width: 1050px) {
   .home-outline {
     background: none;
@@ -5587,9 +5556,6 @@ body {
   }
   .home-outline__list li {
     text-align: left;
-  }
-  .home-outline__list li:not(:last-child) {
-    margin-bottom: 20px;
   }
 }
 
@@ -5721,7 +5687,7 @@ body {
       flex-wrap: wrap;
   list-style: none;
   padding: 0;
-  margin: 0 auto;
+  margin: 10px auto;
   max-width: 1200px;
   width: 100%;
 }
@@ -5736,9 +5702,12 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 240px;
-  height: 240px;
+  width: 220px;
+  height: 220px;
+  margin: 10px;
   background-color: #ffffff;
+  -webkit-filter: drop-shadow(1px 1px 2px #dddddd);
+          filter: drop-shadow(1px 1px 2px #dddddd);
   font-family: "Noto Sans CJK JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
   color: #333333;
   font-size: 1.8rem;
@@ -5774,12 +5743,11 @@ body {
   background-position: 0 -100%;
 }
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1220px) {
   .home-section__menu-ul {
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    margin-top: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -7416,15 +7384,14 @@ body {
 }
 
 #eom-top .eom-content__menu {
-  max-width: 1140px;
-  padding: 0 20px;
+  max-width: 1100px;
   margin: 100px auto;
 }
 
 #eom-top .eom-content__menu .home-section__menu-ul {
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media screen and (max-width: 576px) {
@@ -7438,7 +7405,7 @@ body {
     margin-top: 50px;
   }
   #eom-top .eom-content__menu {
-    margin: 50px auto;
+    margin-top: 50px;
   }
 }
 
@@ -11885,15 +11852,14 @@ body {
 }
 
 #anti-aging-top .anti-content__menu {
-  max-width: 1140px;
-  padding: 0 20px;
+  max-width: 1100px;
   margin: 100px auto;
 }
 
 #anti-aging-top .anti-content__menu .home-section__menu-ul {
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media screen and (max-width: 576px) {
@@ -11907,7 +11873,7 @@ body {
     margin-top: 50px;
   }
   #anti-aging-top .anti-content__menu {
-    margin: 50px auto;
+    margin-top: 50px;
   }
 }
 
@@ -11923,18 +11889,18 @@ body {
 .grinding {
   /* outline */
   /* grinding */
-  /* botox */
   /*----------  end ------------*/
 }
 
 .grinding .cure2-outline-section {
-  max-width: 1000px;
-  padding: 100px 0 0;
+  max-width: 1040px;
+  padding: 100px 20px 0;
+  margin: auto;
 }
 
 .grinding .cure2-outline-section h2.head {
   text-align: center;
-  font-weight: 100;
+  font-weight: 300;
   letter-spacing: 0.2rem;
   text-indent: 0.2rem;
   margin-bottom: 50px;
@@ -11951,48 +11917,29 @@ body {
 }
 
 .grinding .cure2-grinding-section {
-  max-width: 1000px;
+  max-width: 1040px;
   margin: 50px auto;
   overflow: hidden;
   padding: 0 20px;
+  /* botox */
 }
 
-.grinding .cure2-grinding-section .left {
+.grinding .cure2-grinding-section .mouthpiece {
   width: 100%;
   margin-bottom: 100px;
 }
 
-.grinding .cure2-grinding-section .right {
-  text-align: center;
-}
-
-.grinding .cure2-grinding-section .right img {
-  width: 400px;
-  display: block;
-}
-
 .grinding .cure2-grinding-section h3.head {
-  font-weight: 200;
+  font-weight: 400;
   margin-bottom: 30px;
   letter-spacing: 0.2rem;
   line-height: 150%;
+  text-align: left;
 }
 
 .grinding .cure2-grinding-section p {
   font-weight: 200;
   line-height: 180%;
-}
-
-.grinding .cure2-grinding-section .left a.myomonitor-anchor {
-  margin: 30px auto 0;
-  color: #08c;
-  display: block;
-  cursor: pointer;
-  margin-bottom: 20px;
-}
-
-.grinding .cure2-grinding-section .left a.myomonitor-anchor:hover {
-  text-decoration: underline;
 }
 
 .grinding .cure2-grinding-section .botox {
@@ -12001,22 +11948,19 @@ body {
 }
 
 .grinding .cure2-grinding-section .botox h3.head {
-  font-weight: 200;
-  text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
-.grinding .cure2-grinding-section .botox p.price {
+.grinding .cure2-grinding-section .botox p.sub-head {
   font-weight: 400;
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   line-height: 150%;
 }
 
-.grinding .cure2-grinding-section .botox .head {
-  text-align: center;
-  margin-bottom: 30px;
-  font-weight: 200;
+.grinding .cure2-grinding-section .botox p.sub-head.purpose {
+  margin-top: 70px;
+  margin-bottom: 0;
 }
 
 .grinding .cure2-grinding-section .botox .detail {
@@ -12025,16 +11969,21 @@ body {
   margin-bottom: 30px;
 }
 
+.grinding .cure2-grinding-section .botox .detail.l-32 {
+  line-height: 32px;
+}
+
 .grinding .cure2-grinding-section .botox .merit {
+  margin-top: 80px;
+  margin-bottom: 40px;
   text-align: center;
-  margin-bottom: 30px;
 }
 
 .grinding .cure2-grinding-section .botox .merit li {
-  padding: 20px 0;
+  padding: 12px 20px;
   margin: 3px 0;
-  background-color: rgba(165, 150, 125, 0.1);
-  color: #a5967d;
+  background-color: #CEC1A8;
+  color: white;
 }
 
 /* ==========================================================

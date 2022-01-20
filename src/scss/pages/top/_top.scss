@@ -175,6 +175,8 @@
 	width: 100%;
 	padding-top: 100px;
 	padding-bottom: 135px;
+	max-width: 1600px;
+	margin: 0 auto 20px;
 	background-color: $color_light;
 	&__contentsWrapper {
 		margin: 80px auto 0 auto;
@@ -192,8 +194,11 @@
 	&__item{
 		max-width: 300px;
 		width: 100%;
-		margin: auto;
+		min-height: 350px;
+		margin: 5px auto;
 		border-radius: 10px;
+		background-color: white;
+		filter: drop-shadow(1px 1px 3px #dddddd);
 
 		img{
 			width: 100%;
@@ -226,15 +231,19 @@
 				-webkit-line-clamp: 3;
 			}
 		}
+		a{
+			height: 100%;
+    		position: absolute;
+		}
 		&:hover{
-			opacity: .7;
+			opacity: .8;
 			transition: all .3s;
 		}
 	}
 
 	.swiper-pagination{
 		position: relative;
-		margin-top: 20px;
+		margin-top: 30px;
 		&-bullet{
 			&-active{
 				background-color: #333333;
@@ -257,7 +266,7 @@
 	}
 
 	.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
-		margin: 0 12px;
+		margin: 0 10px;
 	}
 
 	@include mq(){
@@ -289,11 +298,6 @@
 		background-color: $color_light;
 		display: flex;
 	}
-	&__half-wrapper {
-		width: 100%;
-		display: flex;
-		justify-content: space-between;
-	}
 	&__heading {
 		@include base-font();
 		text-align: center;
@@ -315,7 +319,10 @@
 	// 審美
 	&__eom {
 		position: relative;
+		max-width: 1600px;
 		width: 100%;
+		margin: auto;
+		padding: 0 20px;
 		height: 700px;
 		background-image: url("../images/top/top-bg__eom.png"); 
 		background-size: cover;
@@ -331,7 +338,10 @@
 	// インビザライン
 	&__invisalign {
 		position: relative;
+		max-width: 1600px;
 		width: 100%;		
+		margin: auto;
+		padding: 0 20px;
 		height: 700px;
 		background-image: url("../images/top/top-bg__invisalign.png"); 
 		background-size: cover;
@@ -353,7 +363,10 @@
 	// アライメント
 	&__alignment {
 		position: relative;
-		width: 100%;		
+		max-width: 1600px;
+		width: 100%;	
+		margin: auto;	
+		padding: 0 20px;
 		height: 700px;
 		background-image: url("../images/top/top-bg__alignment.png"); 
 		background-size: cover;
@@ -370,49 +383,22 @@
 	// ブログ
 	&__blog {
 		position: relative;
-		width: 50%;		
+		max-width: 1600px;
+		width: 100%;
+		margin: auto;
+		padding: 0 20px;
 		height: 700px;
-		margin: 0 10px 0 0;
 		background-image: url("../images/top/top-bg__blog.png"); 
 		background-size: cover;
 		background-position: 50%;
 	}
 	.blog {
 		position: absolute;
-		bottom: 10%;
-		left: 0;
-		right: 0;
-		margin: auto;
+		top: 45%;
+		left: 20%;
+		text-align: left;
 	}
 	
-	// 書籍
-	&__book {
-		position: relative;
-		width: 50%;		
-		height: 700px;
-		margin: 0 0 0 10px;
-		background-image: url("../images/top/top-bg__book.png"); 
-		background-size: cover;
-		background-position: 50%;
-	}
-	.book {
-		position: absolute;
-		bottom: 5%;
-		left: 0;
-		right: 0;
-		margin: auto;
-		
-	}
-	&__author {
-		display: block;
-		font-size: 2.0rem;
-		font-weight: 400;
-	}
-	&__subtitle {
-		display: block;
-		font-size: 2.4rem;
-		font-weight: 400;
-	}
 	
 	@include mq(){
 		padding: 0;
@@ -426,12 +412,9 @@
 				text-align: center;
 			}
 			&.blog{
-				text-align: center;
-				right: auto;
+				top: auto;
+				bottom: 10%;
 				left: 15%;
-			}
-			&.book{
-				text-align: center;
 			}
 		}
 		&__invisalign-wrap{
@@ -444,18 +427,9 @@
 		&__eom, &__invisalign, &__alignment{
 			height: 500px;
 		}
-		&__blog, &__book{
+		&__blog{
 			height: 500px;
 			width: 100%;
-		}
-		&__book{
-			margin-top: 20px;
-			margin-left: 0;
-			background-size: 600px;
-			background-repeat: no-repeat;
-		}
-		&__half-wrapper{
-			display: block;
 		}
 
 	}
@@ -488,10 +462,6 @@
 		}
 		&__blog{
 			background-position: 80%;
-		}
-		&__book{
-			min-height: 400px;
-			background-size: 500px;
 		}
 	}
 }
@@ -557,6 +527,9 @@
 		font-weight: 700;
 		line-height: 2;
 		color: $color_black;
+		li:not(:last-child){
+			margin-bottom: 20px;
+		}
 	}
 
 	@include mq(){
@@ -599,9 +572,6 @@
 
 		&__list li{
 			text-align: left;
-			&:not(:last-child){
-				margin-bottom: 20px;
-			}
 		}
 	}
 }
@@ -719,7 +689,7 @@
 		flex-wrap: wrap;
 		list-style: none;
 		padding: 0;
-		margin: 0 auto;
+		margin: 10px auto;
 		max-width: 1200px;
 		width: 100%;
 	}
@@ -728,10 +698,12 @@
 		justify-content: center;
 		align-items: center;
 		 
-		width: 240px;
-		height: 240px;
+		width: 220px;
+		height: 220px;
+		margin: 10px;
 
 		background-color: $color_white;
+		filter: drop-shadow(1px 1px 2px #dddddd);
 		@include base-font();
 		font-size: 1.8rem;
 		font-weight: 700;
@@ -756,10 +728,9 @@
 		}
 	}
 
-	@include mq(pc2d){
+	@media (max-width: 1220px){
 		&__menu-ul {
-			justify-content: space-evenly;
-			margin-top: 20px;
+			justify-content: center;
 		}
 	}
 

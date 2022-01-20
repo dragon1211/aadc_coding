@@ -27,8 +27,8 @@
 						<div class="swiper-container">
 							<div class="swiper-wrapper">
 								<div class="swiper-slide">
-									<a href="/">
-										<div class="home-news__item">
+									<div class="home-news__item">
+										<a href="/">
 											<div class="home-news__item--image">
 												<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/slide-common.png" alt="">
 											</div>
@@ -37,26 +37,26 @@
 												<span class="date">2021年11月3日</span>
 												<p class="title">年末年始休診日のお知らせ</p>
 											</div>
-										</div>
-									</a>
+										</a>
+									</div>
 								</div>
 								<div class="swiper-slide">
-									<a href="/">
-										<div class="home-news__item">
+									<div class="home-news__item">
+										<a href="/">
 											<div class="home-news__item--image">
 												<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/slide-1.png" alt="">
 											</div>
 											<div class="home-news__item--desc">
 												<span class="comment">メディア情報</span>
 												<span class="date">2020年10月26日</span>
-												<p class="title">10月22日発売 美的12月号「駆け込み最新デンタルケア」に当院取材記事が掲載されました</p>
+												<p class="title">10月22日発売 美的12月号「駆け込み最新デンタルケア」に当院取材記事が掲載されました美的12月号「駆け込み最新デンタルケア」に当院取材記事が掲載されました</p>
 											</div>
-										</div>
-									</a>
+										</a>
+									</div>
 								</div>
 								<div class="swiper-slide">
-									<a href="/">
-										<div class="home-news__item">
+									<div class="home-news__item">
+										<a href="/">
 											<div class="home-news__item--image">
 												<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/slide-common.png" alt="">
 											</div>
@@ -65,26 +65,26 @@
 												<span class="date">2021年11月3日</span>
 												<p class="title">年末年始休診日のお知らせ</p>
 											</div>
-										</div>
-									</a>
+										</a>
+									</div>
 								</div>
 								<div class="swiper-slide">
-									<a href="/">
-										<div class="home-news__item">
+									<div class="home-news__item">
+										<a href="/">
 											<div class="home-news__item--image">
 												<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/slide-1.png" alt="">
 											</div>
 											<div class="home-news__item--desc">
 												<span class="comment">メディア情報</span>
 												<span class="date">2020年10月26日</span>
-												<p class="title">10月22日発売 美的12月号「駆け込み最新デンタルケア」に当院取材記事が掲載されました</p>
+												<p class="title">10月22日発売 美的12月号「駆け込み最新デンタルケア」に当院取材記事が掲載されました美的12月号「駆け込み最新デンタルケア」に当院取材記事が掲載されました</p>
 											</div>
-										</div>
-									</a>
+										</a>
+									</div>
 								</div>
 								<div class="swiper-slide">
-									<a href="/">
-										<div class="home-news__item">
+									<div class="home-news__item">
+										<a href="/">
 											<div class="home-news__item--image">
 												<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/slide-common.png" alt="">
 											</div>
@@ -93,50 +93,22 @@
 												<span class="date">2021年11月3日</span>
 												<p class="title">年末年始休診日のお知らせ</p>
 											</div>
-										</div>
-									</a>
+										</a>
+									</div>
 								</div>
 								<div class="swiper-slide">
-									<a href="/">
-										<div class="home-news__item">
+									<div class="home-news__item">
+										<a href="/">
 											<div class="home-news__item--image">
 												<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/slide-1.png" alt="">
 											</div>
 											<div class="home-news__item--desc">
 												<span class="comment">メディア情報</span>
 												<span class="date">2020年10月26日</span>
-												<p class="title">10月22日発売 美的12月号「駆け込み最新デンタルケア」に当院取材記事が掲載されました</p>
+												<p class="title">10月22日発売 美的12月号「駆け込み最新デンタルケア」に当院取材記事が掲載されました美的12月号「駆け込み最新デンタルケア」に当院取材記事が掲載されました</p>
 											</div>
-										</div>
-									</a>
-								</div>
-								<div class="swiper-slide">
-									<a href="/">
-										<div class="home-news__item">
-											<div class="home-news__item--image">
-												<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/slide-common.png" alt="">
-											</div>
-											<div class="home-news__item--desc">
-												<span class="comment">新着情報</span>
-												<span class="date">2021年11月3日</span>
-												<p class="title">年末年始休診日のお知らせ</p>
-											</div>
-										</div>
-									</a>
-								</div>
-								<div class="swiper-slide">
-									<a href="/">
-										<div class="home-news__item">
-											<div class="home-news__item--image">
-												<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/slide-1.png" alt="">
-											</div>
-											<div class="home-news__item--desc">
-												<span class="comment">メディア情報</span>
-												<span class="date">2020年10月26日</span>
-												<p class="title">10月22日発売 美的12月号「駆け込み最新デンタルケア」に当院取材記事が掲載されました</p>
-											</div>
-										</div>
-									</a>
+										</a>
+									</div>
 								</div>
 							</div>
 							<div class="swiper-pagination sp-only"></div>
@@ -177,18 +149,10 @@
 				</div>
 			</div>
 			
-			<div class="home-content__half-wrapper">
+			<div class="home-content__wrapper">
 				<div class="home-content__blog">
 					<h2 class="home-content__heading blog">Dr.Ogawa Blog
 						<a href="<?php echo home_url(); ?>/aadcblog">院長ブログ</a>
-					</h2>
-				</div>
-				<div class="home-content__book">
-					<h2 class="home-content__heading book">
-						<span class="home-content__author">院長 小川朗子 著書</span>
-						若さを取り戻す歯のエイジングケア
-						<span class="home-content__subtitle">美しい歯になる習慣と治療法</span>
-						<a href="<?php echo home_url(); ?>/?????????">ご購入はこちら</a>
 					</h2>
 				</div>
 			</div>
@@ -301,7 +265,7 @@
 					<span>03-5459-3163</span>
 				</div>
 				<p class="home-reservation__period">
-					10:00–19:00（月曜日は20:00まで。日曜・祝日は除く）
+					10:00–19:00<br class="sp-onlyt">（月曜日は20:00まで。日曜・祝日は除く）
 				</p>
 			</div>
 		</section>
@@ -377,9 +341,10 @@
 
 		<section class="home-map">
 			<iframe 
-				width="100%" 
-				height="600" 
-				src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=52.70967533219885, -8.020019531250002&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+				src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1621.0801746695818!2d139.70738047712533!3d35.648420799980855!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x843ec121ff198ce5!2z44Ki44Oz44OB44Ko44Kk44K444Oz44Kw44OH44Oz44K_44Or44Kv44Oq44OL44OD44Kv5oG15q-U5a-_5q2v56eR772c5oG15q-U5a-_6aeF!5e0!3m2!1sja!2sjp!4v1534853743689" 
+				width="100%" height="600" 
+				frameborder="0" style="border:0" 
+				allowfullscreen>
 			</iframe>
 		</section>
 		
