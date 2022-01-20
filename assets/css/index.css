@@ -11500,7 +11500,14 @@ ul.cost_ex li span {
 /* ==========================================================
 	whitening-page
 ========================================================== */
-.whitening-row {
+.whitening {
+  /* outline */
+  /* office-whitening */
+  /* home-whitening */
+  /*---------end whitening-------------*/
+}
+
+.whitening .whitening-row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11509,10 +11516,10 @@ ul.cost_ex li span {
           justify-content: space-between;
 }
 
-/* outline */
 .whitening .cure1-outline-section {
   max-width: 1000px;
   padding: 100px 20px 0;
+  margin: auto;
 }
 
 .whitening .cure1-outline-section h2.head {
@@ -11564,147 +11571,145 @@ ul.cost_ex li span {
   text-align: left;
 }
 
-/* office-whitening */
-.cure1-office-whitening-section {
+.whitening .cure1-office-whitening-section {
   width: 100%;
   background-color: #fafafa;
 }
 
-.cure1-office-whitening-section .wrapper {
+.whitening .cure1-office-whitening-section .wrapper {
   max-width: 1000px;
   padding: 100px 0;
   margin: 0 auto;
   overflow: hidden;
 }
 
-.cure1-office-whitening-section .left {
+.whitening .cure1-office-whitening-section .left {
   width: 56%;
   padding-left: 20px;
 }
 
-.cure1-office-whitening-section .right {
+.whitening .cure1-office-whitening-section .right {
   padding: 0 20px;
   text-align: center;
 }
 
-.cure1-office-whitening-section .right img {
+.whitening .cure1-office-whitening-section .right img {
   max-width: 400px;
   margin: auto;
   width: 100%;
   display: block;
 }
 
-.cure1-office-whitening-section h3.head {
+.whitening .cure1-office-whitening-section h3.head {
   margin-bottom: 30px;
   line-height: 150%;
 }
 
-.cure1-office-whitening-section h4.intro {
+.whitening .cure1-office-whitening-section h4.intro {
   margin-bottom: 30px;
   line-height: 150%;
 }
 
-.cure1-office-whitening-section p.office-whitening {
+.whitening .cure1-office-whitening-section p.office-whitening {
   line-height: 180%;
 }
 
-.cure1-office-whitening-section .center {
+.whitening .cure1-office-whitening-section .center {
   clear: both;
   max-width: 700px;
   padding: 50px 20px 0;
   margin: 50px auto 0;
 }
 
-.cure1-office-whitening-section .center h4.head {
+.whitening .cure1-office-whitening-section .center h4.head {
   font-weight: 400;
   margin-bottom: 30px;
   text-align: center;
 }
 
-.cure1-office-whitening-section .center h4.head span {
+.whitening .cure1-office-whitening-section .center h4.head span {
   color: #fd2802;
   display: block;
   margin-top: 10px;
 }
 
-.cure1-office-whitening-section .center .xtra {
+.whitening .cure1-office-whitening-section .center .xtra {
   margin-bottom: 0px;
   line-height: 150%;
 }
 
-.cure1-office-whitening-section .center img {
+.whitening .cure1-office-whitening-section .center img {
   display: block;
   margin: auto;
   max-width: 400px;
   width: 100%;
 }
 
-.cure1-office-whitening-section .center .comment {
+.whitening .cure1-office-whitening-section .center .comment {
   margin: 50px 0 0;
   line-height: 150%;
   color: #fd2802;
 }
 
-/* home-whitening */
-.cure1-home-whitening-section {
+.whitening .cure1-home-whitening-section {
   max-width: 1000px;
   margin: 100px auto;
   overflow: hidden;
 }
 
-.cure1-home-whitening-section .left {
+.whitening .cure1-home-whitening-section .left {
   text-align: center;
   padding: 0 20px;
 }
 
-.cure1-home-whitening-section .left img {
+.whitening .cure1-home-whitening-section .left img {
   max-width: 400px;
   margin: auto;
   width: 100%;
   display: block;
 }
 
-.cure1-home-whitening-section .right {
+.whitening .cure1-home-whitening-section .right {
   width: 60%;
   padding-right: 20px;
 }
 
-.cure1-home-whitening-section h3.head {
+.whitening .cure1-home-whitening-section h3.head {
   margin-bottom: 30px;
 }
 
-.cure1-home-whitening-section h4.intro {
+.whitening .cure1-home-whitening-section h4.intro {
   margin-bottom: 30px;
   line-height: 150%;
 }
 
-.cure1-home-whitening-section p.home-whitening {
+.whitening .cure1-home-whitening-section p.home-whitening {
   line-height: 180%;
 }
 
-.cure1-home-whitening-section .annotation {
+.whitening .cure1-home-whitening-section .annotation {
   margin-top: 30px;
   padding: 30px;
   background-color: #efefef;
 }
 
-.cure1-home-whitening-section .annotation h4 {
+.whitening .cure1-home-whitening-section .annotation h4 {
   font-weight: 600;
   margin-bottom: 20px;
   text-align: center;
 }
 
-.cure1-home-whitening-section .annotation p {
+.whitening .cure1-home-whitening-section .annotation p {
   font-weight: 500;
   margin-bottom: 20px;
   text-align: center;
 }
 
-.cure1-home-whitening-section .annotation ul {
+.whitening .cure1-home-whitening-section .annotation ul {
   padding-left: 20px;
 }
 
-.cure1-home-whitening-section .annotation ul li {
+.whitening .cure1-home-whitening-section .annotation ul li {
   list-style-type: circle;
   line-height: 150%;
 }
@@ -11713,31 +11718,31 @@ ul.cost_ex li span {
   .whitening .cure1-outline-section {
     padding-top: 50px;
   }
-  .cure1-office-whitening-section .center .comment {
+  .whitening .cure1-office-whitening-section .center .comment {
     margin-top: 20px;
   }
-  .cure1-office-whitening-section .center#after {
+  .whitening .cure1-office-whitening-section .center#after {
     margin-top: 0;
   }
-  .whitening-row {
+  .whitening .whitening-row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .whitening-row .left, .whitening-row .right {
+  .whitening .whitening-row .left, .whitening .whitening-row .right {
     width: 100%;
     padding: 0 20px;
     margin-bottom: 20px;
   }
-  .head {
+  .whitening .head {
     text-align: center;
   }
-  .intro {
+  .whitening .intro {
     text-align: center;
     margin-bottom: 10px !important;
   }
-  .cure1-home-whitening-section .annotation {
+  .whitening .cure1-home-whitening-section .annotation {
     padding: 50px 20px;
   }
 }
@@ -11888,25 +11893,37 @@ ul.cost_ex li span {
 /* ==========================================================
 	teeth-cleaning-page
 ========================================================== */
-/* outline */
-.teeth-cleaning .care1-outline-section {
-  max-width: 1000px;
-  padding: 100px 0;
+.teeth-cleaning {
+  /* ==========================================================
+	teeth-cleaning-content
+========================================================== */
+  /* ==========================================================
+bridal-content
+========================================================== */
+  /*-------end-------*/
 }
 
-.teeth-cleaning .care1-outline-section h2.head {
+.teeth-cleaning .teeth-cleaning__content {
+  /* outline */
+  /* teeth-cleaning */
+  /* white-care */
+}
+
+.teeth-cleaning .teeth-cleaning__content .care1-outline-section {
+  max-width: 1040px;
+  padding: 100px 20px;
+  margin: auto;
+}
+
+.teeth-cleaning .teeth-cleaning__content .care1-outline-section h2.head {
   text-align: center;
-  font-weight: 100;
+  font-weight: 400;
   letter-spacing: 0.5rem;
   text-indent: 0.5rem;
   margin-bottom: 50px;
 }
 
-.teeth-cleaning .care1-outline-section h2.head br {
-  display: none;
-}
-
-.teeth-cleaning .care1-outline-section p.intro {
+.teeth-cleaning .teeth-cleaning__content .care1-outline-section p.intro {
   margin: 0 auto;
   letter-spacing: 0.2rem;
   font-weight: 200;
@@ -11914,73 +11931,80 @@ ul.cost_ex li span {
   text-align: center;
 }
 
-/* teeth-cleaning */
-.teeth-cleaning .care1-teeth-cleaning-section {
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section {
   width: 100%;
   padding: 100px 0;
-  margin: 0 auto;
   overflow: hidden;
   background-color: #fafafa;
 }
 
-.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap {
-  max-width: 1000px;
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content {
+  max-width: 1040px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap h3.head {
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content h3.head {
   font-weight: 200;
   margin-bottom: 20px;
   text-align: center;
 }
 
-.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap p.intro {
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content p.intro {
   margin: 0 auto 50px;
   font-weight: 200;
   line-height: 200%;
   text-align: justify;
 }
 
-.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .image-wrap {
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .image-wrap {
   margin: 0 auto 50px;
   max-width: 900px;
   text-align: center;
   overflow: hidden;
 }
 
-.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .image-wrap .wrap-float {
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .image-wrap .wrap-float {
   display: inline-block;
+  padding: 20px;
 }
 
-.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .image-wrap img {
-  margin: 20px;
-}
-
-.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .image-wrap .wrap-float p.arrow {
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .image-wrap .wrap-float p.arrow {
   color: #a5967d;
 }
 
-.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .recommend {
-  max-width: 764px;
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .recommend {
+  max-width: 800px;
   margin: 0 auto;
   margin-bottom: 100px;
 }
 
-.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .recommend h4.head {
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .recommend h4.head {
   font-weight: 200;
   margin-bottom: 30px;
   text-align: center;
 }
 
-.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap ul.outline {
-  font-weight: 200;
-  line-height: 200%;
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .outline-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap ul.outline li {
-  width: 360px;
-  margin: 0 0 2px 0;
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content ul.outline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content ul.outline li {
+  width: 49.5%;
+  margin: 2px;
   padding: 10px;
   background-color: #d2bea5;
   display: inline-block;
@@ -11990,98 +12014,269 @@ ul.cost_ex li span {
   font-weight: 500;
 }
 
-.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .treatment-wrap {
-  margin-bottom: 150px;
+@media (max-width: 850px) {
+  .teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content ul.outline li {
+    width: 100%;
+  }
 }
 
-.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .treatment-wrap h4.head {
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .treatment-wrap {
+  font-weight: 200;
+  line-height: 150%;
+  text-align: center;
+}
+
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .treatment-wrap h4.head {
   font-weight: 500;
   margin-bottom: 20px;
   text-align: center;
   letter-spacing: 0.1rem;
 }
 
-.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .treatment-wrap h5.sub-head {
-  font-weight: 300;
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .treatment-wrap h5.sub-head {
+  font-weight: 400;
   margin-bottom: 10px;
   line-height: 150%;
-  text-align: center;
 }
 
-.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .treatment-wrap .teeth-cleaning {
-  font-weight: 200;
-  line-height: 150%;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .treatment-wrap .comment {
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .treatment-wrap .comment {
   font-weight: 300;
   line-height: 150%;
+  margin-top: 30px;
+}
+
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .treatment-wrap .comment:not(:last-child) {
   margin-bottom: 50px;
+}
+
+.teeth-cleaning .teeth-cleaning__content .white-care__section {
+  margin-top: 100px;
+}
+
+.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content {
+  max-width: 1040px;
+  padding: 0 20px;
+  margin: auto;
+}
+
+.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content h2.head {
   text-align: center;
 }
 
-.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .quick {
-  clear: both;
-  max-width: 700px;
-  margin: 0 auto 100px;
+.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .thumb {
+  margin-top: 50px;
 }
 
-.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .quick h3.head {
-  font-weight: 200;
-  text-align: left;
-  margin-bottom: 20px;
+.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .price {
+  padding: 50px 0 100px;
 }
 
-.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .quick p.price {
+.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .price p.title {
   font-weight: 400;
-  text-align: left;
-  margin-bottom: 20px;
 }
 
-.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .quick .detail {
-  font-weight: 200;
-  line-height: 200%;
-  margin-bottom: 20px;
+.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .price p.detail {
+  margin-top: 50px;
 }
 
-.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .quick .comment {
-  font-weight: 300;
-  line-height: 150%;
+.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .price p.extra {
+  margin-top: 30px;
+}
+
+.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .time {
+  margin: 50px 0 60px;
+}
+
+.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .time p.title {
+  margin-top: 30px;
+  font-weight: 400;
+}
+
+.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .time p.detail {
+  margin-top: 20px;
+}
+
+.teeth-cleaning .bridal-content {
+  margin-bottom: 100px;
+  /* outline */
+}
+
+.teeth-cleaning .bridal-content__mv {
+  height: 43.75vw;
+  background-image: url(../images/anti-aging/wedding.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.teeth-cleaning .bridal-content .cure1-outline-section {
+  max-width: 1040px;
+  padding: 100px 20px 20px;
+  margin: auto;
+}
+
+.teeth-cleaning .bridal-content .cure1-outline-section h2.head {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
   margin-bottom: 50px;
-  text-align: justify;
+  line-height: 150%;
 }
 
-.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .whitecare {
-  clear: both;
-  max-width: 700px;
+.teeth-cleaning .bridal-content .cure1-outline-section p.intro {
   margin: 0 auto;
-}
-
-.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .whitecare h3.head {
-  font-weight: 200;
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .whitecare p.price {
-  font-weight: 400;
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .whitecare .detail {
+  letter-spacing: 0.2rem;
   font-weight: 200;
   line-height: 200%;
-  margin-bottom: 20px;
+  text-align: center;
 }
 
-.teeth-cleaning .care1-teeth-cleaning-section .teeth-cleaning-wrap .whitecare .comment {
-  font-weight: 300;
-  line-height: 150%;
-  margin-bottom: 50px;
+.teeth-cleaning .bridal-content .cure1-outline-section p.intro2 {
+  margin: 40px auto 0;
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+  line-height: 200%;
   text-align: justify;
+}
+
+.teeth-cleaning .bridal-content .cure1-outline-section p.intro2 span {
+  color: #ff0000;
+}
+
+.teeth-cleaning .bridal-content .cure1-bridal-section {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 50px 20px 100px;
+}
+
+.teeth-cleaning .bridal-content .cure1-bridal-section h2.head {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 0.5rem;
+  margin: 50px 0 10px;
+  line-height: 150%;
+}
+
+.teeth-cleaning .bridal-content .cure1-bridal-section h3.head {
+  text-align: left;
+  font-weight: 500;
+  margin: 50px 0 30px;
+  padding-bottom: 20px;
+  line-height: 150%;
+  border-bottom: 1px solid #d2bea5;
+}
+
+.teeth-cleaning .bridal-content .cure1-bridal-section h3.head span {
+  text-align: left;
+  font-weight: 300;
+  padding-bottom: 10px;
+  line-height: 150%;
+  font-size: 1.6rem;
+}
+
+.teeth-cleaning .bridal-content .cure1-bridal-section .subhead {
+  font-weight: 300;
+  margin: 0 0 20px;
+}
+
+.teeth-cleaning .bridal-content .cure1-bridal-section .plan {
+  font-weight: 200;
+  background-color: rgba(210, 190, 165, 0.5);
+  padding: 10px 150px 10px 10px;
+  color: #333;
+  margin: 0 0 50px;
+  position: relative;
+}
+
+.teeth-cleaning .bridal-content .cure1-bridal-section .plan span.price {
+  font-weight: 500;
+  color: #ff0000;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.teeth-cleaning .bridal-content .cure1-bridal-section .plan span.price span {
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+.teeth-cleaning .bridal-content .cure1-bridal-section .comment {
+  text-align: justify;
+  line-height: 200%;
+  font-weight: 300;
+}
+
+.teeth-cleaning .bridal-content .cure1-bridal-section .comment span {
+  color: #ff0000;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.teeth-cleaning .bridal-content .cure1-bridal-section .comment a {
+  color: #08c;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.teeth-cleaning .bridal-content .cure1-bridal-section .comment a:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 1050px) {
+  .teeth-cleaning .teeth-cleaning__content .care1-outline-section p.intro {
+    text-align: left;
+  }
+  .teeth-cleaning .teeth-cleaning__content .care1-outline-section p.intro br {
+    display: none;
+  }
+  .teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .treatment-wrap {
+    text-align: left;
+  }
+  .teeth-cleaning .bridal-content .cure1-outline-section p.intro {
+    text-align: left;
+  }
+  .teeth-cleaning .bridal-content .cure1-outline-section p.intro br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .teeth-cleaning .teeth-cleaning__content .care1-outline-section {
+    padding: 50px 20px;
+  }
+  .teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section {
+    padding: 50px 0;
+  }
+  .teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .image-wrap .wrap-float {
+    padding: 20px 0;
+  }
+  .teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .recommend {
+    margin-bottom: 50px;
+  }
+  .teeth-cleaning .teeth-cleaning__content .white-care__section {
+    margin-top: 50px;
+  }
+  .teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .thumb {
+    margin-top: 20px;
+  }
+  .teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .price {
+    padding: 50px 0;
+  }
+  .teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .price p.detail {
+    margin-top: 30px;
+  }
+  .teeth-cleaning .bridal-content {
+    margin-bottom: 0;
+  }
+  .teeth-cleaning .bridal-content .cure1-bridal-section .plan {
+    padding-right: 90px;
+  }
+  .teeth-cleaning .bridal-content .cure1-bridal-section .plan span.price span {
+    display: block;
+    text-align: center;
+  }
 }
 
 /*

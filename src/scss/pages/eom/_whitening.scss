@@ -2,6 +2,7 @@
 /* ==========================================================
 	whitening-page
 ========================================================== */
+.whitening{
 
 
 .whitening-row{
@@ -10,9 +11,10 @@
 }
 
 /* outline */
-.whitening .cure1-outline-section {
+.cure1-outline-section {
 	max-width: 1000px;
 	padding: 100px 20px 0;
+	margin: auto;
 	h2.head {
 		text-align: center;
 		font-weight: 400;
@@ -30,7 +32,7 @@
 	}
 }
 
-.whitening .cure1-howtowhitening-section {
+.cure1-howtowhitening-section {
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 50px 20px;
@@ -185,7 +187,7 @@
 
 
 @include mq(smt){
-	.whitening .cure1-outline-section{
+	.cure1-outline-section{
 		padding-top: 50px;
 	}
 	.cure1-office-whitening-section{
@@ -216,4 +218,7 @@
 			padding: 50px 20px;
 		}
 	} 
+}
+
+/*---------end whitening-------------*/
 }
