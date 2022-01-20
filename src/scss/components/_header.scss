@@ -56,10 +56,15 @@
 .header-content__item {
 	position: relative;
 	margin: 0 15px;
+	&:first-child{margin-left: 20px;}
 	&:last-child{margin-right: 0;}
 	@include mq(smt){
 		margin: 0 10px;
-		&:last-child{margin-left: 15px; margin-right: 0;}
+		&:last-child{margin-left: 15px;}
+	}
+	@media (max-width: 350px){
+		margin: 0 8px;
+		&:last-child{margin-left: 12px;}
 	}
 	font-size: 1.2rem;
 	font-weight: 500;
