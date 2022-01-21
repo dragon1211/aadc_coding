@@ -7573,7 +7573,6 @@ body {
 
 #eom-top .eom-content__mainvisual--caption {
   padding: 0 20px;
-  font-size: 1.8rem;
   font-weight: bold;
   color: #333333;
   max-width: 810px;
@@ -12049,7 +12048,6 @@ body {
 
 #anti-aging-top .anti-content__mainvisual--caption {
   padding: 0 20px;
-  font-size: 1.8rem;
   font-weight: bold;
   color: #333333;
   max-width: 750px;
@@ -12911,8 +12909,7 @@ body {
 }
 
 .implant .cure2-warranty-section {
-  padding: 50px 0;
-  margin-bottom: 100px;
+  padding: 50px 0 100px;
   background-color: rgba(210, 190, 165, 0.2);
 }
 

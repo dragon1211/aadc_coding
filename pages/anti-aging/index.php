@@ -14,13 +14,13 @@
     <section class="anti-content">
 
         <div class="anti-content__mainvisual">
-            <h1 class="anti-content__mainvisual--caption">
+            <h1 class="anti-content__mainvisual--caption f18">
                 歯科においてのアンチエイジングでは、お口の機能を落とさずに歯を健康に保ち、
                 見た目もお口の中も若々しく保つことを目的としています。
             </h1>
         </div>
 
-        <div class="anti-content__body">
+        <div class="anti-content__body f16">
             <p class="text1">
                 歯は、私たちが心身ともに健康に過ごすためにとても大切な体の一部です。毎日の生活を快適に過ごすために「歯」「口」の健康がとても重要なことをご存知でしょうか？
                 歯は、生きていく上で必要不可欠な栄養を最初に体に取り入れる大切な消化器官であり、話す、食べる、笑う、人とのコミュケーション、など毎日の生活に欠かすことのできないパーツです。

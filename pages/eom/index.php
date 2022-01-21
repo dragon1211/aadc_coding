@@ -17,14 +17,14 @@
     <!-- eom-section -->
     <section class="eom-content">
         <div class="eom-content__mainvisual">
-            <h1 class="eom-content__mainvisual--caption">
+            <h1 class="eom-content__mainvisual--caption f18">
                 当院が行うエステティックオルソメソッド（EOM）とは、
                 「歯を綺麗にしたい」「口元を美しく見せたい」などのご希望や患者様の歯のお悩みに対して、
                 審美歯科.矯正歯科、噛み合わせ、それぞれの専門分野の必要な技術を融合して行う総合的な治療のことをいいます。
             </h1>
         </div>
 
-        <div class="eom-content__body">
+        <div class="eom-content__body f16">
             <p class="text1">
                 当院では、一人一人の歯の状態を診断した上で、
                 患者様のご希望を踏まえEOMにより健康と美しさを備えた歯と口元を実現することを目指しています。
