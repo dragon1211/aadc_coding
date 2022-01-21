@@ -12123,6 +12123,336 @@ body {
 }
 
 /* ==========================================================
+	esthetic-page
+========================================================== */
+.esthetic {
+  /* outline */
+  /* lip-esthetic */
+  /*----------- end -------------*/
+}
+
+.esthetic .care2-outline-section {
+  max-width: 1040px;
+  padding: 50px 20px;
+  margin: auto;
+}
+
+.esthetic .care2-outline-section h2.head {
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+}
+
+.esthetic .care2-outline-section p.intro {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+  line-height: 200%;
+  text-align: center;
+}
+
+.esthetic .care2-esthetic-section {
+  width: 100%;
+  margin: 0 auto 50px;
+  overflow: hidden;
+  padding: 50px 0;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic {
+  max-width: 1040px;
+  margin: 0 auto 100px;
+  padding: 0 20px;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic h3.head {
+  font-weight: 200;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic p.price {
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 20px;
+  line-height: 150%;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic .detail {
+  font-weight: 200;
+  line-height: 200%;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic h4.head {
+  color: #a5967d;
+  font-weight: 400;
+  text-align: center;
+  line-height: 150%;
+  margin-top: 60px;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic .why-care {
+  width: 100%;
+  margin: 30px auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic .why-care .why-box {
+  margin: 0 auto;
+  padding: 20px 10px;
+  width: 25%;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic .why-care p.dt {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic .why-care p.dd {
+  font-weight: 200;
+  line-height: 150%;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic .practitioner-wrap {
+  margin: 60px auto 0;
+  max-width: 850px;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic .practitioner-wrap h4.head {
+  clear: both;
+  color: #a5967d;
+  font-weight: 400;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #d2bea5;
+  padding: 10px;
+  line-height: 150%;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic .practitioner-wrap .dt {
+  margin-bottom: 5px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic .practitioner-wrap .dd {
+  margin-bottom: 30px;
+  font-weight: 200;
+  line-height: 150%;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic .practitioner-wrap img {
+  float: right;
+  width: 300px;
+  display: block;
+  margin: 0 0 30px 30px;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic .recom-wrap {
+  background: #fafafa;
+  padding: 20px 0;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic p.recom-head {
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #d93600;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic ul.recom {
+  padding: 0 0px;
+  font-weight: 500;
+  line-height: 150%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic ul.recom li {
+  background-color: #CEC1A8;
+  color: white;
+  margin: 5px;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.esthetic .care2-esthetic-section .facial {
+  max-width: 1040px;
+  margin: 0 auto 100px;
+  padding: 0 20px;
+}
+
+.esthetic .care2-esthetic-section .facial h3.head {
+  font-weight: 200;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.esthetic .care2-esthetic-section .facial p.price {
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 20px;
+  line-height: 150%;
+}
+
+.esthetic .care2-esthetic-section .facial .detail {
+  font-weight: 200;
+  line-height: 200%;
+}
+
+.esthetic .care2-esthetic-section .aroma {
+  max-width: 1040px;
+  margin: 0 auto 100px;
+  padding: 0 20px;
+}
+
+.esthetic .care2-esthetic-section .aroma h3.head {
+  font-weight: 200;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.esthetic .care2-esthetic-section .aroma p.price {
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 10px;
+  line-height: 150%;
+}
+
+.esthetic .care2-esthetic-section .aroma .aroma-wrap {
+  margin: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.esthetic .care2-esthetic-section .aroma .aroma-wrap h4.head {
+  margin-top: 0;
+}
+
+.esthetic .care2-esthetic-section .aroma .aroma-wrap .left {
+  width: 50%;
+  padding: 0 10px;
+}
+
+.esthetic .care2-esthetic-section .aroma .aroma-wrap .left img {
+  margin: auto;
+  border-radius: 30px;
+}
+
+.esthetic .care2-esthetic-section .aroma .aroma-wrap .right {
+  text-align: center;
+  width: 50%;
+  padding: 0 10px;
+}
+
+.esthetic .care2-esthetic-section .aroma .aroma-wrap .right img {
+  max-width: 400px;
+  width: 100%;
+  display: block;
+  margin: auto;
+  border-radius: 30px;
+}
+
+.esthetic .care2-esthetic-section .aroma h4.head {
+  font-weight: 200;
+  text-align: left;
+  margin: 30px 0;
+}
+
+.esthetic .care2-esthetic-section .aroma .detail {
+  font-weight: 200;
+  line-height: 200%;
+  text-align: left;
+}
+
+.esthetic .care2-esthetic-section .aroma .detail a {
+  color: #08c;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.esthetic .care2-esthetic-section .aroma .detail a:hover {
+  opacity: .8;
+}
+
+.esthetic .care2-esthetic-section .aroma .comment {
+  font-weight: 200;
+  line-height: 200%;
+}
+
+@media screen and (max-width: 1050px) {
+  .esthetic .care2-esthetic-section .lip-esthetic .why-care {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .esthetic .care2-esthetic-section .lip-esthetic .why-care .why-box {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .esthetic .care2-esthetic-section .lip-esthetic ul.recom li {
+    width: 100%;
+    margin: 2px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .esthetic .care2-outline-section {
+    padding-top: 30px;
+  }
+  .esthetic .care2-outline-section p.intro {
+    text-align: left;
+  }
+  .esthetic .care2-outline-section p.intro br {
+    display: none;
+  }
+  .esthetic .care2-esthetic-section .lip-esthetic .why-care {
+    margin-top: 15px;
+  }
+  .esthetic .care2-esthetic-section .lip-esthetic .why-care .why-box {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .esthetic .care2-esthetic-section .lip-esthetic .practitioner-wrap img {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .esthetic .care2-esthetic-section .aroma .aroma-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .esthetic .care2-esthetic-section .aroma .aroma-wrap .left, .esthetic .care2-esthetic-section .aroma .aroma-wrap .right {
+    width: 100%;
+    padding: 0;
+    margin: 10px 0;
+  }
+  .esthetic .care2-esthetic-section .aroma .aroma-wrap h4.head {
+    text-align: center;
+  }
+  .esthetic .care2-esthetic-section .aroma .aroma-wrap.reverse {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+/* ==========================================================
 	grinding-page
 ========================================================== */
 .grinding {
@@ -12139,7 +12469,7 @@ body {
 
 .grinding .cure2-outline-section h2.head {
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.2rem;
   text-indent: 0.2rem;
   margin-bottom: 50px;
@@ -12776,7 +13106,7 @@ body {
 
 .implant .cure2-outline-section h2.head {
   text-align: center;
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: 0.5rem;
   text-indent: 0.5rem;
   margin-bottom: 50px;
@@ -12898,7 +13228,7 @@ body {
 .implant .cure2-implant-section .merit li {
   list-style: disc;
   margin-bottom: 20px;
-  line-height: 150%;
+  line-height: 1.7;
   font-size: 1.5rem;
 }
 
@@ -12929,7 +13259,7 @@ body {
 .implant .cure2-warranty-section p.lead {
   font-weight: 200;
   margin-bottom: 30px;
-  line-height: 180%;
+  line-height: 2.2;
   text-align: center;
 }
 
@@ -12980,7 +13310,7 @@ body {
 
 .metal-free .metal-free__content h2.head {
   text-align: center;
-  font-weight: 200;
+  font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.5rem;
   text-indent: 0.5rem;

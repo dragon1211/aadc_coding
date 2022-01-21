@@ -12,7 +12,7 @@
     margin: auto;
     h2.head {
         text-align: center;
-        font-weight: $font_light;
+        font-weight: $font_regular;
         letter-spacing: 0.5rem;
         text-indent: 0.5rem;	
         margin-bottom: 50px;
@@ -109,7 +109,7 @@
         li {
             list-style: disc;
             margin-bottom: 20px;
-            line-height: 150%;
+            line-height: 1.7;
             font-size: 1.5rem;
             span {
                 display: block;
@@ -138,7 +138,7 @@
     p.lead {
         font-weight: $font_light;
         margin-bottom: 30px;
-        line-height: 180%;
+        line-height: 2.2;
         text-align: center;
     }
     .warranty {

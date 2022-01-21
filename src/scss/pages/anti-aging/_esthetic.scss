@@ -1,0 +1,295 @@
+@charset "UTF-8";
+/* ==========================================================
+	esthetic-page
+========================================================== */
+.esthetic{
+
+
+
+/* outline */
+.care2-outline-section {
+	max-width: 1040px;
+	padding: 50px 20px;
+    margin: auto;
+    h2.head {
+        text-align: center;
+        font-weight: $font_regular;
+        letter-spacing: 0.5rem;
+        text-indent: 0.5rem;	
+        margin-bottom: 50px;
+    }
+    p.intro {
+        margin: 0 auto;
+        letter-spacing: 0.2rem;
+        font-weight: $font_light;
+        line-height: 200%;
+        text-align: center;	
+    }
+}
+
+/* lip-esthetic */
+.care2-esthetic-section {
+	width: 100%;
+	margin: 0 auto 50px;
+	overflow: hidden;
+	padding: 50px 0;
+    .lip-esthetic {
+        max-width: 1040px;
+        margin: 0 auto 100px;
+        padding: 0 20px;
+        h3.head {
+            font-weight: $font_light;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        p.price {
+            font-weight: $font_medium;
+            text-align: left;
+            margin-bottom: 20px;
+            line-height: 150%;
+        }
+        .detail {
+            font-weight: $font_light;
+            line-height: 200%;
+        }
+        h4.head {
+            color: #a5967d;
+            font-weight: $font_regular;
+            text-align: center;
+            line-height: 150%;
+            margin-top: 60px;
+        }
+        .why-care {
+            width: 100%;
+            margin: 30px auto 0;
+            display: flex;
+            .why-box {
+                margin: 0 auto;
+                padding: 20px 10px;
+                width: 25%;
+            }
+            p.dt {
+                font-weight: $font_regular;
+                margin-bottom: 10px;
+            }
+            p.dd {
+                font-weight: $font_light;
+                line-height: 150%;
+            }
+        }
+        .practitioner-wrap {
+            margin: 60px auto 0;
+            max-width: 850px;
+            h4.head {
+                clear: both;
+                color: #a5967d;
+                font-weight: $font_regular;
+                margin: 40px 0 20px;
+                border-bottom: 1px solid #d2bea5;
+                padding: 10px;
+                line-height: 150%;	
+            }
+            .dt {
+                margin-bottom: 5px;
+                font-weight: $font_regular;
+                line-height: 150%;	
+            }
+            .dd {
+                margin-bottom: 30px;
+                font-weight: $font_light;
+                line-height: 150%;		
+            }
+            img {
+                float: right;
+                width: 300px;
+                display: block;
+                margin: 0 0 30px 30px;
+            }
+        }
+        .recom-wrap {
+            background: #fafafa;
+            padding: 20px 0;
+        }
+        p.recom-head {
+            text-align: center;
+            font-weight: $font_regular;
+            margin-bottom: 20px;
+            color: #d93600;
+        }
+        ul.recom {
+            padding: 0 0px;
+            font-weight: $font_medium;
+            line-height: 150%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            li {
+                background-color: #CEC1A8;
+                color: white;
+                margin: 5px;
+                text-align: center;
+                padding: 10px 20px;
+            }
+        }
+    }
+    .facial {
+        max-width: 1040px;
+        margin: 0 auto 100px;
+        padding: 0 20px;	
+        h3.head {
+            font-weight: $font_light;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        p.price {
+            font-weight: $font_medium;
+            text-align: left;
+            margin-bottom: 20px;
+            line-height: 150%;
+        }
+        .detail {
+            font-weight: $font_light;
+            line-height: 200%;
+        }
+    }
+    .aroma {
+        max-width: 1040px;
+        margin: 0 auto 100px;
+        padding: 0 20px;	
+        h3.head {
+            font-weight: $font_light;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        p.price {
+            font-weight: $font_medium;
+            text-align: left;
+            margin-bottom: 10px;
+            line-height: 150%;
+        }
+        .aroma-wrap {
+            margin: 50px 0;
+            display: flex;
+            h4.head{margin-top: 0;}
+            .left {
+                width: 50%;
+                padding: 0 10px;
+                img{
+                    margin: auto;
+                    border-radius: 30px;
+                }
+            }
+            .right {
+                text-align: center;
+                width: 50%;
+                padding: 0 10px;
+                img {
+                    max-width: 400px;
+                    width: 100%;
+                    display: block;
+                    margin: auto;
+                    border-radius: 30px;
+                }
+            }
+        }
+        h4.head {
+            font-weight: $font_light;
+            text-align: left;
+            margin: 30px 0;
+        }
+        .detail {
+            font-weight: $font_light;
+            line-height: 200%;
+            text-align: left;
+            a {
+                color: #08c;
+                text-align: center;
+                display: block;
+                margin-top: 10px;
+                font-weight: $font_regular;
+                &:hover{
+                    opacity: .8;
+                }
+            }
+        }
+        .comment {	
+            font-weight: $font_light;
+            line-height: 200%;	
+        }
+    }
+}
+
+@include mq(){
+    .care2-esthetic-section{
+        .lip-esthetic{
+            .why-care{
+                flex-wrap: wrap;
+                .why-box{
+                    width: 50%;
+                }
+            } 
+        }
+    }
+}
+
+
+@include mq(sm2){
+    .care2-esthetic-section{
+        .lip-esthetic{
+            ul.recom li{
+                width: 100%;
+                margin: 2px;
+            }
+        } 
+    } 
+}
+
+@include mq(smt){
+    .care2-outline-section{
+        padding-top: 30px;
+        p.intro{
+            text-align: left;
+            br{
+                display: none;
+            }
+        }
+    }
+    .care2-esthetic-section{
+
+        .lip-esthetic{
+            .why-care{
+                margin-top: 15px;
+                .why-box{
+                    width: 100%;
+                    padding: 10px 0;
+                }
+            } 
+            .practitioner-wrap{
+                img{
+                    float: none;
+                    margin: 0 auto 20px;
+                }
+            }
+        } 
+
+        .aroma .aroma-wrap{
+            flex-direction: column;
+            .left, .right{
+                width: 100%;
+                padding: 0;
+                margin: 10px 0;
+            }
+            h4.head{
+                text-align: center;
+            }
+            &.reverse{
+                flex-direction: column-reverse;
+            }
+        }
+    } 
+
+}
+
+/*----------- end -------------*/
+}
