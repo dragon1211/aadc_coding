@@ -2765,6 +2765,14 @@ body {
   color: #333333;
 }
 
+.eom .sub-nav__menu-slide {
+  min-width: 940px;
+}
+
+.anti-aging .sub-nav__menu-slide {
+  min-width: 900px;
+}
+
 /* -------------------
   footer 
 --------------------*/
