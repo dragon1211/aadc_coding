@@ -12251,7 +12251,7 @@ body {
 }
 
 .anti-aging-dock .care2-anti-aging-doc-section .cause {
-  padding: 20px;
+  padding: 50px 20px;
   background-color: #efefef;
   text-align: center;
   margin-bottom: 50px;
@@ -12259,6 +12259,7 @@ body {
 
 .anti-aging-dock .care2-anti-aging-doc-section .cause h5 {
   font-weight: 200;
+  margin-top: 0;
   margin-bottom: 20px;
   color: #ff0000;
 }
@@ -12385,7 +12386,6 @@ body {
   .anti-aging-dock .care2-anti-aging-doc-section .cause {
     margin-left: -20px;
     margin-right: -20px;
-    padding: 50px 20px;
   }
   .anti-aging-dock .care2-anti-aging-doc-section .recommend {
     text-align: left;

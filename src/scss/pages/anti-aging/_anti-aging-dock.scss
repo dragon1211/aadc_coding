@@ -225,12 +225,13 @@
         }
     }
     .cause {
-        padding: 20px;
+        padding: 50px 20px;
         background-color: #efefef;
         text-align: center;
         margin-bottom: 50px;
         h5 {
             font-weight: $font_light;
+            margin-top: 0;
             margin-bottom: 20px;
             color: #ff0000;
         }
@@ -356,7 +357,6 @@
         .cause{
             margin-left: -20px;
             margin-right: -20px;
-            padding: 50px 20px;
         }
         .recommend{
             text-align: left;
