@@ -65,4 +65,15 @@
             }
         }
     }
+
+    @include mq(sm3){
+        li{
+            &:not(:last-child){
+                margin-right: 35px;
+                &::after{
+                    right: -22px;
+                }
+            }
+        }
+    }
 }

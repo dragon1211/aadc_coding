@@ -1,7 +1,7 @@
 <?php get_template_part( 'template-parts/sub-nav/anti-aging-sub-nav' ); ?>
 
 
-<!-- anti aging section -->
+<!-- anti-aging header -->
 <section class="anti-heading__content">
     <div class="anti-heading">
         <h2 class="anti-heading__caption">
@@ -13,7 +13,6 @@
 <!-- metal-free content -->
 <section class="content">
     
-
 		<section class="metal-free__content f16">
 			<h2 class="head f36">当院では金属を<br class="sp-onlyt">使わない<br class="pc-onlyt">メタルフリー治療を<br class="sp-onlyt">行っております</h2>
 			<p class="intro f16">

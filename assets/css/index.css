@@ -1999,6 +1999,15 @@ body {
   }
 }
 
+@media screen and (max-width: 389px) {
+  .breadcrumb li:not(:last-child) {
+    margin-right: 35px;
+  }
+  .breadcrumb li:not(:last-child)::after {
+    right: -22px;
+  }
+}
+
 /* -------------------
   PAGE TOP
 --------------------*/

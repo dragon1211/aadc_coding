@@ -1,7 +1,7 @@
 <?php get_template_part( 'template-parts/sub-nav/anti-aging-sub-nav' ); ?>
 
 
-<!-- anti aging section -->
+<!-- anti-aging header -->
 <section class="anti-heading__content">
     <div class="anti-heading">
         <h2 class="anti-heading__caption">
@@ -13,7 +13,6 @@
 <!-- esthetic content -->
 <section class="content">
 
-
 		<section class="care2-outline-section">
 			<h2 class="head f28">歯だけじゃない、<br class="sp-onlyt">お口まわりをもっと美しく</h2>
 			<p class="intro f18">お口の中のお手入れだけではなく、せっかくなら唇や顎のラインもきれいにしたい、<br>
@@ -21,7 +20,6 @@
 				まるでサロンのように、心地よくリラックスできます。
 			</p>
 		</section>
-
 
 		<section class="care2-esthetic-section" id="esthetic">
 			<div class="lip-esthetic f16">
