@@ -101,16 +101,13 @@
 			.thumb{
 				width: 50%;
 				background-color: #F2F2F2;
-				&:first-child{
-					padding: 50px 35px 20px 55px;
-				}
-				&:last-child{
-					padding: 50px 55px 20px 35px;
-				}
+				&:first-child{	padding: 50px 35px 20px 55px; }
+				&:last-child{	padding: 50px 55px 20px 35px; }
 				p.f12{
 					margin-top: 10px;
 					font-weight: $font_medium;
 				}
+				img{margin: auto;}
 			}
 		}
 		.detail{
@@ -135,7 +132,6 @@
 			width: 100%;
 			padding: 20px !important;
 			text-align: center;
-			img{margin: auto;}
 		}
 	}
 }

@@ -925,7 +925,7 @@ body {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 389px) {
   /* ------------------------------------------------ font set */
   .f10 {
     font-size: 7px;
@@ -12260,6 +12260,10 @@ body {
   font-weight: 500;
 }
 
+.grinding .cure2-grinding-section .injection .thumb-row .thumb img {
+  margin: auto;
+}
+
 .grinding .cure2-grinding-section .injection .detail {
   margin-top: 30px;
   line-height: 2;
@@ -12285,9 +12289,6 @@ body {
     width: 100%;
     padding: 20px !important;
     text-align: center;
-  }
-  .grinding .cure2-grinding-section .injection .thumb-row .thumb img {
-    margin: auto;
   }
 }
 
