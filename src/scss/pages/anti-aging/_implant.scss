@@ -1,0 +1,178 @@
+@charset "UTF-8";
+/* ==========================================================
+	implant-page
+========================================================== */
+.implant{
+
+
+/* outline */
+.cure2-outline-section {
+	max-width: 1040px;
+	padding: 50px 20px 0;
+    margin: auto;
+    h2.head {
+        text-align: center;
+        font-weight: $font_light;
+        letter-spacing: 0.5rem;
+        text-indent: 0.5rem;	
+        margin-bottom: 50px;
+        line-height: 150%;
+    }
+    p.intro {
+        margin: 0 auto;
+        letter-spacing: 0.2rem;
+        font-weight: $font_light;
+        line-height: 200%;
+        text-align: left;
+        padding-bottom: 30px;
+        span {
+            font-weight: 400;
+            line-height: 200%;
+            text-align: left;
+            display: block;
+        }
+    }
+}
+
+/* implant */
+.cure2-implant-section {
+	max-width: 1040px;
+	margin: 50px auto 150px;
+	padding: 0 20px;
+	text-align: center;
+    .thumb-wrap{
+        margin: 30px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .thumb{
+            padding: 20px;
+            img {
+                max-width: 200px;
+                width: 100%;
+                padding: 0;
+            }
+        }
+    }
+    .comment-wrap{
+        margin: 30px 0;
+        .comment {
+            max-width: 900px;
+            margin: 10px auto 0;
+            text-align: left;
+            font-weight: $font_medium;
+            line-height: 150%;
+            dd{float: left;}
+            dt{padding-left: 20px;}
+        }
+        .comment-bold {
+            margin: 50px auto;
+            text-align: left;
+            font-weight: $font_bold;
+            line-height: 150%;
+            padding: 20px;
+            background-color: #CEC1A8;
+            color: white;	
+        }
+    }
+    .howto-head {
+        text-align: left;
+        font-weight: $font_bold;
+        font-size: 1.6rem;
+        margin: 0 50px;
+        padding: 20px;
+        border-bottom: 1px solid #ccc;
+    }
+    ul.howto {
+        padding: 30px 100px 50px;
+        text-align: left;	
+    }
+    .howto li {
+        text-align: left;
+        margin-bottom: 20px;
+        list-style: decimal;
+        padding-left: 10px;
+    }
+    .merit-head {
+        max-width: 900px;
+        text-align: left;
+        font-weight: $font_bold;
+        font-size: 1.5rem;
+        margin: 50px auto 20px;
+    }
+    .merit {
+        max-width: 900px;
+        margin: 0 auto;
+        padding-left: 20px;
+        text-align: left;
+        font-weight: $font_regular;
+        li {
+            list-style: disc;
+            margin-bottom: 20px;
+            line-height: 150%;
+            font-size: 1.5rem;
+            span {
+                display: block;
+                font-size: 1.4rem;
+                font-weight: $font_light;
+            }
+        }
+    }
+}
+
+/* warranty */
+.cure2-warranty-section {
+	padding: 50px 0;
+    margin-bottom: 100px;
+	background-color: rgba(210,190,165,0.2);
+    .wrapper {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0 20px;
+        overflow: hidden;
+        text-align: center;
+    }
+    h3.head {
+        font-weight: $font_light;
+        margin-bottom: 30px;	
+    }
+    p.lead {
+        font-weight: $font_light;
+        margin-bottom: 30px;
+        line-height: 180%;
+        text-align: center;
+    }
+    .warranty {
+        line-height: 150%;
+    }
+}
+
+
+@include mq(smt){
+    .cure2-outline-section{
+        padding-top: 30px;
+    }
+    .cure2-implant-section{
+        margin: 50px auto 100px;
+        .comment-wrap .comment-bold{
+            margin-left: -20px;
+            margin-right: -20px;
+        }
+        .howto-head{
+            margin: 0;
+            padding: 10px 20px;
+        }
+        ul.howto{
+            padding: 10px 0 30px 20px;
+        }
+    }
+    .cure2-warranty-section{
+        p.lead{
+            text-align: left;
+        }
+        .warranty{text-align: right;}
+    } 
+}
+
+/*----------- end -------------*/
+}
