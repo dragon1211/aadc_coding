@@ -12761,6 +12761,201 @@ body {
 }
 
 /* ==========================================================
+	metal-free page
+========================================================== */
+.metal-free {
+  /* content */
+  /*  warning secton  */
+  /*----------  end ------------*/
+}
+
+.metal-free .metal-free__content {
+  max-width: 1040px;
+  padding: 30px 20px 50px;
+  margin: auto;
+}
+
+.metal-free .metal-free__content h2.head {
+  text-align: center;
+  font-weight: 200;
+  line-height: 150%;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+}
+
+.metal-free .metal-free__content p.intro {
+  margin-top: 50px;
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+  line-height: 200%;
+  text-align: justify;
+}
+
+.metal-free .metal-free__content p.title {
+  line-height: 40px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.metal-free .metal-free__content .thumb-wrap {
+  margin-top: 50px;
+  padding: 60px 55px;
+  background-color: #F2F2F2;
+}
+
+.metal-free .metal-free__content .thumb-wrap__ttl {
+  margin-bottom: 35px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.metal-free .metal-free__content .thumb-wrap__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.metal-free .metal-free__content .thumb-wrap__row .thumb {
+  max-width: 400px;
+  width: 50%;
+}
+
+.metal-free .metal-free__content .thumb-wrap__row .thumb:first-child {
+  margin-right: 35px;
+}
+
+.metal-free .metal-free__content .thumb-wrap__row .thumb:last-child {
+  margin-left: 35px;
+}
+
+.metal-free .metal-free__content .thumb-wrap.slider {
+  margin-top: 0;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.metal-free .metal-free__content .thumb-wrap__ttb {
+  margin-top: 40px;
+}
+
+.metal-free .metal-free__content .thumb-wrap__ttb span {
+  font-weight: 500;
+}
+
+.metal-free .metail-free__warning {
+  max-width: 1040px;
+  padding: 0 20px;
+  margin: auto;
+}
+
+.metal-free .metail-free__warning .head {
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #C84520;
+}
+
+.metal-free .metail-free__warning .sub-head {
+  color: #C84520;
+  text-align: center;
+}
+
+.metal-free .metail-free__warning .detail-wrap {
+  margin-top: 40px;
+  margin-bottom: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.metal-free .metail-free__warning .detail-wrap .left {
+  margin-right: 40px;
+}
+
+.metal-free .metail-free__warning .detail-wrap .left img {
+  min-width: 400px;
+  width: 100%;
+}
+
+.metal-free .metail-free__warning .detail-wrap .right {
+  line-height: 32px;
+}
+
+.metal-free .metail-free__warning .detail-wrap .detail strong {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .metal-free .metal-free__content .thumb-wrap {
+    padding: 50px 20px;
+  }
+  .metal-free .metal-free__content .thumb-wrap__row .thumb:first-child {
+    margin-right: 15px;
+  }
+  .metal-free .metal-free__content .thumb-wrap__row .thumb:last-child {
+    margin-left: 15px;
+  }
+  .metal-free .metail-free__warning .detail-wrap {
+    margin-bottom: 150px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .metal-free .metail-free__warning .detail-wrap .left {
+    width: 100%;
+    margin: 0 0 20px;
+  }
+  .metal-free .metail-free__warning .detail-wrap .left img {
+    min-width: unset;
+    max-width: 400px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .metal-free .metal-free__content h2.head {
+    font-size: 2.0rem;
+  }
+  .metal-free .metal-free__content .thumb-wrap {
+    padding: 50px 20px 20px;
+    margin-top: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  .metal-free .metal-free__content .thumb-wrap__ttl {
+    margin-bottom: 10px;
+  }
+  .metal-free .metal-free__content .thumb-wrap__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .metal-free .metal-free__content .thumb-wrap__row .thumb {
+    width: 100%;
+    margin: 20px auto !important;
+  }
+  .metal-free .metal-free__content .thumb-wrap.slider {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 389px) {
+  .metal-free .metal-free__content h2.head {
+    font-size: 5.12821vw;
+  }
+  .metal-free .metal-free__content p.title {
+    font-size: 4.10256vw;
+  }
+}
+
+/* ==========================================================
 	teeth-cleaning-page
 ========================================================== */
 .teeth-cleaning {
