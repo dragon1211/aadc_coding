@@ -97,7 +97,6 @@ h1, h2, h3, h4, h5, h6 {
 html {
   font-size: 62.5%;
   color: #333;
-  font-weight: 300;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -11980,6 +11979,420 @@ body {
 }
 
 /* ==========================================================
+	anti-aging-dock page
+========================================================== */
+.anti-aging-dock {
+  /* outline */
+  /* oral-aging */
+  /* anti-aging-doc */
+  /* supplement */
+  /*----------- end -------------*/
+}
+
+.anti-aging-dock .care2-outline-section {
+  max-width: 1040px;
+  padding: 50px 20px;
+  margin: auto;
+}
+
+.anti-aging-dock .care2-outline-section h2.head {
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+}
+
+.anti-aging-dock .care2-outline-section h3.head {
+  text-align: center;
+  font-weight: 100;
+  line-height: 150%;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin: 50px 0 20px;
+}
+
+.anti-aging-dock .care2-outline-section p.intro {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+  line-height: 200%;
+  text-align: center;
+}
+
+.anti-aging-dock .care2-outline-section p.intro.box {
+  padding: 20px;
+  margin: 20px;
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+  line-height: 200%;
+  text-align: center;
+  display: block;
+  background-color: rgba(210, 190, 165, 0.3);
+}
+
+.anti-aging-dock .care2-oral-aging-section {
+  max-width: 1000px;
+  margin: 0 auto 50px;
+  overflow: hidden;
+  padding: 50px 20px 0;
+}
+
+.anti-aging-dock .care2-oral-aging-section p.intro {
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 30px;
+  line-height: 200%;
+}
+
+.anti-aging-dock .care2-oral-aging-section h4.head {
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 20px;
+  color: #d93600;
+  letter-spacing: 0.1rem;
+}
+
+.anti-aging-dock .care2-oral-aging-section h4.head span {
+  display: block;
+  margin-top: 20px;
+}
+
+.anti-aging-dock .care2-oral-aging-section p.sub-intro {
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 30px;
+  line-height: 200%;
+}
+
+.anti-aging-dock .care2-oral-aging-section p.detail {
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 50px;
+  line-height: 200%;
+}
+
+.anti-aging-dock .care2-oral-aging-section .check-wrap {
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.anti-aging-dock .care2-oral-aging-section .check-wrap h5.sub-head {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.anti-aging-dock .care2-oral-aging-section .check-wrap h6.sub-head {
+  font-weight: 600;
+  margin-bottom: 10px;
+  padding: 30px 0 0;
+  text-align: center;
+}
+
+.anti-aging-dock .care2-oral-aging-section .check-wrap p.item {
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.anti-aging-dock .care2-oral-aging-section .check-wrap ul.check-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.anti-aging-dock .care2-oral-aging-section .check-wrap ul.check-box li {
+  font-weight: 500;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  background-color: #ef9ba0;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.anti-aging-dock .care2-oral-aging-section .check-wrap .comment {
+  text-align: center;
+  font-weight: 400;
+  padding: 30px 0 50px;
+  color: #e86779;
+}
+
+.anti-aging-dock .care2-oral-aging-section .check-wrap ul.result {
+  display: table;
+  margin-bottom: 20px;
+}
+
+.anti-aging-dock .care2-oral-aging-section .check-wrap ul.result li {
+  display: inline-block;
+  width: 50%;
+  font-weight: 400;
+  height: 30px;
+  line-height: 30px;
+}
+
+.anti-aging-dock .care2-oral-aging-section .check-wrap .annotation {
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section h3.head {
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section p.intro {
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 30px;
+  line-height: 200%;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section h4.head {
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 30px;
+  color: #d93600;
+  letter-spacing: 0.1rem;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section h4.head span {
+  display: block;
+  margin-top: 20px;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .oligoscan-image {
+  margin: 0 auto 30px;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .oligoscan-image img {
+  margin: auto;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section p.sub-intro {
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 30px;
+  line-height: 200%;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section p.detail {
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 50px;
+  line-height: 200%;
+  clear: both;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section p.detail span {
+  color: #d93600;
+  margin: 15px 0;
+  display: inline-block;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section h4.head_att {
+  font-weight: 200;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .att {
+  font-weight: 200;
+  line-height: 150%;
+  margin-bottom: 20px;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .doc-wrap {
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .doc-wrap h5.sub-head {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .doc-wrap h6.sub-head {
+  font-weight: 600;
+  margin-bottom: 10px;
+  padding: 30px 0 0;
+  text-align: center;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .doc-wrap p.item {
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .allergy-image {
+  margin: 0 auto 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .allergy-image .img-wrap {
+  width: 50%;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .allergy-image .img-wrap img {
+  margin: auto;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .cause {
+  padding: 20px;
+  background-color: #efefef;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .cause h5 {
+  font-weight: 200;
+  margin-bottom: 20px;
+  color: #ff0000;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .cause ul li {
+  display: inline-block;
+  margin: 10px;
+  font-size: 1.5rem;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section h6.sub-head {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .recommend {
+  text-align: center;
+  font-weight: 400;
+  line-height: 200%;
+  margin-bottom: 50px;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .gen-image {
+  width: 800px;
+  margin: 0 auto 50px;
+  overflow: hidden;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .gen-image img {
+  display: block;
+  float: left;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section ul.ｍeasurement {
+  width: 604px;
+  margin: 0 auto 20px;
+  overflow: hidden;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section ul.ｍeasurement li {
+  text-align: center;
+  float: left;
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  margin: 1px;
+  font-weight: 400;
+  background-color: #eee;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section p.comment {
+  clear: both;
+  text-align: center;
+  margin: 20px;
+}
+
+.anti-aging-dock .care2-supplement-section {
+  max-width: 1000px;
+  padding: 50px 20px 0;
+  margin: 0 auto 100px;
+  overflow: hidden;
+}
+
+.anti-aging-dock .care2-supplement-section h3.head {
+  font-weight: 200;
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 150%;
+}
+
+.anti-aging-dock .care2-supplement-section p.intro {
+  margin: 0 auto 50px;
+  font-weight: 200;
+  line-height: 200%;
+  text-align: justify;
+}
+
+@media screen and (max-width: 1050px) {
+  .anti-aging-dock .care2-outline-section p.intro {
+    text-align: left;
+  }
+  .anti-aging-dock .care2-outline-section p.intro.box {
+    text-align: left;
+    margin: 20px 0 0;
+  }
+  .anti-aging-dock .care2-anti-aging-doc-section p.detail {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .anti-aging-dock .care2-oral-aging-section .check-wrap ul.check-box li {
+    width: 100%;
+  }
+  .anti-aging-dock .care2-anti-aging-doc-section .allergy-image {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .anti-aging-dock .care2-anti-aging-doc-section .allergy-image .img-wrap {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .anti-aging-dock .care2-outline-section {
+    padding-top: 30px;
+  }
+  .anti-aging-dock .care2-oral-aging-section p.sub-intro {
+    text-align: left;
+  }
+  .anti-aging-dock .care2-oral-aging-section p.sub-intro br {
+    display: none;
+  }
+  .anti-aging-dock .care2-oral-aging-section p.detail {
+    text-align: left;
+  }
+  .anti-aging-dock .care2-oral-aging-section .check-wrap ul.result li {
+    width: 100%;
+  }
+  .anti-aging-dock .care2-anti-aging-doc-section .cause {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 50px 20px;
+  }
+  .anti-aging-dock .care2-anti-aging-doc-section .recommend {
+    text-align: left;
+  }
+}
+
+/* ==========================================================
 	anti-aging common
 ========================================================== */
 .anti-heading {
@@ -12028,6 +12441,10 @@ body {
 /* ==========================================================
 	anti-aging top page
 ========================================================== */
+#anti-aging-top {
+  /*----------- end -------------*/
+}
+
 #anti-aging-top .anti-heading__caption {
   padding: 110px 20px;
 }
@@ -13302,6 +13719,10 @@ body {
   /*----------  end ------------*/
 }
 
+.metal-free .content {
+  margin-bottom: 150px;
+}
+
 .metal-free .metal-free__content {
   max-width: 1040px;
   padding: 30px 20px 50px;
@@ -13400,7 +13821,6 @@ body {
 
 .metal-free .metail-free__warning .detail-wrap {
   margin-top: 40px;
-  margin-bottom: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13434,7 +13854,6 @@ body {
     margin-left: 15px;
   }
   .metal-free .metail-free__warning .detail-wrap {
-    margin-bottom: 150px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;

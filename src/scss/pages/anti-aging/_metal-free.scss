@@ -5,12 +5,16 @@
 .metal-free{
     
 
+.content{
+	margin-bottom: 150px;
+}
 
 /* content */
 .metal-free__content {
 	max-width: 1040px;
 	padding: 30px 20px 50px;
 	margin: auto;
+
 	h2.head {
 		text-align: center;
 		font-weight: $font_regular;
@@ -82,7 +86,6 @@
 	}
 	.detail-wrap{
 		margin-top: 40px;
-		margin-bottom: 200px;
 		display: flex;
 		.left{
 			margin-right: 40px;
@@ -114,7 +117,6 @@
 
 	.metail-free__warning{
 		.detail-wrap{
-			margin-bottom: 150px;
 			flex-direction: column;
 			.left{
 				width: 100%;

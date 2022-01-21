@@ -1,0 +1,368 @@
+@charset "utf-8";
+/* ==========================================================
+	anti-aging-dock page
+========================================================== */
+.anti-aging-dock {
+
+
+
+/* outline */
+.care2-outline-section {
+	max-width: 1040px;
+	padding: 50px 20px;
+    margin: auto;
+    
+    h2.head {
+        text-align: center;
+        font-weight: $font_regular;
+        letter-spacing: 0.5rem;
+        text-indent: 0.5rem;	
+        margin-bottom: 50px;
+    }
+    h3.head {
+        text-align: center;
+        font-weight: $font_thin;
+        line-height: 150%;
+        letter-spacing: 0.5rem;
+        text-indent: 0.5rem;	
+        margin: 50px 0 20px;	
+    }
+    p.intro {
+        margin: 0 auto;
+        letter-spacing: 0.2rem;
+        font-weight: $font_light;
+        line-height: 200%;
+        text-align: center;
+    }
+    p.intro.box {
+        padding: 20px;
+        margin: 20px;
+        letter-spacing: 0.2rem;
+        font-weight: $font_light;
+        line-height: 200%;
+        text-align: center;
+        display: block;
+        background-color: rgba(210,190,165,0.3);
+    }
+}
+
+/* oral-aging */
+.care2-oral-aging-section {
+	max-width: 1000px;
+	margin: 0 auto 50px;
+	overflow: hidden;
+	padding: 50px 20px 0;
+    p.intro {
+        text-align: center;
+        font-weight: $font_light;
+        margin-bottom: 30px;
+        line-height: 200%;
+    }
+    h4.head {
+        text-align: center;
+        font-weight: $font_light;
+        margin-bottom: 20px;
+        color: #d93600;
+        letter-spacing: 0.1rem;
+        span {
+            display: block;
+            margin-top: 20px;
+        }
+    }
+    p.sub-intro {
+        text-align: center;
+        font-weight: $font_light;
+        margin-bottom: 30px;
+        line-height: 200%;
+    }
+    p.detail {
+        text-align: center;
+        font-weight: $font_light;
+        margin-bottom: 50px;
+        line-height: 200%;
+    }
+    .check-wrap {
+        max-width: 800px;
+        margin: auto;
+        overflow: hidden;
+        h5.sub-head {
+            font-weight: $font_bold;
+            margin-bottom: 10px;
+        }
+        h6.sub-head {
+            font-weight: $font_bold;
+            margin-bottom: 10px;
+            padding: 30px 0 0;
+            text-align: center;
+        }
+        p.item {
+            font-weight: $font_regular;
+            margin-bottom: 30px;	
+        }
+        ul.check-box {
+            display: flex;
+            flex-wrap: wrap;
+            li {
+                font-weight: $font_medium;	
+                width: 50%;
+                padding: 10px;
+                text-align: center;
+                background-color: #ef9ba0;
+                border: 1px solid #fff;
+                color: #fff;
+            }
+        }
+        .comment {
+            text-align: center;
+            font-weight: $font_regular;
+            padding: 30px 0 50px;
+            color: #e86779;
+        }
+        ul.result {
+            display: table;
+            margin-bottom: 20px;
+            li {
+                display: inline-block;
+                width: 50%;
+                font-weight: $font_regular;
+                height: 30px;
+                line-height: 30px;		
+            }
+        }
+        .annotation {
+            font-weight: $font_regular;
+            line-height: 150%;	
+        }
+    }
+}
+ 
+
+/* anti-aging-doc */
+.care2-anti-aging-doc-section {
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0 20px;
+    h3.head {
+        text-align: center;
+        font-weight: $font_thin;
+        margin-bottom: 30px;
+    }
+    p.intro {
+        text-align: center;
+        font-weight: $font_light;
+        margin-bottom: 30px;
+        line-height: 200%;
+    }
+    h4.head {
+        text-align: center;
+        font-weight: $font_light;
+        margin-bottom: 30px;
+        color: #d93600;
+        letter-spacing: 0.1rem;
+        span {
+            display: block;
+            margin-top: 20px;
+        }
+    }
+    .oligoscan-image {
+        margin: 0 auto 30px;
+        img{margin: auto;}
+    }
+    p.sub-intro {
+        text-align: center;
+        font-weight: $font_light;
+        margin-bottom: 30px;
+        line-height: 200%;
+    }
+    p.detail {
+        text-align: center;
+        font-weight: $font_light;
+        margin-bottom: 50px;
+        line-height: 200%;
+        clear: both;
+        span {
+            color: #d93600;
+            margin: 15px 0;
+            display: inline-block;
+        }
+    }
+    h4.head_att {
+        font-weight: $font_light;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .att {
+        font-weight: $font_light;
+        line-height: 150%;
+        margin-bottom: 20px;
+    }
+    .doc-wrap {
+        max-width: 800px;
+        margin: auto;
+        overflow: hidden;	
+        h5.sub-head {
+            font-weight: $font_bold;
+            margin-bottom: 10px;
+        }
+        h6.sub-head {
+            font-weight: $font_bold;
+            margin-bottom: 10px;
+            padding: 30px 0 0;
+            text-align: center;
+        }
+        p.item {
+            font-weight: $font_regular;
+            margin-bottom: 30px;	
+        }
+    }
+    .allergy-image {
+        margin: 0 auto 50px;
+        display: flex;
+        .img-wrap{
+            width: 50%;
+            img{margin: auto;}
+        }
+    }
+    .cause {
+        padding: 20px;
+        background-color: #efefef;
+        text-align: center;
+        margin-bottom: 50px;
+        h5 {
+            font-weight: $font_light;
+            margin-bottom: 20px;
+            color: #ff0000;
+        }
+        ul li {
+            display: inline-block;
+            margin: 10px;
+            font-size: 1.5rem;
+        }
+    }
+    h6.sub-head {
+        text-align: center;
+        font-weight: $font_bold;
+        margin-bottom: 20px;
+    }
+    .recommend {
+        text-align: center;
+        font-weight: $font_regular;
+        line-height: 200%;
+        margin-bottom: 50px;
+    }
+    .gen-image {
+        width: 800px;
+        margin: 0 auto 50px;
+        overflow: hidden;
+        img {
+            display: block;
+            float: left;
+        }
+    }
+    ul.ｍeasurement {
+        width: 604px;
+        margin: 0 auto 20px;
+        overflow: hidden;
+        li {
+            text-align: center;
+            float: left;
+            width: 300px;
+            height: 50px;
+            line-height: 50px;
+            margin: 1px;
+            font-weight: $font_regular;
+            background-color: #eee;
+        }
+    }
+    p.comment {
+        clear: both;
+        text-align: center;
+        margin: 20px;
+    }
+}
+
+
+/* supplement */
+.care2-supplement-section {
+	max-width: 1000px;
+	padding: 50px 20px 0;
+	margin: 0 auto 100px;
+	overflow: hidden;	
+    h3.head {
+        font-weight: $font_light;
+        margin-bottom: 30px;
+        text-align: center;
+        line-height: 150%;
+    }
+    p.intro {
+        margin: 0 auto 50px;
+        font-weight: $font_light;
+        line-height: 200%;
+        text-align: justify;	
+    }   
+}
+
+
+@include mq(){
+    .care2-outline-section p.intro{
+        text-align: left;
+        &.box{
+            text-align: left;
+            margin: 20px 0 0;
+        }
+    }
+    .care2-anti-aging-doc-section{
+        p.detail{
+            text-align: left;
+        }
+    }
+}
+
+@include mq(sm2){
+    .care2-oral-aging-section{
+        .check-wrap ul.check-box{
+            li{width: 100%;}
+        }
+    }
+    .care2-anti-aging-doc-section{
+        .allergy-image{
+            flex-direction: column;
+            .img-wrap{
+                width: 100%;
+                margin: 20px 0;
+            }
+        }
+    } 
+}
+
+@include mq(smt){
+    .care2-outline-section{
+        padding-top: 30px;
+    }
+    .care2-oral-aging-section{
+        p.sub-intro{
+            text-align: left;
+            br{display: none;}
+        }
+        p.detail{
+            text-align: left;
+        }
+        .check-wrap ul.result{
+            li{width: 100%;}
+        }
+    } 
+    .care2-anti-aging-doc-section{
+        .cause{
+            margin-left: -20px;
+            margin-right: -20px;
+            padding: 50px 20px;
+        }
+        .recommend{
+            text-align: left;
+        }
+    }
+}
+
+/*----------- end -------------*/
+}
