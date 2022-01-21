@@ -8,7 +8,7 @@
 /* outline */
 .cure2-outline-section {
 	max-width: 1040px;
-	padding: 100px 20px 0;
+	padding: 30px 20px 0;
 	margin: auto;
 
 	h2.head {
@@ -22,7 +22,7 @@
 	p.intro {
 		margin: 0 auto;
 		letter-spacing: 0.2rem;
-		font-weight: 200;
+		font-weight: $font_light;
 		line-height: 200%;
 		text-align: center;
 		padding-bottom: 30px;
@@ -32,22 +32,23 @@
 /* grinding */
 .cure2-grinding-section {
 	max-width: 1040px;
-	margin: 50px auto;
+	margin: 50px auto 150px;
 	overflow: hidden;
 	padding: 0 20px;	
+
 	.mouthpiece {
 		width: 100%;
 		margin-bottom: 100px;
 	}
 	h3.head {
-		font-weight: 400;
+		font-weight: $font_regular;
 		margin-bottom: 30px;
 		letter-spacing: 0.2rem;
 		line-height: 150%;
 		text-align: left;
 	}
 	p{
-		font-weight: 200;
+		font-weight: $font_light;
 		line-height: 180%;
 	}
 
@@ -59,7 +60,7 @@
 			margin-bottom: 10px;
 		}
 		p.sub-head {
-			font-weight: 400;
+			font-weight: $font_medium;
 			text-align: left;
 			margin-bottom: 30px;
 			line-height: 150%;
@@ -69,7 +70,7 @@
 			}
 		}
 		.detail {
-			font-weight: 200;
+			font-weight:  $font_light;
 			line-height: 200%;
 			margin-bottom: 30px;
 			&.l-32{
@@ -81,6 +82,7 @@
 			margin-bottom: 40px;
 			text-align: center;
 			li {
+				font-weight: $font_medium;
 				padding: 12px 20px;
 				margin: 3px 0;
 				background-color: #CEC1A8;
@@ -88,10 +90,65 @@
 			}
 		}
 	}
+	/* injection */
+	.injection{
+		h3.head {
+			margin-bottom: 20px;
+		}
+		.thumb-row{
+			display: flex;
+			justify-content: space-between;
+			.thumb{
+				width: 50%;
+				background-color: #F2F2F2;
+				&:first-child{
+					padding: 50px 35px 20px 55px;
+				}
+				&:last-child{
+					padding: 50px 55px 20px 35px;
+				}
+				p.f12{
+					margin-top: 10px;
+					font-weight: $font_medium;
+				}
+			}
+		}
+		.detail{
+			margin-top: 30px;
+			line-height: 2;
+			dd{
+				float: left;
+				font-weight: $font_medium;
+			}
+			dt{
+				padding-left: 80px;
+			}
+		}
+	}
 }
 
 
+@include mq(sm2){
+	.cure2-grinding-section .injection .thumb-row{
+		flex-direction: column;
+		.thumb{
+			width: 100%;
+			padding: 20px !important;
+			text-align: center;
+			img{margin: auto;}
+		}
+	}
+}
 
+@include mq(smt){
+	.cure2-outline-section p.intro{
+		text-align: left;
+		br{display: none;}
+	}
+	.cure2-grinding-section .injection .detail dt{
+		padding-left: 70px;
+	}
+}
 
 /*----------  end ------------*/
 }

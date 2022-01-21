@@ -5,7 +5,7 @@
 <section class="anti-heading__content">
     <div class="anti-heading">
         <h2 class="anti-heading__caption">
-            <span class="jp">歯ぎしり・食いしばり治療</span>
+            <span class="jp">歯ぎしり<br class="sp-onlyt"><span class="pc-onlyt-inline" style="display:inline">・</span>食いしばり治療</span>
         </h2>
     </div>
 </section>
@@ -74,6 +74,49 @@
 			</div>
 			<div class="injection f16">
 				<h3 class="head f20">ボトックス注入療法</h3>
+				<div class="thumb-row">
+					<div class="thumb">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/grinding_before.png" alt="anti">
+						<p class="f12">治療前</p>
+					</div>
+					<div class="thumb">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/grinding_after.png" alt="anti">
+						<p class="f12">治療後</p>
+					</div>
+				</div>
+				<div class="detail f14">
+					<dl>
+						<dd>症状</dd>
+						<dt>
+							歯ぎしり・食いしばりで以前よりもエラが張ってきた。<br>
+							起床時の顎の疲労感<br>
+							詰め物が欠ける
+						</dt>
+					</dl>
+					<dl>
+						<dd>治療</dd>
+						<dt>マウスピース療法と併用してボトックス注入を行いました</dt>
+					</dl>
+					<dl>
+						<dd>咬筋力</dd>
+						<dt>
+							オクルーザルフォースメーター測定値<br>
+							治療前　右0.699N 　左0.719N<br>
+							治療後　右0.369N　左0.396N
+						</dt>
+					</dl>
+					<dl>
+						<dd>治療費用</dd>
+						<dt>
+							歯ぎしり・食いしばり用マウスピースは保険適用治療<br>
+							ボトックス注入１回　￥44000<br>
+						</dt>
+					</dl>
+					<dl>
+						<dd>副作用</dd>
+						<dt>注入後数日、咀嚼時に顎の疲労感が出ることがある。稀に注入部位に内出血することがある。</dt>
+					</dl>
+				</div>
 			</div>
 
 		</section>

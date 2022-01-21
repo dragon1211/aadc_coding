@@ -135,7 +135,7 @@ body {
 }
 
 .pc-only-inline {
-  display: inline-block;
+  display: inline-block !important;
 }
 
 @media screen and (max-width: 1050px) {
@@ -11825,6 +11825,7 @@ body {
 
 .anti-heading__caption span.jp {
   font-size: 3.0rem;
+  font-weight: 600;
 }
 
 .anti-heading__caption span.en {
@@ -11959,7 +11960,7 @@ body {
 
 .grinding .cure2-outline-section {
   max-width: 1040px;
-  padding: 100px 20px 0;
+  padding: 30px 20px 0;
   margin: auto;
 }
 
@@ -11983,10 +11984,11 @@ body {
 
 .grinding .cure2-grinding-section {
   max-width: 1040px;
-  margin: 50px auto;
+  margin: 50px auto 150px;
   overflow: hidden;
   padding: 0 20px;
   /* botox */
+  /* injection */
 }
 
 .grinding .cure2-grinding-section .mouthpiece {
@@ -12017,7 +12019,7 @@ body {
 }
 
 .grinding .cure2-grinding-section .botox p.sub-head {
-  font-weight: 400;
+  font-weight: 500;
   text-align: left;
   margin-bottom: 30px;
   line-height: 150%;
@@ -12045,10 +12047,85 @@ body {
 }
 
 .grinding .cure2-grinding-section .botox .merit li {
+  font-weight: 500;
   padding: 12px 20px;
   margin: 3px 0;
   background-color: #CEC1A8;
   color: white;
+}
+
+.grinding .cure2-grinding-section .injection h3.head {
+  margin-bottom: 20px;
+}
+
+.grinding .cure2-grinding-section .injection .thumb-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.grinding .cure2-grinding-section .injection .thumb-row .thumb {
+  width: 50%;
+  background-color: #F2F2F2;
+}
+
+.grinding .cure2-grinding-section .injection .thumb-row .thumb:first-child {
+  padding: 50px 35px 20px 55px;
+}
+
+.grinding .cure2-grinding-section .injection .thumb-row .thumb:last-child {
+  padding: 50px 55px 20px 35px;
+}
+
+.grinding .cure2-grinding-section .injection .thumb-row .thumb p.f12 {
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.grinding .cure2-grinding-section .injection .detail {
+  margin-top: 30px;
+  line-height: 2;
+}
+
+.grinding .cure2-grinding-section .injection .detail dd {
+  float: left;
+  font-weight: 500;
+}
+
+.grinding .cure2-grinding-section .injection .detail dt {
+  padding-left: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .grinding .cure2-grinding-section .injection .thumb-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .grinding .cure2-grinding-section .injection .thumb-row .thumb {
+    width: 100%;
+    padding: 20px !important;
+    text-align: center;
+  }
+  .grinding .cure2-grinding-section .injection .thumb-row .thumb img {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .grinding .cure2-outline-section p.intro {
+    text-align: left;
+  }
+  .grinding .cure2-outline-section p.intro br {
+    display: none;
+  }
+  .grinding .cure2-grinding-section .injection .detail dt {
+    padding-left: 70px;
+  }
 }
 
 /* ==========================================================
