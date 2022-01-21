@@ -270,6 +270,26 @@
             font-size: 1.5rem;
         }
     }
+	&__second-slide{
+        background-color: #CEC1A8;
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 500;
+        position: relative;
+        a{color: white;}
+		display: block;
+		overflow: none;
+		.sub-nav__container{
+			padding: 6px 20px;
+			display: block;
+			overflow: none;
+		}
+		@include mq(){
+			.sub-nav__container{
+				overflow-x: scroll;
+			}
+		}
+	}
     @include mq(smt){
         &__first{
             height: 50px;
@@ -324,4 +344,20 @@
 			margin-bottom: 5px;
 		}
 	}
+}
+
+.sub-nav__menu-slide{
+	min-width: 940px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+	justify-content: center;
+	z-index: 5;
+	li{
+		text-align: center;
+		&:not(:last-child){
+			margin-right: 20px;
+		}
+	}
+	a.active{color: $color_black;}
 }
