@@ -189,6 +189,10 @@
 @include mq(smt){
 	.cure1-outline-section{
 		padding-top: 50px;
+		h2.head{
+			font-size: 2.2rem;
+			br{display: none;}
+		}
 	}
 	.cure1-office-whitening-section{
 		.center .comment{

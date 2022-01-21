@@ -333,9 +333,170 @@
 		font-size:44px;
 		font-size:4.4rem;
 	}
+}
 
 
 
 
+@include mq(smt){
+	
+	/* ------------------------------------------------ font set */
+	.f10 {
+		font-size:7px;
+		font-size:0.7rem;	
+	}
+	.f11 {
+		font-size:8px;
+		font-size:0.8rem;	
+	}
+	.f12 {
+		font-size:9px;
+		font-size:0.9rem;	
+	}
+	.f13 {
+		font-size:10px;
+		font-size:1.0rem;	
+	}
+	.f14 {
+		font-size:11px;
+		font-size:1.1rem;	
+	}
+	.f15 {
+		font-size:12px;
+		font-size:1.2rem;	
+	}
+	.f16 {
+		font-size:13px;
+		font-size:1.3rem;	
+	}
+	.f18 {
+		font-size:14px;
+		font-size:1.4rem;	
+	}
+	.f20 {
+		font-size:15px;
+		font-size:1.5rem;	
+	}
+	.f22 {
+		font-size:16px;
+		font-size:1.6rem;	
+	}
+	.f24 {
+		font-size:17px;
+		font-size:1.7rem;	
+	}
+	.f26 {
+		font-size:18px;
+		font-size:1.8rem;	
+	}
+	.f28 {
+		font-size:19px;
+		font-size:1.9rem;	
+	}
+	.f30 {
+		font-size:20px;
+		font-size:2.0rem;	
+	}
+	.f32 {
+		font-size:22px;
+		font-size:2.2rem;	
+	}
+	.f34 {
+		font-size:24px;
+		font-size:2.4rem;	
+	}
+	.f36 {
+		font-size:26px;
+		font-size:2.6rem;	
+	}
+	.f38 {
+		font-size:28px;
+		font-size:2.8rem;	
+	}
+	.f40 {
+		font-size:30px;
+		font-size:3.0rem;	
+	}
+	.f42 {
+		font-size:32px;
+		font-size:3.2rem;	
+	}
+	.f44 {
+		font-size:34px;
+		font-size:3.4rem;
+	}
 
+
+	.s3 {
+		font-size:10px;
+		font-size:1rem;
+	}
+	.s2 {
+		font-size:12px;
+		font-size:1.2rem;
+	}
+	.s {
+		font-size:14px;
+		font-size:1.4rem;
+	}
+	.m {
+		font-size:16px;
+		font-size:1.6rem;
+	}
+	.l {
+		font-size:18px;
+		font-size:1.8rem;
+	}
+	.l2 {
+		font-size:20px;
+		font-size:2rem;
+	}
+	.l3 {
+		font-size:22px;
+		font-size:2.2rem;
+	}
+	.l4 {
+		font-size:24px;
+		font-size:2.4rem;
+	}
+	.l5 {
+		font-size:26px;
+		font-size:2.6rem;
+	}
+	.l6 {
+		font-size:28px;
+		font-size:2.8rem;
+	}
+	.l7 {
+		font-size:30px;
+		font-size:3.0rem;
+	}
+	.l8 {
+		font-size:32px;
+		font-size:3.2rem;
+	}
+	.l9 {
+		font-size:34px;
+		font-size:3.4rem;
+	}
+	.l10 {
+		font-size:36px;
+		font-size:3.6rem;
+	}
+	.l11 {
+		font-size:38px;
+		font-size:3.8rem;
+	}
+	.l12 {
+		font-size:40px;
+		font-size:4.0rem;
+	}
+	.l13 {
+		font-size:42px;
+		font-size:4.2rem;
+	}
+	.l14 {
+		font-size:44px;
+		font-size:4.4rem;
+	}
 }
