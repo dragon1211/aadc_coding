@@ -1,7 +1,7 @@
 <?php get_template_part( 'template-parts/sub-nav/anti-aging-sub-nav' ); ?>
 
 
-<!-- anti-aging header -->
+<!-- anti-aging common header -->
 <section class="anti-heading__content">
     <div class="anti-heading">
         <h2 class="anti-heading__caption">

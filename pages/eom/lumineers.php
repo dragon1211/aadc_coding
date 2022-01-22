@@ -1,10 +1,7 @@
 <?php get_template_part( 'template-parts/sub-nav/eom-sub-nav' ); ?>
 
-<!---------------------------------------------------->
-<!----------------      EOM MAIN SECTION   ----------->
-<!---------------------------------------------------->
 
-<!-- news-section -->
+<!-- eom common header -->
 <section class="eom-heading__content">
     <div class="eom-heading">
         <h2 class="eom-heading__caption">
