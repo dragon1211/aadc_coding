@@ -268,9 +268,9 @@
 		top: 30%;
 	}
 
-	.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
-		margin: 0 10px;
-	}
+	// .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+	// 	margin: 0 10px;
+	// }
 
 	@include mq(){
 		&__contentsWrapper {

@@ -5562,10 +5562,6 @@ body {
   top: 30%;
 }
 
-.home-news .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
-  margin: 0 10px;
-}
-
 @media screen and (max-width: 1050px) {
   .home-news__contentsWrapper {
     padding-left: 20px;
