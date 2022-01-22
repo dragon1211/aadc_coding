@@ -144,7 +144,7 @@
 			<div class="home-content__wrapper">
 				<div class="home-content__alignment">
 					<h2 class="home-content__heading alignment">きれいな歯並びで質の高い生活を
-						<a href="<?php echo home_url(); ?>/?????????">矯正歯科治療について</a>
+						<a href="<?php echo home_url(); ?>/eom/non-extraction">矯正歯科治療について</a>
 					</h2>
 				</div>
 			</div>
@@ -295,7 +295,7 @@
 				</div>
 				<div class="home-information__pane-right">
 					<h2 class="home-information__heading">SCHEDULE</h2>
-					<a href="" class="home-information__btn">クリニック診療カレンダー</a>
+					<a href="<?php echo home_url(); ?>/information" class="home-information__btn">クリニック診療カレンダー</a>
 					<table class="table-calendar">
 					   <thead>
 						   	<td></td>

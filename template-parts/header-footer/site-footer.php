@@ -27,7 +27,7 @@
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/anti-aging/injection" >点滴療法・注射</a></li>
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/anti-aging/esthetic" >デンタルエステ</a></li>
 
-				<li class="link-list__item title"><a class="item-link" href="<?php echo home_url(); ?>/general" >一般診療</a></li>
+				<li class="link-list__item title"><a class="item-link" href="<?php echo home_url(); ?>/general" >一般歯科</a></li>
 
 				<li class="link-list__item title"><a class="item-link" href="<?php echo home_url(); ?>/information" >インフォメーション・アクセス</a></li>
 				<li class="link-list__item bold"> <a class="item-link" href="<?php echo home_url(); ?>/price" >料金表</a></li>
@@ -55,9 +55,9 @@
 				<a class="footer-btn-link" href="<?php echo home_url(); ?>/inquiry">お問い合わせ <span>▶︎</span></a>
 	
 				<div class="icon-bar">
-					<img class="icon-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/icon-facebook.svg" alt="icon">
-					<img class="icon-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/icon-instagram.svg" alt="icon">
-					<img class="icon-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/icon-blog.svg" alt="icon">
+					<a class="icon-img__link" href="https://www.facebook.com/aadc.ebisu?fref=ts"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/icon-facebook.svg" alt="icon"></a>
+					<a class="icon-img__link" href="https://www.instagram.com/antiaging_dental_ebisu/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/icon-instagram.svg" alt="icon"></a>
+					<a class="icon-img__link" href="<?php echo home_url(); ?>/aadcblog"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/icon-blog.svg" alt="icon"></a>
 				</div>
 			</div>
 

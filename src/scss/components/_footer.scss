@@ -109,11 +109,15 @@
   .icon-bar{
     margin-top: 30px;
     display: flex;
-    .icon-img{
+    .icon-img__link{
       width: 30px;
       height: 30px;
       &:not(:last-child){
         margin-right: 60px;
+      }
+      img{
+        width: 100%;
+        height: 100%;
       }
     }
   }

@@ -94,7 +94,7 @@
 	}
 	&__heading {
 	position: absolute;
-	bottom: 10%;
+	bottom: 20px;
 	left: 15%;
 	@include logo-font();
 	font-size: 20rem;
@@ -103,7 +103,7 @@
 	margin: 0 auto;
 		span {
 			@include base-font();
-			margin-top: -70px;
+			margin-top: -80px;
 			font-size: 4.0rem;
 			font-weight: 500;
 			color: $color_black;
@@ -311,7 +311,7 @@
 		font-weight: 500;
 		color: $color_textlink;
 		&:hover {
-			text-decoration: underline;
+			opacity: .8;
 		}			
 	}
 	
