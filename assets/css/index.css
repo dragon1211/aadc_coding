@@ -2287,6 +2287,25 @@ body {
 }
 
 /* -------------------
+	pagination
+--------------------*/
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 576px) {
+  .pagination {
+    margin-top: 50px;
+  }
+}
+
+/* -------------------
   header
 --------------------*/
 .header {

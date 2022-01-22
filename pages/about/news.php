@@ -18,8 +18,26 @@
 		<h2 class="news-content__caption">新着情報</h2>
 		<div class="news-wrapper">
 			<ul class="news-list">
-				<?php query_posts('posts_per_page=100&category_name=news&order=DESC'); ?>
-				<?php if(have_posts()) : while (have_posts()) : the_post(); ?>
+				<?php
+					$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+					$args = array(
+						'post_type'=> 'post',
+						'orderby'    => 'ID',
+						'post_status' => 'publish',
+						'category_name' => $category_name,
+						'order'    => 'DESC',
+						'posts_per_page' => 12, // this will retrive all the post that is published ,
+						'paged' => $paged
+						);
+						
+					$result = new WP_Query( $args );
+					
+					set_query_var('page',$paged);
+					if ( $result-> have_posts() ) : 
+				?>
+				<?php
+					while ( $result->have_posts() ) : $result->the_post(); 
+				?>
 				<li class="news-item">
 					<a href="<?php the_permalink(); ?>">
 						<div class="news-item__image">
@@ -52,10 +70,14 @@
 						</div>
 					</a>
 				</li>
-				<?php endwhile; endif; ?>
+				<?php endwhile;?>
 			</ul>
+
+			<div class="pagination">
+				<?php if(function_exists('wp_pagenavi')) wp_pagenavi(array('query' => $result)); ?>
+				<?php endif; wp_reset_postdata(); ?>   
+			</div>
 		</div>
-		<a href="/??" class="news-more__link">さらに表示する </a>
 	</div>
 </section>
 
