@@ -19,9 +19,8 @@
 
 <!-- doctor-section -->
 <section class="doctor-content">
-
     <div class="doctor-container">
-
+        <!-- 院長　歯科医師 -->
         <div class="doctor-info">
             <div class="doctor-photo">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/doctor-ogawa.png" data-xblocker="passed" style="visibility: visible;">
@@ -108,7 +107,8 @@
                 </div>
             </div>
         </div>
-        
+
+        <!-- 須藤　光弘 -->
         <div class="doctor-info">
             <div class="doctor-photo">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/doctor-sudo.png" data-xblocker="passed" style="visibility: visible;">
@@ -138,6 +138,7 @@
             </div>				
         </div>
         
+        <!-- 歯科技工士 -->
         <div class="doctor-info">
             <div class="doctor-photo">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about/doctor-makihara.png" data-xblocker="passed" style="visibility: visible;">
@@ -159,9 +160,7 @@
                 <p class="message">白い歯のこぼれる笑顔を追求したく、審美歯科、インプラント技工を中心にアトランタ、LA、ハワイで著名な方々と共にトップクラスの仕事に携わってきました。日本人特有の手先の器用さと海外経験で培った最先端の技術で、皆様に高品質な技工物を提供いたします。</p>
             </div>				
         </div>			
-    
     </div>
-    
 </section>
 
 

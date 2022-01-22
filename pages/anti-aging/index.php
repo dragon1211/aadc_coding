@@ -1,6 +1,7 @@
-<section id="anti-aging-top">
+<section id="anti-aging-top">          <!-- importnat -->
 
     <?php get_template_part( 'template-parts/sub-nav/anti-aging-sub-nav' ); ?>
+
 
     <!-- anti-aging common header -->
     <section class="anti-heading__content">
@@ -11,15 +12,15 @@
         </div>
     </section>
 
+    
+    <!-- anti top content -->
     <section class="anti-content">
-
         <div class="anti-content__mainvisual">
             <h1 class="anti-content__mainvisual--caption f18">
                 歯科においてのアンチエイジングでは、お口の機能を落とさずに歯を健康に保ち、
                 見た目もお口の中も若々しく保つことを目的としています。
             </h1>
         </div>
-
         <div class="anti-content__body f16">
             <p class="text1">
                 歯は、私たちが心身ともに健康に過ごすためにとても大切な体の一部です。毎日の生活を快適に過ごすために「歯」「口」の健康がとても重要なことをご存知でしょうか？
@@ -43,7 +44,6 @@
                 <br>このように、見た目を良くするだけでなく、お口周りや口腔機能をより良い状態にしてくれる歯科のアンチエイジングは、毎日を快適に過ごすためのプラスの医療として今後はもっと浸透していくでしょう。
             </p>
         </div>
-
         <div class="anti-content__menu">
             <ul class="home-section__menu-ul">
                 <li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/teeth-cleaning">クリーニング</a></li>
@@ -56,11 +56,10 @@
                 <li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/esthetic">デンタルエステ</a></li>
             </ul>
         </div>
-
     </section>
 
 
-    <!-- breadcrumb section -->
+    <!-- breadcrumb -->
     <section class="breadcrumb-wrapper">
         <div class="breadcrumb-wrapper__content">
             <ul class="breadcrumb">
@@ -73,6 +72,5 @@
             </ul>
         </div>
     </section>
-    <!-- breadcrumb end section -->
 
 </section>

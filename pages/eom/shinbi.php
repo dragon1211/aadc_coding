@@ -13,7 +13,7 @@
 
 <!-- shinbi-content -->
 <section class="shinbi-content">
-
+    <!-- shinbi-content mv-->
     <div class="shinbi-content__mainvisual">
         <div class="shinbi-content__mainvisual--image"></div>
         <div class="shinbi-content__mainvisual--desc">
@@ -30,12 +30,8 @@
         </div>
     </div>
 
-    
-
+    <!-- shinbi-content body -->
     <div class="shinbi-content__body">
-    
-    
-    
         <!-- proportion -->
         <section class="proportion-about-section" id="proportion">
             <div class="gp-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/gp.png"></div>
@@ -78,8 +74,6 @@
             </ul>
     
         </section>
-        <!-- /proportion -->
-    
     
         <!-- frontteeth -->
         <section class="cure1-frontteeth-section" id="about">
@@ -109,8 +103,6 @@
                 </p>
             </div>
         </section>
-        <!-- /frontteeth -->	
-    
     
         <!-- collaboration -->
         <section class="cure1-collaboration-section">
@@ -127,8 +119,6 @@
                 </p>
             </div>
         </section>
-        <!-- /collaboration -->
-    
     
         <!-- ceramic -->
         <section class="cure1-ceramic-section f16" id="ceramic-crown">
@@ -232,8 +222,6 @@
             </ul>
             
         </section>
-        <!-- /ceramic -->
-    
     
         <!-- laminate -->
         <section class="cure1-laminate-section" id="laminate-veneer">
@@ -248,11 +236,8 @@
                 </p>
             </div>
         </section>
-        <!-- /laminate -->		
-    
     
         <p class="blogbanner f24"><a href="<?php echo home_url(); ?>/aadcblog/shinbi/">前歯審美歯科の<br class="sp-onlyt">関連ブログはこちら</a></p>
-    
     
         <!-- case -->
         <section class="cure1-grinding-section">
@@ -272,7 +257,6 @@
                 </p>
             </div>	
         </section>
-    
     
         <!-- composite -->
         <section class="cure1-composite-section" id="composite">
@@ -295,9 +279,8 @@
                 <li><span>治療の副作用・リスク</span>材質の経年劣化により変色する。欠けたり取れることがある。</li>
             </ul>
         </section>
-        <!-- /composite -->	
 
-
+        <!-- shinbi-teeth -->
         <section class="shinbi-teeth__section">
             <div class="shinbi-teeth__content">
                 <div class="left">
@@ -326,7 +309,6 @@
             </div>
         </section>
     
-    
         <!-- warranty-->
         <section class="cure1-warranty-section">
             <div class="wrapper">
@@ -343,8 +325,6 @@
                 </div>
             </div>
         </section>
-        <!-- /warranty -->
-    
     
         <!-- shinbi-whitening -->
         <section class="cure1-shinbi-whitening-section" id="whitening">
@@ -358,8 +338,6 @@
                 <p class="anchor f14"><a href="<?php echo home_url(); ?>/eom/whitening/" >ホワイトニングについてさらに詳しく</a></p>
             </div>			
         </section>
-        <!-- /shinbi-whitening -->			
-    
     
         <!-- lumineers -->
         <section class="cure1-lumineers-section" id="lumineers">
@@ -389,8 +367,6 @@
                 </div>
             </div>
         </section>
-        <!-- /lumineers -->
-    
     
         <!-- snapon -->
         <section class="cure1-snapon-section" id="snapon-smile">
@@ -439,12 +415,11 @@
                 </p>
             </div>
         </section>
-        <!-- /lumineers -->		
     </div>
 </section>
 
 
-<!-- breadcrumb section -->
+<!-- breadcrumb -->
 <section class="breadcrumb-wrapper">
     <div class="breadcrumb-wrapper__content">
         <ul class="breadcrumb">

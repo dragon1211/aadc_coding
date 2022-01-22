@@ -1,5 +1,5 @@
 
-<section id="eom-top">
+<section id="eom-top">       <!-- important -->
 
     <?php get_template_part( 'template-parts/sub-nav/eom-sub-nav' ); ?>
 
@@ -15,8 +15,9 @@
     </section>
 
 
-    <!-- eom-section -->
+    <!-- eom-top section -->
     <section class="eom-content">
+        <!-- eom top mv -->
         <div class="eom-content__mainvisual">
             <h1 class="eom-content__mainvisual--caption f18">
                 当院が行うエステティックオルソメソッド（EOM）とは、
@@ -25,6 +26,7 @@
             </h1>
         </div>
 
+        <!-- eom top body -->
         <div class="eom-content__body f16">
             <p class="text1">
                 当院では、一人一人の歯の状態を診断した上で、
@@ -46,6 +48,7 @@
             </p>
         </div>
 
+        <!-- eom top menu -->
         <div class="eom-content__menu">
             <ul class="home-section__menu-ul">
                 <li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/eom/shinbi">前歯審美歯科治療</a></li>
@@ -58,13 +61,10 @@
                 <li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/eom/gap">すきっ歯専門治療</a></li>
             </ul>
         </div>
-
-
-
     </section>
 
-    
-    <!-- breadcrumb section -->
+
+    <!-- breadcrumb -->
     <section class="breadcrumb-wrapper">
         <div class="breadcrumb-wrapper__content">
             <ul class="breadcrumb">
@@ -77,5 +77,4 @@
             </ul>
         </div>
     </section>
-
 </section>

@@ -11,9 +11,9 @@
 	</div>
 </section>
 
+
 <section class="post-news">
 	<?php if(have_posts()) : while (have_posts()) : the_post(); ?>
-		
 		<!-- news-section -->
 		<section class="post-news__section">		
 			<div class="post-news__header">
@@ -46,8 +46,7 @@
 </section>
 
 
-
-<!-- breadcrumb section -->
+<!-- breadcrumb -->
 <section class="breadcrumb-wrapper">
 	<div class="breadcrumb-wrapper__content">
 		<ul class="breadcrumb">

@@ -13,10 +13,12 @@
 
 <!-- invisalign-content -->
 <section class="content">
+	<!-- outline -->
 	<section class="cure2-outline-section">
 		<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/invisalign-header.png" class="creditcard-mark">
 	</section>
 	
+	<!-- intro -->
 	<section class="cure2-intro-section">
 		<h2 class="head f28">目立たない、ワイヤーを使わない矯正装置<br>世界でも技術的に優れたマウスピース矯正　インビザライン</h3>
 
@@ -25,7 +27,7 @@
 		</p>
 	</section>
 
-
+	<!-- about -->
 	<section class="cure2-about-section" id="outline">
 		<div class="right">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/cure2-about-invisalign.png">		
@@ -39,7 +41,7 @@
 		</div>
 	</section>
 
-	
+	<!-- merit -->
 	<section class="cure2-merit-section">
 		<h3 class="head f28">インビザラインのメリット</h3>
 		<ul class="f16">
@@ -57,6 +59,7 @@
 		</ul>
 	</section>
 
+	<!-- flow -->
 	<section class="cure2-flow-section">
 		<h3 class="head f28">インビザライン<br class="sp-onlyt">治療の実際/治療の流れ</h3>
 		<div class="item f18">精密検査</div>
@@ -123,6 +126,7 @@
 		</div>
 	</section>
 
+	<!-- plan -->
 	<section class="cure2-plan-section">
 		<h2 class="head f30">患者様一人一人に合ったプランで治療ができる　インビザライン</h2>
 		<div class="plan-wrap">
@@ -170,6 +174,7 @@
 		</div>
 	</section>	
 
+	<!-- QA -->
 	<section class="cure2-qa-section">
 		<p class="qa-head f16">▼インビザラインよくある質問はこちら▼</p>
 		<ul class="qa f14">
@@ -222,6 +227,7 @@
 		</ul>
 	</section>
 	
+	<!-- payment -->
 	<section class="cure2-payment-section">
 		<div class="payment-wrap">
 			<p class="payment-intro f16"><span class="l2">当院では、矯正治療費を患者様のご負担の少ない分割払いにて承っております。</span><br>
@@ -313,11 +319,10 @@
 			<p class="comment f12">※ 保証期間内で保定装置を破損した場合の再製作については無料です。紛失した場合には一つ¥5,000にて再製作いたします。保証期間を過ぎますと保定装置一つにつき¥10,000がかかります。</p>
 		</div>
 	</section>
-	<!-- /payment -->
 </section>
 
 
-<!-- breadcrumb section -->
+<!-- breadcrumb -->
 <section class="breadcrumb-wrapper">
     <div class="breadcrumb-wrapper__content">
         <ul class="breadcrumb">

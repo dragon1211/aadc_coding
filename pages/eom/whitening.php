@@ -21,7 +21,6 @@
 			歯を削ることなく、ご自身の歯を白く明るくします。
 		</p>
 	</section>
-	<!-- /outline -->	
 
 	<!-- howtowhitening -->
 	<section class="cure1-howtowhitening-section f16">
@@ -56,9 +55,6 @@
 		<p class="howtowhitening f14">
 			当院では、患者様ひとりひとりのご希望に添えるよう、ホワイトニング剤を３種類ご用意し、 個々の歯質や状態に合わせた、効果の出るホワイトニングをご提供できるよう努めております。</p>
 	</section>
-	<!-- /howtowhitening -->
-	
-	
 
 	<!-- office-whitening -->
 	<section class="cure1-office-whitening-section" id="office">
@@ -93,9 +89,6 @@
 			</div>
 		</div>
 	</section>
-	<!-- /office-whitening -->
-	
-	
 	
 	<!-- homee-whitening -->
 	<section class="cure1-home-whitening-section" id="home">
@@ -122,10 +115,9 @@
 		</div>	
 	</section>
 </section>
-<!-- end whitening -->
 
 
-<!-- breadcrumb section -->
+<!-- breadcrumb -->
 <section class="breadcrumb-wrapper">
     <div class="breadcrumb-wrapper__content">
         <ul class="breadcrumb">

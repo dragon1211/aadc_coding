@@ -1,14 +1,15 @@
 <!-- inquiry-section -->
 <section class="content">
+	<!-- header -->
 	<div class="inquiry-header">
 		<h1 class="head f20">お問い合わせ</h1>
 	</div>
 
+	<!-- body -->
 	<section class="inquiry-section">
-		
 		<h2 class="head f24">お電話によるお問い合わせ</h2>
 		<div class="detail f36">03-5459-3163</div>
-		
+
 		<h2 class="head f24">メールによるお問い合わせ</h2>
 		<div class="detail f16">個人情報の取り扱いについてご同意いただける方のみ、以下のフォームにお進みください。</div>
 		
@@ -94,10 +95,9 @@
 	
 	</section>
 </section>
-<!-- /inquiry-section -->
 
 
-<!-- breadcrumb section -->
+<!-- breadcrumb -->
 <section class="breadcrumb-wrapper">
 	<div class="breadcrumb-wrapper__content">
 		<ul class="breadcrumb">

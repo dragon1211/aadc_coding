@@ -42,10 +42,9 @@
         </ul>
     </div>
 </section>
-<!-- covid end section -->
 
 
-<!-- breadcrumb section -->
+<!-- breadcrumb -->
 <section class="breadcrumb-wrapper">
     <div class="breadcrumb-wrapper__content">
         <ul class="breadcrumb">

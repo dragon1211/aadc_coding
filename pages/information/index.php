@@ -9,10 +9,12 @@
 
 <!-- information-section -->
 <section class="content">
+    <!-- header -->
 	<div class="information-header">
 		<h1 class="head f42">Information</h1>
 	</div>
 
+	<!-- information -->
 	<section class="information-section">
 		<div class="information-wrap">
 			<div class="info-left">
@@ -80,7 +82,7 @@
 </section>
 
 
-<!-- breadcrumb section -->
+<!-- breadcrumb -->
 <section class="breadcrumb-wrapper">
 	<div class="breadcrumb-wrapper__content">
 		<ul class="breadcrumb">

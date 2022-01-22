@@ -11,8 +11,8 @@
 </section>
 
 
+<!-- teeth-cleaning content -->
 <section class="teeth-cleaning__content">
-
     <!-- outline -->
     <section class="care1-outline-section">
         <h2 class="head f34">きれいで健康な歯と<br class="sp-only">歯肉のために</h2>
@@ -23,8 +23,7 @@
         <p class="intro m">当院では、患者様一人一人のお口の状態を把握し、基本となる手技に加えて個々の歯や歯肉に必要な施術を行っています。最適なオーラルケアを定期的に行う事で、必ずその効果を実感頂けます。
         </p>
     </section>
-    <!-- /outline -->	
-  
+
     <!-- teeth-cleaning -->
     <section class="care1-teeth-cleaning-section" id="pmtc">
         <div class="care1-teeth-cleaning-content">
@@ -78,7 +77,6 @@
             </div>
         </div>
     </section>
-    <!-- /teeth-cleaning -->		
 
     <!-- white care-------->
     <section class="white-care__section">
@@ -114,17 +112,15 @@
             </div>
         </div>
     </section>
-    
-    
 </section>
-
 
 
 <!-- bridal-------->
 <section class="bridal-content">
-
+    <!-- bridal mv -->	
     <div class="bridal-content__mv"></div>
-    
+
+    <!-- /outline -->	
     <section class="cure1-outline-section">
         <h2 class="head f34">結婚式はあなたが<br class="sp-only">主役の最も美しく<br class="sp-onlyt">輝く日です</h2>
         <p class="intro f18">
@@ -132,13 +128,11 @@
             そして、口元の美しさはウェディングドレスを着たあなたを一層美しく、エレガントに演出します。<br>
             大切な日だから、悔いのない最高の自分で迎えましょう。
         </p>
-        
         <p class="intro2 f16">
             当院では、日程やご予算、ご希望に合わせてブライダルプランをご用意しております。また、特別な日を迎える方のために、通常料金よりもお得な価格になっております。<br>
             <span>ご希望の方は、ブライダルに関する書類をご持参ください。</span>また、ご予約の際には「ブライダル希望」とお申し付け下さい。なお、カップルでのケアも承っております。
         </p>
     </section>
-    <!-- /outline -->	
 
     <!-- bridal -->
     <section class="cure1-bridal-section f16">
@@ -168,12 +162,10 @@
             結婚式までには矯正器具を外し、後戻りのないように取り外し式の矯正装置をお渡します。途中の場合でも一度装置を除去できますので、結婚式後やご旅行から帰られた際に再度の装着が可能です。また、取り外し式の矯正装置も極薄の透明のマウスピースですから違和感がなく、目立ちません。<br><br>ブライダルプランをご希望の方は、お気軽にお問い合わせください。
         </p>
     </section>
-    <!-- /bridal -->
 </section>
 
 
-
-<!-- breadcrumb section -->
+<!-- breadcrumb -->
 <section class="breadcrumb-wrapper">
     <div class="breadcrumb-wrapper__content">
         <ul class="breadcrumb">
@@ -187,4 +179,3 @@
         </ul>
     </div>
 </section>
-<!-- breadcrumb end section -->

@@ -12,7 +12,7 @@
 </section>
 
 
-<!-- news-section -->
+<!-- news-content -->
 <section class="news-content">
 	<div class="news-container">
 		<h2 class="news-content__caption">新着情報</h2>
@@ -82,7 +82,7 @@
 </section>
 
 
-<!-- breadcrumb section -->
+<!-- breadcrumb -->
 <section class="breadcrumb-wrapper">
 	<div class="breadcrumb-wrapper__content">
 		<ul class="breadcrumb">

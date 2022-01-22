@@ -1,12 +1,11 @@
-
 <!-- appoinment-content -->
 <section class="content">
-
+	<!-- appointment-header -->
 	<div class="appointment-header">
 		<h1 class="head f20">診療予約・矯正無料相談</h1>
 	</div>
-
-<!-- appointment-section -->
+	
+	<!-- appointment-section -->
 	<section class="appointment-section">
 					
 		<h2 class="head f30">診療予約・矯正無料相談<br class="sp-onlyt">仮予約フォーム</h2>
@@ -678,14 +677,10 @@
 		</div>
 		
 	</section>
-	
-	<!-- /appoint-section -->
 </section>
 
 
-
-
-<!-- breadcrumb section -->
+<!-- breadcrumb -->
 <section class="breadcrumb-wrapper">
 	<div class="breadcrumb-wrapper__content">
 		<ul class="breadcrumb">

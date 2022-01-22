@@ -9,6 +9,7 @@
 
 <!-- general-section -->
 <section class="content">
+    <!-- outline -->
     <section class="cure3-general-section" id="outline">
         <h2 class="head f36">一般歯科</h2>
         <p class="intro f18">
@@ -16,6 +17,7 @@
         </p>
     </section>
 
+    <!-- treatment -->
     <section class="cure3-general-treatment-section">
         <div class="box-wrap">
             <div class="general-box" id="general1">
@@ -47,6 +49,7 @@
         </div>
     </section>
 
+    <!-- painless -->
     <section class="cure3-painless-section" id="general4">
         <h2 class="head f36">無痛治療</h2>
         <p class="intro f18">
@@ -58,6 +61,7 @@
         </p>
     </section>
 
+    <!-- prevention -->
     <section class="cure3-prevention-section" id="general5">
         <h2 class="head f36">予防歯科<br class="sp-onlyt"><span class="pc-onlyt-inline">・</span>メンテナンス</h2>
         <h3 class="head f28">虫歯や歯周病のない健康なお口を維持するために<br>白くきれいな歯を長持ちさせるために</h3>
@@ -72,7 +76,7 @@
 </section>
 
 
-<!-- breadcrumb section -->
+<!-- breadcrumb -->
 <section class="breadcrumb-wrapper">
     <div class="breadcrumb-wrapper__content">
         <ul class="breadcrumb">

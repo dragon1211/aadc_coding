@@ -9,7 +9,6 @@
 
 <!-- price-section -->
 <section class="content">
-
 	<section class="price-section">
 		<h3 class="head f28">矯正</h3>
 		<table class="price f16">
@@ -492,11 +491,10 @@
 		</table>
 		<p class="tax f14">※表示価格には消費税額を含みます。</p>
 	</section>
-
 </section>
 
 
-<!-- breadcrumb section -->
+<!-- breadcrumb -->
 <section class="breadcrumb-wrapper">
 	<div class="breadcrumb-wrapper__content">
 		<ul class="breadcrumb">

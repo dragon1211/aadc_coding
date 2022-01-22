@@ -1,9 +1,11 @@
 <!-- english-section -->
 <section class="content">
+	<!-- eng header -->
 	<div class="eng-header">
 		<h1 class="head f24">Welcome to Anti-Aging Dental<br class="sp-onlyt"> Clinic ebisu</h1>
 	</div>
-	
+
+	<!-- eng doctor -->
 	<section class="doctor-section">
 		<div class="doctor f14">
 		<div class="doctor-photo">
@@ -44,7 +46,7 @@
 		</div>
 	</section>
 
-
+	<!-- eng message -->
 	<section class="message-section">
 		<h2 class="head f36">Message</h2>
 		<div class="message f18">
@@ -56,7 +58,7 @@
 		</div>
 	</section>
 
-
+	<!-- eng service -->
 	<section class="service-section">
 		<h2 class="head f24">Services</h2>
 		<ul class="service f16">
@@ -68,26 +70,26 @@
 		</ul>
 	</section>
 
-
+	<!-- eng insurance -->
 	<section class="insurance-section">
 		<h2 class="head f24">Insurance</h2>
 		<p class="insurance f16">We accept Japanese National Health Insurance and Social Insurance</p>
 	</section>
 
-
+	<!-- eng payment -->
 	<section class="payment-section">
 		<h2 class="head f24">Payment Method</h2>
 		<p class="payment f16">JPY Cash</p>
 		<p class="payment f16">Credit Card (AMERICAN EXPRESS,Master Card,VISA,Diners Club,JCB)   Own expense medical care only</p>
 	</section>
 
-
+	<!-- eng level -->
 	<section class="level-section">
 		<h2 class="head f24">English Level</h2>
 		<p class="level f16">Fluent in conversational english</p>
 	</section>
 
-
+	<!-- eng hours -->
 	<section class="hours-section">
 		<h2 class="head f24">Office Hours</h2>
 		<p class="hours f14">
@@ -126,7 +128,7 @@
 		</p>
 	</section>
 
-
+	<!-- eng information -->
 	<section class="information">
 		<div class="information-wrap">
 			<div class="info-left">
@@ -144,16 +146,18 @@
 		</div>
 	</section>
 
-
+	<!-- eng access -->
 	<section class="access-section">
 		<h2 class="head f24">Access</h2>
 		<p class="access f16">The clinic is 3 minutes walk from West Exit of Ebisu Station on the JR Line<br>and 2 minutes walk from No.2 Exit of Ebisu Station on the Hibiya Line.</p>
 	</section>
+
+	<!-- eng map -->
 	<section class="map">
 		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1621.0801746695818!2d139.70738047712533!3d35.648420799980855!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x843ec121ff198ce5!2z44Ki44Oz44OB44Ko44Kk44K444Oz44Kw44OH44Oz44K_44Or44Kv44Oq44OL44OD44Kv5oG15q-U5a-_5q2v56eR772c5oG15q-U5a-_6aeF!5e0!3m2!1sja!2sjp!4v1534853743689" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</section>
 
-
+	<!-- eng contact -->
 	<section class="contact-section">
 		<h2 class="head f24">Contact Us</h2>
 		<p class="contact f16">For appointment and Question</p>
@@ -229,7 +233,8 @@
 	</section>
 </section>
 
-<!-- breadcrumb section -->
+
+<!-- breadcrumb -->
 <section class="breadcrumb-wrapper">
 	<div class="breadcrumb-wrapper__content">
 		<ul class="breadcrumb">

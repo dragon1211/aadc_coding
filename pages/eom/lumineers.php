@@ -13,7 +13,7 @@
 
 <!-- lumineers-content -->
 <section class="content">
-
+	<!-- outline -->
 	<section class="cure1-outline-section">
 		<h2 class="head f36">白く輝く美しい前歯でハリウッドスマイルを</h2>
 		<p class="intro f18">
@@ -24,7 +24,7 @@
 		</p>
 	</section>
 
-
+	<!-- lumineer page -->
 	<section class="cure1-lumineers-page-section" id="outline">
 		<div class="lumineers-slide">
 			<div class="swiper-container">
@@ -93,7 +93,7 @@
 		</div>
 	</section>
 
-
+	<!-- difference -->
 	<section class="cure1-difference-section" id="difference">
 		<h3 class="head f24">ラミネートベニアと<br class="sp-onlyt">ルミネアーズの違いは？</h3>
 		<p class="difference m">
@@ -112,7 +112,7 @@
 		</a>
 	</section>
 		
-	
+	<!-- payment -->
 	<section class="cure1-payment-section">
 		<div class="alignment-price">
 			<h5 class="head f24">ルミネアーズ治療費<span class="s">価格はすべて税込みです</span></h5>
@@ -139,11 +139,10 @@
 			<p class="comment s2">※治療費のお支払いについては、各種クレジットカード、デンタルローンもご利用いただけます。</p>
 		</div>
 	</section>
-	
 </section>
 
 
-<!-- breadcrumb section -->
+<!-- breadcrumb -->
 <section class="breadcrumb-wrapper">
     <div class="breadcrumb-wrapper__content">
         <ul class="breadcrumb">

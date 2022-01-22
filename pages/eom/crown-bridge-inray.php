@@ -21,9 +21,8 @@
 			当院ではセラミックスとジルコニアを使用し、<br>奥歯においても金属を使わずに審美的に機能回復をすることができます。
 		</p>
 	</section>
-	<!-- /outline -->
 	
-	
+	<!-- ceramic -->
 	<section class="cure1-ceramic-features-section">
 		<p class="f16"><span>ジルコニアの特徴</span>
 			ジルコニア（ZrO2 二酸化ジルコニア）とは、キュービックジルコニア（人工ダイヤ）に代表される素材で、強く軽く生体に優しいセラミックスです。
@@ -43,7 +42,7 @@
 		</p>
 	</section>
 
-
+	<!-- zirconia -->
 	<section class="cure1-zirconia-crown-section" id="zirconia">		
 		<div class="left">
 			<h3 class="head f24">ジルコニアセラミッククラウン</h3>
@@ -60,8 +59,7 @@
 		</div>				
 	</section>
 
-
-
+	<!-- fullzirconia -->
 	<section class="cure1-fullzirconia-crown-section" id="fullzirconia">		
 		<div class="left">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/cure1-fullzirconia.png" >
@@ -75,12 +73,12 @@
 		</div>
 	</section>
 
-	
+	<!-- padding-cost -->
 	<ul class="cost_ex f13 padding-cost">
 		<li><span>フルジルコニアクラウンの副作用・リスク</span>　非常に硬いため、噛み合わせる天然歯が削れることがある。ごく稀に欠けることがある。</li>
 	</ul>
 
-
+	<!-- trans -->
 	<section class="cure1-zirconia-trans-section" id="zirconia-trans">		
 		<div class="left">
 			<h3 class="head f24">高透過性フルジルコニアクラウン</h3>
@@ -92,12 +90,12 @@
 		</div>				
 	</section>
 
-	
+	<!-- padding cost -->
 	<ul class="cost_ex f13 padding-cost">
 		<li><span>フルジルコニアクラウンの副作用・リスク</span>ごく稀に欠けることがある。</li>
 	</ul>		
-	
 
+	<!-- ceramic inlay -->	
 	<section class="cure1-ceramic-inlay-section" id="ceramic-inlay">		
 		<div class="left">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/cure1-ceramic-inlay.png" >
@@ -108,7 +106,7 @@
 		</div>
 	</section>
 
-	
+	<!-- padding cost -->
 	<ul class="cost_ex f13 padding-cost">
 		<li><span>治療方法</span>セラミックインレー法</li>
 		<li><span>治療期間</span>2週間 </li>
@@ -117,7 +115,7 @@
 		<li><span>治療の副作用・リスク</span>歯を削る必要がある。欠けることがある。</li>
 	</ul>
 				
-	
+	<!-- zirconia inlay -->
 	<section class="cure1-zirconia-inlay-section" id="zirconia-inlay">		
 		<div class="left">
 			<h3 class="head f24">ジルコニアインレー</h3>
@@ -128,6 +126,7 @@
 		</div>
 	</section>
 	
+	<!-- padding cost -->
 	<ul class="cost_ex f13 padding-cost">
 		<li><span>ジルコニアインレーの副作用・リスク</span>歯を削る必要がある。稀に欠けたり、取れることがある。</li>
 		<li><span>治療方法</span>ジルコニアインレーブリッジ</li>
@@ -138,7 +137,7 @@
 </section>
 
 
-<!-- breadcrumb section -->
+<!-- breadcrumb -->
 <section class="breadcrumb-wrapper">
     <div class="breadcrumb-wrapper__content">
         <ul class="breadcrumb">
