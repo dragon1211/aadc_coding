@@ -6881,7 +6881,7 @@ body {
 
 .doctor .doctor-info .doctor-profile {
   line-height: 1.8;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.5rem;
 }
 
@@ -12944,7 +12944,7 @@ body {
 }
 
 .grinding .cure2-grinding-section .botox {
-  margin: 0 auto 100px;
+  margin: 0 auto;
   overflow: hidden;
 }
 

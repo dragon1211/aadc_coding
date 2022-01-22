@@ -54,7 +54,7 @@
 
 	/* botox */
 	.botox {
-		margin: 0 auto 100px;
+		margin: 0 auto;
 		overflow: hidden;
 		h3.head {
 			margin-bottom: 10px;
@@ -141,9 +141,11 @@
 		text-align: left;
 		br{display: none;}
 	}
-	.cure2-grinding-section .injection .detail dt{
-		padding-left: 70px;
-	}
+	.cure2-grinding-section{
+		.injection .detail dt{
+			padding-left: 70px;
+		}
+	} 
 }
 
 /*----------  end ------------*/

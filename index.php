@@ -237,7 +237,7 @@
 						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/teeth-cleaning">クリーニング</a></li>
 						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/gum-care">歯周病治療<br>歯肉ケア</a></li>
 						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/grinding">歯ぎしり<br>食いしばり治療</a></li>
-						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/metal-free">メタルフリープログラム</a></li>
+						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/metal-free">メタルフリー治療</a></li>
 						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/implant">インプラント</a></li>
 						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/anti-aging-dock">アンチエイジング検査</a></li>
 						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/injection">点滴療法・注射<br>サプリメント</a></li>

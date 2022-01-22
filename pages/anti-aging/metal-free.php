@@ -5,7 +5,7 @@
 <section class="anti-heading__content">
     <div class="anti-heading">
         <h2 class="anti-heading__caption">
-            <span class="jp">メタルフリープログラム</span>
+            <span class="jp">メタルフリー治療</span>
         </h2>
     </div>
 </section>
@@ -99,7 +99,7 @@
                 </a>
             </li>
             <li><a href="<?php echo home_url(); ?>/anti-aging">アンチエイジング</a></li>
-            <li>メタルフリー<br class="sp-onlyt">プログラム</li>
+            <li> メタル<br class="sp-onlyt">フリー治療</li>
         </ul>
     </div>
 </section>
