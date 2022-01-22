@@ -158,91 +158,92 @@
 /* insurance section */
 .insurance-section {
 	width: 100%;
-	padding: 20px 0;
+	padding: 20px;
+    h2.head {
+        font-family: "futura-pt",sans-serif;
+        width: 100%;
+        text-align: center;
+        font-weight: 400;
+        letter-spacing: 0.2rem;
+        text-indent: 0.2rem;	
+    }
+    .insurance {
+        letter-spacing: 0.1rem;
+        font-weight: 300;
+        line-height: 200%;
+        text-align: center;
+    }
+    
 }
-.insurance-section h2.head {
-	font-family: "futura-pt",sans-serif;
-	width: 100%;
-	text-align: center;
-	font-weight: 400;
-	letter-spacing: 0.2rem;
-	text-indent: 0.2rem;	
-}
-.insurance-section .insurance {
-	letter-spacing: 0.1rem;
-	font-weight: 300;
-	line-height: 200%;
-	text-align: center;
-}
-
 /* payment section */
 .payment-section {
 	width: 100%;
-	padding: 20px 0;
-}
-.payment-section h2.head {
-	font-family: "futura-pt",sans-serif;
-	width: 100%;
-	text-align: center;
-	font-weight: 400;
-	letter-spacing: 0.2rem;
-	text-indent: 0.2rem;	
-}
-.payment-section .payment {
-	letter-spacing: 0.1rem;
-	font-weight: 300;
-	line-height: 200%;
-	text-align: center;
+	padding: 20px;
+    h2.head {
+        font-family: "futura-pt",sans-serif;
+        width: 100%;
+        text-align: center;
+        font-weight: 400;
+        letter-spacing: 0.2rem;
+        text-indent: 0.2rem;	
+    }
+    .payment {
+        letter-spacing: 0.1rem;
+        font-weight: 300;
+        line-height: 200%;
+        text-align: center;
+    }
 }
 
 /* level section */
 .level-section {
 	width: 100%;
-	padding: 20px 0;
-}
-.level-section h2.head {
-	font-family: "futura-pt",sans-serif;
-	width: 100%;
-	text-align: center;
-	font-weight: 400;
-	letter-spacing: 0.2rem;
-	text-indent: 0.2rem;	
-}
-.level-section .level {
-	letter-spacing: 0.1rem;
-	font-weight: 300;
-	line-height: 200%;
-	text-align: center;
+	padding: 20px;
+    h2.head {
+        font-family: "futura-pt",sans-serif;
+        width: 100%;
+        text-align: center;
+        font-weight: 400;
+        letter-spacing: 0.2rem;
+        text-indent: 0.2rem;	
+    }
+    .level {
+        letter-spacing: 0.1rem;
+        font-weight: 300;
+        line-height: 200%;
+        text-align: center;
+    }
 }
 
 /* hours section */
 .hours-section {
 	width: 100%;
 	padding: 20px 0;
-}
-.hours-section h2.head {
-	font-family: "futura-pt",sans-serif;
-	width: 100%;
-	text-align: center;
-	font-weight: 400;
-	letter-spacing: 0.2rem;
-	text-indent: 0.2rem;	
-}
-.hours-section table {
-	margin: 20px auto;
-}
-.hours-section table tr th {
-	padding: 10px 20px;
-	text-align: center;
-	line-height: 150%;
-	font-weight: 300;
-	border: 1px solid #ddd;
-	background-color: #fafafa;
-}
-.hours-section table tr td {
-	padding: 10px;
-	text-align: center;
-	border: 1px solid #ddd;	
+    h2.head {
+        font-family: "futura-pt",sans-serif;
+        width: 100%;
+        text-align: center;
+        font-weight: 400;
+        letter-spacing: 0.2rem;
+        text-indent: 0.2rem;	
+    }
+    table {
+        margin: 20px auto;
+        tr th {
+            padding: 10px 20px;
+            text-align: center;
+            line-height: 150%;
+            font-weight: 300;
+            border: 1px solid #ddd;
+            background-color: #fafafa;
+        }
+        tr td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;	
+        }
+        
+    }
 }
 
 /* information */

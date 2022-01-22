@@ -3698,7 +3698,7 @@ body {
   margin-top: 90px;
   margin-bottom: 80px;
   text-align: center;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .coronavirus-information .covid-section h3.head {
@@ -3712,7 +3712,6 @@ body {
 }
 
 .coronavirus-information .covid-section__effort li {
-  font-size: 1.8rem;
   font-weight: 400;
 }
 
@@ -3720,18 +3719,11 @@ body {
   margin-bottom: 30px;
 }
 
-@media screen and (max-width: 1050px) {
-  .coronavirus-information .covid-section h2.head {
-    font-weight: 400;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .coronavirus-information .covid-section__mv {
     height: 300px;
   }
   .coronavirus-information .covid-section__effort li {
-    font-size: 1.6rem;
     margin-bottom: 25px;
   }
   .coronavirus-information .covid-section__effort li br {
@@ -3751,7 +3743,6 @@ body {
     margin: 50px 0 100px;
   }
   .coronavirus-information .covid-section__effort li {
-    font-size: 1.5rem;
     margin-bottom: 20px;
     text-align: left;
   }
@@ -3953,7 +3944,7 @@ body {
 
 .en .insurance-section {
   width: 100%;
-  padding: 20px 0;
+  padding: 20px;
 }
 
 .en .insurance-section h2.head {
@@ -3974,7 +3965,7 @@ body {
 
 .en .payment-section {
   width: 100%;
-  padding: 20px 0;
+  padding: 20px;
 }
 
 .en .payment-section h2.head {
@@ -3995,7 +3986,7 @@ body {
 
 .en .level-section {
   width: 100%;
-  padding: 20px 0;
+  padding: 20px;
 }
 
 .en .level-section h2.head {
@@ -9278,6 +9269,10 @@ body {
   /* -------  end --------  */
 }
 
+.lumineers .content {
+  margin-bottom: 100px;
+}
+
 .lumineers .cure1-outline-section {
   max-width: 1000px;
   padding: 100px 20px 0;
@@ -13846,7 +13841,7 @@ body {
 
 .injection .care2-hyaluronic-section {
   width: 100%;
-  margin: 0 auto;
+  margin: 50px auto 0;
   overflow: hidden;
   padding: 0;
 }

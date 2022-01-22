@@ -15,7 +15,7 @@
         </h2>
         <div class="covid-section__mv"></div>
         <h3 class="head f30">当院の感染<br class="sp-onlyt">対策への取り組み</h3>
-        <ul class="covid-section__effort">
+        <ul class="covid-section__effort f18">
             <li>治療器具の高圧滅菌、各診療室、待合室の消毒の徹底と定期的な換気を行なっております。</li>
             <li>スタッフ、ドクターともにワクチン接種を終了しています。</li>
             <li>
