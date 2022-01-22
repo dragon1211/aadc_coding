@@ -33,7 +33,7 @@ $(document).ready(function () {
           spaceBetween: 20
         },
 
-        1600: {
+        1750: {
           slidesPerView: 4,
           spaceBetween: 20
         },  
@@ -43,7 +43,7 @@ $(document).ready(function () {
           spaceBetween: 20
         },
 
-        950: {
+        1150: {
           slidesPerView: 2,
           spaceBetween: 20
         },
