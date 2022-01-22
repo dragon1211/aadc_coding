@@ -18,114 +18,41 @@
 		<h2 class="news-content__caption">新着情報</h2>
 		<div class="news-wrapper">
 			<ul class="news-list">
+				<?php query_posts('posts_per_page=100&category_name=news&order=DESC'); ?>
+				<?php if(have_posts()) : while (have_posts()) : the_post(); ?>
 				<li class="news-item">
-					<a href="<?php echo home_url();?>">
+					<a href="<?php the_permalink(); ?>">
 						<div class="news-item__image">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/slide-common.png" alt="">
+							<?php 
+								if( has_post_thumbnail()){ 
+									the_post_thumbnail('media_thumbnail');
+							 	} else {; 
+							?>
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/slide-common.png" alt="">
+							<?php }; ?>							
 						</div>
 						<div class="news-item__desc">
-							<span class="comment">新着情報</span>
-							<span class="date">2021年11月3日</span>
-							<p class="title">年末年始休診日のお知らせ</p>
+							<p class="comment">
+								<span class="badge">メディア情報</span>
+								<?php
+									$days = 7;
+									$today = date('U');
+									$date = get_the_time('U');
+									$period = date('U', ($today - $date)) / 86400;
+									if ($days > $period){;?>
+									<span class="new">NEW</span>
+								<?php ;}?>
+							</p>
+							<span class="date">
+								<?php echo get_the_date('Y年n月j日'); ?>
+							</span>
+							<p class="title">
+								<?php echo $post-> post_title; ?>
+							</p>
 						</div>
 					</a>
 				</li>
-				<li class="news-item">
-					<a href="<?php echo home_url();?>">
-						<div class="news-item__image">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/slide-1.png" alt="">
-						</div>
-						<div class="news-item__desc">
-							<span class="comment">メディア情報</span>
-							<span class="date">2020年10月26日</span>
-							<p class="title">10月22日発売 美的12月号「駆け込み最新デンタルケア」に当院取材記事が掲載されました</p>
-						</div>
-					</a>
-				</li>
-				<li class="news-item">
-					<a href="<?php echo home_url();?>">
-						<div class="news-item__image">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/slide-1.png" alt="">
-						</div>
-						<div class="news-item__desc">
-							<span class="comment">メディア情報</span>
-							<span class="date">2020年10月26日</span>
-							<p class="title">10月22日発売 美的12月号「駆け込み最新デンタルケア」に当院取材記事が掲載されました</p>
-						</div>
-					</a>
-				</li>
-				<li class="news-item">
-					<a href="<?php echo home_url();?>">
-						<div class="news-item__image">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/slide-1.png" alt="">
-						</div>
-						<div class="news-item__desc">
-							<span class="comment">メディア情報</span>
-							<span class="date">2020年10月26日</span>
-							<p class="title">10月22日発売 美的12月号「駆け込み最新デンタルケア」に当院取材記事が掲載されました</p>
-						</div>
-					</a>
-				</li>
-				<li class="news-item">
-					<a href="<?php echo home_url();?>">
-						<div class="news-item__image">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/slide-common.png" alt="">
-						</div>
-						<div class="news-item__desc">
-							<span class="comment">新着情報</span>
-							<span class="date">2021年11月3日</span>
-							<p class="title">年末年始休診日のお知らせ</p>
-						</div>
-					</a>
-				</li>
-				<li class="news-item">
-					<a href="<?php echo home_url();?>">
-						<div class="news-item__image">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/slide-1.png" alt="">
-						</div>
-						<div class="news-item__desc">
-							<span class="comment">メディア情報</span>
-							<span class="date">2020年10月26日</span>
-							<p class="title">10月22日発売 美的12月号「駆け込み最新デンタルケア」に当院取材記事が掲載されました</p>
-						</div>
-					</a>
-				</li>
-				<li class="news-item">
-					<a href="<?php echo home_url();?>">
-						<div class="news-item__image">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/slide-common.png" alt="">
-						</div>
-						<div class="news-item__desc">
-							<span class="comment">新着情報</span>
-							<span class="date">2021年11月3日</span>
-							<p class="title">年末年始休診日のお知らせ</p>
-						</div>
-					</a>
-				</li>
-				<li class="news-item">
-					<a href="<?php echo home_url();?>">
-						<div class="news-item__image">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/slide-1.png" alt="">
-						</div>
-						<div class="news-item__desc">
-							<span class="comment">メディア情報</span>
-							<span class="date">2020年10月26日</span>
-							<p class="title">10月22日発売 美的12月号「駆け込み最新デンタルケア」に当院取材記事が掲載されました</p>
-						</div>
-					</a>
-				</li>
-				<li class="news-item">
-					<a href="<?php echo home_url();?>">
-						<div class="news-item__image">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/slide-common.png" alt="">
-						</div>
-						<div class="news-item__desc">
-							<span class="comment">新着情報</span>
-							<span class="date">2021年11月3日</span>
-							<p class="title">年末年始休診日のお知らせ</p>
-						</div>
-					</a>
-				</li>
+				<?php endwhile; endif; ?>
 			</ul>
 		</div>
 		<a href="/??" class="news-more__link">さらに表示する </a>

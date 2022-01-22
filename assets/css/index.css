@@ -2287,7 +2287,7 @@ body {
 }
 
 /* -------------------
-  COMMON
+  header
 --------------------*/
 .header {
   position: fixed;
@@ -3084,6 +3084,69 @@ body {
 @media screen and (max-width: 576px) {
   .section-404 .error-section .txt-1 {
     font-size: 2.5rem;
+  }
+}
+
+/* -------------------
+  blog & news SCSS
+--------------------*/
+.post-news {
+  font-weight: 400;
+}
+
+.post-news__section {
+  max-width: 740px;
+  min-height: 70vh;
+  width: 100%;
+  margin: 100px auto 250px;
+  padding: 0 20px;
+}
+
+.post-news__header {
+  padding-bottom: 45px;
+  border-bottom: 1px solid #ddd7d7;
+  position: relative;
+}
+
+.post-news__header .badge {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.post-news__header .badge span {
+  padding: 3px 10px;
+  background: #fd2802;
+  color: white;
+}
+
+.post-news__header .date {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.post-news__header .head {
+  font-weight: 600;
+}
+
+.post-news__content {
+  margin-top: 50px;
+  line-height: 1.8;
+}
+
+.post-news__content .thumbnail {
+  margin-bottom: 20px;
+}
+
+.post-news__content img {
+  margin: auto;
+}
+
+@media screen and (max-width: 576px) {
+  .post-news__section {
+    margin-top: 50px;
+    margin-bottom: 150px;
   }
 }
 
@@ -5395,6 +5458,10 @@ body {
   color: #333333;
 }
 
+.home-news .news-item {
+  margin: 5px auto;
+}
+
 .home-news__item {
   max-width: 300px;
   width: 100%;
@@ -7058,6 +7125,7 @@ body {
 
 .news-item a {
   display: block;
+  height: 100%;
 }
 
 .news-item img {
@@ -7077,6 +7145,22 @@ body {
   font-size: 1.2rem;
   color: #333333;
   display: block;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.news-item__desc .comment span.new {
+  float: right;
+  background: #fd2802;
+  color: white;
+  padding: 1px 10px;
+  border-radius: 15px;
+  font-size: 1rem;
 }
 
 .news-item__desc .date {

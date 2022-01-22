@@ -21,6 +21,21 @@ remove_action('wp_print_styles', 'print_emoji_styles');
 remove_action('admin_print_scripts', 'print_emoji_detection_script' );
 remove_action('admin_print_styles', 'print_emoji_styles' );
 
+
+// ウィジェット
+register_sidebar( array(
+   'name'          => 'Widget-BizCalendar',
+   'id'            => 'Widget-BizCalendar',
+   'description'   => 'Biz Calendarのウィジットエリアです。',
+   'before_widget' => '<div id="%1$s" class="widget %2$s">',
+   'after_widget'  => '</div>',
+) );
+
+// アイキャッチ画像
+add_theme_support('post-thumbnails');
+add_image_size('media_thumbnail', 640, 480 ,true );
+
+
 // タイトル表示
 function setup_aadctheme() {
    add_theme_support( 'title-tag' );
@@ -56,11 +71,3 @@ return $classes;
 }
 add_filter('body_class','pagename_class');
 
-// ウィジェット
-register_sidebar( array(
-   'name'          => 'Widget-BizCalendar',
-   'id'            => 'Widget-BizCalendar',
-   'description'   => 'Biz Calendarのウィジットエリアです。',
-   'before_widget' => '<div id="%1$s" class="widget %2$s">',
-   'after_widget'  => '</div>',
-) );

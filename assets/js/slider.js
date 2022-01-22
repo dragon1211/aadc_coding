@@ -43,12 +43,12 @@ $(document).ready(function () {
           spaceBetween: 20
         },
 
-        900: {
+        950: {
           slidesPerView: 2,
           spaceBetween: 20
         },
 
-        576: {
+        645: {
           slidesPerView: 1,
           spaceBetween: 20
         },

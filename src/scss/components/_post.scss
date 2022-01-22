@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* -------------------
+  blog & news SCSS
+--------------------*/
+
+.post-news{
+    font-weight: $font_regular;
+    &__section{
+        max-width: 740px;
+        min-height: 70vh;
+        width: 100%;
+        margin: 100px auto 250px;
+        padding: 0 20px;
+    }
+    &__header{
+        padding-bottom: 45px;
+        border-bottom: 1px solid #ddd7d7;
+        position: relative;
+        .badge{
+            font-size: 1.2rem;
+            font-weight: $font_bold;
+            margin-bottom: 50px;
+            span{
+                padding: 3px 10px;
+                background: #fd2802;
+                color: white;
+            }
+        }
+        .date{
+            font-size: 1.2rem;
+            font-weight: $font_medium;
+            margin-bottom: 6px;
+        }
+        .head{
+            font-weight: $font_bold;
+        }
+    }
+    &__content{
+        margin-top: 50px;
+        line-height: 1.8;
+        .thumbnail{
+            margin-bottom: 20px;
+        }
+        img{
+            margin: auto;
+        }
+    }
+
+    @include mq(smt){
+        &__section{
+            margin-top: 50px;
+            margin-bottom: 150px;
+        }
+    }
+}
