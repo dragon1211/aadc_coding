@@ -9,7 +9,7 @@
         max-width: 740px;
         min-height: 70vh;
         width: 100%;
-        margin: 100px auto 250px;
+        margin: 100px auto 150px;
         padding: 0 20px;
     }
     &__header{
@@ -39,7 +39,7 @@
         }
     }
     &__content{
-        margin-top: 50px;
+        margin: 50px 0 100px;
         line-height: 1.8;
         .thumbnail{
             margin-bottom: 20px;
@@ -49,10 +49,71 @@
         }
     }
 
+    &-link__wrap{
+        display: flex;
+        justify-content: center;
+        a{
+            display: block;
+            padding: 3px 20px;
+            border-radius: 50px;
+            margin: 0 20px;
+            font-size: 1.2rem;
+            color: white;
+            font-weight: 400;
+            background-color: #c5c2c2;
+            cursor: pointer;
+
+            &.post-link__before.active{
+                background: linear-gradient(to right, $color_main 50%, #e65128 50%) left;
+                background-size: 200%;
+                transition: .3s ease-out;
+                
+                &:hover{
+                    background-position: right;
+                }
+            }
+            &.post-link__list.active{
+                background: linear-gradient(to bottom, $color_main 50%, #e65128 50%);
+                background-size: 100% 200%;
+                transition: .3s ease-out;
+                
+                &:hover{
+                    background-position: 0 -100%;
+                }
+            }
+            &.post-link__after.active{
+                background: linear-gradient(to left, $color_main 50%, #e65128 50%) right;
+                background-size: 200%;
+                transition: .3s ease-out;
+                
+                &:hover{
+                    background-position: left;
+                }
+            }
+            
+        }
+    }
+
     @include mq(smt){
         &__section{
             margin-top: 50px;
-            margin-bottom: 150px;
+            margin-bottom: 50px;
+        }
+        .post-link__wrap{
+            a{
+                padding: 3px 10px;
+                margin: 0 10px;
+            }            
+        }
+    }
+
+    @include mq(sm3){
+        .post-link__wrap{
+            justify-content: space-between;
+            a{
+                padding: 3px 10px;
+                margin: 0 3px;
+            }            
         }
     }
 }

@@ -1,56 +1,68 @@
 <?php get_header(); ?>
+	
+<main class="main">
 
+<?php get_template_part( 'template-parts/sub-nav/aadcblog-sub-nav' ); ?>
 
+<!-- news-content -->
+<section class="news-content">
+	<div class="news-container">
+		<div class="news-wrapper">
+			<ul class="news-list">
+				<?php
 
-	<!-- contents -->
-	<div class="contents">
+					$category = get_the_category();
+					$cat_name = $category[0]->cat_name;
+					$cat_slug = $category[0]->category_nicename;
 
+					$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+					$args = array(
+						'post_type'=> 'post',
+						'post_status' => 'publish',
+						'category_name' => $cat_slug,
+						'order'    => 'DESC',
+						'posts_per_page' => 12, // this will retrive all the post that is published ,
+						'paged' => $paged
+					);
+						
+					$result = new WP_Query( $args );
+					
+					set_query_var('page',$paged);
 
-		<?php $category = get_the_category();
-						$cat_name = $category[0]->cat_name;
-						$cat_slug = $category[0]->category_nicename; ?>
-		<!-- header -->
-		<header class="blog-header">
-			<h1 class="head l6">AA歯科恵比寿の院長Dr小川ブログ ｰ <?php echo $cat_name; ?></h1>
-		</header>
-		<!-- /header -->
-		
-		
-		
-		<!-- message -->
-		<section class="blog-section">
-			<ul>
-				<?php if(have_posts()) : while (have_posts()) : the_post(); ?>
-				<li>
-					<a href="<?php echo $cat_slug; ?>/" class="cate">
-						<div class="category s2 <?php echo $cat_slug; ?>"><?php echo $cat_name; ?></div>
-					</a>
-					<a href="<?php the_permalink(); ?>" class="posts">
-						<div class="date s2">
-							<?php
-								$days = 7;
-								$today = date('U');
-								$date = get_the_time('U');
-								$period = date('U', ($today - $date)) / 86400;
-							?>
-							<?php if ($days > $period){; ?>
-							<span class="badge s2">NEW</span>
-							<?php }; ?>
-							<?php echo get_the_date('Y年n月j日'); ?>
-						</div>
-						<h2 class="head m"><?php echo mb_substr(strip_tags($post-> post_title),0,15); ?></h2>
-						<div class="comment s"><?php echo mb_substr(strip_tags($post-> post_content),0,180).'<br><span>...もっと見る</span>'; ?></div>
-					</a>
-				</li>
-				<?php endwhile; endif; ?>
+					if ( $result-> have_posts() ) : {
+						while ( $result->have_posts() ){
+							$result->the_post(); 
+							get_template_part( 'template-parts/post/item' );
+						}
+					}
+				?>
 			</ul>
-			<div class="list-link s">
-				<a href="<?php site_url(); ?>/aadcblog/">ブログ一覧に戻る</a>
+
+			<div class="pagination">
+				<?php if(function_exists('wp_pagenavi')) wp_pagenavi(array('query' => $result)); ?>
+				<?php endif; wp_reset_postdata(); ?>   
 			</div>
-		</section>
-		<!-- /message -->
+		</div>
+	</div>
+</section>
 
 
+<!-- breadcrumb -->
+<section class="breadcrumb-wrapper">
+	<div class="breadcrumb-wrapper__content">
+		<ul class="breadcrumb">
+			<li>
+				<a href="<?php echo home_url(); ?>">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/icon-logo-red.png" alt="logo">
+				</a>
+			</li>
+			<li><a href="<?php echo home_url(); ?>/aadcblog">Dr.Ogawa Blog</a></li>
+			<li><?php echo $cat_name ?></li>
+		</ul>
+	</div>
+</section>
 
 
+</main>
+		
 <?php get_footer(); ?>

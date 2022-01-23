@@ -11,7 +11,7 @@
 					$args = array(
 						'post_type'=> 'post',
 						'post_status' => 'publish',
-						'category_name' => 'aadcblog',
+						'category_name' => "aadcblog",
 						'order'    => 'DESC',
 						'posts_per_page' => 12, // this will retrive all the post that is published ,
 						'paged' => $paged

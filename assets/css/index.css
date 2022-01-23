@@ -3117,7 +3117,7 @@ body {
   max-width: 740px;
   min-height: 70vh;
   width: 100%;
-  margin: 100px auto 250px;
+  margin: 100px auto 150px;
   padding: 0 20px;
 }
 
@@ -3159,7 +3159,7 @@ body {
 }
 
 .post__content {
-  margin-top: 50px;
+  margin: 50px 0 100px;
   line-height: 1.8;
 }
 
@@ -3171,10 +3171,83 @@ body {
   margin: auto;
 }
 
+.post-link__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.post-link__wrap a {
+  display: block;
+  padding: 3px 20px;
+  border-radius: 50px;
+  margin: 0 20px;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 400;
+  background-color: #c5c2c2;
+  cursor: pointer;
+}
+
+.post-link__wrap a.post-link__before.active {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #C84520), color-stop(50%, #e65128)) left;
+  background: linear-gradient(to right, #C84520 50%, #e65128 50%) left;
+  background-size: 200%;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+.post-link__wrap a.post-link__before.active:hover {
+  background-position: right;
+}
+
+.post-link__wrap a.post-link__list.active {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #C84520), color-stop(50%, #e65128));
+  background: linear-gradient(to bottom, #C84520 50%, #e65128 50%);
+  background-size: 100% 200%;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+.post-link__wrap a.post-link__list.active:hover {
+  background-position: 0 -100%;
+}
+
+.post-link__wrap a.post-link__after.active {
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #C84520), color-stop(50%, #e65128)) right;
+  background: linear-gradient(to left, #C84520 50%, #e65128 50%) right;
+  background-size: 200%;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+.post-link__wrap a.post-link__after.active:hover {
+  background-position: left;
+}
+
 @media screen and (max-width: 576px) {
   .post__section {
     margin-top: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
+  }
+  .post .post-link__wrap a {
+    padding: 3px 10px;
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width: 389px) {
+  .post .post-link__wrap {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .post .post-link__wrap a {
+    padding: 3px 10px;
+    margin: 0 3px;
   }
 }
 

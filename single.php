@@ -20,12 +20,17 @@
 		$today = date('U');
 		$date = get_the_time('U');
 		$period = date('U', ($today - $date)) / 86400;
+
+		$prev_post = get_previous_post(true);   //in same categories
+		$next_post = get_next_post(true); // in same categories
 	?>
 
 	<section class="post">
+
 		<?php if(have_posts()) : while (have_posts()) : the_post(); ?>
 			<!-- news-section -->
 			<section class="post__section">		
+
 				<div class="post__header">
 					<p class="comment">
 						<span class="badget"><?php echo $cat_name ?></span>
@@ -38,6 +43,8 @@
 					</div>
 					<h2 class="head f30"><?php the_title(); ?></h2>
 				</div>	
+
+
 				<div class="post__content">
 					<!-- <div class="thumbnail">
 						<?php 
@@ -47,10 +54,41 @@
 						?>
 					</div> -->
 					<div class="detail f16"><?php the_content(); ?></div>
-				</div>	
+				</div>
+
+
+				<div class="post-link__wrap">
+					<?php if ( ! empty( $prev_post ) ):  ?>
+						<a class="post-link__before active"
+							 href="<?php echo get_permalink( $prev_post->ID ); ?>">
+							 ≪ 前の記事
+						</a>
+					<?php else: ?>
+						<a class="post-link__before">≪ 前の記事</a>
+					<?php endif; ?>
+
+					<?php if ( strcmp($cat_slug, 'news') == 0 ):  ?>
+						<a class="post-link__before active" href="<?php echo home_url(); ?>/about/news">一覧へ戻る</a>
+					<?php else: ?>
+						<a class="post-link__before active" href="<?php echo home_url(); ?>/aadcblog">一覧へ戻る</a>
+					<?php endif; ?>
+
+					<?php if ( ! empty( $next_post ) ):  ?>
+						<a class="post-link__after active"
+							 href="<?php echo get_permalink( $next_post->ID ); ?>">
+							 次の記事 ≫
+						</a>
+					<?php else: ?>
+						<a class="post-link__after">次の記事 ≫</a>
+					<?php endif; ?>
+
+				</div>
 			</section>
 		<?php endwhile; endif; ?>
+
 	</section>
+
+
 
 
 	<!-- breadcrumb -->
@@ -78,7 +116,7 @@
 						</a>
 					</li>
 					<li><a href="<?php echo home_url(); ?>/aadcblog">Dr.Ogawa Blog</a></li>
-					<li><a href="<?php echo home_url()."/aadcblog/".$cat_slug; ?>"><?php echo $cat_name ?></a></li>
+					<li><a href="<?php echo home_url()."/category/aadcblog/".$cat_slug; ?>"><?php echo $cat_name ?></a></li>
 				</ul>
 			<?php }; ?>
 		</div>
