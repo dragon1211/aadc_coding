@@ -37,15 +37,39 @@
 			</ul>
 			<ul class="link-list">
 				<li class="link-list__item title"><a class="item-link" href="<?php echo home_url(); ?>/aadcblog" >Dr.OGAWAブログ</a></li>
-				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/?????????????" >審美歯科</a></li>
-				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/?????????????" >矯正歯科</a></li>
-				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/?????????????" >前歯部分矯正</a></li>
-				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/?????????????" >インビザライン</a></li>
-				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/?????????????" >アンチエイジング</a></li>
-				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/?????????????" >歯科</a></li>
-				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/?????????????" >クリニックのこと</a></li>
-				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/?????????????" >プライベート</a></li>
-				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/?????????????" >その他</a></li>
+
+				<?php 
+					$category = get_the_category();
+					if($category){
+						$cat_name = $category[0]->cat_name;
+						$cat_slug = $category[0]->category_nicename;
+					}
+
+					$categories = get_categories( [
+						'taxonomy'     => 'category',
+						'type'         => 'post',
+						'child_of'     => 0,
+						'parent'       => get_cat_ID('aadcblog'),
+						'orderBy'      => 'order',
+						'order'        => 'ASC',
+						'hierarchical' => 1,
+						'exclude'      => '',
+						'include'      => '',
+						'number'       => 0,
+						'pad_counts'   => false,
+						// полный список параметров смотрите в описании функции http://wp-kama.ru/function/get_terms
+					] );
+
+					if(count($categories) > 0) {
+						foreach($categories as $cat){
+				?>
+					<li class="link-list__item">
+						<a class="item-link" href="<?php echo home_url()."/category/aadcblog/".$cat->slug; ?>">
+							<?php echo $cat->name; ?>
+						</a>
+					</li>
+
+				<?php } } else ;?>
 			</ul>
 		</div>
 

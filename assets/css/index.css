@@ -3167,10 +3167,6 @@ body {
   margin-bottom: 20px;
 }
 
-.post__content img {
-  margin: auto;
-}
-
 .post-link__wrap {
   display: -webkit-box;
   display: -ms-flexbox;
