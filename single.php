@@ -110,7 +110,7 @@
 						</a>
 					</li>
 					<li><a href="<?php echo home_url(); ?>/aadcblog">Dr.Ogawa Blog</a></li>
-					<li><a href="<?php echo home_url()."/category/aadcblog/".$cat_slug; ?>"><?php echo $cat_name ?></a></li>
+					<li><a href="<?php echo home_url()."/aadcblog/".$cat_slug; ?>"><?php echo $cat_name ?></a></li>
 				</ul>
 			<?php }; ?>
 		</div>

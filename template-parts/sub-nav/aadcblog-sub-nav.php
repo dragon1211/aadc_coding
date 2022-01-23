@@ -33,7 +33,7 @@
                         foreach($categories as $cat){
                 ?>
                     <li>
-                        <a href="<?php echo home_url()."/category/aadcblog/".$cat->slug; ?>" 
+                        <a href="<?php echo home_url()."/aadcblog/".$cat->slug; ?>" 
                             class = "<?php 
                                 if($category && strcmp($cat_slug, $cat->slug) == 0) echo "active"; ?>" >   <?php echo $cat->name ?> </a>
                     </li>

@@ -64,7 +64,7 @@
 						foreach($categories as $cat){
 				?>
 					<li class="link-list__item">
-						<a class="item-link" href="<?php echo home_url()."/category/aadcblog/".$cat->slug; ?>">
+						<a class="item-link" href="<?php echo home_url()."/aadcblog/".$cat->slug; ?>">
 							<?php echo $cat->name; ?>
 						</a>
 					</li>
