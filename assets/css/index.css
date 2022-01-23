@@ -2608,6 +2608,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
   height: 100%;
 }
 
@@ -2632,7 +2633,6 @@ body {
 }
 
 .sub-nav__second {
-  height: 50px;
   background-color: #CEC1A8;
   color: white;
   font-size: 1.2rem;
@@ -2669,7 +2669,6 @@ body {
   color: white;
   font-size: 1.2rem;
   font-weight: 500;
-  position: relative;
   display: block;
   overflow: none;
 }
@@ -2778,6 +2777,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   z-index: 5;
+  height: 40px;
 }
 
 .sub-nav__menu-slide li {
@@ -7130,7 +7130,7 @@ body {
           filter: drop-shadow(1px 1px 3px #dddddd);
 }
 
-.news-item a {
+.news-item__link {
   display: block;
   height: 100%;
 }

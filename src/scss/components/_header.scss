@@ -233,7 +233,8 @@
         margin: auto;
         display: flex;
         align-items: center;
-        height: 100%;
+		position: relative;
+		height: 100%;
     }
     a{
         &:hover{
@@ -254,7 +255,6 @@
         position: relative;
     }
     &__second{
-        height: 50px;
         background-color: #CEC1A8;
         color: white;
         font-size: 1.2rem;
@@ -276,7 +276,6 @@
         color: white;
         font-size: 1.2rem;
         font-weight: 500;
-        position: relative;
         a{color: white;}
 		display: block;
 		overflow: none;
@@ -354,6 +353,7 @@
     align-items: center;
 	justify-content: center;
 	z-index: 5;
+	height: 40px;
 	li{
 		text-align: center;
 		&:not(:last-child){
