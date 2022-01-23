@@ -26,11 +26,9 @@
 	?>
 
 	<section class="post">
-
 		<?php if(have_posts()) : while (have_posts()) : the_post(); ?>
-			<!-- news-section -->
 			<section class="post__section">		
-
+				<!-- post header -->
 				<div class="post__header">
 					<p class="comment">
 						<span class="badget"><?php echo $cat_name ?></span>
@@ -44,7 +42,7 @@
 					<h2 class="head f30"><?php the_title(); ?></h2>
 				</div>	
 
-
+				<!-- post content -->
 				<div class="post__content">
 					<!-- <div class="thumbnail">
 						<?php 
@@ -56,7 +54,7 @@
 					<div class="detail f16"><?php the_content(); ?></div>
 				</div>
 
-
+				<!-- previous & next link -->
 				<div class="post-link__wrap">
 					<?php if ( ! empty( $prev_post ) ):  ?>
 						<a class="post-link__before active"
@@ -81,16 +79,12 @@
 					<?php else: ?>
 						<a class="post-link__after">次の記事 ≫</a>
 					<?php endif; ?>
-
 				</div>
 			</section>
 		<?php endwhile; endif; ?>
-
 	</section>
 
-
-
-
+	
 	<!-- breadcrumb -->
 	<section class="breadcrumb-wrapper">
 		<div class="breadcrumb-wrapper__content">
