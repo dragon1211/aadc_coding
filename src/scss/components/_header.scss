@@ -280,6 +280,7 @@
 		display: block;
 		overflow: none;
 		.sub-nav__container{
+			max-width: 980px;
 			padding: 6px 20px;
 			display: block;
 			overflow: none;
@@ -351,7 +352,7 @@
     padding: 0;
     display: flex;
     align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 	z-index: 5;
 	height: 40px;
 	li{
