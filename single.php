@@ -68,7 +68,7 @@
 					<?php if ( strcmp($cat_slug, 'news') == 0 ):  ?>
 						<a class="post-link__list active" href="<?php echo home_url(); ?>/about/news">一覧へ戻る</a>
 					<?php else: ?>
-						<a class="post-link__before active" href="<?php echo home_url(); ?>/aadcblog">一覧へ戻る</a>
+						<a class="post-link__list active" href="<?php echo home_url(); ?>/aadcblog">一覧へ戻る</a>
 					<?php endif; ?>
 
 					<?php if ( ! empty( $next_post ) ):  ?>
