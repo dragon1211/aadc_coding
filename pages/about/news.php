@@ -14,6 +14,7 @@
 						'post_status' => 'publish',
 						'category_name' => 'news',
 						'order'    => 'DESC',
+						'posts_per_page' => PAGE_NAVI_NUM, // this will retrive all the post that is published ,
 						'paged' => $paged
 					);
 						

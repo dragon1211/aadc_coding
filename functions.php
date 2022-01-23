@@ -71,3 +71,5 @@ return $classes;
 }
 add_filter('body_class','pagename_class');
 
+
+define("PAGE_NAVI_NUM", 20);
