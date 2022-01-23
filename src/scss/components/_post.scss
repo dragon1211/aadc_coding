@@ -3,7 +3,7 @@
   blog & news SCSS
 --------------------*/
 
-.post-news{
+.post{
     font-weight: $font_regular;
     &__section{
         max-width: 740px;
@@ -16,11 +16,14 @@
         padding-bottom: 45px;
         border-bottom: 1px solid #ddd7d7;
         position: relative;
-        .badge{
+        .comment{
             font-size: 1.2rem;
             font-weight: $font_bold;
             margin-bottom: 50px;
-            span{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            span.new{
                 padding: 3px 10px;
                 background: #fd2802;
                 color: white;

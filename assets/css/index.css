@@ -3109,11 +3109,11 @@ body {
 /* -------------------
   blog & news SCSS
 --------------------*/
-.post-news {
+.post {
   font-weight: 400;
 }
 
-.post-news__section {
+.post__section {
   max-width: 740px;
   min-height: 70vh;
   width: 100%;
@@ -3121,49 +3121,58 @@ body {
   padding: 0 20px;
 }
 
-.post-news__header {
+.post__header {
   padding-bottom: 45px;
   border-bottom: 1px solid #ddd7d7;
   position: relative;
 }
 
-.post-news__header .badge {
+.post__header .comment {
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.post-news__header .badge span {
+.post__header .comment span.new {
   padding: 3px 10px;
   background: #fd2802;
   color: white;
 }
 
-.post-news__header .date {
+.post__header .date {
   font-size: 1.2rem;
   font-weight: 500;
   margin-bottom: 6px;
 }
 
-.post-news__header .head {
+.post__header .head {
   font-weight: 600;
 }
 
-.post-news__content {
+.post__content {
   margin-top: 50px;
   line-height: 1.8;
 }
 
-.post-news__content .thumbnail {
+.post__content .thumbnail {
   margin-bottom: 20px;
 }
 
-.post-news__content img {
+.post__content img {
   margin: auto;
 }
 
 @media screen and (max-width: 576px) {
-  .post-news__section {
+  .post__section {
     margin-top: 50px;
     margin-bottom: 150px;
   }
