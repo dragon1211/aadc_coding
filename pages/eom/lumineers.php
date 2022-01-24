@@ -107,38 +107,11 @@
 			ラミネートベニアのコンビネーション治療も行っております。患者様のご希望を伺い、
 			最適な治療方法をご提案させて頂きますので、詳しくは担当医にご相談ください。
 		</p>
-		<a href="<?php echo home_url();?>/eom/shinbi/" class="difference-anchor s">
+		<a href="<?php echo home_url();?>/eom/crown-bridge-inray/" class="difference-anchor s">
 			ラミネートベニア、セラミッククラウン<br class="sp-onlyt">治療についてはこちら
 		</a>
 	</section>
 		
-	<!-- payment -->
-	<section class="cure1-payment-section">
-		<div class="alignment-price">
-			<h5 class="head f24">ルミネアーズ治療費<span class="s">価格はすべて税込みです</span></h5>
-			<h6 class="head f18">ルミネアーズ</h6>
-			<table class="f14">
-				<tr>
-					<th>ルミネアーズ １歯（前歯、小臼歯に限る）</th>
-					<td>¥143,000</td>
-				</tr>
-				<tr>
-					<th>形成印象料金 １歯</th>
-					<td>¥5,500</td>
-				</tr>
-			</table>
-
-			
-			<h6 class="head f18">ワンアワー</h6>
-			<table class="f14">
-				<tr>
-					<th>ワンアワー　１歯（技術料金込み）</th>
-					<td>¥110,000</td>
-				</tr>
-			</table>
-			<p class="comment s2">※治療費のお支払いについては、各種クレジットカード、デンタルローンもご利用いただけます。</p>
-		</div>
-	</section>
 </section>
 
 

@@ -86,7 +86,6 @@
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/white-care_smile.png" alt="smile">
             </div>
             <div class="price">
-                <p class="title f16">当院人気メニュー　70分　¥17,050（税込）</p>
                 <p class="detail f16">
                     PMTCクリーニングとホワイトニングを同時に行えるコースです。
                     PMTCやホワイトニング後のアフターケアとして最適です。
@@ -95,8 +94,7 @@
                 </p>
                 <p class="extra f14">
                     ※ホワイトケアはホワイトニングを既に行った方のためのコースです。
-                    ホワイトニングが初めての方には、ホワイトニング効果のしっかり得られるサファイアハイパーホワイトニング、
-                    オパールエッセンスホワイトニングをおすすめします。
+                    ホワイトニングが初めての方には、ホワイトニング効果のしっかり得られるスーパーホワイトニングをおすすめします。
                 </p>
             </div>
             <div class="time">
@@ -116,11 +114,11 @@
 
 
 <!-- bridal-------->
-<section class="bridal-content">
-    <!-- bridal mv -->	
+<!-- <section class="bridal-content">
+    <!-- bridal mv 	
     <div class="bridal-content__mv"></div>
 
-    <!-- /outline -->	
+    <!-- /outline
     <section class="cure1-outline-section">
         <h2 class="head f34">結婚式はあなたが<br class="sp-only">主役の最も美しく<br class="sp-onlyt">輝く日です</h2>
         <p class="intro f18">
@@ -134,7 +132,7 @@
         </p>
     </section>
 
-    <!-- bridal -->
+    <!-- bridal
     <section class="cure1-bridal-section f16">
         <h2 class="head f26">ブライダルプラン</h2>
         <h3 class="head">直前ホワイトニングコース　<span>挙式前日～２週間前</span></h3>
@@ -163,6 +161,7 @@
         </p>
     </section>
 </section>
+-->
 
 
 <!-- breadcrumb -->
