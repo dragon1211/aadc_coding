@@ -78,6 +78,18 @@
         </div>
     </section>
 
+    <!--  Youtube section -->
+    <section class="youtube-section">
+        <iframe class="video" 
+            src="https://www.youtube.com/watch?v=u1t2dagyA64&t=4s" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen
+            width="100%"
+            height="580px">
+        </iframe>
+    </section>
+
     <!-- white care-------->
     <section class="white-care__section">
         <div class="white-care__content">
@@ -110,7 +122,150 @@
             </div>
         </div>
     </section>
+
+
+    <section class="self-care-content">
+        <div class="care1-header">
+            <h1 class="care1-header-caption f28">自分でできる きれいの習慣</h1>
+            <h2 class="care1-header-caption f30">自分でできる美容歯みがき<br>口元のアンチエイジングケア</h2>
+        </div>
+    
+        <section class="care3-outline-section" id="outline">
+            <h2 class="head f36">HOW TO BEAUTY ORALCARE</h2>
+        </section>
+    
+        <section class="howto-section">
+            <h3 class="head f30">8分間の美容歯みがき</h3>
+            <div class="brush-box f16">
+                <img alt="歯ブラシの正しい選び方" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/oc01.png" class="left">
+                <div class="detail">
+                    <span class="head f24">歯ブラシの正しい選び方</span>
+                    歯ブラシは、上の前歯 2 本におさまるものを選びましょう。
+                    硬さはふつうか柔らかめが良いでしょう。 電動歯ブラシでも OK です。 月に1回取り替えるようにしてください。 
+                </div>
+            </div>
+            <div class="brush-box f16">
+                <img alt="歯みがき剤の正しい選び方" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/oc02.png" class="right">
+                <div class="detail">
+                    <span class="head f24">歯みがき剤の正しい選び方</span>
+                    歯みがき剤は、きめ細かい泡立ちのものを選びましょう。目的に合ったものを選び、長くみがけるように低刺激のものがおすすめです。
+                    歯ブラシの毛先の半分くらいの量をつけてください。毛先が乾いた状態でつけた方が、くすみを除去し、歯本来の美しさやツヤを取り戻すことができます。
+                </div>
+            </div>
+            <div class="brush-box f16">
+                <img alt="歯を美しく保つブラッシング方法" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/oc03.png" class="left">
+                <div class="detail">
+                    <span class="head f24">歯を美しく保つブラッシング方法</span>
+                    歯ブラシを歯に対して 45°の角度で、歯と歯肉との境目にもきちんと 当てて磨きましょう。
+                    力は入れずに毛先を当てて 1 ヶ所を 15 ~ 20 回ずつ細かく動かし、 前歯から順に奥歯までの表と裏の両面を丁寧にブラッシングしましょう。 上下で 8 ~ 10 分間が理想的です。
+                    特に、蓄積くすみやプラークの停滞が起きやすい歯の根元と歯肉との 境目は鏡を見ながら丁寧に! みがきにくい前歯の裏側は、より細かく動かしましょう。 歯ブラシを縦に使うと一本一本きちんとみがけます。 力を入れて磨くと歯がすり減ったり知覚過敏になりやすくなります。 気をつけてやさしく磨いてください。 
+                </div>
+            </div>
+            <div class="brush-box f16">
+                <img alt="プラスαのケア方法" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/oc04.png" class="right">
+                <div class="detail">
+                    <span class="head f24">プラスαのケア方法</span>
+                    ブラッシングが終わったら歯と歯の間の汚れを落とすためにデンタルフロスを使いましょう。歯間の虫歯や色素沈着が予防できます。
+                    最後は、口臭予防のために舌も忘れずにブラシで奥から手前にやさしくこするようにして汚れをおとしてください。
+                </div>
+            </div>
+            <div class="brush-box f16">
+                <img alt="仕上げ歯みがき" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/oc05.png" class="left">
+                <div class="detail">
+                    <span class="head f24">仕上げ</span>
+                    仕上げにデンタルリンスでお口をゆすぎましょう。口臭予防と口内殺菌、保湿効果も期待できます。汚れや細菌を取り除いてお口の中を気持ちのよい環境にしましょう。
+                    ☆口内は敏感な部分なので、歯磨き剤やデンタルリンスは自分にあったものを選びましょう。
+                </div>
+            </div>
+        </section>
+        
+        <section class="meal-section" id="meal">
+            <div class="meal-wrap">
+            <h3 class="head f30">食事の姿勢と食べ方</h3>
+            <div class="outline f16">1口20回くらいよく噛むこと。
+                鏡を見ながら食べるような意識で、姿勢を正し左右の奥歯を使ってしっかり噛んで食べましょう。 頬から顎の筋肉が鍛えられて顔の引き締めに効果的です。顎のラインもシャープになり、たるみのないきれいなフェイスラインを保てます。 たくさん噛んで食べると、少しの量でも満腹感が得られ、ダイエット効果にもなります。さらに、噛むことで脳の細胞が活性化されて、頭のアンチエイジングにも！</div>
+            </div>
+        </section>
+        
+        <section class="facial-section" id="facial">
+            <div class="facial-wrap">
+                <h3 class="head f30">フェイシャル<br class="sp-onlyt">トレーニング</h3>
+                <div class="outline f18">当院では、顔の若さを保つためのフェイシャルトレーニングを行っております。
+                    実年齢よりも、見た目の年齢が老けて見えてしまうのは、顔に「しわ」や「たるみ」が現れるからです。
+                    その原因は筋力の低下によって起こる自然な現象です。
+                    身体と同様に、顔の筋肉も使わなければ萎縮してしまいます。顔の筋肉の約70％は口の周り（口元）に集中しています。そのため、口元の筋肉を適切な方法で鍛えることにより、しわやたるみのない若々しい容貌をいつまでも保つことができます。
+                    顔の筋肉をバランス良くトレーニングすることで、しわやたるみを予防するだけでなく、若さを保ち老化を防ぐ成分を含む唾液の分泌を促進させることにもつながり若返りにも効果的です。
+                    当院では、フェイシャルトレーニングを個別に行っております。ご希望の方はお申し付けください。
+                </div>
+                <div class="facial-box f16">
+                    <div class="detail">
+                        <span class="head f24">基本のトレーニング「あ、い、う、え、お」</span>
+                        口を大きく動かしてゆっくり言ってみましょう。表情筋を意識して行ってください。<br>
+                        首から背中をまっすぐにして腹筋に力をいれて姿勢良く行なってください。
+                        <table>
+                            <tr>
+                                <th>「あ」</th>
+                                <td>大きく口を開ける</td>
+                            </tr>
+                            <tr>
+                                <th>「い」</th>
+                                <td>頬を持ち上げ斜め上にひっぱるイメージ</td>
+                            </tr>
+                            <tr>
+                                <th>「う」</th>
+                                <td>唇をつき出して力を入れる</td>
+                            </tr>
+                            <tr>
+                                <th>「え」</th>
+                                <td>口角に力を入れて斜め上にひっぱるイメージ</td>
+                            </tr>
+                            <tr>
+                                <th>「お」</th>
+                                <td>唇でだ円を作るイメージで力を入れる</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="facial-box f16">
+                    <img alt="頬の引き締めとほうれい線予防トレーニング" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/oc06.png" class="right">
+                    <div class="detail">
+                        <span class="head f20">頬の引き締めとほうれい線予防トレーニング</span>
+                        <span class="sub-head f18">口唇と頬を引き上げる「口輪筋」と「大頬骨筋」を鍛えるトレーニング</span>
+                        口を強く閉じて上唇だけを膨らませる。<br>
+                        ほうれい線をピンと張った状態で１０秒キープする。<br>
+                        唇を強く閉じて頬を片方ずつ十分に膨らませる。<br>
+                        左右交互に５秒キープを２セット行う<br>
+                        <span class="sub-head f18">唾液分泌を良くし、口の中からほうれい線を伸ばすトレーニング</span>
+                        唇をしっかり閉じて、舌を頬から唇の周りまで内側から押すように
+                        ゆっくりを1周させる。ほうれい線を内側から伸ばすイメージで１往復行う。
+                    </div>
+                </div>
+                <div class="facial-box f16">
+                    <img alt="首のしわ、顎のたるみを改善しフェイスラインをシャープにするトレーニング" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/oc07.png" class="right">
+                    <div class="detail">
+                        <span class="head f22">首のしわ、顎のたるみを改善しフェイスラインをシャープにするトレーニング</span>
+                        首の前側を伸ばすように上を向いて唇に力を入れます。「イ」を10秒キープ、「ウ」を10秒キープ、
+                        2セットずつ行います。<br>鎖骨に手を置いて首の筋肉が引っ張られているのを感じるように行なうと良いでしょう。
+                    </div>
+                </div>
+                <div class="facial-box f16">
+                    <div class="detail f16">
+                        <span class="head f20">口角アップ、きれいな笑顔を作るためのトレーニング</span>
+                        <span class="sub-head f18">口輪筋、笑筋を鍛えて口角の上がった笑顔に</span>
+                        奥歯を軽く噛んで両頬を目尻に向かって引き上げるように歯を見せて笑顔を作りましょう。<br>
+                        <br>
+                        両頬がバランスよく持ち上がるよう意識してください。<br>
+                        頬が引き上がった状態をキープして５秒×２セットずつ行います。<br>
+                        口をすぼめて「う」、頬を持ち上げて斜め上に引っ張るように「い」を交互に言ってみましょう。<br>
+                        「う」「い」をそれぞれ５秒キープ、５回×２セット。
+                    </div>
+                </div>
+            </div>
+        </section>		
+    </section>
+
 </section>
+
 
 
 <!-- bridal-------->

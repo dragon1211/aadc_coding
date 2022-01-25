@@ -14552,6 +14552,9 @@ p {
   /* ==========================================================
 bridal-content
 ========================================================== */
+  /* ==========================================================
+	self-care-content
+========================================================== */
   /*-------end-------*/
 }
 
@@ -14696,7 +14699,7 @@ bridal-content
 }
 
 .teeth-cleaning .teeth-cleaning__content .white-care__section {
-  margin-top: 100px;
+  margin: 100px 0;
 }
 
 .teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content {
@@ -14714,23 +14717,15 @@ bridal-content
 }
 
 .teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .price {
-  padding: 50px 0 100px;
+  padding: 50px 0;
 }
 
 .teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .price p.title {
   font-weight: 400;
 }
 
-.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .price p.detail {
-  margin-top: 50px;
-}
-
 .teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .price p.extra {
   margin-top: 30px;
-}
-
-.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .time {
-  margin: 50px 0 60px;
 }
 
 .teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .time p.title {
@@ -14863,6 +14858,220 @@ bridal-content
 
 .teeth-cleaning .bridal-content .cure1-bridal-section .comment a:hover {
   opacity: .8;
+}
+
+.teeth-cleaning .self-care-content {
+  /* header */
+  font-weight: 350;
+  /* outline */
+  /* meal */
+  /* facial */
+}
+
+.teeth-cleaning .self-care-content .care1-header {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  background-image: url(../images/base/care3-header.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.teeth-cleaning .self-care-content .care1-header h1.care1-header-caption {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -70px;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+}
+
+.teeth-cleaning .self-care-content .care1-header h2.care1-header-caption {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+}
+
+.teeth-cleaning .self-care-content .care3-outline-section {
+  max-width: 1040px;
+  padding: 100px 0 20px;
+  margin: auto;
+}
+
+.teeth-cleaning .self-care-content .care3-outline-section h2.head {
+  font-family: "futura-pt",sans-serif;
+  text-align: center;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+}
+
+.teeth-cleaning .self-care-content .howto-section {
+  max-width: 1040px;
+  margin: 0 auto 50px;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.teeth-cleaning .self-care-content .howto-section h3.head {
+  text-align: center;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+}
+
+.teeth-cleaning .self-care-content .howto-section .brush-box {
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+.teeth-cleaning .self-care-content .howto-section .brush-box img.left {
+  width: 150px;
+  float: left;
+  margin-right: 50px;
+}
+
+.teeth-cleaning .self-care-content .howto-section .brush-box img.right {
+  width: 150px;
+  float: right;
+  margin-left: 50px;
+}
+
+.teeth-cleaning .self-care-content .howto-section .brush-box .detail {
+  margin-bottom: 10px;
+  line-height: 150%;
+}
+
+.teeth-cleaning .self-care-content .howto-section .brush-box .detail span.head {
+  display: block;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.teeth-cleaning .self-care-content .howto-section .outline {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.teeth-cleaning .self-care-content .meal-section {
+  width: 100%;
+  overflow: hidden;
+  background-color: #fafafa;
+}
+
+.teeth-cleaning .self-care-content .meal-section .meal-wrap {
+  max-width: 1040px;
+  margin: 0 auto 50px;
+  padding: 0 20px;
+}
+
+.teeth-cleaning .self-care-content .meal-section h3.head {
+  text-align: center;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin: 50px 0 20px;
+}
+
+.teeth-cleaning .self-care-content .meal-section .outline {
+  line-height: 200%;
+}
+
+.teeth-cleaning .self-care-content .facial-section {
+  width: 100%;
+  padding: 0 20px;
+  margin: 50px 0 200px;
+}
+
+.teeth-cleaning .self-care-content .facial-section .facial-wrap {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.teeth-cleaning .self-care-content .facial-section .facial-wrap h3.head {
+  text-align: center;
+  line-height: 150%;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin: 50px 0;
+  font-weight: 400;
+}
+
+.teeth-cleaning .self-care-content .facial-section .facial-wrap .outline {
+  margin: 0 0 50px;
+  line-height: 200%;
+}
+
+.teeth-cleaning .self-care-content .facial-section .facial-box {
+  margin: 0 0 50px;
+  overflow: hidden;
+}
+
+.teeth-cleaning .self-care-content .facial-section .facial-box .detail {
+  margin-bottom: 10px;
+  line-height: 180%;
+}
+
+.teeth-cleaning .self-care-content .facial-section .facial-box .detail span.head {
+  display: block;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.teeth-cleaning .self-care-content .facial-section .facial-box .detail span.sub-head {
+  display: block;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.teeth-cleaning .self-care-content .facial-section .facial-box .detail table {
+  max-width: 400px;
+  float: right;
+}
+
+.teeth-cleaning .self-care-content .facial-section .facial-box img.left {
+  float: left;
+  margin-right: 50px;
+}
+
+.teeth-cleaning .self-care-content .facial-section .facial-box img.right {
+  float: right;
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 576px) {
+  .teeth-cleaning .self-care-content .howto-section .brush-box img {
+    width: 130px !important;
+  }
+  .teeth-cleaning .self-care-content .howto-section .brush-box img.left {
+    margin-right: 10px;
+  }
+  .teeth-cleaning .self-care-content .howto-section .brush-box img.right {
+    margin-left: 10px;
+  }
+  .teeth-cleaning .self-care-content .facial-section {
+    margin-bottom: 150px;
+  }
+  .teeth-cleaning .self-care-content .facial-section .facial-box img.right, .teeth-cleaning .self-care-content .facial-section .facial-box img.left {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .teeth-cleaning .self-care-content .facial-section .facial-box .detail table {
+    float: none;
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 1050px) {

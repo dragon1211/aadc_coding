@@ -127,7 +127,7 @@
 
 	/* white-care */
 	.white-care__section{
-		margin-top: 100px;
+		margin: 100px 0;
 		.white-care__content{
 			max-width: 1040px;
 			padding: 0 20px;
@@ -139,19 +139,15 @@
 				margin-top: 50px;
 			}
 			.price{
-				padding: 50px 0 100px;
+				padding: 50px 0;
 				p.title{
 					font-weight: $font_regular;
-				}
-				p.detail{
-					margin-top: 50px;
 				}
 				p.extra{
 					margin-top: 30px;
 				}
 			}
 			.time{
-				margin: 50px 0 60px;
 				p.title{
 					margin-top: 30px;
 					font-weight: $font_regular;
@@ -162,6 +158,7 @@
 	}
 
 }
+
 
 /* ==========================================================
 bridal-content
@@ -277,6 +274,207 @@ bridal-content
 		}
 	}
 }
+
+
+
+
+/* ==========================================================
+	self-care-content
+========================================================== */
+.self-care-content{
+	/* header */
+	font-weight: 350;
+	.care1-header {
+		width: 100%;
+		height: 300px;
+		position: relative;
+		overflow: hidden;
+		background-image: url(../images/base/care3-header.png);
+		background-position: center;
+		background-size: cover;
+		h1.care1-header-caption {
+			width: 100%;
+			text-align: center;
+			position: absolute;
+			top: 50%;
+			margin-top: -70px;
+			font-weight: $font_regular;
+			letter-spacing: 0.5rem;
+			text-indent: 0.5rem;
+		}
+		h2.care1-header-caption {
+			width: 100%;
+			text-align: center;
+			position: absolute;
+			top: 50%;
+			margin-top: -20px;
+			font-weight: $font_regular;
+			letter-spacing: 0.5rem;
+			text-indent: 0.5rem;
+		}
+	}
+	
+	/* outline */
+	.care3-outline-section {
+		max-width: 1040px;
+		padding: 100px 0 20px;	
+		margin: auto;
+		h2.head {
+			font-family: "futura-pt",sans-serif;	
+			text-align: center;
+			font-weight: $font_regular;
+			line-height: 150%;
+			letter-spacing: 0.5rem;
+			text-indent: 0.5rem;
+		}
+	}
+	.howto-section {
+		max-width: 1040px;
+		margin: 0 auto 50px;
+		overflow: hidden;	
+		padding: 0 20px;
+		h3.head {
+			text-align: center;
+			font-weight: $font_regular;
+			line-height: 150%;
+			letter-spacing: 0.5rem;
+			text-indent: 0.5rem;	
+			margin-bottom: 50px;	
+		}
+		.brush-box {
+			margin-bottom: 50px;
+			overflow: hidden;	
+			img.left {
+				width: 150px;
+				float: left;
+				margin-right: 50px;
+			}
+			img.right {
+				width: 150px;	
+				float: right;
+				margin-left: 50px;
+			}
+			.detail {
+				margin-bottom: 10px;
+				line-height: 150%;
+				span.head {
+					display: block;
+					font-weight: $font_regular;
+					margin-bottom: 10px;	
+				}
+			}
+		}
+		.outline {
+			display: block;
+			margin-bottom: 10px	
+		}
+	}
+	
+	/* meal */
+	.meal-section {
+		width: 100%;
+		overflow: hidden;
+		background-color: #fafafa;
+		.meal-wrap {
+			max-width: 1040px;
+			margin: 0 auto 50px;
+			padding: 0 20px;
+		}
+		h3.head {
+			text-align: center;
+			font-weight: $font_regular;
+			line-height: 150%;
+			letter-spacing: 0.5rem;
+			text-indent: 0.5rem;	
+			margin: 50px 0 20px;	
+		}
+		.outline {
+			line-height: 200%;
+		}
+	}
+	
+	/* facial */
+	.facial-section {
+		width: 100%;
+		padding: 0 20px;
+		margin: 50px 0 200px;
+		.facial-wrap {
+			max-width: 1040px;
+			margin: 0 auto;
+			h3.head {
+				text-align: center;
+				line-height: 150%;
+				letter-spacing: 0.5rem;
+				text-indent: 0.5rem;	
+				margin:50px 0;
+				font-weight: $font_regular;	
+			}
+			.outline {
+				margin: 0 0 50px;	
+				line-height: 200%;
+			}
+		}
+		.facial-box {
+			margin: 0 0 50px;
+			overflow: hidden;	
+			.detail{
+				margin-bottom: 10px;
+				line-height: 180%;
+				span.head {
+					display: block;
+					font-weight: $font_regular;
+					margin-bottom: 10px;	
+				}
+				span.sub-head {
+					display: block;
+					font-weight: $font_regular;
+					margin-bottom: 10px;	
+				}
+				table {
+					max-width: 400px;
+					float: right;
+				}
+			} 
+			img.left {
+				float: left;
+				margin-right: 50px;
+			}
+			img.right {
+				float: right;
+				margin-left: 50px;
+			}
+		}
+	}
+	
+	@include mq(smt){
+		.howto-section .brush-box{
+			img{
+				width: 130px !important;
+			}
+			img.left{
+				margin-right: 10px;
+			}
+			img.right{
+				margin-left: 10px;
+			}
+		}
+		.facial-section{
+			margin-bottom: 150px;
+			.facial-box{
+				img.right, img.left{
+					float: none;
+					margin:0 auto 20px;
+				}
+				.detail table{
+					float: none;
+					margin-top: 20px;
+				}
+			} 
+		} 
+	}
+
+}
+
 
 
 @include mq(){
