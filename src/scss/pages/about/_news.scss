@@ -79,7 +79,7 @@
 			.title{
 				margin-top: 7px;
 				font-size: 1.6rem;
-				font-weight: 500;
+				font-weight: $font_medium;
 				color: $color_black;
 				-webkit-box-orient: vertical;
 				overflow: hidden;
@@ -96,7 +96,7 @@
         font-size: 14px;
         color: #0088CC;
         text-align: center;
-        font-weight: 500;
+        font-weight: $font_medium;
         display: block;
         &:hover{
             opacity: .8;

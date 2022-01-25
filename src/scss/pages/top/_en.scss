@@ -8,11 +8,11 @@
 
 .content{
     margin-bottom: 150px;
-    font-weight: 300;
+    font-weight: $font_regular;
 }
 
 .head{
-    font-weight: 500!important;
+    font-weight: $font_medium!important;
 }
 
 /* --------------------- header */
@@ -30,7 +30,7 @@
 	position: absolute;
 	top: 50%;
     transform: translateY(-50%);
-	font-weight: 100 !important;
+	font-weight: $font_light !important;
 	letter-spacing: 0.2rem;
 	text-indent: 0.5rem;
 	color: #fff;
@@ -44,7 +44,7 @@
 	padding: 100px 20px 0;
 	margin: 0 auto;	
     .doctor {
-        font-weight: 300;
+        font-weight: $font_regular;
         line-height: 200%;
         overflow: hidden;
         margin-bottom: 100px;
@@ -63,10 +63,10 @@
             width: 100%;
             text-align: justify;
             .position {
-                font-weight: 400;
+                font-weight: $font_regular;
             }
             .name {
-                font-weight: 600;
+                font-weight: $font_bold;
                 margin-bottom: 30px;
             }
             .bio a {
@@ -83,12 +83,12 @@
                     padding: 5px 10px;
                     margin: 0 10px 10px 0;
                     color: #fff;
-                    font-weight: 500;
+                    font-weight: $font_medium;
                 }
             }
             .profile-head {
                 margin: 50px 0 10px 0;
-                font-weight: 500;
+                font-weight: $font_medium;
             }
         }
     }
@@ -106,7 +106,7 @@
 	font-family: "futura-pt",sans-serif;
 	width: 100%;
 	text-align: center;
-	font-weight: 100;
+	
 	letter-spacing: 0.5rem;
 	text-indent: 0.5rem;	
 	margin-bottom: 30px;
@@ -116,7 +116,7 @@
 	margin: 0 auto;
 	padding: 0 20px;
 	letter-spacing: 0.1rem;
-	font-weight: 300;
+	font-weight: $font_regular;
 	line-height: 200%;
 	text-align: justify;
 }
@@ -135,7 +135,7 @@
 	font-family: "futura-pt",sans-serif;
 	width: 100%;
 	text-align: center;
-	font-weight: 400;
+	font-weight: $font_regular;
 	letter-spacing: 0.2rem;
 	text-indent: 0.2rem;	
 }
@@ -143,7 +143,7 @@
 	max-width: 1040px;
 	margin: 0 auto;
 	letter-spacing: 0.1rem;
-	font-weight: 300;
+	font-weight: $font_regular;
 	line-height: 200%;
 	text-align: center;
 	overflow: hidden;
@@ -163,13 +163,13 @@
         font-family: "futura-pt",sans-serif;
         width: 100%;
         text-align: center;
-        font-weight: 400;
+        font-weight: $font_regular;
         letter-spacing: 0.2rem;
         text-indent: 0.2rem;	
     }
     .insurance {
         letter-spacing: 0.1rem;
-        font-weight: 300;
+        font-weight: $font_regular;
         line-height: 200%;
         text-align: center;
     }
@@ -183,13 +183,13 @@
         font-family: "futura-pt",sans-serif;
         width: 100%;
         text-align: center;
-        font-weight: 400;
+        font-weight: $font_regular;
         letter-spacing: 0.2rem;
         text-indent: 0.2rem;	
     }
     .payment {
         letter-spacing: 0.1rem;
-        font-weight: 300;
+        font-weight: $font_regular;
         line-height: 200%;
         text-align: center;
     }
@@ -203,13 +203,13 @@
         font-family: "futura-pt",sans-serif;
         width: 100%;
         text-align: center;
-        font-weight: 400;
+        font-weight: $font_regular;
         letter-spacing: 0.2rem;
         text-indent: 0.2rem;	
     }
     .level {
         letter-spacing: 0.1rem;
-        font-weight: 300;
+        font-weight: $font_regular;
         line-height: 200%;
         text-align: center;
     }
@@ -223,7 +223,7 @@
         font-family: "futura-pt",sans-serif;
         width: 100%;
         text-align: center;
-        font-weight: 400;
+        font-weight: $font_regular;
         letter-spacing: 0.2rem;
         text-indent: 0.2rem;	
     }
@@ -233,7 +233,7 @@
             padding: 10px 20px;
             text-align: center;
             line-height: 150%;
-            font-weight: 300;
+            font-weight: $font_regular;
             border: 1px solid #ddd;
             background-color: #fafafa;
         }
@@ -264,7 +264,7 @@
             }
             .info-left-tel a {
                 color: #d93600;
-                font-weight: 500;
+                font-weight: $font_medium;
             }
             .info-left-appoint-btn {
                 margin-bottom: 20px;
@@ -328,13 +328,13 @@
 	font-family: "futura-pt",sans-serif;
 	width: 100%;
 	text-align: center;
-	font-weight: 400;
+	font-weight: $font_regular;
 	letter-spacing: 0.2rem;
 	text-indent: 0.2rem;	
 }
 .access-section .access {
 	letter-spacing: 0.1rem;
-	font-weight: 300;
+	font-weight: $font_regular;
 	line-height: 200%;
 	text-align: center;
 }
@@ -355,13 +355,13 @@
 	font-family: "futura-pt",sans-serif;
 	width: 100%;
 	text-align: center;
-	font-weight: 400;
+	font-weight: $font_regular;
 	letter-spacing: 0.2rem;
 	text-indent: 0.2rem;	
 }
 .contact-section .contact {
 	letter-spacing: 0.1rem;
-	font-weight: 300;
+	font-weight: $font_regular;
 	line-height: 200%;
 	text-align: center;
 }
@@ -520,7 +520,7 @@ table.mailform.sp {
         padding: 5px;
         text-align: center;
         line-height: 150%;
-        font-weight: 300;
+        font-weight: $font_regular;
         border: 1px solid #ddd;
         background-color: #fafafa;
     }

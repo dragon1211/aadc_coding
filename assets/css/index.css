@@ -1,10 +1,35 @@
 @charset "UTF-8";
 /* -------------------
-  RESET
+  VARIABLES
 --------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
 @import url("https://use.typekit.net/kab0rei.css");
 @import url(https://use.fontawesome.com/releases/v5.3.1/css/all.css);
+html {
+  font-size: 62.5%;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 350;
+}
+
+body {
+  font-family: Noto Sans CJK JP,  "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  letter-spacing: 0.05em;
+}
+
+.main {
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 0 0;
+}
+
+/* -------------------
+  RESET
+--------------------*/
 *,
 *::before,
 *::after {
@@ -87,32 +112,20 @@ li {
   list-style: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
+  font-weight: 600;
+}
+
+h3, h4 {
+  font-weight: 500;
+}
+
+h5, h6 {
+  font-weight: 450;
+}
+
+p {
   font-weight: 400;
-}
-
-/* -------------------
-  VARIABLES
---------------------*/
-html {
-  font-size: 62.5%;
-  color: #333;
-  -webkit-font-smoothing: antialiased;
-}
-
-body {
-  font-family: Noto Sans CJK JP,  "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-size: 1.6rem;
-  line-height: 1.6;
-  letter-spacing: 0.05em;
-}
-
-.main {
-  width: 100%;
-  margin: 0 auto;
-  padding: 50px 0 0;
 }
 
 /* -------------------
@@ -3058,7 +3071,6 @@ body {
 .section-404 .head {
   font-family: "futura-pt",sans-serif;
   width: 100%;
-  font-weight: 100;
   line-height: 50px;
   text-align: center;
   letter-spacing: 0.3rem;
@@ -3268,7 +3280,6 @@ body {
 .appointment-header h1.head {
   font-family: "futura-pt",sans-serif;
   width: 100%;
-  font-weight: 100;
   text-align: center;
   letter-spacing: 0.5rem;
   text-indent: 0.5rem;
@@ -3309,7 +3320,6 @@ body {
 
 .appointment .appointment-section div.detail {
   letter-spacing: 0.1rem;
-  font-weight: 200;
   line-height: 150%;
   text-align: center;
   margin-bottom: 50px;
@@ -3317,7 +3327,6 @@ body {
 
 .appointment .appointment-section div.link {
   letter-spacing: 0.1rem;
-  font-weight: 200;
   line-height: 150%;
   text-align: center;
   margin-bottom: 50px;
@@ -3337,14 +3346,13 @@ body {
   width: 800px;
   margin: 0 auto 50px;
   letter-spacing: 0.1rem;
-  font-weight: 200;
   line-height: 150%;
   text-align: left;
 }
 
 .appointment .appointment-section .privacy {
   letter-spacing: 0.1rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 160%;
   text-align: justify;
   margin: 0 auto 50px;
@@ -3357,7 +3365,6 @@ body {
 
 .appointment .appointment-section ul.detail li {
   letter-spacing: 0.1rem;
-  font-weight: 200;
   line-height: 160%;
   text-align: justify;
   text-indent: -1em;
@@ -3387,7 +3394,6 @@ body {
 
 .appointment .appointment-section .note-wrap .note {
   letter-spacing: 0.1rem;
-  font-weight: 200;
   line-height: 150%;
   margin-bottom: 50px;
 }
@@ -3857,7 +3863,7 @@ body {
 
 .en .content {
   margin-bottom: 150px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .en .head {
@@ -3880,7 +3886,7 @@ body {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  font-weight: 100 !important;
+  font-weight: 200 !important;
   letter-spacing: 0.2rem;
   text-indent: 0.5rem;
   color: #fff;
@@ -3894,7 +3900,7 @@ body {
 }
 
 .en .doctor-section .doctor {
-  font-weight: 300;
+  font-weight: 400;
   line-height: 200%;
   overflow: hidden;
   margin-bottom: 100px;
@@ -3968,7 +3974,6 @@ body {
   font-family: "futura-pt",sans-serif;
   width: 100%;
   text-align: center;
-  font-weight: 100;
   letter-spacing: 0.5rem;
   text-indent: 0.5rem;
   margin-bottom: 30px;
@@ -3979,7 +3984,7 @@ body {
   margin: 0 auto;
   padding: 0 20px;
   letter-spacing: 0.1rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 200%;
   text-align: justify;
 }
@@ -4008,7 +4013,7 @@ body {
   max-width: 1040px;
   margin: 0 auto;
   letter-spacing: 0.1rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 200%;
   text-align: center;
   overflow: hidden;
@@ -4037,7 +4042,7 @@ body {
 
 .en .insurance-section .insurance {
   letter-spacing: 0.1rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 200%;
   text-align: center;
 }
@@ -4058,7 +4063,7 @@ body {
 
 .en .payment-section .payment {
   letter-spacing: 0.1rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 200%;
   text-align: center;
 }
@@ -4079,7 +4084,7 @@ body {
 
 .en .level-section .level {
   letter-spacing: 0.1rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 200%;
   text-align: center;
 }
@@ -4106,7 +4111,7 @@ body {
   padding: 10px 20px;
   text-align: center;
   line-height: 150%;
-  font-weight: 300;
+  font-weight: 400;
   border: 1px solid #ddd;
   background-color: #fafafa;
 }
@@ -4221,7 +4226,7 @@ body {
 
 .en .access-section .access {
   letter-spacing: 0.1rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 200%;
   text-align: center;
 }
@@ -4248,7 +4253,7 @@ body {
 
 .en .contact-section .contact {
   letter-spacing: 0.1rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 200%;
   text-align: center;
 }
@@ -4429,7 +4434,7 @@ body {
     padding: 5px;
     text-align: center;
     line-height: 150%;
-    font-weight: 300;
+    font-weight: 400;
     border: 1px solid #ddd;
     background-color: #fafafa;
   }
@@ -4509,7 +4514,7 @@ body {
 
 .general .cure3-general-section h2.head {
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.5rem;
   text-indent: 0.5rem;
   margin-bottom: 50px;
@@ -4518,7 +4523,6 @@ body {
 .general .cure3-general-section p.intro {
   margin: 0 auto;
   letter-spacing: 0.2rem;
-  font-weight: 200;
   line-height: 200%;
   text-align: center;
   padding-bottom: 30px;
@@ -4549,7 +4553,6 @@ body {
 }
 
 .general .cure3-general-treatment-section .general-box p.detail {
-  font-weight: 200;
   line-height: 180%;
 }
 
@@ -4561,7 +4564,7 @@ body {
 
 .general .cure3-painless-section h2.head {
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.5rem;
   text-indent: 0.5rem;
   margin-bottom: 50px;
@@ -4570,7 +4573,6 @@ body {
 .general .cure3-painless-section p.intro {
   margin: 0 auto;
   letter-spacing: 0.2rem;
-  font-weight: 200;
   line-height: 200%;
   text-align: center;
   padding-bottom: 30px;
@@ -4584,7 +4586,7 @@ body {
 
 .general .cure3-prevention-section h2.head {
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.5rem;
   text-indent: 0.5rem;
   margin-bottom: 50px;
@@ -4592,7 +4594,7 @@ body {
 
 .general .cure3-prevention-section h3.head {
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.2rem;
   text-indent: 0.2rem;
   line-height: 150%;
@@ -4603,7 +4605,6 @@ body {
 .general .cure3-prevention-section p.intro {
   margin: 0 auto;
   letter-spacing: 0.2rem;
-  font-weight: 200;
   line-height: 200%;
   text-align: center;
   padding-bottom: 30px;
@@ -4828,7 +4829,7 @@ body {
 
 .information .information-section .info .sub-intro {
   letter-spacing: 0.1rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 200%;
   text-align: center;
   padding: 0 20px 50px;
@@ -4855,7 +4856,7 @@ body {
 
 .information .information-section .info ul.aplus-merit li {
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   padding: 10px 20px;
   margin: 0px auto;
   max-width: 740px;
@@ -4924,7 +4925,6 @@ body {
 .inquiry-header h1.head {
   font-family: "futura-pt",sans-serif;
   width: 100%;
-  font-weight: 100;
   text-align: center;
   letter-spacing: 0.5rem;
   text-indent: 0.5rem;
@@ -4955,7 +4955,6 @@ body {
 
 .inquiry .inquiry-section h2.head {
   width: 100%;
-  font-weight: 100;
   text-align: center;
   letter-spacing: 0.4rem;
   margin-bottom: 20px;
@@ -4973,7 +4972,6 @@ body {
 .inquiry .inquiry-section .detail-left {
   max-width: 800px;
   letter-spacing: 0.1rem;
-  font-weight: 200;
   line-height: 150%;
   text-align: left;
   margin: 0 auto 50px;
@@ -4982,7 +4980,7 @@ body {
 .inquiry .inquiry-section .privacy {
   max-width: 800px;
   letter-spacing: 0.1rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 160%;
   text-align: justify;
   margin: 0 auto 50px;
@@ -5543,7 +5541,7 @@ body {
   color: #333333;
   text-align: center;
   font-size: 3.0rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #333333;
 }
 
@@ -5669,7 +5667,7 @@ body {
   color: #333333;
   text-align: center;
   font-size: 3.0rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #333333;
 }
 
@@ -5855,7 +5853,7 @@ body {
   text-align: center;
   margin: 0 auto 80px;
   font-size: 3.0rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #333333;
 }
 
@@ -5905,7 +5903,7 @@ body {
   margin: 0 auto;
   padding: 0;
   font-size: 1.6rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 2;
   color: #333333;
 }
@@ -6026,7 +6024,7 @@ body {
   color: #333333;
   text-align: left;
   font-size: 3.0rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #333333;
 }
 
@@ -6060,7 +6058,7 @@ body {
   color: #333333;
   text-align: right;
   font-size: 3.0rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #333333;
 }
 
@@ -6108,7 +6106,7 @@ body {
   font-family: "Noto Sans CJK JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
   color: #333333;
   font-size: 1.8rem;
-  font-weight: 700;
+  font-weight: 600;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, white), color-stop(50%, #fff0ec));
   background: linear-gradient(to bottom, white 50%, #fff0ec 50%);
   background-size: 100% 200%;
@@ -6211,7 +6209,7 @@ body {
   text-align: center;
   margin: 0 auto;
   font-size: 3.0rem;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.2em;
   color: #333333;
 }
@@ -6250,7 +6248,7 @@ body {
   font-family: "Noto Sans CJK JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
   color: #333333;
   font-size: 5.0rem;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.2em;
   margin: 50px auto 0 auto;
   max-width: 800px;
@@ -6697,7 +6695,7 @@ body {
   text-align: center;
   margin: 0 auto 80px;
   font-size: 3.0rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #333333;
 }
 
@@ -6721,7 +6719,7 @@ body {
   margin-top: 90px;
   padding: 0;
   font-size: 1.8rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 2;
   color: #333333;
   border-top: 1px solid #CCCCCC;
@@ -7395,7 +7393,7 @@ body {
 .crown-bridge-inray .cure1-ceramic-features-section p span {
   display: block;
   margin: 10px 0;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.7rem;
 }
 
@@ -7609,7 +7607,7 @@ body {
 }
 
 .crown-bridge-inray ul.cost_ex li span {
-  font-weight: 700;
+  font-weight: 600;
   margin-right: 20px;
 }
 
@@ -7879,7 +7877,6 @@ body {
 
 .gap .cure2-outline-section h2.head {
   text-align: center;
-  font-weight: 100;
   letter-spacing: 0.5rem;
   text-indent: 0.5rem;
   margin-bottom: 50px;
@@ -7889,7 +7886,6 @@ body {
 .gap .cure2-outline-section p.intro {
   margin: 0 auto;
   letter-spacing: 0.2rem;
-  font-weight: 200;
   line-height: 200%;
   text-align: justify;
   padding-bottom: 30px;
@@ -7897,7 +7893,6 @@ body {
 
 .gap .cure2-outline-section h3.head {
   text-align: center;
-  font-weight: 200;
   letter-spacing: 0.2rem;
   text-indent: 0.2rem;
   margin: 50px auto 30px;
@@ -7906,7 +7901,6 @@ body {
 
 .gap .cure2-outline-section p.detail {
   letter-spacing: 0.2rem;
-  font-weight: 200;
   line-height: 200%;
   text-align: justify;
   padding-bottom: 30px;
@@ -7921,7 +7915,6 @@ body {
 .gap .gap-case-section .case {
   margin: 0 auto;
   letter-spacing: 0.2rem;
-  font-weight: 200;
   line-height: 200%;
   text-align: center;
   padding-bottom: 30px;
@@ -7999,7 +7992,7 @@ body {
 .gap .gap-case-section .case .comment {
   min-height: 120px;
   line-height: 150%;
-  font-weight: 300;
+  font-weight: 400;
   text-align: left;
 }
 
@@ -8011,7 +8004,6 @@ body {
 
 .gap .gap-type-section h3.head {
   text-align: center;
-  font-weight: 200;
   letter-spacing: 0.2rem;
   text-indent: 0.2rem;
   margin: 0 auto 50px;
@@ -8052,7 +8044,6 @@ body {
 
 .gap .gap-type-section .wrap .comment {
   text-align: justify;
-  font-weight: 200;
   letter-spacing: 0.1rem;
   text-indent: 0.2rem;
   line-height: 200%;
@@ -8113,7 +8104,6 @@ body {
 
 .gap .cure2-ceramic-section h3.head {
   text-align: center;
-  font-weight: 200;
   letter-spacing: 0.2rem;
   text-indent: 0.2rem;
   margin: 50px auto 30px;
@@ -8122,7 +8112,6 @@ body {
 
 .gap .cure2-ceramic-section p.detail {
   letter-spacing: 0.2rem;
-  font-weight: 200;
   line-height: 200%;
   text-align: justify;
   padding-bottom: 30px;
@@ -8136,7 +8125,6 @@ body {
 
 .gap .gap-method-section h3.head {
   text-align: center;
-  font-weight: 200;
   letter-spacing: 0.2rem;
   text-indent: 0.2rem;
   margin: 0 auto 50px;
@@ -8203,7 +8191,7 @@ body {
 
 .gap .gap-method-section .wrap h4.under {
   text-align: justify;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0rem;
   text-indent: 0.2rem;
   margin-bottom: 10px;
@@ -8213,7 +8201,6 @@ body {
 
 .gap .gap-method-section .wrap .comment {
   text-align: justify;
-  font-weight: 200;
   letter-spacing: 0.1rem;
   text-indent: 0.2rem;
   line-height: 200%;
@@ -8269,7 +8256,6 @@ body {
 
 .gap .gap-composite-section h3.head {
   text-align: center;
-  font-weight: 200;
   letter-spacing: 0.2rem;
   text-indent: 0.2rem;
   margin: 50px auto 30px;
@@ -8278,7 +8264,6 @@ body {
 
 .gap .gap-composite-section p.detail {
   letter-spacing: 0.2rem;
-  font-weight: 200;
   line-height: 200%;
   text-align: justify;
   padding-bottom: 30px;
@@ -8344,7 +8329,6 @@ body {
 
 .gap .gap-composite-section .wrap .comment {
   text-align: justify;
-  font-weight: 200;
   letter-spacing: 0.1rem;
   text-indent: 0.2rem;
   line-height: 200%;
@@ -8403,7 +8387,6 @@ body {
 }
 
 .gap .gap-care-section ul li {
-  font-weight: 200;
   margin: 20px;
   line-height: 150%;
   list-style: disc;
@@ -8427,7 +8410,6 @@ body {
 }
 
 .gap .gap-blog-section ul li {
-  font-weight: 200;
   margin: 10px 20px;
   line-height: 150%;
   list-style: disc;
@@ -8569,7 +8551,7 @@ body {
 
 .invisalign .cure2-intro-section h2.head {
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.5rem;
   text-indent: 0.5rem;
   margin-bottom: 50px;
@@ -8579,7 +8561,7 @@ body {
 .invisalign .cure2-intro-section p.intro {
   margin: 0 auto;
   letter-spacing: 0.2rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 200%;
   text-align: justify;
   padding-bottom: 30px;
@@ -8610,13 +8592,13 @@ body {
 }
 
 .invisalign .cure2-about-section h3.head {
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 30px;
   letter-spacing: 0.2rem;
 }
 
 .invisalign .cure2-about-section p.intro {
-  font-weight: 300;
+  font-weight: 400;
   line-height: 180%;
 }
 
@@ -8628,7 +8610,7 @@ body {
 }
 
 .invisalign .cure2-merit-section h3.head {
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 30px;
   letter-spacing: 0.2rem;
   text-align: center;
@@ -8722,7 +8704,7 @@ body {
 }
 
 .invisalign .cure2-flow-section h3.head {
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 30px;
   letter-spacing: 0.2rem;
   text-align: center;
@@ -8738,7 +8720,7 @@ body {
 }
 
 .invisalign .cure2-flow-section .note {
-  font-weight: 300;
+  font-weight: 400;
   margin: 0 auto 30px;
   text-align: justify;
   line-height: 150%;
@@ -8788,7 +8770,7 @@ body {
   max-width: 800px;
   text-align: justify;
   line-height: 150%;
-  font-weight: 300;
+  font-weight: 400;
   position: relative;
   padding-left: 25px;
   margin: 20px;
@@ -8860,7 +8842,7 @@ body {
 }
 
 .invisalign .cure2-important-section h3.head {
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 20px;
   letter-spacing: 0.2rem;
   text-align: center;
@@ -8872,7 +8854,7 @@ body {
   text-align: justify;
   line-height: 150%;
   margin-bottom: 1px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .invisalign .cure2-plan-section {
@@ -8884,7 +8866,7 @@ body {
 }
 
 .invisalign .cure2-plan-section h2 {
-  font-weight: 300;
+  font-weight: 400;
   line-height: 150%;
 }
 
@@ -8899,7 +8881,7 @@ body {
 .invisalign .cure2-plan-section .plan-wrap h3.head {
   height: 50px;
   margin: 20px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 150%;
 }
 
@@ -8910,12 +8892,12 @@ body {
 .invisalign .cure2-plan-section .plan-wrap p {
   text-align: justify;
   line-height: 150%;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .invisalign .cure2-plan-section .plan-case h3 {
   padding: 30px 0 20px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 150%;
 }
 
@@ -8927,7 +8909,7 @@ body {
 }
 
 .invisalign .cure2-plan-section .plan-wrap2 {
-  font-weight: 300;
+  font-weight: 400;
   margin: 30px auto 30px;
   text-align: justify;
   max-width: 800px;
@@ -8948,7 +8930,7 @@ body {
 
 .invisalign .cure2-plan-section .plan-wrap2 .topics .outline {
   text-align: left;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 150%;
   height: auto;
   margin-bottom: 30px;
@@ -8963,7 +8945,7 @@ body {
   max-width: 800px;
   text-align: justify;
   line-height: 150%;
-  font-weight: 300;
+  font-weight: 400;
   position: relative;
   padding-left: 25px;
   margin: 20px;
@@ -9074,7 +9056,7 @@ body {
 }
 
 .invisalign .cure2-qa-section ul.qa {
-  font-weight: 300;
+  font-weight: 400;
   line-height: 180%;
 }
 
@@ -9106,7 +9088,7 @@ body {
 }
 
 .invisalign .cure2-payment-section .payment-intro {
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.2rem;
   text-align: center;
   line-height: 180%;
@@ -9196,7 +9178,7 @@ body {
 }
 
 .invisalign .cure2-payment-section p.card, .invisalign .cure2-payment-section p.credit {
-  font-weight: 300;
+  font-weight: 400;
   line-height: 180%;
 }
 
@@ -9213,7 +9195,7 @@ body {
 
 .invisalign .cure2-payment-section .alignment-price h5.head {
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   padding-top: 50px;
   margin-bottom: 50px;
 }
@@ -9224,7 +9206,7 @@ body {
 }
 
 .invisalign .cure2-payment-section .alignment-price p.item {
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 10px;
 }
 
@@ -9251,7 +9233,7 @@ body {
 
 .invisalign .cure2-payment-section .alignment-price h6.head {
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   margin: 50px auto 20px;
   max-width: 600px;
   padding: 5px;
@@ -9273,7 +9255,7 @@ body {
 }
 
 .invisalign .cure2-payment-section .alignment-price table tr th {
-  font-weight: 300;
+  font-weight: 400;
   width: 350px;
   text-align: left;
 }
@@ -9526,7 +9508,7 @@ body {
   margin: 50px auto 30px;
   color: #08c;
   text-align: center;
-  font-weight: bold;
+  font-weight: 600;
   cursor: pointer;
   line-height: 150%;
   display: block;
@@ -9736,7 +9718,6 @@ body {
 
 .non-extraction .cure2-outline-section h2.head.sub {
   text-align: center;
-  font-weight: 200;
   letter-spacing: 0.5rem;
   text-indent: 0.5rem;
   margin: 50px 0;
@@ -9746,7 +9727,6 @@ body {
 .non-extraction .cure2-outline-section p.intro {
   margin: 0 auto;
   letter-spacing: 0.2rem;
-  font-weight: 200;
   line-height: 200%;
   text-align: justify;
   padding-bottom: 30px;
@@ -9754,7 +9734,6 @@ body {
 
 .non-extraction .cure2-outline-section h3.head {
   text-align: center;
-  font-weight: 200;
   letter-spacing: 0.2rem;
   text-indent: 0.2rem;
   margin: 50px auto 30px;
@@ -9763,7 +9742,6 @@ body {
 
 .non-extraction .cure2-outline-section h3.head.top {
   text-align: center;
-  font-weight: 200;
   letter-spacing: 0.2rem;
   text-indent: 0.2rem;
   margin: 30px auto;
@@ -9773,7 +9751,6 @@ body {
 .non-extraction .cure2-outline-section p.detail {
   margin: 0 100px;
   letter-spacing: 0.2rem;
-  font-weight: 200;
   line-height: 200%;
   text-align: justify;
   padding-bottom: 30px;
@@ -9851,7 +9828,6 @@ body {
 
 .non-extraction .cure2-voice-section h3.head {
   text-align: center;
-  font-weight: 200;
   margin: 50px 0;
   letter-spacing: 0.2rem;
 }
@@ -9878,7 +9854,6 @@ body {
 }
 
 .non-extraction .cure2-voice-section p.ans {
-  font-weight: 200;
   text-align: left;
   line-height: 150%;
 }
@@ -9915,12 +9890,10 @@ body {
 
 .non-extraction .cure2-mouthpiece-section h3.head {
   text-align: center;
-  font-weight: 200;
   margin-bottom: 30px;
 }
 
 .non-extraction .cure2-mouthpiece-section p.mouthpiece {
-  font-weight: 200;
   line-height: 180%;
   margin-bottom: 20px;
 }
@@ -9946,13 +9919,11 @@ body {
 }
 
 .non-extraction .cure2-mouthpiece-section .invisalign h4 {
-  font-weight: 200;
   margin-bottom: 10px;
   text-align: center;
 }
 
 .non-extraction .cure2-mouthpiece-section .invisalign h3 {
-  font-weight: 200;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -9964,7 +9935,6 @@ body {
 .non-extraction .cure2-mouthpiece-section .invisalign p.comment {
   text-align: left;
   margin-top: 50px;
-  font-weight: 200;
   line-height: 180%;
   margin-bottom: 20px;
 }
@@ -9999,13 +9969,11 @@ body {
 }
 
 .non-extraction .cure2-frontside-section h3.head {
-  font-weight: 200;
   margin-bottom: 30px;
   letter-spacing: 0.2rem;
 }
 
 .non-extraction .cure2-frontside-section p.frontside {
-  font-weight: 200;
   line-height: 180%;
   padding-bottom: 50px;
   text-align: justify;
@@ -10041,13 +10009,11 @@ body {
 }
 
 .non-extraction .cure2-ceramic-alignment-section h3.head {
-  font-weight: 200;
   margin-bottom: 30px;
   letter-spacing: 0.2rem;
 }
 
 .non-extraction .cure2-ceramic-alignment-section p.ceramic {
-  font-weight: 200;
   line-height: 180%;
   padding-bottom: 50px;
   text-align: justify;
@@ -10061,7 +10027,6 @@ body {
 }
 
 .non-extraction .cure2-alignment-faq-section h3.head {
-  font-weight: 200;
   margin-bottom: 30px;
   letter-spacing: 0.2rem;
 }
@@ -10076,7 +10041,6 @@ body {
 }
 
 .non-extraction .cure2-alignment-faq-section p.answer {
-  font-weight: 200;
   line-height: 180%;
   margin-bottom: 50px;
   text-align: justify;
@@ -10137,7 +10101,6 @@ body {
 }
 
 .non-extraction .cure2-payment-section .payment-intro {
-  font-weight: 200;
   letter-spacing: 0.2rem;
   text-align: center;
   line-height: 180%;
@@ -10235,7 +10198,6 @@ body {
 }
 
 .non-extraction .cure2-payment-section p.credit {
-  font-weight: 200;
   line-height: 180%;
 }
 
@@ -10252,7 +10214,6 @@ body {
 
 .non-extraction .cure2-payment-section .alignment-price h5.head {
   text-align: center;
-  font-weight: 200;
   padding-top: 50px;
   margin-bottom: 50px;
 }
@@ -10263,7 +10224,6 @@ body {
 }
 
 .non-extraction .cure2-payment-section .alignment-price p.item {
-  font-weight: 200;
   margin-bottom: 10px;
 }
 
@@ -10290,7 +10250,6 @@ body {
 
 .non-extraction .cure2-payment-section .alignment-price h6.head {
   text-align: center;
-  font-weight: 200;
   margin: 50px auto 20px;
   max-width: 600px;
   padding: 5px;
@@ -10312,7 +10271,6 @@ body {
 }
 
 .non-extraction .cure2-payment-section .alignment-price table tr th {
-  font-weight: 200;
   width: 350px;
   text-align: left;
 }
@@ -10478,7 +10436,6 @@ body {
 .orthodontic .cure2-outline-section p.intro {
   margin: 0 auto;
   letter-spacing: 0.2rem;
-  font-weight: 200;
   line-height: 200%;
   text-align: center;
 }
@@ -10486,7 +10443,6 @@ body {
 .orthodontic .cure2-outline-section .comment {
   margin: 30px auto 0;
   letter-spacing: 0.2rem;
-  font-weight: 200;
   line-height: 200%;
   text-align: center;
 }
@@ -10548,24 +10504,20 @@ body {
 }
 
 .orthodontic .cure2-orthodontic-section h3.head {
-  font-weight: 200;
   margin-bottom: 30px;
 }
 
 .orthodontic .cure2-orthodontic-section p.intro {
-  font-weight: 200;
   margin-bottom: 30px;
   line-height: 150%;
 }
 
 .orthodontic .cure2-orthodontic-section p {
-  font-weight: 200;
   margin-bottom: 30px;
   line-height: 180%;
 }
 
 .orthodontic .cure2-orthodontic-section p.center {
-  font-weight: 200;
   margin-bottom: 30px;
   line-height: 180%;
   text-align: center;
@@ -10594,7 +10546,7 @@ body {
 .orthodontic .cure2-orthodontic-section .adaptation p.intro {
   text-align: left;
   line-height: 180%;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .orthodontic .cure2-orthodontic-section p.blogbanner {
@@ -10644,7 +10596,7 @@ body {
   line-height: normal;
   margin: 20px 0 30px;
   text-align: center;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .orthodontic .cure2-mouthpiece-section .left {
@@ -10673,12 +10625,10 @@ body {
 }
 
 .orthodontic .cure2-mouthpiece-section h3.head {
-  font-weight: 200;
   margin-bottom: 30px;
 }
 
 .orthodontic .cure2-mouthpiece-section p.intro {
-  font-weight: 200;
   margin-bottom: 30px;
   line-height: 180%;
 }
@@ -10690,7 +10640,6 @@ body {
 }
 
 .orthodontic .cure2-mouthpiece-section p.mouthpiece {
-  font-weight: 200;
   line-height: 180%;
   margin-bottom: 20px;
 }
@@ -10747,12 +10696,10 @@ body {
 }
 
 .orthodontic .cure2-ceramic-orthodontic-section h3.head {
-  font-weight: 200;
   margin-bottom: 30px;
 }
 
 .orthodontic .cure2-ceramic-orthodontic-section p.ceramic {
-  font-weight: 200;
   margin-bottom: 30px;
   line-height: 150%;
 }
@@ -10768,7 +10715,6 @@ body {
 
 .orthodontic .cure2-orthodontic-section.merit {
   max-width: 1040px;
-  font-weight: 200;
   padding: 0 20px;
   margin: 0 auto;
 }
@@ -10786,7 +10732,6 @@ body {
 .orthodontic .cure2-orthodontic-section.comment {
   background-color: #efefef;
   padding: 50px 30px;
-  font-weight: 200;
   margin-bottom: 50px;
 }
 
@@ -11098,7 +11043,7 @@ body {
 }
 
 .shinbi .provisional-wrap h4.head {
-  font-weight: bold;
+  font-weight: 600;
   padding: 5px 0;
   margin-bottom: 5px;
 }
@@ -11136,11 +11081,11 @@ body {
   text-align: center;
   color: #e86779;
   margin-bottom: 20px;
-  font-weight: 400px;
+  font-weight: 500;
 }
 
 .shinbi .cure1-collaboration-section h3.head span {
-  font-weight: 800;
+  font-weight: 600;
   color: #fff;
   margin: 0 5px;
   padding: 0 5px;
@@ -11189,7 +11134,7 @@ body {
 }
 
 .shinbi .cure1-ceramic-section h4.intro {
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 30px;
   line-height: 150%;
   text-align: center;
@@ -11258,7 +11203,7 @@ body {
   margin: 0 auto;
   text-align: center;
   padding: 50px 20px;
-  font-weight: 500;
+  font-weight: 600;
   background-color: #d1c0a5;
 }
 
@@ -11306,7 +11251,7 @@ body {
 
 .shinbi .cure1-ceramic-section .left .head,
 .shinbi .cure1-ceramic-section .right .head {
-  font-weight: 400;
+  font-weight: 500;
   margin-bottom: 20px;
   text-align: center;
   color: #a5967d;
@@ -11341,28 +11286,34 @@ body {
   border-bottom: 3px solid #fff;
   background-color: #a5967d;
   color: #fff;
-  font-weight: 400;
+  font-weight: 500;
+}
+
+.shinbi p.blogbanner {
+  margin: 100px 0;
+  padding: 0 20px;
 }
 
 .shinbi p.blogbanner a {
   text-align: center;
-  padding: 20px 50px;
-  margin: 100px auto;
+  padding: 10px 40px;
   background-color: #C84520;
   display: block;
   color: #fff;
-  width: 500px;
+  max-width: 450px;
+  width: 100%;
+  margin: auto;
   border-radius: 40px;
-  font-weight: 400;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #C84520), color-stop(50%, #e65128));
-  background: linear-gradient(to bottom, #C84520 50%, #e65128 50%);
-  background-size: 100% 200%;
+  font-weight: 500;
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #C84520), color-stop(50%, #e65128)) right;
+  background: linear-gradient(to left, #C84520 50%, #e65128 50%) right;
+  background-size: 200%;
   -webkit-transition: .3s ease-out;
   transition: .3s ease-out;
 }
 
 .shinbi p.blogbanner a:hover {
-  background-position: 0 -100%;
+  background-position: left;
 }
 
 .shinbi .cure1-grinding-section {
@@ -11560,7 +11511,7 @@ body {
 
 .shinbi ul.cost_ex li span {
   margin: 0 20px 0 0;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .shinbi .cure1-warranty-section {
@@ -11619,7 +11570,7 @@ body {
   margin-top: 30px;
   display: block;
   color: #08c;
-  font-weight: bold;
+  font-weight: 600;
   cursor: pointer;
   line-height: 150%;
   text-align: center;
@@ -11655,7 +11606,7 @@ body {
 }
 
 .shinbi .cure1-lumineers-section .sub-head {
-  font-weight: 400;
+  font-weight: 500;
   padding-bottom: 10px;
   margin-bottom: 10px;
   border-bottom: 1px solid #ccc;
@@ -11688,7 +11639,7 @@ body {
   color: #08c;
   cursor: pointer;
   line-height: 150%;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .shinbi ul.cost_ex li {
@@ -11697,7 +11648,7 @@ body {
 
 .shinbi ul.cost_ex li span {
   margin: 0 20px 0 0;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .shinbi .cure1-snapon-section {
@@ -11736,7 +11687,7 @@ body {
 }
 
 .shinbi .cure1-snapon-section .sub-head {
-  font-weight: 400;
+  font-weight: 500;
   padding-bottom: 10px;
   margin-bottom: 10px;
   border-bottom: 1px solid #ccc;
@@ -11766,7 +11717,7 @@ body {
   clear: both;
   text-align: center;
   padding: 50px 0 30px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .shinbi .cure1-snapon-section .oneday {
@@ -11860,6 +11811,17 @@ body {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .shinbi p.blogbanner {
+    margin: 50px 0;
+  }
+  .shinbi p.blogbanner a {
+    max-width: 350px;
+    padding: 10px 30px;
+    line-height: 1.5;
+  }
+}
+
 @media screen and (max-width: 576px) {
   .shinbi .proportion-about-section {
     padding-bottom: 50px;
@@ -11884,12 +11846,6 @@ body {
   .shinbi .cure1-ceramic-section .ceramic br {
     display: none;
   }
-  .shinbi p.blogbanner a {
-    width: 240px;
-    padding: 10px 30px;
-    line-height: 1.5;
-    font-size: 1.5rem;
-  }
   .shinbi .case-section img.left, .shinbi .case-section img.right {
     float: none;
     margin: 20px auto;
@@ -11901,9 +11857,6 @@ body {
   }
   .shinbi .case-section .contents-text {
     margin-bottom: 30px;
-  }
-  .shinbi p.blogbanner a {
-    margin: 50px auto;
   }
   .shinbi .cure1-laminate-section {
     margin-top: 70px;
@@ -11992,7 +11945,7 @@ body {
 
 .whitening .cure1-outline-section h2.head {
   text-align: center;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 0.5rem;
   text-indent: 0.5rem;
   margin-bottom: 50px;
@@ -12014,7 +11967,7 @@ body {
 
 .whitening .cure1-howtowhitening-section h2.head {
   text-align: center;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 0.5rem;
   text-indent: 0.5rem;
   margin: 50px 0 10px;
@@ -12027,7 +11980,7 @@ body {
 
 .whitening .cure1-howtowhitening-section h3.head {
   text-align: left;
-  font-weight: 400;
+  font-weight: 600;
   text-indent: 0.5rem;
   margin: 50px 0 10px;
   line-height: 150%;
@@ -12090,7 +12043,7 @@ body {
 }
 
 .whitening .cure1-office-whitening-section .center h4.head {
-  font-weight: 400;
+  font-weight: 600;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -12258,7 +12211,6 @@ body {
 .anti-aging-dock .care2-outline-section p.intro {
   margin: 0 auto;
   letter-spacing: 0.2rem;
-  font-weight: 200;
   line-height: 200%;
   text-align: center;
 }
@@ -12267,7 +12219,6 @@ body {
   padding: 20px;
   margin: 20px;
   letter-spacing: 0.2rem;
-  font-weight: 200;
   line-height: 200%;
   text-align: center;
   display: block;
@@ -12283,7 +12234,6 @@ body {
 
 .anti-aging-dock .care2-oral-aging-section p.intro {
   text-align: center;
-  font-weight: 200;
   margin-bottom: 30px;
   line-height: 200%;
 }
@@ -12303,14 +12253,12 @@ body {
 
 .anti-aging-dock .care2-oral-aging-section p.sub-intro {
   text-align: center;
-  font-weight: 200;
   margin-bottom: 30px;
   line-height: 200%;
 }
 
 .anti-aging-dock .care2-oral-aging-section p.detail {
   text-align: center;
-  font-weight: 200;
   margin-bottom: 50px;
   line-height: 200%;
 }
@@ -12396,7 +12344,6 @@ body {
 
 .anti-aging-dock .care2-anti-aging-doc-section p.intro {
   text-align: center;
-  font-weight: 200;
   margin-bottom: 30px;
   line-height: 200%;
 }
@@ -12424,14 +12371,12 @@ body {
 
 .anti-aging-dock .care2-anti-aging-doc-section p.sub-intro {
   text-align: center;
-  font-weight: 200;
   margin-bottom: 30px;
   line-height: 200%;
 }
 
 .anti-aging-dock .care2-anti-aging-doc-section p.detail {
   text-align: center;
-  font-weight: 200;
   margin-bottom: 50px;
   line-height: 200%;
   clear: both;
@@ -12444,13 +12389,11 @@ body {
 }
 
 .anti-aging-dock .care2-anti-aging-doc-section h4.head_att {
-  font-weight: 200;
   text-align: left;
   margin-bottom: 10px;
 }
 
 .anti-aging-dock .care2-anti-aging-doc-section .att {
-  font-weight: 200;
   line-height: 150%;
   margin-bottom: 20px;
 }
@@ -12568,7 +12511,6 @@ body {
 }
 
 .anti-aging-dock .care2-supplement-section h3.head {
-  font-weight: 200;
   margin-bottom: 30px;
   text-align: center;
   line-height: 150%;
@@ -12576,7 +12518,6 @@ body {
 
 .anti-aging-dock .care2-supplement-section p.intro {
   margin: 0 auto 50px;
-  font-weight: 200;
   line-height: 200%;
   text-align: justify;
 }
@@ -12808,7 +12749,6 @@ body {
 .esthetic .care2-outline-section p.intro {
   margin: 0 auto;
   letter-spacing: 0.2rem;
-  font-weight: 200;
   line-height: 200%;
   text-align: center;
 }
@@ -12827,7 +12767,6 @@ body {
 }
 
 .esthetic .care2-esthetic-section .lip-esthetic h3.head {
-  font-weight: 200;
   text-align: left;
   margin-bottom: 20px;
 }
@@ -12840,7 +12779,6 @@ body {
 }
 
 .esthetic .care2-esthetic-section .lip-esthetic .detail {
-  font-weight: 200;
   line-height: 200%;
 }
 
@@ -12872,7 +12810,6 @@ body {
 }
 
 .esthetic .care2-esthetic-section .lip-esthetic .why-care p.dd {
-  font-weight: 200;
   line-height: 150%;
 }
 
@@ -12899,7 +12836,6 @@ body {
 
 .esthetic .care2-esthetic-section .lip-esthetic .practitioner-wrap .dd {
   margin-bottom: 30px;
-  font-weight: 200;
   line-height: 150%;
 }
 
@@ -12952,7 +12888,6 @@ body {
 }
 
 .esthetic .care2-esthetic-section .facial h3.head {
-  font-weight: 200;
   text-align: left;
   margin-bottom: 20px;
 }
@@ -12965,7 +12900,6 @@ body {
 }
 
 .esthetic .care2-esthetic-section .facial .detail {
-  font-weight: 200;
   line-height: 200%;
 }
 
@@ -12976,7 +12910,6 @@ body {
 }
 
 .esthetic .care2-esthetic-section .aroma h3.head {
-  font-weight: 200;
   text-align: left;
   margin-bottom: 20px;
 }
@@ -13024,13 +12957,11 @@ body {
 }
 
 .esthetic .care2-esthetic-section .aroma h4.head {
-  font-weight: 200;
   text-align: left;
   margin: 30px 0;
 }
 
 .esthetic .care2-esthetic-section .aroma .detail {
-  font-weight: 200;
   line-height: 200%;
   text-align: left;
 }
@@ -13048,7 +12979,6 @@ body {
 }
 
 .esthetic .care2-esthetic-section .aroma .comment {
-  font-weight: 200;
   line-height: 200%;
 }
 
@@ -13139,7 +13069,6 @@ body {
 .grinding .cure2-outline-section p.intro {
   margin: 0 auto;
   letter-spacing: 0.2rem;
-  font-weight: 200;
   line-height: 200%;
   text-align: center;
   padding-bottom: 30px;
@@ -13168,7 +13097,6 @@ body {
 }
 
 .grinding .cure2-grinding-section p {
-  font-weight: 200;
   line-height: 180%;
 }
 
@@ -13347,14 +13275,14 @@ body {
 }
 
 .gum-care .care1-periodontal-section h3.head {
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 30px;
   text-align: center;
 }
 
 .gum-care .care1-periodontal-section p.intro {
   margin: 0 auto 100px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 200%;
   text-align: justify;
 }
@@ -13371,7 +13299,7 @@ body {
 }
 
 .gum-care .care1-periodontal-section .treatment-wrap p.detail {
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 10px;
   line-height: 150%;
   text-align: center;
@@ -13403,7 +13331,7 @@ body {
 }
 
 .gum-care .care1-periodontal-section .periodontal .detail {
-  font-weight: 300;
+  font-weight: 400;
   line-height: 200%;
 }
 
@@ -13423,12 +13351,12 @@ body {
 }
 
 .gum-care .care1-periodontal-section .perosovl p.detail.flort {
-  font-weight: 300;
+  font-weight: 400;
   line-height: 200%;
 }
 
 .gum-care .care1-periodontal-section .perosovl p.detail {
-  font-weight: 300;
+  font-weight: 400;
   line-height: 200%;
 }
 
@@ -13442,7 +13370,7 @@ body {
 }
 
 .gum-care .care1-periodontal-section .perosovl .merit h4.head {
-  font-weight: 700;
+  font-weight: 600;
   text-align: left;
   margin: 0 0 10px;
   padding-bottom: 10px;
@@ -13452,7 +13380,7 @@ body {
 .gum-care .care1-periodontal-section .perosovl .merit ul.detail li {
   margin-left: 20px;
   list-style: disc;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 180%;
 }
 
@@ -13465,7 +13393,7 @@ body {
 }
 
 .gum-care .care1-periodontal-section .perosovl .safty h4.head {
-  font-weight: 700;
+  font-weight: 600;
   text-align: left;
   margin: 0 0 10px;
   padding-bottom: 10px;
@@ -13473,7 +13401,7 @@ body {
 }
 
 .gum-care .care1-periodontal-section .perosovl .safty p.detail {
-  font-weight: 300;
+  font-weight: 400;
   line-height: 180%;
 }
 
@@ -13486,7 +13414,7 @@ body {
 }
 
 .gum-care .care1-periodontal-section .perosovl .treatment h4.head {
-  font-weight: 700;
+  font-weight: 600;
   text-align: left;
   margin: 0 0 10px;
   padding-bottom: 10px;
@@ -13496,7 +13424,7 @@ body {
 .gum-care .care1-periodontal-section .perosovl .treatment ul.detail li {
   margin-left: 20px;
   list-style: decimal;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 180%;
 }
 
@@ -13509,7 +13437,7 @@ body {
 }
 
 .gum-care .care1-periodontal-section .perosovl .price h4.head {
-  font-weight: 700;
+  font-weight: 600;
   text-align: left;
   margin: 0 0 10px;
   padding-bottom: 10px;
@@ -13519,7 +13447,7 @@ body {
 .gum-care .care1-periodontal-section .perosovl .price ul.detail li {
   margin-left: 20px;
   list-style: circle;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 180%;
 }
 
@@ -13541,7 +13469,7 @@ body {
 }
 
 .gum-care .care1-periodontal-section .injection .detail {
-  font-weight: 300;
+  font-weight: 400;
   line-height: 200%;
   margin-bottom: 30px;
 }
@@ -13552,14 +13480,14 @@ body {
 }
 
 .gum-care .care1-periodontal-section .injection h4.head {
-  font-weight: 300;
+  font-weight: 400;
   text-align: left;
   margin-bottom: 20px;
   text-align: center;
 }
 
 .gum-care .care1-periodontal-section .injection ul {
-  font-weight: 300;
+  font-weight: 400;
   line-height: 200%;
   margin-bottom: 30px;
   text-align: center;
@@ -13593,7 +13521,7 @@ body {
 }
 
 .gum-care .care1-periodontal-section .impact-wrap .impact .sub-head {
-  font-weight: 300;
+  font-weight: 400;
   margin: 10px 0;
   text-align: center;
   letter-spacing: 0.1rem;
@@ -13607,7 +13535,7 @@ body {
 }
 
 .gum-care .care1-periodontal-section .impact-wrap .impact .detail {
-  font-weight: 300;
+  font-weight: 400;
   line-height: 200%;
   margin-bottom: 30px;
 }
@@ -13650,7 +13578,7 @@ body {
 }
 
 .gum-care .care1-gum-massage-section .left p.detail {
-  font-weight: 300;
+  font-weight: 400;
   line-height: 180%;
   margin-bottom: 30px;
   text-align: justify;
@@ -13696,7 +13624,7 @@ body {
 }
 
 .gum-care .care1-gum-massage-section .pmtc-menu .detail {
-  font-weight: 300;
+  font-weight: 400;
   line-height: 200%;
   margin-bottom: 100px;
 }
@@ -13776,7 +13704,6 @@ body {
 .implant .cure2-outline-section p.intro {
   margin: 0 auto;
   letter-spacing: 0.2rem;
-  font-weight: 200;
   line-height: 200%;
   text-align: left;
   padding-bottom: 30px;
@@ -13895,7 +13822,6 @@ body {
 .implant .cure2-implant-section .merit li span {
   display: block;
   font-size: 1.4rem;
-  font-weight: 200;
 }
 
 .implant .cure2-warranty-section {
@@ -13912,12 +13838,10 @@ body {
 }
 
 .implant .cure2-warranty-section h3.head {
-  font-weight: 200;
   margin-bottom: 30px;
 }
 
 .implant .cure2-warranty-section p.lead {
-  font-weight: 200;
   margin-bottom: 30px;
   line-height: 2.2;
   text-align: center;
@@ -13987,7 +13911,6 @@ body {
 }
 
 .injection .care2-hyaluronic-section .injection-wrap h2.head {
-  font-weight: 200;
   text-align: center;
   margin: 100px 0;
 }
@@ -13998,13 +13921,11 @@ body {
 }
 
 .injection .care2-hyaluronic-section .injection-wrap .hyaluronic h3.head {
-  font-weight: 200;
   text-align: left;
   margin-bottom: 20px;
 }
 
 .injection .care2-hyaluronic-section .injection-wrap .hyaluronic h4.sub-head {
-  font-weight: 200;
   text-align: left;
   margin: 30px 0;
 }
@@ -14016,7 +13937,6 @@ body {
 }
 
 .injection .care2-hyaluronic-section .injection-wrap .hyaluronic .detail {
-  font-weight: 200;
   line-height: 200%;
   margin-bottom: 30px;
 }
@@ -14054,7 +13974,6 @@ body {
 }
 
 .injection .care2-hyaluronic-section .injection-wrap .botox h3.head {
-  font-weight: 200;
   text-align: left;
   margin-bottom: 20px;
 }
@@ -14069,17 +13988,14 @@ body {
 .injection .care2-hyaluronic-section .injection-wrap .botox .head {
   text-align: center;
   margin-bottom: 30px;
-  font-weight: 200;
 }
 
 .injection .care2-hyaluronic-section .injection-wrap .botox .head.left {
   text-align: left;
   margin-bottom: 10px;
-  font-weight: 200;
 }
 
 .injection .care2-hyaluronic-section .injection-wrap .botox .detail {
-  font-weight: 200;
   line-height: 200%;
   margin-bottom: 30px;
 }
@@ -14097,13 +14013,11 @@ body {
 }
 
 .injection .care2-hyaluronic-section .injection-wrap .botox h4.head {
-  font-weight: 200;
   text-align: left;
   margin-bottom: 20px;
 }
 
 .injection .care2-hyaluronic-section .injection-wrap .botox .att {
-  font-weight: 200;
   line-height: 150%;
   margin-bottom: 30px;
 }
@@ -14123,7 +14037,6 @@ body {
 }
 
 .injection .care2-injection-section .injection-wrap h2.head {
-  font-weight: 200;
   text-align: center;
   margin: 100px 0;
 }
@@ -14134,7 +14047,6 @@ body {
 }
 
 .injection .care2-injection-section .injection-wrap .placenta h3.head {
-  font-weight: 200;
   text-align: left;
   margin: 30px 0 20px;
 }
@@ -14147,7 +14059,6 @@ body {
 }
 
 .injection .care2-injection-section .injection-wrap .placenta .detail {
-  font-weight: 200;
   line-height: 200%;
   margin-bottom: 50px;
 }
@@ -14172,19 +14083,16 @@ body {
 }
 
 .injection .care2-injection-section .injection-wrap .placenta h4.head {
-  font-weight: 200;
   text-align: left;
   margin-bottom: 20px;
 }
 
 .injection .care2-injection-section .injection-wrap .placenta .att {
-  font-weight: 200;
   line-height: 150%;
   margin-bottom: 20px;
 }
 
 .injection .care2-injection-section .injection-wrap .placenta .risk li {
-  font-weight: 200;
   line-height: 150%;
   margin: 0 0 5px 10px;
   list-style: disc;
@@ -14196,7 +14104,6 @@ body {
 }
 
 .injection .care2-injection-section .injection-wrap .vitamin-c h3.head {
-  font-weight: 200;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -14209,13 +14116,11 @@ body {
 }
 
 .injection .care2-injection-section .injection-wrap .vitamin-c .detail {
-  font-weight: 200;
   line-height: 200%;
   margin-bottom: 50px;
 }
 
 .injection .care2-injection-section .injection-wrap .vitamin-c .head {
-  font-weight: 200;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -14243,19 +14148,16 @@ body {
 }
 
 .injection .care2-injection-section .injection-wrap .vitamin-c h4.head {
-  font-weight: 200;
   text-align: center;
   margin-bottom: 20px;
 }
 
 .injection .care2-injection-section .injection-wrap .vitamin-c .att {
-  font-weight: 200;
   line-height: 200%;
   margin-bottom: 30px;
 }
 
 .injection .care2-injection-section .injection-wrap .vitamin-c .risk li {
-  font-weight: 200;
   line-height: 200%;
   margin: 0 0 5px 20px;
   list-style: disc;
@@ -14267,19 +14169,16 @@ body {
 }
 
 .injection .care2-injection-section .injection-wrap .myers-c h3.head {
-  font-weight: 200;
   text-align: left;
   margin-bottom: 20px;
 }
 
 .injection .care2-injection-section .injection-wrap .myers-c p.intro {
-  font-weight: 200;
   text-align: left;
   margin: 30px 0;
 }
 
 .injection .care2-injection-section .injection-wrap .myers-c .detail {
-  font-weight: 200;
   line-height: 200%;
   margin-bottom: 50px;
 }
@@ -14312,13 +14211,11 @@ body {
 }
 
 .injection .care2-injection-section .injection-wrap .myers-c h4.head {
-  font-weight: 200;
   text-align: left;
   margin-bottom: 20px;
 }
 
 .injection .care2-injection-section .injection-wrap .myers-c .att {
-  font-weight: 200;
   line-height: 200%;
   margin-bottom: 30px;
 }
@@ -14332,7 +14229,6 @@ body {
   max-width: 1040px;
   padding: 50px 125px;
   margin: auto;
-  font-weight: 200;
   background-color: white;
 }
 
@@ -14354,7 +14250,6 @@ body {
   max-width: 1040px;
   padding: 0 20px;
   margin: 100px auto 150px;
-  font-weight: 200;
   line-height: 1.8;
   letter-spacing: 0;
 }
@@ -14476,7 +14371,6 @@ body {
 .metal-free .metal-free__content p.intro {
   margin-top: 50px;
   letter-spacing: 0.2rem;
-  font-weight: 200;
   line-height: 200%;
   text-align: justify;
 }
@@ -14678,7 +14572,6 @@ bridal-content
 .teeth-cleaning .teeth-cleaning__content .care1-outline-section p.intro {
   margin: 0 auto;
   letter-spacing: 0.2rem;
-  font-weight: 200;
   line-height: 200%;
   text-align: center;
 }
@@ -14697,14 +14590,12 @@ bridal-content
 }
 
 .teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content h3.head {
-  font-weight: 200;
   margin-bottom: 20px;
   text-align: center;
 }
 
 .teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content p.intro {
   margin: 0 auto 50px;
-  font-weight: 200;
   line-height: 200%;
   text-align: justify;
 }
@@ -14732,7 +14623,6 @@ bridal-content
 }
 
 .teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .recommend h4.head {
-  font-weight: 200;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -14773,7 +14663,6 @@ bridal-content
 }
 
 .teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .treatment-wrap {
-  font-weight: 200;
   line-height: 150%;
   text-align: center;
 }
@@ -14792,7 +14681,7 @@ bridal-content
 }
 
 .teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .treatment-wrap .comment {
-  font-weight: 300;
+  font-weight: 400;
   line-height: 150%;
   margin-top: 30px;
 }
@@ -14868,7 +14757,6 @@ bridal-content
 
 .teeth-cleaning .bridal-content .cure1-outline-section h2.head {
   text-align: center;
-  font-weight: 100;
   letter-spacing: 0.5rem;
   text-indent: 0.5rem;
   margin-bottom: 50px;
@@ -14878,7 +14766,6 @@ bridal-content
 .teeth-cleaning .bridal-content .cure1-outline-section p.intro {
   margin: 0 auto;
   letter-spacing: 0.2rem;
-  font-weight: 200;
   line-height: 200%;
   text-align: center;
 }
@@ -14886,7 +14773,6 @@ bridal-content
 .teeth-cleaning .bridal-content .cure1-outline-section p.intro2 {
   margin: 40px auto 0;
   letter-spacing: 0.2rem;
-  font-weight: 200;
   line-height: 200%;
   text-align: justify;
 }
@@ -14903,7 +14789,6 @@ bridal-content
 
 .teeth-cleaning .bridal-content .cure1-bridal-section h2.head {
   text-align: center;
-  font-weight: 100;
   letter-spacing: 0.5rem;
   margin: 50px 0 10px;
   line-height: 150%;
@@ -14920,19 +14805,18 @@ bridal-content
 
 .teeth-cleaning .bridal-content .cure1-bridal-section h3.head span {
   text-align: left;
-  font-weight: 300;
+  font-weight: 400;
   padding-bottom: 10px;
   line-height: 150%;
   font-size: 1.6rem;
 }
 
 .teeth-cleaning .bridal-content .cure1-bridal-section .subhead {
-  font-weight: 300;
+  font-weight: 400;
   margin: 0 0 20px;
 }
 
 .teeth-cleaning .bridal-content .cure1-bridal-section .plan {
-  font-weight: 200;
   background-color: rgba(210, 190, 165, 0.5);
   padding: 10px 150px 10px 10px;
   color: #333;
@@ -14957,7 +14841,7 @@ bridal-content
 .teeth-cleaning .bridal-content .cure1-bridal-section .comment {
   text-align: justify;
   line-height: 200%;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .teeth-cleaning .bridal-content .cure1-bridal-section .comment span {

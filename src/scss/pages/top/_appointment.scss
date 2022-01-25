@@ -15,7 +15,7 @@
 .appointment-header h1.head {
 	font-family: "futura-pt",sans-serif;
 	width: 100%;
-	font-weight: 100;
+	
 	text-align: center;
 	letter-spacing: 0.5rem;
 	text-indent: 0.5rem;
@@ -45,7 +45,7 @@
 
     h2.head {
         width: 100%;
-        font-weight: 400;
+        font-weight: $font_regular;
         text-align: center;
         letter-spacing: 0.4rem;
         margin-bottom: 40px;
@@ -53,14 +53,14 @@
     }
     div.detail {
         letter-spacing: 0.1rem;
-        font-weight: 200;
+        
         line-height: 150%;
         text-align: center;
         margin-bottom: 50px;
     }
     div.link {
         letter-spacing: 0.1rem;
-        font-weight: 200;
+        
         line-height: 150%;
         text-align: center;
         margin-bottom: 50px;
@@ -78,13 +78,13 @@
         width: 800px;
         margin: 0 auto 50px;
         letter-spacing: 0.1rem;
-        font-weight: 200;
+        
         line-height: 150%;
         text-align: left;
     }
     .privacy {
         letter-spacing: 0.1rem;
-        font-weight: 300;
+        font-weight: $font_regular;
         line-height: 160%;
         text-align: justify;
         margin: 0 auto 50px;
@@ -94,7 +94,7 @@
         padding-left:1em;
         li {
             letter-spacing: 0.1rem;
-            font-weight: 200;
+            
             line-height: 160%;
             text-align: justify;
             text-indent:-1em;
@@ -112,7 +112,7 @@
         overflow: hidden;	
         .head {
             width: 100%;
-            font-weight: 400;
+            font-weight: $font_regular;
             text-align: center;
             letter-spacing: 0.4rem;
             margin-bottom: 20px;
@@ -120,14 +120,14 @@
         }
         .note {
             letter-spacing: 0.1rem;
-            font-weight: 200;
+            
             line-height: 150%;
             margin-bottom: 50px;	
             p {
                 margin-bottom: 30px;
             }
             .title {
-                font-weight: 400;	
+                font-weight: $font_regular;	
             }
         }
     }

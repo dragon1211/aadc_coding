@@ -23,7 +23,7 @@
 
 	h2.head {
 		text-align: center;
-		font-weight: 100;
+		
 		letter-spacing: 0.5rem;
 		text-indent: 0.5rem;	
 		margin-bottom: 50px;
@@ -32,14 +32,14 @@
 	p.intro {
 		margin: 0 auto;
 		letter-spacing: 0.2rem;
-		font-weight: 200;
+		
 		line-height: 200%;
 		text-align: justify;
 		padding-bottom: 30px;
 	}
 	h3.head {
 		text-align: center;
-		font-weight: 200;
+		
 		letter-spacing: 0.2rem;
 		text-indent: 0.2rem;
 		margin: 50px auto 30px;
@@ -47,7 +47,7 @@
 	}
 	p.detail {
 		letter-spacing: 0.2rem;
-		font-weight: 200;
+		
 		line-height: 200%;
 		text-align: justify;
 		padding-bottom: 30px;
@@ -62,7 +62,7 @@
 	.case {
 		margin: 0 auto;
 		letter-spacing: 0.2rem;
-		font-weight: 200;
+		
 		line-height: 200%;
 		text-align: center;
 		padding-bottom: 30px;	
@@ -74,7 +74,7 @@
 			}
 		}
 		ul {
-			font-weight: 500;
+			font-weight: $font_medium;
 			margin-bottom: 30px;
 			li {
 				margin: 20px;
@@ -114,7 +114,7 @@
 			}
 		}
 		.head {
-			font-weight: 400;
+			font-weight: $font_regular;
 			padding: 10px;
 			background-color: #f6f2ed;
 			vertical-align: middle;
@@ -123,7 +123,7 @@
 		.comment {
 			min-height: 120px;
 			line-height: 150%;
-			font-weight: 300;
+			font-weight: $font_regular;
 			text-align: left;
 		}
 	}
@@ -137,7 +137,7 @@
 	margin: 0 auto;
 	h3.head {
 		text-align: center;
-		font-weight: 200;
+		
 		letter-spacing: 0.2rem;
 		text-indent: 0.2rem;
 		margin: 0 auto 50px;
@@ -158,7 +158,7 @@
 		}
 		h4 {
 			text-align: justify;
-			font-weight: 500;
+			font-weight: $font_medium;
 			letter-spacing: 0.2rem;
 			text-indent: 0.2rem;
 			margin-bottom: 10px;
@@ -166,7 +166,7 @@
 		}
 		.comment {
 			text-align: justify;
-			font-weight: 200;
+			
 			letter-spacing: 0.1rem;
 			text-indent: 0.2rem;
 			line-height: 200%;	
@@ -189,7 +189,7 @@
 		}
 		h4.center {
 			text-align: center;
-			font-weight: 500;
+			font-weight: $font_medium;
 			letter-spacing: 0.2rem;
 			text-indent: 0.2rem;
 			margin-bottom: 10px;
@@ -202,12 +202,12 @@
 				padding: 10px;
 				margin: 10px 0;
 				background-color: #f6f2ed;
-				font-weight: 400;
+				font-weight: $font_regular;
 			}
 		}
 	}
 	.end {
-		font-weight: 400;
+		font-weight: $font_regular;
 		line-height: 200%;
 		color: #d53212;
 	}
@@ -222,7 +222,7 @@
 
 	h3.head {
 		text-align: center;
-		font-weight: 200;
+		
 		letter-spacing: 0.2rem;
 		text-indent: 0.2rem;
 		margin: 50px auto 30px;
@@ -230,7 +230,7 @@
 	}
 	p.detail {
 		letter-spacing: 0.2rem;
-		font-weight: 200;
+		
 		line-height: 200%;
 		text-align: justify;
 		padding-bottom: 30px;
@@ -245,7 +245,7 @@
 	margin: 0 auto;
 	h3.head {
 		text-align: center;
-		font-weight: 200;
+		
 		letter-spacing: 0.2rem;
 		text-indent: 0.2rem;
 		margin: 0 auto 50px;
@@ -289,7 +289,7 @@
 		}
 		h4 {
 			text-align: justify;
-			font-weight: 500;
+			font-weight: $font_medium;
 			letter-spacing: 0.2rem;
 			text-indent: 0.2rem;
 			margin-bottom: 10px;
@@ -297,7 +297,7 @@
 		}
 		h4.under {
 			text-align: justify;
-			font-weight: 300;
+			font-weight: $font_regular;
 			letter-spacing: 0rem;
 			text-indent: 0.2rem;
 			margin-bottom: 10px;
@@ -306,7 +306,7 @@
 		}
 		.comment {
 			text-align: justify;
-			font-weight: 200;
+			
 			letter-spacing: 0.1rem;
 			text-indent: 0.2rem;
 			line-height: 200%;	
@@ -325,7 +325,7 @@
 		}
 		h4.center {
 			text-align: center;
-			font-weight: 500;
+			font-weight: $font_medium;
 			letter-spacing: 0.2rem;
 			text-indent: 0.2rem;
 			margin-bottom: 10px;
@@ -338,12 +338,12 @@
 				padding: 10px;
 				margin: 10px 0;
 				background-color: #f6f2ed;
-				font-weight: 400;
+				font-weight: $font_regular;
 			}
 		}
 	}
 	.end {
-		font-weight: 400;
+		font-weight: $font_regular;
 		line-height: 150%;
 		color: #d53212;
 	}
@@ -358,7 +358,7 @@
 
 	h3.head {
 		text-align: center;
-		font-weight: 200;
+		
 		letter-spacing: 0.2rem;
 		text-indent: 0.2rem;
 		margin: 50px auto 30px;
@@ -366,7 +366,7 @@
 	}
 	p.detail {
 		letter-spacing: 0.2rem;
-		font-weight: 200;
+		
 		line-height: 200%;
 		text-align: justify;
 		padding-bottom: 30px;
@@ -409,7 +409,7 @@
 		}
 		h4 {
 			text-align: justify;
-			font-weight: 500;
+			font-weight: $font_medium;
 			letter-spacing: 0.2rem;
 			text-indent: 0.2rem;
 			margin-bottom: 10px;
@@ -417,7 +417,7 @@
 		}
 		.comment {
 			text-align: justify;
-			font-weight: 200;
+			
 			letter-spacing: 0.1rem;
 			text-indent: 0.2rem;
 			line-height: 200%;	
@@ -436,7 +436,7 @@
 		}
 		h4.center {
 			text-align: center;
-			font-weight: 500;
+			font-weight: $font_medium;
 			letter-spacing: 0.2rem;
 			text-indent: 0.2rem;
 			margin-bottom: 10px;
@@ -449,7 +449,7 @@
 				padding: 10px;
 				margin: 10px 0;
 				background-color: #f6f2ed;
-				font-weight: 400;
+				font-weight: $font_regular;
 			}
 		}
 	}
@@ -462,14 +462,14 @@
 	padding: 0 20px 100px;
 	margin: 0 auto;
 	.bold {
-		font-weight: 400;
+		font-weight: $font_regular;
 		margin-bottom: 30px;
 	}
 	ul {
-		font-weight: 500;
+		font-weight: $font_medium;
 		margin-bottom: 30px;
 		li {
-			font-weight: 200;
+			
 			margin: 20px;
 			line-height: 150%;
 			list-style: disc;
@@ -483,15 +483,15 @@
 	padding: 0 20px 100px;
 	margin: 0 auto;
 	.bold {
-		font-weight: 400;
+		font-weight: $font_regular;
 		line-height: 150%;
 		margin-bottom: 30px;
 	}
 	ul {
-		font-weight: 500;
+		font-weight: $font_medium;
 		margin-bottom: 30px;
 		li {
-			font-weight: 200;
+			
 			margin: 10px 20px;
 			line-height: 150%;
 			list-style: disc;

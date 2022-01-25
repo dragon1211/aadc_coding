@@ -17,7 +17,7 @@
 	margin: auto;
 	h2.head {
 		text-align: center;
-		font-weight: 400;
+		font-weight: $font_bold;
 		letter-spacing: 0.5rem;
 		text-indent: 0.5rem;	
 		margin-bottom: 50px;
@@ -38,7 +38,7 @@
 	padding: 50px 20px;
 	h2.head {
 		text-align: center;
-		font-weight: 400;
+		font-weight: $font_bold;
 		letter-spacing: 0.5rem;
 		text-indent: 0.5rem;	
 		margin: 50px 0 10px;
@@ -49,7 +49,7 @@
 	}
 	h3.head {
 		text-align: left;
-		font-weight: 400;
+		font-weight: $font_bold;
 		text-indent: 0.5rem;	
 		margin: 50px 0 10px;
 		line-height: 150%;		
@@ -103,7 +103,7 @@
 		padding: 50px 20px 0;	
 		margin: 50px auto 0;
 		h4.head {
-			font-weight: 400;
+			font-weight: $font_bold;
 			margin-bottom: 30px;
 			text-align: center;
 			span {
@@ -165,12 +165,12 @@
 		padding: 30px;
 		background-color: #efefef;	
 		h4 {
-			font-weight: 600;
+			font-weight: $font_bold;
 			margin-bottom: 20px;
 			text-align: center;	
 		}
 		p {
-			font-weight: 500;
+			font-weight: $font_medium;
 			margin-bottom: 20px;
 			text-align: center;	
 		}

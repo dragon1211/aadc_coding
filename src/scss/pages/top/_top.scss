@@ -20,7 +20,7 @@
 		background-color: $color_white;
 		a.home-notice__covid19 {
 			font-size: 1.3rem;
-			font-weight: 500;
+			font-weight: $font_medium;
 			line-height: 50px;
 			color: $color_textlink;
 			-webkit-box-orient: vertical;
@@ -98,14 +98,14 @@
 	left: 15%;
 	@include logo-font();
 	font-size: 20rem;
-	font-weight: 500;
+	font-weight: $font_medium;
 	color: $color_main;
 	margin: 0 auto;
 		span {
 			@include base-font();
 			margin-top: -80px;
 			font-size: 4.0rem;
-			font-weight: 500;
+			font-weight: $font_medium;
 			color: $color_black;
 			display: block;
 		}
@@ -186,7 +186,7 @@
 		@include base-font();
 		text-align: center;
 		font-size: 3.0rem;
-		font-weight: 700;
+		font-weight: $font_bold;
 		color: $color_black;
 	}
 
@@ -226,7 +226,7 @@
 			.title{
 				margin-top: 7px;
 				font-size: 1.6rem;
-				font-weight: 500;
+				font-weight: $font_medium;
 				color: $color_black;
 				-webkit-box-orient: vertical;
 				overflow: hidden;
@@ -305,14 +305,14 @@
 		@include base-font();
 		text-align: center;
 		font-size: 3.0rem;
-		font-weight: 700;
+		font-weight: $font_bold;
 		color: $color_black;
 	}
 	a {
 		display: block;
 		margin-top: 10px;
 		font-size: 1.4rem;
-		font-weight: 500;
+		font-weight: $font_medium;
 		color: $color_textlink;
 		&:hover {
 			opacity: .8;
@@ -484,14 +484,14 @@
 		text-align: center;
 		margin: 0 auto 80px;
 		font-size: 3.0rem;
-		font-weight: 700;
+		font-weight: $font_bold;
 		color: $color_black;
 
 		a{
 			display: block;
 			text-align: center;
 			font-size: 1.4rem;
-			font-weight: 500;
+			font-weight: $font_medium;
 			color: $color_textlink;
 			&:hover {
 				text-decoration: underline;
@@ -501,7 +501,7 @@
 	&__copy {
 		@include base-font();
 		font-size: 1.6rem;
-		font-weight: 400;
+		font-weight: $font_regular;
 		line-height: 2;
 		color: $color_black;
 		text-align: left;
@@ -512,7 +512,7 @@
 			text-align: center;
 			margin: 40px;
 			font-size: 1.4rem;
-			font-weight: 500;
+			font-weight: $font_medium;
 			color: $color_textlink;
 			&:hover {
 				text-decoration: underline;
@@ -527,7 +527,7 @@
 		margin: 0 auto;
 		padding: 0;
 		font-size: 1.6rem;
-		font-weight: 700;
+		font-weight: $font_bold;
 		line-height: 2;
 		color: $color_black;
 		li:not(:last-child){
@@ -596,14 +596,14 @@
 		margin: 0 auto 80px;
 		font-size: 3.0rem;
 		line-height: 2;
-		font-weight: 500;
+		font-weight: $font_medium;
 		color: $color_black;
 	}
 
 	&__read {
 		@include base-font();
 		font-size: 1.6rem;
-		font-weight: 400;
+		font-weight: $font_regular;
 		line-height: 2;
 		color: $color_black;
 		text-align: center;
@@ -613,7 +613,7 @@
 			text-align: center;
 			margin: 40px;
 			font-size: 1.4rem;
-			font-weight: 500;
+			font-weight: $font_medium;
 			color: $color_textlink;
 			&:hover {
 				text-decoration: underline;
@@ -641,13 +641,13 @@
 		@include base-font();
 		text-align: left;
 		font-size: 3.0rem;
-		font-weight: 700;
+		font-weight: $font_bold;
 		color: $color_black;
 		a {
 			display: block;
 			margin-top: 10px;
 			font-size: 1.4rem;
-			font-weight: 500;
+			font-weight: $font_medium;
 			color: $color_textlink;
 			&:hover {
 				text-decoration: underline;
@@ -672,13 +672,13 @@
 		@include base-font();
 		text-align: right;
 		font-size: 3.0rem;
-		font-weight: 700;
+		font-weight: $font_bold;
 		color: $color_black;
 		a {
 			display: block;
 			margin-top: 10px;
 			font-size: 1.4rem;
-			font-weight: 500;
+			font-weight: $font_medium;
 			color: $color_textlink;
 			&:hover {
 				text-decoration: underline;
@@ -709,7 +709,7 @@
 		filter: drop-shadow(1px 1px 2px #dddddd);
 		@include base-font();
 		font-size: 1.8rem;
-		font-weight: 700;
+		font-weight: $font_bold;
 
 		a {
 			display: flex;
@@ -812,7 +812,7 @@
 		text-align: center;
 		margin: 0 auto;
 		font-size: 3.0rem;
-		font-weight: 700;
+		font-weight: $font_bold;
 		letter-spacing: 0.2em;
 		color: $color_black;
 	}
@@ -831,7 +831,7 @@
 		text-align: left;
 		padding: 30px 0 0;
 		font-size: 1.4rem;
-		font-weight: 400;
+		font-weight: $font_regular;
 		letter-spacing: 0;
 		color: #999;
 		display: flex;
@@ -841,7 +841,7 @@
 	.submit {
 		@include base-font();
 		font-size: 5.0rem;
-		font-weight: 700;
+		font-weight: $font_bold;
 		letter-spacing: 0.2em;
 		margin: 50px auto 0 auto;
 		max-width: 800px;
@@ -885,7 +885,7 @@
 		span{
 			font-size: 6rem;
 			color: $color_main;
-			font-weight: 500;
+			font-weight: $font_medium;
 		}
 	}
 
@@ -893,7 +893,7 @@
 		margin-top: 20px;
 		font-size: 18px;
 		text-align: center;
-		font-weight: 500;
+		font-weight: $font_medium;
 	}
 	
 
@@ -1016,7 +1016,7 @@
 			span{
 				color: $color_main;
 				font-size: 3rem;
-				font-weight: 500;
+				font-weight: $font_medium;
 			}
 		}
 
@@ -1024,7 +1024,7 @@
 			margin-top: 10px;
 			margin-bottom: 16px;
 			text-align: center;
-			font-weight: 500;
+			font-weight: $font_medium;
 		}
 		.text2{
 			margin-top: 20px;
@@ -1052,7 +1052,7 @@
 				padding: 17px;
 				border-right: 1px solid #DDDDDD;
 			}
-			thead td{font-weight: 500;}
+			thead td{font-weight: $font_medium;}
 			thead td{padding-top: 5px;}
 			tr td:first-child{ padding-right: 30px;}
 
@@ -1065,7 +1065,7 @@
 	&__heading{
 		@include base-font();
 		font-size: 2.4rem;
-		font-weight: 500;
+		font-weight: $font_medium;
 		text-align: center;
 	}
 
@@ -1156,7 +1156,7 @@
 			margin-top: 10px;
 			margin-bottom: 16px;
 			text-align: center;
-			font-weight: 500;
+			font-weight: $font_medium;
 		}
 		.text2{
 			margin-top: 20px;

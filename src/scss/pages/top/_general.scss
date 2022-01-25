@@ -13,7 +13,7 @@
 
     h2.head {
         text-align: center;
-        font-weight: 300;
+        font-weight: $font_regular;
         letter-spacing: 0.5rem;
         text-indent: 0.5rem;	
         margin-bottom: 50px;
@@ -22,7 +22,7 @@
     p.intro {
         margin: 0 auto;
         letter-spacing: 0.2rem;
-        font-weight: 200;
+        
         line-height: 200%;
         text-align: center;
         padding-bottom: 30px;
@@ -45,13 +45,13 @@
         padding: 0 20px;
         h3.head {
             text-align: center;
-            font-weight: 500;
+            font-weight: $font_medium;
             letter-spacing: 0.2rem;
             text-indent: 0.2rem;
             margin-bottom: 20px;
         }
         p.detail {
-            font-weight: 200;
+            
             line-height: 180%;	
         }
     }
@@ -65,7 +65,7 @@
 	background-color: #fafafa;
     h2.head {
         text-align: center;
-        font-weight: 300;
+        font-weight: $font_regular;
         letter-spacing: 0.5rem;
         text-indent: 0.5rem;	
         margin-bottom: 50px;
@@ -73,7 +73,7 @@
     p.intro {
         margin: 0 auto;
         letter-spacing: 0.2rem;
-        font-weight: 200;
+        
         line-height: 200%;
         text-align: center;
         padding-bottom: 30px;
@@ -89,14 +89,14 @@
 
     h2.head {
         text-align: center;
-        font-weight: 300;
+        font-weight: $font_regular;
         letter-spacing: 0.5rem;
         text-indent: 0.5rem;	
         margin-bottom: 50px;
     }
     h3.head {
         text-align: center;
-        font-weight: 300;
+        font-weight: $font_regular;
         letter-spacing: 0.2rem;
         text-indent: 0.2rem;
         line-height: 150%;
@@ -106,7 +106,7 @@
     p.intro {
         margin: 0 auto;
         letter-spacing: 0.2rem;
-        font-weight: 200;
+        
         line-height: 200%;
         text-align: center;
         padding-bottom: 30px;

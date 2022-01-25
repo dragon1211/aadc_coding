@@ -14,14 +14,14 @@
 
 	h2.head {
 		text-align: center;
-		font-weight: 400;
+		font-weight: $font_regular;
 		letter-spacing: 0.5rem;
 		text-indent: 0.5rem;	
 		margin-bottom: 50px;
 		line-height: 180%;	
 		&.sub {
 			text-align: center;
-			font-weight: 200;
+			
 			letter-spacing: 0.5rem;
 			text-indent: 0.5rem;
 			margin: 50px 0;
@@ -31,21 +31,21 @@
 	p.intro {
 		margin: 0 auto ;
 		letter-spacing: 0.2rem;
-		font-weight: 200;
+		
 		line-height: 200%;
 		text-align: justify;
 		padding-bottom: 30px;
 	}
 	h3.head {
 		text-align: center;
-		font-weight: 200;
+		
 		letter-spacing: 0.2rem;
 		text-indent: 0.2rem;
 		margin: 50px auto 30px;
 		line-height: 150%;
 		&.top {
 			text-align: center;
-			font-weight: 200;
+			
 			letter-spacing: 0.2rem;
 			text-indent: 0.2rem;
 			margin: 30px auto;
@@ -55,14 +55,14 @@
 	p.detail {
 		margin: 0 100px;
 		letter-spacing: 0.2rem;
-		font-weight: 200;
+		
 		line-height: 200%;
 		text-align: justify;
 		padding-bottom: 30px;
 		&.center {
 			margin: 0 auto 30px;
 			letter-spacing: 0.2rem;
-			font-weight: 400;
+			font-weight: $font_regular;
 			line-height: 200%;
 			text-align: center;
 			background-color: #fafafa;
@@ -82,7 +82,7 @@
 	ul.detail {
 		margin: 0 auto;
 		letter-spacing: 0.2rem;
-		font-weight: 400;
+		font-weight: $font_regular;
 		line-height: 200%;
 		text-align:center;
 		margin-bottom: 30px;
@@ -95,7 +95,7 @@
 		&.price {
 			margin: 0 auto;
 			letter-spacing: 0.2rem;
-			font-weight: 400;
+			font-weight: $font_regular;
 			line-height: 200%;
 			text-align:center;
 			margin-bottom: 30px;
@@ -108,7 +108,7 @@
 			}
 			span {
 				display: block;
-				font-weight: 500;
+				font-weight: $font_medium;
 			}
 		}
 	}
@@ -121,7 +121,7 @@
 	overflow: hidden;
 	h3.head {
 		text-align: center;
-		font-weight: 200;
+		
 		margin: 50px 0;
 		letter-spacing: 0.2rem;
 	}	
@@ -137,14 +137,14 @@
 	}
 	p.que {
 		text-align: left;
-		font-weight: 400;
+		font-weight: $font_regular;
 		line-height: 150%;
 		margin: 20px 0 10px;
 		padding-bottom: 10px;
 		border-bottom: 1px solid #ddd;
 	}
 	p.ans {
-		font-weight: 200;
+		
 		text-align: left;
 		line-height: 150%;
 	}
@@ -172,7 +172,7 @@
 	}
 	h2.head {
 		text-align: center;
-		font-weight: 400;
+		font-weight: $font_regular;
 		letter-spacing: 0.5rem;
 		text-indent: 0.5rem;	
 		margin-bottom: 50px;
@@ -180,11 +180,11 @@
 	}
 	h3.head {
 		text-align: center;	
-		font-weight: 200;
+		
 		margin-bottom: 30px;	
 	}
 	p.mouthpiece {
-		font-weight: 200;
+		
 		line-height: 180%;
 		margin-bottom: 20px;	
 	}
@@ -201,12 +201,12 @@
 		margin: 100px auto 0;
 		text-align: center;
 		h4 {
-			font-weight: 200;
+			
 			margin-bottom: 10px;
 			text-align: center;
 		}
 		h3 {
-			font-weight: 200;
+			
 			margin-bottom: 30px;
 			text-align: center;
 		}
@@ -216,7 +216,7 @@
 		p.comment {
 			text-align: left;
 			margin-top: 50px;
-			font-weight: 200;
+			
 			line-height: 180%;
 			margin-bottom: 20px;
 		}
@@ -249,12 +249,12 @@
 		}
 	}
 	h3.head {
-		font-weight: 200;
+		
 		margin-bottom: 30px;
 		letter-spacing: 0.2rem;
 	}
 	p.frontside {
-		font-weight: 200;
+		
 		line-height: 180%;
 		padding-bottom: 50px;
 		text-align: justify;	
@@ -285,12 +285,12 @@
 		width: 50%;
 	}
 	h3.head {
-		font-weight: 200;
+		
 		margin-bottom: 30px;
 		letter-spacing: 0.2rem;
 	}
 	p.ceramic {
-		font-weight: 200;
+		
 		line-height: 180%;
 		padding-bottom: 50px;
 		text-align: justify;	
@@ -307,12 +307,12 @@
 	overflow: hidden;
 
 	h3.head {
-		font-weight: 200;
+		
 		margin-bottom: 30px;
 		letter-spacing: 0.2rem;
 	}
 	h4.question {
-		font-weight: 400;
+		font-weight: $font_regular;
 		margin-bottom: 10px;
 		padding-bottom: 10px;
 		border-bottom: 1px solid #ddd;
@@ -320,7 +320,7 @@
 		line-height: 150%;
 	}
 	p.answer {
-		font-weight: 200;
+		
 		line-height: 180%;
 		margin-bottom: 50px;
 		text-align: justify;
@@ -374,7 +374,7 @@
 		overflow: hidden;
 	}
 	.payment-intro {
-		font-weight: 200;
+		
 		letter-spacing: 0.2rem;
 		text-align: center;
 		line-height: 180%;
@@ -415,7 +415,7 @@
 			display: block;
 			cursor: pointer;
 			line-height: 150%;
-			font-weight: 400;
+			font-weight: $font_regular;
 			&:hover {
 				text-decoration: underline;
 				text-align: center;	
@@ -448,27 +448,27 @@
 	}
 
 	h4.head {
-		font-weight: 400;
+		font-weight: $font_regular;
 		margin-bottom: 20px;
 		letter-spacing: 0.2rem;
 		text-align: center;
 	}
 	p.credit {
-		font-weight: 200;
+		
 		line-height: 180%;	
 	}
 	.alignment-price {
 		max-width: 800px;
 		margin: 0 auto;
 		text-align: center;
-		font-weight: 500;
+		font-weight: $font_medium;
 		background-color: #fff;
 		overflow: hidden;
 		letter-spacing: 0.2rem;
 		padding: 0 20px 20px;
 		h5.head {
 			text-align: center;
-			font-weight: 200;
+			
 			padding-top: 50px;
 			margin-bottom: 50px;
 			span {
@@ -477,16 +477,16 @@
 			}
 		}
 		p.item {
-			font-weight: 200;
+			
 			margin-bottom: 10px;
 		}
 		p.result {
-			font-weight: 400;
+			font-weight: $font_regular;
 			margin-bottom: 30px;	
 		}
 		p.yoyaku {
 			text-align: center;
-			font-weight: 500;
+			font-weight: $font_medium;
 			padding: 5px;
 			display: block;
 			margin-bottom: 30px;
@@ -500,7 +500,7 @@
 		}
 		h6.head {
 			text-align: center;
-			font-weight: 200;
+			
 			margin:50px auto 20px;
 			max-width: 600px;
 			padding: 5px;
@@ -517,12 +517,12 @@
 				text-align: left;
 				width: 100%;
 				th {
-					font-weight: 200;
+					
 					width: 350px;
 					text-align: left;
 				}
 				td {
-					font-weight: 400;
+					font-weight: $font_regular;
 					text-align: right;
 					width: 250px;	
 				}
@@ -532,7 +532,7 @@
 			max-width: 600px;
 			margin: 0 auto;
 			text-align: left;
-			font-weight: 400;
+			font-weight: $font_regular;
 			padding: 10px 20px;
 			line-height: 150%;
 		}

@@ -1,7 +1,7 @@
 // logo-font
 @mixin logo-font() {
     font-family: futura-pt, sans-serif;
-    font-weight: 500;
+    font-weight: $font_medium;
     color: $color_black;
     font-size: 2.0rem;
 }

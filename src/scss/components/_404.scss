@@ -29,7 +29,7 @@
     .head{
       font-family: "futura-pt",sans-serif;
       width: 100%;
-      font-weight: 100;
+      
       line-height: 50px;
       text-align: center;
       letter-spacing: 0.3rem;
@@ -60,7 +60,7 @@
       }
       a{
         color: #0088cc;
-        font-weight: 500;
+        font-weight: $font_medium;
         &:hover{opacity: .8;}
       }
       @include mq(smt){

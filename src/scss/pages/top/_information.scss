@@ -18,7 +18,7 @@
 	position: absolute;
 	top: 50%;
 	margin-top: -20px;
-	font-weight: 500;
+	font-weight: $font_medium;
 	letter-spacing: 0.5rem;
 }
 
@@ -30,7 +30,7 @@
 
 
 .content{
-    font-weight: 400;
+    font-weight: $font_regular;
     margin-bottom: 100px;
     @include mq(smt){
         margin-bottom: 0px;
@@ -59,7 +59,7 @@
                 margin-bottom: 20px;
                 a {
                     color: #d93600;
-                    font-weight: 400;
+                    font-weight: $font_regular;
                 }
             }
             .info-left-appoint-btn {
@@ -127,13 +127,13 @@
         padding: 50px 0;
         margin: 0 auto;	
         h2.sub-head {
-            font-weight: 400;
+            font-weight: $font_regular;
             text-align: center;
             letter-spacing: 0.5rem;
             line-height: 150%;
         }
         .sub-head {
-            font-weight: 400;
+            font-weight: $font_regular;
             text-align: center;
             margin-bottom: 10px;
             letter-spacing: 0.2rem;
@@ -141,7 +141,7 @@
         }
         .sub-intro {
             letter-spacing: 0.1rem;
-            font-weight: 300;
+            font-weight: $font_regular;
             line-height: 200%;
             text-align: center;	
             padding: 0 20px 50px;	
@@ -160,10 +160,10 @@
         ul.aplus-merit {
             display: block;
             margin: 30px 0;
-            font-weight: 500;
+            font-weight: $font_medium;
             li {
                 text-align: center;
-                font-weight: 300;
+                font-weight: $font_regular;
                 padding: 10px 20px;
                 margin: 0px auto;
                 max-width: 740px;

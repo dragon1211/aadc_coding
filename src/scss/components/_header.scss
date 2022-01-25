@@ -38,7 +38,7 @@
 		margin-left: 15px;
 		@include logo-font();
 		color: $color_white;
-		font-weight: 500;
+		font-weight: $font_medium;
 		@include mq(sm2){
 			display: none;
 		}
@@ -68,13 +68,13 @@
 		&:last-child{margin-left: 12px;}
 	}
 	font-size: 1.2rem;
-	font-weight: 500;
+	font-weight: $font_medium;
 	color: $color_white;
 	a {
 		display: block;
 		color: $color_white;
 		font-size: 1.2rem;
-		font-weight: 500;
+		font-weight: $font_medium;
 		&:hover {
 				opacity: 1;
 				width: 100%;
@@ -200,7 +200,7 @@
 		&--item{
 			border-bottom: 1px solid rgba($color: #fff, $alpha: .3);
 			font-size: 14px;
-			font-weight: 500;
+			font-weight: $font_medium;
 			
 			a{
 				color: white;
@@ -258,7 +258,7 @@
         background-color: #CEC1A8;
         color: white;
         font-size: 1.2rem;
-        font-weight: 500;
+        font-weight: $font_medium;
         position: relative;
         a{color: white;}
         .sub-nav__container{
@@ -275,7 +275,7 @@
         background-color: #CEC1A8;
         color: white;
         font-size: 1.2rem;
-        font-weight: 500;
+        font-weight: $font_medium;
         a{color: white;}
 		display: block;
 		overflow: none;

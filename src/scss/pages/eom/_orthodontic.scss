@@ -17,14 +17,14 @@
 
 	h2.head {
 		text-align: center;
-		font-weight: 400;
+		font-weight: $font_regular;
 		letter-spacing: 0.5rem;
 		text-indent: 0.5rem;	
 		margin-bottom: 50px;	
 	}
 	h3.head {
 		text-align: center;
-		font-weight: 400;
+		font-weight: $font_regular;
 		letter-spacing: 0.2rem;
 		text-indent: 0.2rem;	
 		margin-bottom: 50px;
@@ -33,20 +33,20 @@
 	p.intro {
 		margin: 0 auto;
 		letter-spacing: 0.2rem;
-		font-weight: 200;
+		
 		line-height: 200%;
 		text-align: center;	
 	}
 	.comment {
 		margin: 30px auto 0;
 		letter-spacing: 0.2rem;
-		font-weight: 200;
+		
 		line-height: 200%;
 		text-align: center;		
 		ul {
 			margin: 30px auto;
 			letter-spacing: 0.2rem;
-			font-weight: 400;
+			font-weight: $font_regular;
 			line-height: 200%;
 			text-align: center;	
 		}
@@ -97,21 +97,21 @@
 		}
 	}
 	h3.head {
-		font-weight: 200;
+		
 		margin-bottom: 30px;	
 	}
 	p.intro {
-		font-weight: 200;
+		
 		margin-bottom: 30px;
 		line-height: 150%;
 	}
 	p {
-		font-weight: 200;
+		
 		margin-bottom: 30px;
 		line-height: 180%;	
 	}
 	p.center {
-		font-weight: 200;
+		
 		margin-bottom: 30px;
 		line-height: 180%;
 		text-align: center;	
@@ -134,7 +134,7 @@
 		p.intro {
 			text-align: left;
 			line-height: 180%;
-			font-weight: 300;	
+			font-weight: $font_regular;	
 		}
 	}
 	p.blogbanner{
@@ -147,7 +147,7 @@
 			display: block;
 			color: #fff;
 			border-radius: 50px;
-			font-weight: 400;
+			font-weight: $font_regular;
 			&:hover{
 				opacity: .7;
 			}
@@ -175,13 +175,13 @@
 			margin: 50px auto;
 			color:#a5967d;
 			line-height: 150%;
-			font-weight: 500;
+			font-weight: $font_medium;
 			.title {
 				color: #a5967d;
 				line-height: normal;
 				margin: 20px 0 30px;
 				text-align: center;
-				font-weight: 700;
+				font-weight: $font_bold;
 			}
 		}
 	}
@@ -207,25 +207,25 @@
 		}
 	}
 	h3.head {
-		font-weight: 200;
+		
 		margin-bottom: 30px;	
 	}
 	p.intro {
-		font-weight: 200;
+		
 		margin-bottom: 30px;
 		line-height: 180%;	
 	}
 	h4.sub-head {
-		font-weight: 400;
+		font-weight: $font_regular;
 		margin-bottom: 10px;
 		line-height: 150%;
 	}
 	p.mouthpiece {
-		font-weight: 200;
+		
 		line-height: 180%;
 		margin-bottom: 20px;	
 		a {
-			font-weight: 400;	
+			font-weight: $font_regular;	
 			color: #08c;
 			&:hover {
 				color: #08c;
@@ -272,11 +272,11 @@
 		float: right;
 	}	
 	h3.head {
-		font-weight: 200;
+		
 		margin-bottom: 30px;	
 	}
 	p.ceramic {
-		font-weight: 200;
+		
 		margin-bottom: 30px;
 		line-height: 150%;
 	}
@@ -293,7 +293,7 @@
 /* merit */
  .cure2-orthodontic-section.merit {
 	max-width: 1040px;
-	font-weight: 200;
+	
 	padding: 0 20px;
 	margin: 0 auto;
 
@@ -302,7 +302,7 @@
 		margin-bottom: 30px;
 		span {
 			display: block;
-			font-weight: 500;
+			font-weight: $font_medium;
 		}
 	}
 }
@@ -312,7 +312,7 @@
  .cure2-orthodontic-section.comment {
 	background-color: #efefef;
 	padding: 50px 30px;
-	font-weight: 200;
+	
 	margin-bottom: 50px;	
 	.center .note {
 		line-height: 180%;

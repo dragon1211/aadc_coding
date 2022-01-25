@@ -26,7 +26,7 @@
 		p.intro {
 			margin: 0 auto;
 			letter-spacing: 0.2rem;
-			font-weight: 200;
+			
 			line-height: 200%;
 			text-align: center;		
 		}
@@ -44,13 +44,13 @@
 			margin: 0 auto;
 			padding: 0 20px;
 			h3.head {
-				font-weight: 200;
+				
 				margin-bottom: 20px;
 				text-align: center;
 			}
 			p.intro {
 				margin: 0 auto 50px;
-				font-weight: 200;
+				
 				line-height: 200%;
 				text-align: justify;	
 			}
@@ -72,7 +72,7 @@
 				margin: 0 auto;
 				margin-bottom: 100px;
 				h4.head {
-					font-weight: 200;
+					
 					margin-bottom: 30px;
 					text-align: center;
 				}
@@ -93,29 +93,29 @@
 					line-height: 200%;
 					text-align: center;
 					color: #fff;
-					font-weight: 500;
+					font-weight: $font_medium;
 					@media(max-width: 850px){
 						width: 100%;
 					}
 				}
 			}
 			.treatment-wrap {
-				font-weight: 200;
+				
 				line-height: 150%;
 				text-align: center;	
 				h4.head {
-					font-weight: 500;
+					font-weight: $font_medium;
 					margin-bottom: 20px;
 					text-align: center;	
 					letter-spacing: 0.1rem;
 				}
 				h5.sub-head {
-					font-weight: 400;
+					font-weight: $font_regular;
 					margin-bottom: 10px;
 					line-height: 150%;
 				}
 				.comment {
-					font-weight: 300;
+					font-weight: $font_regular;
 					line-height: 150%;
 					margin-top: 30px;
 					&:not(:last-child){
@@ -142,7 +142,7 @@
 			.price{
 				padding: 50px 0 100px;
 				p.title{
-					font-weight: 400;
+					font-weight: $font_regular;
 				}
 				p.detail{
 					margin-top: 50px;
@@ -155,7 +155,7 @@
 				margin: 50px 0 60px;
 				p.title{
 					margin-top: 30px;
-					font-weight: 400;
+					font-weight: $font_regular;
 				}
 				p.detail{margin-top: 20px;}
 			}
@@ -183,7 +183,7 @@ bridal-content
 		margin: auto;
 		h2.head {
 			text-align: center;
-			font-weight: 100;
+			
 			letter-spacing: 0.5rem;
 			text-indent: 0.5rem;	
 			margin-bottom: 50px;
@@ -192,14 +192,14 @@ bridal-content
 		p.intro {
 			margin: 0 auto;
 			letter-spacing: 0.2rem;
-			font-weight: 200;
+			
 			line-height: 200%;
 			text-align: center;	
 		}
 		p.intro2 {
 			margin: 40px auto 0;
 			letter-spacing: 0.2rem;
-			font-weight: 200;
+			
 			line-height: 200%;
 			text-align: justify;
 			span {
@@ -214,45 +214,45 @@ bridal-content
 		padding: 50px 20px 100px;
 		h2.head {
 			text-align: center;
-			font-weight: 100;
+			
 			letter-spacing: 0.5rem;
 			margin: 50px 0 10px;
 			line-height: 150%;	
 		}
 		h3.head {
 			text-align: left;
-			font-weight: 500;
+			font-weight: $font_medium;
 			margin: 50px 0 30px;
 			padding-bottom: 20px;
 			line-height: 150%;
 			border-bottom: 1px solid #d2bea5;
 			span {
 				text-align: left;
-				font-weight: 300;
+				font-weight: $font_regular;
 				padding-bottom: 10px;
 				line-height: 150%;
 				font-size: 1.6rem;
 			}
 		}
 		.subhead {
-			font-weight: 300;
+			font-weight: $font_regular;
 			margin: 0 0 20px;
 		}
 		.plan {
-			font-weight: 200;
+			
 			background-color: rgba(210,190,165,0.5);
 			padding: 10px 150px 10px 10px;
 			color: #333;
 			margin: 0 0 50px;
 			position: relative;
 			span.price {
-				font-weight: 500;
+				font-weight: $font_medium;
 				color: #ff0000;
 				position: absolute;
 				right: 10px;
 				top: 10px;
 				span {
-					font-weight: 400;
+					font-weight: $font_regular;
 					font-size: 1.2rem;
 					margin-top: 5px;
 				}
@@ -261,10 +261,10 @@ bridal-content
 		.comment {
 			text-align: justify;
 			line-height: 200%;
-			font-weight: 300;
+			font-weight: $font_regular;
 			span {
 				color: #ff0000;
-				font-weight: 500;
+				font-weight: $font_medium;
 				font-size: 1.8rem;
 			}
 			a {

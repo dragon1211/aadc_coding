@@ -13,7 +13,7 @@
 
     h3.head {
         width: 100%;
-        font-weight: 500;
+        font-weight: $font_medium;
         text-align: center;
         margin-bottom: 50px;
         letter-spacing: 0.5rem;
@@ -23,14 +23,14 @@
         margin: 0 auto;
         padding: 0 50px;
         letter-spacing: 0.1rem;
-        font-weight: 400;
+        font-weight: $font_regular;
         line-height: 200%;
         caption.head {
             margin: 0 auto;	
             padding: 0 75px;
             text-align: left;
             letter-spacing: 0.2rem;
-            font-weight: 500;
+            font-weight: $font_medium;
         }
         tr {
             width: 100%;

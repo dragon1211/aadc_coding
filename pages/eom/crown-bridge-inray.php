@@ -47,7 +47,7 @@
 		<div class="left">
 			<h3 class="head f24">ジルコニアセラミッククラウン</h3>
 			<p class="zirconia-crown f16">強度と美しさを兼ね備えたクラウンです。白いダイアモンドと言われるジルコニアをフレームとしてブリッジも可能な強度を持ち、セラミックスを表層にすることで美しさも備えています。咬合力のかかる部位にはジルコニアを露出させて壊れにくさを向上することができます。</p>
-			<ul class="cost_ex f13">
+			<ul class="cost_ex f14">
 				<li><span>治療期間</span>約3週間 </li>
 				<li><span>治療費用</span>ジルコニアセラミッククラウン 1歯 ￥143,000(税込)×2本／形成印象料金 1歯 ¥7,700（税込）×2本</li>
 				<li><span>治療内容</span>元々入っていたセラミックインレーと、自分の歯が欠けてしまったため、強度のあるクラウンでの審美的、機能的回復を希望されました。神経のある歯のため、麻酔をして治療を行いました。型取りしてジルコニアセラミッククラウンが入るまでの間は仮歯を入れています。</li>
@@ -74,7 +74,7 @@
 	</section>
 
 	<!-- padding-cost -->
-	<ul class="cost_ex f13 padding-cost">
+	<ul class="cost_ex f14 padding-cost">
 		<li><span>フルジルコニアクラウンの副作用・リスク</span>　非常に硬いため、噛み合わせる天然歯が削れることがある。ごく稀に欠けることがある。</li>
 	</ul>
 
@@ -91,7 +91,7 @@
 	</section>
 
 	<!-- padding cost -->
-	<ul class="cost_ex f13 padding-cost">
+	<ul class="cost_ex f14 padding-cost">
 		<li><span>フルジルコニアクラウンの副作用・リスク</span>ごく稀に欠けることがある。</li>
 	</ul>		
 
@@ -107,7 +107,7 @@
 	</section>
 
 	<!-- padding cost -->
-	<ul class="cost_ex f13 padding-cost">
+	<ul class="cost_ex f14 padding-cost">
 		<li><span>治療方法</span>セラミックインレー法</li>
 		<li><span>治療期間</span>2週間 </li>
 		<li><span>治療費用</span>セラミックインレー 1歯 ¥66,000（税込）／形成印象料金 1歯 ¥6,600（税込）</li>
@@ -127,7 +127,7 @@
 	</section>
 	
 	<!-- padding cost -->
-	<ul class="cost_ex f13 padding-cost">
+	<ul class="cost_ex f14 padding-cost">
 		<li><span>ジルコニアインレーの副作用・リスク</span>歯を削る必要がある。稀に欠けたり、取れることがある。</li>
 		<li><span>治療方法</span>ジルコニアインレーブリッジ</li>
 		<li><span>治療期間</span>２週間（通院２回）</li>

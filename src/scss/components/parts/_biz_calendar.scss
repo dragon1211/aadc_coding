@@ -13,7 +13,7 @@
 	vertical-align: middle;
     h2.widgettitle {
         text-align: center;
-        font-weight: 400;
+        font-weight: $font_regular;
         font-size: 1.8rem;
     }
     #biz_calendar {
@@ -43,7 +43,7 @@
                         }
                     }
                     td.calmonth {
-                        font-weight: 400;
+                        font-weight: $font_regular;
                         font-size: 1.5rem;
                         text-indent: 10px;
                         height: 50px;
@@ -58,7 +58,7 @@
                     }
                     th {
                         background: transparent;
-                        font-weight: 400;	
+                        font-weight: $font_regular;	
                         border-right: 1px solid #ddd;
                         border-bottom: 1px solid #ddd;
                         &:last-child {

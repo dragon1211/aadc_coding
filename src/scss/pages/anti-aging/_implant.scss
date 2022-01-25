@@ -21,12 +21,12 @@
     p.intro {
         margin: 0 auto;
         letter-spacing: 0.2rem;
-        font-weight: $font_light;
+        
         line-height: 200%;
         text-align: left;
         padding-bottom: 30px;
         span {
-            font-weight: 400;
+            font-weight: $font_regular;
             line-height: 200%;
             text-align: left;
             display: block;
@@ -114,7 +114,7 @@
             span {
                 display: block;
                 font-size: 1.4rem;
-                font-weight: $font_light;
+                
             }
         }
     }
@@ -132,11 +132,11 @@
         text-align: center;
     }
     h3.head {
-        font-weight: $font_light;
+        
         margin-bottom: 30px;	
     }
     p.lead {
-        font-weight: $font_light;
+        
         margin-bottom: 30px;
         line-height: 2.2;
         text-align: center;

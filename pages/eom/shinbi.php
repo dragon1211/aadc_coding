@@ -237,7 +237,7 @@
             </div>
         </section>
     
-        <p class="blogbanner f24"><a href="<?php echo home_url(); ?>/aadcblog/shinbi/">前歯審美歯科の<br class="sp-onlyt">関連ブログはこちら</a></p>
+        <p class="blogbanner f20"><a href="<?php echo home_url(); ?>/aadcblog/shinbi/">前歯審美歯科の<br class="sp-only3">関連ブログはこちら</a></p>
     
         <!-- case -->
         <section class="cure1-grinding-section">

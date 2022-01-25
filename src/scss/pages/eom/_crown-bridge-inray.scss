@@ -20,7 +20,7 @@
 
     h2.head {
         text-align: center;
-        font-weight: 400;
+        font-weight: $font_regular;
         letter-spacing: 0.5rem;
         text-indent: 0.5rem;
         margin-bottom: 50px;
@@ -50,7 +50,7 @@
 		span {
 			display: block;
 			margin: 10px 0;
-			font-weight: 500;
+			font-weight: $font_bold;
 			font-size: 1.7rem;	
 		}
 		&.case {
@@ -59,7 +59,7 @@
 			span {
 				display: block;
 				margin: 10px 0;
-				font-weight: 600;
+				font-weight: $font_bold;
 				font-size: 1.5rem;		
 			}
 		}
@@ -158,7 +158,7 @@
 		span {
 			display: block;
 			margin: 10px 0 5px;
-			font-weight: 400;
+			font-weight: $font_regular;
 			font-size: 1.6rem;
 		}		
 	}
@@ -232,7 +232,7 @@ ul.cost_ex {
 	margin: 30px auto 0;
 	overflow: hidden;
 	li span{
-		font-weight: 700;
+		font-weight: $font_bold;
 		margin-right: 20px;
 	}
     &.padding-cost{

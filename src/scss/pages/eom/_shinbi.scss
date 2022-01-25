@@ -221,7 +221,7 @@
 	margin: 0 auto;
 }
 .provisional-wrap h4.head {
-	font-weight: bold;
+	font-weight: $font_bold;
 	padding: 5px 0;
 	margin-bottom: 5px;
 }
@@ -258,10 +258,10 @@
 	text-align: center;
 	color: #e86779;
 	margin-bottom: 20px;
-	font-weight: 400px;
+	font-weight: $font_medium;
 }
 .cure1-collaboration-section h3.head span {
-	font-weight: 800;
+	font-weight: $font_bold;
 	color: #fff;
 	margin: 0 5px;
 	padding: 0 5px;
@@ -308,7 +308,7 @@
 	text-align: center;	
 }
 .cure1-ceramic-section h4.intro {
-	font-weight: 100;
+	font-weight: $font_regular;
 	margin-bottom: 30px;
 	line-height: 150%;
 	text-align: center;		
@@ -371,7 +371,7 @@
 	margin: 0 auto;
 	text-align: center;
 	padding: 50px 20px;
-	font-weight: 500;
+	font-weight: $font_bold;
 	background-color: #d1c0a5;
 
 	.flow-head{
@@ -415,7 +415,7 @@
 }
 .cure1-ceramic-section .left .head,
 .cure1-ceramic-section .right .head {
-	font-weight: 400;
+	font-weight: $font_medium;
 	margin-bottom: 20px;
 	text-align: center;	
 	color: #a5967d;
@@ -448,27 +448,32 @@
 	border-bottom: 3px solid #fff;
 	background-color: #a5967d;
 	color: #fff;
-	font-weight: 400;
+	font-weight: $font_medium;
 }
-p.blogbanner a{
-	text-align: center;
-	padding: 20px 50px;
-	margin: 100px auto;
-	background-color: $color_main;
-	display: block;
-	color: #fff;
-	width: 500px;
-	border-radius: 40px;
-	font-weight: 400;
+p.blogbanner{
+	margin: 100px 0;
+	padding: 0 20px;
+	a{
+		text-align: center;
+		padding: 10px 40px;
+		background-color: $color_main;
+		display: block;
+		color: #fff;
+		max-width: 450px;
+		width: 100%;
+		margin: auto;
+		border-radius: 40px;
+		font-weight: $font_medium;
 	
-	background: linear-gradient(to bottom, $color_main 50%, #e65128 50%);
-	background-size: 100% 200%;
-	transition: .3s ease-out;
-	
-	&:hover{
-		background-position: 0 -100%;
+		background: linear-gradient(to left,  $color_main 50%, #e65128 50%) right;
+		background-size: 200%;
+		transition: .3s ease-out;
+		
+		&:hover{
+			background-position: left;
+		}
 	}
-}
+} 
 
 
 
@@ -664,7 +669,7 @@ ul.cost_ex li{
 }
 ul.cost_ex li span {
 	margin: 0 20px 0 0;
-	font-weight: 700;
+	font-weight: $font_bold;
 }
 
 /* warranty */
@@ -721,7 +726,7 @@ ul.cost_ex li span {
 	margin-top: 30px;
 	display: block;
 	color: #08c;
-	font-weight: bold;
+	font-weight: $font_bold;
 	cursor: pointer;
 	line-height: 150%;
 	text-align: center;	
@@ -753,7 +758,7 @@ ul.cost_ex li span {
 		text-align: justify;
 	}
 	.sub-head {
-		font-weight: 400;
+		font-weight: $font_medium;
 		padding-bottom: 10px;
 		margin-bottom: 10px;
 		border-bottom: 1px solid #ccc;
@@ -781,7 +786,7 @@ ul.cost_ex li span {
 		color: #08c;
 		cursor: pointer;
 		line-height: 150%;	
-		font-weight: bold;
+		font-weight: $font_bold;
 	}
 }
 
@@ -791,7 +796,7 @@ ul.cost_ex li{
 }
 ul.cost_ex li span {
 	margin: 0 20px 0 0;
-	font-weight: 700;
+	font-weight: $font_bold;
 }
 
 
@@ -828,7 +833,7 @@ ul.cost_ex li span {
 	text-align: justify;
 }
 .cure1-snapon-section .sub-head {
-	font-weight: 400;
+	font-weight: $font_medium;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
 	border-bottom: 1px solid #ccc;
@@ -856,7 +861,7 @@ ul.cost_ex li span {
 	clear: both;
 	text-align: center;
 	padding: 50px 0 30px;
-	font-weight: 400;
+	font-weight: $font_medium;
 }
 .cure1-snapon-section .oneday {
 	text-align: center;
@@ -964,6 +969,19 @@ ul.cost_ex li span {
 	.cure1-snapon-section .left{
 		width: vw(700);
 	}
+
+}
+
+@include mq(sm2){
+	
+	p.blogbanner{
+		margin: 50px 0;
+		a{
+			max-width: 350px;
+			padding: 10px 30px;
+			line-height: 1.5;
+		}
+	} 
 }
 
 //shinbi
@@ -989,12 +1007,6 @@ ul.cost_ex li span {
 		.ceramic br{display: none;}
 	}
 
-	p.blogbanner a{
-		width: 240px;
-		padding: 10px 30px;
-		line-height: 1.5;
-		font-size: 1.5rem;
-	}
 
 	.case-section{
 		img.left, img.right{
@@ -1011,11 +1023,6 @@ ul.cost_ex li span {
 	.case-section .contents-text{
 		margin-bottom: 30px;
 	}
-
-	p.blogbanner a{
-		margin: 50px auto;
-	}
-	
 
 	.cure1-laminate-section{
 		margin-top: 70px;

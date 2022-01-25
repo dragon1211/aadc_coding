@@ -15,7 +15,7 @@
 .inquiry-header h1.head {
 	font-family: "futura-pt",sans-serif;
 	width: 100%;
-	font-weight: 100;
+	
 	text-align: center;
 	letter-spacing: 0.5rem;
 	text-indent: 0.5rem;
@@ -44,14 +44,14 @@
 
     h2.head {
         width: 100%;
-        font-weight: 100;
+        
         text-align: center;
         letter-spacing: 0.4rem;
         margin-bottom: 20px;
     }
     .detail {
         letter-spacing: 0.1rem;
-        font-weight: 500;
+        font-weight: $font_medium;
         line-height: 150%;
         text-align: center;
         color: $color_main;
@@ -60,7 +60,7 @@
     .detail-left {
         max-width: 800px;		
         letter-spacing: 0.1rem;
-        font-weight: 200;
+        
         line-height: 150%;
         text-align: left;
         margin: 0 auto 50px;
@@ -68,12 +68,12 @@
     .privacy {
         max-width: 800px;	
         letter-spacing: 0.1rem;
-        font-weight: 300;
+        font-weight: $font_regular;
         line-height: 160%;
         text-align: justify;
         margin: 0 auto 50px;
         span {
-            font-weight: 500;
+            font-weight: $font_medium;
             display: block;
         }
     }

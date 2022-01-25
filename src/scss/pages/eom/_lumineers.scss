@@ -16,7 +16,7 @@
 }
 .cure1-outline-section h2.head {
 	text-align: center;
-	font-weight: 400;
+	font-weight: $font_regular;
 	letter-spacing: 0.5rem;
 	text-indent: 0.5rem;	
 	margin-bottom: 50px;
@@ -66,7 +66,7 @@
 		padding: 50px 20px 0;	
 		margin: auto;
 		h4.head {
-			font-weight: 400;
+			font-weight: $font_regular;
 			margin-bottom: 30px;
 			text-align: center;
 			span {
@@ -82,7 +82,7 @@
 		}
 	}
 	.sub-head {
-		font-weight: 400;
+		font-weight: $font_regular;
 		padding-bottom: 10px;
 		margin-bottom: 10px;
 		border-bottom: 1px solid #ccc;
@@ -121,7 +121,7 @@
 	clear: both;
 	text-align: center;
 	padding: 50px 0 30px;
-	font-weight: 400;
+	font-weight: $font_regular;
 }
 .cure1-snapon-section .oneday {
 	text-align: center;
@@ -153,7 +153,7 @@
 	margin: 50px auto 30px;
 	color: #08c;
 	text-align: center;
-	font-weight: bold;
+	font-weight: $font_bold;
 	cursor: pointer;
 	line-height: 150%;
 	display: block;
@@ -187,7 +187,7 @@
 	text-align: justify;
 }
 .cure1-onehour-section .sub-head {
-	font-weight: 400;
+	font-weight: $font_regular;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
 	border-bottom: 1px solid #ccc;
@@ -215,7 +215,7 @@
 	clear: both;
 	text-align: center;
 	padding: 0px 0 30px;
-	font-weight: 400;
+	font-weight: $font_regular;
 }
 .cure1-onehour-section .oneday {
 	text-align: center;
@@ -250,12 +250,12 @@
 	margin-bottom: 10px;
 }
 .cure1-payment-section .alignment-price p.result {
-	font-weight: 400;
+	font-weight: $font_regular;
 	margin-bottom: 30px;	
 }
 .cure1-payment-section .alignment-price p.yoyaku {
 	text-align: center;
-	font-weight: 500;
+	font-weight: $font_medium;
 	padding: 5px;
 	display: block;
 	margin-bottom: 30px;
@@ -293,7 +293,7 @@
 	text-align: left;
 }
 .cure1-payment-section .alignment-price table tr td {
-	font-weight: 400;
+	font-weight: $font_regular;
 	text-align: right;
 	width: 150px;	
 }
@@ -301,7 +301,7 @@
 	max-width: 500px;
 	margin: 0 auto;
 	text-align: left;
-	font-weight: 400;
+	font-weight: $font_regular;
 	padding: 20px;
 	line-height: 150%;
 }
