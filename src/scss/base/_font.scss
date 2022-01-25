@@ -176,28 +176,28 @@
 	
 	/* ------------------------------------------------ font set */
 	.f10 {
-		font-size:8px;
-		font-size:0.8rem;	
-	}
-	.f11 {
 		font-size:9px;
 		font-size:0.9rem;	
 	}
-	.f12 {
+	.f11 {
 		font-size:10px;
 		font-size:1.0rem;	
 	}
-	.f13 {
+	.f12 {
 		font-size:11px;
 		font-size:1.1rem;	
 	}
-	.f14 {
+	.f13 {
 		font-size:12px;
 		font-size:1.2rem;	
 	}
-	.f15 {
+	.f14 {
 		font-size:13px;
 		font-size:1.3rem;	
+	}
+	.f15 {
+		font-size:14px;
+		font-size:1.4rem;	
 	}
 	.f16 {
 		font-size:14px;
@@ -341,38 +341,6 @@
 @include mq(sm3){
 	
 	/* ------------------------------------------------ font set */
-	.f10 {
-		font-size:7px;
-		font-size:0.7rem;	
-	}
-	.f11 {
-		font-size:8px;
-		font-size:0.8rem;	
-	}
-	.f12 {
-		font-size:9px;
-		font-size:0.9rem;	
-	}
-	.f13 {
-		font-size:10px;
-		font-size:1.0rem;	
-	}
-	.f14 {
-		font-size:11px;
-		font-size:1.1rem;	
-	}
-	.f15 {
-		font-size:12px;
-		font-size:1.2rem;	
-	}
-	.f16 {
-		font-size:13px;
-		font-size:1.3rem;	
-	}
-	.f18 {
-		font-size:14px;
-		font-size:1.4rem;	
-	}
 	.f20 {
 		font-size:15px;
 		font-size:1.5rem;	

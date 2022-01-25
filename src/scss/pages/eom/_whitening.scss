@@ -12,7 +12,7 @@
 
 /* outline */
 .cure1-outline-section {
-	max-width: 1000px;
+	max-width: 1040px;
 	padding: 100px 20px 0;
 	margin: auto;
 	h2.head {
@@ -24,38 +24,10 @@
 		font-weight: $font_regular;
 	}
 	p.intro {
-		margin: 0 auto;
+		margin: 0 auto 50px;
 		letter-spacing: 0.2rem;
-		
 		line-height: 200%;
 		text-align: center;	
-	}
-}
-
-.cure1-howtowhitening-section {
-	max-width: 800px;
-	margin: 0 auto;
-	padding: 50px 20px;
-	h2.head {
-		text-align: center;
-		letter-spacing: 0.5rem;
-		text-indent: 0.5rem;	
-		margin: 50px 0 10px;
-		line-height: 150%;	
-		br {
-			display: none;
-		}	
-	}
-	h3.head {
-		text-align: left;
-		text-indent: 0.5rem;	
-		margin: 50px 0 10px;
-		line-height: 150%;		
-	}
-	p.howtowhitening {
-		margin: 0 auto;
-		line-height: 150%;
-		text-align: left;
 	}
 }
 
@@ -64,18 +36,19 @@
 .cure1-office-whitening-section {
 	width: 100%;
 	background-color: #fafafa;	
+	margin-top: 100px;
 	.wrapper {
-		max-width: 1000px;
-		padding: 100px 0;
+		max-width: 1040px;
+		padding: 0 20px;
 		margin: 0 auto;
 		overflow: hidden;	
 	}
 	.left {
 		width: 56%;
-		padding-left: 20px;
+		padding-right: 20px;
 	}
 	.right {
-		padding: 0 20px;
+		padding-left: 20px;
 		text-align: center;
 		img {
 			max-width: 400px;
@@ -85,7 +58,7 @@
 		}
 	}
 	h3.head {
-		margin-bottom: 30px;
+		margin-bottom: 10px;
 		line-height: 150%;
 	}
 	h4.intro {
@@ -94,6 +67,7 @@
 	}
 	p.office-whitening {
 		line-height: 180%;	
+		font-size: 1.4rem;
 	}
 	.center {
 		clear: both;
@@ -129,12 +103,83 @@
 }
 
 
+.cure1-result-section{
+	background-color: #F5F5F7;
+	margin-top: 80px;
+	padding: 30px 0;
+	.result-img__wrap{
+		max-width: 800px;
+		width: 100%;
+		margin: auto;
+		padding:  0 10px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.img-wrap{
+		padding: 0 10px;
+		text-align: center;
+		p{
+			margin-top: 25px;
+			font-size: 1.4rem;
+		}
+		img{margin: auto;}
+	}
+	@include mq(){
+		.result-img__wrap{
+			justify-content: center;
+		}
+	}
+	@include mq(smt){
+		.result-img__wrap{
+			flex-direction: column;
+		}
+		.img-wrap{
+			padding: 0;
+			margin: 10px 0;
+		}
+	}
+}
+
+
+.cure1-howtowhitening-section {
+	max-width: 1040px;
+	margin: 80px auto 0;
+	padding: 0 20px;
+	h2.head {
+		text-align: center;
+		letter-spacing: 0.5rem;
+		margin: 50px 0 10px;
+		line-height: 150%;	
+		br {
+			display: none;
+		}	
+	}
+	h3.head {
+		text-align: left;
+		margin: 50px 0 10px;
+		line-height: 1.8;		
+	}
+	p.howtowhitening {
+		margin: 0 auto;
+		text-align: left;
+		line-height: 1.8;
+		.anchor{
+			color: $color_textlink;
+		}
+	}
+}
+
+
 /* home-whitening */
 .cure1-home-whitening-section {
 	max-width: 1000px;
-	margin: 100px auto;
+	margin: 50px auto 200px auto;
 	overflow: hidden;
 	.left {
+		width: 60%;
+		padding:0 20px;
+	}
+	.right {
 		text-align: center;
 		padding: 0 20px;
 		img {
@@ -144,24 +189,19 @@
 			display: block;
 		}
 	}
-	.right {
-		width: 60%;
-		padding-right: 20px;
-	}
 	h3.head {
-		margin-bottom: 30px;	
+		margin-bottom: 10px;	
 	}
 	h4.intro {
 		margin-bottom: 30px;
-		line-height: 150%;
 	}
 	p.home-whitening {
-		line-height: 180%;	
+		line-height: 2.2;	
 	}
 	.annotation {
-		margin-top: 30px;
 		padding: 30px;
 		background-color: #efefef;	
+		margin-bottom: 120px;
 		h4 {
 			font-weight: $font_bold;
 			margin-bottom: 20px;
@@ -175,11 +215,28 @@
 		ul{
 			padding-left: 20px;
 			li{
-				list-style-type: circle;
-				line-height: 150%;
-				
+				list-style-type: circle;				
+				line-height: 1.8;
 			}
 		} 
+	}
+}
+
+@include mq(sm2){
+	
+	.cure1-office-whitening-section  .whitening-row{
+		flex-direction: column;
+		.left, .right{
+			width: 100%;
+			padding: 0;
+			margin-bottom: 20px;
+		}
+	}
+	.cure1-office-whitening-section .right img{
+		max-width: 300px;
+	}
+	.cure1-result-section{
+		margin-top: 20px;
 	}
 }
 
@@ -191,6 +248,10 @@
 			font-size: 2.2rem;
 			br{display: none;}
 		}
+		p.intro{
+			text-align: left;
+			br{display: none;}
+		}
 	}
 	.cure1-office-whitening-section{
 		.center .comment{
@@ -200,26 +261,29 @@
 			margin-top: 0;
 		}
 	} 
-	.whitening-row{
-		flex-direction: column;
-		.left, .right{
-			width: 100%;
-			padding: 0 20px;
-			margin-bottom: 20px;
-		}
-	}
+	
 	.head{
 		text-align: center;
 	}
 	.intro{
 		text-align: center;
-		margin-bottom: 10px !important;
+		margin-bottom: 20px !important;
 	}
 	.cure1-home-whitening-section{
+		margin-bottom: 100px;
 		.annotation{
 			padding: 50px 20px;
+			margin-bottom: 50px;
+		}
+		.whitening-row{
+			flex-direction: column-reverse;
+			.left, .right{
+				width: 100%;
+				margin: 10px 0;
+			}
 		}
 	} 
+
 }
 
 

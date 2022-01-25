@@ -62,7 +62,6 @@ html {
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
 }
 
 a:not([class]) {
@@ -780,28 +779,28 @@ p {
 @media screen and (max-width: 768px) {
   /* ------------------------------------------------ font set */
   .f10 {
-    font-size: 8px;
-    font-size: 0.8rem;
-  }
-  .f11 {
     font-size: 9px;
     font-size: 0.9rem;
   }
-  .f12 {
+  .f11 {
     font-size: 10px;
     font-size: 1.0rem;
   }
-  .f13 {
+  .f12 {
     font-size: 11px;
     font-size: 1.1rem;
   }
-  .f14 {
+  .f13 {
     font-size: 12px;
     font-size: 1.2rem;
   }
-  .f15 {
+  .f14 {
     font-size: 13px;
     font-size: 1.3rem;
+  }
+  .f15 {
+    font-size: 14px;
+    font-size: 1.4rem;
   }
   .f16 {
     font-size: 14px;
@@ -939,38 +938,6 @@ p {
 
 @media screen and (max-width: 389px) {
   /* ------------------------------------------------ font set */
-  .f10 {
-    font-size: 7px;
-    font-size: 0.7rem;
-  }
-  .f11 {
-    font-size: 8px;
-    font-size: 0.8rem;
-  }
-  .f12 {
-    font-size: 9px;
-    font-size: 0.9rem;
-  }
-  .f13 {
-    font-size: 10px;
-    font-size: 1.0rem;
-  }
-  .f14 {
-    font-size: 11px;
-    font-size: 1.1rem;
-  }
-  .f15 {
-    font-size: 12px;
-    font-size: 1.2rem;
-  }
-  .f16 {
-    font-size: 13px;
-    font-size: 1.3rem;
-  }
-  .f18 {
-    font-size: 14px;
-    font-size: 1.4rem;
-  }
   .f20 {
     font-size: 15px;
     font-size: 1.5rem;
@@ -11947,7 +11914,7 @@ p {
 }
 
 .whitening .cure1-outline-section {
-  max-width: 1000px;
+  max-width: 1040px;
   padding: 100px 20px 0;
   margin: auto;
 }
@@ -11962,62 +11929,32 @@ p {
 }
 
 .whitening .cure1-outline-section p.intro {
-  margin: 0 auto;
+  margin: 0 auto 50px;
   letter-spacing: 0.2rem;
   line-height: 200%;
   text-align: center;
 }
 
-.whitening .cure1-howtowhitening-section {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 50px 20px;
-}
-
-.whitening .cure1-howtowhitening-section h2.head {
-  text-align: center;
-  letter-spacing: 0.5rem;
-  text-indent: 0.5rem;
-  margin: 50px 0 10px;
-  line-height: 150%;
-}
-
-.whitening .cure1-howtowhitening-section h2.head br {
-  display: none;
-}
-
-.whitening .cure1-howtowhitening-section h3.head {
-  text-align: left;
-  text-indent: 0.5rem;
-  margin: 50px 0 10px;
-  line-height: 150%;
-}
-
-.whitening .cure1-howtowhitening-section p.howtowhitening {
-  margin: 0 auto;
-  line-height: 150%;
-  text-align: left;
-}
-
 .whitening .cure1-office-whitening-section {
   width: 100%;
   background-color: #fafafa;
+  margin-top: 100px;
 }
 
 .whitening .cure1-office-whitening-section .wrapper {
-  max-width: 1000px;
-  padding: 100px 0;
+  max-width: 1040px;
+  padding: 0 20px;
   margin: 0 auto;
   overflow: hidden;
 }
 
 .whitening .cure1-office-whitening-section .left {
   width: 56%;
-  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .whitening .cure1-office-whitening-section .right {
-  padding: 0 20px;
+  padding-left: 20px;
   text-align: center;
 }
 
@@ -12029,7 +11966,7 @@ p {
 }
 
 .whitening .cure1-office-whitening-section h3.head {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   line-height: 150%;
 }
 
@@ -12040,6 +11977,7 @@ p {
 
 .whitening .cure1-office-whitening-section p.office-whitening {
   line-height: 180%;
+  font-size: 1.4rem;
 }
 
 .whitening .cure1-office-whitening-section .center {
@@ -12079,46 +12017,132 @@ p {
   color: #fd2802;
 }
 
+.whitening .cure1-result-section {
+  background-color: #F5F5F7;
+  margin-top: 80px;
+  padding: 30px 0;
+}
+
+.whitening .cure1-result-section .result-img__wrap {
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  padding: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.whitening .cure1-result-section .img-wrap {
+  padding: 0 10px;
+  text-align: center;
+}
+
+.whitening .cure1-result-section .img-wrap p {
+  margin-top: 25px;
+  font-size: 1.4rem;
+}
+
+.whitening .cure1-result-section .img-wrap img {
+  margin: auto;
+}
+
+@media screen and (max-width: 1050px) {
+  .whitening .cure1-result-section .result-img__wrap {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .whitening .cure1-result-section .result-img__wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .whitening .cure1-result-section .img-wrap {
+    padding: 0;
+    margin: 10px 0;
+  }
+}
+
+.whitening .cure1-howtowhitening-section {
+  max-width: 1040px;
+  margin: 80px auto 0;
+  padding: 0 20px;
+}
+
+.whitening .cure1-howtowhitening-section h2.head {
+  text-align: center;
+  letter-spacing: 0.5rem;
+  margin: 50px 0 10px;
+  line-height: 150%;
+}
+
+.whitening .cure1-howtowhitening-section h2.head br {
+  display: none;
+}
+
+.whitening .cure1-howtowhitening-section h3.head {
+  text-align: left;
+  margin: 50px 0 10px;
+  line-height: 1.8;
+}
+
+.whitening .cure1-howtowhitening-section p.howtowhitening {
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.whitening .cure1-howtowhitening-section p.howtowhitening .anchor {
+  color: #0088cc;
+}
+
 .whitening .cure1-home-whitening-section {
   max-width: 1000px;
-  margin: 100px auto;
+  margin: 50px auto 200px auto;
   overflow: hidden;
 }
 
 .whitening .cure1-home-whitening-section .left {
+  width: 60%;
+  padding: 0 20px;
+}
+
+.whitening .cure1-home-whitening-section .right {
   text-align: center;
   padding: 0 20px;
 }
 
-.whitening .cure1-home-whitening-section .left img {
+.whitening .cure1-home-whitening-section .right img {
   max-width: 400px;
   margin: auto;
   width: 100%;
   display: block;
 }
 
-.whitening .cure1-home-whitening-section .right {
-  width: 60%;
-  padding-right: 20px;
-}
-
 .whitening .cure1-home-whitening-section h3.head {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .whitening .cure1-home-whitening-section h4.intro {
   margin-bottom: 30px;
-  line-height: 150%;
 }
 
 .whitening .cure1-home-whitening-section p.home-whitening {
-  line-height: 180%;
+  line-height: 2.2;
 }
 
 .whitening .cure1-home-whitening-section .annotation {
-  margin-top: 30px;
   padding: 30px;
   background-color: #efefef;
+  margin-bottom: 120px;
 }
 
 .whitening .cure1-home-whitening-section .annotation h4 {
@@ -12139,7 +12163,27 @@ p {
 
 .whitening .cure1-home-whitening-section .annotation ul li {
   list-style-type: circle;
-  line-height: 150%;
+  line-height: 1.8;
+}
+
+@media screen and (max-width: 768px) {
+  .whitening .cure1-office-whitening-section .whitening-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .whitening .cure1-office-whitening-section .whitening-row .left, .whitening .cure1-office-whitening-section .whitening-row .right {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .whitening .cure1-office-whitening-section .right img {
+    max-width: 300px;
+  }
+  .whitening .cure1-result-section {
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -12152,32 +12196,41 @@ p {
   .whitening .cure1-outline-section h2.head br {
     display: none;
   }
+  .whitening .cure1-outline-section p.intro {
+    text-align: left;
+  }
+  .whitening .cure1-outline-section p.intro br {
+    display: none;
+  }
   .whitening .cure1-office-whitening-section .center .comment {
     margin-top: 20px;
   }
   .whitening .cure1-office-whitening-section .center#after {
     margin-top: 0;
   }
-  .whitening .whitening-row {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .whitening .whitening-row .left, .whitening .whitening-row .right {
-    width: 100%;
-    padding: 0 20px;
-    margin-bottom: 20px;
-  }
   .whitening .head {
     text-align: center;
   }
   .whitening .intro {
     text-align: center;
-    margin-bottom: 10px !important;
+    margin-bottom: 20px !important;
+  }
+  .whitening .cure1-home-whitening-section {
+    margin-bottom: 100px;
   }
   .whitening .cure1-home-whitening-section .annotation {
     padding: 50px 20px;
+    margin-bottom: 50px;
+  }
+  .whitening .cure1-home-whitening-section .whitening-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .whitening .cure1-home-whitening-section .whitening-row .left, .whitening .cure1-home-whitening-section .whitening-row .right {
+    width: 100%;
+    margin: 10px 0;
   }
 }
 
