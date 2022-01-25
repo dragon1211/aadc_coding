@@ -69,7 +69,17 @@
             }
         }
         .profile-head{
-            font-weight: 500;
+            font-weight: $font_bold;
+        }
+        .book-intro{
+            margin: 10px 0 60px 0;
+            .book-title{
+                font-size: 2.0rem;
+            }
+        }
+        .anchor{
+            color: $color_textlink;
+            font-weight: $font_medium;
         }
         .qualification{
             margin: 10px 0 60px 0;
@@ -137,10 +147,8 @@
             }
         }
         .doctor-profile{
-            .bio{margin: 20px 0;}
             .qualification{
                 font-size: 1.4rem;
-                margin: 5px 0 30px 0;
                 li{margin: 0 5px 5px 0;}
             } 
             .activity{
@@ -148,6 +156,17 @@
                 padding: 5px 10px;
                 margin-top: 5px;
             }
+        }
+    }
+
+    @include mq(sm3){
+        .doctor-profile{
+            .qualification{
+                li{
+                    margin: 2px 0;
+                    width: 100%;
+                }
+            } 
         }
     }
 }

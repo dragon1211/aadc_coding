@@ -149,6 +149,13 @@
 			もし、１ヶ月や２ヶ月などのかなり短期的な矯正治療をご希望の場合には、前歯のみ矯正するセラミック矯正が最適です。
 		</p>
 	</section>
+
+
+	<!-- price link -->
+	<section class="cure2-price-link-section">
+		<a href="<?php echo home_url(); ?>/price" class="price-link f20">矯正治療費に<br class="sp-only3">ついてはこちら</a>
+	</section>
+	
 			
 	<!-- payment -->
 	<section class="cure2-payment-section">

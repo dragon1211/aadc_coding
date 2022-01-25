@@ -37,6 +37,15 @@
                     <li>アロマテラピーアドバイザー</li>
                     <li>インディアナ大学歯学部日本矯正歯科プログラム認定医取得</li>
                 </ul>
+                <div class="profile-head">著書</div>
+                <p class="book-intro">
+                    院長小川朗子著書<br>
+                    <span class="book-title">若さを取り戻す歯のエイジングケア</span><br>
+                    美しい歯になる習慣と治療法<br>
+                    <a href="/?????" class="anchor" target="_blank">詳しくはこちら</a>
+                </p>
+
+
                 <div class="profile-head">活動</div>
                 <div class="activity">
                     <span>カジュアルフレンチレストラン「ビストロみや乃」<br>フレンチアンチエイジングコースランチメニューを監修。</span>
@@ -142,7 +151,7 @@
                     <li>2000年　同社ハワイオフィス</li>
                     <li>2002年　同社東京オフィス 新東京歯科技工士専門学校 非常勤講師</li>
                     <li>2003年　新大阪歯科技工士専門学校 卒業生代表特別講演者に任命される。</li>
-                    <li>2003年　AICraft設立　<a href="http://www.aicraft.co.jp/" target="_blank">株式会社アイクラフト</a></li>
+                    <li>2003年　AICraft設立　<a class="anchor" href="http://www.aicraft.co.jp/" target="_blank">株式会社アイクラフト</a></li>
                 </ul>
                 <div class="profile-head">メッセージ</div>						
                 <p class="message">白い歯のこぼれる笑顔を追求したく、審美歯科、インプラント技工を中心にアトランタ、LA、ハワイで著名な方々と共にトップクラスの仕事に携わってきました。日本人特有の手先の器用さと海外経験で培った最先端の技術で、皆様に高品質な技工物を提供いたします。</p>

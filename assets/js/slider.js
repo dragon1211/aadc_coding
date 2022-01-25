@@ -2,14 +2,14 @@ $(document).ready(function () {
 
     
   // bxSlider
-  $(window).on('load', function() {
-    $('.bxslider').bxSlider({
-      auto:true,
-      responsive : true
-    });
-  })
+  $('.bxslider').bxSlider({
+    auto:true,
+    responsive : true,
+    touchEnabled: true
+  });
 
 
+  // Swiper Slider
   var swiper1 = new Swiper ('.home-news__list .swiper-container', {
 
 		  direction: 'horizontal',

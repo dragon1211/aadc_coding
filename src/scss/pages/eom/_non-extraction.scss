@@ -302,7 +302,7 @@
 /* alignment-faq */
 .cure2-alignment-faq-section {
 	max-width: 1040px;
-	margin: 0 auto 50px;
+	margin: 0 auto;
 	padding: 0 20px;
 	overflow: hidden;
 
@@ -322,8 +322,40 @@
 	p.answer {
 		font-weight: 200;
 		line-height: 180%;
-		padding-bottom: 50px;
-		text-align: justify;	
+		margin-bottom: 50px;
+		text-align: justify;
+		&:last-child{
+			margin-bottom: 0;
+		}	
+	}
+}
+
+.cure2-price-link-section{
+	max-width: 1040px;
+	padding: 0 20px;
+	margin: 150px auto;
+	text-align: center;
+	.price-link{
+		display: block;
+		max-width: 400px;
+		width: 100%;
+		margin: auto;
+		padding: 10px 40px;
+		border-radius: 50px;
+		color: white;
+		background: linear-gradient(to left, #08c 50%, rgb(8, 152, 224) 50%) right;
+		background-size: 200%;
+		transition: .3s ease-out;
+		
+		&:hover{
+			background-position: left;
+		}
+	}
+	@include mq(sm2){
+		margin: 100px auto;
+		.price-link{
+			max-width: 300px;
+		}
 	}
 }
 

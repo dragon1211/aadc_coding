@@ -7061,6 +7061,19 @@ body {
 }
 
 .doctor .doctor-info .doctor-profile .profile-head {
+  font-weight: 600;
+}
+
+.doctor .doctor-info .doctor-profile .book-intro {
+  margin: 10px 0 60px 0;
+}
+
+.doctor .doctor-info .doctor-profile .book-intro .book-title {
+  font-size: 2.0rem;
+}
+
+.doctor .doctor-info .doctor-profile .anchor {
+  color: #0088cc;
   font-weight: 500;
 }
 
@@ -7137,12 +7150,8 @@ body {
   .doctor .doctor-info .doctor-photo img {
     margin: auto;
   }
-  .doctor .doctor-info .doctor-profile .bio {
-    margin: 20px 0;
-  }
   .doctor .doctor-info .doctor-profile .qualification {
     font-size: 1.4rem;
-    margin: 5px 0 30px 0;
   }
   .doctor .doctor-info .doctor-profile .qualification li {
     margin: 0 5px 5px 0;
@@ -7151,6 +7160,13 @@ body {
     font-size: 1.4rem;
     padding: 5px 10px;
     margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 389px) {
+  .doctor .doctor-info .doctor-profile .qualification li {
+    margin: 2px 0;
+    width: 100%;
   }
 }
 
@@ -10039,7 +10055,7 @@ body {
 
 .non-extraction .cure2-alignment-faq-section {
   max-width: 1040px;
-  margin: 0 auto 50px;
+  margin: 0 auto;
   padding: 0 20px;
   overflow: hidden;
 }
@@ -10062,8 +10078,47 @@ body {
 .non-extraction .cure2-alignment-faq-section p.answer {
   font-weight: 200;
   line-height: 180%;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   text-align: justify;
+}
+
+.non-extraction .cure2-alignment-faq-section p.answer:last-child {
+  margin-bottom: 0;
+}
+
+.non-extraction .cure2-price-link-section {
+  max-width: 1040px;
+  padding: 0 20px;
+  margin: 150px auto;
+  text-align: center;
+}
+
+.non-extraction .cure2-price-link-section .price-link {
+  display: block;
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  padding: 10px 40px;
+  border-radius: 50px;
+  color: white;
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #08c), color-stop(50%, #0898e0)) right;
+  background: linear-gradient(to left, #08c 50%, #0898e0 50%) right;
+  background-size: 200%;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+.non-extraction .cure2-price-link-section .price-link:hover {
+  background-position: left;
+}
+
+@media screen and (max-width: 768px) {
+  .non-extraction .cure2-price-link-section {
+    margin: 100px auto;
+  }
+  .non-extraction .cure2-price-link-section .price-link {
+    max-width: 300px;
+  }
 }
 
 .non-extraction .cure2-payment-section {
