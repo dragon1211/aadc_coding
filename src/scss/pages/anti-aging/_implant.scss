@@ -85,6 +85,7 @@
     }
     ul.howto {
         padding: 30px 100px 50px;
+        font-weight: $font_regular;
         text-align: left;	
     }
     .howto li {
@@ -143,6 +144,7 @@
     }
     .warranty {
         line-height: 150%;
+        font-weight: $font_regular;
     }
 }
 

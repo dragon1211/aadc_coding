@@ -23,7 +23,7 @@
 
 	h2.head {
 		text-align: center;
-		
+		font-weight: $font_regular;
 		letter-spacing: 0.5rem;
 		text-indent: 0.5rem;	
 		margin-bottom: 50px;
@@ -69,12 +69,13 @@
 		.bold {
 			line-height: 150%;
 			margin-bottom: 30px;
+			font-weight: $font_medium;
 			span {
 				display: block;
 			}
 		}
 		ul {
-			font-weight: $font_medium;
+			font-weight: $font_regular;
 			margin-bottom: 30px;
 			li {
 				margin: 20px;
@@ -461,12 +462,10 @@
 	max-width: 1040px;
 	padding: 0 20px 100px;
 	margin: 0 auto;
-	.bold {
-		font-weight: $font_regular;
-		margin-bottom: 30px;
+	.bold{
+		font-weight: $font_medium;
 	}
 	ul {
-		font-weight: $font_medium;
 		margin-bottom: 30px;
 		li {
 			

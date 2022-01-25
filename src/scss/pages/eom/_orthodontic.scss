@@ -17,14 +17,13 @@
 
 	h2.head {
 		text-align: center;
-		font-weight: $font_regular;
 		letter-spacing: 0.5rem;
 		text-indent: 0.5rem;	
 		margin-bottom: 50px;	
+		font-weight: $font_regular;
 	}
 	h3.head {
 		text-align: center;
-		font-weight: $font_regular;
 		letter-spacing: 0.2rem;
 		text-indent: 0.2rem;	
 		margin-bottom: 50px;
@@ -138,18 +137,23 @@
 		}
 	}
 	p.blogbanner{
-		margin: 0;
+		margin: 100px auto 0;
+		text-align: center;
 		a{
-			text-align: center;
-			padding: 10px 50px;
-			margin: 100px auto 0;
-			background: #d0bfa6;
 			display: block;
-			color: #fff;
+			max-width: 450px;
+			width: 100%;
+			margin: auto;
+			padding: 10px 40px;
 			border-radius: 50px;
+			color: white;
 			font-weight: $font_regular;
+			background: linear-gradient(to left, #08c 50%, rgb(8, 152, 224) 50%) right;
+			background-size: 200%;
+			transition: .3s ease-out;
+			
 			&:hover{
-				opacity: .7;
+				background-position: left;
 			}
 		}
 	} 
@@ -319,6 +323,15 @@
 	}	
 }
 
+@include mq(sm2){
+	.cure2-orthodontic-section p.blogbanner{
+		a{
+			max-width: 350px;
+			margin: 50px auto 0;
+		}
+	} 
+}
+
 
 @include mq(smt){
 
@@ -359,9 +372,9 @@
 	}
 
 	.cure2-orthodontic-section p.blogbanner{
+		margin-top: 50px;
 		a{
-			margin: 50px auto 0;
-			padding: 10px 20px
+			padding: 5px 20px;
 		}
 	} 
 }

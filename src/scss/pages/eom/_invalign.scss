@@ -23,16 +23,11 @@
 
 	h2.head {
 		text-align: center;
-		font-weight: $font_regular;
-		letter-spacing: 0.5rem;
-		text-indent: 0.5rem;
 		margin-bottom: 50px;
 		line-height: 180%;
 	}
 	p.intro {
 		margin: 0 auto;
-		letter-spacing: 0.2rem;
-		font-weight: $font_regular;
 		line-height: 200%;
 		text-align: justify;
 		padding-bottom: 30px;
@@ -60,7 +55,6 @@
 		}
 	}
 	h3.head {
-		font-weight: $font_regular;
 		margin-bottom: 30px;
 		letter-spacing: 0.2rem;
 	}
@@ -311,7 +305,6 @@
 	padding: 0 20px;
 	text-align: center;
 	h2 {
-		font-weight: $font_regular;
 		line-height: 150%;
 	}
 	.plan-wrap {
@@ -323,7 +316,6 @@
 		h3.head {
 			height: 50px;
 			margin: 20px;
-			font-weight: $font_regular;
 			line-height: 150%;
 		}
 		img {
@@ -360,25 +352,21 @@
 			overflow: hidden;
 			h3 {
 				text-align: center;
-				font-weight: $font_regular;
 				margin-bottom: 10px;
 			}
 			.outline {
 				text-align: left;
-				font-weight: $font_regular;
 				line-height: 150%;
 				height: auto;
 				margin-bottom: 30px;
 			}
 			h4 {
 				text-align: center;
-				font-weight: $font_regular;
 			}
 			ul li {
 				max-width: 800px;
 				text-align: justify;
 				line-height: 150%;
-				font-weight: $font_regular;
 				position: relative;
 				padding-left: 25px; 
 				margin: 20px;
@@ -479,7 +467,6 @@
 		text-align: center;
 	}
 	ul.qa {
-		font-weight: $font_regular;
 		line-height: 180%;
 		span {
 			display: block;

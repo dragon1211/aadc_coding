@@ -142,7 +142,7 @@
 				</li>
 			</ul>
 		</div>
-		<p class="blogbanner f24"><a href="<?php echo home_url(); ?>/aadcblog/orthodontic/">前歯部分矯正の<br class="sp-onlyt">関連ブログはこちら</a></p>
+		<p class="blogbanner f20"><a href="<?php echo home_url(); ?>/aadcblog/orthodontic/">前歯部分矯正の<br class="sp-onlyt">関連ブログはこちら</a></p>
 	</section>
 
 	<!-- orthodontic comment -->
