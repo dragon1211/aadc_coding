@@ -122,12 +122,10 @@
 				<div class="home-section__wrap">
 					<div class="home-section__wrap__eom">
 						<h2 class="home-section__wrap__eom-heading">
-							<span class="pc-only">エステティックオルソメソッド(EOM)で</span>
-							<span class="sp-only">審美矯正で</span>
+							<span >エステティック<br class="sp-only2">オルソメソッド(EOM)で</span>
 							<span>美しい歯をいつまでも</span>
 							<a href="<?php echo home_url(); ?>/eom/">
-								<span class="pc-only">エステティックオルソメソッドについて</span>
-								<span class="sp-only">審美矯正について</span>
+								<span>エステティック<br class="sp-only2">オルソメソッドについて</span>
 							</a>
 						</h2>
 					</div>

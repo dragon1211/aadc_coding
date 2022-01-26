@@ -5995,6 +5995,10 @@ p {
   color: #333333;
 }
 
+.home-section__wrap__eom-heading span {
+  display: block;
+}
+
 .home-section__wrap__eom-heading a {
   display: block;
   margin-top: 10px;
