@@ -5,7 +5,13 @@ $(document).ready(function () {
   $('.bxslider').bxSlider({
     auto:true,
     responsive : true,
-    touchEnabled: true
+    touchEnabled: true,
+    adaptiveHeight: true,
+    pause: 3000,
+    speed: 500,
+    useCSS: false,
+    controls: true,
+    moveSlides: 1,
   });
 
 

@@ -125,7 +125,7 @@
 							<span >エステティック<br class="sp-only2">オルソメソッド(EOM)で</span>
 							<span>美しい歯をいつまでも</span>
 							<a href="<?php echo home_url(); ?>/eom/">
-								<span>エステティック<br class="sp-only2">オルソメソッドについて</span>
+								エステティック<br class="sp-only2">オルソメソッドについて
 							</a>
 						</h2>
 					</div>
