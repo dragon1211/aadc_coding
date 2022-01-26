@@ -13,17 +13,15 @@
             <p class="comment">
                 <?php 
                     $post_type = get_post_type();
-                    // $category = get_the_category();
-                    // $cat_name = $category[0]->cat_name;
-                    // $cat_slug = $category[0]->category_nicename; 
+                    
                     if(strcmp($post_type, 'news') == 0){
-                        $post_sigular_name = get_post_type_object( 'news') -> labels -> singular_name;
+                        $cat_name = get_post_type_object( 'news') -> labels -> singular_name;
+                    } else if(strcmp($post_type, 'aadcblog') == 0) {
+                        $cat_name = get_the_terms(get_the_ID(), 'aadcblog_category')[0]->name;
+                    } else $cat_name = '未定';
                 ?>
-                    <span class="badge"><?php echo '【'.$post_sigular_name.'】'?></span>
-                <?php } else { ?>
-                    <span class="badge"><?php echo $cat_name; ?></span>
+                <span class="badge"><?php echo '【'.$cat_name.'】'?></span>
                 <?php
-                    }
                     $days = 7;
                     $today = date('U');
                     $date = get_the_time('U');

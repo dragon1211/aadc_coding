@@ -88,7 +88,7 @@ define("PAGE_NAVI_NUM", 15);
 //       'show_in_rest'  => true,  // 5系から出てきた新エディタ「Gutenberg」を有効にする
 //       'supports' => array('title','editor','thumbnail')
 //    ]);
-//    register_taxonomy('aadcblog-cat','aadcblog',
+//    register_taxonomy('aadcblog_category','aadcblog',
 //       array(
 //          'hierarchical' => true,
 //          'label' => 'ブログカテゴリー',
@@ -99,7 +99,7 @@ define("PAGE_NAVI_NUM", 15);
 //    register_post_type( 'news', [ // 投稿タイプ名の定義
 //       'labels' => [
 //          'name'          => 'ニュース・メディア情報', // 管理画面上で表示する投稿タイプ名
-//          'singular_name' => 'newsmedia',    // カスタム投稿の識別名
+//          'singular_name' => 'メディア情報',    // カスタム投稿の識別名
 //       ],
 //       'public'        => true,  // 投稿タイプをpublicにするか
 //       'has_archive'   => false, // アーカイブ機能ON/OFF
@@ -107,7 +107,7 @@ define("PAGE_NAVI_NUM", 15);
 //       'show_in_rest'  => true,  // 5系から出てきた新エディタ「Gutenberg」を有効にする
 //       'supports' => array('title','editor','thumbnail')
 //    ]);
-//    register_taxonomy('news-cat','newsmedia',
+//    register_taxonomy('news_category','newsmedia',
 //       array(
 //          'hierarchical' => true,
 //          'label' => 'ニュースカテゴリー',

@@ -7260,7 +7260,7 @@ p {
 }
 
 .news-item:hover {
-  background-color: #F5F5F7;
+  opacity: .8;
   -webkit-transition: all .3s;
   transition: all .3s;
 }

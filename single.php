@@ -6,23 +6,32 @@
 	<?php 
 		$post = $wp_query->post; 
 
-		if ( in_category(array( 'news' )) ) { 
-			get_template_part( 'template-parts/sub-nav/about-sub-nav' ); 
-		} else {
-			get_template_part( 'template-parts/sub-nav/aadcblog-sub-nav' ); 
-		} 
+		$post_type = get_post_type();
 
-		$category = get_the_category();
-		$cat_name = $category[0]->cat_name;
-		$cat_slug = $category[0]->category_nicename; 
+		if ( strcmp($post_type, 'news') == 0 ) { 
+
+			get_template_part( 'template-parts/sub-nav/about-sub-nav' ); 
+			$cat_name = get_post_type_object( 'news') -> labels -> singular_name;
+			$cat_slug = 'news';
+
+		} else if(strcmp($post_type, 'aadcblog') == 0) {
+			get_template_part( 'template-parts/sub-nav/aadcblog-sub-nav' ); 
+			$cat_name = get_the_terms(get_the_ID(), 'aadcblog_category')[0]->name;
+			$cat_slug = get_the_terms(get_the_ID(), 'aadcblog_category')[0]->slug;
+		} else {
+			$cat_name = '未定';
+			$cat_slug = '未定';
+		}
 
 		$days = 7;
 		$today = date('U');
 		$date = get_the_time('U');
 		$period = date('U', ($today - $date)) / 86400;
 
-		$prev_post = get_previous_post(true);   //in same categories
-		$next_post = get_next_post(true); // in same categories
+		
+		$prev_post = get_previous_post( strcmp($post_type, 'aadcblog') == 0 );   //in same categories, if aadcblog
+		$next_post = get_next_post( strcmp($post_type, 'aadcblog') == 0 ); // in same categories, if aadcblog
+		
 	?>
 
 	<section class="post">
@@ -31,7 +40,7 @@
 				<!-- post header -->
 				<div class="post__header">
 					<p class="comment">
-						<span class="badget"><?php echo $cat_name ?></span>
+						<span class="badget"><?php echo "【".$cat_name."】" ?></span>
 						<?php if ($days > $period){; ?>
 							<span class="new"><span>NEW</span></span>
 						<?php }; ?>
@@ -65,7 +74,7 @@
 						<a class="post-link__before">≪ 前の記事</a>
 					<?php endif; ?>
 
-					<?php if ( strcmp($cat_slug, 'news') == 0 ):  ?>
+					<?php if ( strcmp($post_type, 'news') == 0 ):  ?>
 						<a class="post-link__list active" href="<?php echo home_url(); ?>/about/news">一覧へ戻る</a>
 					<?php else: ?>
 						<a class="post-link__list active" href="<?php echo home_url(); ?>/aadcblog">一覧へ戻る</a>
@@ -89,7 +98,7 @@
 	<section class="breadcrumb-wrapper">
 		<div class="breadcrumb-wrapper__content">
 			<!-- news -->
-			<?php if ( in_category(array( 'news' )) ) { ?>
+			<?php if ( strcmp($post_type, 'news') == 0 ) { ?>
 				<ul class="breadcrumb">
 					<li>
 						<a href="<?php echo home_url(); ?>">

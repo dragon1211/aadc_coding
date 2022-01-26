@@ -8,18 +8,18 @@
         <div class="sub-nav__container">
             <ul class="sub-nav__menu-slide">
                 <?php 
+                
                     $category = get_the_category();
                     if($category){
                         $cat_name = $category[0]->cat_name;
                         $cat_slug = $category[0]->category_nicename;
+                        echo $cat_slug;
                     }
 
-                    $categories = get_categories( [
-                        'taxonomy'     => 'category',
-                        'type'         => 'post',
+                    $categories = get_terms( [
+                        'taxonomy'     => 'aadcblog_category',
                         'child_of'     => 0,
-                        'parent'       => get_cat_ID('aadcblog'),
-                        'orderBy'      => 'order',
+                        'orderBy'      => 'post_date',
                         'order'        => 'ASC',
                         'hierarchical' => 1,
                         'exclude'      => '',
