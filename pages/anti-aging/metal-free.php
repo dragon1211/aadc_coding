@@ -41,7 +41,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="thumb-wrap slider">
+		<div class="thumb-wrap slider-wrap">
 			<div class="thumb-wrap__row">
 				<div class="thumb">
 					<div class="bxslider">

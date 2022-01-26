@@ -21,10 +21,10 @@
                 美しく白い歯と<br class="sp-onlyt">きれいな歯並びを
             </h1>
             <p class="shinbi-content__mainvisual--text">
-                当院の審美治療は、アメリカ最新審美治療をはじめ、
-                美意識の高い患者様のニーズにもお応えできるよう、
-                高品質なセラミックと高い技術で治療を行なっています。
-                患者様一人ひとりのお口の状態やライフスタイルを考慮した
+                当院の審美治療は、アメリカ最新審美治療をはじめ、<br class="pc-only">
+                美意識の高い患者様のニーズにもお応えできるよう、<br class="pc-only">
+                高品質なセラミックと高い技術で治療を行なっています。<br class="pc-only">
+                患者様一人ひとりのお口の状態やライフスタイルを考慮した<br class="pc-only">
                 最善の治療法で、自信の持てる美しい口元にいたします。
             </p>
         </div>
@@ -226,8 +226,9 @@
         <!-- laminate -->
         <section class="cure1-laminate-section" id="laminate-veneer">
             <div>
+                <h3 class="head f28 sp-onlyt">ラミネートベニア</h3>
                 <img class="right" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/cure1-laminate4.png">
-                <h3 class="head f28">ラミネートベニア</h3>
+                <h3 class="head f28 pc-onlyt">ラミネートベニア</h3>
                 <h4 class="intro f20">前歯の詰め物の変色、歯の色が濃い、前歯の隙間などが気になる方に</h4>
                 <p class="laminate f16">歯の表面を一層（0.5mm程度）削ってセラミックの薄いシェルを貼り付ける方法です。
                     歯を削る量が少なく、神経を取らずに治療ができます。
@@ -242,7 +243,7 @@
         <!-- case -->
         <section class="cure1-grinding-section">
             <div class="wrapper">
-                <h3 class="head f38">歯ぎしりのある方の<br class="sp-onlyt">セラミック治療</h3>
+                <h3 class="head f36">歯ぎしりのある方の<br class="sp-onlyt">セラミック治療</h3>
                 <p class="contents-text f16">前歯のセラミッククラウンや治療中の仮歯、または自分の歯が欠けてしまった経験はありますか？<br>
                     もし、このような経験をお持ちの方は、歯ぎしりや食いしばり、噛み締めの習慣があるのかもしれません。<br>
                     当院では、今までに歯が欠けてしまった経験のある方や、歯ぎしりや食いしばりのある方にもご不安なく前歯審美治療を行えるように努めております。<br>
@@ -260,10 +261,17 @@
     
         <!-- composite -->
         <section class="cure1-composite-section" id="composite">
+            <h3 class="head f28 sp-only2">コンポジットレジン法<br>（ダイレクトボンディング法）</h3>
             <div class="wrapper">
-                <div>
-                    <img class="left" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/cure1-composite2.png" >
-                    <h3 class="head f28">コンポジットレジン法<br>（ダイレクトボンディング法）</h3>
+                <div class="left">
+                    <div class="bxslider">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/eom/shinbi-slide-1-1.png">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/eom/shinbi-slide-1-2.png">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/eom/shinbi-slide-1-3.png">
+					</div>
+                </div>
+                <div class="right">
+                    <h3 class="head f28 pc-only2">コンポジットレジン法<br>（ダイレクトボンディング法）</h3>
                     <p class="composite f16">神経を取らずに、健全歯質を極力残して歯をきれいにする詰め物の治療です。
                         虫歯を、治療跡がわからないように直したり、すき間をうめたり、ホワイトニング後の詰め物の治療も色調を合わせて行えます。
                         「フィルテックTMシュープリームXTコンポジットレジン」は、ナノテクノロジーによるフィラー技術で、よりハイレベルな審美修復が可能です。
@@ -282,9 +290,10 @@
 
         <!-- shinbi-teeth -->
         <section class="shinbi-teeth__section">
+            <h2 class="head f28 sp-only2">ちょっと削り</h2>
             <div class="shinbi-teeth__content">
                 <div class="left">
-                    <h2 class="f28">ちょっと削り</h2>
+                    <h2 class="head f28 pc-only2">ちょっと削り</h2>
                     <p class="f14">
                         歯の先端が尖っている、前歯の長さが不揃い、前歯が長い、凸凹が気になる、などのお悩みを、歯の形の修正で解決いたします。
                         先端部分をわずかに削り、形を整えることで見た目の印象を変えることができます。
@@ -295,16 +304,11 @@
                     </p>
                 </div>
                 <div class="right">
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/eom/shinbi-slide1.png" alt="">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/eom/shinbi-slide2.png" alt="">
-                            </div>
-                        </div>
-                    </div>
+                    <div class="bxslider">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/eom/shinbi-slide-2-1.png">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/eom/shinbi-slide-2-2.png">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/eom/shinbi-slide-2-3.png">
+					</div>
                 </div>
             </div>
         </section>
@@ -337,83 +341,6 @@
                 </p>
                 <p class="anchor f14"><a href="<?php echo home_url(); ?>/eom/whitening/" >ホワイトニングについてさらに詳しく</a></p>
             </div>			
-        </section>
-    
-        <!-- lumineers -->
-        <section class="cure1-lumineers-section" id="lumineers">
-            <h3 class="head f28">ルミネアーズ</h3>
-            <div>
-                <img class="right" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/cure1-lumineers1.png">
-                <p class="limineers f16">最大の特徴は、その薄さ。極薄の粒子の細かいセラミックのため、歯をほとんど削らずに治療ができるのです。<br>
-                    そのため麻酔の必要がなく、ルミネアーズ完成までの仮の歯を必要としません。。・・
-                    まさに、当院の目指す”患者さんに優しい”そして”健康で若々しい口元”をお届けするのに最適な治療法です。<br>
-                    たった2回の治療で最高のハリウッドスマイルをお届けいたします。 <br>
-                    <span class="f14">※歯の状態により適応しない場合がありますのでご相談ください。</span>
-                </p>
-                <p class="sub-head f16">治療法</p>
-                <p class="detail f14">歯を形成、整えた後に型取りをするだけです。<br>
-                次回はルミネアーズを専用の接着法によりセットいたします。<br>
-                <span class="f12">※より美しく仕上げるために若干の歯の調整をする場合もあります。</span></p>
-                <ul class="cost_ex f13">
-                    <li><span>治療方法</span>ダイレクトボンディング法（コンポジットレジン法）</li>
-                    <li><span>治療期間</span>1日</li>
-                    <li><span>治療費用</span>1歯 ¥132,000（税込）</li>
-                    <li><span>治療の副作用・リスク</span>材質の経年劣化により変色する。欠けたり取れることがある。</li>
-                </ul>
-                <p class="anchor f14"><a href="<?php echo home_url(); ?>/eom/lumineers/" >ルミネアーズについてさらに詳しく</a></p>
-            </div>
-            <div class="right">
-                <div class="bxslider">
-                </div>
-            </div>
-        </section>
-    
-        <!-- snapon -->
-        <section class="cure1-snapon-section" id="snapon-smile">
-            <h3 class="head l6">スナップオン<br class="sp-onlyt">スマイル</h3>
-            <p class="snapon m">スナップオンスマイルは、あなたの歯を削らずにきれいな歯並びを手に入れられる、アメリカ発の審美治療法です。
-                手術の準備も注射も要らない、快適で着脱可能な歯科補綴物です。
-                スナップオンスマイルは、信じられない程軽く歯を保護します。歯肉組織に影響することも、上顎口蓋を覆うこともありません。<br>
-                歯を削らない、痛くない。歯形をとるだけなので「歯並びや色をきれいにしたいけれど治療が怖い」などのご不安のある方におすすめです。
-                結婚式や大事なイベントの前など、すぐにきれいな歯並びを手に入れたい方におすすめです。
-                ウイッグの感覚でお使いいただけます。
-            </p>
-
-            <div class="left">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/cure1-snapon.png">
-            </div>			
-
-            <div class="right">
-                <p class="sub-head m">スナップオンスマイルの素材</p>
-                <p class="detail s">強度を確保して0.5mmまで薄くした特殊な素材です。自然な輪郭と外見を確保するために各部の厚みに変化を加えています。スナップオンスマイルは、耐久性に富み、煙草やコーヒー、ワインの汚れから白い歯を守ります。装着したまま食事をすることもできます。</p>
-                <p class="sub-head m">こんな場合におすすめ</p>
-                <p class="detail s">・インプラントの仮歯<br>
-                    ・ホワイトニング<br>
-                    ・ブリッジやクラウンの代用<br>
-                    ・歯ぎしり防止やスポーツ時のマウスピースとして
-                </p>
-                <p class="sub-head m">治療法</p>
-                <p class="list s">治療方法は簡単です。<br>歯形を取って、アメリカデンマット社のラボに送ります。<br>
-                    約4週間で、あなたの歯形に合ったスナップオンスマイルが出来上がります。<br>
-                    <span class="s2">※適応しない場合もありますので、ご相談ください。</span>
-                </p>
-            </div>
-         
-            <h4 class="head l4">ワンデイ／one day</h4>
-            <p class="oneday m">即日で美しいハリウッドスマイルを！既製のセラミックスの薄い歯を即日で調整して接着します。<br>
-                適応はルミネアーズよりも限られますが、ネイル感覚で美しい口元をお届けします。
-            </p>
-            <div class="wrapper">
-                <p class="sub-head m">こんな場合におすすめ</p>
-                <p class="detail s">・僅かな歯並びの不整<br>
-                    ・治療や着色による変色<br>
-                    ・古いセラミックスの差し歯の継ぎ目が歯肉から露出してしまっている症例など 
-                </p>
-                <p class="sub-head m">治療法</p>
-                <p class="list s">・症例により歯を削らない、もしくは僅かな削除を行います。<br>
-                    ・既製のセラミックスの歯を調整し専用の接着法によりセットしますので即日で治療が終了します。
-                </p>
-            </div>
         </section>
     </div>
 </section>
