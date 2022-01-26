@@ -8,12 +8,11 @@
         <div class="sub-nav__container">
             <ul class="sub-nav__menu-slide">
                 <?php 
-                
-                    $category = get_the_category();
-                    if($category){
-                        $cat_name = $category[0]->cat_name;
-                        $cat_slug = $category[0]->category_nicename;
-                        echo $cat_slug;
+                    $post_type = get_post_type();
+
+                    $cat_slug = '';
+                    if(strcmp($post_type, 'aadcblog') == 0){
+                        $cat_slug = get_the_terms(get_the_ID(), 'aadcblog_category')[0]->slug;
                     }
 
                     $categories = get_terms( [
@@ -35,7 +34,7 @@
                     <li>
                         <a href="<?php echo home_url()."/aadcblog/".$cat->slug; ?>" 
                             class = "<?php 
-                                if($category && strcmp($cat_slug, $cat->slug) == 0) echo "active"; ?>" >   <?php echo $cat->name ?> </a>
+                                if(strcmp($cat_slug, $cat->slug) == 0) echo "active"; ?>" >   <?php echo $cat->name ?> </a>
                     </li>
 
                 <?php } } else ;?>

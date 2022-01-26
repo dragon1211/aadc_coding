@@ -29,8 +29,8 @@
 		$period = date('U', ($today - $date)) / 86400;
 
 		
-		$prev_post = get_previous_post( strcmp($post_type, 'aadcblog') == 0 );   //in same categories, if aadcblog
-		$next_post = get_next_post( strcmp($post_type, 'aadcblog') == 0 ); // in same categories, if aadcblog
+		$prev_post = get_previous_post(  );   //in same categories, if aadcblog
+		$next_post = get_next_post(  ); // in same categories, if aadcblog
 		
 	?>
 

@@ -39,18 +39,11 @@
 				<li class="link-list__item title"><a class="item-link" href="<?php echo home_url(); ?>/aadcblog" >Dr.OGAWAブログ</a></li>
 
 				<?php 
-					$category = get_the_category();
-					if($category){
-						$cat_name = $category[0]->cat_name;
-						$cat_slug = $category[0]->category_nicename;
-					}
-
 					$categories = get_categories( [
-						'taxonomy'     => 'category',
-						'type'         => 'post',
+						'taxonomy'     => 'aadcblog_category',
+						'type'         => 'aadcblog',
 						'child_of'     => 0,
-						'parent'       => get_cat_ID('aadcblog'),
-						'orderBy'      => 'order',
+						'orderBy'      => 'post_date',
 						'order'        => 'ASC',
 						'hierarchical' => 1,
 						'exclude'      => '',
