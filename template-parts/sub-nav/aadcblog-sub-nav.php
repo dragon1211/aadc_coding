@@ -12,11 +12,11 @@
 
                     $cat_slug = '';
                     if(strcmp($post_type, 'aadcblog') == 0){
-                        $cat_slug = get_the_terms(get_the_ID(), 'aadcblog_category')[0]->slug;
+                        $cat_slug = get_the_terms(get_the_ID(), ADDCBLOG_CAT)[0]->slug;
                     }
 
                     $categories = get_terms( [
-                        'taxonomy'     => 'aadcblog_category',
+                        'taxonomy'     => ADDCBLOG_CAT,
                         'child_of'     => 0,
                         'orderBy'      => 'post_date',
                         'order'        => 'ASC',

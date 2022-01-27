@@ -17,7 +17,7 @@
                     if(strcmp($post_type, 'news') == 0){
                         $cat_name = get_post_type_object( 'news') -> labels -> singular_name;
                     } else if(strcmp($post_type, 'aadcblog') == 0) {
-                        $cat_name = get_the_terms(get_the_ID(), 'aadcblog_category')[0]->name;
+                        $cat_name = get_the_terms(get_the_ID(), ADDCBLOG_CAT)[0]->name;
                     } else $cat_name = '未定';
                 ?>
                 <span class="badge"><?php echo '【'.$cat_name.'】'?></span>

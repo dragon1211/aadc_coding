@@ -16,8 +16,8 @@
 
 		} else if(strcmp($post_type, 'aadcblog') == 0) {
 			get_template_part( 'template-parts/sub-nav/aadcblog-sub-nav' ); 
-			$cat_name = get_the_terms(get_the_ID(), 'aadcblog_category')[0]->name;
-			$cat_slug = get_the_terms(get_the_ID(), 'aadcblog_category')[0]->slug;
+			$cat_name = get_the_terms(get_the_ID(), ADDCBLOG_CAT)[0]->name;
+			$cat_slug = get_the_terms(get_the_ID(), ADDCBLOG_CAT)[0]->slug;
 		} else {
 			$cat_name = '未定';
 			$cat_slug = '未定';
