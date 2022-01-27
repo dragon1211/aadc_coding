@@ -45,7 +45,7 @@
                 <?php echo get_the_date('Y年n月j日'); ?>
             </span>
             <p class="title">
-                <?php echo $post-> post_title; ?>
+                <?php the_title(); ?>
             </p>
         </div>
     </a>

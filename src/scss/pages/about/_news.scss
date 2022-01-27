@@ -151,3 +151,8 @@
 }
 
 
+//Ajax Loading More
+.alm-listing .alm-reveal{
+    @extend .news-list;
+    margin-bottom: 20px;
+}
