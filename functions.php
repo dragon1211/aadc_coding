@@ -1,8 +1,9 @@
 <?php
 
+//定数
 define("PAGE_NAVI_NUM", 15);
-
 define("AADCBLOG_CATEGORY", 'aadcblog_ctg');
+define("NEWS_CATEGORY", 'news_category');
 
 // ヘッダー無効化
 remove_action('wp_head', 'feed_links', 2);
@@ -74,3 +75,20 @@ function pagename_class($classes = '') {
 return $classes;
 }
 add_filter('body_class','pagename_class');
+
+
+//記事から最初の画像を取得する
+function get_first_image() {
+   global $post, $posts;
+   $first_img = '';
+   ob_start();
+   ob_end_clean();
+   $first_img = preg_match_all('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $post->post_content, $matches);
+   if(count($matches[1])>0)
+      $first_img = $matches[1][0];
+
+   if(empty($first_img)){ //Defines a default image
+     $first_img = get_stylesheet_directory_uri()."/assets/images/common/slide-common.png";
+   }
+   return $first_img;
+}

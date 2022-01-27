@@ -5,14 +5,17 @@
 	<!-- contents -->
 	<?php 
 
+		
 		if ( strcmp($post_type, 'news') == 0 ) { 
-
 			get_template_part( 'template-parts/sub-nav/about-sub-nav' ); 
-			$cat_name = get_post_type_object( 'news') -> labels -> singular_name;
-
-		} else if(strcmp($post_type, 'aadcblog') == 0) {
+			$terms = get_the_terms(get_the_ID(), NEWS_CATEGORY);
+		} 
+		else if(strcmp($post_type, 'aadcblog') == 0) {
 			get_template_part( 'template-parts/sub-nav/aadcblog-sub-nav' ); 
 			$terms = get_the_terms(get_the_ID(), AADCBLOG_CATEGORY);
+		} 
+
+		if(isset( $terms )){
 			$cat_name = '';
 			$flag = true;
 			foreach($terms as $term){
@@ -20,9 +23,11 @@
 				else $cat_name = $cat_name.', '.$term->name;
 				$flag = false;
 			}			
-		} else {
+		}
+		else{
 			$cat_name = '未定';
 		}
+		
 
 		$days = 7;
 		$today = date('U');
@@ -54,13 +59,6 @@
 
 				<!-- post content -->
 				<div class="post__content">
-					<!-- <div class="thumbnail">
-						<?php 
-							if(has_post_thumbnail()){ 
-								the_post_thumbnail();
-							}; 
-						?>
-					</div> -->
 					<div class="detail f16"><?php the_content(); ?></div>
 				</div>
 
@@ -107,7 +105,7 @@
 						</a>
 					</li>
 					<li><a href="<?php echo home_url(); ?>/about">当院について</a></li>
-					<li><a href="<?php echo home_url()."/about/news"; ?>"><?php echo $cat_name ?></a></li>
+					<li><a href="<?php echo home_url()."/about/news"; ?>"><?php echo $terms[0]->name ?></a></li>
 				</ul>
 
 			<?php } else { ?>

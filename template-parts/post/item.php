@@ -6,7 +6,7 @@
                     the_post_thumbnail('media_thumbnail');
                 } else {; 
             ?>
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/slide-common.png" alt="">
+                <img src="<?php echo get_first_image() ?>" alt="aadc">
             <?php }; ?>		
         </div>
         <div class="news-item__desc">
@@ -15,10 +15,12 @@
                     $post_type = get_post_type();
                     
                     if(strcmp($post_type, 'news') == 0){
-                        $cat_name = get_post_type_object( 'news') -> labels -> singular_name;
+                        $terms = get_the_terms(get_the_ID(), NEWS_CATEGORY);
                     } else if(strcmp($post_type, 'aadcblog') == 0) {
-
                         $terms = get_the_terms(get_the_ID(), AADCBLOG_CATEGORY);
+                    }
+
+                    if(isset($terms)){
                         $cat_name = '';
                         $flag = true;
                         foreach($terms as $term){
@@ -26,8 +28,8 @@
                             else $cat_name = $cat_name.', '.$term->name;
                             $flag = false;
                         }			
-                        
                     } else $cat_name = '未定';
+
                 ?>
                 <span class="badge"><?php echo '【'.$cat_name.'】'?></span>
                 <?php
