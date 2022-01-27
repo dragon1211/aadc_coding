@@ -72,4 +72,4 @@ return $classes;
 add_filter('body_class','pagename_class');
 
 define("PAGE_NAVI_NUM", 15);
-define("ADDCBLOG_CAT", 'category');
+define("AADCBLOG_CAT", 'category');

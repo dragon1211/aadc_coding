@@ -40,7 +40,7 @@
 
 				<?php 
 					$categories = get_categories( [
-						'taxonomy'     => 'aadcblog_category',
+						'taxonomy'     => AADCBLOG_CAT,
 						'type'         => 'aadcblog',
 						'child_of'     => 0,
 						'orderBy'      => 'post_date',
