@@ -1,17 +1,18 @@
 <?php get_template_part( 'template-parts/header-footer/site-footer' ); ?>
 
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "https://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15698057-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
 <?php wp_footer(); ?>
 
-</body>
-  <script src="<?php echo get_template_directory_uri()?>/assets/js/libs/jquery-3.5.1.min.js"></script>
-  <script src="<?php echo get_template_directory_uri()?>/assets/js/libs/swiper-3.4.1.min.js"></script>
-  <script src="<?php echo get_template_directory_uri()?>/assets/js/libs/wow.min.js"></script>
-  <script src="<?php echo get_template_directory_uri()?>/assets/js/libs/ofi.min.js"></script>
-  <script src="<?php echo get_template_directory_uri()?>/assets/js/libs/jquery.bxslider.js"></script>
-  <script src="<?php echo get_template_directory_uri()?>/assets/js/libs/slick.min.js"></script>
-  <script src="<?php echo get_template_directory_uri()?>/assets/js/libs/jquery.matchHeight-min.js"></script>
-  <script src="<?php echo get_template_directory_uri()?>/assets/js/libs/locomotive-scroll.min.js"></script>
-  <script src="<?php echo get_template_directory_uri()?>/assets/js/common.js"></script>
-  <script src="<?php echo get_template_directory_uri()?>/assets/js/slider.js"></script>
-  
+</body>  
 </html>

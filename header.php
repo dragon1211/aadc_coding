@@ -30,12 +30,53 @@
 	<meta name="description" content="<?php bloginfo('description'); ?>">
 	<meta name="keywords" content="ここにキーワードを設定します。">
 	<meta name="robots" content="index,follow">
-	<title>すきっ歯専門治療｜前歯の隙間の原因となる正中離開・歯間空隙・叢生の治療</title>
+	<title><?php bloginfo('description'); ?>｜<?php bloginfo('name'); ?></title>
 	
 	<link rel="canonical" href="<?php echo $canonical_url; ?>">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/assets/css/index.css" type="text/css">
 			
+
+
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		
+		gtag('config', 'UA-15698057-1');
+	</script>	
+
+	<!-- Global site tag (gtag.js) - Google Ads: 766117336 -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-766117336"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'AW-766117336');
+	</script>
+
+	<script src="<?php echo get_template_directory_uri()?>/assets/js/libs/jquery-3.5.1.min.js"></script>
+	<script src="<?php echo get_template_directory_uri()?>/assets/js/libs/swiper-3.4.1.min.js"></script>
+	<script src="<?php echo get_template_directory_uri()?>/assets/js/libs/wow.min.js"></script>
+	<script src="<?php echo get_template_directory_uri()?>/assets/js/libs/ofi.min.js"></script>
+	<script src="<?php echo get_template_directory_uri()?>/assets/js/libs/jquery.bxslider.js"></script>
+	<script src="<?php echo get_template_directory_uri()?>/assets/js/libs/slick.min.js"></script>
+	<script src="<?php echo get_template_directory_uri()?>/assets/js/libs/jquery.matchHeight-min.js"></script>
+	<script src="<?php echo get_template_directory_uri()?>/assets/js/libs/locomotive-scroll.min.js"></script>
+	<script src="<?php echo get_template_directory_uri()?>/assets/js/common.js"></script>
+	<script src="<?php echo get_template_directory_uri()?>/assets/js/slider.js"></script>
+	<!-- Event snippet for 電話問い合わせ conversion page -->
+	<script>
+		window.addEventListener('load', function() {
+		document.querySelectorAll('[href*="tel:"]').forEach(function(link){
+			link.addEventListener('click', function() { 
+		gtag('event', 'conversion', {'send_to': 'AW-766117336/Zfs2CMmPlv0BENiLqO0C'});
+			});
+		});
+		});
+	</script>
+
 	<?php wp_head(); ?>
 	
 </head>
