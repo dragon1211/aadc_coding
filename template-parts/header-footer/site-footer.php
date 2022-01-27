@@ -40,29 +40,20 @@
 
 				<?php 
 					$categories = get_categories( [
-						'taxonomy'     => AADCBLOG_CAT,
-						'type'         => 'aadcblog',
-						'child_of'     => 0,
+						'taxonomy'     => AADCBLOG_CATEGORY,
 						'orderBy'      => 'post_date',
 						'order'        => 'ASC',
-						'hierarchical' => 1,
-						'exclude'      => '',
-						'include'      => '',
-						'number'       => 0,
-						'pad_counts'   => false,
 						// полный список параметров смотрите в описании функции http://wp-kama.ru/function/get_terms
 					] );
 
-					if(count($categories) > 0) {
-						foreach($categories as $cat){
+					foreach($categories as $cat) {
 				?>
 					<li class="link-list__item">
-						<a class="item-link" href="<?php echo home_url()."/aadcblog/".$cat->slug; ?>">
+						<a class="item-link" href="<?php echo get_term_link($cat->term_id);?>">
 							<?php echo $cat->name; ?>
 						</a>
 					</li>
-
-				<?php } } else ;?>
+				<?php } ?>
 			</ul>
 		</div>
 

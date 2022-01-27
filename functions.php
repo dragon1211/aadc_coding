@@ -1,5 +1,9 @@
 <?php
 
+define("PAGE_NAVI_NUM", 15);
+
+define("AADCBLOG_CATEGORY", 'aadcblog_ctg');
+
 // ヘッダー無効化
 remove_action('wp_head', 'feed_links', 2);
 remove_action('wp_head', 'feed_links_extra', 3);
@@ -70,6 +74,3 @@ function pagename_class($classes = '') {
 return $classes;
 }
 add_filter('body_class','pagename_class');
-
-define("PAGE_NAVI_NUM", 15);
-define("AADCBLOG_CAT", 'category');

@@ -4,23 +4,24 @@
 
 	<!-- contents -->
 	<?php 
-		$post = $wp_query->post; 
-
-		$post_type = get_post_type();
 
 		if ( strcmp($post_type, 'news') == 0 ) { 
 
 			get_template_part( 'template-parts/sub-nav/about-sub-nav' ); 
 			$cat_name = get_post_type_object( 'news') -> labels -> singular_name;
-			$cat_slug = 'news';
 
 		} else if(strcmp($post_type, 'aadcblog') == 0) {
 			get_template_part( 'template-parts/sub-nav/aadcblog-sub-nav' ); 
-			$cat_name = get_the_terms(get_the_ID(), AADCBLOG_CAT)[0]->name;
-			$cat_slug = get_the_terms(get_the_ID(), ADDCBLOG_CAT)[0]->slug;
+			$terms = get_the_terms(get_the_ID(), AADCBLOG_CATEGORY);
+			$cat_name = '';
+			$flag = true;
+			foreach($terms as $term){
+				if($flag)	$cat_name = $cat_name.$term->name;
+				else $cat_name = $cat_name.', '.$term->name;
+				$flag = false;
+			}			
 		} else {
 			$cat_name = '未定';
-			$cat_slug = '未定';
 		}
 
 		$days = 7;
@@ -106,7 +107,7 @@
 						</a>
 					</li>
 					<li><a href="<?php echo home_url(); ?>/about">当院について</a></li>
-					<li><a href="<?php echo home_url()."/about/".$cat_slug; ?>"><?php echo $cat_name ?></a></li>
+					<li><a href="<?php echo home_url()."/about/news"; ?>"><?php echo $cat_name ?></a></li>
 				</ul>
 
 			<?php } else { ?>
@@ -119,7 +120,7 @@
 						</a>
 					</li>
 					<li><a href="<?php echo home_url(); ?>/aadcblog">Dr.Ogawa Blog</a></li>
-					<li><a href="<?php echo home_url()."/aadcblog/".$cat_slug; ?>"><?php echo $cat_name ?></a></li>
+					<li><a href="<?php echo get_term_link($terms[0]->term_id); ?>"><?php echo $terms[0]->name ?></a></li>
 				</ul>
 			<?php }; ?>
 		</div>

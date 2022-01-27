@@ -17,7 +17,16 @@
                     if(strcmp($post_type, 'news') == 0){
                         $cat_name = get_post_type_object( 'news') -> labels -> singular_name;
                     } else if(strcmp($post_type, 'aadcblog') == 0) {
-                        $cat_name = get_the_terms(get_the_ID(), AADCBLOG_CAT)[0]->name;
+
+                        $terms = get_the_terms(get_the_ID(), AADCBLOG_CATEGORY);
+                        $cat_name = '';
+                        $flag = true;
+                        foreach($terms as $term){
+                            if($flag)	$cat_name = $cat_name.$term->name;
+                            else $cat_name = $cat_name.', '.$term->name;
+                            $flag = false;
+                        }			
+                        
                     } else $cat_name = '未定';
                 ?>
                 <span class="badge"><?php echo '【'.$cat_name.'】'?></span>

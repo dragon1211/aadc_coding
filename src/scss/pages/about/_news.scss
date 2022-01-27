@@ -71,8 +71,12 @@
                 margin-bottom: 20px;
                 display: flex;
                 justify-content: space-between;
+                span.badge{
+                    max-width: calc(100% - 50px);
+                }
                 span.new{
-                    float: right;
+                    position: absolute;
+                    right: 20px;
                     background: #fd2802;
                     color: white;
                     padding: 1px 10px;
