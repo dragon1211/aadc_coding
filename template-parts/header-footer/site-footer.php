@@ -41,8 +41,8 @@
 				<?php 
 					$categories = get_categories( [
 						'taxonomy'     => AADCBLOG_CATEGORY,
-						'orderBy'      => 'post_date',
-						'order'        => 'ASC',
+                        'order'        => 'ASC',
+                        'orderby'      => 'date',
 						// полный список параметров смотрите в описании функции http://wp-kama.ru/function/get_terms
 					] );
 

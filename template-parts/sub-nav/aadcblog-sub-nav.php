@@ -13,12 +13,8 @@
                     
                     $categories = get_terms( [
                         'taxonomy'     => AADCBLOG_CATEGORY,
-                        'orderBy'      => 'post_date',
                         'order'        => 'ASC',
-                        'exclude'      => '',
-                        'include'      => '',
-                        'number'       => 0,
-                        'pad_counts'   => false,
+                        'orderby'      => 'date',
                         // полный список параметров смотрите в описании функции http://wp-kama.ru/function/get_terms
                     ] );
 
