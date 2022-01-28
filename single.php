@@ -16,13 +16,11 @@
 		} 
 
 		if(isset( $terms )){
-			$cat_name = '';
-			$flag = true;
+			$ret = array();
 			foreach($terms as $term){
-				if($flag)	$cat_name = $cat_name.$term->name;
-				else $cat_name = $cat_name.', '.$term->name;
-				$flag = false;
-			}			
+			   array_push($ret, $term->name);
+			   $cat_name = implode(', ', $ret);
+			}				
 		}
 		else{
 			$cat_name = '未定';
