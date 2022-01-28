@@ -9,7 +9,7 @@
 			<?php
 				if(!isset($term)) $term = '';
 				echo do_shortcode('
-					[ajax_load_more id="48055153" post_type="news" posts_per_page="'.PAGE_NAVI_NUM.'" button_label="ロード中"]
+					[ajax_load_more id="48055153" post_type="news" posts_per_page="'.POSTS_PER_PAGE.'" button_label="ロード中"]
 				');  //ul="news-list" li="news-item"
 			?>
 		</div>

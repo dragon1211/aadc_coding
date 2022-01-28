@@ -1,7 +1,7 @@
 <?php
 
 //定数
-define("PAGE_NAVI_NUM", 30);
+define("POSTS_PER_PAGE", 30);
 define("AADCBLOG_CATEGORY", 'aadcblog_ctg');
 define("NEWS_CATEGORY", 'news_category');
 

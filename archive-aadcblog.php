@@ -11,7 +11,7 @@
 			<?php
 				if(!isset($term)) $term = '';
 				echo do_shortcode('
-					[ajax_load_more id="48055153" post_type="aadcblog" posts_per_page="'.PAGE_NAVI_NUM.'" taxonomy="'.AADCBLOG_CATEGORY.'" taxonomy_terms="'.$term.'" taxonomy_operator="IN" button_label="ロード中"]
+					[ajax_load_more id="48055153" post_type="aadcblog" posts_per_page="'.POSTS_PER_PAGE.'" taxonomy="'.AADCBLOG_CATEGORY.'" taxonomy_terms="'.$term.'" taxonomy_operator="IN" button_label="ロード中"]
 				');  //ul="news-list" li="news-item"
 			?>
 		</div>

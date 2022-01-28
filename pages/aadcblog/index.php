@@ -17,7 +17,7 @@
 						'post_status' => 'publish',
 						'orderby' => 'post_date',
 						'order'    => 'DESC',
-						'posts_per_page' => PAGE_NAVI_NUM, // this will retrive all the post that is published ,
+						'posts_per_page' => POSTS_PER_PAGE, // this will retrive all the post that is published ,
 						'paged' => $paged
 					);
 
