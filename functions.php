@@ -2,7 +2,7 @@
 
 //定数
 define("POSTS_PER_PAGE", 30);
-define("AADCBLOG_CATEGORY", 'aadcblog_ctg');
+define("AADCBLOG_CATEGORY", 'aadcblog_category');
 define("NEWS_CATEGORY", 'news_category');
 
 // ヘッダー無効化
