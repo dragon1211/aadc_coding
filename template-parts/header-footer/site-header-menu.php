@@ -5,7 +5,7 @@
                 <label for="search-submit-button">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/icon-search.svg" alt="">
                 </label>
-                <input type="text" placeholder="a-a-d-c.comを検索"  value="<?php echo get_search_query(); ?>" name="s">
+                <input type="text" placeholder="a-a-d-c.comを検索"  value="<?php echo get_search_query(); ?>" name="s" autofocus>
                 <input type="submit" id="search-submit-button" style="display:none">
             </form>
         </div>

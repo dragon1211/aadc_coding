@@ -3239,12 +3239,6 @@ p {
   background-color: #d2bea5;
 }
 
-@media screen and (max-width: 576px) {
-  .appointment-header {
-    height: 50px;
-  }
-}
-
 .appointment-header h1.head {
   font-family: "futura-pt",sans-serif;
   width: 100%;
@@ -3257,6 +3251,12 @@ p {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+
+@media screen and (max-width: 576px) {
+  .appointment-header {
+    height: 50px;
+  }
 }
 
 /* ==========================================================
@@ -15056,6 +15056,69 @@ bridal-content
     display: block;
     text-align: center;
   }
+}
+
+/* ==========================================================
+	search-page
+========================================================== */
+.search .search-header {
+  width: 100%;
+  height: 70px;
+  position: relative;
+  overflow: hidden;
+  background-color: #d2bea5;
+}
+
+@media screen and (max-width: 576px) {
+  .search .search-header {
+    height: 50px;
+  }
+}
+
+.search .search-header h1.head {
+  font-family: "futura-pt",sans-serif;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  color: #fff;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.search .search-result-section {
+  max-width: 1040px;
+  padding: 50px 20px;
+  margin: auto;
+  min-height: 70vh;
+}
+
+.search .search-result-section .page-title {
+  margin: 20px 0;
+}
+
+.search .search-result-section ul.result {
+  padding-left: 30px;
+}
+
+.search .search-result-section ul.result li {
+  list-style: circle;
+  margin: 10px 0;
+}
+
+.search .search-result-section ul.result a {
+  font-weight: 400;
+}
+
+.search .search-result-section ul.result a:link {
+  color: black;
+}
+
+.search .search-result-section ul.result a:hover {
+  opacity: .8;
 }
 
 /*

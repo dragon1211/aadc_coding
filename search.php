@@ -4,55 +4,42 @@
 <!-- inquiry-section -->
 <section class="content">
 	<!-- header -->
-	<div class="inquiry-header">
+	<div class="search-header">
 		<h1 class="head f20">サイト検索</h1>
 	</div>
-	<?php get_search_form(); ?>
 	<!-- body -->
 	<section class="search-result-section">
+		<div class="search-form-wrap">
+			<?php get_search_form(); ?>
+		</div>
 		<h1 class="page-title">
 			<?php
-			printf(
-				/* translators: %s: Search term. */
-				esc_html__( 'Results for "%s"', 'twentytwentyone' ),
-				'<span class="page-description search-term">' . esc_html( get_search_query() ) . '</span>'
-			);
+				$s=get_search_query();
+				$args = array(
+					's' =>$s,
+					'posts_per_page'   => -1,
+				);
+				// The Query
+				$the_query = new WP_Query( $args );
+				printf(
+					/* translators: %s: Search term. */
+					esc_html__( '「%s」の検索結果：%d件', 'twentytwentyone' ),
+					'<span class="page-description search-term">' . esc_html( get_search_query() ) . '</span>', (int) $the_query->found_posts,
+				);
 			?>
 		</h1>
-		<?php
-		printf(
-			esc_html(
-				/* translators: %d: The number of search results. */
-				_n(
-					'We found %d result for your search.',
-					'We found %d results for your search.',
-					(int) $wp_query->found_posts,
-					'twentytwentyone'
-				)
-			),
-			(int) $wp_query->found_posts
-		);
-		?>
-		<?php
-	// Start the Loop.
-	while ( have_posts() ) {
-		the_post();
-
-		/*
-		 * Include the Post-Format-specific template for the content.
-		 * If you want to override this in a child theme, then include a file
-		 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-		 */
-		// get_template_part( 'template-parts/content/content-excerpt', get_post_format() );
-		the_title();
-		echo the_permalink();
-	} // End the loop.
-
-	// Previous/next page navigation.
-	// twenty_twenty_one_the_posts_navigation();
-
-	// If no content, include the "No posts found" template.
-	?>
+		<ul class="result">
+			<?php
+				$count = 0;
+				while ( $the_query->have_posts() ) {
+					$the_query->the_post();
+			?>
+			<li>
+				<a href="<?php echo the_permalink() ?>"><?php echo the_title(); ?></a>
+			</li>
+			<?php } ?>
+		</ul>
+	
 	</section>
 </section>
 

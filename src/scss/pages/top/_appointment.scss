@@ -8,24 +8,24 @@
 	position: relative;
 	overflow: hidden;
 	background-color: #d2bea5;
+    h1.head {
+        font-family: "futura-pt",sans-serif;
+        width: 100%;
+        
+        text-align: center;
+        letter-spacing: 0.5rem;
+        text-indent: 0.5rem;
+        color: #fff;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
     @include mq(smt){
         height: 50px;
     }
 }
-.appointment-header h1.head {
-	font-family: "futura-pt",sans-serif;
-	width: 100%;
-	
-	text-align: center;
-	letter-spacing: 0.5rem;
-	text-indent: 0.5rem;
-	color: #fff;
-	margin: 0;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
 /* ==========================================================
 	appointment content
 ========================================================== */
