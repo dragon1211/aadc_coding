@@ -73,9 +73,20 @@
 			データが到着後数日でクリンチェックという治療計画が送られてきます。ドクターが治療計画を推考し修正後、最適な治療計画で決定します。<br>
 			その計画を3D治療計画ソフトウェアにて、治療開始から終了までの歯の動きを患者様とともに動画で確認し、 治療計画と期間、治療に関する注意事項などのご説明をいたします。<br>
 			治療計画、方針にご納得いただけたら、インビザラインをオーダーします。<br>
-			<iframe class="video" src="https://www.youtube.com/embed/fbxThpqK3qQ?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+			<iframe class="video" 
+				src="https://www.youtube.com/embed/fbxThpqK3qQ?rel=0" 
+				frameborder="0" 
+				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+				allowfullscreen>
+			</iframe>
+			<br>
 
-			<iframe  class="video" src="https://www.youtube.com/embed/r4LOUr_-fCA?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe  class="video" 
+				src="https://www.youtube.com/embed/r4LOUr_-fCA?rel=0" 
+				frameborder="0" 
+				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+				allowfullscreen>
+			</iframe>
 		</div>
 		<p class="arrow f16">▼<br>約２種間〜３週間</p>
 		<div class="item f18">治療スタート</div>

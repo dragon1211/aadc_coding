@@ -14482,6 +14482,14 @@ bridal-content
   /* white-care */
 }
 
+.teeth-cleaning .teeth-cleaning__content .youtube-section iframe {
+  display: block;
+  max-width: 560px;
+  width: 100%;
+  height: 315px;
+  margin: auto;
+}
+
 .teeth-cleaning .teeth-cleaning__content .care1-outline-section {
   max-width: 1040px;
   padding: 50px 20px;

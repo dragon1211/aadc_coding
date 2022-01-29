@@ -45,6 +45,7 @@
 		 */
 		// get_template_part( 'template-parts/content/content-excerpt', get_post_format() );
 		the_title();
+		echo the_permalink();
 	} // End the loop.
 
 	// Previous/next page navigation.

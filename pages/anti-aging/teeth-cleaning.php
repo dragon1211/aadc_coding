@@ -84,8 +84,7 @@
             src="https://www.youtube.com/embed/u1t2dagyA64?t=4s&autoplay=1&mute=1" 
             frameborder="0" 
             allowfullscreen
-            width="100%"
-            height="580px">
+        >
         </iframe>
     </section>
 
