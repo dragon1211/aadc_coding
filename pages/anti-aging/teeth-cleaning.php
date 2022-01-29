@@ -81,9 +81,8 @@
     <!--  Youtube section -->
     <section class="youtube-section">
         <iframe class="video" 
-            src="https://www.youtube.com/embed/u1t2dagyA64&t=4s" 
+            src="https://www.youtube.com/embed/u1t2dagyA64?t=4s&autoplay=1&mute=1" 
             frameborder="0" 
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen
             width="100%"
             height="580px">

@@ -1,8 +1,13 @@
 <div class="header-menu js-menu">
     <ul class="header-menu__content">
         <div class="header-menu__content--search">
-            <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/icon-search.svg" alt=""></a>
-            <input type="text" placeholder="a-a-d-c.comを検索">
+            <form method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+                <label for="search-submit-button">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/icon-search.svg" alt="">
+                </label>
+                <input type="text" placeholder="a-a-d-c.comを検索"  value="<?php echo get_search_query(); ?>" name="s">
+                <input type="submit" id="search-submit-button" style="display:none">
+            </form>
         </div>
         <li class="header-menu__content--item main-item"><a href="<?php echo home_url(); ?>/about">                 当院について</a></li>
         <li class="header-menu__content--item"> <a href="<?php echo home_url(); ?>/about/doctor">                   ドクター紹介</a></li>

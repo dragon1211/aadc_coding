@@ -2543,6 +2543,7 @@ p {
   position: absolute;
   top: 10px;
   left: 15px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 576px) {
