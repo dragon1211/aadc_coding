@@ -23,7 +23,7 @@
 				$the_query = new WP_Query( $args );
 				printf(
 					/* translators: %s: Search term. */
-					esc_html__( '「%s」の検索結果：%d件', 'twentytwentyone' ),
+					esc_html__( '「%s」の検索結果：%d件', 'aadctheme' ),
 					'<span class="page-description search-term">' . esc_html( get_search_query() ) . '</span>', (int) $the_query->found_posts,
 				);
 			?>
