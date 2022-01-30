@@ -15,12 +15,13 @@
         text-align: center;
         font-weight: $font_regular;
         font-size: 1.8rem;
+        margin: 30px 0 20px;
     }
     #biz_calendar {
         max-width: 400px !important;
         margin: 0 auto;
         table.bizcal {
-            margin: 0 auto;	
+            margin: 0 auto 10px;	
             text-align: center;
             table-layout: auto;
             line-height: 150%;
@@ -47,6 +48,7 @@
                         font-size: 1.5rem;
                         text-indent: 10px;
                         height: 50px;
+                        border: none;
                     }
                     td.holiday {
                         background-color: rgba(230,0,18,0.05);
@@ -65,6 +67,30 @@
                             border-right: none;	
                         }
                     }
+                    td.today{
+                        font-weight: bold;
+                        font-size: 18px;
+                        color: #e86779;
+                        text-decoration: none;
+                    }
+                    td.down-img{
+                        border: none;
+                        img{
+                            margin-left: auto;
+                        }
+                    } 
+                    td.today-img{
+                        border: none;
+                        img{
+                            margin: auto;
+                        }
+                    } 
+                    td.up-img{
+                        border: none;
+                        img{
+                            margin-right: auto;
+                        }
+                    } 
                 }
             }
         }

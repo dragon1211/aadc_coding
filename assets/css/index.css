@@ -2196,6 +2196,7 @@ p {
   text-align: center;
   font-weight: 400;
   font-size: 1.8rem;
+  margin: 30px 0 20px;
 }
 
 .widget.widget_bizcalendar #biz_calendar {
@@ -2204,7 +2205,7 @@ p {
 }
 
 .widget.widget_bizcalendar #biz_calendar table.bizcal {
-  margin: 0 auto;
+  margin: 0 auto 10px;
   text-align: center;
   table-layout: auto;
   line-height: 150%;
@@ -2239,6 +2240,7 @@ p {
   font-size: 1.5rem;
   text-indent: 10px;
   height: 50px;
+  border: none;
 }
 
 .widget.widget_bizcalendar #biz_calendar table.bizcal tbody tr td.holiday {
@@ -2260,6 +2262,37 @@ p {
 
 .widget.widget_bizcalendar #biz_calendar table.bizcal tbody tr th:last-child {
   border-right: none;
+}
+
+.widget.widget_bizcalendar #biz_calendar table.bizcal tbody tr td.today {
+  font-weight: bold;
+  font-size: 18px;
+  color: #e86779;
+  text-decoration: none;
+}
+
+.widget.widget_bizcalendar #biz_calendar table.bizcal tbody tr td.down-img {
+  border: none;
+}
+
+.widget.widget_bizcalendar #biz_calendar table.bizcal tbody tr td.down-img img {
+  margin-left: auto;
+}
+
+.widget.widget_bizcalendar #biz_calendar table.bizcal tbody tr td.today-img {
+  border: none;
+}
+
+.widget.widget_bizcalendar #biz_calendar table.bizcal tbody tr td.today-img img {
+  margin: auto;
+}
+
+.widget.widget_bizcalendar #biz_calendar table.bizcal tbody tr td.up-img {
+  border: none;
+}
+
+.widget.widget_bizcalendar #biz_calendar table.bizcal tbody tr td.up-img img {
+  margin-right: auto;
 }
 
 .widget.widget_bizcalendar #biz_calendar p {
