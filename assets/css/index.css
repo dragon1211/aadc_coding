@@ -3846,7 +3846,8 @@ p {
 .en {
   /* --------------------- header */
   /* ------------------------------------------------ content */
-  /* doctor section */
+  /* 
+/* doctor section */
   /* message section */
   /* service section */
   /* insurance section */
@@ -3863,7 +3864,7 @@ p {
 }
 
 .en .content {
-  margin-bottom: 150px;
+  margin-bottom: 50px;
   font-weight: 400;
 }
 
@@ -3892,6 +3893,12 @@ p {
   text-indent: 0.5rem;
   color: #fff;
   line-height: 1.3;
+}
+
+@media screen and (max-width: 576px) {
+  .en .eng-header {
+    height: 50px;
+  }
 }
 
 .en .doctor-section {
@@ -4235,12 +4242,11 @@ p {
 .en .map {
   width: 100%;
   height: 300px;
-  margin: 0 0 50px;
 }
 
 .en .contact-section {
   width: 100%;
-  margin: 0 0 50px;
+  padding: 50px 0;
 }
 
 .en .contact-section h2.head {
@@ -4255,8 +4261,9 @@ p {
 .en .contact-section .contact {
   letter-spacing: 0.1rem;
   font-weight: 400;
-  line-height: 200%;
   text-align: center;
+  margin-top: 20px;
+  padding: 0 20px;
 }
 
 .en form#mailform {
@@ -4406,15 +4413,15 @@ p {
 
 .en table.mailform.sp tr td input.submit_button {
   padding: 10px;
-  width: 150px;
-  margin: 5px;
+  width: 100%;
+  margin: 5px 0;
   font-size: 1.2em;
 }
 
 .en table.mailform.sp tr td input.reset_button {
   padding: 10px;
-  margin: 5px;
-  width: 150px;
+  margin: 5px 0;
+  width: 100%;
   font-size: 1.2em;
 }
 
@@ -4454,6 +4461,9 @@ p {
   .en .information .information-wrap .info-left, .en .information .information-wrap .info-right {
     width: 100%;
     margin: 20px 0;
+  }
+  .en .contact-section .contact {
+    text-align: left;
   }
 }
 
@@ -4946,7 +4956,7 @@ p {
 }
 
 .inquiry .content {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .inquiry .inquiry-section {
@@ -4966,7 +4976,7 @@ p {
   font-weight: 500;
   line-height: 150%;
   text-align: center;
-  color: #C84520;
+  color: #d93600;
   margin-bottom: 50px;
 }
 
@@ -4990,6 +5000,12 @@ p {
 .inquiry .inquiry-section .privacy span {
   font-weight: 500;
   display: block;
+}
+
+.inquiry .inquiry-section .contact-result {
+  max-width: 900px;
+  margin: 30px auto;
+  line-height: 1.8;
 }
 
 .inquiry div#mf_wrapper {
@@ -5178,25 +5194,20 @@ p {
 }
 
 .inquiry table.mailform.sp tr td input.submit_button {
-  margin: 5px;
+  margin: 5px 0;
   padding: 10px;
-  max-width: 150px;
   width: 100%;
   font-size: 1.2em;
 }
 
 .inquiry table.mailform.sp tr td input.reset_button {
-  margin: 5px;
+  margin: 5px 0;
   padding: 10px;
-  max-width: 150px;
   width: 100%;
   font-size: 1.2em;
 }
 
 @media screen and (max-width: 768px) {
-  .inquiry .content {
-    margin-bottom: 0;
-  }
   .inquiry table.mailform {
     display: none;
   }
