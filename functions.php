@@ -30,6 +30,7 @@ remove_action('admin_print_styles', 'print_emoji_styles' );
 add_filter( 'show_admin_bar', '__return_false' );
 
 
+
 // ウィジェット
 register_sidebar( array(
    'name'          => 'Widget-BizCalendar',
@@ -39,16 +40,18 @@ register_sidebar( array(
    'after_widget'  => '</div>',
 ) );
 
-// アイキャッチ画像
-add_theme_support('post-thumbnails');
-add_image_size('media_thumbnail', 640, 480 ,true );
-
 
 // タイトル表示
 function setup_aadctheme() {
    add_theme_support( 'title-tag' );
 }
 add_action( 'after_setup_theme', 'setup_aadctheme');
+
+
+// アイキャッチ画像
+add_theme_support('post-thumbnails');
+add_image_size('media_thumbnail', 640, 480 ,true );
+
 
 //functions.php
 function register_my_menus() { 
