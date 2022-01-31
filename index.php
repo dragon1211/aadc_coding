@@ -27,7 +27,7 @@
 						<div class="swiper-container">
 							<div class="swiper-wrapper">
 
-								<?php query_posts('posts_per_page=10&post_type=news&order=DESC'); ?>
+								<?php query_posts('posts_per_page=10&post_type=news&order=DESC&orderby=date'); ?>
 								<?php if(have_posts()) : while (have_posts()) : the_post(); ?>
 
 								<div class="swiper-slide">

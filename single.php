@@ -15,7 +15,7 @@
 			$terms = get_the_terms(get_the_ID(), AADCBLOG_CATEGORY);
 		} 
 
-		if(isset( $terms )){
+		if($terms){
 			$ret = array();
 			foreach($terms as $term){
 			   array_push($ret, $term->name);
@@ -103,7 +103,7 @@
 						</a>
 					</li>
 					<li><a href="<?php echo home_url(); ?>/about">当院について</a></li>
-					<li><a href="<?php echo home_url()."/about/news"; ?>"><?php echo $terms[0]->name ?></a></li>
+					<li><a href="<?php echo home_url()."/about/news"; ?>">新着情報</a></li>
 				</ul>
 
 			<?php } else { ?>
@@ -116,7 +116,11 @@
 						</a>
 					</li>
 					<li><a href="<?php echo home_url(); ?>/aadcblog">Dr.Ogawa Blog</a></li>
+					<?php if(strcmp($cat_name, '未定') != 0){ ?>
 					<li><a href="<?php echo get_term_link($terms[0]->term_id); ?>"><?php echo $terms[0]->name ?></a></li>
+					<?php  } else { ?>
+					<li>未定</li>
+					<?php } ?>
 				</ul>
 			<?php }; ?>
 		</div>

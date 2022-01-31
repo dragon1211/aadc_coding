@@ -20,7 +20,9 @@
                         $terms = get_the_terms(get_the_ID(), AADCBLOG_CATEGORY);
                     }
 
-                    if(isset($terms)){
+                    $cat_name = '';
+
+                    if($terms){
                         $ret = array();
                         foreach($terms as $term){
                            array_push($ret, $term->name);
