@@ -18,7 +18,7 @@
                 <li><a href="<?php echo home_url(); ?>/anti-aging/grinding"        class = "<?php if(strcmp(get_the_title(), "grinding") == 0) echo "active"; ?>">          歯ぎしり<br><span class="sp-only-inline">・</span>食いしばり治療</a></li>
                 <li><a href="<?php echo home_url(); ?>/anti-aging/metal-free"      class = "<?php if(strcmp(get_the_title(), "metal-free") == 0) echo "active"; ?>">        メタルフリー治療</a></li>
                 <li><a href="<?php echo home_url(); ?>/anti-aging/implant"         class = "<?php if(strcmp(get_the_title(), "implant") == 0) echo "active"; ?>">           インプラント</a></li>
-                <li><a href="<?php echo home_url(); ?>/anti-aging/anti-aging-dock" class = "<?php if(strcmp(get_the_title(), "anti-aging-dock") == 0) echo "active"; ?>">   アンチエイジング検査</a></li>
+                <li><a href="<?php echo home_url(); ?>/anti-aging/anti-aging-dock" class = "<?php if(strcmp(get_the_title(), "anti-aging-dock") == 0) echo "active"; ?>">   口腔老化度検査・体内老化度検査</a></li>
                 <li><a href="<?php echo home_url(); ?>/anti-aging/injection"       class = "<?php if(strcmp(get_the_title(), "injection") == 0) echo "active"; ?>">         点滴療法・注射<br><span class="sp-only-inline">・</span>サプリメント</a></li>
                 <li><a href="<?php echo home_url(); ?>/anti-aging/esthetic"        class = "<?php if(strcmp(get_the_title(), "esthetic") == 0) echo "active"; ?>">          デンタルエステ</a></li>
             </ul>

@@ -60,7 +60,7 @@
 }
 
 .pc-onlyt-inline{
-  display: inline-block;
+  display: inline-block !important;
   @include mq(smt) {
     display: none !important;
   }

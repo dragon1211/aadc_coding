@@ -5,7 +5,7 @@
 <section class="anti-heading__content">
     <div class="anti-heading">
         <h2 class="anti-heading__caption">
-            <span class="jp">アンチエイジング検査</span>
+            <span class="jp">口腔老化度検査<br class="sp-onlyt"><span class="pc-onlyt-inline">・</span>体内老化度検査</span>
         </h2>
     </div>
 </section>
@@ -232,7 +232,7 @@
                 </a>
             </li>
             <li><a href="<?php echo home_url(); ?>/anti-aging">アンチエイジング</a></li>
-            <li>アンチエイ<br class="sp-only3">ジング検査</li>
+            <li>口腔老化度検査<br class="sp-onlyt"><span class="pc-onlyt-inline">・</span>体内老化度検査</li>
         </ul>
     </div>
 </section>
