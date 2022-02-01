@@ -5,7 +5,7 @@
 			<ul>
 				<li><a href="<?php echo home_url();?>/about">当院について</a></li>
 				<li><a href="<?php echo home_url();?>/about/doctor">ドクター紹介</a></li>
-				<li><a href="<?php echo home_url();?>/about/news">新着情報</a></li>
+				<li><a href="<?php echo home_url();?>/about/news">ニュースアーカイブ</a></li>
 			</ul>
 		</nav>
 	</div>

@@ -4,7 +4,7 @@
 <!-- news-content -->
 <section class="news-content">
 	<div class="news-container">
-		<h2 class="news-content__caption">新着情報</h2>
+		<h2 class="news-content__caption">ニュースアーカイブ</h2>
 		<div class="news-wrapper">
 			<?php
 				if(!isset($term)) $term = '';
@@ -27,7 +27,7 @@
 				</a>
 			</li>
 			<li><a href="<?php echo home_url(); ?>/about">当院について</a></li>
-			<li>新着情報</li>
+			<li>ニュースアーカイブ</li>
 		</ul>
 	</div>
 </section>
