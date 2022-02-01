@@ -3185,6 +3185,10 @@ p {
   margin: auto;
 }
 
+.post__content img {
+  margin: 10px auto;
+}
+
 .post-link__wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7263,6 +7267,8 @@ p {
   height: 170px;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
 }
 
 .news-item__desc {
