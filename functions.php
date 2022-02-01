@@ -50,7 +50,7 @@ add_action( 'after_setup_theme', 'setup_aadctheme');
 
 // アイキャッチ画像
 add_theme_support('post-thumbnails');
-add_image_size('media_thumbnail', 640, 480 ,true );
+add_image_size('media_thumbnail', 400, 300 ,true );
 
 
 //functions.php

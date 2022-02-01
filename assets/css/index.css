@@ -3181,6 +3181,10 @@ p {
   margin-bottom: 20px;
 }
 
+.post__content .thumbnail img {
+  margin: auto;
+}
+
 .post-link__wrap {
   display: -webkit-box;
   display: -ms-flexbox;
