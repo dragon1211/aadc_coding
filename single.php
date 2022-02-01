@@ -57,7 +57,14 @@
 
 				<!-- post content -->
 				<div class="post__content">
-					<div class="detail f16"><?php the_content(); ?></div>
+					<?php if( has_post_thumbnail() && strcmp($post_type, 'news') == 0){ ?>
+						<div class="thumbnail">
+							<?php the_post_thumbnail('media_thumbnail');?>
+						</div>
+					<?php } ?>
+					<div class="detail f16">
+						<?php the_content(); ?>
+					</div>
 				</div>
 
 				<!-- previous & next link -->
