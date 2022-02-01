@@ -110,7 +110,7 @@
 						</a>
 					</li>
 					<li><a href="<?php echo home_url(); ?>/about">当院について</a></li>
-					<li><a href="<?php echo home_url()."/about/news"; ?>">ニュースアーカイブ</a></li>
+					<li><a href="<?php echo home_url()."/about/news"; ?>">ニュース<br class="sp-onlyt">アーカイブ</a></li>
 				</ul>
 
 			<?php } else { ?>

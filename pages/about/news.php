@@ -27,7 +27,7 @@
 				</a>
 			</li>
 			<li><a href="<?php echo home_url(); ?>/about">当院について</a></li>
-			<li>ニュースアーカイブ</li>
+			<li>ニュース<br class="sp-onlyt">アーカイブ</li>
 		</ul>
 	</div>
 </section>
