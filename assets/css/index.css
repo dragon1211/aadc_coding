@@ -3343,16 +3343,24 @@ p {
 
 .appointment .appointment-section div.link a {
   display: block;
-  margin-bottom: 30px;
+  margin: 0 auto 30px;
   padding: 10px;
   width: 240px;
   background-color: #eee;
   color: #333;
   border-style: none;
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #eee), color-stop(50%, #ccc)) right;
+  background: linear-gradient(to left, #eee 50%, #ccc 50%) right;
+  background-size: 200%;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+.appointment .appointment-section div.link a:hover {
+  background-position: left;
 }
 
 .appointment .appointment-section div.detail-left {
-  width: 800px;
   margin: 0 auto 50px;
   letter-spacing: 0.1rem;
   line-height: 150%;
