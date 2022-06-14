@@ -10623,7 +10623,7 @@ bridal-content
 }
 
 .eom-heading__caption span.en {
-  font-size: 2.0rem;
+  font-size: 2.5rem;
 }
 
 @media screen and (max-width: 576px) {
@@ -10655,14 +10655,26 @@ bridal-content
   /* -------  end --------  */
 }
 
+#eom-top p {
+  font-weight: 400;
+}
+
 #eom-top .eom-heading__caption {
-  padding: 110px 20px;
+  padding: 100px 20px;
 }
 
 @media screen and (max-width: 576px) {
   #eom-top .eom-heading__caption {
     padding: 70px 20px;
   }
+}
+
+#eom-top .eom-content {
+  font-family: "Noto Sans CJK JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+  color: #333333;
+  color: #333333;
+  line-height: 36px;
+  text-align: justify;
 }
 
 #eom-top .eom-content__mainvisual {
@@ -10679,7 +10691,7 @@ bridal-content
   max-width: 810px;
   width: 100%;
   position: absolute;
-  bottom: 35px;
+  bottom: 45px;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -10697,23 +10709,276 @@ bridal-content
 }
 
 #eom-top .eom-content__body {
-  padding: 100px 20px;
+  padding: 120px 20px 0;
   max-width: 1140px;
   margin: auto;
   font-weight: 400;
+}
+
+#eom-top .eom-content__body .txt1 {
+  margin: 0 auto 65px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+#eom-top .eom-content__body .txt1-ttl {
+  font-size: 3.6rem;
+  font-weight: 600;
+  margin-bottom: 45px;
+}
+
+#eom-top .eom-content__body .txt1 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 2.4rem;
+  color: #C84520;
+  font-weight: 600;
+}
+
+#eom-top .eom-content__body .txt1 ul li {
+  margin: 0 20px;
+}
+
+#eom-top .eom-content__body .txt2 {
+  margin: 120px auto 0;
+  line-height: 1.8;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+#eom-top .eom-content__body .txt2-ttl {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+#eom-top .eom-content__body .txt2 ul {
+  margin-top: 45px;
+  margin-bottom: 55px;
+  color: #998D70;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+#eom-top .eom-content__body .txt2 ul li:not(:first-child) {
+  margin-top: 15px;
+}
+
+#eom-top .eom-content__body .txt2 ul li span {
+  padding: 5px 20px;
+  border-bottom: 1px solid #998D70;
+}
+
+#eom-top .eom-content__category {
+  max-width: 1040px;
+  width: 100%;
+  margin: auto;
+  padding: 110px 20px 0;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+#eom-top .eom-content__category .ttl {
+  font-size: 2.6rem;
+  margin-bottom: 30px;
+}
+
+#eom-top .eom-content__category .case {
+  margin-top: 20px;
+  background-color: #FAFAFA;
+  padding: 45px 50px 50px;
+  text-align: left;
+}
+
+#eom-top .eom-content__category .case-ttl {
+  font-size: 2rem;
+  line-height: 38px;
+  font-weight: 600;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #707070;
+}
+
+#eom-top .eom-content__category .case-ttl span {
+  font-weight: 400;
+}
+
+#eom-top .eom-content__category .case-care__method {
+  margin-top: 45px;
+  line-height: 30px;
+}
+
+#eom-top .eom-content__category .case-care__method h4 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+#eom-top .eom-content__category .case-care__method ul {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+#eom-top .eom-content__category .case-care__image {
+  margin: 45px 0 80px;
+}
+
+#eom-top .eom-content__category .case-care__image p.desc {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+#eom-top .eom-content__category .case-care__image .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+#eom-top .eom-content__category .case-care__image .wrap p {
+  margin-top: 4px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  position: absolute;
+  bottom: -30px;
+}
+
+#eom-top .eom-content__category .case-care__image .wrap .arrow {
+  margin: 15px;
+}
+
+#eom-top .eom-content__category .case-care__image .wrap:last-child {
+  margin-top: 65px;
+}
+
+#eom-top .eom-content__category .case-care__image .wrap.mt-20:last-child {
+  margin-top: unset;
+}
+
+#eom-top .eom-content__category .case-ref__page .ttl {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+#eom-top .eom-content__category .case-ref__page .cta-btn__bar {
+  margin: 0 -20px -20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#eom-top .eom-content__category .case-ref__page .cta-btn__bar li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  background-color: #ffffff;
+  -webkit-filter: drop-shadow(1px 1px 0px #dddddd);
+          filter: drop-shadow(1px 1px 0px #dddddd);
+  font-family: "Noto Sans CJK JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+  color: #333333;
+  font-size: 1.8rem;
+  font-weight: 600;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, white), color-stop(50%, #fff0ec));
+  background: linear-gradient(to bottom, white 50%, #fff0ec 50%);
+  background-size: 100% 200%;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+#eom-top .eom-content__category .case-ref__page .cta-btn__bar li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
   color: #333333;
 }
 
-#eom-top .eom-content__body .text1 {
-  max-width: 900px;
-  margin: 0 auto 100px;
-  line-height: 2;
+#eom-top .eom-content__category .case-ref__page .cta-btn__bar li:hover {
+  background-position: 0 -100%;
 }
 
-#eom-top .eom-content__body .text2 {
-  max-width: 900px;
-  margin: 100px auto 0;
-  line-height: 1.8;
+#eom-top .eom-content__extra {
+  max-width: 1040px;
+  width: 100%;
+  margin: auto;
+  padding: 50px 20px 0;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+#eom-top .eom-content__extra .ttl {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+#eom-top .eom-content__extra .txt {
+  margin-bottom: 100px;
+  font-size: 1.8rem;
+}
+
+#eom-top .eom-content__faq {
+  max-width: 1040px;
+  width: 100%;
+  margin: auto;
+  padding: 175px 20px 170px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+
+#eom-top .eom-content__faq .ttl {
+  font-size: 2.6rem;
+  text-align: center;
+}
+
+#eom-top .eom-content__faq ul {
+  margin-top: 80px;
+}
+
+#eom-top .eom-content__faq ul li:not(:first-child) {
+  margin-top: 50px;
+}
+
+#eom-top .eom-content__faq ul .qus {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+#eom-top .eom-content__faq ul .ans {
+  padding-top: 10px;
 }
 
 #eom-top .eom-content__menu {
@@ -10731,10 +10996,10 @@ bridal-content
   #eom-top .eom-content__body {
     padding: 50px 20px;
   }
-  #eom-top .eom-content__body .text1 {
+  #eom-top .eom-content__body .txt1 {
     margin-bottom: 50px;
   }
-  #eom-top .eom-content__body .text2 {
+  #eom-top .eom-content__body .txt2 {
     margin-top: 50px;
   }
   #eom-top .eom-content__menu {
@@ -10746,6 +11011,49 @@ bridal-content
   #eom-top .eom-content__mainvisual--caption {
     font-size: 4.61538vw;
   }
+}
+
+#eom-top .eom-appoint__btn {
+  font-family: "Noto Sans CJK JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+  color: #333333;
+  font-size: 4.0rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  margin: auto;
+  max-width: 700px;
+  width: 100%;
+  height: 100px;
+  background-color: #C84520;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  line-height: 60px;
+  color: #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #C84520), color-stop(50%, #e65128));
+  background: linear-gradient(to bottom, #C84520 50%, #e65128 50%);
+  background-size: 100% 200%;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+#eom-top .eom-appoint__btn:hover {
+  background-position: 0 -100%;
+}
+
+#eom-top .appoint1 {
+  margin-top: 100px;
+}
+
+#eom-top .appoint2 {
+  margin-top: 50px;
 }
 
 /* ==========================================================
