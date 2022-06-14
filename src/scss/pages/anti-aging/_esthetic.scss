@@ -24,6 +24,10 @@
         line-height: 200%;
         text-align: center;	
     }
+    img {
+        width: 100%;
+        margin-bottom: 50px;
+    }
 }
 
 /* lip-esthetic */
@@ -134,7 +138,7 @@
     }
     .facial {
         max-width: 1040px;
-        margin: 0 auto 100px;
+        margin: 0 auto 50px;
         padding: 0 20px;	
         h3.head {
             
@@ -216,6 +220,69 @@
             
             line-height: 200%;	
         }
+    }
+}
+
+/* lip-esthetic */
+.bridal-section {
+    width: 100%;
+    margin: 0 auto 50px;
+    overflow: hidden;
+    padding: 50px 0;
+    .course {
+        max-width: 1040px;
+        margin: 0 auto 100px;
+        padding: 0 20px;
+        p.head-caption {
+            text-align: left;
+            margin-bottom: 0px;
+            font-weight: 500;
+            color: #a5967d;
+            span {
+                color: #d93600;
+                font-weight: 900;
+            }
+        }
+        
+        h3.head {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        p.price {
+            font-weight: $font_medium;
+            text-align: left;
+            margin-bottom: 20px;
+            line-height: 150%;
+            span {
+                color: #d93600;
+                font-size: 2rem;
+            }
+        }
+        .detail {
+            line-height: 200%;
+        }
+        .sub-course-wrap {
+            border: 1px solid #eecdcd;
+            padding: 20px 20px 10px;
+            width: 100%;
+        }
+        .other-head {
+            text-align: left;
+            margin: 0;
+            color: #a5967d;
+            span {
+                display: block;
+                font-size: 2.0rem;
+                color: #111;
+                font-weight: 500;
+            }
+        }
+    }
+    h4.catch {
+        font-size: 1.5em;
+        font-weight: 600;
+        margin-bottom: 20px;
+        text-align: center;
     }
 }
 

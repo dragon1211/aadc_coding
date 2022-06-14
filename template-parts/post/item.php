@@ -14,8 +14,8 @@
                 <?php 
                     $post_type = get_post_type();
                     
-                    if(strcmp($post_type, 'news') == 0){
-                        $terms = get_the_terms(get_the_ID(), NEWS_CATEGORY);
+                    if(strcmp($post_type, 'post') == 0){
+                        $terms = get_the_terms(get_the_ID(), "category");
                     } else if(strcmp($post_type, 'aadcblog') == 0) {
                         $terms = get_the_terms(get_the_ID(), AADCBLOG_CATEGORY);
                     }

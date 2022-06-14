@@ -261,7 +261,7 @@
     
         <!-- composite -->
         <section class="cure1-composite-section" id="composite">
-            <h3 class="head f28 sp-only2">コンポジットレジン法<br>（ダイレクトボンディング法）</h3>
+            <h3 class="head f28 sp-only2">コンポジットレジン法<br><span class="f20">（ダイレクトボンディング法）</span></h3>
             <div class="wrapper">
                 <div class="left">
                     <div class="bxslider">
@@ -271,7 +271,7 @@
 					</div>
                 </div>
                 <div class="right">
-                    <h3 class="head f28 pc-only2">コンポジットレジン法<br>（ダイレクトボンディング法）</h3>
+                    <h3 class="head f28 pc-only2">コンポジットレジン法<br><span class="f24">（ダイレクトボンディング法）</span></h3>
                     <p class="composite f16">神経を取らずに、健全歯質を極力残して歯をきれいにする詰め物の治療です。
                         虫歯を、治療跡がわからないように直したり、すき間をうめたり、ホワイトニング後の詰め物の治療も色調を合わせて行えます。
                         「フィルテックTMシュープリームXTコンポジットレジン」は、ナノテクノロジーによるフィラー技術で、よりハイレベルな審美修復が可能です。
@@ -283,7 +283,7 @@
             <ul class="cost_ex f13">
                 <li><span>治療方法</span>ダイレクトボンディング法（コンポジットレジン法）</li>
                 <li><span>治療期間</span>1日</li>
-                <li><span>治療費用</span>1歯 ¥13,200（税込）</li>
+                <li><span>治療費用</span>1歯 ¥16,500〜¥22,000（税込）</li>
                 <li><span>治療の副作用・リスク</span>材質の経年劣化により変色する。欠けたり取れることがある。</li>
             </ul>
         </section>

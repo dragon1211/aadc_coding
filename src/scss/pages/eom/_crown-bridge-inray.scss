@@ -43,7 +43,10 @@
 	padding: 20px;
 	background-color: rgba(210,190,165,0.3);
 	margin: auto;
-
+	.ph__center img {
+		display: block;
+		margin: auto;
+	}	
 	p {
 		margin: 40px;	
 		line-height: 180%;	

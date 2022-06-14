@@ -18,7 +18,7 @@ $conf{'spam_block'} = 0;
 $conf{'sendmail'} = '/usr/lib/sendmail';
 
 #06.設置者のアドレス(カンマ区切り)
-$conf{'mailto'} = 'aadc-staff@a-a-d-c.com';
+$conf{'mailto'} = 'info@a-a-d-c.com';
 
 #07.送信完了時にリダイレクトするサンクスページ
 $conf{'thanks'} = 'https://www.a-a-d-c.com/inquiry/result/';

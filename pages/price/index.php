@@ -38,7 +38,7 @@
 			</tr>
 			<tr>
 				<td>マウスピース矯正 アソアライナー</td>
-				<td class="right">¥275,000</td>
+				<td class="right">¥198,000〜¥275,000</td>
 			</tr>
 			<tr>
 				<td>インビザライン コンプリヘンシブ</td>
@@ -141,8 +141,12 @@
 				<td class="right">¥77,000</td>
 			</tr>
 			<tr>
+				<td>連結料 1カ所</td>
+				<td class="right">¥5,500</td>
+			</tr>
+			<tr>
 				<td>形成技術料 1歯につき</td>
-				<td class="right">¥6,600</td>
+				<td class="right">¥6,600 × 2</td>
 			</tr>
 		</table>
 		<p class="tax f14">※表示価格には消費税額を含みます。</p>
@@ -469,7 +473,7 @@
 				<td class="right">¥18,700</td>
 			</tr>
 			<tr>
-				<td>美白MAX点滴</td>
+				<td>美肌MAX点滴</td>
 				<td class="right">¥23,000</td>
 			</tr>
 			<tr>

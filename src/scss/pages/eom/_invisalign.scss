@@ -423,6 +423,7 @@
 			}
 		}
 		img {
+			width: 100%;
 			display: block;
 			margin: auto;
 		}
@@ -451,6 +452,129 @@
 			font-size: 2rem;
 			margin-bottom: 5px;
 			display: block;
+		}
+	}
+	.plan-wrap3 {
+		font-weight: $font_regular;
+		margin: 100px auto;
+		text-align: justify;
+		max-width: 800px;
+		position: relative;
+		.topics {
+			display: block;
+			margin: 20px;
+			overflow: hidden;
+			h3 {
+				text-align: center;
+				margin-bottom: 10px;
+			}
+			.outline {
+				text-align: left;
+				line-height: 150%;
+				height: auto;
+				margin-bottom: 30px;
+			}
+			ul li {
+				max-width: 800px;
+				text-align: justify;
+				line-height: 150%;
+				position: relative;
+				padding-left: 25px; 
+				margin: 20px;
+				&:before {
+					content: "";
+					position: absolute;
+					top: .35em;
+					left: 6px;
+					-webkit-transform: rotate(50deg);
+					-ms-transform: rotate(50deg);
+					transform: rotate(50deg);
+					width: 3px;
+					height: 7px;
+					border-right: 2px solid #8b6b4e;
+					border-bottom: 2px solid #8b6b4e;
+				}
+				&:after {
+					content: "";
+					position: absolute;
+					top: .2em;
+					left: 0;
+					width: 15px;
+					height: 15px;
+					border: 1px solid #8b6b4e;
+					border-radius: 2px;
+				}
+			}
+			p {
+				height: 100px;	
+			}
+		}
+		img {
+			width: 100%;
+			display: block;
+			margin: auto;
+		}
+	}
+	.plan-wrap4 {
+		font-weight: $font_regular;
+		margin: 30px auto 30px;
+		text-align: justify;
+		max-width: 800px;
+		position: relative;
+		.topics {
+			display: block;
+			margin: 20px;
+			overflow: hidden;
+			h3 {
+				text-align: center;
+				margin-bottom: 10px;
+			}
+			.outline {
+				text-align: left;
+				line-height: 150%;
+				height: auto;
+				margin-bottom: 30px;
+			}
+			h4 {
+				text-align: left;
+				font-weight: 700;
+			}
+			p.text {
+				margin-bottom: 30px;
+			}
+			p.text span {
+				font-weight: 700;
+				color: #ff0000;
+			}
+			p.att {
+				line-height: 150%;
+				margin-bottom: 10px;
+			}
+			h5 {
+				padding: 20px 0 5px;
+				font-size: 1.6rem;
+				margin: 10px 0;
+				border-bottom: 1px solid #ddd;
+			}
+			.left {
+				float: left;
+				width: 45%;
+				img {
+					width: 100%;
+				}
+			}
+			.right {
+				float: right;
+				width: 45%;
+				img {
+					width: 100%;
+				}
+			}
+		}
+		img {
+			width: 100%;
+			display: block;
+			margin: auto;
 		}
 	}
 }
@@ -482,6 +606,95 @@
 	}
 }
 
+.cure2-bridal-link-section {
+	display: block;
+}
+.cure2-bridal-link-section a {
+	text-align: center;
+	margin: auto;
+	max-width: 550px;
+	width: 100%;
+	padding: 10px 20px;
+	display: block;
+	color: #fff;
+	border-radius: 70px;
+
+	background: linear-gradient(to left, #ef9ba0 50%, rgb(240, 200, 200) 50%) right;
+	background-size: 200%;
+	transition: .3s ease-out;
+	
+	&:hover{
+		background-position: left;
+	}
+
+	span {
+		font-size: 2rem;
+		margin-bottom: 5px;
+		display: block;
+	}
+}
+
+/* blog link */
+.cure2-blog-link-section{
+	max-width: 1040px;
+	padding: 0 20px;
+	margin: 50px auto 50px;
+	text-align: center;
+	.blog-link{
+		display: block;
+		max-width: 400px;
+		width: 100%;
+		margin: auto;
+		padding: 10px 40px;
+		border-radius: 50px;
+		color: white;
+		font-weight: $font_regular;
+		background: linear-gradient(to left, #08c 50%, rgb(8, 152, 224) 50%) right;
+		background-size: 200%;
+		transition: .3s ease-out;
+		
+		&:hover{
+			background-position: left;
+		}
+	}
+	@include mq(sm2){
+		margin: 100px auto;
+		.blog-link{
+			max-width: 300px;
+		}
+	}
+}
+
+/* price link */
+.cure2-price-link-section{
+	max-width: 1040px;
+	padding: 0 20px;
+	margin: 50px auto 150px;
+	text-align: center;
+	.price-link{
+		display: block;
+		max-width: 400px;
+		width: 100%;
+		margin: auto;
+		padding: 10px 40px;
+		border-radius: 50px;
+		color: white;
+		font-weight: $font_regular;
+		background: linear-gradient(to left, #08c 50%, rgb(8, 152, 224) 50%) right;
+		background-size: 200%;
+		transition: .3s ease-out;
+		
+		&:hover{
+			background-position: left;
+		}
+	}
+	@include mq(sm2){
+		margin: 100px auto;
+		.price-link{
+			max-width: 300px;
+		}
+	}
+}
 
 /* payment */
 .cure2-payment-section {

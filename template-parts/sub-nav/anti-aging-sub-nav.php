@@ -14,7 +14,7 @@
                 <li><a href="<?php echo home_url(); ?>/anti-aging/implant"         class = "<?php if(strcmp(get_page_uri(), "anti-aging/implant") == 0) echo "active"; ?>">           インプラント</a></li>
                 <li><a href="<?php echo home_url(); ?>/anti-aging/anti-aging-dock" class = "<?php if(strcmp(get_page_uri(), "anti-aging/anti-aging-dock") == 0) echo "active"; ?>">   口腔老化度検査<br>体内老化度検査</a></li>
                 <li><a href="<?php echo home_url(); ?>/anti-aging/injection"       class = "<?php if(strcmp(get_page_uri(), "anti-aging/injection") == 0) echo "active"; ?>">         点滴療法・注射<br>サプリメント</a></li>
-                <li><a href="<?php echo home_url(); ?>/anti-aging/esthetic"        class = "<?php if(strcmp(get_page_uri(), "anti-aging/esthetic") == 0) echo "active"; ?>">          デンタルエステ</a></li>
+                <li><a href="<?php echo home_url(); ?>/anti-aging/esthetic"        class = "<?php if(strcmp(get_page_uri(), "anti-aging/esthetic") == 0) echo "active"; ?>">          デンタルエステ<br>ブライダルプラン</a></li>
             </ul>
         </div>
     </nav>

@@ -1,7 +1,7 @@
 <section class="home-notice">
     <div class="home-notice__wrapper">
         <nav class="home-notice__nav">
-            <ul class="nav-main"><a href="<?php echo home_url(); ?>/general">一般歯科</a></ul>
+            <ul class="nav-main"><a href="<?php echo home_url(); ?>/general">一般歯科・虫歯治療</a></ul>
         </nav>
     </div>
 </section>
@@ -11,7 +11,7 @@
 <section class="content">
     <!-- outline -->
     <section class="cure3-general-section" id="outline">
-        <h2 class="head f36">一般歯科</h2>
+        <h2 class="head f36">一般歯科・虫歯治療</h2>
         <p class="intro f18">
             痛みや不具合のある部分を治し<br>トラブルのない健康なお口へ 「しっかり噛める」を取り戻し<br>食事を美味しく味わえるように
         </p>
@@ -85,7 +85,7 @@
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/icon-logo-red.png" alt="logo">
                 </a>
             </li>
-            <li>一般歯科</li>
+            <li>一般歯科・虫歯治療</li>
         </ul>
     </div>
 </section>

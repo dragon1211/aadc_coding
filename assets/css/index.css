@@ -1652,246 +1652,6 @@ p {
           animation: ani-pulse 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-.delay-1 {
-  -webkit-transition-delay: .1s;
-          transition-delay: .1s;
-}
-
-.delay-2 {
-  -webkit-transition-delay: .2s;
-          transition-delay: .2s;
-}
-
-.delay-3 {
-  -webkit-transition-delay: .3s;
-          transition-delay: .3s;
-}
-
-.delay-4 {
-  -webkit-transition-delay: .4s;
-          transition-delay: .4s;
-}
-
-.delay-5 {
-  -webkit-transition-delay: .5s;
-          transition-delay: .5s;
-}
-
-.delay-6 {
-  -webkit-transition-delay: .6s;
-          transition-delay: .6s;
-}
-
-.delay-7 {
-  -webkit-transition-delay: .7s;
-          transition-delay: .7s;
-}
-
-.delay-8 {
-  -webkit-transition-delay: .8s;
-          transition-delay: .8s;
-}
-
-.delay-9 {
-  -webkit-transition-delay: .9s;
-          transition-delay: .9s;
-}
-
-.delay-10 {
-  -webkit-transition-delay: 1s;
-          transition-delay: 1s;
-}
-
-.delay-11 {
-  -webkit-transition-delay: 1.1s;
-          transition-delay: 1.1s;
-}
-
-.delay-12 {
-  -webkit-transition-delay: 1.2s;
-          transition-delay: 1.2s;
-}
-
-.delay-13 {
-  -webkit-transition-delay: 1.3s;
-          transition-delay: 1.3s;
-}
-
-.delay-14 {
-  -webkit-transition-delay: 1.4s;
-          transition-delay: 1.4s;
-}
-
-.delay-15 {
-  -webkit-transition-delay: 1.5s;
-          transition-delay: 1.5s;
-}
-
-.delay-16 {
-  -webkit-transition-delay: 1.6s;
-          transition-delay: 1.6s;
-}
-
-.delay-17 {
-  -webkit-transition-delay: 1.7s;
-          transition-delay: 1.7s;
-}
-
-.delay-18 {
-  -webkit-transition-delay: 1.8s;
-          transition-delay: 1.8s;
-}
-
-.delay-19 {
-  -webkit-transition-delay: 1.9s;
-          transition-delay: 1.9s;
-}
-
-.delay-20 {
-  -webkit-transition-delay: 2.0s;
-          transition-delay: 2.0s;
-}
-
-.delay-21 {
-  -webkit-transition-delay: 2.1s;
-          transition-delay: 2.1s;
-}
-
-.delay-22 {
-  -webkit-transition-delay: 2.2s;
-          transition-delay: 2.2s;
-}
-
-.delay-23 {
-  -webkit-transition-delay: 2.3s;
-          transition-delay: 2.3s;
-}
-
-.delay-24 {
-  -webkit-transition-delay: 2.4s;
-          transition-delay: 2.4s;
-}
-
-.ani-delay-1 {
-  -webkit-animation-delay: .1s;
-          animation-delay: .1s;
-}
-
-.ani-delay-2 {
-  -webkit-animation-delay: .2s;
-          animation-delay: .2s;
-}
-
-.ani-delay-3 {
-  -webkit-animation-delay: .3s;
-          animation-delay: .3s;
-}
-
-.ani-delay-4 {
-  -webkit-animation-delay: .4s;
-          animation-delay: .4s;
-}
-
-.ani-delay-5 {
-  -webkit-animation-delay: .5s;
-          animation-delay: .5s;
-}
-
-.ani-delay-6 {
-  -webkit-animation-delay: .6s;
-          animation-delay: .6s;
-}
-
-.ani-delay-7 {
-  -webkit-animation-delay: .7s;
-          animation-delay: .7s;
-}
-
-.ani-delay-8 {
-  -webkit-animation-delay: .8s;
-          animation-delay: .8s;
-}
-
-.ani-delay-9 {
-  -webkit-animation-delay: .9s;
-          animation-delay: .9s;
-}
-
-.ani-delay-10 {
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-}
-
-.ani-delay-11 {
-  -webkit-animation-delay: 1.1s;
-          animation-delay: 1.1s;
-}
-
-.ani-delay-12 {
-  -webkit-animation-delay: 1.2s;
-          animation-delay: 1.2s;
-}
-
-.ani-delay-13 {
-  -webkit-animation-delay: 1.3s;
-          animation-delay: 1.3s;
-}
-
-.ani-delay-14 {
-  -webkit-animation-delay: 1.4s;
-          animation-delay: 1.4s;
-}
-
-.ani-delay-15 {
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
-}
-
-.ani-delay-16 {
-  -webkit-animation-delay: 1.6s;
-          animation-delay: 1.6s;
-}
-
-.ani-delay-17 {
-  -webkit-animation-delay: 1.7s;
-          animation-delay: 1.7s;
-}
-
-.ani-delay-18 {
-  -webkit-animation-delay: 1.8s;
-          animation-delay: 1.8s;
-}
-
-.ani-delay-19 {
-  -webkit-animation-delay: 1.9s;
-          animation-delay: 1.9s;
-}
-
-.ani-delay-20 {
-  -webkit-animation-delay: 2.0s;
-          animation-delay: 2.0s;
-}
-
-.ani-delay-21 {
-  -webkit-animation-delay: 2.1s;
-          animation-delay: 2.1s;
-}
-
-.ani-delay-22 {
-  -webkit-animation-delay: 2.2s;
-          animation-delay: 2.2s;
-}
-
-.ani-delay-23 {
-  -webkit-animation-delay: 2.3s;
-          animation-delay: 2.3s;
-}
-
-.ani-delay-24 {
-  -webkit-animation-delay: 2.4s;
-          animation-delay: 2.4s;
-}
-
 /* -------------------
   PARTS
 --------------------*/
@@ -3187,6 +2947,7 @@ p {
 
 .post__content img {
   margin: 10px auto;
+  height: auto;
 }
 
 .post-link__wrap {
@@ -7302,7 +7063,8 @@ p {
 
 .news-item__desc .comment span.new {
   position: absolute;
-  right: 20px;
+  right: 0;
+  margin-right: 10%;
   background: #fd2802;
   color: white;
   padding: 1px 10px;
@@ -7383,6 +7145,3092 @@ p {
 }
 
 /* ==========================================================
+	anti-aging-dock page
+========================================================== */
+.anti-aging-dock {
+  /* outline */
+  /* oral-aging */
+  /* anti-aging-doc */
+  /* supplement */
+  /*----------- end -------------*/
+}
+
+.anti-aging-dock .care2-outline-section {
+  max-width: 1040px;
+  padding: 50px 20px;
+  margin: auto;
+}
+
+.anti-aging-dock .care2-outline-section h2.head {
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+}
+
+.anti-aging-dock .care2-outline-section h3.head {
+  text-align: center;
+  font-weight: 100;
+  line-height: 150%;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin: 50px 0 20px;
+}
+
+.anti-aging-dock .care2-outline-section p.intro {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  line-height: 200%;
+  text-align: center;
+}
+
+.anti-aging-dock .care2-outline-section p.intro.box {
+  padding: 20px;
+  margin: 20px;
+  letter-spacing: 0.2rem;
+  line-height: 200%;
+  text-align: center;
+  display: block;
+  background-color: rgba(210, 190, 165, 0.3);
+}
+
+.anti-aging-dock .care2-oral-aging-section {
+  max-width: 1000px;
+  margin: 0 auto 50px;
+  overflow: hidden;
+  padding: 50px 20px 0;
+}
+
+.anti-aging-dock .care2-oral-aging-section p.intro {
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 200%;
+}
+
+.anti-aging-dock .care2-oral-aging-section h4.head {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #d93600;
+  letter-spacing: 0.1rem;
+}
+
+.anti-aging-dock .care2-oral-aging-section h4.head span {
+  display: block;
+  margin-top: 20px;
+}
+
+.anti-aging-dock .care2-oral-aging-section p.sub-intro {
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 200%;
+}
+
+.anti-aging-dock .care2-oral-aging-section p.detail {
+  text-align: center;
+  margin-bottom: 50px;
+  line-height: 200%;
+}
+
+.anti-aging-dock .care2-oral-aging-section .check-wrap {
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.anti-aging-dock .care2-oral-aging-section .check-wrap h5.sub-head {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.anti-aging-dock .care2-oral-aging-section .check-wrap h6.sub-head {
+  font-weight: 600;
+  margin-bottom: 10px;
+  padding: 30px 0 0;
+  text-align: center;
+}
+
+.anti-aging-dock .care2-oral-aging-section .check-wrap p.item {
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.anti-aging-dock .care2-oral-aging-section .check-wrap ul.check-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.anti-aging-dock .care2-oral-aging-section .check-wrap ul.check-box li {
+  font-weight: 500;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  background-color: #ef9ba0;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.anti-aging-dock .care2-oral-aging-section .check-wrap .comment {
+  text-align: center;
+  font-weight: 400;
+  padding: 30px 0 50px;
+  color: #e86779;
+}
+
+.anti-aging-dock .care2-oral-aging-section .check-wrap ul.result {
+  display: table;
+  margin-bottom: 20px;
+}
+
+.anti-aging-dock .care2-oral-aging-section .check-wrap ul.result li {
+  display: inline-block;
+  width: 50%;
+  font-weight: 400;
+  height: 30px;
+  line-height: 30px;
+}
+
+.anti-aging-dock .care2-oral-aging-section .check-wrap .annotation {
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section h3.head {
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section p.intro {
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 200%;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section h4.head {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: #d93600;
+  letter-spacing: 0.1rem;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section h4.head span {
+  display: block;
+  margin-top: 20px;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .oligoscan-image {
+  margin: 0 auto 30px;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .oligoscan-image img {
+  margin: auto;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section p.sub-intro {
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 200%;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section p.detail {
+  text-align: center;
+  margin-bottom: 50px;
+  line-height: 200%;
+  clear: both;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section p.detail span {
+  color: #d93600;
+  margin: 15px 0;
+  display: inline-block;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section h4.head_att {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .att {
+  line-height: 150%;
+  margin-bottom: 20px;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .doc-wrap {
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .doc-wrap h5.sub-head {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .doc-wrap h6.sub-head {
+  font-weight: 600;
+  margin-bottom: 10px;
+  padding: 30px 0 0;
+  text-align: center;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .doc-wrap p.item {
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .allergy-image {
+  margin: 0 auto 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .allergy-image .img-wrap {
+  width: 50%;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .allergy-image .img-wrap img {
+  margin: auto;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .cause {
+  padding: 50px 20px;
+  background-color: #efefef;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .cause h5 {
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #ff0000;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .cause ul li {
+  display: inline-block;
+  margin: 10px;
+  font-size: 1.5rem;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section h6.sub-head {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .recommend {
+  text-align: center;
+  font-weight: 400;
+  line-height: 200%;
+  margin-bottom: 50px;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .gen-image {
+  width: 800px;
+  margin: 0 auto 50px;
+  overflow: hidden;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section .gen-image img {
+  display: block;
+  float: left;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section ul.ｍeasurement {
+  width: 604px;
+  margin: 0 auto 20px;
+  overflow: hidden;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section ul.ｍeasurement li {
+  text-align: center;
+  float: left;
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  margin: 1px;
+  font-weight: 400;
+  background-color: #eee;
+}
+
+.anti-aging-dock .care2-anti-aging-doc-section p.comment {
+  clear: both;
+  text-align: center;
+  margin: 20px;
+}
+
+.anti-aging-dock .care2-supplement-section {
+  max-width: 1000px;
+  padding: 50px 20px 0;
+  margin: 0 auto 100px;
+  overflow: hidden;
+}
+
+.anti-aging-dock .care2-supplement-section h3.head {
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 150%;
+}
+
+.anti-aging-dock .care2-supplement-section p.intro {
+  margin: 0 auto 50px;
+  line-height: 200%;
+  text-align: justify;
+}
+
+@media screen and (max-width: 1050px) {
+  .anti-aging-dock .care2-outline-section p.intro {
+    text-align: left;
+  }
+  .anti-aging-dock .care2-outline-section p.intro.box {
+    text-align: left;
+    margin: 20px 0 0;
+  }
+  .anti-aging-dock .care2-anti-aging-doc-section p.detail {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .anti-aging-dock .care2-oral-aging-section .check-wrap ul.check-box li {
+    width: 100%;
+  }
+  .anti-aging-dock .care2-anti-aging-doc-section .allergy-image {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .anti-aging-dock .care2-anti-aging-doc-section .allergy-image .img-wrap {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .anti-aging-dock .care2-outline-section {
+    padding-top: 30px;
+  }
+  .anti-aging-dock .care2-oral-aging-section p.sub-intro {
+    text-align: left;
+  }
+  .anti-aging-dock .care2-oral-aging-section p.sub-intro br {
+    display: none;
+  }
+  .anti-aging-dock .care2-oral-aging-section p.detail {
+    text-align: left;
+  }
+  .anti-aging-dock .care2-oral-aging-section .check-wrap ul.result li {
+    width: 100%;
+  }
+  .anti-aging-dock .care2-anti-aging-doc-section .cause {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  .anti-aging-dock .care2-anti-aging-doc-section .recommend {
+    text-align: left;
+  }
+}
+
+/* ==========================================================
+	anti-aging common
+========================================================== */
+.anti-heading {
+  background-color: white;
+  position: relative;
+}
+
+.anti-heading__caption {
+  padding: 70px 20px;
+  color: #333333;
+  text-align: center;
+}
+
+.anti-heading__caption span {
+  display: block;
+}
+
+.anti-heading__caption span.jp {
+  font-size: 3.0rem;
+  font-weight: 600;
+}
+
+.anti-heading__caption span.en {
+  font-size: 2.0rem;
+}
+
+@media screen and (max-width: 576px) {
+  .anti-heading__caption {
+    padding: 50px 20px;
+  }
+  .anti-heading span.jp {
+    font-size: 2.5rem;
+  }
+  .anti-heading span.en {
+    margin-top: 10px;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 389px) {
+  .anti-heading span.jp {
+    font-size: 7.17949vw;
+  }
+}
+
+/* ==========================================================
+	anti-aging top page
+========================================================== */
+#anti-aging-top {
+  /*----------- end -------------*/
+}
+
+#anti-aging-top .anti-heading__caption {
+  padding: 110px 20px;
+}
+
+@media screen and (max-width: 576px) {
+  #anti-aging-top .anti-heading__caption {
+    padding: 70px 20px;
+  }
+}
+
+#anti-aging-top .anti-content__mainvisual {
+  height: 500px;
+  background-image: url("../images/anti-aging/antiaging_mv.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  position: relative;
+}
+
+#anti-aging-top .anti-content__mainvisual--caption {
+  padding: 0 20px;
+  font-weight: bold;
+  color: #333333;
+  max-width: 750px;
+  width: 100%;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  line-height: 2;
+}
+
+@media screen and (max-width: 1050px) {
+  #anti-aging-top .anti-content__mainvisual {
+    height: 400px;
+  }
+  #anti-aging-top .anti-content__mainvisual--caption {
+    line-height: inherit;
+    bottom: 20px;
+  }
+}
+
+#anti-aging-top .anti-content__body {
+  padding: 100px 20px;
+  max-width: 1140px;
+  margin: auto;
+  font-weight: 400;
+  color: #333333;
+}
+
+#anti-aging-top .anti-content__body .text1 {
+  max-width: 900px;
+  margin: 0 auto 100px;
+  line-height: 2;
+}
+
+#anti-aging-top .anti-content__body .text2 {
+  max-width: 900px;
+  margin: 100px auto 0;
+  line-height: 1.8;
+}
+
+#anti-aging-top .anti-content__menu {
+  max-width: 1100px;
+  margin: 100px auto;
+}
+
+#anti-aging-top .anti-content__menu .home-section__menu-ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 576px) {
+  #anti-aging-top .anti-content__body {
+    padding: 50px 20px;
+  }
+  #anti-aging-top .anti-content__body .text1 {
+    margin-bottom: 50px;
+  }
+  #anti-aging-top .anti-content__body .text2 {
+    margin-top: 50px;
+  }
+  #anti-aging-top .anti-content__menu {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 389px) {
+  #anti-aging-top .anti-content__mainvisual--caption {
+    font-size: 4.61538vw;
+  }
+}
+
+/* ==========================================================
+	esthetic-page
+========================================================== */
+.esthetic {
+  /* outline */
+  /* lip-esthetic */
+  /* lip-esthetic */
+  /*----------- end -------------*/
+}
+
+.esthetic .care2-outline-section {
+  max-width: 1040px;
+  padding: 50px 20px;
+  margin: auto;
+}
+
+.esthetic .care2-outline-section h2.head {
+  text-align: center;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+}
+
+.esthetic .care2-outline-section p.intro {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  line-height: 200%;
+  text-align: center;
+}
+
+.esthetic .care2-outline-section img {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.esthetic .care2-esthetic-section {
+  width: 100%;
+  margin: 0 auto 50px;
+  overflow: hidden;
+  padding: 50px 0;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic {
+  max-width: 1040px;
+  margin: 0 auto 100px;
+  padding: 0 20px;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic h3.head {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic p.price {
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 20px;
+  line-height: 150%;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic .detail {
+  line-height: 200%;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic h4.head {
+  color: #a5967d;
+  font-weight: 400;
+  text-align: center;
+  line-height: 150%;
+  margin-top: 60px;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic .why-care {
+  width: 100%;
+  margin: 30px auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic .why-care .why-box {
+  margin: 0 auto;
+  padding: 20px 10px;
+  width: 25%;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic .why-care p.dt {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic .why-care p.dd {
+  line-height: 150%;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic .practitioner-wrap {
+  margin: 60px auto 0;
+  max-width: 850px;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic .practitioner-wrap h4.head {
+  clear: both;
+  color: #a5967d;
+  font-weight: 400;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #d2bea5;
+  padding: 10px;
+  line-height: 150%;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic .practitioner-wrap .dt {
+  margin-bottom: 5px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic .practitioner-wrap .dd {
+  margin-bottom: 30px;
+  line-height: 150%;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic .practitioner-wrap img {
+  float: right;
+  width: 300px;
+  display: block;
+  margin: 0 0 30px 30px;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic .recom-wrap {
+  background: #fafafa;
+  padding: 20px 0;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic p.recom-head {
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #d93600;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic ul.recom {
+  padding: 0 0px;
+  font-weight: 500;
+  line-height: 150%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.esthetic .care2-esthetic-section .lip-esthetic ul.recom li {
+  background-color: #CEC1A8;
+  color: white;
+  margin: 5px;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.esthetic .care2-esthetic-section .facial {
+  max-width: 1040px;
+  margin: 0 auto 50px;
+  padding: 0 20px;
+}
+
+.esthetic .care2-esthetic-section .facial h3.head {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.esthetic .care2-esthetic-section .facial p.price {
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 20px;
+  line-height: 150%;
+}
+
+.esthetic .care2-esthetic-section .facial .detail {
+  line-height: 200%;
+}
+
+.esthetic .care2-esthetic-section .aroma {
+  max-width: 1040px;
+  margin: 0 auto 100px;
+  padding: 0 20px;
+}
+
+.esthetic .care2-esthetic-section .aroma h3.head {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.esthetic .care2-esthetic-section .aroma p.price {
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 10px;
+  line-height: 150%;
+}
+
+.esthetic .care2-esthetic-section .aroma .aroma-wrap {
+  margin: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.esthetic .care2-esthetic-section .aroma .aroma-wrap h4.head {
+  margin-top: 0;
+}
+
+.esthetic .care2-esthetic-section .aroma .aroma-wrap .left {
+  width: 50%;
+  padding: 0 10px;
+}
+
+.esthetic .care2-esthetic-section .aroma .aroma-wrap .left img {
+  margin: auto;
+  border-radius: 30px;
+}
+
+.esthetic .care2-esthetic-section .aroma .aroma-wrap .right {
+  text-align: center;
+  width: 50%;
+  padding: 0 10px;
+}
+
+.esthetic .care2-esthetic-section .aroma .aroma-wrap .right img {
+  max-width: 400px;
+  width: 100%;
+  display: block;
+  margin: auto;
+  border-radius: 30px;
+}
+
+.esthetic .care2-esthetic-section .aroma h4.head {
+  text-align: left;
+  margin: 30px 0;
+}
+
+.esthetic .care2-esthetic-section .aroma .detail {
+  line-height: 200%;
+  text-align: left;
+}
+
+.esthetic .care2-esthetic-section .aroma .detail a {
+  color: #08c;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.esthetic .care2-esthetic-section .aroma .detail a:hover {
+  opacity: .8;
+}
+
+.esthetic .care2-esthetic-section .aroma .comment {
+  line-height: 200%;
+}
+
+.esthetic .bridal-section {
+  width: 100%;
+  margin: 0 auto 50px;
+  overflow: hidden;
+  padding: 50px 0;
+}
+
+.esthetic .bridal-section .course {
+  max-width: 1040px;
+  margin: 0 auto 100px;
+  padding: 0 20px;
+}
+
+.esthetic .bridal-section .course p.head-caption {
+  text-align: left;
+  margin-bottom: 0px;
+  font-weight: 500;
+  color: #a5967d;
+}
+
+.esthetic .bridal-section .course p.head-caption span {
+  color: #d93600;
+  font-weight: 900;
+}
+
+.esthetic .bridal-section .course h3.head {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.esthetic .bridal-section .course p.price {
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 20px;
+  line-height: 150%;
+}
+
+.esthetic .bridal-section .course p.price span {
+  color: #d93600;
+  font-size: 2rem;
+}
+
+.esthetic .bridal-section .course .detail {
+  line-height: 200%;
+}
+
+.esthetic .bridal-section .course .sub-course-wrap {
+  border: 1px solid #eecdcd;
+  padding: 20px 20px 10px;
+  width: 100%;
+}
+
+.esthetic .bridal-section .course .other-head {
+  text-align: left;
+  margin: 0;
+  color: #a5967d;
+}
+
+.esthetic .bridal-section .course .other-head span {
+  display: block;
+  font-size: 2.0rem;
+  color: #111;
+  font-weight: 500;
+}
+
+.esthetic .bridal-section h4.catch {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1050px) {
+  .esthetic .care2-esthetic-section .lip-esthetic .why-care {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .esthetic .care2-esthetic-section .lip-esthetic .why-care .why-box {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .esthetic .care2-esthetic-section .lip-esthetic ul.recom li {
+    width: 100%;
+    margin: 2px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .esthetic .care2-outline-section {
+    padding-top: 30px;
+  }
+  .esthetic .care2-outline-section p.intro {
+    text-align: left;
+  }
+  .esthetic .care2-outline-section p.intro br {
+    display: none;
+  }
+  .esthetic .care2-esthetic-section .lip-esthetic .why-care {
+    margin-top: 15px;
+  }
+  .esthetic .care2-esthetic-section .lip-esthetic .why-care .why-box {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .esthetic .care2-esthetic-section .lip-esthetic .practitioner-wrap img {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .esthetic .care2-esthetic-section .aroma .aroma-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .esthetic .care2-esthetic-section .aroma .aroma-wrap .left, .esthetic .care2-esthetic-section .aroma .aroma-wrap .right {
+    width: 100%;
+    padding: 0;
+    margin: 10px 0;
+  }
+  .esthetic .care2-esthetic-section .aroma .aroma-wrap h4.head {
+    text-align: center;
+  }
+  .esthetic .care2-esthetic-section .aroma .aroma-wrap.reverse {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+/* ==========================================================
+	grinding-page
+========================================================== */
+.grinding {
+  /* outline */
+  /* grinding */
+  /*----------  end ------------*/
+}
+
+.grinding .cure2-outline-section {
+  max-width: 1040px;
+  padding: 30px 20px 0;
+  margin: auto;
+}
+
+.grinding .cure2-outline-section h2.head {
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  text-indent: 0.2rem;
+  margin-bottom: 20px;
+  line-height: 150%;
+}
+
+.grinding .cure2-outline-section p.intro {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  line-height: 200%;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.grinding .cure2-outline-section img {
+  text-align: center;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.grinding .cure2-grinding-section {
+  max-width: 1040px;
+  margin: 50px auto 150px;
+  overflow: hidden;
+  padding: 0 20px;
+  /* botox */
+  /* injection */
+}
+
+.grinding .cure2-grinding-section .mouthpiece {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.grinding .cure2-grinding-section h3.head {
+  margin-bottom: 30px;
+  letter-spacing: 0.2rem;
+  line-height: 150%;
+  text-align: left;
+}
+
+.grinding .cure2-grinding-section p {
+  line-height: 180%;
+}
+
+.grinding .cure2-grinding-section img {
+  width: 80%;
+  margin: 0 auto 30px;
+  display: block;
+}
+
+.grinding .cure2-grinding-section .botox {
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.grinding .cure2-grinding-section .botox h3.head {
+  margin-bottom: 10px;
+}
+
+.grinding .cure2-grinding-section .botox p.sub-head {
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 30px;
+  line-height: 150%;
+}
+
+.grinding .cure2-grinding-section .botox p.sub-head.purpose {
+  margin-top: 70px;
+  margin-bottom: 0;
+}
+
+.grinding .cure2-grinding-section .botox .detail {
+  line-height: 200%;
+  margin-bottom: 30px;
+}
+
+.grinding .cure2-grinding-section .botox .detail.l-32 {
+  line-height: 32px;
+}
+
+.grinding .cure2-grinding-section .botox .merit {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.grinding .cure2-grinding-section .botox .merit li {
+  font-weight: 500;
+  padding: 12px 20px;
+  margin: 3px 0;
+  background-color: #CEC1A8;
+  color: white;
+}
+
+.grinding .cure2-grinding-section .botox h4.head {
+  text-align: left;
+  margin: 50px 0 10px;
+}
+
+.grinding .cure2-grinding-section .botox .att {
+  line-height: 150%;
+  margin-bottom: 30px;
+}
+
+.grinding .cure2-grinding-section .botox ul.cost_ex li {
+  margin: 0 0 10px 0;
+}
+
+.grinding .cure2-grinding-section .botox ul.cost_ex li span {
+  margin: 0 20px 0 0;
+  font-weight: 600;
+}
+
+.grinding .cure2-grinding-section .injection h3.head {
+  margin-bottom: 20px;
+}
+
+.grinding .cure2-grinding-section .injection .thumb-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.grinding .cure2-grinding-section .injection .thumb-row .thumb {
+  width: 50%;
+  background-color: #F2F2F2;
+}
+
+.grinding .cure2-grinding-section .injection .thumb-row .thumb:first-child {
+  padding: 50px 35px 20px 55px;
+}
+
+.grinding .cure2-grinding-section .injection .thumb-row .thumb:last-child {
+  padding: 50px 55px 20px 35px;
+}
+
+.grinding .cure2-grinding-section .injection .thumb-row .thumb p.f12 {
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.grinding .cure2-grinding-section .injection .thumb-row .thumb img {
+  margin: auto;
+}
+
+.grinding .cure2-grinding-section .injection .detail {
+  margin-top: 30px;
+  line-height: 2;
+}
+
+.grinding .cure2-grinding-section .injection .detail dd {
+  float: left;
+  font-weight: 500;
+}
+
+.grinding .cure2-grinding-section .injection .detail dt {
+  padding-left: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .grinding .cure2-grinding-section .injection .thumb-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .grinding .cure2-grinding-section .injection .thumb-row .thumb {
+    width: 100%;
+    padding: 20px !important;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .grinding .cure2-outline-section p.intro {
+    text-align: left;
+  }
+  .grinding .cure2-outline-section p.intro br {
+    display: none;
+  }
+  .grinding .cure2-grinding-section .injection .detail dt {
+    padding-left: 70px;
+  }
+}
+
+/* ==========================================================
+	gum-care-page
+========================================================== */
+.gum-care {
+  /* outline */
+  /* periodontal */
+  /* gum-massage */
+  /*----------- end -------------*/
+}
+
+.gum-care .care1-outline-section {
+  max-width: 1040px;
+  padding: 50px 20px 100px;
+  margin: auto;
+}
+
+.gum-care .care1-outline-section h2.head {
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+}
+
+.gum-care .care1-outline-section p.intro {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+  line-height: 200%;
+  text-align: center;
+}
+
+.gum-care .care1-outline-section p.intro span {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.gum-care .care1-outline-section p.intro span a {
+  font-weight: 400;
+  color: #08c;
+  font-weight: bold;
+}
+
+.gum-care .care1-outline-section p.intro span a:hover {
+  opacity: .8;
+}
+
+.gum-care .care1-periodontal-section {
+  max-width: 1040px;
+  padding: 0 20px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.gum-care .care1-periodontal-section h3.head {
+  font-weight: 400;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.gum-care .care1-periodontal-section p.intro {
+  margin: 0 auto 100px;
+  font-weight: 400;
+  line-height: 200%;
+  text-align: justify;
+}
+
+.gum-care .care1-periodontal-section .treatment-wrap {
+  margin-bottom: 150px;
+}
+
+.gum-care .care1-periodontal-section .treatment-wrap h4.head {
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+.gum-care .care1-periodontal-section .treatment-wrap p.detail {
+  font-weight: 400;
+  margin-bottom: 10px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.gum-care .care1-periodontal-section .treatment-wrap .arrow {
+  font-weight: 400;
+  margin-bottom: 10px;
+  line-height: 150%;
+  text-align: center;
+  color: #d2bea5;
+}
+
+.gum-care .care1-periodontal-section .periodontal {
+  max-width: 700px;
+  margin: 0 auto 50px;
+}
+
+.gum-care .care1-periodontal-section .periodontal h3.head {
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.gum-care .care1-periodontal-section .periodontal p.price {
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.gum-care .care1-periodontal-section .periodontal .detail {
+  font-weight: 400;
+  line-height: 200%;
+}
+
+.gum-care .care1-periodontal-section .perosovl {
+  max-width: 700px;
+  margin: 0 auto 50px;
+}
+
+.gum-care .care1-periodontal-section .perosovl h3.head {
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.gum-care .care1-periodontal-section .perosovl img {
+  float: right;
+}
+
+.gum-care .care1-periodontal-section .perosovl p.detail.flort {
+  font-weight: 400;
+  line-height: 200%;
+}
+
+.gum-care .care1-periodontal-section .perosovl p.detail {
+  font-weight: 400;
+  line-height: 200%;
+}
+
+.gum-care .care1-periodontal-section .perosovl .merit {
+  clear: both;
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px 20px;
+  background-color: #fafafa;
+  border-radius: 10px;
+}
+
+.gum-care .care1-periodontal-section .perosovl .merit h4.head {
+  font-weight: 600;
+  text-align: left;
+  margin: 0 0 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #ddd;
+}
+
+.gum-care .care1-periodontal-section .perosovl .merit ul.detail li {
+  margin-left: 20px;
+  list-style: disc;
+  font-weight: 400;
+  line-height: 180%;
+}
+
+.gum-care .care1-periodontal-section .perosovl .safty {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px 20px;
+  background-color: #fafafa;
+  border-radius: 10px;
+}
+
+.gum-care .care1-periodontal-section .perosovl .safty h4.head {
+  font-weight: 600;
+  text-align: left;
+  margin: 0 0 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #ddd;
+}
+
+.gum-care .care1-periodontal-section .perosovl .safty p.detail {
+  font-weight: 400;
+  line-height: 180%;
+}
+
+.gum-care .care1-periodontal-section .perosovl .treatment {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px 20px;
+  background-color: #fafafa;
+  border-radius: 10px;
+}
+
+.gum-care .care1-periodontal-section .perosovl .treatment h4.head {
+  font-weight: 600;
+  text-align: left;
+  margin: 0 0 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #ddd;
+}
+
+.gum-care .care1-periodontal-section .perosovl .treatment ul.detail li {
+  margin-left: 20px;
+  list-style: decimal;
+  font-weight: 400;
+  line-height: 180%;
+}
+
+.gum-care .care1-periodontal-section .perosovl .price {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px 20px;
+  background-color: #fafafa;
+  border-radius: 10px;
+}
+
+.gum-care .care1-periodontal-section .perosovl .price h4.head {
+  font-weight: 600;
+  text-align: left;
+  margin: 0 0 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #ddd;
+}
+
+.gum-care .care1-periodontal-section .perosovl .price ul.detail li {
+  margin-left: 20px;
+  list-style: circle;
+  font-weight: 400;
+  line-height: 180%;
+}
+
+.gum-care .care1-periodontal-section .injection {
+  max-width: 700px;
+  margin: 0 auto 80px;
+}
+
+.gum-care .care1-periodontal-section .injection h3.head {
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.gum-care .care1-periodontal-section .injection p.price {
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.gum-care .care1-periodontal-section .injection .detail {
+  font-weight: 400;
+  line-height: 200%;
+  margin-bottom: 30px;
+}
+
+.gum-care .care1-periodontal-section .injection .detail a {
+  font-weight: 500;
+  color: #08c;
+}
+
+.gum-care .care1-periodontal-section .injection h4.head {
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.gum-care .care1-periodontal-section .injection ul {
+  font-weight: 400;
+  line-height: 200%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.gum-care .care1-periodontal-section .injection li {
+  text-align: center;
+  margin-bottom: 2px;
+  padding: 5px 10px;
+  background-color: #f1ece4;
+}
+
+.gum-care .care1-periodontal-section .impact-anchor {
+  margin: 50px auto 0;
+  padding-bottom: 100px;
+  max-width: 600px;
+  color: #08c;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  line-height: 150%;
+}
+
+.gum-care .care1-periodontal-section .impact-wrap {
+  margin-bottom: 100px;
+}
+
+.gum-care .care1-periodontal-section .impact-wrap .impact {
+  padding: 50px 50px 20px;
+  background-color: #f1ece4;
+}
+
+.gum-care .care1-periodontal-section .impact-wrap .impact .sub-head {
+  font-weight: 400;
+  margin: 10px 0;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+.gum-care .care1-periodontal-section .impact-wrap .impact h3.head {
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+.gum-care .care1-periodontal-section .impact-wrap .impact .detail {
+  font-weight: 400;
+  line-height: 200%;
+  margin-bottom: 30px;
+}
+
+.gum-care .care1-periodontal-section .impact-wrap .impact h4.head {
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-align: left;
+  letter-spacing: 0.1rem;
+}
+
+.gum-care .care1-gum-massage-section {
+  max-width: 1040px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.gum-care .care1-gum-massage-section .left {
+  width: 50%;
+  float: left;
+}
+
+.gum-care .care1-gum-massage-section .left h3.head {
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.gum-care .care1-gum-massage-section .left p.price {
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.gum-care .care1-gum-massage-section .left h4.sub-head {
+  font-weight: 400;
+  margin: 20px 0 10px;
+  text-align: left;
+}
+
+.gum-care .care1-gum-massage-section .left p.detail {
+  font-weight: 400;
+  line-height: 180%;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.gum-care .care1-gum-massage-section .left .recommend {
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+
+.gum-care .care1-gum-massage-section .right {
+  width: 50%;
+  float: right;
+  padding-left: 20px;
+}
+
+.gum-care .care1-gum-massage-section .right img {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+}
+
+.gum-care .care1-gum-massage-section .pmtc-menu {
+  clear: both;
+  max-width: 700px;
+  margin: 0  auto;
+  padding: 100px 0;
+  overflow: hidden;
+}
+
+.gum-care .care1-gum-massage-section .pmtc-menu h3.head {
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.gum-care .care1-gum-massage-section .pmtc-menu p.price {
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.gum-care .care1-gum-massage-section .pmtc-menu .detail {
+  font-weight: 400;
+  line-height: 200%;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .gum-care .care1-gum-massage-section .left, .gum-care .care1-gum-massage-section .right {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+  .gum-care .care1-gum-massage-section .right {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .gum-care .care1-outline-section {
+    padding-top: 50px;
+  }
+  .gum-care .care1-outline-section p.intro {
+    text-align: left;
+  }
+  .gum-care .care1-outline-section p.intro br {
+    display: none;
+  }
+  .gum-care .care1-periodontal-section .perosovl img {
+    float: none;
+    margin: auto;
+  }
+  .gum-care .care1-periodontal-section .perosovl .merit {
+    margin: 0 -10px;
+  }
+  .gum-care .care1-periodontal-section .injection li {
+    text-align: left;
+  }
+  .gum-care .care1-periodontal-section .impact-wrap .impact {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 50px 20px;
+  }
+  .gum-care .care1-gum-massage-section .pmtc-menu {
+    padding-bottom: 0;
+  }
+  .gum-care .care1-gum-massage-section .pmtc-menu h3.head {
+    text-align: center;
+  }
+  .gum-care .care1-gum-massage-section .pmtc-menu h3.head span {
+    display: block;
+  }
+}
+
+/* ==========================================================
+	implant-page
+========================================================== */
+.implant {
+  /* outline */
+  /* implant */
+  /* warranty */
+  /*----------- end -------------*/
+}
+
+.implant .cure2-outline-section {
+  max-width: 1040px;
+  padding: 50px 20px 0;
+  margin: auto;
+}
+
+.implant .cure2-outline-section h2.head {
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+  line-height: 150%;
+}
+
+.implant .cure2-outline-section p.intro {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  line-height: 200%;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.implant .cure2-outline-section p.intro span {
+  font-weight: 400;
+  line-height: 200%;
+  text-align: left;
+  display: block;
+}
+
+.implant .cure2-implant-section {
+  max-width: 1040px;
+  margin: 50px auto 150px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.implant .cure2-implant-section .thumb-wrap {
+  margin: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.implant .cure2-implant-section .thumb-wrap .thumb {
+  padding: 20px;
+}
+
+.implant .cure2-implant-section .thumb-wrap .thumb img {
+  max-width: 200px;
+  width: 100%;
+  padding: 0;
+}
+
+.implant .cure2-implant-section .comment-wrap {
+  margin: 30px 0;
+}
+
+.implant .cure2-implant-section .comment-wrap .comment {
+  max-width: 900px;
+  margin: 10px auto 0;
+  text-align: left;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.implant .cure2-implant-section .comment-wrap .comment dd {
+  float: left;
+}
+
+.implant .cure2-implant-section .comment-wrap .comment dt {
+  padding-left: 20px;
+}
+
+.implant .cure2-implant-section .comment-wrap .comment-bold {
+  margin: 50px auto;
+  text-align: left;
+  font-weight: 600;
+  line-height: 150%;
+  padding: 20px;
+  background-color: #CEC1A8;
+  color: white;
+}
+
+.implant .cure2-implant-section .howto-head {
+  text-align: left;
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin: 0 50px;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.implant .cure2-implant-section ul.howto {
+  padding: 30px 100px 50px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.implant .cure2-implant-section .howto li {
+  text-align: left;
+  margin-bottom: 20px;
+  list-style: decimal;
+  padding-left: 10px;
+}
+
+.implant .cure2-implant-section .merit-head {
+  max-width: 900px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 50px auto 20px;
+}
+
+.implant .cure2-implant-section .merit {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-left: 20px;
+  text-align: left;
+  font-weight: 400;
+}
+
+.implant .cure2-implant-section .merit li {
+  list-style: disc;
+  margin-bottom: 20px;
+  line-height: 1.7;
+  font-size: 1.5rem;
+}
+
+.implant .cure2-implant-section .merit li span {
+  display: block;
+  font-size: 1.4rem;
+}
+
+.implant .cure2-warranty-section {
+  padding: 50px 0 100px;
+  background-color: rgba(210, 190, 165, 0.2);
+}
+
+.implant .cure2-warranty-section .wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.implant .cure2-warranty-section h3.head {
+  margin-bottom: 30px;
+}
+
+.implant .cure2-warranty-section p.lead {
+  margin-bottom: 30px;
+  line-height: 2.2;
+  text-align: center;
+}
+
+.implant .cure2-warranty-section .warranty {
+  line-height: 150%;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 576px) {
+  .implant .cure2-outline-section {
+    padding-top: 30px;
+  }
+  .implant .cure2-implant-section {
+    margin: 50px auto 100px;
+  }
+  .implant .cure2-implant-section .comment-wrap .comment-bold {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  .implant .cure2-implant-section .howto-head {
+    margin: 0;
+    padding: 10px 20px;
+  }
+  .implant .cure2-implant-section ul.howto {
+    padding: 10px 0 30px 20px;
+  }
+  .implant .cure2-warranty-section p.lead {
+    text-align: left;
+  }
+  .implant .cure2-warranty-section .warranty {
+    text-align: right;
+  }
+}
+
+/* ==========================================================
+	injection-page
+========================================================== */
+.injection {
+  /* hyaluronic */
+  /* placenta */
+  /* recommended */
+  /* supplement */
+  /*----------- end -------------*/
+}
+
+.injection ul.cost_ex li {
+  margin: 0 0 10px 0;
+}
+
+.injection ul.cost_ex li span {
+  margin: 0 20px 0 0;
+  font-weight: 600;
+}
+
+.injection .care2-hyaluronic-section {
+  width: 100%;
+  margin: 50px auto 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.injection .care2-hyaluronic-section .injection-wrap {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.injection .care2-hyaluronic-section .injection-wrap h2.head {
+  text-align: center;
+  margin: 100px 0;
+}
+
+.injection .care2-hyaluronic-section .injection-wrap .hyaluronic {
+  margin: 0 auto 100px;
+  overflow: hidden;
+}
+
+.injection .care2-hyaluronic-section .injection-wrap .hyaluronic h3.head {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.injection .care2-hyaluronic-section .injection-wrap .hyaluronic h4.sub-head {
+  text-align: left;
+  margin: 30px 0;
+}
+
+.injection .care2-hyaluronic-section .injection-wrap .hyaluronic .head {
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.injection .care2-hyaluronic-section .injection-wrap .hyaluronic .detail {
+  line-height: 200%;
+  margin-bottom: 30px;
+}
+
+.injection .care2-hyaluronic-section .injection-wrap .hyaluronic ul.hyaluronic-effect {
+  width: 100%;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.injection .care2-hyaluronic-section .injection-wrap .hyaluronic ul.hyaluronic-effect li {
+  float: left;
+  margin: 0 40px 10px 0;
+  font-weight: 400;
+  background-color: #fff;
+  color: #d93600;
+}
+
+.injection .care2-hyaluronic-section .injection-wrap .hyaluronic .merit {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.injection .care2-hyaluronic-section .injection-wrap .hyaluronic .merit li {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 3px 0;
+  background-color: #CEC1A8;
+  color: white;
+}
+
+.injection .care2-hyaluronic-section .injection-wrap .botox {
+  margin: 0 auto 100px;
+  overflow: hidden;
+}
+
+.injection .care2-hyaluronic-section .injection-wrap .botox h3.head {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.injection .care2-hyaluronic-section .injection-wrap .botox p.price {
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 20px;
+  line-height: 150%;
+}
+
+.injection .care2-hyaluronic-section .injection-wrap .botox .head {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.injection .care2-hyaluronic-section .injection-wrap .botox .head.left {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.injection .care2-hyaluronic-section .injection-wrap .botox .detail {
+  line-height: 200%;
+  margin-bottom: 30px;
+}
+
+.injection .care2-hyaluronic-section .injection-wrap .botox .merit {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.injection .care2-hyaluronic-section .injection-wrap .botox .merit li {
+  padding: 10px 20px;
+  margin: 3px 0;
+  background-color: #CEC1A8;
+  color: white;
+}
+
+.injection .care2-hyaluronic-section .injection-wrap .botox h4.head {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.injection .care2-hyaluronic-section .injection-wrap .botox .att {
+  line-height: 150%;
+  margin-bottom: 30px;
+}
+
+.injection .care2-injection-section {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+.injection .care2-injection-section .injection-wrap {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.injection .care2-injection-section .injection-wrap h2.head {
+  text-align: center;
+  margin: 100px 0;
+}
+
+.injection .care2-injection-section .injection-wrap .placenta {
+  clear: both;
+  margin: 0 auto 100px;
+}
+
+.injection .care2-injection-section .injection-wrap .placenta h3.head {
+  text-align: left;
+  margin: 30px 0 20px;
+}
+
+.injection .care2-injection-section .injection-wrap .placenta p.price {
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 20px;
+  line-height: 150%;
+}
+
+.injection .care2-injection-section .injection-wrap .placenta .detail {
+  line-height: 200%;
+  margin-bottom: 50px;
+}
+
+.injection .care2-injection-section .injection-wrap .placenta .head {
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.injection .care2-injection-section .injection-wrap .placenta ul.placenta-effect {
+  width: 100%;
+  margin: 0 auto 20px;
+  overflow: hidden;
+}
+
+.injection .care2-injection-section .injection-wrap .placenta ul.placenta-effect li {
+  float: left;
+  margin: 0 40px 10px 0;
+  font-weight: 400;
+  color: #d93600;
+}
+
+.injection .care2-injection-section .injection-wrap .placenta h4.head {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.injection .care2-injection-section .injection-wrap .placenta .att {
+  line-height: 150%;
+  margin-bottom: 20px;
+}
+
+.injection .care2-injection-section .injection-wrap .placenta .risk li {
+  line-height: 150%;
+  margin: 0 0 5px 10px;
+  list-style: disc;
+}
+
+.injection .care2-injection-section .injection-wrap .vitamin-c {
+  clear: both;
+  margin: 0 auto 100px;
+}
+
+.injection .care2-injection-section .injection-wrap .vitamin-c h3.head {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.injection .care2-injection-section .injection-wrap .vitamin-c p.price {
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 20px;
+  line-height: 180%;
+}
+
+.injection .care2-injection-section .injection-wrap .vitamin-c .detail {
+  line-height: 200%;
+  margin-bottom: 50px;
+}
+
+.injection .care2-injection-section .injection-wrap .vitamin-c .detail img.vitamin-c {
+  text-align: center;
+  display: block;
+  margin: 30px auto;
+}
+
+.injection .care2-injection-section .injection-wrap .vitamin-c .head {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.injection .care2-injection-section .injection-wrap .vitamin-c ul.vitamin-effect {
+  text-align: center;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.injection .care2-injection-section .injection-wrap .vitamin-c ul.vitamin-effect li {
+  float: left;
+  width: 49%;
+  padding: 10px 20px;
+  margin: 1px;
+  background-color: #CEC1A8;
+  color: white;
+  text-align: center;
+}
+
+.injection .care2-injection-section .injection-wrap .vitamin-c .comment {
+  text-align: justify;
+  font-weight: 400;
+  line-height: 180%;
+}
+
+.injection .care2-injection-section .injection-wrap .vitamin-c h4.head {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.injection .care2-injection-section .injection-wrap .vitamin-c .att {
+  line-height: 200%;
+  margin-bottom: 30px;
+}
+
+.injection .care2-injection-section .injection-wrap .vitamin-c .risk li {
+  line-height: 200%;
+  margin: 0 0 5px 20px;
+  list-style: disc;
+}
+
+.injection .care2-injection-section .injection-wrap .myers-c {
+  clear: both;
+  margin: 0 auto 100px;
+}
+
+.injection .care2-injection-section .injection-wrap .myers-c h3.head {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.injection .care2-injection-section .injection-wrap .myers-c p.intro {
+  text-align: left;
+  margin: 30px 0;
+}
+
+.injection .care2-injection-section .injection-wrap .myers-c .detail {
+  line-height: 200%;
+  margin-bottom: 50px;
+}
+
+.injection .care2-injection-section .injection-wrap .myers-c .head {
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.injection .care2-injection-section .injection-wrap .myers-c ul.myers-effect {
+  width: 100%;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.injection .care2-injection-section .injection-wrap .myers-c ul.myers-effect li {
+  float: left;
+  margin: 0 40px 10px 0;
+  font-weight: 400;
+  line-height: 20px;
+  color: #d93600;
+}
+
+.injection .care2-injection-section .injection-wrap .myers-c .comment {
+  text-align: center;
+  font-weight: 400;
+  line-height: 180%;
+  margin-bottom: 30px;
+}
+
+.injection .care2-injection-section .injection-wrap .myers-c h4.head {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.injection .care2-injection-section .injection-wrap .myers-c .att {
+  line-height: 200%;
+  margin-bottom: 30px;
+}
+
+.injection .recom-section {
+  padding: 50px 0;
+}
+
+.injection .recom-section__content {
+  max-width: 1040px;
+  padding: 50px 125px;
+  margin: auto;
+  background-color: #fafafa;
+}
+
+.injection .recom-section__content .head {
+  margin-bottom: 40px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.injection .recom-section__content .intro .medium {
+  font-weight: 500;
+}
+
+.injection .recom-section__content .intro .red {
+  color: #B94E2E;
+}
+
+.injection .supplement-section {
+  max-width: 1040px;
+  padding: 0 20px;
+  margin: 100px auto 150px;
+  line-height: 1.8;
+  letter-spacing: 0;
+}
+
+.injection .supplement-section h2.head {
+  text-align: center;
+}
+
+.injection .supplement-section p.intro {
+  margin-top: 40px;
+}
+
+.injection .supplement-section .ul-list {
+  margin-top: 65px;
+  text-align: center;
+}
+
+.injection .supplement-section .ul-list .ul-comment {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #998D70;
+}
+
+.injection .supplement-section .ul-list ul li {
+  width: 100%;
+  margin: 3px;
+  padding: 10px 20px;
+  background-color: #CEC1A8;
+  color: white;
+  font-weight: 500;
+}
+
+.injection .supplement-section p.text {
+  margin-top: 30px;
+  font-weight: 400;
+}
+
+.injection .supplement-section .img-list-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 50px -10px;
+}
+
+.injection .supplement-section .img-list-wrap .img-wrap {
+  margin: 10px;
+  width: 320px;
+}
+
+.injection .supplement-section .img-list-wrap .img-wrap p.name {
+  margin-top: 10px;
+  border-top: 1px solid #999;
+  width: 100%;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.injection .supplement-section .img-list-wrap .img-wrap p.name .pay {
+  float: right;
+  display: inline-block;
+  text-align: right;
+}
+
+@media screen and (max-width: 1050px) {
+  .injection .care2-injection-section .injection-wrap .vitamin-c ul.vitamin-effect li {
+    width: 100%;
+  }
+  .injection .recom-section__content {
+    padding: 50px 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .injection .care2-injection-section .injection-wrap .myers-c {
+    margin-bottom: 50px;
+  }
+  .injection .care2-injection-section .injection-wrap .vitamin-c ul.vitamin-effect {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  .injection .supplement-section {
+    margin-top: 50px;
+  }
+  .injection .supplement-section .ul-list ul {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  .injection .supplement-section .ul-list ul li {
+    margin: 3px 0;
+  }
+  .injection .supplement-section .img-list-wrap {
+    margin: 30px 0;
+  }
+  .injection .supplement-section .img-list-wrap .img-wrap {
+    margin: 10px 0;
+  }
+}
+
+/* ==========================================================
+	metal-free page
+========================================================== */
+.metal-free {
+  /* content */
+  /*  warning secton  */
+  /*----------  end ------------*/
+}
+
+.metal-free .content {
+  margin-bottom: 150px;
+}
+
+.metal-free .metal-free__content {
+  max-width: 1040px;
+  padding: 30px 20px 50px;
+  margin: auto;
+}
+
+.metal-free .metal-free__content h2.head {
+  text-align: center;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+}
+
+.metal-free .metal-free__content p.intro {
+  margin-top: 50px;
+  letter-spacing: 0.2rem;
+  line-height: 200%;
+  text-align: justify;
+}
+
+.metal-free .metal-free__content p.title {
+  line-height: 40px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.metal-free .metal-free__content .thumb-wrap {
+  margin-top: 50px;
+  padding: 60px 55px;
+  background-color: #F2F2F2;
+}
+
+.metal-free .metal-free__content .thumb-wrap__ttl {
+  margin-bottom: 35px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.metal-free .metal-free__content .thumb-wrap__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.metal-free .metal-free__content .thumb-wrap__row .thumb {
+  max-width: 400px;
+  width: 50%;
+}
+
+.metal-free .metal-free__content .thumb-wrap__row .thumb:first-child {
+  margin-right: 35px;
+}
+
+.metal-free .metal-free__content .thumb-wrap__row .thumb:last-child {
+  margin-left: 35px;
+}
+
+.metal-free .metal-free__content .thumb-wrap.slider-wrap {
+  margin-top: 0;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.metal-free .metal-free__content .thumb-wrap__ttb {
+  margin-top: 40px;
+}
+
+.metal-free .metal-free__content .thumb-wrap__ttb span {
+  font-weight: 500;
+}
+
+.metal-free .metail-free__warning {
+  max-width: 1040px;
+  padding: 0 20px;
+  margin: auto;
+}
+
+.metal-free .metail-free__warning .head {
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #C84520;
+}
+
+.metal-free .metail-free__warning .sub-head {
+  color: #C84520;
+  text-align: center;
+}
+
+.metal-free .metail-free__warning .detail-wrap {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.metal-free .metail-free__warning .detail-wrap .left {
+  margin-right: 40px;
+}
+
+.metal-free .metail-free__warning .detail-wrap .left img {
+  min-width: 400px;
+  width: 100%;
+}
+
+.metal-free .metail-free__warning .detail-wrap .right {
+  line-height: 32px;
+}
+
+.metal-free .metail-free__warning .detail-wrap .detail strong {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .metal-free .metal-free__content .thumb-wrap {
+    padding: 50px 20px;
+  }
+  .metal-free .metal-free__content .thumb-wrap__row .thumb:first-child {
+    margin-right: 15px;
+  }
+  .metal-free .metal-free__content .thumb-wrap__row .thumb:last-child {
+    margin-left: 15px;
+  }
+  .metal-free .metail-free__warning .detail-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .metal-free .metail-free__warning .detail-wrap .left {
+    width: 100%;
+    margin: 0 0 20px;
+  }
+  .metal-free .metail-free__warning .detail-wrap .left img {
+    min-width: unset;
+    max-width: 400px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .metal-free .metal-free__content h2.head {
+    font-size: 2.0rem;
+  }
+  .metal-free .metal-free__content .thumb-wrap {
+    padding: 50px 20px 20px;
+    margin-top: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  .metal-free .metal-free__content .thumb-wrap__ttl {
+    margin-bottom: 10px;
+  }
+  .metal-free .metal-free__content .thumb-wrap__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .metal-free .metal-free__content .thumb-wrap__row .thumb {
+    width: 100%;
+    margin: 20px auto !important;
+  }
+  .metal-free .metal-free__content .thumb-wrap.slider-wrap {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 389px) {
+  .metal-free .metal-free__content h2.head {
+    font-size: 5.12821vw;
+  }
+  .metal-free .metal-free__content p.title {
+    font-size: 4.10256vw;
+  }
+}
+
+/* ==========================================================
+	teeth-cleaning-page
+========================================================== */
+.teeth-cleaning {
+  /* ==========================================================
+	teeth-cleaning-content
+========================================================== */
+  /* ==========================================================
+bridal-content
+========================================================== */
+  /* ==========================================================
+	self-care-content
+========================================================== */
+  /*-------end-------*/
+}
+
+.teeth-cleaning .teeth-cleaning__content {
+  /* outline */
+  /* teeth-cleaning */
+  /* white-care */
+}
+
+.teeth-cleaning .teeth-cleaning__content .youtube-section iframe {
+  display: block;
+  max-width: 560px;
+  width: 100%;
+  height: 315px;
+  margin: auto;
+}
+
+.teeth-cleaning .teeth-cleaning__content .care1-outline-section {
+  max-width: 1040px;
+  padding: 50px 20px;
+  margin: auto;
+}
+
+.teeth-cleaning .teeth-cleaning__content .care1-outline-section h2.head {
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+}
+
+.teeth-cleaning .teeth-cleaning__content .care1-outline-section p.intro {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  line-height: 200%;
+  text-align: center;
+}
+
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section {
+  width: 100%;
+  padding: 100px 0;
+  overflow: hidden;
+  background-color: #fafafa;
+}
+
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content h3.head {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content p.intro {
+  margin: 0 auto 50px;
+  line-height: 200%;
+  text-align: justify;
+}
+
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .image-wrap {
+  margin: 0 auto 50px;
+  max-width: 900px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .image-wrap .wrap-float {
+  display: inline-block;
+  padding: 20px;
+}
+
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .image-wrap .wrap-float p.arrow {
+  color: #a5967d;
+}
+
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .recommend {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .recommend h4.head {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .outline-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content ul.outline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content ul.outline li {
+  width: 49.5%;
+  margin: 2px;
+  padding: 10px;
+  background-color: #d2bea5;
+  display: inline-block;
+  line-height: 200%;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+}
+
+@media (max-width: 850px) {
+  .teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content ul.outline li {
+    width: 100%;
+  }
+}
+
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .treatment-wrap {
+  line-height: 150%;
+  text-align: center;
+}
+
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .treatment-wrap h4.head {
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .treatment-wrap h5.sub-head {
+  margin-bottom: 10px;
+  line-height: 150%;
+}
+
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .treatment-wrap .comment {
+  font-weight: 400;
+  line-height: 150%;
+  margin-top: 30px;
+}
+
+.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .treatment-wrap .comment:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.teeth-cleaning .teeth-cleaning__content .white-care__section {
+  margin: 100px 0;
+}
+
+.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content {
+  max-width: 1040px;
+  padding: 0 20px;
+  margin: auto;
+}
+
+.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content h2.head {
+  text-align: center;
+}
+
+.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .thumb {
+  margin-top: 50px;
+}
+
+.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .price {
+  padding: 50px 0;
+}
+
+.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .price p.title {
+  font-weight: 400;
+}
+
+.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .price p.extra {
+  margin-top: 30px;
+}
+
+.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .time p.title {
+  margin-top: 30px;
+  font-weight: 400;
+}
+
+.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .time p.detail {
+  margin-top: 20px;
+}
+
+.teeth-cleaning .bridal-content {
+  margin-bottom: 100px;
+  /* outline */
+}
+
+.teeth-cleaning .bridal-content__mv {
+  height: 43.75vw;
+  background-image: url(../images/anti-aging/wedding.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.teeth-cleaning .bridal-content .cure1-outline-section {
+  max-width: 1040px;
+  padding: 100px 20px 20px;
+  margin: auto;
+}
+
+.teeth-cleaning .bridal-content .cure1-outline-section h2.head {
+  text-align: center;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+  line-height: 150%;
+}
+
+.teeth-cleaning .bridal-content .cure1-outline-section p.intro {
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  line-height: 200%;
+  text-align: center;
+}
+
+.teeth-cleaning .bridal-content .cure1-outline-section p.intro2 {
+  margin: 40px auto 0;
+  letter-spacing: 0.2rem;
+  line-height: 200%;
+  text-align: justify;
+}
+
+.teeth-cleaning .bridal-content .cure1-outline-section p.intro2 span {
+  color: #ff0000;
+}
+
+.teeth-cleaning .bridal-content .cure1-bridal-section {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 50px 20px 100px;
+}
+
+.teeth-cleaning .bridal-content .cure1-bridal-section h2.head {
+  text-align: center;
+  letter-spacing: 0.5rem;
+  margin: 50px 0 10px;
+  line-height: 150%;
+}
+
+.teeth-cleaning .bridal-content .cure1-bridal-section h3.head {
+  text-align: left;
+  font-weight: 500;
+  margin: 50px 0 30px;
+  padding-bottom: 20px;
+  line-height: 150%;
+  border-bottom: 1px solid #d2bea5;
+}
+
+.teeth-cleaning .bridal-content .cure1-bridal-section h3.head span {
+  text-align: left;
+  font-weight: 400;
+  padding-bottom: 10px;
+  line-height: 150%;
+  font-size: 1.6rem;
+}
+
+.teeth-cleaning .bridal-content .cure1-bridal-section .subhead {
+  font-weight: 400;
+  margin: 0 0 20px;
+}
+
+.teeth-cleaning .bridal-content .cure1-bridal-section .plan {
+  background-color: rgba(210, 190, 165, 0.5);
+  padding: 10px 150px 10px 10px;
+  color: #333;
+  margin: 0 0 50px;
+  position: relative;
+}
+
+.teeth-cleaning .bridal-content .cure1-bridal-section .plan span.price {
+  font-weight: 500;
+  color: #ff0000;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.teeth-cleaning .bridal-content .cure1-bridal-section .plan span.price span {
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+.teeth-cleaning .bridal-content .cure1-bridal-section .comment {
+  text-align: justify;
+  line-height: 200%;
+  font-weight: 400;
+}
+
+.teeth-cleaning .bridal-content .cure1-bridal-section .comment span {
+  color: #ff0000;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.teeth-cleaning .bridal-content .cure1-bridal-section .comment a {
+  color: #08c;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.teeth-cleaning .bridal-content .cure1-bridal-section .comment a:hover {
+  opacity: .8;
+}
+
+.teeth-cleaning .self-care-content {
+  /* header */
+  font-weight: 350;
+  /* outline */
+  /* meal */
+  /* facial */
+}
+
+.teeth-cleaning .self-care-content .care1-header {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  background-image: url(../images/base/care3-header.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.teeth-cleaning .self-care-content .care1-header h1.care1-header-caption {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -70px;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+}
+
+.teeth-cleaning .self-care-content .care1-header h2.care1-header-caption {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+}
+
+.teeth-cleaning .self-care-content .care3-outline-section {
+  max-width: 1040px;
+  padding: 100px 0 20px;
+  margin: auto;
+}
+
+.teeth-cleaning .self-care-content .care3-outline-section h2.head {
+  font-family: "futura-pt",sans-serif;
+  text-align: center;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+}
+
+.teeth-cleaning .self-care-content .howto-section {
+  max-width: 1040px;
+  margin: 0 auto 50px;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.teeth-cleaning .self-care-content .howto-section h3.head {
+  text-align: center;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin-bottom: 50px;
+}
+
+.teeth-cleaning .self-care-content .howto-section .brush-box {
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+.teeth-cleaning .self-care-content .howto-section .brush-box img.left {
+  width: 150px;
+  float: left;
+  margin-right: 50px;
+}
+
+.teeth-cleaning .self-care-content .howto-section .brush-box img.right {
+  width: 150px;
+  float: right;
+  margin-left: 50px;
+}
+
+.teeth-cleaning .self-care-content .howto-section .brush-box .detail {
+  margin-bottom: 10px;
+  line-height: 1.8;
+}
+
+.teeth-cleaning .self-care-content .howto-section .brush-box .detail span.head {
+  display: block;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.teeth-cleaning .self-care-content .howto-section .outline {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.teeth-cleaning .self-care-content .meal-section {
+  width: 100%;
+  overflow: hidden;
+  background-color: #fafafa;
+}
+
+.teeth-cleaning .self-care-content .meal-section .meal-wrap {
+  max-width: 1040px;
+  margin: 0 auto 50px;
+  padding: 0 20px;
+}
+
+.teeth-cleaning .self-care-content .meal-section h3.head {
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.8;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin: 50px 0 20px;
+}
+
+.teeth-cleaning .self-care-content .meal-section .outline {
+  line-height: 1.8;
+}
+
+.teeth-cleaning .self-care-content .facial-section {
+  width: 100%;
+  padding: 0 20px;
+  margin: 50px 0 200px;
+}
+
+.teeth-cleaning .self-care-content .facial-section .facial-wrap {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.teeth-cleaning .self-care-content .facial-section .facial-wrap h3.head {
+  text-align: center;
+  line-height: 1.8;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem;
+  margin: 50px 0;
+  font-weight: 400;
+}
+
+.teeth-cleaning .self-care-content .facial-section .facial-wrap .outline {
+  margin: 0 0 50px;
+  line-height: 1.8;
+}
+
+.teeth-cleaning .self-care-content .facial-section .facial-box {
+  margin: 0 0 50px;
+  overflow: hidden;
+}
+
+.teeth-cleaning .self-care-content .facial-section .facial-box .detail {
+  margin-bottom: 10px;
+  line-height: 180%;
+}
+
+.teeth-cleaning .self-care-content .facial-section .facial-box .detail span.head {
+  display: block;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.teeth-cleaning .self-care-content .facial-section .facial-box .detail span.sub-head {
+  display: block;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.teeth-cleaning .self-care-content .facial-section .facial-box .detail table {
+  max-width: 400px;
+  float: right;
+}
+
+.teeth-cleaning .self-care-content .facial-section .facial-box img.left {
+  float: left;
+  margin-right: 50px;
+}
+
+.teeth-cleaning .self-care-content .facial-section .facial-box img.right {
+  float: right;
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 576px) {
+  .teeth-cleaning .self-care-content .howto-section .brush-box img {
+    width: 130px !important;
+  }
+  .teeth-cleaning .self-care-content .howto-section .brush-box img.left {
+    margin-right: 10px;
+  }
+  .teeth-cleaning .self-care-content .howto-section .brush-box img.right {
+    margin-left: 10px;
+  }
+  .teeth-cleaning .self-care-content .facial-section {
+    margin-bottom: 150px;
+  }
+  .teeth-cleaning .self-care-content .facial-section .facial-box img.right, .teeth-cleaning .self-care-content .facial-section .facial-box img.left {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .teeth-cleaning .self-care-content .facial-section .facial-box .detail table {
+    float: none;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .teeth-cleaning .teeth-cleaning__content .care1-outline-section p.intro {
+    text-align: left;
+  }
+  .teeth-cleaning .teeth-cleaning__content .care1-outline-section p.intro br {
+    display: none;
+  }
+  .teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .treatment-wrap {
+    text-align: left;
+  }
+  .teeth-cleaning .bridal-content .cure1-outline-section p.intro {
+    text-align: left;
+  }
+  .teeth-cleaning .bridal-content .cure1-outline-section p.intro br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .teeth-cleaning .teeth-cleaning__content .care1-outline-section {
+    padding: 50px 20px;
+  }
+  .teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section {
+    padding: 50px 0;
+  }
+  .teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .image-wrap .wrap-float {
+    padding: 20px 0;
+  }
+  .teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .recommend {
+    margin-bottom: 50px;
+  }
+  .teeth-cleaning .teeth-cleaning__content .white-care__section {
+    margin-top: 50px;
+  }
+  .teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .thumb {
+    margin-top: 20px;
+  }
+  .teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .price {
+    padding: 50px 0;
+  }
+  .teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .price p.detail {
+    margin-top: 30px;
+  }
+  .teeth-cleaning .bridal-content {
+    margin-bottom: 0;
+  }
+  .teeth-cleaning .bridal-content .cure1-outline-section {
+    padding-top: 70px;
+  }
+  .teeth-cleaning .bridal-content .cure1-bridal-section .plan {
+    padding-right: 90px;
+  }
+  .teeth-cleaning .bridal-content .cure1-bridal-section .plan span.price span {
+    display: block;
+    text-align: center;
+  }
+}
+
+/* ==========================================================
 	crown-bridge-inray-page
 ========================================================== */
 .crown-bridge-inray {
@@ -7433,6 +10281,11 @@ p {
   max-width: 1000px;
   padding: 20px;
   background-color: rgba(210, 190, 165, 0.3);
+  margin: auto;
+}
+
+.crown-bridge-inray .cure1-ceramic-features-section .ph__center img {
+  display: block;
   margin: auto;
 }
 
@@ -8579,6 +11432,8 @@ p {
   /* merit */
   /* plan */
   /* qa-section */
+  /* blog link */
+  /* price link */
   /* payment */
   /* -------  end --------  */
 }
@@ -9049,6 +11904,7 @@ p {
 }
 
 .invisalign .cure2-plan-section .plan-wrap2 img {
+  width: 100%;
   display: block;
   margin: auto;
 }
@@ -9082,6 +11938,151 @@ p {
   display: block;
 }
 
+.invisalign .cure2-plan-section .plan-wrap3 {
+  font-weight: 400;
+  margin: 100px auto;
+  text-align: justify;
+  max-width: 800px;
+  position: relative;
+}
+
+.invisalign .cure2-plan-section .plan-wrap3 .topics {
+  display: block;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.invisalign .cure2-plan-section .plan-wrap3 .topics h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.invisalign .cure2-plan-section .plan-wrap3 .topics .outline {
+  text-align: left;
+  line-height: 150%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.invisalign .cure2-plan-section .plan-wrap3 .topics ul li {
+  max-width: 800px;
+  text-align: justify;
+  line-height: 150%;
+  position: relative;
+  padding-left: 25px;
+  margin: 20px;
+}
+
+.invisalign .cure2-plan-section .plan-wrap3 .topics ul li:before {
+  content: "";
+  position: absolute;
+  top: .35em;
+  left: 6px;
+  -webkit-transform: rotate(50deg);
+  transform: rotate(50deg);
+  width: 3px;
+  height: 7px;
+  border-right: 2px solid #8b6b4e;
+  border-bottom: 2px solid #8b6b4e;
+}
+
+.invisalign .cure2-plan-section .plan-wrap3 .topics ul li:after {
+  content: "";
+  position: absolute;
+  top: .2em;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #8b6b4e;
+  border-radius: 2px;
+}
+
+.invisalign .cure2-plan-section .plan-wrap3 .topics p {
+  height: 100px;
+}
+
+.invisalign .cure2-plan-section .plan-wrap3 img {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.invisalign .cure2-plan-section .plan-wrap4 {
+  font-weight: 400;
+  margin: 30px auto 30px;
+  text-align: justify;
+  max-width: 800px;
+  position: relative;
+}
+
+.invisalign .cure2-plan-section .plan-wrap4 .topics {
+  display: block;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.invisalign .cure2-plan-section .plan-wrap4 .topics h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.invisalign .cure2-plan-section .plan-wrap4 .topics .outline {
+  text-align: left;
+  line-height: 150%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.invisalign .cure2-plan-section .plan-wrap4 .topics h4 {
+  text-align: left;
+  font-weight: 700;
+}
+
+.invisalign .cure2-plan-section .plan-wrap4 .topics p.text {
+  margin-bottom: 30px;
+}
+
+.invisalign .cure2-plan-section .plan-wrap4 .topics p.text span {
+  font-weight: 700;
+  color: #ff0000;
+}
+
+.invisalign .cure2-plan-section .plan-wrap4 .topics p.att {
+  line-height: 150%;
+  margin-bottom: 10px;
+}
+
+.invisalign .cure2-plan-section .plan-wrap4 .topics h5 {
+  padding: 20px 0 5px;
+  font-size: 1.6rem;
+  margin: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.invisalign .cure2-plan-section .plan-wrap4 .topics .left {
+  float: left;
+  width: 45%;
+}
+
+.invisalign .cure2-plan-section .plan-wrap4 .topics .left img {
+  width: 100%;
+}
+
+.invisalign .cure2-plan-section .plan-wrap4 .topics .right {
+  float: right;
+  width: 45%;
+}
+
+.invisalign .cure2-plan-section .plan-wrap4 .topics .right img {
+  width: 100%;
+}
+
+.invisalign .cure2-plan-section .plan-wrap4 img {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
 .invisalign .cure2-qa-section {
   max-width: 840px;
   margin: 50px auto;
@@ -9108,6 +12109,108 @@ p {
 
 .invisalign .cure2-qa-section ul.qa li {
   margin-bottom: 30px;
+}
+
+.invisalign .cure2-bridal-link-section {
+  display: block;
+}
+
+.invisalign .cure2-bridal-link-section a {
+  text-align: center;
+  margin: auto;
+  max-width: 550px;
+  width: 100%;
+  padding: 10px 20px;
+  display: block;
+  color: #fff;
+  border-radius: 70px;
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #ef9ba0), color-stop(50%, #f0c8c8)) right;
+  background: linear-gradient(to left, #ef9ba0 50%, #f0c8c8 50%) right;
+  background-size: 200%;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+.invisalign .cure2-bridal-link-section a:hover {
+  background-position: left;
+}
+
+.invisalign .cure2-bridal-link-section a span {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.invisalign .cure2-blog-link-section {
+  max-width: 1040px;
+  padding: 0 20px;
+  margin: 50px auto 50px;
+  text-align: center;
+}
+
+.invisalign .cure2-blog-link-section .blog-link {
+  display: block;
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  padding: 10px 40px;
+  border-radius: 50px;
+  color: white;
+  font-weight: 400;
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #08c), color-stop(50%, #0898e0)) right;
+  background: linear-gradient(to left, #08c 50%, #0898e0 50%) right;
+  background-size: 200%;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+.invisalign .cure2-blog-link-section .blog-link:hover {
+  background-position: left;
+}
+
+@media screen and (max-width: 768px) {
+  .invisalign .cure2-blog-link-section {
+    margin: 100px auto;
+  }
+  .invisalign .cure2-blog-link-section .blog-link {
+    max-width: 300px;
+  }
+}
+
+.invisalign .cure2-price-link-section {
+  max-width: 1040px;
+  padding: 0 20px;
+  margin: 50px auto 150px;
+  text-align: center;
+}
+
+.invisalign .cure2-price-link-section .price-link {
+  display: block;
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  padding: 10px 40px;
+  border-radius: 50px;
+  color: white;
+  font-weight: 400;
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #08c), color-stop(50%, #0898e0)) right;
+  background: linear-gradient(to left, #08c 50%, #0898e0 50%) right;
+  background-size: 200%;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+.invisalign .cure2-price-link-section .price-link:hover {
+  background-position: left;
+}
+
+@media screen and (max-width: 768px) {
+  .invisalign .cure2-price-link-section {
+    margin: 100px auto;
+  }
+  .invisalign .cure2-price-link-section .price-link {
+    max-width: 300px;
+  }
 }
 
 .invisalign .cure2-payment-section {
@@ -9734,6 +12837,7 @@ p {
   /* frontside */
   /* ceramic-alignment */
   /* alignment-faq */
+  /* price link */
   /* payment */
   /* -------  end --------  */
 }
@@ -12158,2965 +15262,6 @@ p {
   .whitening .cure1-home-whitening-section .whitening-row .left, .whitening .cure1-home-whitening-section .whitening-row .right {
     width: 100%;
     margin: 10px 0;
-  }
-}
-
-/* ==========================================================
-	anti-aging-dock page
-========================================================== */
-.anti-aging-dock {
-  /* outline */
-  /* oral-aging */
-  /* anti-aging-doc */
-  /* supplement */
-  /*----------- end -------------*/
-}
-
-.anti-aging-dock .care2-outline-section {
-  max-width: 1040px;
-  padding: 50px 20px;
-  margin: auto;
-}
-
-.anti-aging-dock .care2-outline-section h2.head {
-  text-align: center;
-  font-weight: 400;
-  letter-spacing: 0.5rem;
-  text-indent: 0.5rem;
-  margin-bottom: 50px;
-}
-
-.anti-aging-dock .care2-outline-section h3.head {
-  text-align: center;
-  font-weight: 100;
-  line-height: 150%;
-  letter-spacing: 0.5rem;
-  text-indent: 0.5rem;
-  margin: 50px 0 20px;
-}
-
-.anti-aging-dock .care2-outline-section p.intro {
-  margin: 0 auto;
-  letter-spacing: 0.2rem;
-  line-height: 200%;
-  text-align: center;
-}
-
-.anti-aging-dock .care2-outline-section p.intro.box {
-  padding: 20px;
-  margin: 20px;
-  letter-spacing: 0.2rem;
-  line-height: 200%;
-  text-align: center;
-  display: block;
-  background-color: rgba(210, 190, 165, 0.3);
-}
-
-.anti-aging-dock .care2-oral-aging-section {
-  max-width: 1000px;
-  margin: 0 auto 50px;
-  overflow: hidden;
-  padding: 50px 20px 0;
-}
-
-.anti-aging-dock .care2-oral-aging-section p.intro {
-  text-align: center;
-  margin-bottom: 30px;
-  line-height: 200%;
-}
-
-.anti-aging-dock .care2-oral-aging-section h4.head {
-  text-align: center;
-  font-weight: 500;
-  margin-bottom: 20px;
-  color: #d93600;
-  letter-spacing: 0.1rem;
-}
-
-.anti-aging-dock .care2-oral-aging-section h4.head span {
-  display: block;
-  margin-top: 20px;
-}
-
-.anti-aging-dock .care2-oral-aging-section p.sub-intro {
-  text-align: center;
-  margin-bottom: 30px;
-  line-height: 200%;
-}
-
-.anti-aging-dock .care2-oral-aging-section p.detail {
-  text-align: center;
-  margin-bottom: 50px;
-  line-height: 200%;
-}
-
-.anti-aging-dock .care2-oral-aging-section .check-wrap {
-  max-width: 800px;
-  margin: auto;
-  overflow: hidden;
-}
-
-.anti-aging-dock .care2-oral-aging-section .check-wrap h5.sub-head {
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.anti-aging-dock .care2-oral-aging-section .check-wrap h6.sub-head {
-  font-weight: 600;
-  margin-bottom: 10px;
-  padding: 30px 0 0;
-  text-align: center;
-}
-
-.anti-aging-dock .care2-oral-aging-section .check-wrap p.item {
-  font-weight: 400;
-  margin-bottom: 30px;
-}
-
-.anti-aging-dock .care2-oral-aging-section .check-wrap ul.check-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.anti-aging-dock .care2-oral-aging-section .check-wrap ul.check-box li {
-  font-weight: 500;
-  width: 50%;
-  padding: 10px;
-  text-align: center;
-  background-color: #ef9ba0;
-  border: 1px solid #fff;
-  color: #fff;
-}
-
-.anti-aging-dock .care2-oral-aging-section .check-wrap .comment {
-  text-align: center;
-  font-weight: 400;
-  padding: 30px 0 50px;
-  color: #e86779;
-}
-
-.anti-aging-dock .care2-oral-aging-section .check-wrap ul.result {
-  display: table;
-  margin-bottom: 20px;
-}
-
-.anti-aging-dock .care2-oral-aging-section .check-wrap ul.result li {
-  display: inline-block;
-  width: 50%;
-  font-weight: 400;
-  height: 30px;
-  line-height: 30px;
-}
-
-.anti-aging-dock .care2-oral-aging-section .check-wrap .annotation {
-  font-weight: 400;
-  line-height: 150%;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section {
-  max-width: 1000px;
-  margin: 0 auto;
-  overflow: hidden;
-  padding: 0 20px;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section h3.head {
-  text-align: center;
-  font-weight: 100;
-  margin-bottom: 30px;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section p.intro {
-  text-align: center;
-  margin-bottom: 30px;
-  line-height: 200%;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section h4.head {
-  text-align: center;
-  font-weight: 500;
-  margin-bottom: 30px;
-  color: #d93600;
-  letter-spacing: 0.1rem;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section h4.head span {
-  display: block;
-  margin-top: 20px;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section .oligoscan-image {
-  margin: 0 auto 30px;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section .oligoscan-image img {
-  margin: auto;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section p.sub-intro {
-  text-align: center;
-  margin-bottom: 30px;
-  line-height: 200%;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section p.detail {
-  text-align: center;
-  margin-bottom: 50px;
-  line-height: 200%;
-  clear: both;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section p.detail span {
-  color: #d93600;
-  margin: 15px 0;
-  display: inline-block;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section h4.head_att {
-  text-align: left;
-  margin-bottom: 10px;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section .att {
-  line-height: 150%;
-  margin-bottom: 20px;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section .doc-wrap {
-  max-width: 800px;
-  margin: auto;
-  overflow: hidden;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section .doc-wrap h5.sub-head {
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section .doc-wrap h6.sub-head {
-  font-weight: 600;
-  margin-bottom: 10px;
-  padding: 30px 0 0;
-  text-align: center;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section .doc-wrap p.item {
-  font-weight: 400;
-  margin-bottom: 30px;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section .allergy-image {
-  margin: 0 auto 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section .allergy-image .img-wrap {
-  width: 50%;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section .allergy-image .img-wrap img {
-  margin: auto;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section .cause {
-  padding: 50px 20px;
-  background-color: #efefef;
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section .cause h5 {
-  font-weight: 500;
-  margin-top: 0;
-  margin-bottom: 20px;
-  color: #ff0000;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section .cause ul li {
-  display: inline-block;
-  margin: 10px;
-  font-size: 1.5rem;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section h6.sub-head {
-  text-align: center;
-  font-weight: 600;
-  margin-bottom: 20px;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section .recommend {
-  text-align: center;
-  font-weight: 400;
-  line-height: 200%;
-  margin-bottom: 50px;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section .gen-image {
-  width: 800px;
-  margin: 0 auto 50px;
-  overflow: hidden;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section .gen-image img {
-  display: block;
-  float: left;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section ul.ｍeasurement {
-  width: 604px;
-  margin: 0 auto 20px;
-  overflow: hidden;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section ul.ｍeasurement li {
-  text-align: center;
-  float: left;
-  width: 300px;
-  height: 50px;
-  line-height: 50px;
-  margin: 1px;
-  font-weight: 400;
-  background-color: #eee;
-}
-
-.anti-aging-dock .care2-anti-aging-doc-section p.comment {
-  clear: both;
-  text-align: center;
-  margin: 20px;
-}
-
-.anti-aging-dock .care2-supplement-section {
-  max-width: 1000px;
-  padding: 50px 20px 0;
-  margin: 0 auto 100px;
-  overflow: hidden;
-}
-
-.anti-aging-dock .care2-supplement-section h3.head {
-  margin-bottom: 30px;
-  text-align: center;
-  line-height: 150%;
-}
-
-.anti-aging-dock .care2-supplement-section p.intro {
-  margin: 0 auto 50px;
-  line-height: 200%;
-  text-align: justify;
-}
-
-@media screen and (max-width: 1050px) {
-  .anti-aging-dock .care2-outline-section p.intro {
-    text-align: left;
-  }
-  .anti-aging-dock .care2-outline-section p.intro.box {
-    text-align: left;
-    margin: 20px 0 0;
-  }
-  .anti-aging-dock .care2-anti-aging-doc-section p.detail {
-    text-align: left;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .anti-aging-dock .care2-oral-aging-section .check-wrap ul.check-box li {
-    width: 100%;
-  }
-  .anti-aging-dock .care2-anti-aging-doc-section .allergy-image {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .anti-aging-dock .care2-anti-aging-doc-section .allergy-image .img-wrap {
-    width: 100%;
-    margin: 20px 0;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .anti-aging-dock .care2-outline-section {
-    padding-top: 30px;
-  }
-  .anti-aging-dock .care2-oral-aging-section p.sub-intro {
-    text-align: left;
-  }
-  .anti-aging-dock .care2-oral-aging-section p.sub-intro br {
-    display: none;
-  }
-  .anti-aging-dock .care2-oral-aging-section p.detail {
-    text-align: left;
-  }
-  .anti-aging-dock .care2-oral-aging-section .check-wrap ul.result li {
-    width: 100%;
-  }
-  .anti-aging-dock .care2-anti-aging-doc-section .cause {
-    margin-left: -20px;
-    margin-right: -20px;
-  }
-  .anti-aging-dock .care2-anti-aging-doc-section .recommend {
-    text-align: left;
-  }
-}
-
-/* ==========================================================
-	anti-aging common
-========================================================== */
-.anti-heading {
-  background-color: white;
-  position: relative;
-}
-
-.anti-heading__caption {
-  padding: 70px 20px;
-  color: #333333;
-  text-align: center;
-}
-
-.anti-heading__caption span {
-  display: block;
-}
-
-.anti-heading__caption span.jp {
-  font-size: 3.0rem;
-  font-weight: 600;
-}
-
-.anti-heading__caption span.en {
-  font-size: 2.0rem;
-}
-
-@media screen and (max-width: 576px) {
-  .anti-heading__caption {
-    padding: 50px 20px;
-  }
-  .anti-heading span.jp {
-    font-size: 2.5rem;
-  }
-  .anti-heading span.en {
-    margin-top: 10px;
-    font-size: 1.5rem;
-  }
-}
-
-@media screen and (max-width: 389px) {
-  .anti-heading span.jp {
-    font-size: 7.17949vw;
-  }
-}
-
-/* ==========================================================
-	anti-aging top page
-========================================================== */
-#anti-aging-top {
-  /*----------- end -------------*/
-}
-
-#anti-aging-top .anti-heading__caption {
-  padding: 110px 20px;
-}
-
-@media screen and (max-width: 576px) {
-  #anti-aging-top .anti-heading__caption {
-    padding: 70px 20px;
-  }
-}
-
-#anti-aging-top .anti-content__mainvisual {
-  height: 500px;
-  background-image: url("../images/anti-aging/antiaging_mv.png");
-  background-position: 50% 50%;
-  background-size: cover;
-  position: relative;
-}
-
-#anti-aging-top .anti-content__mainvisual--caption {
-  padding: 0 20px;
-  font-weight: bold;
-  color: #333333;
-  max-width: 750px;
-  width: 100%;
-  position: absolute;
-  bottom: 35px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  line-height: 2;
-}
-
-@media screen and (max-width: 1050px) {
-  #anti-aging-top .anti-content__mainvisual {
-    height: 400px;
-  }
-  #anti-aging-top .anti-content__mainvisual--caption {
-    line-height: inherit;
-    bottom: 20px;
-  }
-}
-
-#anti-aging-top .anti-content__body {
-  padding: 100px 20px;
-  max-width: 1140px;
-  margin: auto;
-  font-weight: 400;
-  color: #333333;
-}
-
-#anti-aging-top .anti-content__body .text1 {
-  max-width: 900px;
-  margin: 0 auto 100px;
-  line-height: 2;
-}
-
-#anti-aging-top .anti-content__body .text2 {
-  max-width: 900px;
-  margin: 100px auto 0;
-  line-height: 1.8;
-}
-
-#anti-aging-top .anti-content__menu {
-  max-width: 1100px;
-  margin: 100px auto;
-}
-
-#anti-aging-top .anti-content__menu .home-section__menu-ul {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-@media screen and (max-width: 576px) {
-  #anti-aging-top .anti-content__body {
-    padding: 50px 20px;
-  }
-  #anti-aging-top .anti-content__body .text1 {
-    margin-bottom: 50px;
-  }
-  #anti-aging-top .anti-content__body .text2 {
-    margin-top: 50px;
-  }
-  #anti-aging-top .anti-content__menu {
-    margin-top: 50px;
-  }
-}
-
-@media screen and (max-width: 389px) {
-  #anti-aging-top .anti-content__mainvisual--caption {
-    font-size: 4.61538vw;
-  }
-}
-
-/* ==========================================================
-	esthetic-page
-========================================================== */
-.esthetic {
-  /* outline */
-  /* lip-esthetic */
-  /*----------- end -------------*/
-}
-
-.esthetic .care2-outline-section {
-  max-width: 1040px;
-  padding: 50px 20px;
-  margin: auto;
-}
-
-.esthetic .care2-outline-section h2.head {
-  text-align: center;
-  letter-spacing: 0.5rem;
-  text-indent: 0.5rem;
-  margin-bottom: 50px;
-}
-
-.esthetic .care2-outline-section p.intro {
-  margin: 0 auto;
-  letter-spacing: 0.2rem;
-  line-height: 200%;
-  text-align: center;
-}
-
-.esthetic .care2-esthetic-section {
-  width: 100%;
-  margin: 0 auto 50px;
-  overflow: hidden;
-  padding: 50px 0;
-}
-
-.esthetic .care2-esthetic-section .lip-esthetic {
-  max-width: 1040px;
-  margin: 0 auto 100px;
-  padding: 0 20px;
-}
-
-.esthetic .care2-esthetic-section .lip-esthetic h3.head {
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-.esthetic .care2-esthetic-section .lip-esthetic p.price {
-  font-weight: 500;
-  text-align: left;
-  margin-bottom: 20px;
-  line-height: 150%;
-}
-
-.esthetic .care2-esthetic-section .lip-esthetic .detail {
-  line-height: 200%;
-}
-
-.esthetic .care2-esthetic-section .lip-esthetic h4.head {
-  color: #a5967d;
-  font-weight: 400;
-  text-align: center;
-  line-height: 150%;
-  margin-top: 60px;
-}
-
-.esthetic .care2-esthetic-section .lip-esthetic .why-care {
-  width: 100%;
-  margin: 30px auto 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.esthetic .care2-esthetic-section .lip-esthetic .why-care .why-box {
-  margin: 0 auto;
-  padding: 20px 10px;
-  width: 25%;
-}
-
-.esthetic .care2-esthetic-section .lip-esthetic .why-care p.dt {
-  font-weight: 400;
-  margin-bottom: 10px;
-}
-
-.esthetic .care2-esthetic-section .lip-esthetic .why-care p.dd {
-  line-height: 150%;
-}
-
-.esthetic .care2-esthetic-section .lip-esthetic .practitioner-wrap {
-  margin: 60px auto 0;
-  max-width: 850px;
-}
-
-.esthetic .care2-esthetic-section .lip-esthetic .practitioner-wrap h4.head {
-  clear: both;
-  color: #a5967d;
-  font-weight: 400;
-  margin: 40px 0 20px;
-  border-bottom: 1px solid #d2bea5;
-  padding: 10px;
-  line-height: 150%;
-}
-
-.esthetic .care2-esthetic-section .lip-esthetic .practitioner-wrap .dt {
-  margin-bottom: 5px;
-  font-weight: 400;
-  line-height: 150%;
-}
-
-.esthetic .care2-esthetic-section .lip-esthetic .practitioner-wrap .dd {
-  margin-bottom: 30px;
-  line-height: 150%;
-}
-
-.esthetic .care2-esthetic-section .lip-esthetic .practitioner-wrap img {
-  float: right;
-  width: 300px;
-  display: block;
-  margin: 0 0 30px 30px;
-}
-
-.esthetic .care2-esthetic-section .lip-esthetic .recom-wrap {
-  background: #fafafa;
-  padding: 20px 0;
-}
-
-.esthetic .care2-esthetic-section .lip-esthetic p.recom-head {
-  text-align: center;
-  font-weight: 400;
-  margin-bottom: 20px;
-  color: #d93600;
-}
-
-.esthetic .care2-esthetic-section .lip-esthetic ul.recom {
-  padding: 0 0px;
-  font-weight: 500;
-  line-height: 150%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: 0 auto;
-}
-
-.esthetic .care2-esthetic-section .lip-esthetic ul.recom li {
-  background-color: #CEC1A8;
-  color: white;
-  margin: 5px;
-  text-align: center;
-  padding: 10px 20px;
-}
-
-.esthetic .care2-esthetic-section .facial {
-  max-width: 1040px;
-  margin: 0 auto 100px;
-  padding: 0 20px;
-}
-
-.esthetic .care2-esthetic-section .facial h3.head {
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-.esthetic .care2-esthetic-section .facial p.price {
-  font-weight: 500;
-  text-align: left;
-  margin-bottom: 20px;
-  line-height: 150%;
-}
-
-.esthetic .care2-esthetic-section .facial .detail {
-  line-height: 200%;
-}
-
-.esthetic .care2-esthetic-section .aroma {
-  max-width: 1040px;
-  margin: 0 auto 100px;
-  padding: 0 20px;
-}
-
-.esthetic .care2-esthetic-section .aroma h3.head {
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-.esthetic .care2-esthetic-section .aroma p.price {
-  font-weight: 500;
-  text-align: left;
-  margin-bottom: 10px;
-  line-height: 150%;
-}
-
-.esthetic .care2-esthetic-section .aroma .aroma-wrap {
-  margin: 50px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.esthetic .care2-esthetic-section .aroma .aroma-wrap h4.head {
-  margin-top: 0;
-}
-
-.esthetic .care2-esthetic-section .aroma .aroma-wrap .left {
-  width: 50%;
-  padding: 0 10px;
-}
-
-.esthetic .care2-esthetic-section .aroma .aroma-wrap .left img {
-  margin: auto;
-  border-radius: 30px;
-}
-
-.esthetic .care2-esthetic-section .aroma .aroma-wrap .right {
-  text-align: center;
-  width: 50%;
-  padding: 0 10px;
-}
-
-.esthetic .care2-esthetic-section .aroma .aroma-wrap .right img {
-  max-width: 400px;
-  width: 100%;
-  display: block;
-  margin: auto;
-  border-radius: 30px;
-}
-
-.esthetic .care2-esthetic-section .aroma h4.head {
-  text-align: left;
-  margin: 30px 0;
-}
-
-.esthetic .care2-esthetic-section .aroma .detail {
-  line-height: 200%;
-  text-align: left;
-}
-
-.esthetic .care2-esthetic-section .aroma .detail a {
-  color: #08c;
-  text-align: center;
-  display: block;
-  margin-top: 10px;
-  font-weight: 400;
-}
-
-.esthetic .care2-esthetic-section .aroma .detail a:hover {
-  opacity: .8;
-}
-
-.esthetic .care2-esthetic-section .aroma .comment {
-  line-height: 200%;
-}
-
-@media screen and (max-width: 1050px) {
-  .esthetic .care2-esthetic-section .lip-esthetic .why-care {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .esthetic .care2-esthetic-section .lip-esthetic .why-care .why-box {
-    width: 50%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .esthetic .care2-esthetic-section .lip-esthetic ul.recom li {
-    width: 100%;
-    margin: 2px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .esthetic .care2-outline-section {
-    padding-top: 30px;
-  }
-  .esthetic .care2-outline-section p.intro {
-    text-align: left;
-  }
-  .esthetic .care2-outline-section p.intro br {
-    display: none;
-  }
-  .esthetic .care2-esthetic-section .lip-esthetic .why-care {
-    margin-top: 15px;
-  }
-  .esthetic .care2-esthetic-section .lip-esthetic .why-care .why-box {
-    width: 100%;
-    padding: 10px 0;
-  }
-  .esthetic .care2-esthetic-section .lip-esthetic .practitioner-wrap img {
-    float: none;
-    margin: 0 auto 20px;
-  }
-  .esthetic .care2-esthetic-section .aroma .aroma-wrap {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .esthetic .care2-esthetic-section .aroma .aroma-wrap .left, .esthetic .care2-esthetic-section .aroma .aroma-wrap .right {
-    width: 100%;
-    padding: 0;
-    margin: 10px 0;
-  }
-  .esthetic .care2-esthetic-section .aroma .aroma-wrap h4.head {
-    text-align: center;
-  }
-  .esthetic .care2-esthetic-section .aroma .aroma-wrap.reverse {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-  }
-}
-
-/* ==========================================================
-	grinding-page
-========================================================== */
-.grinding {
-  /* outline */
-  /* grinding */
-  /*----------  end ------------*/
-}
-
-.grinding .cure2-outline-section {
-  max-width: 1040px;
-  padding: 30px 20px 0;
-  margin: auto;
-}
-
-.grinding .cure2-outline-section h2.head {
-  text-align: center;
-  font-weight: 400;
-  letter-spacing: 0.2rem;
-  text-indent: 0.2rem;
-  margin-bottom: 50px;
-  line-height: 150%;
-}
-
-.grinding .cure2-outline-section p.intro {
-  margin: 0 auto;
-  letter-spacing: 0.2rem;
-  line-height: 200%;
-  text-align: center;
-  padding-bottom: 30px;
-}
-
-.grinding .cure2-grinding-section {
-  max-width: 1040px;
-  margin: 50px auto 150px;
-  overflow: hidden;
-  padding: 0 20px;
-  /* botox */
-  /* injection */
-}
-
-.grinding .cure2-grinding-section .mouthpiece {
-  width: 100%;
-  margin-bottom: 100px;
-}
-
-.grinding .cure2-grinding-section h3.head {
-  margin-bottom: 30px;
-  letter-spacing: 0.2rem;
-  line-height: 150%;
-  text-align: left;
-}
-
-.grinding .cure2-grinding-section p {
-  line-height: 180%;
-}
-
-.grinding .cure2-grinding-section .botox {
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-.grinding .cure2-grinding-section .botox h3.head {
-  margin-bottom: 10px;
-}
-
-.grinding .cure2-grinding-section .botox p.sub-head {
-  font-weight: 500;
-  text-align: left;
-  margin-bottom: 30px;
-  line-height: 150%;
-}
-
-.grinding .cure2-grinding-section .botox p.sub-head.purpose {
-  margin-top: 70px;
-  margin-bottom: 0;
-}
-
-.grinding .cure2-grinding-section .botox .detail {
-  line-height: 200%;
-  margin-bottom: 30px;
-}
-
-.grinding .cure2-grinding-section .botox .detail.l-32 {
-  line-height: 32px;
-}
-
-.grinding .cure2-grinding-section .botox .merit {
-  margin-top: 80px;
-  margin-bottom: 40px;
-  text-align: center;
-}
-
-.grinding .cure2-grinding-section .botox .merit li {
-  font-weight: 500;
-  padding: 12px 20px;
-  margin: 3px 0;
-  background-color: #CEC1A8;
-  color: white;
-}
-
-.grinding .cure2-grinding-section .injection h3.head {
-  margin-bottom: 20px;
-}
-
-.grinding .cure2-grinding-section .injection .thumb-row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.grinding .cure2-grinding-section .injection .thumb-row .thumb {
-  width: 50%;
-  background-color: #F2F2F2;
-}
-
-.grinding .cure2-grinding-section .injection .thumb-row .thumb:first-child {
-  padding: 50px 35px 20px 55px;
-}
-
-.grinding .cure2-grinding-section .injection .thumb-row .thumb:last-child {
-  padding: 50px 55px 20px 35px;
-}
-
-.grinding .cure2-grinding-section .injection .thumb-row .thumb p.f12 {
-  margin-top: 10px;
-  font-weight: 500;
-}
-
-.grinding .cure2-grinding-section .injection .thumb-row .thumb img {
-  margin: auto;
-}
-
-.grinding .cure2-grinding-section .injection .detail {
-  margin-top: 30px;
-  line-height: 2;
-}
-
-.grinding .cure2-grinding-section .injection .detail dd {
-  float: left;
-  font-weight: 500;
-}
-
-.grinding .cure2-grinding-section .injection .detail dt {
-  padding-left: 80px;
-}
-
-@media screen and (max-width: 768px) {
-  .grinding .cure2-grinding-section .injection .thumb-row {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .grinding .cure2-grinding-section .injection .thumb-row .thumb {
-    width: 100%;
-    padding: 20px !important;
-    text-align: center;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .grinding .cure2-outline-section p.intro {
-    text-align: left;
-  }
-  .grinding .cure2-outline-section p.intro br {
-    display: none;
-  }
-  .grinding .cure2-grinding-section .injection .detail dt {
-    padding-left: 70px;
-  }
-}
-
-/* ==========================================================
-	gum-care-page
-========================================================== */
-.gum-care {
-  /* outline */
-  /* periodontal */
-  /* gum-massage */
-  /*----------- end -------------*/
-}
-
-.gum-care .care1-outline-section {
-  max-width: 1040px;
-  padding: 50px 20px 100px;
-  margin: auto;
-}
-
-.gum-care .care1-outline-section h2.head {
-  text-align: center;
-  font-weight: 400;
-  letter-spacing: 0.5rem;
-  text-indent: 0.5rem;
-  margin-bottom: 50px;
-}
-
-.gum-care .care1-outline-section p.intro {
-  margin: 0 auto;
-  letter-spacing: 0.2rem;
-  font-weight: 400;
-  line-height: 200%;
-  text-align: center;
-}
-
-.gum-care .care1-outline-section p.intro span {
-  display: inline-block;
-  margin-top: 30px;
-}
-
-.gum-care .care1-outline-section p.intro span a {
-  font-weight: 400;
-  color: #08c;
-  font-weight: bold;
-}
-
-.gum-care .care1-outline-section p.intro span a:hover {
-  opacity: .8;
-}
-
-.gum-care .care1-periodontal-section {
-  max-width: 1040px;
-  padding: 0 20px;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-.gum-care .care1-periodontal-section h3.head {
-  font-weight: 400;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-.gum-care .care1-periodontal-section p.intro {
-  margin: 0 auto 100px;
-  font-weight: 400;
-  line-height: 200%;
-  text-align: justify;
-}
-
-.gum-care .care1-periodontal-section .treatment-wrap {
-  margin-bottom: 150px;
-}
-
-.gum-care .care1-periodontal-section .treatment-wrap h4.head {
-  font-weight: 500;
-  margin-bottom: 20px;
-  text-align: center;
-  letter-spacing: 0.1rem;
-}
-
-.gum-care .care1-periodontal-section .treatment-wrap p.detail {
-  font-weight: 400;
-  margin-bottom: 10px;
-  line-height: 150%;
-  text-align: center;
-}
-
-.gum-care .care1-periodontal-section .treatment-wrap .arrow {
-  font-weight: 400;
-  margin-bottom: 10px;
-  line-height: 150%;
-  text-align: center;
-  color: #d2bea5;
-}
-
-.gum-care .care1-periodontal-section .periodontal {
-  max-width: 700px;
-  margin: 0 auto 50px;
-}
-
-.gum-care .care1-periodontal-section .periodontal h3.head {
-  font-weight: 500;
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-.gum-care .care1-periodontal-section .periodontal p.price {
-  font-weight: 400;
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-.gum-care .care1-periodontal-section .periodontal .detail {
-  font-weight: 400;
-  line-height: 200%;
-}
-
-.gum-care .care1-periodontal-section .perosovl {
-  max-width: 700px;
-  margin: 0 auto 50px;
-}
-
-.gum-care .care1-periodontal-section .perosovl h3.head {
-  font-weight: 500;
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-.gum-care .care1-periodontal-section .perosovl img {
-  float: right;
-}
-
-.gum-care .care1-periodontal-section .perosovl p.detail.flort {
-  font-weight: 400;
-  line-height: 200%;
-}
-
-.gum-care .care1-periodontal-section .perosovl p.detail {
-  font-weight: 400;
-  line-height: 200%;
-}
-
-.gum-care .care1-periodontal-section .perosovl .merit {
-  clear: both;
-  max-width: 700px;
-  margin: 30px auto;
-  padding: 20px 20px;
-  background-color: #fafafa;
-  border-radius: 10px;
-}
-
-.gum-care .care1-periodontal-section .perosovl .merit h4.head {
-  font-weight: 600;
-  text-align: left;
-  margin: 0 0 10px;
-  padding-bottom: 10px;
-  border-bottom: solid 1px #ddd;
-}
-
-.gum-care .care1-periodontal-section .perosovl .merit ul.detail li {
-  margin-left: 20px;
-  list-style: disc;
-  font-weight: 400;
-  line-height: 180%;
-}
-
-.gum-care .care1-periodontal-section .perosovl .safty {
-  max-width: 700px;
-  margin: 30px auto;
-  padding: 20px 20px;
-  background-color: #fafafa;
-  border-radius: 10px;
-}
-
-.gum-care .care1-periodontal-section .perosovl .safty h4.head {
-  font-weight: 600;
-  text-align: left;
-  margin: 0 0 10px;
-  padding-bottom: 10px;
-  border-bottom: solid 1px #ddd;
-}
-
-.gum-care .care1-periodontal-section .perosovl .safty p.detail {
-  font-weight: 400;
-  line-height: 180%;
-}
-
-.gum-care .care1-periodontal-section .perosovl .treatment {
-  max-width: 700px;
-  margin: 30px auto;
-  padding: 20px 20px;
-  background-color: #fafafa;
-  border-radius: 10px;
-}
-
-.gum-care .care1-periodontal-section .perosovl .treatment h4.head {
-  font-weight: 600;
-  text-align: left;
-  margin: 0 0 10px;
-  padding-bottom: 10px;
-  border-bottom: solid 1px #ddd;
-}
-
-.gum-care .care1-periodontal-section .perosovl .treatment ul.detail li {
-  margin-left: 20px;
-  list-style: decimal;
-  font-weight: 400;
-  line-height: 180%;
-}
-
-.gum-care .care1-periodontal-section .perosovl .price {
-  max-width: 700px;
-  margin: 30px auto;
-  padding: 20px 20px;
-  background-color: #fafafa;
-  border-radius: 10px;
-}
-
-.gum-care .care1-periodontal-section .perosovl .price h4.head {
-  font-weight: 600;
-  text-align: left;
-  margin: 0 0 10px;
-  padding-bottom: 10px;
-  border-bottom: solid 1px #ddd;
-}
-
-.gum-care .care1-periodontal-section .perosovl .price ul.detail li {
-  margin-left: 20px;
-  list-style: circle;
-  font-weight: 400;
-  line-height: 180%;
-}
-
-.gum-care .care1-periodontal-section .injection {
-  max-width: 700px;
-  margin: 0 auto 80px;
-}
-
-.gum-care .care1-periodontal-section .injection h3.head {
-  font-weight: 500;
-  text-align: left;
-  margin-bottom: 10px;
-}
-
-.gum-care .care1-periodontal-section .injection p.price {
-  font-weight: 400;
-  text-align: left;
-  margin-bottom: 50px;
-}
-
-.gum-care .care1-periodontal-section .injection .detail {
-  font-weight: 400;
-  line-height: 200%;
-  margin-bottom: 30px;
-}
-
-.gum-care .care1-periodontal-section .injection .detail a {
-  font-weight: 500;
-  color: #08c;
-}
-
-.gum-care .care1-periodontal-section .injection h4.head {
-  font-weight: 400;
-  text-align: left;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.gum-care .care1-periodontal-section .injection ul {
-  font-weight: 400;
-  line-height: 200%;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-.gum-care .care1-periodontal-section .injection li {
-  text-align: center;
-  margin-bottom: 2px;
-  padding: 5px 10px;
-  background-color: #f1ece4;
-}
-
-.gum-care .care1-periodontal-section .impact-anchor {
-  margin: 50px auto 0;
-  padding-bottom: 100px;
-  max-width: 600px;
-  color: #08c;
-  text-align: center;
-  display: block;
-  cursor: pointer;
-  line-height: 150%;
-}
-
-.gum-care .care1-periodontal-section .impact-wrap {
-  margin-bottom: 100px;
-}
-
-.gum-care .care1-periodontal-section .impact-wrap .impact {
-  padding: 50px 50px 20px;
-  background-color: #f1ece4;
-}
-
-.gum-care .care1-periodontal-section .impact-wrap .impact .sub-head {
-  font-weight: 400;
-  margin: 10px 0;
-  text-align: center;
-  letter-spacing: 0.1rem;
-}
-
-.gum-care .care1-periodontal-section .impact-wrap .impact h3.head {
-  font-weight: 500;
-  margin-bottom: 20px;
-  text-align: center;
-  letter-spacing: 0.1rem;
-}
-
-.gum-care .care1-periodontal-section .impact-wrap .impact .detail {
-  font-weight: 400;
-  line-height: 200%;
-  margin-bottom: 30px;
-}
-
-.gum-care .care1-periodontal-section .impact-wrap .impact h4.head {
-  font-weight: 400;
-  margin-bottom: 10px;
-  text-align: left;
-  letter-spacing: 0.1rem;
-}
-
-.gum-care .care1-gum-massage-section {
-  max-width: 1040px;
-  margin: 0 auto;
-  overflow: hidden;
-  padding: 0 20px;
-}
-
-.gum-care .care1-gum-massage-section .left {
-  width: 50%;
-  float: left;
-}
-
-.gum-care .care1-gum-massage-section .left h3.head {
-  font-weight: 500;
-  margin-bottom: 10px;
-  text-align: left;
-}
-
-.gum-care .care1-gum-massage-section .left p.price {
-  font-weight: 400;
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-.gum-care .care1-gum-massage-section .left h4.sub-head {
-  font-weight: 400;
-  margin: 20px 0 10px;
-  text-align: left;
-}
-
-.gum-care .care1-gum-massage-section .left p.detail {
-  font-weight: 400;
-  line-height: 180%;
-  margin-bottom: 30px;
-  text-align: justify;
-}
-
-.gum-care .care1-gum-massage-section .left .recommend {
-  font-weight: 400;
-  line-height: 150%;
-  margin-bottom: 50px;
-  text-align: justify;
-}
-
-.gum-care .care1-gum-massage-section .right {
-  width: 50%;
-  float: right;
-  padding-left: 20px;
-}
-
-.gum-care .care1-gum-massage-section .right img {
-  width: 400px;
-  display: block;
-  margin-left: auto;
-}
-
-.gum-care .care1-gum-massage-section .pmtc-menu {
-  clear: both;
-  max-width: 700px;
-  margin: 0  auto;
-  padding: 100px 0;
-  overflow: hidden;
-}
-
-.gum-care .care1-gum-massage-section .pmtc-menu h3.head {
-  font-weight: 500;
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-.gum-care .care1-gum-massage-section .pmtc-menu p.price {
-  font-weight: 400;
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-.gum-care .care1-gum-massage-section .pmtc-menu .detail {
-  font-weight: 400;
-  line-height: 200%;
-  margin-bottom: 100px;
-}
-
-@media screen and (max-width: 768px) {
-  .gum-care .care1-gum-massage-section .left, .gum-care .care1-gum-massage-section .right {
-    float: none;
-    width: 100%;
-    padding: 0;
-  }
-  .gum-care .care1-gum-massage-section .right {
-    margin-bottom: 20px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .gum-care .care1-outline-section {
-    padding-top: 50px;
-  }
-  .gum-care .care1-outline-section p.intro {
-    text-align: left;
-  }
-  .gum-care .care1-outline-section p.intro br {
-    display: none;
-  }
-  .gum-care .care1-periodontal-section .perosovl img {
-    float: none;
-    margin: auto;
-  }
-  .gum-care .care1-periodontal-section .perosovl .merit {
-    margin: 0 -10px;
-  }
-  .gum-care .care1-periodontal-section .injection li {
-    text-align: left;
-  }
-  .gum-care .care1-periodontal-section .impact-wrap .impact {
-    margin-left: -20px;
-    margin-right: -20px;
-    padding: 50px 20px;
-  }
-  .gum-care .care1-gum-massage-section .pmtc-menu {
-    padding-bottom: 0;
-  }
-  .gum-care .care1-gum-massage-section .pmtc-menu h3.head {
-    text-align: center;
-  }
-  .gum-care .care1-gum-massage-section .pmtc-menu h3.head span {
-    display: block;
-  }
-}
-
-/* ==========================================================
-	implant-page
-========================================================== */
-.implant {
-  /* outline */
-  /* implant */
-  /* warranty */
-  /*----------- end -------------*/
-}
-
-.implant .cure2-outline-section {
-  max-width: 1040px;
-  padding: 50px 20px 0;
-  margin: auto;
-}
-
-.implant .cure2-outline-section h2.head {
-  text-align: center;
-  font-weight: 400;
-  letter-spacing: 0.5rem;
-  text-indent: 0.5rem;
-  margin-bottom: 50px;
-  line-height: 150%;
-}
-
-.implant .cure2-outline-section p.intro {
-  margin: 0 auto;
-  letter-spacing: 0.2rem;
-  line-height: 200%;
-  text-align: left;
-  padding-bottom: 30px;
-}
-
-.implant .cure2-outline-section p.intro span {
-  font-weight: 400;
-  line-height: 200%;
-  text-align: left;
-  display: block;
-}
-
-.implant .cure2-implant-section {
-  max-width: 1040px;
-  margin: 50px auto 150px;
-  padding: 0 20px;
-  text-align: center;
-}
-
-.implant .cure2-implant-section .thumb-wrap {
-  margin: 30px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.implant .cure2-implant-section .thumb-wrap .thumb {
-  padding: 20px;
-}
-
-.implant .cure2-implant-section .thumb-wrap .thumb img {
-  max-width: 200px;
-  width: 100%;
-  padding: 0;
-}
-
-.implant .cure2-implant-section .comment-wrap {
-  margin: 30px 0;
-}
-
-.implant .cure2-implant-section .comment-wrap .comment {
-  max-width: 900px;
-  margin: 10px auto 0;
-  text-align: left;
-  font-weight: 500;
-  line-height: 150%;
-}
-
-.implant .cure2-implant-section .comment-wrap .comment dd {
-  float: left;
-}
-
-.implant .cure2-implant-section .comment-wrap .comment dt {
-  padding-left: 20px;
-}
-
-.implant .cure2-implant-section .comment-wrap .comment-bold {
-  margin: 50px auto;
-  text-align: left;
-  font-weight: 600;
-  line-height: 150%;
-  padding: 20px;
-  background-color: #CEC1A8;
-  color: white;
-}
-
-.implant .cure2-implant-section .howto-head {
-  text-align: left;
-  font-weight: 600;
-  font-size: 1.6rem;
-  margin: 0 50px;
-  padding: 20px;
-  border-bottom: 1px solid #ccc;
-}
-
-.implant .cure2-implant-section ul.howto {
-  padding: 30px 100px 50px;
-  font-weight: 400;
-  text-align: left;
-}
-
-.implant .cure2-implant-section .howto li {
-  text-align: left;
-  margin-bottom: 20px;
-  list-style: decimal;
-  padding-left: 10px;
-}
-
-.implant .cure2-implant-section .merit-head {
-  max-width: 900px;
-  text-align: left;
-  font-weight: 600;
-  font-size: 1.5rem;
-  margin: 50px auto 20px;
-}
-
-.implant .cure2-implant-section .merit {
-  max-width: 900px;
-  margin: 0 auto;
-  padding-left: 20px;
-  text-align: left;
-  font-weight: 400;
-}
-
-.implant .cure2-implant-section .merit li {
-  list-style: disc;
-  margin-bottom: 20px;
-  line-height: 1.7;
-  font-size: 1.5rem;
-}
-
-.implant .cure2-implant-section .merit li span {
-  display: block;
-  font-size: 1.4rem;
-}
-
-.implant .cure2-warranty-section {
-  padding: 50px 0 100px;
-  background-color: rgba(210, 190, 165, 0.2);
-}
-
-.implant .cure2-warranty-section .wrapper {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 20px;
-  overflow: hidden;
-  text-align: center;
-}
-
-.implant .cure2-warranty-section h3.head {
-  margin-bottom: 30px;
-}
-
-.implant .cure2-warranty-section p.lead {
-  margin-bottom: 30px;
-  line-height: 2.2;
-  text-align: center;
-}
-
-.implant .cure2-warranty-section .warranty {
-  line-height: 150%;
-  font-weight: 400;
-}
-
-@media screen and (max-width: 576px) {
-  .implant .cure2-outline-section {
-    padding-top: 30px;
-  }
-  .implant .cure2-implant-section {
-    margin: 50px auto 100px;
-  }
-  .implant .cure2-implant-section .comment-wrap .comment-bold {
-    margin-left: -20px;
-    margin-right: -20px;
-  }
-  .implant .cure2-implant-section .howto-head {
-    margin: 0;
-    padding: 10px 20px;
-  }
-  .implant .cure2-implant-section ul.howto {
-    padding: 10px 0 30px 20px;
-  }
-  .implant .cure2-warranty-section p.lead {
-    text-align: left;
-  }
-  .implant .cure2-warranty-section .warranty {
-    text-align: right;
-  }
-}
-
-/* ==========================================================
-	injection-page
-========================================================== */
-.injection {
-  /* hyaluronic */
-  /* placenta */
-  /* recommended */
-  /* supplement */
-  /*----------- end -------------*/
-}
-
-.injection ul.cost_ex li {
-  margin: 0 0 10px 0;
-}
-
-.injection ul.cost_ex li span {
-  margin: 0 20px 0 0;
-  font-weight: 600;
-}
-
-.injection .care2-hyaluronic-section {
-  width: 100%;
-  margin: 50px auto 0;
-  overflow: hidden;
-  padding: 0;
-}
-
-.injection .care2-hyaluronic-section .injection-wrap {
-  max-width: 1040px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.injection .care2-hyaluronic-section .injection-wrap h2.head {
-  text-align: center;
-  margin: 100px 0;
-}
-
-.injection .care2-hyaluronic-section .injection-wrap .hyaluronic {
-  margin: 0 auto 100px;
-  overflow: hidden;
-}
-
-.injection .care2-hyaluronic-section .injection-wrap .hyaluronic h3.head {
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-.injection .care2-hyaluronic-section .injection-wrap .hyaluronic h4.sub-head {
-  text-align: left;
-  margin: 30px 0;
-}
-
-.injection .care2-hyaluronic-section .injection-wrap .hyaluronic .head {
-  text-align: left;
-  margin-bottom: 10px;
-  font-weight: 500;
-}
-
-.injection .care2-hyaluronic-section .injection-wrap .hyaluronic .detail {
-  line-height: 200%;
-  margin-bottom: 30px;
-}
-
-.injection .care2-hyaluronic-section .injection-wrap .hyaluronic ul.hyaluronic-effect {
-  width: 100%;
-  margin: 20px auto;
-  overflow: hidden;
-}
-
-.injection .care2-hyaluronic-section .injection-wrap .hyaluronic ul.hyaluronic-effect li {
-  float: left;
-  margin: 0 40px 10px 0;
-  font-weight: 400;
-  background-color: #fff;
-  color: #d93600;
-}
-
-.injection .care2-hyaluronic-section .injection-wrap .hyaluronic .merit {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.injection .care2-hyaluronic-section .injection-wrap .hyaluronic .merit li {
-  width: 100%;
-  padding: 10px 20px;
-  margin: 3px 0;
-  background-color: #CEC1A8;
-  color: white;
-}
-
-.injection .care2-hyaluronic-section .injection-wrap .botox {
-  margin: 0 auto 100px;
-  overflow: hidden;
-}
-
-.injection .care2-hyaluronic-section .injection-wrap .botox h3.head {
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-.injection .care2-hyaluronic-section .injection-wrap .botox p.price {
-  font-weight: 500;
-  text-align: left;
-  margin-bottom: 20px;
-  line-height: 150%;
-}
-
-.injection .care2-hyaluronic-section .injection-wrap .botox .head {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.injection .care2-hyaluronic-section .injection-wrap .botox .head.left {
-  text-align: left;
-  margin-bottom: 10px;
-}
-
-.injection .care2-hyaluronic-section .injection-wrap .botox .detail {
-  line-height: 200%;
-  margin-bottom: 30px;
-}
-
-.injection .care2-hyaluronic-section .injection-wrap .botox .merit {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.injection .care2-hyaluronic-section .injection-wrap .botox .merit li {
-  padding: 10px 20px;
-  margin: 3px 0;
-  background-color: #CEC1A8;
-  color: white;
-}
-
-.injection .care2-hyaluronic-section .injection-wrap .botox h4.head {
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-.injection .care2-hyaluronic-section .injection-wrap .botox .att {
-  line-height: 150%;
-  margin-bottom: 30px;
-}
-
-.injection .care2-injection-section {
-  width: 100%;
-  margin: 0 auto;
-  overflow: hidden;
-  padding: 0;
-  background-color: #fafafa;
-}
-
-.injection .care2-injection-section .injection-wrap {
-  max-width: 1040px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.injection .care2-injection-section .injection-wrap h2.head {
-  text-align: center;
-  margin: 100px 0;
-}
-
-.injection .care2-injection-section .injection-wrap .placenta {
-  clear: both;
-  margin: 0 auto 100px;
-}
-
-.injection .care2-injection-section .injection-wrap .placenta h3.head {
-  text-align: left;
-  margin: 30px 0 20px;
-}
-
-.injection .care2-injection-section .injection-wrap .placenta p.price {
-  font-weight: 500;
-  text-align: left;
-  margin-bottom: 20px;
-  line-height: 150%;
-}
-
-.injection .care2-injection-section .injection-wrap .placenta .detail {
-  line-height: 200%;
-  margin-bottom: 50px;
-}
-
-.injection .care2-injection-section .injection-wrap .placenta .head {
-  text-align: left;
-  margin-bottom: 10px;
-  font-weight: 500;
-}
-
-.injection .care2-injection-section .injection-wrap .placenta ul.placenta-effect {
-  width: 100%;
-  margin: 0 auto 20px;
-  overflow: hidden;
-}
-
-.injection .care2-injection-section .injection-wrap .placenta ul.placenta-effect li {
-  float: left;
-  margin: 0 40px 10px 0;
-  font-weight: 400;
-  color: #d93600;
-}
-
-.injection .care2-injection-section .injection-wrap .placenta h4.head {
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-.injection .care2-injection-section .injection-wrap .placenta .att {
-  line-height: 150%;
-  margin-bottom: 20px;
-}
-
-.injection .care2-injection-section .injection-wrap .placenta .risk li {
-  line-height: 150%;
-  margin: 0 0 5px 10px;
-  list-style: disc;
-}
-
-.injection .care2-injection-section .injection-wrap .vitamin-c {
-  clear: both;
-  margin: 0 auto 100px;
-}
-
-.injection .care2-injection-section .injection-wrap .vitamin-c h3.head {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.injection .care2-injection-section .injection-wrap .vitamin-c p.price {
-  font-weight: 500;
-  text-align: left;
-  margin-bottom: 20px;
-  line-height: 180%;
-}
-
-.injection .care2-injection-section .injection-wrap .vitamin-c .detail {
-  line-height: 200%;
-  margin-bottom: 50px;
-}
-
-.injection .care2-injection-section .injection-wrap .vitamin-c .head {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.injection .care2-injection-section .injection-wrap .vitamin-c ul.vitamin-effect {
-  text-align: center;
-  margin-bottom: 30px;
-  overflow: hidden;
-}
-
-.injection .care2-injection-section .injection-wrap .vitamin-c ul.vitamin-effect li {
-  float: left;
-  width: 49%;
-  padding: 10px 20px;
-  margin: 1px;
-  background-color: #CEC1A8;
-  color: white;
-  text-align: center;
-}
-
-.injection .care2-injection-section .injection-wrap .vitamin-c .comment {
-  text-align: justify;
-  font-weight: 400;
-  line-height: 180%;
-}
-
-.injection .care2-injection-section .injection-wrap .vitamin-c h4.head {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.injection .care2-injection-section .injection-wrap .vitamin-c .att {
-  line-height: 200%;
-  margin-bottom: 30px;
-}
-
-.injection .care2-injection-section .injection-wrap .vitamin-c .risk li {
-  line-height: 200%;
-  margin: 0 0 5px 20px;
-  list-style: disc;
-}
-
-.injection .care2-injection-section .injection-wrap .myers-c {
-  clear: both;
-  margin: 0 auto 100px;
-}
-
-.injection .care2-injection-section .injection-wrap .myers-c h3.head {
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-.injection .care2-injection-section .injection-wrap .myers-c p.intro {
-  text-align: left;
-  margin: 30px 0;
-}
-
-.injection .care2-injection-section .injection-wrap .myers-c .detail {
-  line-height: 200%;
-  margin-bottom: 50px;
-}
-
-.injection .care2-injection-section .injection-wrap .myers-c .head {
-  text-align: left;
-  margin-bottom: 10px;
-  font-weight: 500;
-}
-
-.injection .care2-injection-section .injection-wrap .myers-c ul.myers-effect {
-  width: 100%;
-  margin: 20px auto;
-  overflow: hidden;
-}
-
-.injection .care2-injection-section .injection-wrap .myers-c ul.myers-effect li {
-  float: left;
-  margin: 0 40px 10px 0;
-  font-weight: 400;
-  line-height: 20px;
-  color: #d93600;
-}
-
-.injection .care2-injection-section .injection-wrap .myers-c .comment {
-  text-align: center;
-  font-weight: 400;
-  line-height: 180%;
-  margin-bottom: 30px;
-}
-
-.injection .care2-injection-section .injection-wrap .myers-c h4.head {
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-.injection .care2-injection-section .injection-wrap .myers-c .att {
-  line-height: 200%;
-  margin-bottom: 30px;
-}
-
-.injection .recom-section {
-  background-color: #FAFAFA;
-  padding: 50px 0;
-}
-
-.injection .recom-section__content {
-  max-width: 1040px;
-  padding: 50px 125px;
-  margin: auto;
-  background-color: white;
-}
-
-.injection .recom-section__content .head {
-  margin-bottom: 40px;
-  font-weight: 500;
-  text-align: center;
-}
-
-.injection .recom-section__content .intro .medium {
-  font-weight: 500;
-}
-
-.injection .recom-section__content .intro .red {
-  color: #B94E2E;
-}
-
-.injection .supplement-section {
-  max-width: 1040px;
-  padding: 0 20px;
-  margin: 100px auto 150px;
-  line-height: 1.8;
-  letter-spacing: 0;
-}
-
-.injection .supplement-section h2.head {
-  text-align: center;
-}
-
-.injection .supplement-section p.intro {
-  margin-top: 40px;
-}
-
-.injection .supplement-section .ul-list {
-  margin-top: 65px;
-  text-align: center;
-}
-
-.injection .supplement-section .ul-list .ul-comment {
-  font-size: 1.6rem;
-  font-weight: 600;
-  margin-bottom: 10px;
-  color: #998D70;
-}
-
-.injection .supplement-section .ul-list ul li {
-  width: 100%;
-  margin: 3px;
-  padding: 10px 20px;
-  background-color: #CEC1A8;
-  color: white;
-  font-weight: 500;
-}
-
-.injection .supplement-section p.text {
-  margin-top: 30px;
-  font-weight: 400;
-}
-
-.injection .supplement-section .img-list-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: 50px -10px;
-}
-
-.injection .supplement-section .img-list-wrap .img-wrap {
-  margin: 10px;
-  width: 320px;
-}
-
-@media screen and (max-width: 1050px) {
-  .injection .care2-injection-section .injection-wrap .vitamin-c ul.vitamin-effect li {
-    width: 100%;
-  }
-  .injection .recom-section__content {
-    padding: 50px 20px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .injection .care2-injection-section .injection-wrap .myers-c {
-    margin-bottom: 50px;
-  }
-  .injection .care2-injection-section .injection-wrap .vitamin-c ul.vitamin-effect {
-    margin-left: -20px;
-    margin-right: -20px;
-  }
-  .injection .supplement-section {
-    margin-top: 50px;
-  }
-  .injection .supplement-section .ul-list ul {
-    margin-left: -20px;
-    margin-right: -20px;
-  }
-  .injection .supplement-section .ul-list ul li {
-    margin: 3px 0;
-  }
-  .injection .supplement-section .img-list-wrap {
-    margin: 30px 0;
-  }
-  .injection .supplement-section .img-list-wrap .img-wrap {
-    margin: 10px 0;
-  }
-}
-
-/* ==========================================================
-	metal-free page
-========================================================== */
-.metal-free {
-  /* content */
-  /*  warning secton  */
-  /*----------  end ------------*/
-}
-
-.metal-free .content {
-  margin-bottom: 150px;
-}
-
-.metal-free .metal-free__content {
-  max-width: 1040px;
-  padding: 30px 20px 50px;
-  margin: auto;
-}
-
-.metal-free .metal-free__content h2.head {
-  text-align: center;
-  font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 0.5rem;
-  text-indent: 0.5rem;
-  margin-bottom: 50px;
-}
-
-.metal-free .metal-free__content p.intro {
-  margin-top: 50px;
-  letter-spacing: 0.2rem;
-  line-height: 200%;
-  text-align: justify;
-}
-
-.metal-free .metal-free__content p.title {
-  line-height: 40px;
-  font-weight: 500;
-  text-align: center;
-  margin-top: 50px;
-}
-
-.metal-free .metal-free__content .thumb-wrap {
-  margin-top: 50px;
-  padding: 60px 55px;
-  background-color: #F2F2F2;
-}
-
-.metal-free .metal-free__content .thumb-wrap__ttl {
-  margin-bottom: 35px;
-  font-weight: 500;
-  text-align: center;
-}
-
-.metal-free .metal-free__content .thumb-wrap__row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.metal-free .metal-free__content .thumb-wrap__row .thumb {
-  max-width: 400px;
-  width: 50%;
-}
-
-.metal-free .metal-free__content .thumb-wrap__row .thumb:first-child {
-  margin-right: 35px;
-}
-
-.metal-free .metal-free__content .thumb-wrap__row .thumb:last-child {
-  margin-left: 35px;
-}
-
-.metal-free .metal-free__content .thumb-wrap.slider-wrap {
-  margin-top: 0;
-  background-color: white;
-  margin-bottom: 30px;
-}
-
-.metal-free .metal-free__content .thumb-wrap__ttb {
-  margin-top: 40px;
-}
-
-.metal-free .metal-free__content .thumb-wrap__ttb span {
-  font-weight: 500;
-}
-
-.metal-free .metail-free__warning {
-  max-width: 1040px;
-  padding: 0 20px;
-  margin: auto;
-}
-
-.metal-free .metail-free__warning .head {
-  font-weight: 400;
-  margin-bottom: 20px;
-  text-align: center;
-  color: #C84520;
-}
-
-.metal-free .metail-free__warning .sub-head {
-  color: #C84520;
-  text-align: center;
-}
-
-.metal-free .metail-free__warning .detail-wrap {
-  margin-top: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.metal-free .metail-free__warning .detail-wrap .left {
-  margin-right: 40px;
-}
-
-.metal-free .metail-free__warning .detail-wrap .left img {
-  min-width: 400px;
-  width: 100%;
-}
-
-.metal-free .metail-free__warning .detail-wrap .right {
-  line-height: 32px;
-}
-
-.metal-free .metail-free__warning .detail-wrap .detail strong {
-  font-weight: 500;
-}
-
-@media screen and (max-width: 768px) {
-  .metal-free .metal-free__content .thumb-wrap {
-    padding: 50px 20px;
-  }
-  .metal-free .metal-free__content .thumb-wrap__row .thumb:first-child {
-    margin-right: 15px;
-  }
-  .metal-free .metal-free__content .thumb-wrap__row .thumb:last-child {
-    margin-left: 15px;
-  }
-  .metal-free .metail-free__warning .detail-wrap {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .metal-free .metail-free__warning .detail-wrap .left {
-    width: 100%;
-    margin: 0 0 20px;
-  }
-  .metal-free .metail-free__warning .detail-wrap .left img {
-    min-width: unset;
-    max-width: 400px;
-    margin: auto;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .metal-free .metal-free__content h2.head {
-    font-size: 2.0rem;
-  }
-  .metal-free .metal-free__content .thumb-wrap {
-    padding: 50px 20px 20px;
-    margin-top: 20px;
-    margin-left: -20px;
-    margin-right: -20px;
-  }
-  .metal-free .metal-free__content .thumb-wrap__ttl {
-    margin-bottom: 10px;
-  }
-  .metal-free .metal-free__content .thumb-wrap__row {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .metal-free .metal-free__content .thumb-wrap__row .thumb {
-    width: 100%;
-    margin: 20px auto !important;
-  }
-  .metal-free .metal-free__content .thumb-wrap.slider-wrap {
-    padding: 20px;
-  }
-}
-
-@media screen and (max-width: 389px) {
-  .metal-free .metal-free__content h2.head {
-    font-size: 5.12821vw;
-  }
-  .metal-free .metal-free__content p.title {
-    font-size: 4.10256vw;
-  }
-}
-
-/* ==========================================================
-	teeth-cleaning-page
-========================================================== */
-.teeth-cleaning {
-  /* ==========================================================
-	teeth-cleaning-content
-========================================================== */
-  /* ==========================================================
-bridal-content
-========================================================== */
-  /* ==========================================================
-	self-care-content
-========================================================== */
-  /*-------end-------*/
-}
-
-.teeth-cleaning .teeth-cleaning__content {
-  /* outline */
-  /* teeth-cleaning */
-  /* white-care */
-}
-
-.teeth-cleaning .teeth-cleaning__content .youtube-section iframe {
-  display: block;
-  max-width: 560px;
-  width: 100%;
-  height: 315px;
-  margin: auto;
-}
-
-.teeth-cleaning .teeth-cleaning__content .care1-outline-section {
-  max-width: 1040px;
-  padding: 50px 20px;
-  margin: auto;
-}
-
-.teeth-cleaning .teeth-cleaning__content .care1-outline-section h2.head {
-  text-align: center;
-  font-weight: 400;
-  letter-spacing: 0.5rem;
-  text-indent: 0.5rem;
-  margin-bottom: 50px;
-}
-
-.teeth-cleaning .teeth-cleaning__content .care1-outline-section p.intro {
-  margin: 0 auto;
-  letter-spacing: 0.2rem;
-  line-height: 200%;
-  text-align: center;
-}
-
-.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section {
-  width: 100%;
-  padding: 100px 0;
-  overflow: hidden;
-  background-color: #fafafa;
-}
-
-.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content {
-  max-width: 1040px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content h3.head {
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content p.intro {
-  margin: 0 auto 50px;
-  line-height: 200%;
-  text-align: justify;
-}
-
-.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .image-wrap {
-  margin: 0 auto 50px;
-  max-width: 900px;
-  text-align: center;
-  overflow: hidden;
-}
-
-.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .image-wrap .wrap-float {
-  display: inline-block;
-  padding: 20px;
-}
-
-.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .image-wrap .wrap-float p.arrow {
-  color: #a5967d;
-}
-
-.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .recommend {
-  max-width: 800px;
-  margin: 0 auto;
-  margin-bottom: 100px;
-}
-
-.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .recommend h4.head {
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .outline-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content ul.outline {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content ul.outline li {
-  width: 49.5%;
-  margin: 2px;
-  padding: 10px;
-  background-color: #d2bea5;
-  display: inline-block;
-  line-height: 200%;
-  text-align: center;
-  color: #fff;
-  font-weight: 500;
-}
-
-@media (max-width: 850px) {
-  .teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content ul.outline li {
-    width: 100%;
-  }
-}
-
-.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .treatment-wrap {
-  line-height: 150%;
-  text-align: center;
-}
-
-.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .treatment-wrap h4.head {
-  font-weight: 500;
-  margin-bottom: 20px;
-  text-align: center;
-  letter-spacing: 0.1rem;
-}
-
-.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .treatment-wrap h5.sub-head {
-  margin-bottom: 10px;
-  line-height: 150%;
-}
-
-.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .treatment-wrap .comment {
-  font-weight: 400;
-  line-height: 150%;
-  margin-top: 30px;
-}
-
-.teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .treatment-wrap .comment:not(:last-child) {
-  margin-bottom: 50px;
-}
-
-.teeth-cleaning .teeth-cleaning__content .white-care__section {
-  margin: 100px 0;
-}
-
-.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content {
-  max-width: 1040px;
-  padding: 0 20px;
-  margin: auto;
-}
-
-.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content h2.head {
-  text-align: center;
-}
-
-.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .thumb {
-  margin-top: 50px;
-}
-
-.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .price {
-  padding: 50px 0;
-}
-
-.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .price p.title {
-  font-weight: 400;
-}
-
-.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .price p.extra {
-  margin-top: 30px;
-}
-
-.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .time p.title {
-  margin-top: 30px;
-  font-weight: 400;
-}
-
-.teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .time p.detail {
-  margin-top: 20px;
-}
-
-.teeth-cleaning .bridal-content {
-  margin-bottom: 100px;
-  /* outline */
-}
-
-.teeth-cleaning .bridal-content__mv {
-  height: 43.75vw;
-  background-image: url(../images/anti-aging/wedding.png);
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.teeth-cleaning .bridal-content .cure1-outline-section {
-  max-width: 1040px;
-  padding: 100px 20px 20px;
-  margin: auto;
-}
-
-.teeth-cleaning .bridal-content .cure1-outline-section h2.head {
-  text-align: center;
-  letter-spacing: 0.5rem;
-  text-indent: 0.5rem;
-  margin-bottom: 50px;
-  line-height: 150%;
-}
-
-.teeth-cleaning .bridal-content .cure1-outline-section p.intro {
-  margin: 0 auto;
-  letter-spacing: 0.2rem;
-  line-height: 200%;
-  text-align: center;
-}
-
-.teeth-cleaning .bridal-content .cure1-outline-section p.intro2 {
-  margin: 40px auto 0;
-  letter-spacing: 0.2rem;
-  line-height: 200%;
-  text-align: justify;
-}
-
-.teeth-cleaning .bridal-content .cure1-outline-section p.intro2 span {
-  color: #ff0000;
-}
-
-.teeth-cleaning .bridal-content .cure1-bridal-section {
-  max-width: 880px;
-  margin: 0 auto;
-  padding: 50px 20px 100px;
-}
-
-.teeth-cleaning .bridal-content .cure1-bridal-section h2.head {
-  text-align: center;
-  letter-spacing: 0.5rem;
-  margin: 50px 0 10px;
-  line-height: 150%;
-}
-
-.teeth-cleaning .bridal-content .cure1-bridal-section h3.head {
-  text-align: left;
-  font-weight: 500;
-  margin: 50px 0 30px;
-  padding-bottom: 20px;
-  line-height: 150%;
-  border-bottom: 1px solid #d2bea5;
-}
-
-.teeth-cleaning .bridal-content .cure1-bridal-section h3.head span {
-  text-align: left;
-  font-weight: 400;
-  padding-bottom: 10px;
-  line-height: 150%;
-  font-size: 1.6rem;
-}
-
-.teeth-cleaning .bridal-content .cure1-bridal-section .subhead {
-  font-weight: 400;
-  margin: 0 0 20px;
-}
-
-.teeth-cleaning .bridal-content .cure1-bridal-section .plan {
-  background-color: rgba(210, 190, 165, 0.5);
-  padding: 10px 150px 10px 10px;
-  color: #333;
-  margin: 0 0 50px;
-  position: relative;
-}
-
-.teeth-cleaning .bridal-content .cure1-bridal-section .plan span.price {
-  font-weight: 500;
-  color: #ff0000;
-  position: absolute;
-  right: 10px;
-  top: 10px;
-}
-
-.teeth-cleaning .bridal-content .cure1-bridal-section .plan span.price span {
-  font-weight: 400;
-  font-size: 1.2rem;
-  margin-top: 5px;
-}
-
-.teeth-cleaning .bridal-content .cure1-bridal-section .comment {
-  text-align: justify;
-  line-height: 200%;
-  font-weight: 400;
-}
-
-.teeth-cleaning .bridal-content .cure1-bridal-section .comment span {
-  color: #ff0000;
-  font-weight: 500;
-  font-size: 1.8rem;
-}
-
-.teeth-cleaning .bridal-content .cure1-bridal-section .comment a {
-  color: #08c;
-  font-size: 1.4rem;
-  font-weight: bold;
-}
-
-.teeth-cleaning .bridal-content .cure1-bridal-section .comment a:hover {
-  opacity: .8;
-}
-
-.teeth-cleaning .self-care-content {
-  /* header */
-  font-weight: 350;
-  /* outline */
-  /* meal */
-  /* facial */
-}
-
-.teeth-cleaning .self-care-content .care1-header {
-  width: 100%;
-  height: 300px;
-  position: relative;
-  overflow: hidden;
-  background-image: url(../images/base/care3-header.png);
-  background-position: center;
-  background-size: cover;
-}
-
-.teeth-cleaning .self-care-content .care1-header h1.care1-header-caption {
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  margin-top: -70px;
-  font-weight: 400;
-  letter-spacing: 0.5rem;
-  text-indent: 0.5rem;
-}
-
-.teeth-cleaning .self-care-content .care1-header h2.care1-header-caption {
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  margin-top: -20px;
-  font-weight: 400;
-  letter-spacing: 0.5rem;
-  text-indent: 0.5rem;
-}
-
-.teeth-cleaning .self-care-content .care3-outline-section {
-  max-width: 1040px;
-  padding: 100px 0 20px;
-  margin: auto;
-}
-
-.teeth-cleaning .self-care-content .care3-outline-section h2.head {
-  font-family: "futura-pt",sans-serif;
-  text-align: center;
-  font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 0.5rem;
-  text-indent: 0.5rem;
-}
-
-.teeth-cleaning .self-care-content .howto-section {
-  max-width: 1040px;
-  margin: 0 auto 50px;
-  overflow: hidden;
-  padding: 0 20px;
-}
-
-.teeth-cleaning .self-care-content .howto-section h3.head {
-  text-align: center;
-  font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 0.5rem;
-  text-indent: 0.5rem;
-  margin-bottom: 50px;
-}
-
-.teeth-cleaning .self-care-content .howto-section .brush-box {
-  margin-bottom: 50px;
-  overflow: hidden;
-}
-
-.teeth-cleaning .self-care-content .howto-section .brush-box img.left {
-  width: 150px;
-  float: left;
-  margin-right: 50px;
-}
-
-.teeth-cleaning .self-care-content .howto-section .brush-box img.right {
-  width: 150px;
-  float: right;
-  margin-left: 50px;
-}
-
-.teeth-cleaning .self-care-content .howto-section .brush-box .detail {
-  margin-bottom: 10px;
-  line-height: 1.8;
-}
-
-.teeth-cleaning .self-care-content .howto-section .brush-box .detail span.head {
-  display: block;
-  font-weight: 400;
-  margin-bottom: 10px;
-}
-
-.teeth-cleaning .self-care-content .howto-section .outline {
-  display: block;
-  margin-bottom: 10px;
-}
-
-.teeth-cleaning .self-care-content .meal-section {
-  width: 100%;
-  overflow: hidden;
-  background-color: #fafafa;
-}
-
-.teeth-cleaning .self-care-content .meal-section .meal-wrap {
-  max-width: 1040px;
-  margin: 0 auto 50px;
-  padding: 0 20px;
-}
-
-.teeth-cleaning .self-care-content .meal-section h3.head {
-  text-align: center;
-  font-weight: 400;
-  line-height: 1.8;
-  letter-spacing: 0.5rem;
-  text-indent: 0.5rem;
-  margin: 50px 0 20px;
-}
-
-.teeth-cleaning .self-care-content .meal-section .outline {
-  line-height: 1.8;
-}
-
-.teeth-cleaning .self-care-content .facial-section {
-  width: 100%;
-  padding: 0 20px;
-  margin: 50px 0 200px;
-}
-
-.teeth-cleaning .self-care-content .facial-section .facial-wrap {
-  max-width: 1040px;
-  margin: 0 auto;
-}
-
-.teeth-cleaning .self-care-content .facial-section .facial-wrap h3.head {
-  text-align: center;
-  line-height: 1.8;
-  letter-spacing: 0.5rem;
-  text-indent: 0.5rem;
-  margin: 50px 0;
-  font-weight: 400;
-}
-
-.teeth-cleaning .self-care-content .facial-section .facial-wrap .outline {
-  margin: 0 0 50px;
-  line-height: 1.8;
-}
-
-.teeth-cleaning .self-care-content .facial-section .facial-box {
-  margin: 0 0 50px;
-  overflow: hidden;
-}
-
-.teeth-cleaning .self-care-content .facial-section .facial-box .detail {
-  margin-bottom: 10px;
-  line-height: 180%;
-}
-
-.teeth-cleaning .self-care-content .facial-section .facial-box .detail span.head {
-  display: block;
-  font-weight: 400;
-  margin-bottom: 10px;
-}
-
-.teeth-cleaning .self-care-content .facial-section .facial-box .detail span.sub-head {
-  display: block;
-  font-weight: 400;
-  margin-bottom: 10px;
-}
-
-.teeth-cleaning .self-care-content .facial-section .facial-box .detail table {
-  max-width: 400px;
-  float: right;
-}
-
-.teeth-cleaning .self-care-content .facial-section .facial-box img.left {
-  float: left;
-  margin-right: 50px;
-}
-
-.teeth-cleaning .self-care-content .facial-section .facial-box img.right {
-  float: right;
-  margin-left: 50px;
-}
-
-@media screen and (max-width: 576px) {
-  .teeth-cleaning .self-care-content .howto-section .brush-box img {
-    width: 130px !important;
-  }
-  .teeth-cleaning .self-care-content .howto-section .brush-box img.left {
-    margin-right: 10px;
-  }
-  .teeth-cleaning .self-care-content .howto-section .brush-box img.right {
-    margin-left: 10px;
-  }
-  .teeth-cleaning .self-care-content .facial-section {
-    margin-bottom: 150px;
-  }
-  .teeth-cleaning .self-care-content .facial-section .facial-box img.right, .teeth-cleaning .self-care-content .facial-section .facial-box img.left {
-    float: none;
-    margin: 0 auto 20px;
-  }
-  .teeth-cleaning .self-care-content .facial-section .facial-box .detail table {
-    float: none;
-    margin-top: 20px;
-  }
-}
-
-@media screen and (max-width: 1050px) {
-  .teeth-cleaning .teeth-cleaning__content .care1-outline-section p.intro {
-    text-align: left;
-  }
-  .teeth-cleaning .teeth-cleaning__content .care1-outline-section p.intro br {
-    display: none;
-  }
-  .teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .treatment-wrap {
-    text-align: left;
-  }
-  .teeth-cleaning .bridal-content .cure1-outline-section p.intro {
-    text-align: left;
-  }
-  .teeth-cleaning .bridal-content .cure1-outline-section p.intro br {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .teeth-cleaning .teeth-cleaning__content .care1-outline-section {
-    padding: 50px 20px;
-  }
-  .teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section {
-    padding: 50px 0;
-  }
-  .teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .image-wrap .wrap-float {
-    padding: 20px 0;
-  }
-  .teeth-cleaning .teeth-cleaning__content .care1-teeth-cleaning-section .care1-teeth-cleaning-content .recommend {
-    margin-bottom: 50px;
-  }
-  .teeth-cleaning .teeth-cleaning__content .white-care__section {
-    margin-top: 50px;
-  }
-  .teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .thumb {
-    margin-top: 20px;
-  }
-  .teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .price {
-    padding: 50px 0;
-  }
-  .teeth-cleaning .teeth-cleaning__content .white-care__section .white-care__content .price p.detail {
-    margin-top: 30px;
-  }
-  .teeth-cleaning .bridal-content {
-    margin-bottom: 0;
-  }
-  .teeth-cleaning .bridal-content .cure1-outline-section {
-    padding-top: 70px;
-  }
-  .teeth-cleaning .bridal-content .cure1-bridal-section .plan {
-    padding-right: 90px;
-  }
-  .teeth-cleaning .bridal-content .cure1-bridal-section .plan span.price span {
-    display: block;
-    text-align: center;
   }
 }
 

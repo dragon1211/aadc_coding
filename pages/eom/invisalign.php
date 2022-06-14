@@ -35,7 +35,7 @@
 		<div class="left">
 			<h3 class="head f28">インビザライン矯正とは？</h3>
 			<p class="intro f16">
-				透明のマウスピースで歯を動かしていく矯正方法です。アライナーと言われるマウスピースを1日２０時間装着し、１０日〜２週間で次のアライナーに交換していくことで歯が動いていきます。
+				透明のマウスピースで歯を動かしていく矯正方法です。アライナーと言われるマウスピースを1日20時間装着し、10日〜2週間で次のアライナーに交換していくことで歯が動いていきます。
 				痛くなく、取り外しができて目立たず、食事や歯磨きの時はアライナーを取り外せるため、普段通りに歯のお手入れができ、 お口の中を衛生的に保つ事ができます。また、ワイヤーやブラケットなど歯の表面につける装置を使用しないため、違和感が少なく、 装置が外れてしまったり口内炎ができたりなどのトラブルの可能性も少なくなります。
 			</p>
 		</div>
@@ -67,7 +67,7 @@
 			患者様のデータと歯型を米国アライン.テクノロジー社に送ります。<br>
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/invisalign-start.png">
 		</div>
-		<p class="arrow f16">▼<br>約２週間</p>
+		<p class="arrow f16">▼<br>約１ヶ月</p>
 		<div class="item f18">治療計画、結果説明</div>
 		<div class="note f16">
 			データが到着後数日でクリンチェックという治療計画が送られてきます。ドクターが治療計画を推考し修正後、最適な治療計画で決定します。<br>
@@ -183,6 +183,29 @@
 			<a href="<?php echo home_url();?>/aadcblog/invisalign/" target="_blank"><span>実際のインビザ<br class="sp-onlyt">ライン治療について詳しく</span>
 			インビザライン/マウスピース<br class="sp-onlyt">矯正の関連ブログはこちら</a>
 		</div>
+		<div class="plan-wrap3">
+			<div class="topics">
+				<h3 class="f24">アプリを使って<br class="sp-onlyt">インビザライン治療をもっと楽しく！</h3>
+				<p class="outline f16">My Invisalign を使って、治療の進み具合、アライナーの装着時間や交換タイミングを管理することができます。写真やコメントもギャラリーに保存できるため治療のモチベーションアップに繋がります。</p>
+				<ul class="f14">
+					<li>1日の装着時間が分かる</li>
+					<li>️アライナーの交換時期をリマインダーでお知らせ</li>
+					<li>️途中経過の写真もスマイルギャラリーに保存</li>
+				</ul>
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/invisalign-app.png">
+			</div>
+		</div>
+		<div class="plan-wrap4">
+			<div class="topics">
+				<h3 class="f24">インビザライン・マウスピース矯正</h3>
+				<p class="outline f16">当院では、矯正治療中や治療後のクリーニングやホワイトニングを特別価格でご提供させて頂いております。</p>
+				<h4 class="head f16">マウスピース矯正中、歯の着色が気になる</h4>
+				<p class="text f16">マウスピース矯正中のPMTCクリーニング→<span class="f18">毎回10％OFF</span></p>
+				<h4 class="head f16">矯正治療が終わったらホワイトニングがしたい！</h4>
+				<p class="text f16">矯正治療後のホワイトニング　スーパーホワイトニング1session ¥33,000→<span class="f18">¥26,400</span></p>
+				<p class="att f14">※治療中も衛生的な口内環境でお過ごし頂けるよう、定期的なクリーニングをおすすめしています。ぜひご利用ください。</p>
+			</div>
+		</div>
 	</section>	
 
 	<!-- QA -->
@@ -238,6 +261,20 @@
 		</ul>
 	</section>
 	
+	
+	<!-- link -->
+	<section class="cure2-bridal-link-section f14">
+		<a href="<?php echo home_url();?>/anti-aging/esthetic" class="bridal-link"><span>結婚式までに<br class="sp-onlyt">歯並びをきれいにしたい方へ</span>
+		ブライダルプランで矯正を始めてみませんか？<br>料金もお得なブライダル矯正についてはこちら</a>
+	</section>
+	<section class="cure2-blog-link-section">
+		<a href="<?php echo home_url(); ?>/aadcblog/category/alignment" class="blog-link f20">矯正歯科関連ブログは<br class="sp-only3">こちら</a>
+	</section>
+	<section class="cure2-price-link-section">
+		<a href="<?php echo home_url(); ?>/price" class="price-link f20">治療費に<br class="sp-only3">ついてはこちら</a>
+	</section>
+	
+	
 	<!-- payment -->
 	<section class="cure2-payment-section">
 		<div class="payment-wrap">
@@ -257,75 +294,6 @@
 			<div class="aplus-link f16"><a href="http://www.aplus.co.jp/go/d/" target="_blank">デンタルローンのお申し込みはこちらへ</a></div>
 			<div class="aplus-link end f16"><a href="http://www.chinaleadershiptransition.com/%E3%82%A2%E3%83%97%E3%83%A9%E3%82%B9%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%AD%E3%83%BC%E3%83%B3/" target="_blank">デンタルローンについてはこちらへ</a></div>
 			</div>						
-		</div>
-		<div class="alignment-price f18">
-			<h5 class="head f22">矯正治療費<span class="s">価格はすべて税込です</span></h5>
-			<p class="item">初回相談料</p>
-			<p class="result">無料</p>
-			<p class="item">再相談料</p>
-			<p class="result">¥3,300</p>
-			<p class="yoyaku f14"><a href="">矯正無料相談のご予約はこちらから</a></p>
-			<p class="item">インビザライン精密検査</p>
-			<p class="result">¥33,000</p>
-			
-			<h6 class="head l">インビザライン</h6>
-			<table class="s">
-				<tr>
-					<th>インビザライン　インコンプリヘンシブ</th>
-					<td>990,000〜¥1,210,000</td>
-				</tr>
-				<tr>
-					<th>インビザライン　ライト(上下)</th>
-					<td>¥594,000</td>
-				</tr>
-				<tr>
-					<th>インビザライン　ライト(片顎)</th>
-					<td>¥506,000</td>
-				</tr>
-				<tr>
-					<th>インビザライン　エクスプレス(上下)</th>
-					<td>¥418,000</td>
-				</tr>
-				<tr>
-					<th>インビザライン　エクスプレス(片顎)</th>
-					<td>¥330,000</td>
-				</tr>
-				<tr>
-					<th>ビベラリテーナー(3個セット　上下)</th>
-					<td>¥66,000</td>
-				</tr>
-				<tr>
-					<th>ビベラリテーナー(3個セット　片顎)</th>
-					<td>¥55,000</td>
-				</tr>
-			</table>
-			<p class="comment s2">※ インビザラインは、来院時調整料金、補助装置等の治療に関わる費用がすべて上記料金に含まれております。保証期間内であれば治療が延長した場合でも治療開始時に決定した料金を超えることはありません。</p>
-			
-			<h6 class="head">マウスピース矯正（アソアライナー）</h6>
-			<table class="f14">
-				<tr>
-					<th>矯正料金</th>
-					<td>¥275,000〜</td>
-				</tr>
-				<tr>
-					<th>アソアライナー１セット（ソフト＆ハード）</th>
-					<td>¥7,700（片顎）</td>
-				</tr>
-			</table>
-			<p class="comment f12">※ アライナー製作回数・治療期間によって料金が異なります</p>
-			<h6 class="head">保定装置（片顎）</h6>
-			<table class="f14">
-				<tr>
-					<th>アソアライナーリテーナー</th>
-					<td>¥11,000</td>
-				</tr>
-				<tr>
-					<th>アソアライナーリテーナー ＋ ワイヤー固定</th>
-					<td>¥16,500</td>
-				</tr>
-			</table>
-			<p class="comment f12">※ 矯正治療後１年間は保証期間を設けております。その間に再矯正を行う場合には、装置再装着料金が¥50,000（片顎）と来院時調整料金が¥4,000かかります。</p>
-			<p class="comment f12">※ 保証期間内で保定装置を破損した場合の再製作については無料です。紛失した場合には一つ¥5,000にて再製作いたします。保証期間を過ぎますと保定装置一つにつき¥10,000がかかります。</p>
 		</div>
 	</section>
 </section>

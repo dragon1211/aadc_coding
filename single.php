@@ -5,15 +5,16 @@
 	<!-- contents -->
 	<?php 
 
-		
-		if ( strcmp($post_type, 'news') == 0 ) { 
-			get_template_part( 'template-parts/sub-nav/about-sub-nav' ); 
-			$terms = get_the_terms(get_the_ID(), NEWS_CATEGORY);
-		} 
-		else if(strcmp($post_type, 'aadcblog') == 0) {
+		if(strcmp($post_type, 'aadcblog') == 0) {
 			get_template_part( 'template-parts/sub-nav/aadcblog-sub-nav' ); 
 			$terms = get_the_terms(get_the_ID(), AADCBLOG_CATEGORY);
 		} 
+		else{
+// 		else if ( strcmp($post_type, 'post') == 0 ) { 
+			get_template_part( 'template-parts/sub-nav/about-sub-nav' ); 
+			$terms = get_the_terms(get_the_ID(), "category");
+		} 
+		
 
 		if($terms){
 			$ret = array();
@@ -57,7 +58,7 @@
 
 				<!-- post content -->
 				<div class="post__content">
-					<?php if( has_post_thumbnail() && strcmp($post_type, 'news') == 0){ ?>
+					<?php if( has_post_thumbnail() && strcmp($post_type, 'aadcblog') != 0){ ?>
 						<div class="thumbnail">
 							<?php the_post_thumbnail('media_thumbnail');?>
 						</div>
@@ -78,10 +79,10 @@
 						<a class="post-link__before">≪ 前の記事</a>
 					<?php endif; ?>
 
-					<?php if ( strcmp($post_type, 'news') == 0 ):  ?>
-						<a class="post-link__list active" href="<?php echo home_url(); ?>/about/news">一覧へ戻る</a>
-					<?php else: ?>
+					<?php if ( strcmp($post_type, 'aadcblog') == 0 ):  ?>
 						<a class="post-link__list active" href="<?php echo home_url(); ?>/aadcblog">一覧へ戻る</a>
+					<?php else: ?>
+						<a class="post-link__list active" href="<?php echo home_url(); ?>/about/news">一覧へ戻る</a>
 					<?php endif; ?>
 
 					<?php if ( ! empty( $next_post ) ):  ?>
@@ -101,21 +102,9 @@
 	<!-- breadcrumb -->
 	<section class="breadcrumb-wrapper">
 		<div class="breadcrumb-wrapper__content">
-			<!-- news -->
-			<?php if ( strcmp($post_type, 'news') == 0 ) { ?>
-				<ul class="breadcrumb">
-					<li>
-						<a href="<?php echo home_url(); ?>">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/icon-logo-red.png" alt="logo">
-						</a>
-					</li>
-					<li><a href="<?php echo home_url(); ?>/about">当院について</a></li>
-					<li><a href="<?php echo home_url()."/about/news"; ?>">ニュース<br class="sp-onlyt">アーカイブ</a></li>
-				</ul>
-
-			<?php } else { ?>
-
-				<!-- aadcblog -->
+			
+			<?php if ( strcmp($post_type, 'aadcblog') == 0 ) { ?>
+					<!-- aadcblog -->
 				<ul class="breadcrumb">
 					<li>
 						<a href="<?php echo home_url(); ?>">
@@ -129,6 +118,18 @@
 					<li>未定</li>
 					<?php } ?>
 				</ul>
+			
+			<?php } else { ?>
+				<ul class="breadcrumb">
+					<li>
+						<a href="<?php echo home_url(); ?>">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/common/icon-logo-red.png" alt="logo">
+						</a>
+					</li>
+					<li><a href="<?php echo home_url(); ?>/about">当院について</a></li>
+					<li><a href="<?php echo home_url()."/about/news"; ?>">ニュース<br class="sp-onlyt">アーカイブ</a></li>
+				</ul>
+			
 			<?php }; ?>
 		</div>
 	</section>

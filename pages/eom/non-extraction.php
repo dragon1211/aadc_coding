@@ -82,7 +82,7 @@
 	<!-- invisible -->
 	<section class="cure2-frontside-section" id="wire">
 		<div class="left">
-			<h3 class="head l2">表側ワイヤー矯正</h3>
+			<h3 class="head l2 pc-only">表側ワイヤー矯正</h3>
 			<p class="frontside m">歯の表面にブラケットとワイヤーをつけて歯を動かしていく方法です。
 				人からは矯正装置が見えますが、舌や食事時の違和感が少ないこと、比較的期間が短く費用の負担が少ないことがメリットです。<br>
 				<span class="s">※当院では、できるだけ装置が目立ちにくいようにセラミックやクリアのブラケットを使用しています。</span><br>
@@ -92,6 +92,7 @@
 			</p>
 		</div>
 		<div class="right">
+			<h3 class="head l2 sp-only">表側ワイヤー矯正</h3>
 			<div class="bxslider">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/cure2-alignment1.png" >
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/cure2-alignment2.png" >
@@ -103,6 +104,7 @@
 	<!-- ceramic-alignment -->
 	<section class="cure2-ceramic-alignment-section">
 		<div class="left">
+			<h3 class="head l2 sp-only">セラミック矯正</h3>
 			<div class="bxslider">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/cure1-ceramic-alignment1.png">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/base/cure1-ceramic-alignment2.png">
@@ -110,7 +112,7 @@
 			</div>
 		</div>
 		<div class="right">
-			<h3 class="head l2">セラミック矯正</h3>
+			<h3 class="head l2 pc-only">セラミック矯正</h3>
 			<p class="ceramic m">歯並びだけでなく色やかたちも同時にきれいにしたい、装置を全くつけずに歯並びを直したい、最短できれいにしたいという方にはスピーディなセラミック矯正がおすすめです。
 				歯にセラミックを貼ったりかぶせたりすることで色やかたち、歯並びを短期間で直すことができ、最短２回の通院で治療が終了します。（治療方法によって通院回数は異なります）歯を削ることがデメリットですが、時間と治療期間に制約がある方には向いている治療です
 			</p>

@@ -28,9 +28,10 @@
 // animation
 // ===========================
 
-@import "animations/*";
 @import "animations/delay";
-
+@import "animations/fadein";
+@import "animations/fadeup";
+@import "animations/pulse";
 
 // ===========================
 // components
@@ -45,14 +46,39 @@
 // ===========================
 // pages
 // ===========================
-@import "pages/top/*";
-@import "pages/about/*";
-@import "pages/eom/*";
-@import "pages/anti-aging/*";
+@import "pages/top/appointment";
+@import "pages/top/covid";
+@import "pages/top/en";
+@import "pages/top/general";
+@import "pages/top/information";
+@import "pages/top/inquiry";
+@import "pages/top/price";
+@import "pages/top/top";
+@import "pages/about/about";
+@import "pages/about/doctor";
+@import "pages/about/news";
+@import "pages/anti-aging/anti-aging-dock";
+@import "pages/anti-aging/anti-aging";
+@import "pages/anti-aging/esthetic";
+@import "pages/anti-aging/grinding";
+@import "pages/anti-aging/gum-care";
+@import "pages/anti-aging/implant";
+@import "pages/anti-aging/injection";
+@import "pages/anti-aging/metal-free";
+@import "pages/anti-aging/teeth-cleaning";
+@import "pages/eom/crown-bridge-inray";
+@import "pages/eom/eom";
+@import "pages/eom/gap";
+@import "pages/eom/invisalign";
+@import "pages/eom/lumineers";
+@import "pages/eom/non-extraction";
+@import "pages/eom/orthodontic";
+@import "pages/eom/shinbi";
+@import "pages/eom/whitening";
 @import "pages/search";
 
 
 // ===========================
 // setting
 // ===========================
-@import "setting/*"
+@import "setting/file-header"

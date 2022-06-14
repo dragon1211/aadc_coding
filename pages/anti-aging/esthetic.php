@@ -5,7 +5,7 @@
 <section class="anti-heading__content">
     <div class="anti-heading">
         <h2 class="anti-heading__caption">
-            <span class="jp">デンタルエステ</span>
+            <span class="jp">デンタルエステ・ブライダルプラン</span>
         </h2>
     </div>
 </section>
@@ -119,7 +119,52 @@
 			<p class="price f16">20分 ¥3,300（税込）</p>
 			<p class="detail f16">マイオモニターによる機械的マッサージです。顎周りの筋肉の緊張を和らげるとともに、普段はあまり動かす事のないお顔の細かい筋肉をマイオモニターを使ってトレーニングします。目の下や頬のたるみ皺の改善に有効です。</p>
 		</div>
+		
 	</section>
+	
+	<!-- outline -->
+	<section class="care2-outline-section">
+		<img alt="ブブライダルプラン" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/bridal-header.png" >
+		<p class="intro f18">当院では、日程やご予算、ご希望に合わせてブライダルプランをご用意しております。<br>
+			大切な記念日である結婚式に、最高の笑顔でお過ごし頂けるよう、歯を白く綺麗にするお手伝いをいたします。<br>
+			ご予約の際には「ブライダルプラン希望」とお申し付け下さい。
+		</p>
+	</section>
+	
+	<!-- bridal-section -->
+	<section class="bridal-section" id="esthetic">
+		<div class="course f16">
+			<p class="head-caption"><span>♡おすすめ</span>【直前コース】挙式１週間前までがおすすめ</p>
+			<h3 class="head f24">PMTCクリーニング(60分) ＋ スーパーホワイトニング 1セッション(60分)</h3>
+			<p class="price"><del>通常 ¥45,100</del> → <span>¥36,080(20％OFF)</span></p>
+			<p class="detail">歯の表面の着色汚れやくすみ、黄ばみを完璧に除去することでホワイトニングの効果を高めます。ホワイトニングの後はミネラルコーティングで術後の知覚過敏を防ぎます。</p>
+			<div class="sub-course-wrap">
+				<p class="other-head">時間の取れない方には<span>ホワイトニング 1セッション(60分)</span></p>
+				<p class="price"><del>通常 ¥33,000</del> → <span>¥26,400(20％OFF)</span></p>
+			</div>
+		</div>
+		<div class="course f16">
+			<p class="head-caption">【短期集中コース】挙式１ヶ月前までがおすすめ</p>
+			<h3 class="head f24">PMTCクリーニング＋スーパーホワイトニング3回コース</h3>
+			<p class="price"><del>通常 ¥91,300</del> → <span>¥73,040(20％OFF)</span></p>
+			<p class="detail">PMTCクリーニングに加えホワイトニングを３回行うコースです。より高いホワイトニング効果で透明感ある白さを実現します。</p>
+		</div>
+		<div class="course f16">
+			<p class="head-caption">【プレミアムコース】挙式３ヶ月前〜６ヶ月前がおすすめ</p>
+			<h3 class="head f24">前歯や奥歯の被せ物や詰め物の治療＋PMTCクリーニング＋ホワイトニング</h3>
+			<p class="price"><span>通常価格より20%OFF</span></p>
+			<p class="detail">目立つ銀歯を白くしたり、前歯の審美治療など、セラミックやジルコニアを使用した被せ物や詰め物の治療もブライダルプランの方だけの特別価格でご提供致します。
+				事前のカウンセリングで治療計画を立てて、患者様のご不安のないよう治療を進めていきます。	</p>
+		</div>
+		<div class="course f16">
+			<h3 class="head f24">ブライダル矯正</h3>
+			<p class="price"><span>通常価格より10〜20%OFF</span></p>
+			<p class="detail">結婚式に向けて歯並びを綺麗にします。目立ちにくく取り外しができるマウスピース矯正やガタガタの歯並びでも部分的に直すことのできるスピーディなコンビネーション矯正など、
+				歯並びや噛み合わせを診断した上で最適なプランをご提案いたします。矯正後のアフターケアもしっかり行い、綺麗な歯並びをキープしていきます。	</p>
+		</div>
+		<h4 class="catch">ブライダルプランをご希望の方は是非ご相談ください<br>治療の際にはブライダルに関する書類をご持参ください</h4>
+	</section>	
+	
 </section>
 
 
@@ -133,7 +178,7 @@
                 </a>
             </li>
             <li><a href="<?php echo home_url(); ?>/anti-aging">アンチエイジング</a></li>
-            <li>デンタルエステ</li>
+            <li>デンタルエステ・ブライダルプラン</li>
         </ul>
     </div>
 </section>

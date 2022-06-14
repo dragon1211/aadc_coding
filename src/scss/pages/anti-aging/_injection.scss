@@ -136,7 +136,6 @@ ul.cost_ex li span {
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0;
-	background-color: #fafafa;
     .injection-wrap {
         max-width: 1040px;
         margin: 0 auto;
@@ -214,9 +213,13 @@ ul.cost_ex li span {
                 line-height: 180%;
             }
             .detail {
-                
                 line-height: 200%;
                 margin-bottom: 50px;
+                img.vitamin-c {
+                    text-align: center;
+                    display: block;
+                    margin: 30px auto;
+                }
             }
             .head {
                 
@@ -318,14 +321,13 @@ ul.cost_ex li span {
 
 /* recommended */
 .recom-section{
-    background-color: #FAFAFA;
     padding: 50px 0;
     &__content{
         max-width: 1040px;
         padding: 50px 125px;
         margin: auto;
         
-        background-color: white;
+        background-color: #fafafa;
         .head{
             margin-bottom: 40px;
             font-weight: $font_medium;
@@ -382,6 +384,18 @@ ul.cost_ex li span {
         .img-wrap{
             margin: 10px;
             width: 320px;
+            p.name {
+                margin-top: 10px;
+                border-top: 1px solid #999;
+                width: 100%;
+                font-weight: $font_medium;
+                font-size: 1.4rem;
+                .pay {
+                    float: right;
+                    display: inline-block;
+                    text-align: right;
+                }
+            }
         }
     }
 }

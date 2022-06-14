@@ -5,7 +5,7 @@
 				<li class="link-list__item title"><a class="item-link" href="<?php echo home_url(); ?>/about" >当院について</a></li>
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/about/doctor" >ドクター紹介</a></li>
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/about/news" >ニュースアーカイブ</a></li>
-
+				<li class="link-list__item title"><a class="item-link" href="<?php echo home_url(); ?>/general" >一般歯科・虫歯治療</a></li>
 				<li class="link-list__item title"><a class="item-link" href="<?php echo home_url(); ?>/eom" >エステティックオルソメソッド（EOM）</a></li>
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/eom/shinbi" >前歯審美歯科治療</a></li>
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/eom/crown-bridge-inray" >セラミッククラウン ・ジルコニアクラウン</a></li>
@@ -25,9 +25,7 @@
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/anti-aging/implant" >インプラント</a></li>
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/anti-aging/anti-aging-dock" >口腔老化度検査・体内老化度検査</a></li>
 				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/anti-aging/injection" >点滴療法・注射</a></li>
-				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/anti-aging/esthetic" >デンタルエステ</a></li>
-
-				<li class="link-list__item title"><a class="item-link" href="<?php echo home_url(); ?>/general" >一般歯科</a></li>
+				<li class="link-list__item">      <a class="item-link" href="<?php echo home_url(); ?>/anti-aging/esthetic" >デンタルエステ・ブライダルプラン</a></li>
 
 				<li class="link-list__item title"><a class="item-link" href="<?php echo home_url(); ?>/information" >インフォメーション・アクセス</a></li>
 				<li class="link-list__item bold"> <a class="item-link" href="<?php echo home_url(); ?>/price" >料金表</a></li>

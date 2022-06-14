@@ -24,6 +24,9 @@
 	
 	<!-- ceramic -->
 	<section class="cure1-ceramic-features-section">
+		<div class="ph__center">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/eom/eom_crown-bridge-inray.png" >
+		</div>
 		<p class="f16"><span>ジルコニアの特徴</span>
 			ジルコニア（ZrO2 二酸化ジルコニア）とは、キュービックジルコニア（人工ダイヤ）に代表される素材で、強く軽く生体に優しいセラミックスです。
 			医療では人工関節やインプラントなどでも使用されています。
@@ -130,9 +133,9 @@
 	<ul class="cost_ex f14 padding-cost">
 		<li><span>ジルコニアインレーの副作用・リスク</span>歯を削る必要がある。稀に欠けたり、取れることがある。</li>
 		<li><span>治療方法</span>ジルコニアインレーブリッジ</li>
-		<li><span>治療期間</span>２週間（通院２回）</li>
-		<li><span>治療費用</span>ジルコニアインレー￥77000×２本　連結料１カ所¥5500</li>
-		<li><span>　　　　</span>形成印象料金１歯¥5500×２</li>
+		<li><span>治療期間</span>2週間（通院2回）</li>
+		<li><span>治療費用</span>ジルコニアインレー ￥77,000×2本　連結料1カ所 ¥5,500</li>
+		<li><span>　　　　</span>形成印象料金1歯 ¥6,600×2</li>
 	</ul>
 </section>
 

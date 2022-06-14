@@ -27,7 +27,7 @@
 						<div class="swiper-container">
 							<div class="swiper-wrapper">
 
-								<?php query_posts('posts_per_page=10&post_type=news&order=DESC&orderby=date'); ?>
+								<?php query_posts('posts_per_page=10&post_type=post&order=DESC&orderby=date'); ?>
 								<?php if(have_posts()) : while (have_posts()) : the_post(); ?>
 
 								<div class="swiper-slide">
@@ -164,7 +164,7 @@
 						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/implant">インプラント</a></li>
 						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/anti-aging-dock">口腔老化度検査<br>体内老化度検査</a></li>
 						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/injection">点滴療法・注射<br>サプリメント</a></li>
-						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/esthetic">デンタルエステ</a></li>
+						<li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/esthetic">デンタルエステ<br>ブライダルプラン</a></li>
 					</ul>
 				</div>
 			</div>

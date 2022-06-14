@@ -53,7 +53,7 @@
                 <li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/implant">インプラント</a></li>
                 <li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/anti-aging-dock">口腔老化度検査<br>体内老化度検査</a></li>
                 <li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/injection">点滴療法・注射<br>サプリメント</a></li>
-                <li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/esthetic">デンタルエステ</a></li>
+                <li class="home-section__menu-ul__list"><a href="<?php echo home_url(); ?>/anti-aging/esthetic">デンタルエステ<br>ブライダルプラン</a></li>
             </ul>
         </div>
     </section>

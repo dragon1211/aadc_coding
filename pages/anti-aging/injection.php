@@ -14,7 +14,7 @@
 <!-- injection content -->
 <section class="content">
 	<!-- hyaluronic -->
-	<section class="care2-hyaluronic-section" id="hyaluronic">
+	<!-- <section class="care2-hyaluronic-section" id="hyaluronic">
 		<div class="injection-wrap">
 			<div class="botox f16" id="botox">
 				<h3 class="head f24">ボトックス注入療法</h3>
@@ -43,7 +43,7 @@
 				</ul>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 	<!-- injection -->
 	<section class="care2-injection-section" id="placenta">
@@ -94,7 +94,7 @@
 				<ul class="cost_ex f14">
 					<li><span>治療方法</span>腕や臀部の筋肉にプラセンタを注入する（筋肉または皮下注射）</li>
 					<li><span>治療時間</span>約5分</li>
-					<li><span>治療費用（税込）</span>2アンプル ¥2,750／3アンプル ¥3,520／4アンプル ¥5,500</li>
+					<li><span>治療費用（税込）</span>2アンプル ¥2,750／3アンプル ¥3,250／4アンプル ¥5,500</li>
 				</ul>
 			</div>
 			
@@ -109,6 +109,7 @@
 					点滴で大量のビタミンCを入れることで血中濃度を一気に高めることができ、それは内服で摂取する量の10倍、20倍以上にもなります。<br>
 					継続して行う事で効果が持続します。<br>
 					<span class="comment f14">当院では防腐剤の入っていないMylan Institutional社（アイルランド製）のビタミンC製剤を使用しております。</span>
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/vitamin-c.jpg" alt="vitamin-c" class="vitamin-c">
 				</p>
 				<h3 class="head f20">歯科治療にも有効な高濃度ビタミンC点滴</h3>
 				<p class="detail">高濃度ビタミンC点滴は歯科医療においても、歯、歯肉、歯槽骨などのコラーゲンを豊富に含む組織の修復、改善に有用であり創傷治癒の促進、痛みの緩和、炎症の抑制、インプラントオペ時の治癒促進や定着率の向上に効果が認められています。<br>
@@ -191,7 +192,7 @@
 					
 				<ul class="cost_ex f14">
 					<li><span>治療時間</span>約30分</li>
-					<li><span>治療費用（税込）</span>¥11,000</li>
+					<li><span>治療費用（税込）</span>¥12,100</li>
 					<li><span>副作用・リスク</span>点滴後に吐き気や血管の痛みが出る場合がある。血圧が低下することがある。</li>
 				</ul>
 			</div>
@@ -243,19 +244,19 @@
 			ご購入希望の方はお気軽にお問合せください。院長のカウンセリングも行っております。
 		</p>
 		<ul class="img-list-wrap">
-			<li class="img-wrap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/pro/pro-1.png" alt="anti"></li>
-			<li class="img-wrap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/pro/pro-2.png" alt="anti"></li>
-			<li class="img-wrap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/pro/pro-3.png" alt="anti"></li>
-			<li class="img-wrap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/pro/pro-4.png" alt="anti"></li>
-			<li class="img-wrap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/pro/pro-5.png" alt="anti"></li>
-			<li class="img-wrap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/pro/pro-6.png" alt="anti"></li>
-			<li class="img-wrap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/pro/pro-7.png" alt="anti"></li>
-			<li class="img-wrap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/pro/pro-8.png" alt="anti"></li>
-			<li class="img-wrap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/pro/pro-9.png" alt="anti"></li>
-			<li class="img-wrap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/pro/pro-10.png" alt="anti"></li>
-			<li class="img-wrap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/pro/pro-11.png" alt="anti"></li>
-			<li class="img-wrap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/pro/pro-12.png" alt="anti"></li>
-			<li class="img-wrap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/pro/pro-13.png" alt="anti"></li>
+			<li class="img-wrap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/pro/pro-1.png" alt="anti"><p class="name">還元型コエンザイムQ10<span class="pay">¥5,800(税込)</span></p></li>
+			<li class="img-wrap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/pro/pro-2.png" alt="anti"><p class="name">ヘム鉄<span class="pay">¥3,240(税込)</span></p></li>
+			<li class="img-wrap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/pro/pro-3.png" alt="anti"><p class="name">ビタミンD&オメガ−3<span class="pay">¥3,780(税込)</span></p></li>
+			<li class="img-wrap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/pro/pro-4.png" alt="anti"><p class="name">ルテイン<span class="pay">¥4,100(税込)</span></p></li>
+			<li class="img-wrap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/pro/pro-5.png" alt="anti"><p class="name">L-カルニチン<span class="pay">¥3,240(税込)</span></p></li>
+			<li class="img-wrap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/pro/pro-6.png" alt="anti"><p class="name">ギャバ<span class="pay">¥4,320(税込)</span></p></li>
+			<li class="img-wrap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/pro/pro-7.png" alt="anti"><p class="name">α-リポ酸<span class="pay">¥4,320(税込)</span></p></li>
+			<li class="img-wrap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/pro/pro-8.png" alt="anti"><p class="name">亜鉛&銅<span class="pay">¥2,160(税込)</span></p></li>
+			<li class="img-wrap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/pro/pro-9.png" alt="anti"><p class="name">高配合 総合ビタミン<span class="pay">¥9,280(税込)</span></p></li>
+			<li class="img-wrap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/pro/pro-10.png" alt="anti"><p class="name">高配合 総合ミネラル<span class="pay">¥7,560(税込)</span></p></li>
+			<li class="img-wrap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/pro/pro-11.png" alt="anti"><p class="name">ビタミンC＋D<span class="pay">¥5,830(税込)</span></p></li>
+			<li class="img-wrap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/pro/pro-12.png" alt="anti"><p class="name">グァーガム分解物&フラクトオリゴ糖<span class="pay">¥4,530(税込)</span></p></li>
+			<li class="img-wrap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/pro/pro-13.png" alt="anti"><p class="name">アミノ酸<span class="pay">¥6,480(税込)</span></p></li>
 		</ul>
 	</section>
 </section>

@@ -13,17 +13,24 @@
 
 <!-- grinding content -->
 <section class="content">
+	
 	<!-- outline -->
 	<section class="cure2-outline-section">
-		<h2 class="head f34">その症状を緩和します</h2>
-		<p class="intro f18">
-			奥歯を噛みしめる癖がある、歯ぎしりで歯がすり減っている、
-			<br>顎が痛い、顎が開きにくい、首や肩がこる、などの症状を改善、予防するための治療です。
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/grinding1.jpg" alt="">
+		<h2 class="head f24">奥歯を噛みしめる癖がある<br>
+			歯ぎしりで歯がすり減っている<br>
+			顎が痛い、顎が開きにくい<br>
+			首や肩がこる</span></h2>
+		<p class="intro f20">
+			などの症状を改善、予防するための治療です。
 		</p>
 	</section>
 	
 	<!-- grinding -->
 	<section class="cure2-grinding-section">
+		
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/mouthpiece.jpg" alt="">
+		
 		<div class="mouthpiece">
 			<h3 class="head f20">マウスピース療法</h3>
 			<p class="grinding f16">
@@ -36,6 +43,8 @@
 				<br>食いしばりや歯ぎしりの予防と改善のために行う治療のファーストステップとして最適です。
 			</p>
 		</div>
+		
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/anti-aging/botox.jpg" alt="">
 		<div class="botox f16">
 			<h3 class="head f20">ボトックス注入療法</h3>
 			<p class="sub-head">歯ぎしりや食いしばり改善にボトックス注入療法</p>
@@ -70,6 +79,20 @@
 				歯ぎしりや食いしばりによる症状の改善には、ファーストステップとしてマウスピース療法を行いますが、顎周りの筋肉が張っている方やマウスピースそのものを装着することが難しい方には、はじめからボトックス注入を選択することもあります。
 				<br>患者さんの症状や希望に応じて必要のある場合にボトックス注入を行います。
 			</p>
+			
+			<h4 class="head f18">未承認医薬品に<br class="sp-onlyt">関する注意事項について</h4>
+			<p class="att f14">
+				当院では、ボツリヌストキシン製剤に、メディトックス社の「Neuronox（ニューロノックス）」を使用しています。<br>
+				　ボツリヌス注入療法に用いる薬剤として、国内唯一、厚労省に承認されているアラガン社のボトックスビスタがありますが、 当院で使用するメディトックス社の「Neuronox（ニューロノックス）」もボトックスと同じ効果が得られます。Neuronox（ニューロノックス）はボトックス ビスタのジェネリック品で国内未承認医薬品です。これは、医薬品医療機器等法上の承認を得ていないものですが、「医師等の個人輸入」により適法な輸入許可を得ています。日本では、未承認医療機器を、医師の責任において使用することができます。<br>
+				当院では国内輸入代行会社より供給を受けております。
+			</p>
+			
+			<ul class="cost_ex f14">
+				<li><span>治療方法</span>咬筋にボツリヌス注射を注入する。</li>
+				<li><span>治療時間</span>約30分</li>
+				<li><span>治療費用（税込）</span>¥44,000　技術費用1回につき¥3,300</li>
+				<li><span>副作用・リスク</span>顎が疲れやすくなる。治療後に重たい感覚が残ることがある。まれに注入部位に内出血が起こることがある。</li>
+			</ul>
 		</div>
 
 	</section>
