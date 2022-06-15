@@ -5983,7 +5983,7 @@ p {
     font-size: 2rem;
   }
   .home-section__menu-ul__list {
-    font-size: 3.33333vw;
+    font-size: 3.58974vw;
     width: 42.30769vw;
     height: 42.30769vw;
   }
@@ -10687,7 +10687,7 @@ bridal-content
 #eom-top .eom-content__mainvisual--caption {
   padding: 0 20px;
   font-weight: bold;
-  color: #333333;
+  text-align: center;
   max-width: 810px;
   width: 100%;
   position: absolute;
@@ -10725,12 +10725,15 @@ bridal-content
   font-size: 3.6rem;
   font-weight: 600;
   margin-bottom: 45px;
+  text-align: center;
 }
 
 #eom-top .eom-content__body .txt1 ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -10745,7 +10748,6 @@ bridal-content
 
 #eom-top .eom-content__body .txt2 {
   margin: 120px auto 0;
-  line-height: 1.8;
   font-size: 1.8rem;
   text-align: center;
 }
@@ -10763,13 +10765,26 @@ bridal-content
   font-weight: 600;
 }
 
+#eom-top .eom-content__body .txt2 ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 #eom-top .eom-content__body .txt2 ul li:not(:first-child) {
   margin-top: 15px;
 }
 
-#eom-top .eom-content__body .txt2 ul li span {
+#eom-top .eom-content__body .txt2 ul li p {
   padding: 5px 20px;
   border-bottom: 1px solid #998D70;
+}
+
+#eom-top .eom-content__body .appoint1 {
+  margin-top: 100px;
 }
 
 #eom-top .eom-content__category {
@@ -10796,7 +10811,6 @@ bridal-content
 
 #eom-top .eom-content__category .case-ttl {
   font-size: 2rem;
-  line-height: 38px;
   font-weight: 600;
   padding-bottom: 20px;
   border-bottom: 1px solid #707070;
@@ -10808,7 +10822,6 @@ bridal-content
 
 #eom-top .eom-content__category .case-care__method {
   margin-top: 45px;
-  line-height: 30px;
 }
 
 #eom-top .eom-content__category .case-care__method h4 {
@@ -10841,6 +10854,9 @@ bridal-content
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+#eom-top .eom-content__category .case-care__image .wrap .l-wrap, #eom-top .eom-content__category .case-care__image .wrap .r-wrap {
   position: relative;
 }
 
@@ -10861,7 +10877,7 @@ bridal-content
 }
 
 #eom-top .eom-content__category .case-care__image .wrap.mt-20:last-child {
-  margin-top: unset;
+  margin-top: 20px;
 }
 
 #eom-top .eom-content__category .case-ref__page .ttl {
@@ -10874,6 +10890,8 @@ bridal-content
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #eom-top .eom-content__category .case-ref__page .cta-btn__bar li {
@@ -10886,14 +10904,12 @@ bridal-content
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  min-width: 200px;
   height: 200px;
   margin: 20px;
   background-color: #ffffff;
   -webkit-filter: drop-shadow(1px 1px 0px #dddddd);
           filter: drop-shadow(1px 1px 0px #dddddd);
-  font-family: "Noto Sans CJK JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
-  color: #333333;
   font-size: 1.8rem;
   font-weight: 600;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, white), color-stop(50%, #fff0ec));
@@ -10940,11 +10956,16 @@ bridal-content
   font-size: 32px;
   font-weight: 600;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 #eom-top .eom-content__extra .txt {
   margin-bottom: 100px;
   font-size: 1.8rem;
+}
+
+#eom-top .eom-content__extra .appoint2 {
+  margin-top: 50px;
 }
 
 #eom-top .eom-content__faq {
@@ -10992,24 +11013,173 @@ bridal-content
           justify-content: center;
 }
 
-@media screen and (max-width: 576px) {
-  #eom-top .eom-content__body {
-    padding: 50px 20px;
+@media screen and (max-width: 768px) {
+  #eom-top .eom-content__body .txt2 ul {
+    font-size: 2.2rem;
   }
-  #eom-top .eom-content__body .txt1 {
-    margin-bottom: 50px;
+  #eom-top .eom-content__body .txt2 ul li p {
+    border-bottom: none;
   }
-  #eom-top .eom-content__body .txt2 {
-    margin-top: 50px;
+  #eom-top .eom-content__category .case {
+    padding: 35px 30px 30px;
+  }
+  #eom-top .eom-content__category .case-ref__page .cta-btn__bar {
+    margin: 0 -10px -10px;
+  }
+  #eom-top .eom-content__category .case-ref__page .cta-btn__bar li {
+    min-width: 180px;
+    height: 180px;
+    margin: 10px;
   }
   #eom-top .eom-content__menu {
     margin-top: 50px;
   }
 }
 
-@media screen and (max-width: 389px) {
+@media screen and (max-width: 576px) {
+  #eom-top .eom-content {
+    line-height: 8.20513vw;
+  }
   #eom-top .eom-content__mainvisual--caption {
+    font-size: 4.10256vw;
+  }
+  #eom-top .eom-content__body {
+    padding-top: 17.94872vw;
+  }
+  #eom-top .eom-content__body .txt1 {
+    font-size: 4.10256vw;
+    margin-bottom: 12.82051vw;
+    text-align: left;
+  }
+  #eom-top .eom-content__body .txt1 br {
+    display: none;
+  }
+  #eom-top .eom-content__body .txt1-ttl {
+    font-size: 6.66667vw;
+    margin-bottom: 6.41026vw;
+  }
+  #eom-top .eom-content__body .txt1 ul {
     font-size: 4.61538vw;
+    display: block;
+  }
+  #eom-top .eom-content__body .txt2 {
+    margin-top: 12.82051vw;
+    font-size: 4.10256vw;
+  }
+  #eom-top .eom-content__body .txt2-ttl {
+    font-size: 5.64103vw;
+  }
+  #eom-top .eom-content__body .txt2 ul {
+    font-size: 4.61538vw;
+    margin-top: 6.41026vw;
+    margin-bottom: 8.97436vw;
+  }
+  #eom-top .eom-content__body .txt2 ul li {
+    display: block;
+  }
+  #eom-top .eom-content__body .txt2 ul li p {
+    padding: 0;
+  }
+  #eom-top .eom-content__body .appoint1 {
+    margin-top: 12.82051vw;
+  }
+  #eom-top .eom-content__category {
+    padding-top: 20.51282vw;
+    font-size: 4.10256vw;
+  }
+  #eom-top .eom-content__category .ttl {
+    font-size: 5.64103vw;
+    margin-bottom: 6.41026vw;
+  }
+  #eom-top .eom-content__category .case {
+    margin: 20px -10px 0;
+    padding: 6.41026vw 3.84615vw 8.97436vw;
+  }
+  #eom-top .eom-content__category .case-ttl {
+    font-size: 4.61538vw;
+    padding-bottom: 2.5641vw;
+  }
+  #eom-top .eom-content__category .case-care__method {
+    margin-top: 7.69231vw;
+    font-size: 4.10256vw;
+  }
+  #eom-top .eom-content__category .case-care__method h4 {
+    font-size: 4.61538vw;
+  }
+  #eom-top .eom-content__category .case-care__method ul {
+    font-size: 3.58974vw;
+  }
+  #eom-top .eom-content__category .case-care__image {
+    margin: 7.69231vw 0 20.51282vw;
+  }
+  #eom-top .eom-content__category .case-care__image p.desc {
+    font-size: 4.10256vw;
+    margin-bottom: 3.84615vw;
+  }
+  #eom-top .eom-content__category .case-care__image .wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #eom-top .eom-content__category .case-care__image .wrap p {
+    font-size: 3.58974vw;
+    bottom: -7.69231vw;
+  }
+  #eom-top .eom-content__category .case-care__image .wrap .arrow {
+    width: 15px;
+    height: 20px;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  #eom-top .eom-content__category .case-care__image .wrap:last-child {
+    margin-top: 19.23077vw;
+  }
+  #eom-top .eom-content__category .case-ref__page .ttl {
+    font-size: 4.61538vw;
+    margin-bottom: 3.84615vw;
+  }
+  #eom-top .eom-content__category .case-ref__page .cta-btn__bar li {
+    min-width: 39.74359vw;
+    height: 39.74359vw;
+  }
+  #eom-top .eom-content__category .case-ref__page .cta-btn__bar li a {
+    font-size: 3.58974vw;
+  }
+  #eom-top .eom-content__extra {
+    font-size: 4.10256vw;
+    text-align: left;
+  }
+  #eom-top .eom-content__extra br {
+    display: none;
+  }
+  #eom-top .eom-content__extra .ttl {
+    font-size: 5.64103vw;
+    margin-bottom: 7.69231vw;
+  }
+  #eom-top .eom-content__extra .txt {
+    font-size: 4.10256vw;
+    margin-bottom: 15.38462vw;
+  }
+  #eom-top .eom-content__extra .appoint2 {
+    margin-top: 12.82051vw;
+  }
+  #eom-top .eom-content__faq {
+    padding: 30.76923vw 20px 25.64103vw;
+  }
+  #eom-top .eom-content__faq .ttl {
+    font-size: 5.64103vw;
+  }
+  #eom-top .eom-content__faq ul {
+    margin-top: 12.82051vw;
+  }
+  #eom-top .eom-content__faq ul .qus {
+    font-size: 4.61538vw;
+    padding-bottom: 2.5641vw;
+  }
+  #eom-top .eom-content__faq ul .ans {
+    font-size: 4.10256vw;
+    padding-top: 2.5641vw;
   }
 }
 
@@ -11048,12 +11218,20 @@ bridal-content
   background-position: 0 -100%;
 }
 
-#eom-top .appoint1 {
-  margin-top: 100px;
+@media screen and (max-width: 768px) {
+  #eom-top .eom-appoint__btn {
+    font-size: 25px;
+    height: 60px;
+    max-width: 500px;
+  }
 }
 
-#eom-top .appoint2 {
-  margin-top: 50px;
+@media screen and (max-width: 576px) {
+  #eom-top .eom-appoint__btn {
+    font-size: 4.61538vw;
+    height: 12.82051vw;
+    max-width: 76.92308vw;
+  }
 }
 
 /* ==========================================================

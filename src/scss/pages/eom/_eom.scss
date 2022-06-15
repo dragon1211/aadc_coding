@@ -69,7 +69,7 @@
             &--caption {
                 padding: 0 20px;
                 font-weight: bold;
-                color: $color_black;
+                text-align: center;
                 max-width: 810px;
                 width: 100%;
                 position: absolute;
@@ -101,9 +101,11 @@
                     font-size: 3.6rem;
                     font-weight: $font_bold;
                     margin-bottom: 45px;
+                    text-align: center;
                 }
                 ul {
                     display: flex;
+                    flex-wrap: wrap;
                     justify-content: center;
                     font-size: 2.4rem;
                     color: #C84520;
@@ -115,7 +117,6 @@
             }
             .txt2 {
                 margin:120px auto 0;
-                line-height: 1.8;
                 font-size: 1.8rem;
                 text-align: center;
                 &-ttl {
@@ -129,14 +130,21 @@
                     color: #998D70;
                     font-size: 3rem;
                     font-weight: $font_bold;
+                    li {
+                        display: flex;
+                        justify-content: center;
+                    }
                     li:not(:first-child) {
                         margin-top: 15px;
                     }
-                    li span {
+                    li p {
                         padding: 5px 20px;
                         border-bottom: 1px solid #998D70;
                     }
                 }
+            }
+            .appoint1{
+                margin-top: 100px;
             }
         }
     
@@ -160,7 +168,7 @@
                 text-align: left;
                 &-ttl {
                     font-size: 2rem;
-                    line-height: 38px;
+                    // line-height: 38px;
                     font-weight: $font_bold;
                     padding-bottom: 20px;
                     border-bottom: 1px solid #707070;
@@ -170,7 +178,7 @@
                 }
                 &-care__method {
                     margin-top: 45px;
-                    line-height: 30px;
+                    // line-height: 30px;
                     h4 {
                         font-size: 2rem;
                         font-weight: $font_bold;
@@ -191,7 +199,9 @@
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
-                        position: relative;
+                        .l-wrap, .r-wrap{
+                            position: relative;
+                        }
                         p {
                             margin-top: 4px;
                             font-size: 1.6rem;
@@ -205,8 +215,8 @@
                         &:last-child {
                             margin-top: 65px;
                         }
-                        &.mt-20:last-child {
-                            margin-top: unset;
+                        &.mt-20:last-child{
+                            margin-top: 20px;
                         }
                     }
                 }
@@ -218,21 +228,18 @@
                     .cta-btn__bar{
                         margin: 0 -20px -20px;
                         display: flex;
+                        flex-wrap: wrap;
                         li{
                             display: flex;
                             justify-content: center;
                             align-items: center;
-                            
-                            width: 200px;
+                            min-width: 200px;
                             height: 200px;
                             margin: 20px;
-
                             background-color: $color_white;
                             filter: drop-shadow(1px 1px 0px #dddddd);
-                            @include base-font();
                             font-size: 1.8rem;
                             font-weight: $font_bold;
-
                             a {
                                 display: flex;
                                 flex-direction: column;
@@ -243,11 +250,9 @@
                                 text-align: center;
                                 color: $color_black;
                             }
-
                             background: linear-gradient(to bottom, white 50%, #fff0ec 50%);
                             background-size: 100% 200%;
                             transition: .3s ease-out;
-                            
                             &:hover{
                                 background-position: 0 -100%;
                             }
@@ -268,10 +273,14 @@
                 font-size: 32px;
                 font-weight: $font_bold;
                 margin-bottom: 50px;
+                text-align: center;
             }
             .txt {
                 margin-bottom: 100px;
                 font-size: 1.8rem;
+            }
+            .appoint2{
+                margin-top: 50px;
             }
         }
 
@@ -314,19 +323,174 @@
         }
     
     
-        @include mq(smt){
+        @include mq(sm2){
             &__body{
-                padding: 50px 20px;
-                .txt1{margin-bottom: 50px;}
-                .txt2{margin-top: 50px;}
+                .txt2 ul{
+                    font-size: 2.2rem;
+                    li p{
+                        border-bottom: none;
+                    }
+                }
             }
+            &__category{
+                .case{
+                    padding: 35px 30px 30px;
+                }
+                .case-ref__page .cta-btn__bar{
+                    margin: 0 -10px -10px;
+                    li{
+                        min-width: 180px;
+                        height: 180px;
+                        margin: 10px;
+                    }
+                } 
+            } 
+
             &__menu{
                 margin-top: 50px;
             }
         }
-        @include mq(sm3){
+
+        @include mq(smt){
+            line-height: vw2(32);
             &__mainvisual--caption{
-                font-size: vw2(18);
+                font-size: vw2(16);
+            }
+            &__body{
+                padding-top: vw2(70);
+                .txt1{
+                    font-size: vw2(16);
+                    margin-bottom: vw2(50);
+                    text-align: left;
+                    br{
+                        display: none;
+                    }
+                    &-ttl{
+                        font-size: vw2(26);
+                        margin-bottom: vw2(25);
+                    }
+                    ul{
+                        font-size: vw2(18);
+                        display: block;
+                    }
+                } 
+                .txt2{
+                    margin-top: vw2(50);
+                    font-size: vw2(16);
+                    &-ttl {
+                        font-size: vw2(22);
+                    }
+                    ul{
+                        font-size: vw2(18);
+                        margin-top: vw2(25);
+                        margin-bottom: vw2(35);
+                        li{
+                            display: block;
+                            p{
+                                padding: 0;
+                            }
+                        } 
+                    }
+                }
+                .appoint1{
+                    margin-top: vw2(50);
+                }
+            }
+            &__category{
+                padding-top: vw2(80);
+                font-size: vw2(16);
+                .ttl{
+                    font-size: vw2(22);
+                    margin-bottom: vw2(25);
+                }
+                .case{
+                    margin: 20px -10px 0;
+                    padding: vw2(25) vw2(15) vw2(35);
+                    &-ttl{
+                        font-size: vw2(18);
+                        padding-bottom: vw2(10);
+                    }
+                    &-care__method{
+                        margin-top: vw2(30);
+                        font-size: vw2(16);
+                        h4{
+                            font-size: vw2(18);
+                        }
+                        ul{
+                            font-size: vw2(14);
+                        }
+                    }
+                    &-care__image{
+                        margin: vw2(30) 0 vw2(80);
+                        p.desc{
+                            font-size: vw2(16);
+                            margin-bottom: vw2(15);
+                        }
+                        .wrap{
+                            flex-direction: column;
+                            p{
+                                font-size: vw2(14);
+                                bottom: vw2(-30);
+                            }
+                            .arrow{
+                                width: 15px;
+                                height: 20px;
+                                transform: rotate(90deg);
+                            }
+                            &:last-child {
+                                margin-top: vw2(75);
+                            }
+                        }
+                    }
+                    &-ref__page{
+                        .ttl{
+                            font-size: vw2(18);
+                            margin-bottom: vw2(15);
+                        }
+                        .cta-btn__bar li{
+                            min-width: vw2(155);
+                            height: vw2(155);
+                            a{
+                                font-size: vw2(14);
+                            }
+                        }
+                    }
+                }
+            }
+            &__extra{
+                font-size: vw2(16);
+                text-align: left;
+                br{
+                    display: none;
+                }
+                .ttl{
+                    font-size: vw2(22);
+                    margin-bottom: vw2(30);
+                }
+                .txt{
+                    font-size: vw2(16);
+                    margin-bottom: vw2(60);
+                }
+                .appoint2{
+                    margin-top: vw2(50);
+                }
+            }
+            &__faq{
+                padding: vw2(120) 20px vw2(100); 
+                .ttl{
+                    font-size: vw2(22);
+                }
+                ul{
+                    margin-top: vw2(50);
+                    .qus{
+                        font-size: vw2(18);
+                        padding-bottom: vw2(10);
+                    }
+                    .ans{
+                        font-size: vw2(16);
+                        padding-top: vw2(10);
+                    }
+                }
             }
         }
     }
@@ -357,14 +521,19 @@
 		&:hover{
 			background-position: 0 -100%;
 		}
+
+        @include mq(sm2){
+            font-size: 25px;
+            height: 60px;
+            max-width: 500px;
+        }
+        @include mq(smt){
+            font-size: vw2(18);
+            height: vw2(50);
+            max-width: vw2(300);
+        }
     }
 
-    .appoint1{
-        margin-top: 100px;
-    }
-    .appoint2{
-        margin-top: 50px;
-    }
 
 /* -------  end --------  */
 }

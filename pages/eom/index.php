@@ -20,7 +20,7 @@
         <!-- eom top mv -->
         <div class="eom-content__mainvisual">
             <p class="eom-content__mainvisual--caption f18">
-                当院では、エステティックオルソメソッド（EOM）をコンセプトに治療を行っています。
+                当院では、エステティックオルソメソッド（EOM）をコンセプトに治療を<br class="sp-onlyt">行っています。
             </p>
         </div>
 
@@ -28,26 +28,30 @@
         <div class="eom-content__body">
             <div class="txt1">
                 <h2 class="txt1-ttl">EOMとは？</h2>
-                <p>EOMとはエステティック・オルソ・メソッド(Esthetic Ortho Method)の略称で、</p>
+                <p>
+                    EOMとはエステティック・オルソ・メソッド(Esthetic Ortho Method)の略称で、
+                </p>
                 <ul>
                     <li>歯を白くしたい</li>
                     <li>歯ならびを直したい</li>
                     <li>歯のかたちをきれいにしたい</li>
                 </ul>
-                <p>などのご希望にお応えできるよう、審美＋矯正の専門技術を組み合わせ、</p>
-                <p>噛み合わせも考慮した治療法のことを言います。</p>
+                <p>
+                    などのご希望にお応えできるよう、審美＋矯正の専門技術を組み合わせ、<br/>
+                    噛み合わせも考慮した治療法のことを言います。
+                </p>
             </div>
             <div class="img-wrap">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/eom/eom_clean.png" alt="eom">
             </div>
             <div class="txt2">
-                <h2 class="txt2-ttl">EOMでもっとも大切にしていること</h2>
+                <h2 class="txt2-ttl">EOMでもっとも<br class="sp-onlyt">大切にしていること</h2>
                 <ul>
-                    <li><span>歯へのダメージをできるだけ少なく</span></li>
-                    <li><span>治療後も、長期間良い状態を保てるように</span></li>
-                    <li><span>健康的できれいな歯、美しい口もとを実現できるように</span></li>
+                    <li><p>歯へのダメージをできるだけ少なく</p></li>
+                    <li><p>治療後も、長期間<br class="sp-onlyt">良い状態を保てるように</p></li>
+                    <li><p>健康的できれいな歯、<br class="sp-onlyt">美しい口もとを実現できるように</p></li>
                 </ul>
-                <p>一人ひとりの歯のお悩みに対し、これらを<u>念頭において</u>審美＋矯正の治療プランのご提案をしています。</p>
+                <p>一人ひとりの歯のお悩みに対し、<br class="sp-onlyt">これらを<u>念頭において</u>審美＋矯正の<br class="sp-onlyt">治療プランのご提案をしています。</p>
             </div>
             <div class="appoint1">
                 <a href="<?php echo home_url(); ?>/appointment" class="eom-appoint__btn">
@@ -58,12 +62,12 @@
 
          <!-- eom top category -->
         <div class="eom-content__category">
-            <h2 class="ttl">EOMを用いたお悩み別、治療法例</h2>
-            <p>お悩みごとにEOMを用いた具体的な治療法についてご紹介します。</p>
+            <h2 class="ttl">EOMを用いたお<br class="sp-onlyt">悩み別、治療法例</h2>
+            <p>お悩みごとにEOMを用いた<br class="sp-onlyt">具体的な治療法についてご紹介します。</p>
             
             <div class="case" id="case1">
                 <h3 class="case-ttl">
-                    ケース１<br><span>前歯の凸凹と出っ歯を直したい、前歯の詰め物をきれいにしたい、歯を白くしたい</span>
+                    ケース１<br><span>前歯の凸凹と出っ歯を直したい、<br class="sp-onlyt">前歯の詰め物をきれいにしたい、<br class="sp-onlyt">歯を白くしたい</span>
                 </h3>
                 <div class="case-care__method">
                     <h4>治療法</h4>
@@ -114,7 +118,7 @@
 
             <div class="case" id="case2">
                 <h3 class="case-ttl">
-                    ケース２<br><span>前歯の差し歯をきれいにしたい、受け口を直したい</span>
+                    ケース２<br><span>前歯の差し歯をきれいにしたい、<br class="sp-onlyt">受け口を直したい</span>
                 </h3>
                 <div class="case-care__method">
                     <h4>治療法</h4>
@@ -173,7 +177,7 @@
                     </ul>
                 </div>
                 <div class="case-care__image">
-                    <p class="desc">上下全顎でインビザライン矯正を行い、矢印部分は、ダイレクトボンディング法で長さとかたちを<br>修正した。</p>
+                    <p class="desc">上下全顎でインビザライン矯正を行い、矢印部分は、ダイレクトボンディング法で長さとかたちを<br class="pc-only">修正した。</p>
                     <div class="wrap">
                         <div class="l-wrap">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/eom/eom_case-3-1.png" alt="care-3-1">
@@ -212,7 +216,7 @@
 
             <div class="case" id="case4">
                 <h3 class="case-ttl">
-                    ケース４<br><span>前歯がガタガタで曲がっている、神経のない歯の変色を直したい</span>
+                    ケース４<br><span>前歯がガタガタで曲がっている、<br class="sp-onlyt">神経のない歯の変色を直したい</span>
                 </h3>
                 <div class="case-care__method">
                     <h4>治療法</h4>
@@ -223,7 +227,7 @@
                     </ul>
                 </div>
                 <div class="case-care__image">
-                    <p class="desc">上顎前歯は部分矯正を行い、変色している神経のない歯（左上１番）は、コアで歯を補強した後<br>セラミッククラウン法を行った</p>
+                    <p class="desc">上顎前歯は部分矯正を行い、変色している神経のない歯（左上１番）は、コアで歯を補強した後<br class="pc-only">セラミッククラウン法を行った</p>
                     <div class="wrap mt-20">
                         <div class="l-wrap">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/eom/eom_case-4-1.png" alt="care-4-1">
@@ -269,7 +273,7 @@
 
         <!-- eom top extra -->
         <div class="eom-content__faq">
-            <h2 class="ttl">エステティックオルソメソッドについてよくある質問</h2>
+            <h2 class="ttl">エステティックオルソメソッドに<br class="sp-onlyt">ついてよくある質問</h2>
             <ul itemscope itemtype="https://schema.org/FAQPage">
                 <li itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
                     <div itemprop="name" class="qus">エステティックオルソメソッド(EOM)とは何ですか？</div>
